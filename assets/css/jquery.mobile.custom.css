@@ -1,0 +1,128 @@
+a.word-info,
+.audio-available {
+	color: inherit;
+	margin: 0;
+	cursor: pointer;
+}
+a.word-info {
+	cursor: help;
+}
+
+.show-important a.important {
+    color: #000;
+    background-color: #ff0;
+}
+
+.show-important a.checked {
+    color: #000;
+    background-color: #0f0;
+}
+.show-important a.important.checked {
+	font-size: bold;
+}
+
+
+table {
+	width: auto;
+}
+
+div.caption {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+.show-gender a.important,
+.show-gender a.checked {
+    background-color: none;
+}
+.show-genders .noun-m {
+	background-color: #b4b9ff;
+}
+.show-genders .noun-f {
+	background-color: #ffb9b9;
+}
+.show-genders .noun-n {
+	background-color: #c5ffb4;
+}
+
+div.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+}
+
+
+.hidden {
+	display: none;
+}
+
+.other-language {
+	color: orange !important;
+}
+
+div.ui-popup {
+	padding: 0 1em;
+}
+
+div.ui-flipswitch {
+	width: 300px !important;
+}
+
+.ui-popup-container, .ui-popup {
+    height: 98%;
+    width: 99%;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+
+
+
+
+
+p.disclaimer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: smaller;
+}
+
+/* Wiktionary Image
+	width: min-content;*/
+
+.thumbinner {
+	float:left;
+}
+
+img.thumbimage {
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #a2a9b1;
+}
+
+div.thumbcaption > p {
+	text-align: center;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+/* Wiktionary Table */
+
+.wikitable {
+	float:right;
+	margin-bottom: 8px;
+}
+.wikitable > tr > th, .wikitable > * > tr > th {
+    background-color: #eaecf0;
+	text-align: center;
+}
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+    border: 1px solid #a2a9b1;
+}

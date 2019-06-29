@@ -1,0 +1,8 @@
+
+{{- $jQuery := resources.Get "/js/jquery/jquery.min.js" -}}
+
+<!-- jQuery Mobile for popups etc. (build only what you need here: https://jquerymobile.com/download-builder/) -->
+{{- $jQueryMobile := resources.Get "/js/jquery/jquery.mobile-1.4.5.js" -}}
+{{- $jQueryAudio := resources.Get "js/jquery/jquery.audio.js" }}
+{{ $js  := slice $jQuery $jQueryMobile $jQueryAudio | resources.Concat "js/scripts.js" | resources.Minify | resources.Fingerprint "sha512" }}
+<script defer src="{{ $js.Permalink }}"></script>

@@ -1,0 +1,39 @@
+
+
+
+
+{{ $myContent := "Ich will es doch machen!<br>Foo bar. Des Mannes Schwert."}}
+{{ $myContent = replace $myContent "<br>" "<br> "}}
+{{ $myContent = replace $myContent "</p>" "</p> "}}
+
+{{ $sentence_start := true }}
+{{ $i := 0 }}
+{{ range split $myContent " " }}
+    {{ $word := . | replaceRE "<.*?>|[^A-Za-zöäüßÖÄÜ-]" "" }}
+
+    {{ $info := partial "functions/get_word_info.html" $word }}
+    {{ if $sentence_start }}
+        {{ $info = partial "functions/get_word_info.html" (lower $word) }}
+    {{ end }}
+
+    {{ $pre  := . | replaceRE (print $word ".*") "" }}
+    {{ $post := . | replaceRE (print ".*" $word) "" }}
+
+    {{ $pre | safeHTML }}<a href="#word-{{ $i }}" data-rel="popup" class="word-info audio-available ui-btn-inline {{ delimit $info.kinds " "}}" {{ with $info.audio }}audio="{{ index . 0 }}"{{ end }} data-transition="pop">{{ $word }}</a>{{ $post | safeHTML }}
+
+    <div data-role="popup" id="word-{{ $i }}">
+        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Schließen</a>
+        {{ $info.html | safeHTML }}
+    </div>
+
+
+
+    {{ $sentence_start = gt (len (findRE "[\\.\\?\\!]" .) ) 0 }}
+    {{ $i = add $i 1}}
+{{ end }}
+
+<p class="disclaimer">Some content on this page was extracted from <a href="https://de.wiktionary.org/wiki/Wiktionary:Hauptseite" target="_blank">Wiktionary</a>.</p>
+
+
+<!-- TODO: script that goes through the content, automatic playing of audio file, toggle English translation, toggle show only one meaning -->
+

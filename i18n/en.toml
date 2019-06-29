@@ -1,0 +1,228 @@
+[Search-placeholder]
+other = "Search..."
+
+[Clear-History]
+other = "Clear History"
+
+[Attachments-label]
+other = "Attachments"
+
+[title-404]
+other = "Error"
+
+[message-404]
+other = "Woops. Looks like this page doesn't exist ¯\\_(ツ)_/¯."
+
+[Go-to-homepage]
+other = "Go to homepage"
+
+[Edit-this-page]
+other = "Edit this page"
+
+[Shortcuts-Title]
+other = "More"
+
+[Expand-title]
+other = "Expand me..."
+
+["Worttrennung"]
+other = "hyphenation"
+
+["Aussprache"]
+other = "pronunciation"
+
+["Bedeutung"]
+other = "meaning"
+
+["Bedeutungen"]
+other = "meanings"
+
+["Herkunft"]
+other = "origin"
+
+["Synonyme"]
+other = "synonyms"
+
+["Beispiel"]
+other = "example"
+
+["Beispiele"]
+other = "examples"
+
+["Charakteristische Wortkombinationen"]
+other = "characteristic word combinations"
+
+["Übersetzungen"]
+other = "translations"
+
+["Sinnverwandte Wörter"]
+other = "words with similar meanings"
+
+["Gegenwörter"]
+other = "antonyms"
+
+["Oberbegriffe"]
+other = "umbrella terms"
+
+["Redewendungen"]
+other = "idioms"
+
+["Wortbildungen"]
+other = "word formations"
+
+["Unterbegriffe"]
+other = "minor terms"
+
+["Sprichwörter"]
+other = "proverbs"
+
+["Grammatische Merkmale"]
+other = "grammatical features"
+
+["Alternative Schreibweisen"]
+other = "alternative spellings"
+
+["Nebenformen"]
+other = "variants"
+
+["Abkürzungen"]
+other = "abbreviations"
+
+["Interjektion"]
+other = "interjection"
+
+["Grußformel"]
+other = "salutation"
+
+["Toponym"]
+other = "toponym"
+
+["Adverb"]
+other = "adverb"
+
+["Vergleichspartikel"]
+other = "comparison particle"
+
+["Konjunktion"]
+other = "conjunction"
+
+["Subjunktion"]
+other = "subjunction"
+
+["Konjugierte Form"]
+other = "conjugated form"
+
+["Verb"]
+other = "verb"
+
+["unregelmäßig"]
+other = "irregular"
+
+["intransitiv"]
+other = "intransitive"
+
+["Personalpronomen"]
+other = "personal pronoun"
+
+["Reflexivpronomen"]
+other = "reflexive pronoun"
+
+["Adjektiv"]
+other = "adjective"
+
+["Deklinierte Form"]
+other = "decline form"
+
+["Antwortpartikel"]
+other = "answer particle"
+
+["Artikel"]
+other = "article"
+
+["Relativpronomen"]
+other = "relative pronoun"
+
+["Demonstrativpronomen"]
+other = "demonstrative pronoun"
+
+["Substantiv"]
+other = "noun"
+
+["männlich"]
+other = "masculine"
+
+["weiblich"]
+other = "feminine"
+
+["sächlich"]
+other = "neuter"
+
+["Singular"]
+other = "singular"
+
+["Plural"]
+other = "plural"
+
+["Nominativ"]
+other = "nominative"
+
+["Genitiv"]
+other = "genitive"
+
+["Dativ"]
+other = "dative"
+
+["Akkusativ"]
+other = "accusative"
+
+["Person"]
+other = "person"
+
+["Präteritum"]
+other = "simple past"
+
+["Konjunktiv II"]
+other = "past subjunctive"
+
+["Hilfsverb"]
+other = "auxiliary verb"
+
+["Maskulinum"]
+other = "masculine"
+
+["Femininum"]
+other = "feminine"
+
+["Neutrum"]
+other = "neuter"
+
+["Positiv"]
+other = "positive"
+
+["Komparativ"]
+other = "comparative"
+
+["Superlativ"]
+other = "superlative"
+
+["Anmerkung"]
+other = "remark"
+
+["Anmerkung zum Artikelgebrauch"]
+other = "remark regarding the usage of the article"
+
+["Wortform"]
+other = "word form"
+
+["Präsens"]
+other = "present tense"
+
+["Imperativ"]
+other = "imperative"
+
+["Perfekt"]
+other = "perfect tense"
+
+["Partizip II"]
+other = "past participle"
+

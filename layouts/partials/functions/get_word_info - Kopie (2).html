@@ -1,0 +1,130 @@
+{{ $search := . }}
+
+{{ $word := partial "functions/get_word_map.html" $search }}
+
+{{ $html := "" }}
+{{ $audio := slice }}
+{{ $kinds := slice }}
+{{ $primary_gender := "" }}<!-- TODO -->
+
+{{ $IPA := "" }}
+
+{{ with $word.Wortarten }}{{ with or (index . "Deklinierte Form") (index . "Konjugierte Form") }}
+    {{ $html = print "<h3>" $search "</h3>" }}
+
+    {{ with .Aussprache }}
+        {{ with .Hörbeispiele }}{{ range .  }}
+            {{ $audio_file_name := . }}
+            {{ with index $word "Dateien" }}{{ with index . $audio_file_name }}
+                {{ $audio = append . $audio }}
+            {{ end }}{{ end }}
+        {{ end }}{{ end }}
+        {{ with .IPA }}
+            {{ $html = print $html "<p>Aussprache (IPA): [" . "]</p>" }}
+            {{ $IPA = . }}
+        {{ end }}
+    {{ end }}
+
+    {{ with index . "Grammatische Merkmale" }}
+        {{ $html = print $html "<h4>Grammatische Merkmale</h4><ul>" }}
+            {{ range . }}
+                {{ $html = print $html "<li>" . "</li>" }}
+            {{ end }}
+        {{ $html = print $html "</ul>" }}
+    {{ end }}
+
+    {{ with .Grundform }}
+        {{ $word = partial "functions/get_word_map.html" . }}
+    {{ end }}
+{{ end }}{{ end }}
+
+{{ with $word }}
+    {{ $html = print $html "<h2>" (index $word.Versionen 0) "</h2>" }}
+    {{ range $kind, $info := .Wortarten }}
+        {{ $html = print $html "<h3>" $kind "</h3>" }}
+        {{ $kind = $kind | replaceRE " " "_" }}
+        {{ $kinds = $kinds | append $kind }}
+
+        {{ with .Aussprache }}
+            {{ with .Hörbeispiele }}{{ range .  }}
+                {{ $audio_file_name := . }}
+                {{ with index $word "Dateien" }}{{ with index . $audio_file_name }}
+                    {{ $audio = append . $audio }}
+                {{ end }}{{ end }}
+            {{ end }}{{ end }}
+            {{ with .IPA }}
+                {{ if ne . $IPA }} <!-- Let's not repeat ourselves. -->
+                    {{ $html = print $html "<p>Aussprache (IPA): [" . "]</p>" }}
+                    {{ $IPA = . }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+        {{ with $info.Bedeutungen }}
+            {{ if eq (len .) 1 }}
+                {{ $html = print $html "<h4>Bedeutung</h4>" }}
+            {{ else }}
+                {{ $html = print $html "<h4>Bedeutungen</h4>" }}
+            {{ end }}
+
+            {{ range $index, $point := . }}
+                {{ $html = print $html $index }}
+                {{ if eq (len $point) 1 }}
+                    {{ $html = print $html (index $point 0) "<br>" }}
+                {{ else }}
+                    {{ $html = print $html "<ul>" }}
+                        {{ range $point }}
+                            {{ $html = print $html "<li>" . "</li>" }}
+                        {{ end }}
+                    {{ $html = print $html "</ul>" }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+        {{ with $info.Beispiele }}
+            {{ if eq (len .) 1 }}
+                {{ $html = print $html "<h4>Beispiel</h4>" }}
+            {{ else }}
+                {{ $html = print $html "<h4>Beispiele</h4>" }}
+            {{ end }}
+
+            {{ range $index, $point := . }}
+                {{ $html = print $html $index }}
+                    {{ if eq (len $point) 1 }}
+                        {{ $html = print $html (index $point 0) "<br>" }}
+                    {{ else }}
+                        {{ $html = print $html "<ul>" }}
+                            {{ range $point }}
+                                {{ $html = print $html "<li>" . "</li>" }}</li> }}
+                            {{ end }}
+                        {{ $html = print $html "</ul>" }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+        {{ with $info.Synonyme }}
+            {{ $html = print $html "<h4>Synonyme</h4>" }}
+
+            {{ range $index, $point := . }}
+                {{ $html = print $html $index }}
+                {{ if eq (len $point) 1 }}
+                    {{ $html = print $html (index $point 0) "<br>" }}
+                {{ else }}
+                    {{ $html = print $html "<ul>" }}
+                        {{ range $point }}
+                            {{ $html = print $html "<li>" . "</li>" }}</li> }}
+                        {{ end }}
+                    {{ $html = print $html "</ul>" }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+        {{ with $info.Anmerkung }}
+            {{ $html = print $html "<strong>Anmerkung</strong>: " . }}
+        {{ end }}
+
+    {{ end }}
+
+{{ end }}
+
+{{ return dict "html" $html "audio" $audio "kinds" $kinds }}

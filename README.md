@@ -1,46 +1,60 @@
-# Hugo template for Netlify CMS with Netlify Identity
+# Hugo Learn Theme
 
-This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
+This repository contains a theme for [Hugo](https://gohugo.io/), based on great [Grav Learn Theme](https://learn.getgrav.org/).
 
-## Getting started
+Visit the [theme documentation](https://learn.netlify.com/en/) to see what is going on. It is actually built with this theme.
 
-Use our deploy button to get your own copy of the repository. 
+[![wercker status](https://app.wercker.com/status/233466a2be73fcea400e7dc02ef6adf9/s/master "wercker status")](https://app.wercker.com/project/byKey/233466a2be73fcea400e7dc02ef6adf9)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmatcornic%2Fhugo-theme-learn.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmatcornic%2Fhugo-theme-learn?ref=badge_shield)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
+## Main features
 
-This will setup everything needed for running the CMS:
+- Automatic Search
+- Multilingual mode
+- Unlimited menu levels
+- Automatic next/prev buttons to navigate through menu entries
+- Image resizing, shadow…
+- Attachments files
+- List child pages
+- Mermaid diagram (flowchart, sequence, gantt)
+- Customizable look and feel and themes variants
+- Buttons, Tip/Note/Info/Warning boxes, Expand
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
+## Installation
 
-Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
-
-Now you're all set, and you can start editing content!
-
-## Local Development
-
-Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
-
-Then start the development server with `yarn start` or `npm start`.
-
-## Layouts
-
-The template is based on small, content-agnostic partials that can be mixed and matched. The pre-built pages showcase just a few of the possible combinations. Refer to the `site/layouts/partials` folder for all available partials.
-
-Use Hugo’s `dict` functionality to feed content into partials and avoid repeating yourself and creating discrepancies.
-
-## CSS
-
-The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano. To customize the template for your brand, refer to `src/css/imports/_variables.css` where most of the important global variables like colors and spacing are stored.
-
-## SVG
-
-All SVG icons stored in `site/static/img/icons` are automatically optimized with SVGO (gulp-svgmin) and concatenated into a single SVG sprite stored as a a partial called `svg.html`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
+Navigate to your themes folder in your Hugo site and use the following commands:
 
 ```
-<svg width="16px" height="16px" class="db">
-  <use xlink:href="#SVG-ID"></use>
-</svg>
+$ cd themes
+$ git clone https://github.com/matcornic/hugo-theme-learn.git
 ```
+
+Check that your Hugo version is minimum `0.25` with `hugo version`.
+
+![Overview](https://github.com/matcornic/hugo-theme-learn/raw/master/images/tn.png)
+
+## Usage
+
+- [Visit the documentation](https://learn.netlify.com/en/)
+
+## Download old versions (prior to 2.0.0)
+
+If you need old version for compatibility purpose, either download [theme source code from releases](https://github.com/matcornic/hugo-theme-learn/releases) or use the right git tag. For example, with `1.1.0` 
+
+- Direct download way: https://github.com/matcornic/hugo-theme-learn/archive/1.1.0.zip
+- Git way:
+
+```shell
+cd themes/hugo-theme-learn
+git checkout tags/1.1.0
+```
+
+For both solutions, the documentation is available at https://github.com/matcornic/hugo-theme-learn/releases/download/1.1.0/hugo-learn-doc-1.1.0.zip
+
+## Credits
+
+Many thanks to [@vjeantet](https://github.com/vjeantet/) for the fork [docdock](https://github.com/vjeantet/hugo-theme-docdock). The v2 of this theme is mainly based on his work !
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmatcornic%2Fhugo-theme-learn.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmatcornic%2Fhugo-theme-learn?ref=badge_large)

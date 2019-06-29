@@ -1,0 +1,149 @@
+{{ $search := . }}
+
+{{ $word := partial "functions/get_word_map.html" $search }}
+{{ $audio_urls := slice }}
+
+{{ $html := "<strong>foo</strong>" }}
+{{ $audio := "" }}
+
+{{ with index $word "Wortarten" }}{{ with index . "Deklinierte Form" }}
+    <h3>{{ $search }}</h3>
+
+    {{ with index . "Aussprache" }}
+        <h4>Aussprache</h4>
+        <ul>
+            {{ with index . "Hörbeispiele" }}
+                {{ range .  }}
+                    {{ $audio_ex := . }}
+                    {{ with index $word "Dateien"}}{{ with index . $audio_ex }}
+                        {{ $audio_urls = append . $audio_urls }}
+                    {{ end }}{{ end }}
+                {{ end }}
+
+                {{ range $audio_urls }}
+                <li>Hörbeispiel: <audio controls>
+                        <source src="{{ . }}" autoplay="autoplay">
+                    Your browser does not support the audio element. <a href="https://www.google.com/chrome/" target="_blank">Chrome</a>, <a href="https://www.mozilla.org/firefox/" target="_blank">Firefox</a>, and <a href="https://www.opera.com/" target="_blank">Opera</a> support all audio elements.
+                    </audio></li>
+                {{ end }}
+            {{ end }}
+            {{ with index . "IPA" }}
+            <li>IPA: [{{.}}]</li>
+            {{ end }}
+        </ul>
+    {{ end }}
+
+    {{ with index . "Grammatische Merkmale" }}
+        <h4>Grammatische Merkmale</h4>
+        <ul>
+            {{ range . }}
+                <li>{{ . | safeHTML }}</li>
+            {{ end }}
+        </ul>
+    {{ end }}
+
+    {{ with index . "Grundform" }}
+        {{ $word = partial "functions/get_word_map.html" . }}
+    {{ end }}
+{{ end }}{{ end }}
+
+{{ with $word }}
+    <h2>{{ index $word.Versionen 0 }}</h2>
+    {{ range $kind, $info := .Wortarten }}
+        <h3>{{ $kind }}</h3>
+
+        {{ with index . "Aussprache" }}
+            <h4>Aussprache</h4>
+            <ul>
+            {{ with index . "Hörbeispiele" }}
+                {{ $audio_urls = slice }}
+                {{ range .  }}
+                    {{ $audio_ex := . }}
+                    {{ with index $word "Dateien"}}{{ with index . $audio_ex }}
+                        {{ $audio_urls = append . $audio_urls }}
+                    {{ end }}{{ end }}
+                {{ end }}
+
+                {{ range $audio_urls }}
+                    <li>Hörbeispiel: <audio controls>
+                                <source src="{{ . }}" autoplay="autoplay">
+                            Your browser does not support the audio element. <a href="https://www.google.com/chrome/" target="_blank">Chrome</a>, <a href="https://www.mozilla.org/firefox/" target="_blank">Firefox</a>, and <a href="https://www.opera.com/" target="_blank">Opera</a> support all audio elements.
+                            </audio></li>
+                    {{ end }}
+                {{ end }}
+                {{ with index . "IPA" }}
+                    <li>IPA: [{{.}}]</li>
+                {{ end }}
+            </ul>
+        {{ end }}
+
+        {{ with $info.Bedeutungen }}<p>
+            {{ if eq (len .) 1 }}
+                <h4>Bedeutung</h4>
+            {{ else }}
+                <h4>Bedeutungen</h4>
+            {{ end }}
+
+            {{ range $index, $point := . }}
+                {{ $index }}
+                {{ if eq (len $point) 1 }}
+                    {{ index $point 0 | safeHTML }}
+                {{ else }}
+                    <ul>
+                        {{ range $point }}
+                        <li>{{ . | safeHTML }}</li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+                <br>
+            {{ end }}</p>
+        {{ end }}
+
+        {{ with $info.Beispiele }}<p>
+                {{ if eq (len .) 1 }}
+                    <h4>Beispiel</h4>
+                {{ else }}
+                    <h4>Beispiele</h4>
+                {{ end }}
+
+                {{ range $index, $point := . }}
+                    {{ $index }}
+                    {{ if eq (len $point) 1 }}
+                        {{ index $point 0 | safeHTML }}<br>
+                    {{ else }}
+                        <ul>
+                            {{ range $point }}
+                            <li>{{ . | safeHTML }}</li>
+                            {{ end }}
+                        </ul>
+                    {{ end }}
+                {{ end }}</p>
+            {{ end }}
+
+        {{ with $info.Synonyme }}<p>
+            <h4>Synonyme</h4>
+
+            {{ range $index, $point := . }}
+                {{ $index }}
+                {{ if eq (len $point) 1 }}
+                    {{ index $point 0 | safeHTML }}
+                {{ else }}
+                    <ul>
+                        {{ range $point }}
+                        <li>{{ . | safeHTML }}</li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+                <br>
+            {{ end }}</p>
+        {{ end }}
+
+        {{ with $info.Anmerkung }}
+        <strong>Anmerkung</strong>: {{ . | safeHTML }}
+        {{ end }}
+
+    {{ end }}
+    <footnote>Some content on this page was extracted from <a href="https://de.wiktionary.org/wiki/{{ index $word.Versionen 0 }}" target="_blank">Wiktionary</a></footnote>
+{{ end }}
+
+{{ return dict "html" $html "audio" $audio }}

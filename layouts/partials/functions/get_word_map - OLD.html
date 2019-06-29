@@ -1,0 +1,245 @@
+{{ $search := . }}
+
+{{ $scratch := newScratch }}
+
+{{ $word := dict }}
+{{ $scratch.Set "word" $word }}
+
+{{ $json := getJSON "https://de.wiktionary.org/w/api.php?action=parse&prop=wikitext&format=json&page=" $search}}
+
+<!-- Get Wikitext from Wiktionary. For example, see: https://de.wiktionary.org/w/index.php?title=doch&action=edit -->
+{{ with index $json "parse" }}{{ with index .  "wikitext"}}{{ with index . "*" }}
+    <!-- Make a map of all the Wortarten (Adverb, Substantiv, Modalpartikel etc.) pointing to interfaces with the infos. -->
+    {{ $Wortarten := dict }}
+    {{ $scratch.Set "Wortarten" $Wortarten }}
+
+    <!-- Collect different ways of writing the word (with different case etc.). -->
+    {{ $versions := slice $search }}
+
+    <!--
+        Make the Wikitext pretty (and better "splittable").
+    -->
+    <!-- Strip annotations. -->
+    {{ $wikitext := . | replaceRE "{{Siehe auch\\|.*?}}|{{Literatur.*|\\[http.*|<ref>.*" "" }}
+
+    <!-- Write out shortcodes -->
+    {{ $wikitext = $wikitext | replaceRE "{{Pl.([0-9])}}" "Plural $1:" | replaceRE "{{Pl.}}" "Plural:" }}
+
+    <!-- Strip links. -->
+    {{ $wikitext = $wikitext | replaceRE "\\[\\[[^\\]]*\\|(.*?)\\]\\]" "$1" | replaceRE "\\[\\[(.*?)\\]\\]" "$1" }}
+
+    <!-- Transformation to HTML for easy splitting. -->
+    {{ $wikitext = $wikitext | replaceRE "(?m)^==[^=]" "<h2>" | replaceRE "(?m)^===[^=]" "<h3>"  | replaceRE "(?m)^====[^=]" "<h4>" | replaceRE "====" "</h4>" | replaceRE "===" "</h3>" | replaceRE "==" "</h2>"  }}
+    {{ $wikitext = $wikitext | replaceRE "'''(.*?)'''" "<strong>$1</strong>" | replaceRE "''(.*?)''" "<em>$1</em>" | replaceRE "\n" "<br>" }}
+
+
+    <!-- Split into sections and only use the German entries. -->
+    {{ range split $wikitext "<h2>" }}{{ if in . "({{Sprache|Deutsch}})" }}
+
+        <!-- Split into kind of words (Wortarten). -->
+        {{ range  split . "<h3>" }}{{ if in . "{{Wortart|" }}
+            {{ $Wortart := delimit (findRE "{{Wortart\\|.*?\\|Deutsch}}" . ) ", " " und " | replaceRE "{{Wortart\\||\\|Deutsch}}" "" }}
+
+            <!-- The part of the text describing the Wortart. -->
+            {{ $subtext := . }}
+
+            {{ $info := dict }}
+            {{ $scratch.Set "info" $info }}
+
+            <!-- Analyse Overview. -->
+            {{ $overview_title := print "{{Deutsch " $Wortart " Übersicht" }}
+            {{ $overview_text := index (findRE (print $overview_title ".*?}}") $subtext) 0 | replaceRE (print $overview_title "<br>\\||}}") "" }}
+
+            {{ with $overview_text }}
+
+                {{ $overview := dict }}
+                {{ $scratch.Set "overview" $overview }}
+                {{ range split $overview_text "<br>|" }}
+                    {{ $item := . | replaceRE "=.*" ""}}
+                    {{ $value := . | replaceRE ".*=" "" }}
+                    {{ if eq $item "Bild" }}
+                        {{ $value = $value | replaceRE "\\|.*" "" }}
+                    {{ else if and (ne $item "Genus") (not (in $versions $value)) }}
+                        {{ with $value}}
+                            {{ $versions = append $value $versions }}
+                        {{ end }}
+                    {{ end }}
+
+                    {{ $scratch.SetInMap "overview" $item $value }}
+                {{ end }}
+
+                <!-- Add Overview to info. -->
+                {{ $scratch.SetInMap "info" "Übersicht" $overview }}
+
+            {{ end }}
+
+            <!-- Remove all overviews. -->
+            {{ $subtext = $subtext | replaceRE "{{Deutsch.*?Übersicht.*?}}" "" }}
+
+            {{ if in $subtext "<h4>{{Übersetzungen}}" }}
+                <!-- Get translations. -->
+                {{ $translations :=  replaceRE ".*<h4>{{Übersetzungen}}" "" $subtext }}
+
+                <!-- Analyze translations. -->
+                <!-- Clean up text. -->
+                {{ $translations := $translations | replaceRE " </h4>.*?<br>{{Ü-Tabelle.*?<br>\\*{{" "" | replaceRE "[^\\*]\\*{{" "<li>" | replaceRE "\\*([A-Z])" "<li>$1" }}
+
+                {{ $trans_map := dict }}
+                {{ $scratch.Set "trans_map" $trans_map }}
+
+                {{ range split $translations "<li>" }}
+                    {{ $language := . | replaceRE "}}.*|\\|.*|:.*" "" }}
+
+                    {{ $trans_meanings := dict }}
+                    {{ $scratch.Set "trans_meanings" $trans_meanings }}
+
+                    <!-- Get translations for every meaning. -->
+                    {{ range findRE "\\[.*?\\]([^\\[])*" . }}
+                        {{ $meaning := replaceRE "\\].*" "]" . }}
+
+                        {{ $words := slice }}
+                        {{ with index $trans_meanings $meaning }}
+                            {{ $words = . }}
+                        {{ end }}
+
+                        {{ range . | replaceRE "{{[mfnu]}}" "" | findRE "{{.*?}}" }}
+                            {{ $word := replaceRE (print "{{.*?" $language "\\|") "" . }}
+                            {{ $word = $word | replaceRE "\\|([^=]*?)}}" " ($1)}}" }}
+                            {{ $word = $word | replaceRE "}}.*| \\(\\)|\\|.*" "" }}
+                            {{ $words = $words | append $word }}
+                        {{ end }}
+
+                        {{ $scratch.SetInMap "trans_meanings" $meaning $words }}
+                    {{ end }}
+
+                    {{ $scratch.SetInMap "trans_map" $language $trans_meanings }}
+                {{ end }}
+
+                <!-- Add the map. -->
+                {{ $scratch.SetInMap "info" "Übersetzungen" $trans_map }}
+
+                <!-- Remove translations -->
+                {{ $subtext = $subtext | replaceRE "<h4>.*" "" }}
+            {{ end }}
+
+            {{ range split $subtext "<br>{{" }}
+                {{ $topic := replaceRE "}}.*|<.*?>|{{.*" "" . }}
+                {{ $subtext := replace . "<br>*" "<br>:" | replaceRE "^.*?:" "" }}
+
+                {{ with $topic }}
+                    {{ $map := dict }}
+                    {{ $scratch.Set "map" $map }}
+
+                    {{ $type := "" }}
+                    {{ if or (eq $topic "Worttrennung") (eq $topic "Herkunft") (eq $topic "Verkleinerungsformen") (eq $topic "Wortbildungen") }}
+                        {{ $type = "string" }}
+                    {{ else if or (eq $topic "Bedeutungen") (eq $topic "Sinnverwandte Wörter") (eq $topic "Beispiele") (eq $topic "Charakteristische Wortkombinationen") (eq $topic "Synonyme") (eq $topic "Oberbegriffe") (eq $topic "Gegenwörter") (eq $topic "Unterbegriffe") (eq $topic "Bekannte Namensträger") }}
+                        {{ $type = "map[string]slice" }}
+                    {{ else if or (eq $topic "Redewendungen") (eq $topic "Grammatische Merkmale") }}
+                        {{ $type = "slice" }}
+                        {{ $scratch.SetInMap "info" $topic slice }}
+                    {{ else if in $topic "Grundformverweis" }}
+                        {{ $type = "string" }}
+                        {{ $topic = "Grundform" }}
+                    {{ else if in $topic "Anmerkung" }}
+                        {{ $type = "string" }}
+                        {{ $topic = "Anmerkung" }}
+                    {{ end }}
+
+                    {{ range split $subtext "<br>:" }}
+
+                        {{ $instance := replaceRE "<br>|{{|}}.*" "" . }}
+                        {{ if gt (len (findRE "\\[[0-9]" .)) 0 }}
+                            {{ $instance = print (replaceRE "<br>|\\].*" "" .) "]" }}
+                        {{ end }}
+
+                        {{ $point := replaceRE "{{QS.*?}}|<br>|\\[[0-9][^\\]]*?\\]|.*Lautschrift\\||{{Audio\\||{{Reim\\||{{Hörbeispiele|{{Reime|}}|\\|Deutsch" "" . }}
+                        {{ $point = replaceRE "^\\s+" "" $point }}
+
+                        {{ if eq $topic "Grundform" }}
+                            {{ $point = $point | replaceRE ".*\\|" "" }}
+                        {{ end }}
+
+                        {{ if eq $type "string" }}
+                            {{ $scratch.SetInMap "info" $topic $point }}
+                        {{ else if eq $topic "Aussprache" }}
+                            {{ if eq $instance "Hörbeispiele" }}
+                                {{ $point = split (replaceRE " " "" $point) "," }}
+                            {{ end }}
+
+                            {{ $pronunciation := dict }}
+                            {{ if not (isset $info $topic) }}
+                                {{ $pronunciation = dict $instance $point }}
+                            {{ else }}
+                                {{ $pronunciation = index $info $topic }}
+
+                                {{ $scratch.Set "pronunciation" $pronunciation }}
+                                {{ $scratch.SetInMap "pronunciation" $instance $point }}
+                            {{ end }}
+
+                            {{ $scratch.SetInMap "info" $topic $pronunciation }}
+                        {{ else if in $type "map[string]slice" }}
+                            {{ if not (isset $map $instance) }}
+                                {{ $scratch.SetInMap "map" $instance (slice $point) }}
+                            {{ else }}
+                                {{ $scratch.SetInMap "map" $instance (append $point (index $map $instance)) }}
+                            {{ end }}
+
+                            {{ $scratch.SetInMap "info" $topic $map }}
+                        {{ else if eq $type "slice" }}
+                            {{ $scratch.SetInMap "info" $topic (append $point (index $info $topic)) }}
+                        {{ else }}
+                            {{/* errorf "Nothing found in word \"%s\" for instance \"%s\" with point \"%s\" of topic \"%s\"\nText: %s." $search $instance $point $topic $subtext */}}
+                        {{ end }}
+                    {{ end }}
+                {{ else }}
+                    {{ if in $Wortart "Substantiv" }}
+                        {{ $genus_raw := findRE "{{([mfn])+}}" $subtext }}
+                        {{ $genus := slice }}
+                        {{ range $genus_raw }}
+                            {{ $g := . | findRE "[mfn]" }}
+                            {{ range $g }}
+                                {{ if not (in $genus .) }}
+                                    {{ $genus = append . $genus }}
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+
+                        {{ $scratch.SetInMap "info" "Genus" $genus }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+            {{ $scratch.SetInMap "Wortarten" $Wortart $info }}
+        {{ end }}{{ end }} <!-- end of kind of word -->
+        {{ $scratch.SetInMap "word" "Wortarten" $Wortarten }}
+        {{ $scratch.SetInMap "word" "Versionen" $versions }}
+    {{ end }}{{ end }} <!-- end of section and if Deutsch -->
+{{ end }}{{ end }}{{ end }} <!-- end of wikitext -->
+
+
+<!-- Now get the HTML so that we can extract the file links.-->
+{{ $json := getJSON (print "https://de.wiktionary.org/w/api.php?action=parse&format=json&prop=text&disabletoc=true&page=" $search) }}
+
+<!-- Get HTML from Wiktionary. -->
+{{ with index $json "parse" }}{{ with index .  "text"}}{{ with index . "*" }}
+
+    {{ $files := dict }}
+    {{ $scratch.Set "files" $files }}
+
+    {{ range findRE "<a href=\"//upload.wikimedia.org/wikipedia/commons/.*?\" class=\"internal\" title=\".*?\">" .}}
+
+        {{ $title := . | replaceRE "<a .*title=\"|\">| " "" }}
+        {{ $url := print "https:" . | replaceRE "<a .*href=\"|\".*" "" }}
+
+        {{ $scratch.SetInMap "files" $title $url }}
+    {{ end }}
+
+    {{ $scratch.SetInMap "word" "Dateien" $files }}
+
+{{ end }}{{ end }}{{ end }} <!-- end of HTML -->
+
+{{ return $word }}
+<!-- TODO go through data to see if some values are the same for all kinds. If so, have just that one data point. -->
+
+<!-- TODO if used, add in smaller font: Some content for this page was scraped from Wiktionary. -->
