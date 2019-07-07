@@ -1,0 +1,100 @@
+{{ $html   := "" }}
+{{ $popups := "" }}
+{{ $word_classes_all := slice }}
+
+
+{{ $vocab := .Site.Data.a1_vocab }}
+{{ $synonyms := .Site.Data.synonyms }}
+{{ $custom_words := .Site.Data.custom_words }}
+
+{{ $input  := replace .de_html "<br>" "<br> " }}
+{{ $input   = replace $input "</p>" "</p> " }}
+
+{{ $sentence_start := true }}
+{{ $i := 0 }}
+{{ range split $input " " }}
+    <!-- Seperate the word from surrounding characters. -->
+    {{ $word := . | replaceRE "<.*?>|[^A-Za-zöäüßÖÄÜ-]" "" }}
+    {{ $pre  := . | replaceRE (print $word ".*") "" }}
+    {{ $post := . | replaceRE (print ".*" $word) "" | replaceRE "\n" "" }}
+
+    <!-- Check for synonyms. -->
+    {{ $search := $word }}
+    {{/* if $sentence_start }}
+        {{ $lower := lower $word }}
+        {{ with index $synonyms $lower }}
+            {{ $search = . }}
+        {{ end }}
+        {{ with index $vocab $lower }}
+            {{ $search = . }}
+        {{ end }}
+        {{ with index $custom_words $lower }}
+            {{ $search = $lower }}
+        {{ end }}
+    {{ end }}
+    {{ with index $synonyms $word }}
+        {{ $search = . }}
+    {{ end */}}
+
+    <!-- Ge word info from Wiktionary. -->
+    {{ $info := dict }}
+    {{ with index $custom_words $search }}
+        {{ $info = . }}
+    {{ else }}
+        {{ $info = partial "functions/get_word_info.html" $search }}
+    {{ end }}
+
+    <!-- Collect all the attributes and classes of the link element. -->
+    {{ $s := newScratch }}
+    {{ $attr := dict "basic-form" $info.basic_form }}
+    {{ $s.Set "attr" $attr }}
+    {{ $classes := slice }}
+
+    {{ with $info.html }}
+        <!-- Make the word into a popup element. -->
+        {{ $s.SetInMap "attr" "href" (print "#word-" $i) }}
+        {{ $s.SetInMap "attr" "data-rel" "popup" }}
+        {{ $s.SetInMap "attr" "data-transition" "pop" }}
+
+        <!-- Add the html to the popup contents below the text. -->
+        {{ $popup := print "<div class=\"ui-content\" data-role=\"popup\" id=\"word-" $i "\" data-overlay-theme=\"a\" data-position-to=\"window\"><a href=\"#\" data-rel=\"back\" class=\"ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right\">Schließen</a>" . "</div>"}}
+        {{ $popups = print $popups $popup }}
+
+        <!-- Iterate the number for the id. -->
+        {{ $i = add $i 1 }}
+
+        <!-- Define classes of the popup element. -->
+        {{ $classes = $classes | append "word-info" "ui-btn-inline" }}
+
+        <!-- Add word types. -->
+        {{ range $info.word_classes }}
+            {{ $classes = $classes | append (replace . " " "-") }}
+            {{ if not (in $word_classes_all .) }}
+                {{ $word_classes_all = $word_classes_all | append . }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+
+    <!-- Add audio file, if available. -->
+    {{ with $info.audio }}
+        {{ $s.SetInMap "attr" "audio" . }}
+        {{ $classes = $classes | append "audio-available" }}
+    {{ end }}
+
+    {{ with $classes }}
+        {{ $html = print $html $pre "<a " }}
+        {{ range $a, $k := $attr }}
+            {{ $html = print $html $a "=\"" $k "\" " }}
+        {{ end }}
+        {{ $html = print $html "class=\"" (delimit $classes " ") "\">" $word "</a>" $post " "}}
+    {{ else }}
+        {{ $html = print $html . " " }}
+    {{ end }}
+
+    {{ $sentence_start = gt (len (findRE "[\\.\\?\\!]" .) ) 0 }}
+{{ end }}
+
+<!-- Add disclaimer -->
+{{ $popups = print "<p class=\"disclaimer\"><span lang=\"de\" class=\"de\">Manche Inhalte auf dieser Seite wurden von <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a> entnommen.</span><br><span lang=\"en\" class=\"en other-language\">Some content on this page was extracted from <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a>.</span></p>" $popups }}
+
+{{ return dict "html" $html "popups" $popups "word_classes" $word_classes_all }}

@@ -8,18 +8,51 @@ a.word-info {
 	cursor: help;
 }
 
-.show-important a.important {
+#highlight-wrapper.show-important a.important,
+div.expl span.important {
     color: #000;
     background-color: #ff0;
 }
 
-.show-important a.checked {
+#highlight-wrapper.show-important a.checked,
+div.expl span.checked  {
     color: #000;
     background-color: #0f0;
 }
-.show-important a.important.checked {
+#highlight-wrapper.show-important a.important.checked {
 	font-size: bold;
 }
+
+
+#highlight-wrapper.show-wc.Substantiv-enabled a.Substantiv {
+	background-color: #ff7e7e;
+    color: #000;
+}
+#highlight-wrapper.show-wc.Substantiv-enabled a.Substantiv.wc-other {
+	background-color: #ffa77e;
+	font-size: bold;
+}
+#highlight-wrapper.show-wc.Verb-enabled a.Verb {
+	background-color: #7e8bff;
+    color: #000;
+}
+#highlight-wrapper.show-wc.Verb-enabled a.Verb.wc-other {
+	background-color: #7eb2ff;
+	font-size: bold;
+
+}
+#highlight-wrapper.show-wc a.wc-other {
+	background-color: #ff0;
+    color: #000;
+}
+
+/*
+,
+label.ui-checkbox-on span.Substantiv
+,
+label.ui-checkbox-on span.Verb
+,
+label.ui-radio-on span.wc-selection*/
 
 
 table {
@@ -30,7 +63,9 @@ div.caption {
 	margin-bottom: 10px;
 }
 
-
+span.hide-other-language .other-language {
+	display: none;
+}
 
 
 
@@ -40,13 +75,19 @@ div.caption {
 .show-gender a.checked {
     background-color: none;
 }
-.show-genders .noun-m {
+.show-genders .noun-m,
+div.expl span.noun-m {
+    color: #000;
 	background-color: #b4b9ff;
 }
-.show-genders .noun-f {
+.show-genders .noun-f,
+div.expl span.noun-f {
+    color: #000;
 	background-color: #ffb9b9;
 }
-.show-genders .noun-n {
+.show-genders .noun-n,
+div.expl span.noun-n {
+    color: #000;
 	background-color: #c5ffb4;
 }
 

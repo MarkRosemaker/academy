@@ -3,6 +3,7 @@
 {{ $html  := "" }}
 {{ $audio := "" }}
 {{ $word_classes := slice }}
+{{ $basic_form := "" }}
 
 <!-- Get the HTML of the word-->
 {{ $json := getJSON (print "https://de.wiktionary.org/w/api.php?action=parse&format=json&prop=text&disabletoc=true&page=" $word) }}
@@ -65,7 +66,7 @@
                             {{ $wc_current_name  = . }}
                         {{ end }}
                     {{ end }}
-                    {{ $html_wc_name := print "<span lang=\"de\" class=\"de\">" (delimit $wc_names_infos ", ") "</span><br><span lang=\"en\" class=\"en other-language hidden\">" (delimit $wc_names_infos_i18n ", ") "</span>" }}
+                    {{ $html_wc_name := print "<span lang=\"de\" class=\"de\">" (delimit $wc_names_infos ", ") "</span><br><span lang=\"en\" class=\"en other-language\">" (delimit $wc_names_infos_i18n ", ") "</span>" }}
 
                     <!-- Add the word classes to a list to use as css classes. -->
                     {{ $word_classes = $word_classes | append $wc_names }}
@@ -89,7 +90,7 @@
                             {{ end }}
 
                             <!-- Add the word as a big header before the first entry. -->
-                            {{ $html = print $html "<h2><span lang=\"de\" class=\"de\">" $article $word "</span><br><span lang=\"en\" class=\"en other-language hidden\">" $trans "</span></h2>" }}
+                            {{ $html = print $html "<h2><span lang=\"de\" class=\"de\">" $article $word "</span><br><span lang=\"en\" class=\"en other-language\">" $trans "</span></h2>" }}
                         {{ else }}
                             {{ $html = print $html "<h2>" $article $word "</h2>" }}
                         {{ end }}
@@ -137,7 +138,7 @@
                             {{ $pre   := . | replaceRE "(<th.*?>).*" "$1" }}
 
                             {{ if and $inner (ne $inner "—") (not (in $inner "Flexion:")) }}
-                                {{ $inner_trans := print $pre "<span lang=\"de\" class=\"de\">" $inner "</span><br><span lang=\"en\" class=\"en other-language hidden\">" (title (i18n $inner)) "</span></th>" }}
+                                {{ $inner_trans := print $pre "<span lang=\"de\" class=\"de\">" $inner "</span><br><span lang=\"en\" class=\"en other-language\">" (title (i18n $inner)) "</span></th>" }}
                                 {{ $html_table = $html_table | replaceRE . $inner_trans }}
                             {{ end }}
                         {{ end }}
@@ -195,8 +196,14 @@
                         <!-- Insert the entry for the basic form. -->
                         {{ if eq $header "Grammatische Merkmale" }}
                             {{ with findRE "flektierte Form von <b>(.*?).</b>" $body }}
-                                {{ $basic_word := index . 0 | replaceRE ".*<b>|\\.</b>" "" }}
-                                {{ $basic := partial "functions/get_word_info.html" $basic_word }}
+                                {{ $basic_form_instance := index . 0 | replaceRE ".*<b>|\\.</b>" "" }}
+                                {{ if not $basic_form }}
+                                    {{ $basic_form = $basic_form_instance }}
+                                {{ end }}
+
+                                {{ $basic := partial "functions/get_word_info.html" $basic_form_instance }}
+
+                                {{ $word_classes = $word_classes | append (index $basic.word_classes 0) }}
 
                                 {{ $body = $body | replaceRE "</ul>.*" (print "</ul></div><div>" $basic.html) }}
                             {{ end }}
@@ -206,7 +213,7 @@
                         {{ with $body }}
                             {{ with $header }}
                                 <!-- Translate the header. -->
-                                {{ $header = print "<h4><span lang=\"de\" class=\"de\">" $header "</span><br><span lang=\"en\" class=\"en other-language hidden\">" (title (i18n $header)) "</span></h4>" }}
+                                {{ $header = print "<h4><span lang=\"de\" class=\"de\">" $header "</span><br><span lang=\"en\" class=\"en other-language\">" (title (i18n $header)) "</span></h4>" }}
 
                                 <!-- Small (or very important) entries are shown. -->
                                 {{ $length := len (replaceRE "<[^>]*>" "" $body) }}
@@ -245,11 +252,51 @@
     {{ end }}
 {{ end }}
 
+{{ if not $basic_form }}
+    {{ $basic_form = $word }}
+{{ end }}
 
             <!-- TODO
-                pass basic form so it can all be marked green when clicked
+
+
+"
+[""<span><i>siehe auch:</i> Grammatik der deutschen Namen</span>""]
+other = ""<Span> <i> see </ i> grammar of the German name </ span>"""
+
+
+["Singular <i>m</i>"]
+other = "Singular <i> m </ i>"
+
+
+["Singular <i>f</i>"]
+other = "Singular <i> f </ i>"
+
+    [" Übersetzungen"]
+other = " translations"
+
+["adjektivische Deklination, f"]
+other = "adjectival declination, f"
+
                 import important vocabulary list
-                decide if small or capitalized is the right word
+                maps:
+                  - wordcount: string word -> int count
+                  - synonyms : string word -> string base word
+                  - a1_vocab: string word -> int target count
+                  - custom: string word -> json map custom html, word class etc.  (empty if to be ignored)
+                array:
+                  - unknown_cap
+
+                strategy:
+                  - get dictionary entry, Grundform, lower dictionary entry, Grundform
+                  - if first two in map, then take that, otherwise check other two, otherwise give warning (via unknown_cap)
+
+
+
+                  - words: map of single words (for checking single words quickly and wheather they are written capitalized or not) that map to which dictionary entry I want to show (maybe depending on what other words are in the sentence)
+                  - consult docalyzer for counting
+                  - collect unknown words at beginning of sentences, give warning
+
+
                 stop jumping to top when I click on something
 
                 show to people and get feedback
@@ -260,4 +307,4 @@
                   - clicking stuff below in gehen always plays audio
                         -->
 
-{{ return dict "html" $html "audio" $audio "word_classes" $word_classes }}
+{{ return dict "html" $html "audio" $audio "word_classes" $word_classes "basic_form" $basic_form }}

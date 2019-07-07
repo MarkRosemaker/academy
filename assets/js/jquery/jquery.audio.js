@@ -9,33 +9,67 @@ $(".audio-available").click(function () {
 });
 
 document.getElementById("show-translation").onclick = function () {
-    var d = document.getElementsByClassName("de");
-    var o = document.getElementsByClassName("other-language");
+    var d = document.getElementById("language-wrapper");
     if (this.checked) {
-        for(var i = 0; i < d.length; i++){
-            d[i].classList.add('de-colored');
-        }
-        for(var i = 0; i < o.length; i++){
-            o[i].classList.remove('hidden');
-        }
+        d.classList.remove("hide-other-language");
     } else {
-        for(var i = 0; i < d.length; i++){
-            d[i].classList.remove('de-colored');
-        }
-        for(var i = 0; i < o.length; i++){
-            o[i].classList.add('hidden');
-        }
+        d.classList.add("hide-other-language");
     }
-}
-
-document.getElementById("show-genders").onclick = function () {
-    var e = document.getElementById("highlight-wrapper");
-    e.classList.remove("show-important");
-    e.classList.add("show-genders");
 }
 
 document.getElementById("show-important").onclick = function () {
     var e = document.getElementById("highlight-wrapper");
     e.classList.add("show-important");
     e.classList.remove("show-genders");
+    e.classList.remove("show-wc");
+
+    document.getElementById("show-important-expl").classList.remove("hidden");
+    document.getElementById("show-genders-expl").classList.add("hidden");
+    document.getElementById("show-wc-expl").classList.add("hidden");
+}
+
+document.getElementById("show-genders").onclick = function () {
+    var e = document.getElementById("highlight-wrapper");
+    e.classList.remove("show-important");
+    e.classList.add("show-genders");
+    e.classList.remove("show-wc");
+
+    document.getElementById("show-important-expl").classList.add("hidden");
+    document.getElementById("show-genders-expl").classList.remove("hidden");
+    document.getElementById("show-wc-expl").classList.add("hidden");
+}
+
+document.getElementById("show-wc").onclick = function() {
+    var e = document.getElementById("highlight-wrapper");
+    e.classList.remove("show-important");
+    e.classList.remove("show-genders");
+    e.classList.add("show-wc");
+
+    document.getElementById("show-important-expl").classList.add("hidden");
+    document.getElementById("show-genders-expl").classList.add("hidden");
+    document.getElementById("show-wc-expl").classList.remove("hidden");
+}
+
+var wc = document.getElementsByClassName("check-wc-main");
+for(var i = 0; i < wc.length; i++){
+    wc[i].onclick = function() {
+        if (this.checked) {
+            document.getElementById("highlight-wrapper").classList.add(this.id);
+        } else {
+            document.getElementById("highlight-wrapper").classList.remove(this.id);
+        }
+    }
+}
+var c = document.getElementsByClassName("check-wc-choice");
+for(var i = 0; i < c.length; i++){
+    c[i].onclick = function() {
+        var o = document.getElementsByClassName("word-info");
+        for(var k = 0; k < o.length; k++){
+            if (o[k].classList.contains(this.id)) {
+                o[k].classList.add("wc-other");
+            } else {
+                o[k].classList.remove("wc-other");
+            }
+        }
+    }
 }

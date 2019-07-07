@@ -1,101 +1,13 @@
 {{ partial "header.html" . }}
-	<label for="show-translation"><span lang="de" class="de">Zeige die Übersetzung</span><br><span lang="en" class="en other-language hidden">Show the Translation</span></label>
-	<input type="checkbox" name="show-translation" id="show-translation" />
 
-<!-- Get German HTML -->
-{{ $de_html := "" }}
-{{ if eq "de" .Lang }}
-	{{ $de_html = .Content }}
-{{ else }}
-	{{ $index_de := print .File.Dir "index.de.md" | replaceRE "\\\\" "/" }}
-	{{ if fileExists $index_de }}
-		{{ $de_html = readFile $index_de | replaceRE "(?s:\\+\\+\\+.*\\+\\+\\+)" "" | markdownify }}
-	{{ end }}
-{{ end }}
+{{ .Content }}
 
-{{ with $de_html }}
-	<!-- Improve presentation of German text. -->
-	{{ $smart_text := partial "get-smart-text" $de_html }}
-
-	<div class="show-important" id="highlight-wrapper">
-
-	{{ if eq "de" $.Lang }}
-		{{ $smart_text.html | safeHTML }}
-	{{ else }}
-
-		<!-- Display both languages side by side. -->
-		{{ $de := split $smart_text.html "</p>" }}
-		{{ $other := split $.Content "<p>" }}
-
-		{{ $k := sub (len $de) 1 }}
-		{{ range $i := seq 1 $k }}
-			<p><span lang="de" class="de">{{ index $de (sub $i 1) | replaceRE "<p>|</p>" "" | safeHTML }}</span><br>
-			<span lang="{{ $.Lang }}" class="{{ $.Lang }} other-language hidden">{{ index $other $i | replaceRE "<p>|</p>|\n" "" | safeHTML }}</span></p>
-		{{ end }}
-
-	{{ end }}
-	</div>
-	<hr>
-
-	<p><span lang="de" class="de">Wähle aus, was du hervorheben möchtest:</span><br><span lang="en" class="en other-language hidden">Select what you want to highlight:</span></p>
-
-	<div class="ui-grid-b">
-		<div class="ui-block-a">
-			<label for="show-important"><span lang="de" class="de">Wichtige Wörter</span><br><span lang="en" class="en other-language hidden">Important Words</span></label>
-			<input type="radio" name="highlight" id="show-important" checked/>
-		</div>
-		<div class="ui-block-b">
-			<label for="show-genders"><span lang="de" class="de">Genera</span><br><span lang="en" class="en other-language hidden">Genders</span></label>
-			<input type="radio" name="highlight" id="show-genders" />
-		</div>
-		<div class="ui-block-c">
-			<label for="show-kinds"><span lang="de" class="de">Wortarten</span><br><span lang="en" class="en other-language hidden">Word Classes</span></label>
-			<input type="radio" name="highlight" id="show-kinds" />
-		</div>
-	</div>
-
-
-
-	<p>Alle wichtigen Wörter werden gelb hervorgehoben. Alle Wörter, die du schon angeklickt hast, werden grün hervorgehoben.</p>
-
-	<p>Die grammatikalischen Geschlechter von Substantiven werden hervorgehoben, zum Beispiel so: der Mann, die Frau, das Fahrrad.</p>
-
-	<p>Wortarten werden farblich hervorgehoben:</p>
-	<ul>
-		<li><span class="Substantiv">Substantiv</span></li>
-		<li>Verb</li>
-	</ul><!-- TODO list all Wortarten by collecting for each word, then ordering according to preferred weight. -->
-
-
-	<!-- TODO Link zur Anleitung am Anfang prominent als Popup oben mit Video, dann unten link zu externer Seite.
-	Anleitung
-	<p><strong><span lang="de" class="de">Klicke auf ein deutsches Wort, um nützliche Informationen zu bekommen!</span><br><span lang="en" class="en other-language hidden">Click on a German word to get useful information!</span></strong></p>
-
-
-
-	<p class="show-gender"><span lang="de" class="de">Die Genera der Substantive (Nomen) wurden hervorgehoben, zum Beispiel: <span class="noun-m">Mann</span> (maskulines Nomen, im Nominativ: der Mann), <span class="noun-f"></span>Frau</span> (feminines Nomen, im Nominativ: die Frau), <span class="noun-n">Fahrrad</span> (neutrales Nomen, im Nominativ: das Fahrrad).</span><br><span lang="en" class="en other-language hidden">The genders (der, die, das) of the nouns are highlighted, for example: </span></p>-->
-
-	{{ $smart_text.popups | safeHTML }}
-	<!-- TODO audio player -->
-{{ else }}
-	{{ $.Content }}
-{{ end }}
-
-
-
-
-
-
-
-<!--footer class=" footline" >
+<footer class=" footline" >
 	{{with .Params.LastModifierDisplayName}}
 	    <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
 	    </div>
 	{{end}}
-</footer>-->
+</footer>
 
 
-{{/* partial "footer.html" . */}}
-
-
-
+{{ partial "footer.html" . }}
