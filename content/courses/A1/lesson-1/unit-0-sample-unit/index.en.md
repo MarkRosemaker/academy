@@ -10,6 +10,8 @@ draft = true
 spellchecked = false
 +++
 
+Hello, I am Mark of Authentic German Learning.
+
 Hello World! How are you?
 
 I'm fine. Are you doing better?
@@ -18,4 +20,4 @@ Thanks for asking.
 
 I want to go.
 
-Hello, I am Mark of Authentic German Learning.
+I go to you.

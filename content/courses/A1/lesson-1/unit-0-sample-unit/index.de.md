@@ -10,6 +10,8 @@ draft = true
 spellchecked = false
 +++
 
+Hallo, ich bin Mark von Authentic German Learning.
+
 Hallo Welt! Wie geht es dir?
 
 Mir geht es gut. Geht es dir besser?
@@ -18,4 +20,5 @@ Danke der Nachfrage.
 
 Ich möchte gehen.
 
-Hallo, ich bin Mark von Authentic German Learning.
+
+Ich gehe zu dir.

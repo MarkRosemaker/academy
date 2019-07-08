@@ -46,13 +46,6 @@ div.expl span.checked  {
     color: #000;
 }
 
-/*
-,
-label.ui-checkbox-on span.Substantiv
-,
-label.ui-checkbox-on span.Verb
-,
-label.ui-radio-on span.wc-selection*/
 
 
 table {
@@ -105,7 +98,7 @@ div.center {
 }
 
 .other-language {
-	color: orange !important;
+	color: orange;
 }
 
 div.ui-popup {

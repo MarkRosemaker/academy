@@ -25,8 +25,8 @@
 
             <!-- Analyse the rest by splitting into subsections (first word classes, then items in the entry). -->
             {{ $html_rest := . | replaceRE ".*</h2>" "" | replaceRE "\n" "" }}
-            {{ range $i, $k := split $html_rest "<h3" }}
-                {{ if ne $i 0 }}<!-- Discard first (just a template or nothing). -->
+            {{ range $num_wc, $k := split $html_rest "<h3" }}
+                {{ if ne $num_wc 0 }}<!-- Discard first (just a template or nothing). -->
                     {{ $wc_names := slice }}<!-- names of all word classes in this iteration -->
                     {{ $wc_names_infos := slice }}<!-- name and info (like intransitive etc.) of all word classes  -->
                     {{ $wc_names_infos_i18n := slice }}
@@ -72,7 +72,7 @@
                     {{ $word_classes = $word_classes | append $wc_names }}
 
                     <!-- Add the word classes to the list. -->
-                    {{ if eq $i 1 }}
+                    {{ if eq $num_wc 1 }}
                         <!-- Get the gender if it's the first entry. -->
                         {{ $article := "" }}
                         {{ $article_map := dict "m" "der " "f" "die " "n" "das " }}
@@ -84,7 +84,8 @@
 
                         {{ if in . "<li><a href=\"/wiki/Englisch\" title=\"Englisch\">Englisch</a>: "}}
                             <!-- Get the translation. -->
-                            {{ $trans := . | replaceRE ".*<li><a href=\"/wiki/Englisch\" title=\"Englisch\">Englisch</a>: |</li>.*|<sup>.*?</sup>|<.*?>|&#160;|\\(.*?\\) " "" }} <li>Englisch: [1] Earth, World; [1–9] world&nbsp;</li>
+                            {{ $trans := . | replaceRE ".*<li><a href=\"/wiki/Englisch\" title=\"Englisch\">Englisch</a>: |</li>.*|<sup>.*?</sup>|<.*?>|&#160;|\\(.*?\\) " "" }}
+
                             {{ if eq (len (findRE "\\[" $trans)) 1}}
                                 {{ $trans = $trans | replaceRE "\\[.*?\\] " "" }}
                             {{ end }}
@@ -95,7 +96,6 @@
                             {{ $html = print $html "<h2>" $article $word "</h2>" }}
                         {{ end }}
                     {{ end }}
-
 
                     <!-- Now analyse everything under the header. -->
                     {{ $entry_rest := . | replaceRE ".*</h3>" "" }}
@@ -143,7 +143,7 @@
                             {{ end }}
                         {{ end }}
 
-                        {{ if in $wc_names "Personalpronomen" }}
+                        {{ if or (in $wc_names "Personalpronomen") (in $wc_names "Adjektiv") }}
                             <!-- Make the word bold in the table. -->
                             {{ $html_table = $html_table | replaceRE (print "<td>([^<]*)(" $word ")\\b") "<td>$1<strong>$2</strong>"}}
                         {{ end }}
@@ -197,7 +197,7 @@
                         {{ if eq $header "Grammatische Merkmale" }}
                             {{ with findRE "flektierte Form von <b>(.*?).</b>" $body }}
                                 {{ $basic_form_instance := index . 0 | replaceRE ".*<b>|\\.</b>" "" }}
-                                {{ if not $basic_form }}
+                                {{ if eq $num_wc 1 }}
                                     {{ $basic_form = $basic_form_instance }}
                                 {{ end }}
 
@@ -240,7 +240,7 @@
 
                     <!-- Wrap in collapsible div. -->
                     {{ $html = print $html "<div data-role=\"collapsible\"" }}
-                    {{ if eq $i 1 }}
+                    {{ if eq $num_wc 1 }}
                         <!-- Expand the first. -->
                         {{ $html = print $html " data-collapsed=\"false\"" }}
                     {{ end }}
@@ -257,45 +257,9 @@
 {{ end }}
 
             <!-- TODO
-
-
-"
-[""<span><i>siehe auch:</i> Grammatik der deutschen Namen</span>""]
-other = ""<Span> <i> see </ i> grammar of the German name </ span>"""
-
-
-["Singular <i>m</i>"]
-other = "Singular <i> m </ i>"
-
-
-["Singular <i>f</i>"]
-other = "Singular <i> f </ i>"
-
-    [" Übersetzungen"]
-other = " translations"
-
-["adjektivische Deklination, f"]
-other = "adjectival declination, f"
-
-                import important vocabulary list
-                maps:
-                  - wordcount: string word -> int count
-                  - synonyms : string word -> string base word
-                  - a1_vocab: string word -> int target count
-                  - custom: string word -> json map custom html, word class etc.  (empty if to be ignored)
-                array:
-                  - unknown_cap
-
-                strategy:
-                  - get dictionary entry, Grundform, lower dictionary entry, Grundform
-                  - if first two in map, then take that, otherwise check other two, otherwise give warning (via unknown_cap)
-
-
-
-                  - words: map of single words (for checking single words quickly and wheather they are written capitalized or not) that map to which dictionary entry I want to show (maybe depending on what other words are in the sentence)
                   - consult docalyzer for counting
-                  - collect unknown words at beginning of sentences, give warning
-
+                Fix last line.
+                Translation: Fix translation already showing in popup
 
                 stop jumping to top when I click on something
 

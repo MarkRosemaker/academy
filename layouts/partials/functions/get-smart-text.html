@@ -1,7 +1,7 @@
 {{ $html   := "" }}
 {{ $popups := "" }}
 {{ $word_classes_all := slice }}
-
+{{ $learned_words := slice }}
 
 {{ $vocab := .Site.Data.a1_vocab }}
 {{ $synonyms := .Site.Data.synonyms }}
@@ -10,83 +10,100 @@
 {{ $input  := replace .de_html "<br>" "<br> " }}
 {{ $input   = replace $input "</p>" "</p> " }}
 
+{{ $input   = replace $input "Authentic German Learning" "Authentic_German_Learning" }}
+
 {{ $sentence_start := true }}
 {{ $i := 0 }}
 {{ range split $input " " }}
     <!-- Seperate the word from surrounding characters. -->
-    {{ $word := . | replaceRE "<.*?>|[^A-Za-zöäüßÖÄÜ-]" "" }}
+    {{ $word := . | replaceRE "<.*?>|[^A-Za-zöäüßÖÄÜ_-]" "" }}
     {{ $pre  := . | replaceRE (print $word ".*") "" }}
     {{ $post := . | replaceRE (print ".*" $word) "" | replaceRE "\n" "" }}
 
-    <!-- Check for synonyms. -->
-    {{ $search := $word }}
-    {{/* if $sentence_start }}
-        {{ $lower := lower $word }}
-        {{ with index $synonyms $lower }}
-            {{ $search = . }}
-        {{ end }}
-        {{ with index $vocab $lower }}
-            {{ $search = . }}
-        {{ end }}
-        {{ with index $custom_words $lower }}
-            {{ $search = $lower }}
-        {{ end }}
-    {{ end }}
-    {{ with index $synonyms $word }}
-        {{ $search = . }}
-    {{ end */}}
+    {{ with $word }}
+        {{ $search := $word }}
+        {{ $word = replace $word "_" " " }}
 
-    <!-- Ge word info from Wiktionary. -->
-    {{ $info := dict }}
-    {{ with index $custom_words $search }}
-        {{ $info = . }}
-    {{ else }}
-        {{ $info = partial "functions/get_word_info.html" $search }}
-    {{ end }}
-
-    <!-- Collect all the attributes and classes of the link element. -->
-    {{ $s := newScratch }}
-    {{ $attr := dict "basic-form" $info.basic_form }}
-    {{ $s.Set "attr" $attr }}
-    {{ $classes := slice }}
-
-    {{ with $info.html }}
-        <!-- Make the word into a popup element. -->
-        {{ $s.SetInMap "attr" "href" (print "#word-" $i) }}
-        {{ $s.SetInMap "attr" "data-rel" "popup" }}
-        {{ $s.SetInMap "attr" "data-transition" "pop" }}
-
-        <!-- Add the html to the popup contents below the text. -->
-        {{ $popup := print "<div class=\"ui-content\" data-role=\"popup\" id=\"word-" $i "\" data-overlay-theme=\"a\" data-position-to=\"window\"><a href=\"#\" data-rel=\"back\" class=\"ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right\">Schließen</a>" . "</div>"}}
-        {{ $popups = print $popups $popup }}
-
-        <!-- Iterate the number for the id. -->
-        {{ $i = add $i 1 }}
-
-        <!-- Define classes of the popup element. -->
-        {{ $classes = $classes | append "word-info" "ui-btn-inline" }}
-
-        <!-- Add word types. -->
-        {{ range $info.word_classes }}
-            {{ $classes = $classes | append (replace . " " "-") }}
-            {{ if not (in $word_classes_all .) }}
-                {{ $word_classes_all = $word_classes_all | append . }}
+        <!-- Check capitalization. -->
+        {{ if $sentence_start }}
+            {{ $lower := lower $word }}
+            {{ if or (isset $synonyms $lower) (isset $vocab $lower) (isset $custom_words $lower) }}
+                <!-- We know the lower variant is correct because we found it in our maps. -->
+                {{ $search = $lower }}
+            {{ else if not (or (isset $synonyms $word) (isset $vocab $word) (isset $custom_words $word)) }}
+                <!-- We must know, set word into a json data map (even if value is empty). -->
+                {{ errorf "Capitalization of \"%s\" unknown." $word }}
             {{ end }}
         {{ end }}
-    {{ end }}
 
-    <!-- Add audio file, if available. -->
-    {{ with $info.audio }}
-        {{ $s.SetInMap "attr" "audio" . }}
-        {{ $classes = $classes | append "audio-available" }}
-    {{ end }}
-
-    {{ with $classes }}
-        {{ $html = print $html $pre "<a " }}
-        {{ range $a, $k := $attr }}
-            {{ $html = print $html $a "=\"" $k "\" " }}
+        <!-- Check for synonyms. -->
+        {{ with index $synonyms $search }}
+            {{ $search = . }}
         {{ end }}
-        {{ $html = print $html "class=\"" (delimit $classes " ") "\">" $word "</a>" $post " "}}
+
+        <!-- Get word info from Wiktionary. -->
+        {{ $info := dict }}
+        {{ with index $custom_words $search }}
+            {{ $info = . }}
+        {{ else }}
+            {{ $info = partial "functions/get_word_info.html" $search }}
+        {{ end }}
+
+        <!-- Collect all the attributes and classes of the link element. -->
+        {{ $s := newScratch }}
+        {{ $attr := dict "basic-form" $info.basic_form }}
+        {{ $s.Set "attr" $attr }}
+        {{ $classes := slice }}
+
+        {{ with $info.html }}
+            <!-- Make the word into a popup element. -->
+            {{ $s.SetInMap "attr" "href" (print "#word-" $i) }}
+            {{ $s.SetInMap "attr" "data-rel" "popup" }}
+            {{ $s.SetInMap "attr" "data-transition" "pop" }}
+
+            <!-- Add the html to the popup contents below the text. -->
+            {{ $popup := print "<div class=\"ui-content\" data-role=\"popup\" id=\"word-" $i "\" data-overlay-theme=\"a\" data-position-to=\"window\"><a href=\"#\" data-rel=\"back\" class=\"ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right\">Schließen</a>" . "</div>"}}
+            {{ $popups = print $popups $popup }}
+
+            <!-- Iterate the number for the id. -->
+            {{ $i = add $i 1 }}
+
+            <!-- Define classes of the popup element. -->
+            {{ $classes = $classes | append "word-info" "ui-btn-inline" }}
+
+            <!-- Add word types. -->
+            {{ range $info.word_classes }}
+                {{ $classes = $classes | append (replace . " " "-") }}
+                {{ if not (in $word_classes_all .) }}
+                    {{ $word_classes_all = $word_classes_all | append . }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+        <!-- Add audio file, if available. -->
+        {{ with $info.audio }}
+            {{ $s.SetInMap "attr" "audio" . }}
+            {{ $classes = $classes | append "audio-available" }}
+        {{ end }}
+
+        <!-- Check if it's an important word. -->
+        {{ with index $vocab $info.basic_form }}
+            {{ $classes = $classes | append "important" }}
+            {{ if not (in $learned_words $info.basic_form) }}
+                {{ $learned_words = $learned_words | append $info.basic_form }}
+            {{ end }}
+        {{ end }}
+
+        {{ with $classes }}
+            {{ $html = print $html $pre "<a " }}
+            {{ range $a, $k := $attr }}
+                {{ $html = print $html $a "=\"" $k "\" " }}
+            {{ end }}
+            {{ $html = print $html "class=\"" (delimit $classes " ") "\">" $word "</a>" $post " "}}
+        {{ else }}
+            {{ errorf "Could not find word \"%s\"." . }}
+            {{ $html = print $html $pre . "* "  $post }}
+        {{ end }}
     {{ else }}
         {{ $html = print $html . " " }}
     {{ end }}
@@ -97,4 +114,4 @@
 <!-- Add disclaimer -->
 {{ $popups = print "<p class=\"disclaimer\"><span lang=\"de\" class=\"de\">Manche Inhalte auf dieser Seite wurden von <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a> entnommen.</span><br><span lang=\"en\" class=\"en other-language\">Some content on this page was extracted from <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a>.</span></p>" $popups }}
 
-{{ return dict "html" $html "popups" $popups "word_classes" $word_classes_all }}
+{{ return dict "html" $html "popups" $popups "word_classes" $word_classes_all "learned_words" $learned_words }}

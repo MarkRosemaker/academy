@@ -138,7 +138,20 @@
         <input type="radio" name="highlight" id="show-wc" />
     </fieldset></form>
 
-    <div id="show-important-expl" class="expl"><p><span lang="de" class="de">Alle wichtigen Wörter werden anfangs <span class="important">gelb</span> hervorgehoben. Alle Wörter, die du schon angeklickt hast, werden <span class="checked">grün</span> hervorgehoben.</span><br><span lang="en" class="en other-language">All important words are initially highlighted in <span class="important">yellow</span>. All words you have already clicked on are highlighted <span class="checked">green</span>.</span></p></div>
+    <div id="show-important-expl" class="expl">
+        <p>
+            <span lang="de" class="de">Alle wichtigen Wörter werden anfangs <span class="important">gelb</span> hervorgehoben. Alle Wörter, die du schon angeklickt hast, werden <span class="checked">grün</span> hervorgehoben.</span><br>
+            <span lang="en" class="en other-language">All important words are initially highlighted in <span class="important">yellow</span>. All words you have already clicked on are highlighted <span class="checked">green</span>.</span>
+        </p>
+        <p>
+            <span lang="de" class="de">Wichtige Wörter, die du in dieser Lektion gelernt hast:</span>
+            {{ range $i, $k := $smart_text.learned_words -}}
+            {{- if ne $i 0 -}}, {{ end -}}
+            <span basic-form="{{- $k -}}" >{{- $k -}}</span>
+            {{- end -}}.<br>
+            <span lang="en" class="en other-language">Important Words you learned in this lesson:</span> <!-- TODO translations -->
+        </p>
+    </div>
 
     <div id="show-genders-expl" class="expl hidden"><p><span lang="de" class="de">Die grammatikalischen Geschlechter von Substantiven werden hervorgehoben, zum Beispiel so: der <span class="noun-m">Mann</span> (männlich), die <span class="noun-f">Frau</span> (weiblich), das <span class="noun-n">Fahrrad</span> (sächlich).</span><br><span lang="en" class="en other-language">The grammatical genders of nouns are highlighted, e.g. like this: the <span class="noun-m">man</span> (masculine), the <span class="noun-f">woman</span> (feminine), the <span class="noun-n">bicycle</span> (neuter).</span></p></div>
 
