@@ -59,7 +59,8 @@
     var SmartPodcastPlayer_uid_9f03c450 = {"errors":[],"options":{"color":"dd0000","download":"false","hover_timestamp":"true","html_assets":"false","marquee":"auto","social":"false","speedcontrol":"true","subscribe_in_stp":"false","position":"bottom","style":"light","sticky":"true","uid":"9f03c450","url":"{{ . }}","view":"responsive","email_portal":"none","artist":"Mark von Authentic German Learning","background_type":"color","background_color":"ffce00","title":"{{ $de_title }}","paid":"true"}};
     /* ]]> */
     </script>
-    <script type='text/javascript' src='https://www.authenticgermanlearning.com/wp-content/plugins/smart-podcast-player/assets/js/main-2.8.0.min.js'></script>
+    {{ $spp_js := resources.Get "js/spp-main-2.8.0.min.js" }}
+    <script type='text/javascript' src='{{ $spp_js.Permalink }}'></script>
     {{ end }}
 
 
