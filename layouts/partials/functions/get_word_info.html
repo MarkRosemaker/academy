@@ -66,7 +66,7 @@
                             {{ $wc_current_name  = . }}
                         {{ end }}
                     {{ end }}
-                    {{ $html_wc_name := print "<span lang=\"de\" class=\"de\">" (delimit $wc_names_infos ", ") "</span><br><span lang=\"en\" class=\"en other-language\">" (delimit $wc_names_infos_i18n ", ") "</span>" }}
+                    {{ $html_wc_name := print "<span lang=\"de\" class=\"de\">" (delimit $wc_names_infos ", ") "</span><br><span lang=\"en\" class=\"en trans\">" (delimit $wc_names_infos_i18n ", ") "</span>" }}
 
                     <!-- Add the word classes to a list to use as css classes. -->
                     {{ $word_classes = $word_classes | append $wc_names }}
@@ -91,7 +91,7 @@
                             {{ end }}
 
                             <!-- Add the word as a big header before the first entry. -->
-                            {{ $html = print $html "<h2><span lang=\"de\" class=\"de\">" $article $word "</span><br><span lang=\"en\" class=\"en other-language\">" $trans "</span></h2>" }}
+                            {{ $html = print $html "<h2><span lang=\"de\" class=\"de\">" $article $word "</span><br><span lang=\"en\" class=\"en trans\">" $trans "</span></h2>" }}
                         {{ else }}
                             {{ $html = print $html "<h2>" $article $word "</h2>" }}
                         {{ end }}
@@ -138,7 +138,7 @@
                             {{ $pre   := . | replaceRE "(<th.*?>).*" "$1" }}
 
                             {{ if and $inner (ne $inner "—") (not (in $inner "Flexion:")) }}
-                                {{ $inner_trans := print $pre "<span lang=\"de\" class=\"de\">" $inner "</span><br><span lang=\"en\" class=\"en other-language\">" (title (i18n $inner)) "</span></th>" }}
+                                {{ $inner_trans := print $pre "<span lang=\"de\" class=\"de\">" $inner "</span><br><span lang=\"en\" class=\"en trans\">" (title (i18n $inner)) "</span></th>" }}
                                 {{ $html_table = $html_table | replaceRE . $inner_trans }}
                             {{ end }}
                         {{ end }}
@@ -170,6 +170,9 @@
                         <!-- Remove rhymes. -->
                         {{ $body = $body | replaceRE "<dd><a href=\"/wiki/Hilfe:Reime\".*?</dd>" "" }}
 
+                        <!-- Remove style information. -->
+                        {{ $body = $body | replaceRE "<table.*?>" "<table>"  | replaceRE "<th.*?>" "<th>" | replaceRE "<td.*?>" "<td>" | replaceRE "<p.*?>" "<p>" | replaceRE "<div([^>]*?)style=\".*?\"([^>]*?)>" "<div$1 $2>" | replaceRE " class=\".*?\"" "" | replaceRE "<div></div>" ""  }}
+
                         <!-- Make audio files playable (not just in pronunciation section). -->
                         {{ $body = $body | replaceRE "<span.*?>|</span.>" "" | replaceRE "(<img[^>]*?Loudspeaker.svg[^>]*?>&#160;)<a href=\"(.*?)\"[^>]*>(.*?)<\\/a>" "<span class=\"audio-available\" audio=\"https:$2\">$1$3</span>" }}
 
@@ -185,13 +188,17 @@
                         {{ end }}
 
                         <!-- Clean up the html including all links. -->
-                        {{ $body = $body | replaceRE "<p class=\"mw-empty-elt\"></p>|<a .*?>|</a>|\\(\\)|<!--.*?-->|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*|<sup.*?</sup>|<p><i><span style=\"visibility:hidden\" id=\"Quellen\">.*|<p><i>Quellen:</i><br>.*|<a[^>]*?><\\/a>" "" }}
+                        {{ $body = $body | replaceRE "<p class=\"mw-empty-elt\"></p>|<a .*?>|</a>|\\(\\)|<!--.*?-->|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*|<sup.*?</sup>|<p><i><span style=\"visibility:hidden\" id=\"Quellen\">.*|<p>.*?Quellen:</i>.*|<a[^>]*?><\\/a>" "" }}
 
-                        <!-- Remove style information. -->
-                        {{ $body = $body | replaceRE "<table.*?>" "<table>"  | replaceRE "<th.*?>" "<th>" | replaceRE "<td.*?>" "<td>" | replaceRE "<p.*?>" "<p>" | replaceRE "<div([^>]*?)style=\".*?\"([^>]*?)>" "<div$1 $2>" | replaceRE " class=\".*?\"" "" | replaceRE "<div></div>" ""  }}
+                        {{ if in $body "Quellen" }}
+                        {{ errorf "%s" $body }}
+                        {{ end }}
 
                         <!-- Clean up whitespaces. -->
                         {{ $body = $body | replaceRE "\\[([0-9]+), ([0-9]+)\\]" "[$1,&#160;$2]"  | replaceRE "#8206;" "&#160;" | replaceRE "(&#160;)+" "&#160;" | replaceRE "&#160; " "&#160;" | replaceRE "&#160;([;,.])" "$1" | replaceRE "\\s+" " " | replaceRE "<div[^>]*>&#160;</div>" "" }}
+
+                        <!-- Correct image source links. -->
+                        {{ $body = $body | replaceRE "src=\"(/w/extensions.*?)\"" "src=\"https://wiktionary.org$1\"" }}
 
                         <!-- Insert the entry for the basic form. -->
                         {{ if eq $header "Grammatische Merkmale" }}
@@ -213,7 +220,7 @@
                         {{ with $body }}
                             {{ with $header }}
                                 <!-- Translate the header. -->
-                                {{ $header = print "<h4><span lang=\"de\" class=\"de\">" $header "</span><br><span lang=\"en\" class=\"en other-language\">" (title (i18n $header)) "</span></h4>" }}
+                                {{ $header = print "<h4><span lang=\"de\" class=\"de\">" $header "</span><br><span lang=\"en\" class=\"en trans\">" (title (i18n $header)) "</span></h4>" }}
 
                                 <!-- Small (or very important) entries are shown. -->
                                 {{ $length := len (replaceRE "<[^>]*>" "" $body) }}
@@ -257,14 +264,14 @@
 {{ end }}
 
             <!-- TODO
-                  - consult docalyzer for counting
-                Fix last line.
-                Translation: Fix translation already showing in popup
+                add audio player
+                show loading
 
                 stop jumping to top when I click on something
 
                 show to people and get feedback
 
+                - consult docalyzer for counting
                 same process for Wiktionary English, kind of merge with the other (e.g. look for matching word class and header, then put in orange in front)
                 check for and fix errors, e.g.
                   - is audio playable?

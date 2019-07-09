@@ -112,6 +112,6 @@
 {{ end }}
 
 <!-- Add disclaimer -->
-{{ $popups = print "<p class=\"disclaimer\"><span lang=\"de\" class=\"de\">Manche Inhalte auf dieser Seite wurden von <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a> entnommen.</span><br><span lang=\"en\" class=\"en other-language\">Some content on this page was extracted from <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a>.</span></p>" $popups }}
+{{ $popups = print "<p class=\"disclaimer\"><span lang=\"de\" class=\"de\">Manche Inhalte auf dieser Seite wurden von <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a> entnommen.</span><br><span lang=\"en\" class=\"en trans\">Some content on this page was extracted from <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a>.</span></p>" $popups }}
 
 {{ return dict "html" $html "popups" $popups "word_classes" $word_classes_all "learned_words" $learned_words }}

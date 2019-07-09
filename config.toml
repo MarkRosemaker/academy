@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
+disableLanguages = ["de"]
 
 title = "Hugo Learn Documentation"
 themesdir = "../.."

@@ -3,49 +3,74 @@ a.word-info,
 	color: inherit;
 	margin: 0;
 	cursor: pointer;
+	text-decoration: initial;
 }
 a.word-info {
 	cursor: help;
 }
 
-#highlight-wrapper.show-important a.important,
-div.expl span.important {
+body.show-genders #show-important-expl,
+body.show-wc #show-important-expl {
+	display: none;
+}
+body.show-important #show-genders-expl,
+body.show-wc #show-genders-expl {
+	display: none;
+}
+body.show-important #show-wc-expl,
+body.show-genders #show-wc-expl {
+	display: none;
+}
+
+body.show-important .important {
     color: #000;
     background-color: #ff0;
 }
 
-#highlight-wrapper.show-important a.checked,
-div.expl span.checked  {
+body.show-important .checked {
     color: #000;
     background-color: #0f0;
 }
-#highlight-wrapper.show-important a.important.checked {
+body.show-important a.important.checked {
 	font-size: bold;
 }
 
-
-#highlight-wrapper.show-wc.Substantiv-enabled a.Substantiv {
-	background-color: #ff7e7e;
+body.show-wc.Substantiv-enabled a.Substantiv {
+	background-color: #ffb9b9;
     color: #000;
 }
-#highlight-wrapper.show-wc.Substantiv-enabled a.Substantiv.wc-other {
-	background-color: #ffa77e;
-	font-size: bold;
-}
-#highlight-wrapper.show-wc.Verb-enabled a.Verb {
-	background-color: #7e8bff;
+
+body.show-wc.Verb-enabled a.Verb {
+	background-color: #b4b9ff;
     color: #000;
 }
-#highlight-wrapper.show-wc.Verb-enabled a.Verb.wc-other {
-	background-color: #7eb2ff;
-	font-size: bold;
-
+body.show-wc.Substantiv-enabled a.Substantiv.wc-other {
+	font-weight: 700;
 }
-#highlight-wrapper.show-wc a.wc-other {
+body.show-wc.Verb-enabled a.Verb.wc-other {
+	font-weight: 700;
+}
+body.show-wc a.wc-other {
 	background-color: #ff0;
     color: #000;
 }
 
+#noscript-warning {
+	color: red;
+	text-align: center;
+	font-size: 200%;
+}
+
+#nocss-warning {
+	display: none;
+}
+
+#unit-frame {
+	width: 90%;
+	margin: 30px auto 100px auto;
+	border-style: inset;
+	padding: 30px
+}
 
 
 table {
@@ -56,30 +81,26 @@ div.caption {
 	margin-bottom: 10px;
 }
 
-span.hide-other-language .other-language {
+body.hide-trans .trans {
 	display: none;
 }
 
-
-
-
-
-.show-gender a.important,
-.show-gender a.checked {
-    background-color: none;
+.ui-popup-container, .ui-popup {
+	width: 95% !important;
+	left: 1% !important;
 }
-.show-genders .noun-m,
-div.expl span.noun-m {
+
+
+
+body.show-genders .noun-m {
     color: #000;
 	background-color: #b4b9ff;
 }
-.show-genders .noun-f,
-div.expl span.noun-f {
+body.show-genders .noun-f {
     color: #000;
 	background-color: #ffb9b9;
 }
-.show-genders .noun-n,
-div.expl span.noun-n {
+body.show-genders .noun-n {
     color: #000;
 	background-color: #c5ffb4;
 }
@@ -89,16 +110,14 @@ div.center {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-
 }
 
 
-.hidden {
-	display: none;
+.trans {
+	color: #ffa600;
 }
-
-.other-language {
-	color: orange;
+.ui-btn-active .trans {
+	color: #ff0;
 }
 
 div.ui-popup {
@@ -150,13 +169,16 @@ div.thumbcaption > p {
 /* Wiktionary Table */
 
 .wikitable {
-	float:right;
-	margin-bottom: 8px;
+	float: right;
+	margin: 8px;
+	border-collapse: collapse;
 }
 .wikitable > tr > th, .wikitable > * > tr > th {
     background-color: #eaecf0;
 	text-align: center;
+	vertical-align: middle;
 }
 .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
     border: 1px solid #a2a9b1;
+	padding: 0.5rem;
 }

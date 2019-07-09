@@ -8,6 +8,7 @@ layout = "unit"
 categories = ["Mentalität"]
 draft = true
 spellchecked = false
+audio = "http://traffic.libsyn.com/authenticgermanlearning/AGLP0062_Weltanschauung_Vokabel.mp3"
 +++
 
 Hello, I am Mark of Authentic German Learning.

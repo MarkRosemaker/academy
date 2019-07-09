@@ -5,9 +5,10 @@
 {{ $jQM5 := resources.Get "css/jquery.mobile.inline-svg-1.4.5.css" }}
 {{ $jQM6 := resources.Get "css/jquery.mobile.inline-png-1.4.5.css" }}
 {{ $jQM7 := resources.Get "css/jquery.mobile.external-png-1.4.5.css" }}
-{{ $jQM8 := resources.Get "css/jquery.mobile.custom.css" }}
 
-{{ $bundle := slice $jQM1 $jQM2 $jQM3 $jQM4 $jQM5 $jQM6 $jQM7 $jQM8 }}
+{{ $custom := resources.Get "css/jquery.mobile.custom.css" }}
+
+{{ $bundle := slice $jQM1 $jQM2 $jQM3 $jQM4 $jQM5 $jQM6 $jQM7 $custom }}
 
 {{ $bundle := $bundle | resources.Concat "css/bundle.css" }}
 {{ $css := $bundle | resources.Minify | resources.Fingerprint "sha512" }}

@@ -3,6 +3,17 @@
 
 <!-- jQuery Mobile for popups etc. (build only what you need here: https://jquerymobile.com/download-builder/) -->
 {{- $jQueryMobile := resources.Get "/js/jquery/jquery.mobile-1.4.5.js" -}}
-{{- $jQueryAudio := resources.Get "js/jquery/jquery.audio.js" }}
-{{ $js  := slice $jQuery $jQueryMobile $jQueryAudio | resources.Concat "js/scripts.js" | resources.Minify | resources.Fingerprint "sha512" }}
+
+{{- $custom := resources.Get "js/custom.js" }}
+{{ $js  := slice $jQuery $jQueryMobile $custom | resources.Concat "js/scripts.js" | resources.Minify | resources.Fingerprint "sha512" }}
+
+
+
+{{ $spp_css := resources.Get "css/spp-2.8.0.css" }}
+
+<script src="{{"js/jquery-3.3.1.min.js"| relURL}}"></script>
+<div class="smart-track-player-container stp-color-dd0000-ffce00" data-uid="9f03c450"></div>
+<link rel='stylesheet' id='smart-podcast-player-plugin-styles-css' href='{{ $spp_css.Permalink }}' type='text/css' media='all' />
+<script type='text/javascript' src='https://c0.wp.com/c/5.0.3/wp-includes/js/underscore.min.js'></script>
+
 <script defer src="{{ $js.Permalink }}"></script>

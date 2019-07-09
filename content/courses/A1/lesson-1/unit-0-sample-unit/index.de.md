@@ -5,7 +5,7 @@ weight = 0
 type = "course"
 layout = "unit"
 
-categories = []
+categories = ["Mentalität"]
 draft = true
 spellchecked = false
 +++
@@ -19,6 +19,5 @@ Mir geht es gut. Geht es dir besser?
 Danke der Nachfrage.
 
 Ich möchte gehen.
-
 
 Ich gehe zu dir.

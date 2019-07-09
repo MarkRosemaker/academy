@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ hugo.Generator }}
-    {{ partial "meta.html" . }}
+    {{/* partial "meta.html" . }}
     {{ partial "favicon.html" . }}
     <title>{{ .Title }} :: {{ .Site.Title }}</title>
 
@@ -21,12 +21,13 @@
     {{with .Site.Params.themeVariant}}
       <link href="{{(printf "css/theme-%s.css" .) | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
     {{end}}
-    <script src="{{"js/jquery-3.3.1.min.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+    <script src="{{"js/jquery-3.3.1.min.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>*/}}
 
-    {{ partial "styles.html" }}
-    {{ partial "scripts.html" }}
 
-    <style>
+    {{ partial "styles.html" .Page }}
+    {{ partial "scripts.html" .Page }}
+
+    <!-- <style>
       :root #header + #content > #left > #rlblock_left{
           display:none !important;
       }
@@ -35,11 +36,36 @@
             display: none;
         }
       {{ end }}
-    </style>
-    {{ partial "custom-header.html" . }}
+    </style>-->
+    {{/* partial "custom-header.html" . */}}
+
+    <!-- Get German HTML -->
+    {{ $de_title := "" }}
+    {{ $de_html := "" }}
+    {{ if eq "de" .Lang }}
+        {{ $de_html = .Content }}
+    {{ else }}
+        {{ $index_de := print .File.Dir "index.de.md" | replaceRE "\\\\" "/" }}
+        {{ if fileExists $index_de }}
+            {{ $de_title = readFile $index_de | replaceRE "(?s:\\+\\+\\+.*?title = \"(.*?)\".*?\\+\\+\\+.*)" "$1"  | markdownify }}
+            {{ $de_html = readFile $index_de | replaceRE "(?s:\\+\\+\\+.*\\+\\+\\+)" "" | markdownify }}
+        {{ end }}
+    {{ end }}
+
+    {{ with .Page.Params.audio }}
+    <script type='text/javascript'>
+    /* <![CDATA[ */
+    var AP_Player = {"homeUrl":"https:\/\/www.authenticgermanlearning.com","baseUrl":"https:\/\/www.authenticgermanlearning.com\/wp-content\/plugins\/smart-podcast-player\/assets\/js\/","version":"2.8.0","licensed":"1"};
+    var SmartPodcastPlayer_uid_9f03c450 = {"errors":[],"options":{"color":"dd0000","download":"false","hover_timestamp":"true","html_assets":"false","marquee":"auto","social":"false","speedcontrol":"true","subscribe_in_stp":"false","position":"bottom","style":"light","sticky":"true","uid":"9f03c450","url":"{{ . }}","view":"responsive","email_portal":"none","artist":"Mark von Authentic German Learning","background_type":"color","background_color":"ffce00","title":"{{ $de_title }}","paid":"true"}};
+    /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://www.authenticgermanlearning.com/wp-content/plugins/smart-podcast-player/assets/js/main-2.8.0.min.js'></script>
+    {{ end }}
+
+
   </head>
-  <body class="" data-url="{{ .RelPermalink }}">
-    {{ partial "menu.html" . }}
+  <body class="" data-url="{{ .RelPermalink }}"><div id="unit-frame">
+      <!--   {{ partial "menu.html" . }}
         <section id="body">
         <div id="overlay"></div>
         <div class="padding highlightable">
@@ -69,45 +95,37 @@
             {{ end }}
         <div id="head-tags">
         {{ partial "tags.html" . }}
-        </div>
+        </div>-->
         <div id="body-inner">
 
-<!-- Get German HTML -->
-{{ $de_title := "" }}
-{{ $de_html := "" }}
-{{ if eq "de" .Lang }}
-	{{ $de_html = .Content }}
-{{ else }}
-	{{ $index_de := print .File.Dir "index.de.md" | replaceRE "\\\\" "/" }}
-    {{ if fileExists $index_de }}
-        {{ $de_title = readFile $index_de | replaceRE "(?s:\\+\\+\\+.*?title = \"(.*?)\".*?\\+\\+\\+.*)" "$1"  | markdownify }}
-        {{ $de_html = readFile $index_de | replaceRE "(?s:\\+\\+\\+.*\\+\\+\\+)" "" | markdownify }}
-	{{ end }}
-{{ end }}
 
-<span id="language-wrapper" class="hide-other-language">
-<label for="show-translation"><span lang="de" class="de">Zeige die Übersetzung</span><br><span lang="en" class="en other-language">Show the Translation</span></label>
-<input type="checkbox" name="show-translation" id="show-translation" />
+
+<label for="show-trans"><span lang="de" class="de">Zeige die Übersetzung</span><br><span lang="en" class="en trans">Show the Translation</span></label>
+<input type="checkbox" name="show-trans" id="show-trans" />
 
 <h1>{{ with and (ne "de" .Lang) $de_title }}
     <span lang="de" class="de">{{ . }}</span><br>
-    <span lang="{{ $.Lang }}" class="{{ $.Lang }} other-language">{{ $.Title }}</span>
+    <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ $.Title }}</span>
 
     {{ else }}
         {{ .Title }}
     {{ end }}
 </h1>
 
+<p id="noscript-warning">If you can see this text then the script is not working!<br>Please enable scripts on this page and use a modern browser.</p>
+
+<p id="nocss-warning" style="color: red; font-size: 200%;" align="center">If you can see this text then the css was not properly loaded.</p>
+
 {{ with $de_html }}
     <!-- Instruction. -->
-    <p><span lang="de" class="de">Klicke unten auf ein deutsches Wort, um nützliche Informationen zu bekommen.</span><br><span lang="en" class="en other-language">Click on a German word below to get useful information.</span></p>
+    <p><span lang="de" class="de">Klicke unten auf ein deutsches Wort, um nützliche Informationen zu bekommen.</span><br><span lang="en" class="en trans">Click on a German word below to get useful information.</span></p>
 
     <hr>
 
 	<!-- Improve presentation of German text. -->
 	{{ $smart_text := partial "functions/get-smart-text" (dict "de_html" $de_html "Site" $.Site) }}
 
-	<div class="show-important Substantiv-enabled Verb-enabled" id="highlight-wrapper">
+	<div class="show-important Substantiv-enabled Verb-enabled" id="unit">
 
 	{{ if eq "de" $.Lang }}
 		{{ $smart_text.html | safeHTML }}
@@ -120,42 +138,42 @@
 		{{ $k := sub (len $de) 1 }}
 		{{ range $i := seq 1 $k }}
 			<p><span lang="de" class="de">{{ index $de (sub $i 1) | replaceRE "<p>|</p>" "" | safeHTML }}</span><br>
-			<span lang="{{ $.Lang }}" class="{{ $.Lang }} other-language">{{ index $other $i | replaceRE "<p>|</p>|\n" "" | safeHTML }}</span></p>
+			<span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ index $other $i | replaceRE "<p>|</p>|\n" "" | safeHTML }}</span></p>
 		{{ end }}
 
 	{{ end }}
 	</div>
 	<hr>
 
-	<p><span lang="de" class="de">Wähle aus, was du hervorheben möchtest:</span><br><span lang="en" class="en other-language">Select what you want to highlight:</span></p>
+	<p><span lang="de" class="de">Wähle aus, was du hervorheben möchtest:</span><br><span lang="en" class="en trans">Select what you want to highlight:</span></p>
 
     <form><fieldset data-role="controlgroup" data-type="horizontal">
-        <label for="show-important"><span lang="de" class="de">Wichtige Wörter</span><br><span lang="en" class="en other-language">Important Words</span></label>
+        <label for="show-important"><span lang="de" class="de">Wichtige Wörter</span><br><span lang="en" class="en trans">Important Words</span></label>
         <input type="radio" name="highlight" id="show-important" checked/>
-        <label for="show-genders"><span lang="de" class="de">Genera</span><br><span lang="en" class="en other-language">Genders</span></label>
+        <label for="show-genders"><span lang="de" class="de">Genera</span><br><span lang="en" class="en trans">Genders</span></label>
         <input type="radio" name="highlight" id="show-genders" />
-        <label for="show-wc"><span lang="de" class="de">Wortarten</span><br><span lang="en" class="en other-language">Word Classes</span></label>
+        <label for="show-wc"><span lang="de" class="de">Wortarten</span><br><span lang="en" class="en trans">Word Classes</span></label>
         <input type="radio" name="highlight" id="show-wc" />
     </fieldset></form>
 
     <div id="show-important-expl" class="expl">
         <p>
             <span lang="de" class="de">Alle wichtigen Wörter werden anfangs <span class="important">gelb</span> hervorgehoben. Alle Wörter, die du schon angeklickt hast, werden <span class="checked">grün</span> hervorgehoben.</span><br>
-            <span lang="en" class="en other-language">All important words are initially highlighted in <span class="important">yellow</span>. All words you have already clicked on are highlighted <span class="checked">green</span>.</span>
+            <span lang="en" class="en trans">All important words are initially highlighted in <span class="important">yellow</span>. All words you have already clicked on are highlighted <span class="checked">green</span>.</span>
         </p>
+        {{ $learned := slice }}
+        {{ range $smart_text.learned_words -}}
+            {{ $learned = $learned | append (print "<span basic-form=\"" . "\">" . "</span>") }}
+        {{- end -}}
         <p>
-            <span lang="de" class="de">Wichtige Wörter, die du in dieser Lektion gelernt hast:</span>
-            {{ range $i, $k := $smart_text.learned_words -}}
-            {{- if ne $i 0 -}}, {{ end -}}
-            <span basic-form="{{- $k -}}" >{{- $k -}}</span>
-            {{- end -}}.<br>
-            <span lang="en" class="en other-language">Important Words you learned in this lesson:</span> <!-- TODO translations -->
+            <span lang="de" class="de">Wichtige Wörter, die du in dieser Lektion gelernt hast: {{ delimit $learned ", "}}</span>.<br>
+            <span lang="en" class="en trans">Important Words you learned in this lesson: {{ delimit $learned ", "}}.</span>
         </p>
     </div>
 
-    <div id="show-genders-expl" class="expl hidden"><p><span lang="de" class="de">Die grammatikalischen Geschlechter von Substantiven werden hervorgehoben, zum Beispiel so: der <span class="noun-m">Mann</span> (männlich), die <span class="noun-f">Frau</span> (weiblich), das <span class="noun-n">Fahrrad</span> (sächlich).</span><br><span lang="en" class="en other-language">The grammatical genders of nouns are highlighted, e.g. like this: the <span class="noun-m">man</span> (masculine), the <span class="noun-f">woman</span> (feminine), the <span class="noun-n">bicycle</span> (neuter).</span></p></div>
+    <div id="show-genders-expl" class="expl"><p><span lang="de" class="de">Die grammatikalischen Geschlechter von Substantiven werden hervorgehoben, zum Beispiel so: der <span class="noun-m">Mann</span> (männlich), die <span class="noun-f">Frau</span> (weiblich), das <span class="noun-n">Fahrrad</span> (sächlich).</span><br><span lang="en" class="en trans">The grammatical genders of nouns are highlighted, e.g. like this: the <span class="noun-m">man</span> (masculine), the <span class="noun-f">woman</span> (feminine), the <span class="noun-n">bicycle</span> (neuter).</span></p></div>
 
-    <div id="show-wc-expl" class="expl hidden"><p><span lang="de" class="de">Wortarten werden farblich hervorgehoben:</span><br><span lang="en" class="en other-language">Word classes are being highlighted:</span></p>
+    <div id="show-wc-expl" class="expl"><p><span lang="de" class="de">Wortarten werden farblich hervorgehoben:</span><br><span lang="en" class="en trans">Word classes are being highlighted:</span></p>
 
         <form><fieldset data-role="controlgroup">
         {{ $word_classes_main := slice "Substantiv" "Verb"}}
@@ -163,7 +181,7 @@
             {{ if in $smart_text.word_classes . }}
                 {{ $hyphenated := replace . " " "-" }}
                 <label for="{{ $hyphenated }}-enabled"><span class="{{ $hyphenated }}"><span lang="de" class="de">{{ . }}</span></span><br>
-                <span lang="{{ $.Lang }}" class="{{ $.Lang }} other-language">{{ i18n . }}</span></label>
+                <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ i18n . }}</span></label>
                 <input type="checkbox" name="{{ $hyphenated }}-enabled" id="{{ $hyphenated }}-enabled" class="check-wc-main" checked="checked" />
             {{ end }}
         {{ end }}
@@ -173,12 +191,12 @@
             {{ if and (not (in $word_classes_main .)) (lt (len (findRE "\\Anoun-[mfn]" .)) 1) }}
                 {{ $hyphenated := replace . " " "-" }}
                 <label for="{{ $hyphenated }}"><span lang="de" class="de wc-selection">{{ . }}</span></span><br>
-                    <span lang="{{ $.Lang }}" class="{{ $.Lang }} other-language">{{ i18n . }}</span></label>
+                    <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ i18n . }}</span></label>
 			    <input type="radio" name="wc-choice" id="{{ $hyphenated }}" class="check-wc-choice" />
             {{ end }}
         {{ end }}
         </fieldset></form>
-        <p><span lang="de" class="de">Achtung: Die Wörter werden nicht unbedingt mit der bestimmten Wortart gebraucht, die hervorgehoben wird. Es bedeutet lediglich, dass das Wort als Mitglied dieser Wortart gebraucht werden kann.</span><br><span lang="en" class="en other-language">Note: The words are not necessarily used with the particular word class that is highlighted. It just means that the word can be used as an member of this word class.</span></p>
+        <p><span lang="de" class="de">Achtung: Die Wörter werden nicht unbedingt mit der bestimmten Wortart gebraucht, die hervorgehoben wird. Es bedeutet lediglich, dass das Wort als Mitglied dieser Wortart gebraucht werden kann.</span><br><span lang="en" class="en trans">Note: The words are not necessarily used with the particular word class that is highlighted. It just means that the word can be used as an member of this word class.</span></p>
     </div>
 
 
@@ -190,17 +208,11 @@
 
 
     {{ $smart_text.popups | safeHTML }}
-    </span><!-- #language-wrapper -->
-	<!-- TODO audio player -->
 {{ else }}
 	{{ $.Content }}
 {{ end }}
 
-
-
-
-
-
+<script>document.getElementById("noscript-warning").innerHTML = '<img src="/css/images/ajax-loader.gif" width="46" height="46" />';</script>
 
 <!--footer class=" footline" >
 	{{with .Params.LastModifierDisplayName}}
@@ -212,5 +224,7 @@
 
 {{/* partial "footer.html" . */}}
 
+</div>
+</body>
 
 
