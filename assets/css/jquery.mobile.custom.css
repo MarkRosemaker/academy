@@ -82,6 +82,9 @@ div.caption {
 }
 
 body.hide-trans .trans {
+	visibility: hidden;
+}
+body.hide-trans .ui-popup-container .trans {
 	display: none;
 }
 

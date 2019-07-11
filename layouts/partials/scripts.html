@@ -7,8 +7,6 @@
 {{- $custom := resources.Get "js/custom.js" }}
 {{ $js  := slice $jQuery $jQueryMobile $custom | resources.Concat "js/scripts.js" | resources.Minify | resources.Fingerprint "sha512" }}
 
-
-
 {{ $spp_css := resources.Get "css/spp-2.8.0.css" }}
 
 <script src="{{"js/jquery-3.3.1.min.js"| relURL}}"></script>
