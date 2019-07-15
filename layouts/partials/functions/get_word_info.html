@@ -188,7 +188,7 @@
                         {{ end }}
 
                         <!-- Clean up the html including all links. -->
-                        {{ $body = $body | replaceRE "<p class=\"mw-empty-elt\"></p>|<a .*?>|</a>|\\(\\)|<!--.*?-->|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*|<sup.*?</sup>|<p><i><span style=\"visibility:hidden\" id=\"Quellen\">.*|<p>.*?Quellen:</i>.*|<a[^>]*?><\\/a>" "" }}
+                        {{ $body = $body | replaceRE "<p class=\"mw-empty-elt\"></p>|<a .*?>|</a>|\\(\\)|<!--.*?-->|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*|<sup.*?</sup>|<p><i><span style=\"visibility:hidden\" id=\"Quellen\">.*|<p>.*?Quellen:</i>.*|<a[^>]*?><\\/a>|<table><tbody><tr><th>Dialektausdrücke:</th></tr><tr><td><div id=\"Vorlage_Uberarbeiten\".*|<div id=\"Vorlage_Uberarbeiten\".*" "" }}
 
                         {{ if in $body "Quellen" }}
                         {{ errorf "%s" $body }}
@@ -232,9 +232,12 @@
                                 {{ end }}
 
                                 <!-- If there is audio in the body, play the first one when clicking on the header. -->
-                                {{ with index (findRE "\"https://upload.*?\"" $body) 0 }}
-                                    {{ $html_item = replaceRE "<h4>(.*?)</h4>" (print "<h4 audio=" . " class=\"audio-available\">$1</h4>") $html_item }}
-                                {{ end }}<!-- end with $header  -->
+                                {{ if in $header "Aussprache" }}
+                                    {{ with index (findRE "\"https://upload.*?\"" $body) 0 }}
+                                        {{ $html_item = replaceRE "<h4>(.*?)</h4>" (print "<h4 audio=" . " class=\"audio-available\">$1</h4>") $html_item }}
+                                    {{ end }}<!-- end with $header  -->
+                                {{ end }}
+
                             {{ else }}
                                 {{ $html_item = $body }}
 
@@ -270,6 +273,9 @@
                 same process for Wiktionary English, kind of merge with the other (e.g. look for matching word class and header, then put in orange in front)
                 check for and fix errors, e.g.
                 stop jumping to top when I click on something
+
+
+                <table><tbody><tr><th>Dialektausdrücke:</th></tr><tr><td><div id="Vorlage_Uberarbeiten"><table><tbody><tr><td><img alt="Inv-Icon tools.png" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Inv-Icon_tools.png/24px-Inv-Icon_tools.png" decoding="async" width="24" height="24" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Inv-Icon_tools.png/36px-Inv-Icon_tools.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Inv-Icon_tools.png/48px-Inv-Icon_tools.png 2x" data-file-width="150" data-file-height="150"></td><td>Dieser Eintrag oder Abschnitt bedarf einer Überarbeitung. Hilf bitte mit, ihn zu verbessern, und entferne anschließend diese Markierung.<div style="display: none;" id="word-10-placeholder"><!-- placeholder for word-10 --></div><div style="display: none;" id="word-11-placeholder"><!-- placeholder for word-11 --></div><div style="display: none;" id="word-12-placeholder"><!-- placeholder for word-12 --></div><div style="display: none;" id="word-13-placeholder"><!-- placeholder for word-13 --></div></td></tr></tbody></table></div></td></tr></tbody></table>
             -->
 
             {{ return dict "html" $html "audio" $audio "word_classes" $word_classes "basic_form" $basic_form }}

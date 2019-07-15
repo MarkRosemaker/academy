@@ -4,40 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ hugo.Generator }}
-    {{/* partial "meta.html" . }}
-    {{ partial "favicon.html" . }}
-    <title>{{ .Title }} :: {{ .Site.Title }}</title>
-
-    {{ $assetBusting := not .Site.Params.disableAssetsBusting }}
-    <link href="{{"css/nucleus.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/fontawesome-all.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/hybrid.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/featherlight.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/perfect-scrollbar.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/auto-complete.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/atom-one-dark-reasonable.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/theme.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/hugo-theme.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    {{with .Site.Params.themeVariant}}
-      <link href="{{(printf "css/theme-%s.css" .) | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    {{end}}
-    <script src="{{"js/jquery-3.3.1.min.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>*/}}
 
 
-    {{ partial "styles.html" .Page }}
-    {{ partial "scripts.html" .Page }}
-
-    <!-- <style>
-      :root #header + #content > #left > #rlblock_left{
-          display:none !important;
-      }
-      {{ if .Site.Params.disableInlineCopyToClipBoard }}
-        :not(pre) > code + span.copy-to-clipboard {
-            display: none;
-        }
-      {{ end }}
-    </style>-->
-    {{/* partial "custom-header.html" . */}}
 
     <!-- Get German HTML -->
     {{ $de_title := "" }}
@@ -52,180 +20,122 @@
         {{ end }}
     {{ end }}
 
+    {{ $html := "" }}
+
+    <!-- Add Audio Player -->
     {{ with .Page.Params.audio }}
-    <script type='text/javascript'>
-    /* <![CDATA[ */
-    var AP_Player = {"homeUrl":"https:\/\/www.authenticgermanlearning.com","baseUrl":"https:\/\/www.authenticgermanlearning.com\/wp-content\/plugins\/smart-podcast-player\/assets\/js\/","version":"2.8.0","licensed":"1"};
-    var SmartPodcastPlayer_uid_9f03c450 = {"errors":[],"options":{"color":"dd0000","download":"false","hover_timestamp":"true","html_assets":"false","marquee":"auto","social":"false","speedcontrol":"true","subscribe_in_stp":"false","position":"bottom","style":"light","sticky":"true","uid":"9f03c450","url":"{{ . }}","view":"responsive","email_portal":"none","artist":"Mark von Authentic German Learning","background_type":"color","background_color":"ffce00","title":"{{ $de_title }}","paid":"true"}};
-    /* ]]> */
-    </script>
-    {{ $spp_js := resources.Get "js/spp-main-2.8.0.min.js" }}
-    <script type='text/javascript' src='{{ $spp_js.Permalink }}'></script>
+        {{ $player1 := dict "version" "2.8.0" "licensed" "1" | jsonify  }}
+        {{ $player2 := dict "errors" slice "options" (dict "color" "dd0000" "download" "false" "hover_timestamp" "true" "html_assets" "false" "marquee" "auto" "social" "false" "speedcontrol" "true" "subscribe_in_stp" "false" "position" "bottom" "style" "light" "sticky" "true" "uid" "9f03c450" "url" . "view" "responsive" "email_portal" "none" "artist" "Mark von Authentic German Learning" "background_type" "color" "background_color" "ffce00" "title" $de_title "paid" "true") | jsonify  }}
+        {{ $html = print "<script type='text/javascript'>\nvar AP_Player = " $player1 ";\nvar SmartPodcastPlayer_uid_9f03c450 = " $player2 ";</script>\n<div class=\"smart-track-player-container stp-color-dd0000-ffce00\" data-uid=\"9f03c450\"></div>\n" }}
     {{ end }}
 
+    {{ partial "styles.html" .Page }}
+    {{ partial "scripts.html" .Page }}
+</head><body>
 
-  </head>
-  <body class="" data-url="{{ .RelPermalink }}"><div id="unit-frame">
-      <!--   {{ partial "menu.html" . }}
-        <section id="body">
-        <div id="overlay"></div>
-        <div class="padding highlightable">
-              {{if not .IsHome}}
-              <div>
-                <div id="top-bar">
-                {{$toc := (and (not .Params.disableToc) (not .Params.chapter))}}
-                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <span id="sidebar-toggle-span">
-                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-                          <i class="fas fa-bars"></i>
-                        </a>
-                    </span>
-                  {{ if $toc }}
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  {{ end }}
-                  <span class="links">
-                 {{$showBreadcrumb := (and (not .Params.disableBreadcrumb) (not .Site.Params.disableBreadcrumb))}}
-                   {{ .Title }}
-                  </span>
-                </div>
-                {{ if $toc }}
-                    {{ partial "toc.html" . }}
-                {{ end }}
-              </div>
-            </div>
-            {{ end }}
-        <div id="head-tags">
-        {{ partial "tags.html" . }}
-        </div>-->
-        <div id="body-inner">
+    <!-- Add Translation Toggle – now done via Javascript -->
+    {{/* $html = print $html "<div id=\"show-trans-cb\"><label for=\"show-trans\" id=\"show-trans-label\" class=\"ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-checkbox-off\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d7/Google_Translate_logo.svg\" height=20 /><span lang=\"de\" class=\"de\">Zeige die Übersetzung</span> <span lang=\"en\" class=\"en trans\">Show the Translation</span></label><input type=\"checkbox\" name=\"show-trans\" id=\"show-trans\"></div>" */}}
 
-
-
-<label for="show-trans"><span lang="de" class="de">Zeige die Übersetzung</span><br><span lang="en" class="en trans">Show the Translation</span></label>
-<input type="checkbox" name="show-trans" id="show-trans" />
-
-<h1>{{ with and (ne "de" .Lang) $de_title }}
-    <span lang="de" class="de">{{ . }}</span><br>
-    <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ $.Title }}</span>
-
+    <!-- Lesson title -->
+    {{ $html = print $html "<h1>" }}
+    {{ with and (ne "de" .Lang) $de_title }}
+        {{ $html = print $html  "<span lang=\"de\" class=\"de\">" . "</span><br><span lang=\"" $.Lang "\" class=\"" $.Lang " trans\">" $.Title "</span>" }}
     {{ else }}
-        {{ .Title }}
+        {{ $html = print $html .Title }}
     {{ end }}
-</h1>
+    {{ $html = print $html "</h1>"}}
 
-<p id="noscript-warning">If you can see this text then the script is not working!<br>Please enable scripts on this page and use a modern browser.</p>
+    <!-- Script And CSS Error Warning -->
+    {{ $html = print $html "<p id=\"noscript-warning\">If you can see this text then the script is not working!<br>Please enable scripts on this page and use a modern browser.</p><script>document.getElementById(\"noscript-warning\").innerHTML = '<img src=\"https://raw.githubusercontent.com/jquery/jquery-mobile/master/css/themes/default/images/ajax-loader.gif\" width=\"46\" height=\"46\" />';</script><p id=\"nocss-warning\" style=\"color: red; font-size: 200%;\" align=\"center\">If you can see this text then the css was not properly loaded.</p>"}}
 
-<p id="nocss-warning" style="color: red; font-size: 200%;" align="center">If you can see this text then the css was not properly loaded.</p>
 
-{{ with $de_html }}
-    <!-- Instruction. -->
-    <p><span lang="de" class="de">Klicke unten auf ein deutsches Wort, um nützliche Informationen zu bekommen.</span><br><span lang="en" class="en trans">Click on a German word below to get useful information.</span></p>
+    {{ with $de_html }}
+        <!-- Instruction. -->
+        {{/* $html = print $html "<p><span lang=\"de\" class=\"de\">Klicke unten auf ein deutsches Wort, um nützliche Informationen zu bekommen.</span><br><span lang=\"en\" class=\"en trans\">Click on a German word below to get useful information.</span></p><hr>" */}}
 
-    <hr>
+        <!-- Improve presentation of German text. -->
+        {{ $smart_text := partial "functions/get-smart-text" (dict "de_html" $de_html "Site" $.Site) }}
 
-	<!-- Improve presentation of German text. -->
-	{{ $smart_text := partial "functions/get-smart-text" (dict "de_html" $de_html "Site" $.Site) }}
+        <!-- Unit Wrapper -->
+        {{ $html = print $html "<div class=\"show-important Substantiv-enabled Verb-enabled\" id=\"unit\">" }}
 
-	<div class="show-important Substantiv-enabled Verb-enabled" id="unit">
+        {{ if eq "de" $.Lang }}
+            {{ $html = print $html $smart_text.html }}
+        {{ else }}
 
-	{{ if eq "de" $.Lang }}
-		{{ $smart_text.html | safeHTML }}
-	{{ else }}
+            <!-- Display both languages side by side. -->
+            {{ $de := split $smart_text.html "</p>" }}
+            {{ $other := split $.Content "<p>" }}
 
-		<!-- Display both languages side by side. -->
-		{{ $de := split $smart_text.html "</p>" }}
-		{{ $other := split $.Content "<p>" }}
+            {{ $k := sub (len $de) 1 }}
+            {{ range $i := seq 1 $k }}
+                {{ $html = print $html "<p><span lang=\"de\" class=\"de\">" (index $de (sub $i 1) | replaceRE "<p>|</p>" "") "</span><br><span lang=\"" $.Lang "\" class=\"" $.Lang " trans\">" (index $other $i | replaceRE "<p>|</p>|\n" "") "</span></p>" }}
+            {{ end }}
 
-		{{ $k := sub (len $de) 1 }}
-		{{ range $i := seq 1 $k }}
-			<p><span lang="de" class="de">{{ index $de (sub $i 1) | replaceRE "<p>|</p>" "" | safeHTML }}</span><br>
-			<span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ index $other $i | replaceRE "<p>|</p>|\n" "" | safeHTML }}</span></p>
-		{{ end }}
+        {{ end }}
 
-	{{ end }}
-	</div>
-	<hr>
+        {{ $html = print $html "</div><hr>" }}<!-- end #unit -->
 
-	<p><span lang="de" class="de">Wähle aus, was du hervorheben möchtest:</span><br><span lang="en" class="en trans">Select what you want to highlight:</span></p>
+         <!-- Toggle options -->
+         {{ $html = print $html "<p><span lang=\"de\" class=\"de\">Wähle aus, was du hervorheben möchtest:</span><br><span lang=\"en\" class=\"en trans\">Select what you want to highlight:</span></p><form><fieldset data-role=\"controlgroup\" data-type=\"horizontal\"><label for=\"show-important\"><span lang=\"de\" class=\"de\">Wichtige Wörter</span><br><span lang=\"en\" class=\"en trans\">Important Words</span></label><input type=\"radio\" name=\"highlight\" id=\"show-important\" checked/><label for=\"show-genders\"><span lang=\"de\" class=\"de\">Genera</span><br><span lang=\"en\" class=\"en trans\">Genders</span></label><input type=\"radio\" name=\"highlight\" id=\"show-genders\" /><label for=\"show-wc\"><span lang=\"de\" class=\"de\">Wortarten</span><br><span lang=\"en\" class=\"en trans\">Word Classes</span></label><input type=\"radio\" name=\"highlight\" id=\"show-wc\" /></fieldset></form>" }}
 
-    <form><fieldset data-role="controlgroup" data-type="horizontal">
-        <label for="show-important"><span lang="de" class="de">Wichtige Wörter</span><br><span lang="en" class="en trans">Important Words</span></label>
-        <input type="radio" name="highlight" id="show-important" checked/>
-        <label for="show-genders"><span lang="de" class="de">Genera</span><br><span lang="en" class="en trans">Genders</span></label>
-        <input type="radio" name="highlight" id="show-genders" />
-        <label for="show-wc"><span lang="de" class="de">Wortarten</span><br><span lang="en" class="en trans">Word Classes</span></label>
-        <input type="radio" name="highlight" id="show-wc" />
-    </fieldset></form>
+        <!-- Important Words -->
+        {{ $html = print $html "<div id=\"show-important-expl\" class=\"expl\"><p><span lang=\"de\" class=\"de\">Alle wichtigen Wörter werden anfangs <span class=\"important\">gelb</span> hervorgehoben. Alle Wörter, die du schon angeklickt hast, werden <span class=\"checked\">grün</span> hervorgehoben.</span><br><span lang=\"en\" class=\"en trans\">All important words are initially highlighted in <span class=\"important\">yellow</span>. All words you have already clicked on are highlighted <span class=\"checked\">green</span>.</span></p>" }}
 
-    <div id="show-important-expl" class="expl">
-        <p>
-            <span lang="de" class="de">Alle wichtigen Wörter werden anfangs <span class="important">gelb</span> hervorgehoben. Alle Wörter, die du schon angeklickt hast, werden <span class="checked">grün</span> hervorgehoben.</span><br>
-            <span lang="en" class="en trans">All important words are initially highlighted in <span class="important">yellow</span>. All words you have already clicked on are highlighted <span class="checked">green</span>.</span>
-        </p>
         {{ $learned := slice }}
         {{ range $smart_text.learned_words -}}
             {{ $learned = $learned | append (print "<span basic-form=\"" . "\">" . "</span>") }}
         {{- end -}}
-        <p>
-            <span lang="de" class="de">Wichtige Wörter, die du in dieser Lektion gelernt hast: {{ delimit $learned ", "}}</span>.<br>
-            <span lang="en" class="en trans">Important Words you learned in this lesson: {{ delimit $learned ", "}}.</span>
-        </p>
-    </div>
+        {{ $html = print $html "<p><span lang=\"de\" class=\"de\">Wichtige Wörter, die du in dieser Lektion gelernt hast: " (delimit $learned ", ") ".</span>.<br><span lang=\"en\" class=\"en trans\">Important Words you learned in this lesson: " (delimit $learned ", ") ".</span></p></div>" }}<!-- end #show-important-expl -->
 
-    <div id="show-genders-expl" class="expl"><p><span lang="de" class="de">Die grammatikalischen Geschlechter von Substantiven werden hervorgehoben, zum Beispiel so: der <span class="noun-m">Mann</span> (männlich), die <span class="noun-f">Frau</span> (weiblich), das <span class="noun-n">Fahrrad</span> (sächlich).</span><br><span lang="en" class="en trans">The grammatical genders of nouns are highlighted, e.g. like this: the <span class="noun-m">man</span> (masculine), the <span class="noun-f">woman</span> (feminine), the <span class="noun-n">bicycle</span> (neuter).</span></p></div>
+        <!-- Genders -->
+        {{ $html = print $html "<div id=\"show-genders-expl\" class=\"expl\"><p><span lang=\"de\" class=\"de\">Die grammatikalischen Geschlechter von Substantiven werden hervorgehoben, zum Beispiel so: der <span class=\"noun-m\">Mann</span> (männlich), die <span class=\"noun-f\">Frau</span> (weiblich), das <span class=\"noun-n\">Fahrrad</span> (sächlich).</span><br><span lang=\"en\" class=\"en trans\">The grammatical genders of nouns are highlighted, e.g. like this: the <span class=\"noun-m\">man</span> (masculine), the <span class=\"noun-f\">woman</span> (feminine), the <span class=\"noun-n\">bicycle</span> (neuter).</span></p></div>" }}
 
-    <div id="show-wc-expl" class="expl"><p><span lang="de" class="de">Wortarten werden farblich hervorgehoben:</span><br><span lang="en" class="en trans">Word classes are being highlighted:</span></p>
+        <!-- Parts of Speech -->
+        {{ $html = print $html "<div id=\"show-wc-expl\" class=\"expl\"><p><span lang=\"de\" class=\"de\">Wortarten werden farblich hervorgehoben:</span><br><span lang=\"en\" class=\"en trans\">Word classes are being highlighted:</span></p><form><fieldset data-role=\"controlgroup\">" }}
 
-        <form><fieldset data-role="controlgroup">
         {{ $word_classes_main := slice "Substantiv" "Verb"}}
         {{ range $word_classes_main }}
             {{ if in $smart_text.word_classes . }}
                 {{ $hyphenated := replace . " " "-" }}
-                <label for="{{ $hyphenated }}-enabled"><span class="{{ $hyphenated }}"><span lang="de" class="de">{{ . }}</span></span><br>
-                <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ i18n . }}</span></label>
-                <input type="checkbox" name="{{ $hyphenated }}-enabled" id="{{ $hyphenated }}-enabled" class="check-wc-main" checked="checked" />
+                {{ $html = print $html "<label for=\"" $hyphenated "-enabled\"><span lang=\"de\" class=\"de\">" . "</span> <span lang=\"" $.Lang "\" class=\"" $.Lang " trans\">" (i18n .) "</span></label><input type=\"checkbox\" name=\"" $hyphenated "-enabled\" id=\"" $hyphenated "-enabled\" class=\"check-wc-main\" checked=\"checked\" />" }}
             {{ end }}
         {{ end }}
-        </fieldset>
-        <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+        {{ $html = print $html "</fieldset><fieldset data-role=\"controlgroup\" data-type=\"horizontal\" data-mini=\"true\">" }}
         {{ range $smart_text.word_classes }}
             {{ if and (not (in $word_classes_main .)) (lt (len (findRE "\\Anoun-[mfn]" .)) 1) }}
                 {{ $hyphenated := replace . " " "-" }}
-                <label for="{{ $hyphenated }}"><span lang="de" class="de wc-selection">{{ . }}</span></span><br>
-                    <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ i18n . }}</span></label>
-			    <input type="radio" name="wc-choice" id="{{ $hyphenated }}" class="check-wc-choice" />
+                {{ $html = print $html "<label for=\"" $hyphenated "\"><span lang=\"de\" class=\"de wc-selection\">" . "</span></span><br><span lang=\"" $.Lang "\" class=\"" $.Lang " trans\">" (i18n .) "</span></label><input type=\"radio\" name=\"wc-choice\" id=\"" $hyphenated "\" class=\"check-wc-choice\" />" }}
             {{ end }}
         {{ end }}
-        </fieldset></form>
-        <p><span lang="de" class="de">Achtung: Die Wörter werden nicht unbedingt mit der bestimmten Wortart gebraucht, die hervorgehoben wird. Es bedeutet lediglich, dass das Wort als Mitglied dieser Wortart gebraucht werden kann.</span><br><span lang="en" class="en trans">Note: The words are not necessarily used with the particular word class that is highlighted. It just means that the word can be used as an member of this word class.</span></p>
-    </div>
-
+        {{ $html = print $html "</fieldset></form><p><span lang=\"de\" class=\"de\">Achtung: Die Wörter werden nicht unbedingt mit der bestimmten Wortart gebraucht, die hervorgehoben wird. Es bedeutet lediglich, dass das Wort als Mitglied dieser Wortart gebraucht werden kann.</span><br><span lang=\"en\" class=\"en trans\">Note: The words are not necessarily used with the particular word class that is highlighted. It just means that the word can be used as an member of this word class.</span></p></div>" }}<!-- end #show-wc-expl -->
 
 
 	<!-- TODO Link zur Anleitung am Anfang prominent als Popup oben mit Video, dann unten link zu externer Seite. -->
 
 
 
+    {{ $html = print $html $smart_text.popups }}
 
+    <!-- HTML to Copy  -->
+    <h1 style="margin-top: 50px;">HTML to Copy</h1>
+    <textarea rows="5" data-role="none" style="
+        display: block;
+        margin: auto;
+        font-size: 11px;
+        width: 98%;">{{ $html }}</textarea>
 
-    {{ $smart_text.popups | safeHTML }}
+    <!-- Display -->
+    <h1 style="margin-top: 50px;">How It Will Look</h1>
+    <div id="unit-frame">
+    {{ $html | safeHTML }}
+    </div>
 {{ else }}
 	{{ $.Content }}
 {{ end }}
 
-<script>document.getElementById("noscript-warning").innerHTML = '<img src="/css/images/ajax-loader.gif" width="46" height="46" />';</script>
-
-<!--footer class=" footline" >
-	{{with .Params.LastModifierDisplayName}}
-	    <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
-	    </div>
-	{{end}}
-</footer>-->
 
 
-{{/* partial "footer.html" . */}}
-
-</div>
 </body>
 
 

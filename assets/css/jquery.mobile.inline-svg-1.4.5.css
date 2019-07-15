@@ -568,7 +568,7 @@ html .ui-alt-icon .ui-radio-off:after {
 }
 /* Loader */
 .ui-icon-loading {
-	background: url(images/ajax-loader.gif);
+	background: url(https://raw.githubusercontent.com/jquery/jquery-mobile/master/css/themes/default/images/ajax-loader.gif);
 	background-size: 2.875em 2.875em;
 }
 /* Swatches */

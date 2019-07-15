@@ -62,7 +62,7 @@
             {{ $s.SetInMap "attr" "data-transition" "pop" }}
 
             <!-- Add the html to the popup contents below the text. -->
-            {{ $popup := print "<div class=\"ui-content\" data-role=\"popup\" id=\"word-" $i "\" data-overlay-theme=\"a\" data-position-to=\"window\"><a href=\"#\" data-rel=\"back\" class=\"ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right\">Schließen</a>" . "</div>"}}
+            {{ $popup := print "<div class=\"ui-content\" data-role=\"popup\" id=\"word-" $i "\" data-overlay-theme=\"a\" data-position-to=\"origin\"><a href=\"#\" data-rel=\"back\" class=\"ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right\">Schließen</a>" . "</div>"}}<!--  data-position-to=\"window\" -->
             {{ $popups = print $popups $popup }}
 
             <!-- Iterate the number for the id. -->

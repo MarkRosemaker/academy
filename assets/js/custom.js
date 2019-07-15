@@ -11,10 +11,11 @@ $(".word-info").click(function () {
 
 // Show or hide the translation based on user selection.
 var b = document.body.classList;
-$("#show-trans").click(function () {
+var f = function () {
     this.checked ? b.remove("hide-trans") : b.add("hide-trans");
-});
-b.add("hide-trans");
+}
+$("#show-trans").click(f);
+f();
 
 // Highlight only important and clicked words.
 $("#show-important").click(function () {
