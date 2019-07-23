@@ -12,6 +12,19 @@ spellchecked = false
 
 Hello, I am Mark of Authentic German Learning.
 
+I'm fine. Are you doing better?
+
+Thanks for asking.
+
+I want to go.
+
+I go to you.
+
+
+
+
+Hello, I am Mark of Authentic German Learning.
+
 I want you to not only learn the German language successfully, but also have fun with it.
 
 I want to make learning German the highlight of your day.

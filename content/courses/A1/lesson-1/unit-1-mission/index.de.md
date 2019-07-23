@@ -10,6 +10,20 @@ draft = true
 spellchecked = false
 +++
 
+
+Hallo, ich bin Mark von Authentic German Learning.
+
+Mir geht es gut. Geht es dir besser?
+
+Danke der Nachfrage.
+
+Ich möchte gehen.
+
+Ich gehe zu dir.
+
+
+
+
 Hallo, ich bin Mark von Authentic German Learning.
 
 Ich möchte, dass du die deutsche Sprache nicht nur erfolgreich lernst, sondern auch Spaß dabei hast.

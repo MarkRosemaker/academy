@@ -1,21 +1,10 @@
-// Play the audio file associated with the element.
-$(".audio-available").click(function () {
-    new Audio($(this).attr("audio")).play();
-});
+
 
 // Paint all instances of the word green after it is clicked.
 $(".word-info").click(function () {
     for(var e = document.querySelectorAll('[basic-form=' + this.getAttribute("basic-form") + ']'), t = 0; t < e.length; t++)
         e[t].classList.add('checked');
 });
-
-// Show or hide the translation based on user selection.
-var b = document.body.classList;
-var f = function () {
-    this.checked ? b.remove("hide-trans") : b.add("hide-trans");
-}
-$("#show-trans").click(f);
-f();
 
 // Highlight only important and clicked words.
 $("#show-important").click(function () {
@@ -53,4 +42,20 @@ $(".check-wc-choice").click(function () {
     }
 });
 
-document.getElementById("noscript-warning").style.display = "none";
+// Play the audio file associated with the element.
+$(".audio-available").click(function() {
+    new Audio($(this).attr("audio")).play();
+});
+
+// Load the audio Player.
+
+//<div
+// class="audioloader"
+ // data-audioloader="AttachmentDrop"
+// data-audioloader-name="AGLP0062_Weltanschauung_Vokabel.mp3"
+// data-audioloader-type="audio/mpeg"
+// data-audioloader-url="https://www.filepicker.io/api/file/CG5zI1ARX2dQv91MmaHW"
+// ></div>
+
+// Remove the loading animation.
+document.getElementById("loading").style.display = "none";

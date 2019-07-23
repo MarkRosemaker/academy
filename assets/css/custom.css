@@ -1,76 +1,116 @@
+/*
+ * Make text more visible.
+ * This is what Teachable should be doing.
+ */
+p, h1, h2, h3, h4, h5 {color: #2b3636}
+
+/*
+ * Stylize words that have audio or are link to popup.
+ */
 a.word-info,
 .audio-available {
+	/* Make it look like normal text. */
 	color: inherit;
-	margin: 0;
-	cursor: pointer;
 	text-decoration: initial;
+	margin: 0;
 }
 a.word-info {
+	/*  Show question mark on mouse pointer to make user click. */
 	cursor: help;
 }
 
-body.show-genders #show-important-expl,
-body.show-wc #show-important-expl {
-	display: none;
+/*
+ * Show the (English) translation in a different color.
+ */
+.trans {
+	color: #ffa600; /* when shown */
 }
-body.show-important #show-genders-expl,
-body.show-wc #show-genders-expl {
-	display: none;
+body.hide-trans .trans {
+	visibility: hidden; /* hide but reserve the space */
 }
-body.show-important #show-wc-expl,
-body.show-genders #show-wc-expl {
-	display: none;
+body.hide-trans .ui-popup-container .trans {
+	display: none; /* remove in popups */
 }
 
+/*
+ * Highlight certain words based on selection.
+ */
+/* Important words. */
 body.show-important .important {
-    color: #000;
     background-color: #ff0;
 }
-
 body.show-important .checked {
-    color: #000;
     background-color: #0f0;
 }
-body.show-important a.important.checked {
-	font-size: bold;
+/* Genders */
+body.show-genders .noun-m {
+	background-color: #b4b9ff;
 }
-
+body.show-genders .noun-f {
+	background-color: #ffb9b9;
+}
+body.show-genders .noun-n {
+	background-color: #c5ffb4;
+}
+/* Word classes */
 body.show-wc.Substantiv-enabled a.Substantiv {
 	background-color: #ffb9b9;
-    color: #000;
 }
-
 body.show-wc.Verb-enabled a.Verb {
 	background-color: #b4b9ff;
-    color: #000;
-}
-body.show-wc.Substantiv-enabled a.Substantiv.wc-other {
-	font-weight: 700;
-}
-body.show-wc.Verb-enabled a.Verb.wc-other {
-	font-weight: 700;
 }
 body.show-wc a.wc-other {
 	background-color: #ff0;
-    color: #000;
+}
+/* Make words with multiple reasons to highlight bold. */
+body.show-important a.important.checked,
+body.show-wc.Substantiv-enabled a.Substantiv.wc-other,
+body.show-wc.Verb-enabled a.Verb.wc-other {
+	font-weight: 700;
 }
 
-#noscript-warning {
-	color: red;
-	text-align: center;
-	font-size: 200%;
+/*
+ * Only show the explanation of the feature that is selected.
+ */
+ body.show-genders #show-important-expl,
+ body.show-wc #show-important-expl,
+ body.show-important #show-genders-expl,
+ body.show-wc #show-genders-expl,
+ body.show-important #show-wc-expl,
+ body.show-genders #show-wc-expl {
+	 display: none;
+ }
+
+/*
+ *
+ *
+ */
+
+
+/*
+ * A spinning loading animation that takes up all of the screen until removed when script is finished.
+ */
+ #loading {
+	margin: 10% auto 200% auto;
+	width: min-content;
 }
 
+/*
+ * Disable a warning that tells the user that the CSS was not loaded.
+ */
 #nocss-warning {
 	display: none;
 }
 
-#unit-frame {
-	width: 90%;
-	margin: 30px auto 100px auto;
-	border-style: inset;
-	padding: 30px
+
+
+/*
+
+
+input#show-trans {
+    display: none;
 }
+
 
 
 table {
@@ -81,36 +121,32 @@ div.caption {
 	margin-bottom: 10px;
 }
 
-body.hide-trans .trans {
-	visibility: hidden;
-}
-body.hide-trans .ui-popup-container .trans {
-	display: none;
-}
+
+
 
 .ui-popup-container, .ui-popup {
 	/*width: 95% !important;
-	left: 1% !important;*/
+	left: 1% !important;
 }
 
 .ui-checkbox {
 	margin: 0;
 }
-input#show-trans {
-    display: none;
-}
+
 #show-trans-cb {
 	/*
 	position:  fixed;
     top: 46px;
 	left:  0;
-	width: 100%;*/
+	width: 100%;
+
 	min-width: 33%;
 }
 label#show-trans-label {
 	border-radius: 0;
 	/*
-    margin-left: 349px;*/
+	margin-left: 349px;
+
 	text-align: center;
 	height: 46px;
 }
@@ -121,33 +157,6 @@ label#show-trans-label {
 
 
 
-h1,h2 {
-	text-align: center;
-}
-
-
-/* Don't show teachable's section titles in favor of my own . */
-.section-title {
-	display: none;
-}
-
-/* Push down so the trans label is viasible. */
-.lecture-content {
-    padding-top: 90px;
-}
-
-body.show-genders .noun-m {
-    color: #000;
-	background-color: #b4b9ff;
-}
-body.show-genders .noun-f {
-    color: #000;
-	background-color: #ffb9b9;
-}
-body.show-genders .noun-n {
-    color: #000;
-	background-color: #c5ffb4;
-}
 
 div.center {
 	display: block;
@@ -157,9 +166,7 @@ div.center {
 }
 
 
-.trans {
-	color: #ffa600;
-}
+
 .ui-btn-active .trans {
 	color: #ff0;
 }
@@ -181,11 +188,16 @@ div.ui-flipswitch {
     left:0;
 }*/
 
+/*
+
 p {
 	line-height: 1.3 !important;
 }
 
-
+.lecture-hl a.nav-btn {
+	margin: 0;
+	background-color: #FF8000;
+}
 
 
 p.disclaimer {
@@ -195,7 +207,7 @@ p.disclaimer {
 }
 
 /* Wiktionary Image
-	width: min-content;*/
+	width: min-content;
 
 .thumbinner {
 	float:left;
@@ -212,8 +224,13 @@ div.thumbcaption > p {
 	margin-bottom: 8px;
 	margin-top: 8px;
 }
+*/
 
-/* Wiktionary Table */
+
+
+/*
+ * Wiktionary Table
+ */
 
 .wikitable {
 	float: right;
