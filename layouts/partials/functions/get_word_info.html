@@ -5,11 +5,9 @@
 {{ $word_classes := slice }}
 {{ $basic_form := "" }}
 
-<!-- Get the HTML of the word-->
-{{ $json := getJSON (print "https://de.wiktionary.org/w/api.php?action=parse&format=json&prop=text&disabletoc=true&page=" $word) }}
-
 <!-- Get HTML from Wiktionary. -->
 {{ $html_raw := "" }}
+{{ $json := getJSON (print "https://de.wiktionary.org/w/api.php?action=parse&format=json&prop=text&disabletoc=true&page=" $word) }}
 {{ with $json.parse }}{{ with .text }}{{ with index . "*" }}
     {{ with findRE "<a href=\"//upload.wikimedia.org/wikipedia/commons/.*?\" class=\"internal\" title=\".*?\">" . }}
         {{ $audio = print "https:" (index . 0) | replaceRE "<a .*href=\"|\".*" "" }}
@@ -107,6 +105,7 @@
 
                     <!-- Get images, if present. | class=\".*?\"| style=\".*?\"-->
                     {{ $pre := $entry_rest | replaceRE "<h4>.*" "" }}
+                    {{ $html_image := "" }}
                     {{ $html_images := findRE "<div class=\"thumbinner\".*?</div></div>" $pre  }}
                     {{ range $html_images }}
                         <!-- Extract the image and caption. -->
@@ -119,36 +118,40 @@
                         {{ $width := $img | replaceRE ".* width=\"(.*?)\".*" "$1" }}
 
                         <!-- Construct html. -->
-                        {{ $html_image := print "<div class=\"thumbinner\">" $img "<div class=\"thumbcaption\" style=\"width:" $width "px;\"><p>" $caption "</p></div></div>" }}
-
-                        {{ $html_wc = print $html_wc $html_image }}
+                        {{ $html_image = print $html_image "<div class=\"thumbinner\">" $img "<div class=\"thumbcaption\" style=\"width:" $width "px;\"><p>" $caption "</p></div></div>" }}
                     {{ end }}
 
                     <!-- Get the table, if present. -->
+                    {{ $html_table := "" }}
                     {{ $html_tables := findRE "<table class=\"wikitable.*?\".*?</table>" $pre }}
                     {{ range $html_tables }}
-                        {{ $html_table := . | replaceRE "<a.*?>|</a>|<p class=\"mw-empty-elt\"></p>| class=\".*?\"| style=\".*?\"" "" | replaceRE "<table>" "<table class=\"wikitable\">" }}
+                        {{ $html_table_raw := . | replaceRE "<a.*?>|</a>|<p class=\"mw-empty-elt\"></p>| class=\".*?\"| style=\".*?\"" "" | replaceRE "<table>" "<table class=\"wikitable\">" }}
 
                         <!-- Show link to Flexion:... -->
-                        {{ $html_table = $html_table | replaceRE "(Flexion:.*?)([<.])" "<a href=\"https://de.wiktionary.org/wiki/$1\" target=\"_blank\">$1</a>$2" }}
+                        {{ $html_table_raw = $html_table_raw | replaceRE "(Flexion:.*?)([<.])" "<a href=\"https://de.wiktionary.org/wiki/$1\" target=\"_blank\">$1</a>$2" }}
 
                         <!-- Translate header cells. -->
-                        {{ range findRE "<th.*?</th>" $html_table }}
+                        {{ range findRE "<th.*?</th>" $html_table_raw }}
                             {{ $inner := . | replaceRE "<th.*?>|</th>" "" | replaceRE "&#160;" " " }}
                             {{ $pre   := . | replaceRE "(<th.*?>).*" "$1" }}
 
                             {{ if and $inner (ne $inner "—") (not (in $inner "Flexion:")) }}
                                 {{ $inner_trans := print $pre "<span lang=\"de\" class=\"de\">" $inner "</span><br><span lang=\"en\" class=\"en trans\">" (title (i18n $inner)) "</span></th>" }}
-                                {{ $html_table = $html_table | replaceRE . $inner_trans }}
+                                {{ $html_table_raw = $html_table_raw | replaceRE . $inner_trans }}
                             {{ end }}
                         {{ end }}
 
                         {{ if or (in $wc_names "Personalpronomen") (in $wc_names "Adjektiv") }}
                             <!-- Make the word bold in the table. -->
-                            {{ $html_table = $html_table | replaceRE (print "<td>([^<]*)(" $word ")\\b") "<td>$1<strong>$2</strong>"}}
+                            {{ $html_table_raw = $html_table_raw | replaceRE (print "<td>([^<]*)(" $word ")\\b") "<td>$1<strong>$2</strong>"}}
                         {{ end }}
+                        {{ $html_table = print $html_table $html_table_raw }}
+                    {{ end }}
 
-                        {{ $html_wc = print $html_wc $html_table }}
+                    {{ if and $html_image $html_table }}
+                        {{ $html_wc = print $html_wc "<div class=\"non-text\">" $html_image $html_table "</div>" }}
+                    {{ else }}
+                        {{ $html_wc = print $html_wc $html_image $html_table }}
                     {{ end }}
 
                     <!-- Split into seperate dictionary items. -->
@@ -212,7 +215,7 @@
 
                                 {{ $word_classes = $word_classes | append (index $basic.word_classes 0) }}
 
-                                {{ $body = $body | replaceRE "</ul>.*" (print "</ul></div><div>" $basic.html) }}
+                                {{ $body = $body | replaceRE "</ul>.*" (print "</ul></div>" $basic.html) }}
                             {{ end }}
                         {{ end }}
 
@@ -227,7 +230,6 @@
                                 {{ if or (and (lt $length 100) (lt $lines 3)) (in $header "Grammatische Merkmale")}}
                                     {{ $html_item = print "<div class=\"ui-corner-all custom-corners\"><div class=\"ui-bar ui-bar-a\">" $header "</div><div class=\"ui-body ui-body-a\">" $body "</div></div>" }}
                                 {{ else }}
-                                data-collapsed=\"false\"
                                     {{ $html_item = print "<div class=\"\" data-role=\"collapsible\">" $header $body "</div>" }}
                                 {{ end }}
 

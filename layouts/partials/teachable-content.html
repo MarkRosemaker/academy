@@ -1,0 +1,200 @@
+<!-- Script And CSS Error Warning -->
+<div id="loading">
+    <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+    <span class="sr-only">Loading...</span>
+</div><!-- end of div#loading -->
+<p id="nocss-warning" style="color: red; font-size: 200%;" align="center">
+    If you can see this text then the css was not properly loaded.
+</p>
+
+<!-- Lesson title -->
+<span id="lh-trans" lang="{{ .Lang }}" class="{{ .Lang }} trans"><br>
+    <i class="fa fa-file-text"></i>
+    &nbsp;
+    {{ .Title }}
+</span>
+
+<!-- Get German HTML -->
+{{ with index (where .AllTranslations "Lang" "de") 0 }}
+
+    <!-- Improve presentation of German text. -->
+    {{ $smart_text := partial "functions/get-smart-text" (dict "de_html" .Content "Site" $.Site) }}
+
+    <!-- Unit Wrapper -->
+    <div class="show-important Substantiv-enabled Verb-enabled" id="unit">
+
+    {{ if eq "de" $.Lang }}
+        {{ $smart_text.html }}
+    {{ else }}
+        <!-- Display both languages side by side. -->
+        {{ $de := split $smart_text.html "</p>" }}
+        {{ $other := split $.Content "<p>" }}
+
+        {{ $k := sub (len $de) 1 }}
+        {{ range $i := seq 1 $k }}
+            <p>
+                <span lang="de" class="de">{{ index $de (sub $i 1) | replaceRE "<p>|</p>" "" | safeHTML }}</span><br>
+                <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ index $other $i | replaceRE "<p>|</p>|\n" "" | safeHTML }}</span>
+            </p>
+        {{ end }}
+    {{ end }}
+
+    </div><!-- end div#unit -->
+    <hr>
+    <div id="rest">
+
+        <!-- Toggle options -->
+        <p>
+            <span lang="de" class="de">Wähle aus, was du hervorheben möchtest:</span><br>
+            <span lang="en" class="en trans">Select what you want to highlight:</span>
+        </p>
+        <form>
+            <fieldset data-role="controlgroup" data-type="horizontal" class="ui-controlgroup ui-controlgroup-horizontal ui-corner-all">
+                <div class="ui-controlgroup-controls">
+                    <div class="ui-radio">
+                        <label for="show-important" class="ui-btn ui-corner-all ui-btn-inherit ui-radio-on ui-btn-active ui-first-child">
+                            <span lang="de" class="de">Wichtige Wörter</span><br>
+                            <span lang="en" class="en trans">Important Words</span>
+                        </label>
+                        <input type="radio" name="highlight" id="show-important" checked="">
+                    </div><!-- end of .ui-radio -->
+                    <div class="ui-radio">
+                        <label for="show-genders" class="ui-btn ui-corner-all ui-btn-inherit ui-radio-off">
+                            <span lang="de" class="de">Genera</span><br>
+                            <span lang="en" class="en trans">Genders</span>
+                        </label>
+                        <input type="radio" name="highlight" id="show-genders">
+                    </div><!-- end of .ui-radio -->
+                    <div class="ui-radio">
+                        <label for="show-wc" class="ui-btn ui-corner-all ui-btn-inherit ui-radio-off ui-last-child">
+                            <span lang="de" class="de">Wortarten</span><br>
+                            <span lang="en" class="en trans">Word Classes</span>
+                        </label>
+                        <input type="radio" name="highlight" id="show-wc">
+                    </div><!-- end of .ui-radio -->
+                </div><!-- end of .ui-controlgroup-controls -->
+            </fieldset>
+        </form>
+
+        <!-- Important Words Explanation -->
+        <div id="show-important-expl" class="expl">
+            <p>
+                <span lang="de" class="de">Alle wichtigen Wörter werden anfangs <span class="important">gelb</span> hervorgehoben. Alle Wörter, die du schon angeklickt hast, werden <span class="checked">grün</span> hervorgehoben.</span><br>
+                <span lang="en" class="en trans">All important words are initially highlighted in <span class="important">yellow</span>. All words you have already clicked on are highlighted <span class="checked">green</span>.</span>
+            </p>
+
+            {{ $learned := slice }}
+            {{ range $smart_text.learned_words -}}
+                {{ $learned = $learned | append (print "<span basic-form=\"" . "\">" . "</span>") }}
+            {{- end -}}
+            <p>
+                <span lang="de" class="de">Wichtige Wörter, die du in dieser Lektion gelernt hast: {{ delimit $learned ", " }}.</span><br>
+                <span lang="en" class="en trans">Important Words you learned in this lesson: {{ delimit $learned ", " }}.</span>
+            </p>
+        </div><!-- end #show-important-expl -->
+
+        <!-- Genders Explanation -->
+        <div id="show-genders-expl" class="expl">
+            <p>
+                <span lang="de" class="de">Die grammatikalischen Geschlechter von Substantiven werden hervorgehoben, zum Beispiel so: der <span class="noun-m">Mann</span> (männlich), die <span class="noun-f">Frau</span> (weiblich), das <span class="noun-n">Fahrrad</span> (sächlich).</span><br>
+                <span lang="en" class="en trans">The grammatical genders of nouns are highlighted, e.g. like this: the <span class="noun-m">man</span> (masculine), the <span class="noun-f">woman</span> (feminine), the <span class="noun-n">bicycle</span> (neuter).</span>
+            </p>
+        </div><!-- end #show-genders-expl -->
+
+        <!-- Parts of Speech -->
+        <div id="show-wc-expl" class="expl">
+            <p>
+                <span lang="de" class="de">Wortarten werden farblich hervorgehoben:</span><br>
+                <span lang="en" class="en trans">Word classes are being highlighted:</span>
+            </p>
+            <form>
+                <!-- Make check boxes to show main word classes. -->
+                <fieldset data-role="controlgroup" class="ui-controlgroup ui-controlgroup-vertical ui-corner-all">
+                    <div class="ui-controlgroup-controls">
+
+                        {{ $wc_main_all := slice "Substantiv" "Verb" }}
+                        {{ $wc_main := slice }}
+                        {{ range $wc_main_all }}
+                            {{ if in $smart_text.word_classes . }} <!-- Only the ones that show up. -->
+                                {{ $wc_main = append . $wc_main }}
+                            {{ end }}
+                        {{ end }}
+                        {{ $l := sub (len $wc_main) 1 }}
+                        {{ range $i, $wc := $wc_main }}
+                            {{ $hyphenated := replace . " " "-" }}
+                            {{ $position := ""}}
+                            {{ if eq $i 0 }}
+                                {{ $position = " ui-first-child"}}
+                            {{ else if eq $i $l }}
+                                {{ $position = " ui-last-child"}}
+                            {{ end }}
+                            <div class="ui-checkbox">
+                                <label for="{{ $hyphenated }}-enabled" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-checkbox-on{{ $position }}">
+                                    <span lang="de" class="de">{{ . }}</span>
+                                    <span lang=" {{ $.Lang }}" class="{{ $.Lang }} trans">{{ i18n . }}</span>
+                                </label>
+                                <input type="checkbox" name="{{ $hyphenated }}-enabled" id="{{ $hyphenated }}-enabled" class="check-wc-main" checked="checked">
+                            </div><!-- end of .ui-checkbox -->
+                        {{ end }}
+
+                    </div><!-- end of #ui-controlgroup-controls -->
+                </fieldset>
+
+                <!-- Make radio buttons to show other word classes. -->
+                <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-controlgroup ui-controlgroup-horizontal ui-corner-all ui-mini">
+                    <div class="ui-controlgroup-controls">
+
+                        {{ $wc := slice }}
+                        {{ $ignore := slice $wc_main "noun-m" "noun-f" "noun-n" }}
+                        {{ range $smart_text.word_classes }}  <!-- Only the ones that show up. -->
+                            {{ if not (in $ignore .) }}
+                                {{ $wc = append . $wc }}
+                            {{ end }}
+                        {{ end }}
+                        {{ $l := sub (len $wc) 1 }}
+                        {{ range $i, $wc := $wc }}
+                            {{ $hyphenated := replace . " " "-" }}
+                            {{ $position := ""}}
+                            {{ if eq $i 0 }}
+                                {{ $position = " ui-first-child"}}
+                            {{ else if eq $i $l }}
+                                {{ $position = " ui-last-child"}}
+                            {{ end }}
+                            <div class="ui-radio ui-mini">
+                                <label for="{{ $hyphenated }}" class="ui-btn ui-corner-all ui-radio-off ui-btn-inherit{{ $position }}">
+                                    <span lang="de" class="de wc-selection">{{ . }}</span><br>
+                                    <span lang=" {{ $.Lang }}" class=" {{ $.Lang }} trans">{{ i18n . }}</span>
+                                </label>
+                                <input type="radio" name="wc-choice" id="{{ $hyphenated }}" class="check-wc-choice">
+                            </div><!-- end of div.ui-radio.ui-mini -->
+                        {{ end }}
+
+                    </div><!-- end of .ui-controlgroup-controls -->
+                </fieldset>
+            </form>
+
+            <p>
+                <span lang="de" class="de">Achtung: Die Wörter werden nicht unbedingt mit der bestimmten Wortart gebraucht, die hervorgehoben wird. Es bedeutet lediglich, dass das Wort als Mitglied dieser Wortart gebraucht werden kann.</span><br>
+                <span lang="en" class="en trans">Note: The words are not necessarily used with the particular word class that is highlighted. It just means that the word can be used as an member of this word class.</span>
+            </p>
+        </div><!-- end of #show-wc-expl -->
+
+        {{ $smart_text.popups | safeHTML }}
+
+    </div><!-- end of #rest -->
+
+    <!-- Add Audio Player -->
+    <!-- TODO replace with script that extracts the title from the page and the mp3 from the Teachable player -->
+    {{/* $de_title := .Title }}
+    {{ with $.Page.Params.audio }}
+        {{/* $player1 := dict "version" "2.8.0" "licensed" "1" | jsonify  }}
+        {{ $player2 := dict "errors" slice "options" (dict "color" "dd0000" "download" "false" "hover_timestamp" "true" "html_assets" "false" "marquee" "auto" "social" "false" "speedcontrol" "true" "subscribe_in_stp" "false" "position" "bottom" "style" "light" "sticky" "true" "uid" "9f03c450" "url" . "view" "responsive" "email_portal" "none" "artist" "Mark von Authentic German Learning" "background_type" "color" "background_color" "ffce00" "title" $de_title "paid" "true") | jsonify }}
+        <script type='text/javascript'>
+            var AP_Player = {{ $player1 }};
+            var SmartPodcastPlayer_uid_9f03c450 = {{ $player2 }};
+        </script>
+        <div class="smart-track-player-container stp-color-dd0000-ffce00" data-uid="9f03c450"></div>
+    {{ end */}}
+{{ else }}
+	{{ $.Content }}
+{{ end }}

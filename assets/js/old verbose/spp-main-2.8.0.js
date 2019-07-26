@@ -1,9 +1,81 @@
-var audio = document.getElementsByClassName('audioloader')[0];
-audio.setAttribute('class','smart-track-player-container')
-audio.setAttribute('data-uid','9f03c450')
+/**
+ * @license almond 0.3.1 Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.
+ * Available via the MIT or new BSD license.
+ * see: http://github.com/jrburke/almond for details
+ */
 
-var AP_Player = {"licensed":"1","version":"2.8.0"};
-var SmartPodcastPlayer_uid_9f03c450 = {"errors":[],"options":{"artist":"Mark von Authentic German Learning","background_color":"ffce00","background_type":"color","color":"dd0000","download":"false","email_portal":"none","hover_timestamp":"true","html_assets":"false","marquee":"auto","paid":"true","position":"bottom","social":"false","speedcontrol":"true","sticky":"true","style":"light","subscribe_in_stp":"false","title":lecture_name,"uid":"9f03c450","url":audio.getAttribute('data-audioloader-url'),"view":"responsive"}};
+//     (c) 2010-2011 Jeremy Ashkenas, DocumentCloud Inc.
+
+//     (c) 2011-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+
+//     Backbone may be freely distributed under the MIT license.
+
+// Copyright (c)2014 Derick Bailey, Muted Solutions, LLC.
+
+// Distributed under MIT license
+
+/*!
+ * Includes BabySitter
+ * https://github.com/marionettejs/backbone.babysitter/
+ *
+ * Includes Wreqr
+ * https://github.com/marionettejs/backbone.wreqr/
+ */
+
+/** @license
+ *
+ * SoundManager 2: JavaScript Sound for the Web
+ * ----------------------------------------------
+ * http://schillmania.com/projects/soundmanager2/
+ *
+ * Copyright (c) 2007, Scott Schiller. All rights reserved.
+ * Code provided under the BSD License:
+ * http://schillmania.com/projects/soundmanager2/license.txt
+ *
+ * V2.97a.20150601
+ */
+
+/**
+ * @license RequireJS text 2.0.10 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.
+ * Available via the MIT or new BSD license.
+ * see: http://github.com/requirejs/text for details
+ */
+
+/*! @source http://purl.eligrey.com/github/l10n.js/blob/master/l10n.js*/
+
+/*!
+ * jQuery blockUI plugin
+ * Version 2.70.0-2014.11.23
+ * Requires jQuery v1.7 or later
+ *
+ * Examples at: http://malsup.com/jquery/block/
+ * Copyright (c) 2007-2013 M. Alsup
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * Thanks to Amir-Hossein Sobhi for some excellent contributions!
+ */
+
+/*! Copyright (c) 2013 Brandon Aaron (http://brandon.aaron.sh)
+ * Licensed under the MIT License (LICENSE.txt).
+ *
+ * Version: 3.1.9
+ *
+ * Requires: jQuery 1.2.2+
+ */
+
+/*!
+ * jScrollPane - v2.0.19 - 2013-11-16
+ * http://jscrollpane.kelvinluck.com/
+ *
+ * Copyright (c) 2013 Kelvin Luck
+ * Dual licensed under the MIT or GPL licenses.
+ */
+
+// Copyright (c) 2013 Kelvin Luck
+
+// Dual licensed under the MIT or GPL Version 2 licenses.
 
 ! function() {
     function t(t, e, i) {
@@ -5847,16 +5919,7 @@ var SmartPodcastPlayer_uid_9f03c450 = {"errors":[],"options":{"artist":"Mark von
         "use strict";
         return "number" != typeof e && (e = 0), !(e + t.length > this.length) && -1 !== this.indexOf(t, e)
     }), window.SmartPodcastPlayer = {}, window.SmartPodcastPlayer.initialize = function() {
-        SmartPodcastPlayer.version = "2.8.0",
-        void 0 === SmartPodcastPlayer._options && (SmartPodcastPlayer._options = {}),
-        void 0 === SmartPodcastPlayer._shortcode_options && (SmartPodcastPlayer._shortcode_options = {}),
-        void 0 === SmartPodcastPlayer._by_uid && (SmartPodcastPlayer._by_uid = {}),
-        void 0 === SmartPodcastPlayer._cached_tracks && (SmartPodcastPlayer._cached_tracks = {}),
-        void 0 === SmartPodcastPlayer._errors && (SmartPodcastPlayer._errors = {}),
-        document.getElementsByTagName("body")[0].className += " spp",
-        "undefined" != typeof AP_Player && SmartPodcastPlayer.version !== AP_Player.version && console.log("Warning: Smart Podcast Player version mismatch detected.  Backend is running version '" + AP_Player.version + "' and frontend is running version '" + SmartPodcastPlayer.version + "'.  Try clearing all caches in caching plugins."),
-        void 0 !== AP_Player.soundcloudConsumerKey && "" !== AP_Player.soundcloudConsumerKey || (AP_Player.soundcloudConsumerKey = "b38b3f6ee1cdb01e911c4d393c1f2f6e"), p(["jquery"],
-        function(t) {
+        SmartPodcastPlayer.version = "2.8.0", void 0 === SmartPodcastPlayer._options && (SmartPodcastPlayer._options = {}), void 0 === SmartPodcastPlayer._shortcode_options && (SmartPodcastPlayer._shortcode_options = {}), void 0 === SmartPodcastPlayer._by_uid && (SmartPodcastPlayer._by_uid = {}), void 0 === SmartPodcastPlayer._cached_tracks && (SmartPodcastPlayer._cached_tracks = {}), void 0 === SmartPodcastPlayer._errors && (SmartPodcastPlayer._errors = {}), document.getElementsByTagName("body")[0].className += " spp", "undefined" != typeof AP_Player && SmartPodcastPlayer.version !== AP_Player.version && console.log("Warning: Smart Podcast Player version mismatch detected.  Backend is running version '" + AP_Player.version + "' and frontend is running version '" + SmartPodcastPlayer.version + "'.  Try clearing all caches in caching plugins."), void 0 !== AP_Player.soundcloudConsumerKey && "" !== AP_Player.soundcloudConsumerKey || (AP_Player.soundcloudConsumerKey = "b38b3f6ee1cdb01e911c4d393c1f2f6e"), p(["jquery"], function(t) {
             var e = [];
             t(".smart-podcast-player-container, .smart-track-player-container").each(function() {
                 e.push(t(this).data("uid"))
@@ -5927,6 +5990,7 @@ var SmartPodcastPlayer_uid_9f03c450 = {"errors":[],"options":{"artist":"Mark von
         })
     }, window.SmartPodcastPlayer.seek = function(t, e) {
         p(["jquery"], function(i) {
+            if (void 0 === e && (e = i(".smart-podcast-player, .smart-track-player").data("uid")), void 0 === SmartPodcastPlayer._by_uid[e]) return void n("No player with UID " + e);
             SmartPodcastPlayer._by_uid[e].mainRegion.currentView.seekSeconds(t)
         })
     }, c("main", function() {})

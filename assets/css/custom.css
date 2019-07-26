@@ -1,8 +1,32 @@
+/*************************
+* General                *
+*************************/
+
 /*
- * Make text more visible.
- * This is what Teachable should be doing.
+ * A spinning loading animation that takes up all of the screen until removed when script is finished.
  */
-p, h1, h2, h3, h4, h5 {color: #2b3636}
+ #loading {
+	margin: 10% auto 200% auto;
+	width: min-content;
+}
+
+* {
+    font-family: Larsseit, Manrope, Helvetica, sans-serif;
+}
+
+
+/*
+ * Make text more visible. This is what Teachable should be doing.
+ * Also, reset font color for highlighted text.
+ */
+p, h1, h2, h3, h4, h5,
+body.show-important .important, body.show-important .checked,
+body.show-genders .noun-m, body.show-genders .noun-f, body.show-genders .noun-n { color: #2b3636; }
+body {
+	/* font-size: 1em; */
+	font-size: 16px;
+	line-height: 1.3;
+}
 
 /*
  * Stylize words that have audio or are link to popup.
@@ -13,6 +37,7 @@ a.word-info,
 	color: inherit;
 	text-decoration: initial;
 	margin: 0;
+	cursor: pointer;
 }
 a.word-info {
 	/*  Show question mark on mouse pointer to make user click. */
@@ -25,16 +50,19 @@ a.word-info {
 .trans {
 	color: #ffa600; /* when shown */
 }
-body.hide-trans .trans {
-	visibility: hidden; /* hide but reserve the space */
+body.hide-trans .ui-popup-container .trans,
+body.hide-trans #rest .trans {
+	display: none; /* remove in popups, toggles, explanation */
 }
-body.hide-trans .ui-popup-container .trans {
-	display: none; /* remove in popups */
+body.hide-trans #lecture_heading .trans,
+body.hide-trans #unit .trans {
+	visibility: hidden; /* hide but reserve the space */
 }
 
 /*
  * Highlight certain words based on selection.
  */
+
 /* Important words. */
 body.show-important .important {
     background-color: #ff0;
@@ -42,6 +70,7 @@ body.show-important .important {
 body.show-important .checked {
     background-color: #0f0;
 }
+
 /* Genders */
 body.show-genders .noun-m {
 	background-color: #b4b9ff;
@@ -52,6 +81,7 @@ body.show-genders .noun-f {
 body.show-genders .noun-n {
 	background-color: #c5ffb4;
 }
+
 /* Word classes */
 body.show-wc.Substantiv-enabled a.Substantiv {
 	background-color: #ffb9b9;
@@ -62,6 +92,7 @@ body.show-wc.Verb-enabled a.Verb {
 body.show-wc a.wc-other {
 	background-color: #ff0;
 }
+
 /* Make words with multiple reasons to highlight bold. */
 body.show-important a.important.checked,
 body.show-wc.Substantiv-enabled a.Substantiv.wc-other,
@@ -72,44 +103,79 @@ body.show-wc.Verb-enabled a.Verb.wc-other {
 /*
  * Only show the explanation of the feature that is selected.
  */
- body.show-genders #show-important-expl,
- body.show-wc #show-important-expl,
- body.show-important #show-genders-expl,
- body.show-wc #show-genders-expl,
- body.show-important #show-wc-expl,
- body.show-genders #show-wc-expl {
+body.show-genders #show-important-expl,
+body.show-wc #show-important-expl,
+body.show-important #show-genders-expl,
+body.show-wc #show-genders-expl,
+body.show-important #show-wc-expl,
+body.show-genders #show-wc-expl {
 	 display: none;
  }
 
 /*
- *
- *
+ * Make the disclaimer small.
  */
-
+ p.disclaimer {
+    margin-top: 25px;
+    padding-bottom: 60%;
+    text-align: center;
+    font-size: smaller;
+}
 
 /*
- * A spinning loading animation that takes up all of the screen until removed when script is finished.
+ * Wiktionary Image
  */
- #loading {
-	margin: 10% auto 200% auto;
+.thumbinner {
+	float: left;
 	width: min-content;
 }
 
+img.thumbimage {
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #a2a9b1;
+}
+
+div.thumbcaption > p {
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
 /*
- * Disable a warning that tells the user that the CSS was not loaded.
+ * Wiktionary Table
  */
-#nocss-warning {
+
+.wikitable {
+	float: right;
+	margin: 8px;
+	border-collapse: collapse;
+}
+.wikitable > tr > th, .wikitable > * > tr > th {
+    background-color: #eaecf0;
+	text-align: center;
+	vertical-align: middle;
+}
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+    border: 1px solid #a2a9b1;
+	padding: 0.5rem;
+}
+
+.non-text::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+/*
+ * Disable a warning that tells the user that the CSS was not loaded, and the jQueryMobile loader.
+ */
+#nocss-warning, .ui-loader {
 	display: none;
 }
 
-
-
 /*
-
-
-input#show-trans {
-    display: none;
-}
 
 
 
@@ -166,11 +232,6 @@ div.center {
 }
 
 
-
-.ui-btn-active .trans {
-	color: #ff0;
-}
-
 /*
 div.ui-popup {
 	padding: 0 1em;
@@ -186,13 +247,9 @@ div.ui-flipswitch {
     position: absolute;
     top: 0;
     left:0;
-}*/
+} */
 
 /*
-
-p {
-	line-height: 1.3 !important;
-}
 
 .lecture-hl a.nav-btn {
 	margin: 0;
@@ -200,49 +257,5 @@ p {
 }
 
 
-p.disclaimer {
-    margin-top: 25px;
-    text-align: center;
-    font-size: smaller;
-}
-
-/* Wiktionary Image
-	width: min-content;
-
-.thumbinner {
-	float:left;
-}
-
-img.thumbimage {
-	margin: 0 auto;
-	display: block;
-	border: 1px solid #a2a9b1;
-}
-
-div.thumbcaption > p {
-	text-align: center;
-	margin-bottom: 8px;
-	margin-top: 8px;
-}
-*/
 
 
-
-/*
- * Wiktionary Table
- */
-
-.wikitable {
-	float: right;
-	margin: 8px;
-	border-collapse: collapse;
-}
-.wikitable > tr > th, .wikitable > * > tr > th {
-    background-color: #eaecf0;
-	text-align: center;
-	vertical-align: middle;
-}
-.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
-    border: 1px solid #a2a9b1;
-	padding: 0.5rem;
-}

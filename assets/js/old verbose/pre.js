@@ -1,18 +1,6 @@
 try {
-// Disable jQuery Mobile on Teachable settings or remove it outright
-// TODO best solution: settings effect the audio player as well
-document.getElementsByClassName('settings-dropdown')[0].style.display = 'none';
-//document.getElementById('custom-toggle-autoplay').setAttribute('data-role','none');
-//document.getElementById('custom-toggle-autocomplete').setAttribute('data-role','none');
-//document.getElementById('toggle_html5').setAttribute('data-role','none');
-//document.getElementById('toggle_flash').setAttribute('data-role','none');
-//document.getElementsByClassName('playback-speed')[0].setAttribute('data-role','none');
-
 // Attach translated header to original header.
-var lh = document.getElementById('lecture_heading'); // lecture heading
-lh.innerHTML = lh.innerHTML.replace('fa fa-download','fa fa-file-text');
-var lecture_name = ln = lh.innerHTML.split('&nbsp;')[1].trim() // lecture name
-lh.appendChild( document.getElementById('lh-trans'));
+document.getElementById('lecture_heading').appendChild( document.getElementById('lh-trans'));
 
 // Get body class list which we'll need often.
 var b = document.body.classList;

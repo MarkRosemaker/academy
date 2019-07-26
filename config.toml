@@ -1,12 +1,10 @@
 baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
-disableLanguages = ["de"]
 
-title = "Hugo Learn Documentation"
 themesdir = "../.."
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir = false
 
 [params]
   #editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
@@ -16,38 +14,35 @@ defaultContentLanguageInSubdir= true
   disableBreadcrumb = false
   disableNextPrev = false
 
+  enableTeachableCSS = true
+  enableTeachableJS = true
+
+  showCopyableHTML = true
+
+[params.colors]
+
+primary = '#FF8000'
+secondary = '#00A651'
+course_heading = '#ffffff'
+navbar_fixed_text = '#ffffff'
+heading = '#2b3636'
+text = '#2b3636'
+navbar_text = '#ffffff'
+homepage_heading = '#ffffff'
+video_player_color = '#00A651'
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
 title = "Authentic German Learning Academy"
+description = "The best platform to learn German."
 weight = 1
 languageName = "English"
 
-#[[Languages.en.menu.shortcuts]]
-#name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
-#identifier = "ds"
-#url = "https://github.com/matcornic/hugo-theme-learn"
-#weight = 10
-
-#[[Languages.en.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-camera'></i> Showcases"
-#url = "showcase"
-#weight = 11
-
-#[[Languages.en.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
-#identifier = "hugodoc"
-#url = "https://gohugo.io/"
-#weight = 20
-
-#[[Languages.en.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-#url = "/credits"
-#weight = 30
-
 [Languages.de]
 title = "Authentic German Learning Akademie"
+description = "Die beste Plattform, um Deutsch zu lernen."
 weight = 2
 languageName = "Deutsch"

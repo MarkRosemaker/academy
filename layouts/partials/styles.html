@@ -1,16 +1,17 @@
-{{ $jQM1 := resources.Get "css/jquery.mobile-1.4.5.css" }}
+{{/* $jQM1 := resources.Get "css/jquery.mobile-1.4.5.css" }}
 {{ $jQM2 := resources.Get "css/jquery.mobile.theme-1.4.5.css" }}
 {{ $jQM3 := resources.Get "css/jquery.mobile.structure-1.4.5.css" }}
 {{ $jQM4 := resources.Get "css/jquery.mobile.icons-1.4.5.css" }}
 {{ $jQM5 := resources.Get "css/jquery.mobile.inline-svg-1.4.5.css" }}
 {{ $jQM6 := resources.Get "css/jquery.mobile.inline-png-1.4.5.css" }}
-{{ $jQM7 := resources.Get "css/jquery.mobile.external-png-1.4.5.css" }}
+{{ $jQM7 := resources.Get "css/jquery.mobile.external-png-1.4.5.css" */}}
+<!-- $jQM1 $jQM2 $jQM3 $jQM4 $jQM5 $jQM6 $jQM7 -->
+
 {{ $spp_css := resources.Get "css/spp-2.8.0.css" }}
 {{ $essential := resources.Get "css/jquery.mobile.essential.css" }}
 {{ $custom := resources.Get "css/custom.css" }}
 
-<!-- $jQM1 $jQM2 $jQM3 $jQM4 $jQM5 $jQM6 $jQM7 -->
-{{ $bundle := slice $jQM1 $jQM2 $jQM3 $jQM4 $jQM5 $jQM6 $jQM7 $spp_css $essential $custom }}
+{{ $bundle := slice $spp_css $essential $custom }}
 
 {{ $css := $bundle | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint "sha512" }}
 
