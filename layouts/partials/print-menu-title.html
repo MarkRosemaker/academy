@@ -1,0 +1,28 @@
+{{ $title := "" }}
+
+{{ with . }}
+
+{{- $weight := 0 -}}
+{{- $title = printf "[%s] %s" (upper .Lang) .Title -}}
+
+{{- with .Params.Weight -}}{{ $weight = . -}}{{- end -}}
+
+{{- with index (where .Translations "Lang" "de") 0 }}
+    {{ with .Title }}{{- $title = . -}}{{ end }}
+    {{- with .Params.Weight -}}{{- $weight = . -}}{{- end -}}
+{{- end -}}
+
+{{- if $weight -}}
+    {{- if eq "section" .Kind -}}
+        {{ with $weight }}
+            {{- partial "functions/romanize.html" . -}}.
+        {{ end }}
+    {{- else -}}
+        {{- $weight -}}.
+    {{- end -}}
+{{- end -}}
+{{- end }}
+
+{{ $title -}}
+
+

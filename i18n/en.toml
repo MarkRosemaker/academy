@@ -157,6 +157,9 @@ other = "feminine"
 ["sächlich"]
 other = "neuter"
 
+["männlich, weiblich, sächlich"]
+other = "masculine, feminine, neuter"
+
 ["Singular"]
 other = "singular"
 
@@ -334,3 +337,62 @@ other = "adjectival declension"
 ["Nicht mehr gültige Schreibweisen"]
 other = "No longer valid spellings"
 
+["Abkürzung"]
+other = "abbreviation"
+
+["männliche Person"]
+other = "male person"
+
+["Anmerkung zum Genus"]
+other = "remark on the gender"
+
+["indeklinabel"]
+other = "indeclinable"
+
+["Modalpartikel"]
+other = "modal particle"
+
+["Anmerkung zum Unterschied zwischen „brauchen“ und „gebrauchen“"]
+other = "remark on the difference between „brauchen“ and „gebrauchen“"
+
+["Anmerkung zur Beugung"]
+other = "remark on the flexion"
+
+["Buchstabe"]
+other = "letter"
+
+["Eigenname"]
+other = "proper noun"
+
+["Anmerkung zum Gebrauch in Österreich"]
+other = "remark on the usage in Austria"
+
+["regelmäßig"]
+other = "regular"
+
+["Wörter"]
+other = "words"
+
+["Anmerkung zur Trennung der Pluralformen"]
+other = "remark on the hyphenation of the plural forms"
+
+["Worte"]
+other = "sayings"
+
+["Partikel"]
+other = "particle"
+
+["Postposition"]
+other = "postposition"
+
+["Partizip I"]
+other = "present participle"
+
+["Präposition mit Akkusativ"]
+other = "preposition with accusative"
+
+["Erweiterter Infinitiv"]
+other = "extended infinitive"
+
+["trennbar"]
+other = "separable"

@@ -1,150 +1,86 @@
-<nav id="sidebar" class="{{if $.Site.Params.showVisitedLinks }}showVisitedLinks{{end}}">
+<div class='course-sidebar lecture-page collapse navbar-collapse navbar-sidebar-collapse' id='courseSidebar'>
 
-{{ $currentNode := . }}
-{{ $showvisitedlinks := .Site.Params.showVisitedLinks }}
-  <div id="header-wrapper">
-    <div id="header">
-      {{ partial "logo.html" . }}
-    </div>
-    {{if not .Site.Params.disableSearch}}
-        {{ partial "search.html" . }}
-    {{end}}
-  </div>
+  {{ $depth := partial "functions/depth.html" . }}
+  {{ $course := . }}
+  {{ if eq $depth 3 }}
+    {{ $course = .Parent }}
+  {{ end }}
+  {{ if eq $depth 4 }}
+    {{ $course = .Parent.Parent }}
+  {{ end }}
 
-    <div class="highlightable">
-    <ul class="topics">
+  {{ if lt $depth 4}}
+  {{ if gt $depth 1 }}
+    <img class='course-image' src='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://assets.teachablecdn.com/icons/default-course-image.png'/><!-- TODO course picture -->
+  {{ end }}
+  <h2>{{ partial "print-menu-title.html" $course }}</h2>
+  {{ partial "progress.html" $course }}
+  {{ end }}
 
-        {{if eq .Site.Params.ordersectionsby "title"}}
-          {{range .Site.Home.Sections.ByTitle}}
-          {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
-          {{end}}
-        {{else}}
-          {{range .Site.Home.Sections.ByWeight}}
-          {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
-          {{end}}
-        {{end}}
-    </ul>
+  {{ if gt $depth 2 }}
+  <h2>{{ partial "print-menu-title.html" . }}</h2>
+  {{ partial "progress.html" . }}
+  {{ end }}
 
-    {{ $disableShortcutsTitle := .Site.Params.DisableShortcutsTitle}}
-    {{with .Site.Menus.shortcuts}}
-      <section id="shortcuts">
-        <h3>{{ if not $disableShortcutsTitle}}{{ T "Shortcuts-Title"}}{{ end }}</h3>
-        <ul>
-          {{ range sort . "Weight"}}
-              <li>
-                  {{.Pre}}<a class="padding" href="{{.URL | absLangURL }}">{{safeHTML .Name}}</a>{{.Post}}
-              </li>
-          {{end}}
-        </ul>
-      </section>
-    {{end}}
+  {{ if .IsPage }}
 
-    {{ if or .Site.IsMultiLingual $showvisitedlinks }}
-    <section id="prefooter">
-      <hr/>
-      <ul>
-      {{ if and .Site.IsMultiLingual (not .Site.Params.DisableLanguageSwitchingButton)}}
-        <li>
-          <a class="padding">
-            <i class="fas fa-language fa-fw"></i>
-          <div class="select-style">
-            <select id="select-language" onchange="location = this.value;">
-          {{ $siteLanguages := .Site.Languages}}
-          {{ $pageLang := .Page.Lang}}
-          {{ range .Page.AllTranslations }}
-              {{ $translation := .}}
-              {{ range $siteLanguages }}
-                  {{ if eq $translation.Lang .Lang }}
-                    {{ $selected := false }}
-                    {{ if eq $pageLang .Lang}}
-                      <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
-                    {{ else }}
-                      <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-                    {{ end }}
-                  {{ end }}
-              {{ end }}
-          {{ end }}
-        </select>
-        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
-          <g>
-            <g id="arrow-drop-down">
-              <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
-            </g>
-          </g>
-        </svg>
-        </div>
-        </a>
-        </li>
-      {{end}}
-
-      {{ if $showvisitedlinks}}
-        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> {{T "Clear-History"}}</a></li>
-      {{ end }}
-      </ul>
-    </section>
+    {{ $de := . }}
+    {{- with index (where .Translations "Lang" "de") 0 }}
+      {{ $de = . }}
     {{ end }}
-    <section id="footer">
-      {{ partial "menu-footer.html" . }}
-    </section>
-  </div>
-</nav>
 
-<!-- templates -->
-{{ define "section-tree-nav" }}
-{{ $showvisitedlinks := .showvisitedlinks }}
-{{ $currentNode := .currentnode }}
- {{with .sect}}
-  {{if .IsSection}}
-    {{safeHTML .Params.head}}
-    <li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item
-        {{if .IsAncestor $currentNode }}parent{{end}}
-        {{if eq .UniqueID $currentNode.UniqueID}}active{{end}}
-        {{if .Params.alwaysopen}}parent{{end}}
-        ">
-      <a href="{{.RelPermalink}}">
-          {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
-          {{ if $showvisitedlinks}}
-            <i class="fas fa-check read-icon"></i>
-          {{ end }}
-      </a>
-      {{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
-      {{ if ne $numberOfPages 0 }}
-        <ul>
-          {{ $currentNode.Scratch.Set "pages" .Pages }}
-          {{ if .Sections}}
-            {{ $currentNode.Scratch.Set "pages" (.Pages | union .Sections) }}
-          {{end}}
-          {{ $pages := ($currentNode.Scratch.Get "pages") }}
+    <!-- Lecture list on courses page (enrolled user) -->
+    {{- with $de.Parent -}}{{- with .Parent -}}
 
-        {{if eq .Site.Params.ordersectionsby "title"}}
-          {{ range $pages.ByTitle }}
-            {{ if and .Params.hidden (not $.showhidden) }}
-            {{else}}
-            {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
-            {{end}}
-          {{ end }}
-        {{else}}
-          {{ range $pages.ByWeight }}
-            {{ if and .Params.hidden (not $.showhidden) }}
-            {{else}}
-            {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
-            {{end}}
-          {{ end }}
-        {{end}}
-        </ul>
-      {{ end }}
-    </li>
-  {{else}}
-    {{ if not .Params.Hidden }}
-      <li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item {{if eq .UniqueID $currentNode.UniqueID}}active{{end}}">
-        <a href="{{ .RelPermalink}}">
-        {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
-        {{ if $showvisitedlinks}}<i class="fas fa-check read-icon"></i>{{end}}
-        </a>
-    </li>
-     {{ end }}
-  {{end}}
- {{ end }}
-{{ end }}
+      {{ range .Sections }}
+        {{ $trans := index (where .AllTranslations "Lang" $.Lang) 0 }}
+        <div class='row lecture-sidebar' style='padding-bottom: 0;'>
+          <div class='course-section' style='padding-left: 15px; margin-bottom: 0;clear: none;'>
+            <div class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="482202" style=>
+                <span class="section-lock">
+                <i class="fa fa-lock"></i>&nbsp;
+                </span>
+                {{ partial "print-menu-title.html" $trans }}
+            </div><!-- end of .section-title -->
 
+            <ul class='section-list'>
+            {{ range .Pages }}
+              {{ $trans := index (where .AllTranslations "Lang" $.Lang) 0 }}
+                <li data-lecture-id="8878606" data-lecture-url='{{ .Permalink }}' class='section-item incomplete'>
+                <a class='item' data-no-turbolink='true' href='{{ $trans.Permalink }}' id='sidebar_link_8878606'>
+                    <span class='status-container'>
+                    <span class='status-icon'>
+                        &nbsp;
+                    </span>
+                    </span>
+                    <div class='title-container'>
+                    {{ if .Params.audio }}
+                    <span class="lecture-icon">
+                        <i class="fa fa-volume-up"></i>
+                    </span>
+                    {{ else }}
+                    <span class='lecture-icon'>
+                        <i class='fa fa-file-text'></i>
+                    </span>
+                    {{ end }}
+                    <span class='lecture-name'>
+                        {{ partial "print-menu-title.html" $trans }}
+                    </span>
+                    </div>
+                </a>
+                </li>
+
+            {{ end }}
+            </ul>
+
+
+        </div><!-- end of .course-section -->
+
+      </div><!-- end of .row.lecture-sidebar -->
+
+    {{ end }}<!-- end of .Sections -->
+
+   {{ end }}{{ end }}<!-- end of .Parent.Parent -->
+
+   {{ end }}<!-- end of .IsPage -->
+</div><!-- end of #courseSidebar -->

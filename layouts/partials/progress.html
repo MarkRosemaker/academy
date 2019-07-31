@@ -1,0 +1,25 @@
+{{ with . }}
+
+{{ $words := partial "functions/word-count.html" . }}
+{{ $depth := partial "functions/depth.html" . }}
+
+{{ $max := index (slice 1000000 100000 20000 5000 300) $depth | float }}
+
+{{ $progress := div $words $max | mul 100 | int }}
+{{ if gt $progress 100 }}
+    {{ $progress = 100 }}
+{{ end }}
+
+<div class='course-progress lecture-page is-at-top'>
+        <div class='progressbar'>
+          <div class='progressbar-fill' style='min-width: {{ $progress }}%;'></div>
+        </div>
+        <div class='small course-progress-percentage'>
+          <span class='percentage'>
+            {{ $progress }}%
+          </span>
+          COMPLETE ({{ $words }} words)
+        </div>
+      </div>
+
+{{ end }}

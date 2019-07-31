@@ -35,10 +35,11 @@
                     {{ $wc_current_infos := slice }}
                     {{ $wc_current_infos_i18n := slice }}
                     {{ $gender := "" }}
-                    {{ $gender_map := dict "m" "männlich" "f" "weiblich" "n" "sächlich" }}
+                    {{ $gender_map := dict "m" "männlich" "f" "weiblich" "n" "sächlich" "m/f/n" "männlich, weiblich, sächlich"}}
                     {{ range (split $wc_original ", " | append "" ) }}
                         {{ if in . "<" }}<!-- Is it info about the current word class or the name of a word class? -->
                             {{ $wc_current_info := . | replaceRE "<.*?>" ""  }}
+
                             {{ with index $gender_map $wc_current_info }}
                                 {{ if not $gender }}
                                     {{ $gender = $wc_current_info }}
@@ -61,7 +62,7 @@
                                     {{ $wc_names_infos_i18n = $wc_names_infos_i18n | append (title (i18n $wc_current_name)) }}
                                 {{ end }}
                             {{ end }}
-                            {{ $wc_current_name  = . }}
+                            {{ $wc_current_name  = . | replaceRE "\\A " "" }} <!-- for some reason, the value was once " Toponym"-->
                         {{ end }}
                     {{ end }}
                     {{ $html_wc_name := print "<span lang=\"de\" class=\"de\">" (delimit $wc_names_infos ", ") "</span><br><span lang=\"en\" class=\"en trans\">" (delimit $wc_names_infos_i18n ", ") "</span>" }}
@@ -74,7 +75,7 @@
                         <!-- Get the gender if it's the first entry. -->
                         {{ $article := "" }}
                         {{ $article_map := dict "m" "der " "f" "die " "n" "das " }}
-                        {{ $gender_map := dict "m" "noun-m" "f" "noun-f" "n" "noun-n" }}
+                        {{ $gender_map := dict "m" "noun-m" "f" "noun-f" "n" "noun-n" "m/f/n" "noun-m" }}
                         {{ with $gender }}
                             {{ $article = index $article_map . }}
                             {{ $word_classes = $word_classes | append (index $gender_map .) }}
@@ -135,8 +136,17 @@
                             {{ $inner := . | replaceRE "<th.*?>|</th>" "" | replaceRE "&#160;" " " }}
                             {{ $pre   := . | replaceRE "(<th.*?>).*" "$1" }}
 
-                            {{ if and $inner (ne $inner "—") (not (in $inner "Flexion:")) }}
-                                {{ $inner_trans := print $pre "<span lang=\"de\" class=\"de\">" $inner "</span><br><span lang=\"en\" class=\"en trans\">" (title (i18n $inner)) "</span></th>" }}
+                            {{ if and $inner (ne $inner "—") (not (in $inner "Flexion:")) (not (in $inner "siehe auch:")) }}
+                                {{ $inner_trans := "" }}
+                                {{ if gt (len (findRE "\\ASingular" $inner)) 0 }}
+                                <!-- for Singular 1, Singular 2, Singular <i>m</i> etc. -->
+                                    {{ $inner_trans = "Singular" | i18n | title }}
+                                    {{ $inner_trans = print $inner_trans (replaceRE "\\ASingular(.*)" "$1" $inner) }}
+                                {{ else }}
+                                    {{ $inner_trans = $inner | i18n | title }}
+                                {{ end }}
+
+                                {{ $inner_trans = print $pre "<span lang=\"de\" class=\"de\">" $inner "</span><br><span lang=\"en\" class=\"en trans\">" $inner_trans "</span></th>" }}
                                 {{ $html_table_raw = $html_table_raw | replaceRE . $inner_trans }}
                             {{ end }}
                         {{ end }}
@@ -148,10 +158,8 @@
                         {{ $html_table = print $html_table $html_table_raw }}
                     {{ end }}
 
-                    {{ if and $html_image $html_table }}
+                    {{ if or $html_image $html_table }}
                         {{ $html_wc = print $html_wc "<div class=\"non-text\">" $html_image $html_table "</div>" }}
-                    {{ else }}
-                        {{ $html_wc = print $html_wc $html_image $html_table }}
                     {{ end }}
 
                     <!-- Split into seperate dictionary items. -->
@@ -222,6 +230,7 @@
                         {{ $html_item := "" }}
                         {{ with $body }}
                             {{ with $header }}
+
                                 <!-- Translate the header. -->
                                 {{ $header = print "<h4><span lang=\"de\" class=\"de\">" $header "</span><br><span lang=\"en\" class=\"en trans\">" (title (i18n $header)) "</span></h4>" }}
 

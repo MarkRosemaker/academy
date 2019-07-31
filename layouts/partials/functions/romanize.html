@@ -1,0 +1,31 @@
+<!-- Define the values and respective symbols. -->
+{{- $values  := slice 1000  900 500  400 100   90  50   40  10    9   5    4   1 -}}
+{{- $symbols := slice   "M" "CM" "D" "CD" "C" "XC" "L" "XL" "X" "IX" "V" "IV" "I" -}}
+
+<!-- Initialize input and output. -->
+{{- $input  := . -}}
+{{- $output := "" -}}
+
+{{ with $input }}
+    <!-- Check if the input is correct. -->
+    {{- if or (lt $input 1) (gt $input 3999) -}}
+        {{- errorf "The number %d cannot be converted to roman numeral. Numbers to be converted must be between 0 and 3999." $input -}}
+    {{- end -}}
+
+    {{- range $i, $v := $values -}}
+        <!-- Divide by current value. -->
+        {{- $div := div $input $v -}}
+        <!-- Add the respective symbol as often as was the result of the division. -->
+        {{- range seq $div -}}
+            {{- $output = print $output (index $symbols $i) -}}
+        {{- end -}}
+
+        <!-- Calculate the rest that we still need to convert to symbols. -->
+        {{- $input = mod $input $v -}}
+    {{- end -}}
+{{- else -}}
+    <!-- Wikipedia: "In pharmacy, Roman numerals are used in some contexts, including ... N to denote 'zero'." -->
+    {{- $output = "N" -}}
+{{- end -}}
+
+{{- return $output -}}

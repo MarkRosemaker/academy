@@ -14,14 +14,22 @@
     font-family: Larsseit, Manrope, Helvetica, sans-serif;
 }
 
+#info {
+	color: #808080;
+	text-align: right;
+	margin-top: -50px;
+}
 
 /*
  * Make text more visible. This is what Teachable should be doing.
  * Also, reset font color for highlighted text.
  */
-p, h1, h2, h3, h4, h5,
+.lecture-attachment p, h1, h2, h3, h4, h5,
 body.show-important .important, body.show-important .checked,
-body.show-genders .noun-m, body.show-genders .noun-f, body.show-genders .noun-n { color: #2b3636; }
+body.show-genders .noun-m, body.show-genders .noun-f, body.show-genders .noun-n {
+	color: #2b3636;
+	margin-bottom: 5px;
+}
 body {
 	/* font-size: 1em; */
 	font-size: 16px;

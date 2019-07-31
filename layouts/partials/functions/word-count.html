@@ -1,0 +1,18 @@
+{{ $words := 0 }}
+{{ $page := . }}
+{{ with index (where .Translations "Lang" "de") 0 -}}
+    {{ $page = . }}
+{{- end -}}
+
+{{ if .IsPage }}
+    {{ $words = .WordCount }}
+{{ else }}
+    {{ range .Sections }}
+        {{ $words = add $words (partial "functions/word-count.html" .) }}
+    {{ end }}
+    {{ range .Pages }}
+        {{ $words = add $words .WordCount }}
+    {{ end }}
+{{ end }}
+
+{{ return $words }}

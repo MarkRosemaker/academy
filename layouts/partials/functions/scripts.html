@@ -1,0 +1,17 @@
+
+{{/*- $jQuery := resources.Get "/js/jquery/jquery.min.js" -*/}}
+<!---->
+
+<!-- jQuery Mobile for popups etc. (build only what you need here: https://jquerymobile.com/download-builder/) -->
+
+{{ $pre := resources.Get "/js/pre.js"  }}
+{{- $jQuery := resources.Get "/js/jquery-1.9.1.js" -}}
+{{- $underscore := resources.Get "/js/underscore.small.js" -}}
+{{- $jQueryMobile := resources.Get "/js/jquery.mobile-1.4.5.js" -}}
+{{ $spp_js := resources.Get "js/spp-main-2.8.0.small.js" }}
+{{- $custom := resources.Get "js/custom.js" }}
+
+<!--  | resources.Minify -->
+{{ $js := slice $pre $jQuery $underscore $jQueryMobile $spp_js $custom | resources.Concat "js/scripts.js"  }}
+
+{{ return $js }}

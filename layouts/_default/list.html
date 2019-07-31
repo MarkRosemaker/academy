@@ -1,22 +1,82 @@
 {{ partial "header.html" . }}
 
-{{ if eq .Kind "section" }}
-	{{ .Content }}
-{{end}}
+{{ $depth := partial "functions/depth.html" . }}
+{{ $title := partial "print-menu-title.html" . }}
 
-{{ if or (eq .Kind "taxonomy") (eq .Kind "taxonomyTerm") }}
-<ul>
-	{{ range .Pages }}
-		<li><a href="{{.URL}}">{{.Title}}</a></li>
-	{{ end }}
-</ul>
-{{end}}
+<h2 class='section-title'>
+    {{ if eq $depth 2 }}
+        Class Curriculum
+    {{ else if eq $depth 3 }}
+        Lesson
+    {{ else }}
+        {{ partial "print-menu-title.html" . }}
+    {{- end -}}
+</h2>
 
-<footer class=" footline" >
-	{{with .Params.LastModifierDisplayName}}
-	    <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
-	    </div>
-	{{end}}
-</footer>
+{{ .Content }}
+
+<!-- Lecture list on courses page (enrolled user) -->
+
+<div class='row'>
+{{ $de := . }}
+{{- with index (where .Translations "Lang" "de") 0 }}
+  {{ $de = . }}
+{{ end }}
+{{ $sections := $de.Sections }}
+{{ if eq $depth 3 }}
+    {{ $sections = slice $de }}
+{{ end }}
+{{ range $sections }}
+    {{ $trans := index (where .AllTranslations "Lang" $.Lang) 0 }}
+
+    <div class='course-section'>
+        <div class='section-title'>
+                <span class="section-lock">
+                  <i class="fa fa-lock"></i>&nbsp;
+                </span>
+                <a href='{{ $trans.Permalink }}'>
+                    {{ partial "print-menu-title.html" $trans }}  ({{ partial "functions/word-count.html" . }} words)
+                </a>
+              </div>
+              <ul class='section-list'>
+                {{ $sub := .Sections }}
+                {{ if gt $depth 1 }}
+                    {{ $sub = .Pages }}
+                {{ end }}
+
+                {{ range $sub }}
+                  {{ $trans := index (where .AllTranslations "Lang" $.Lang) 0 }}
+                  <li class='section-item incomplete' data-lecture-id="8878606">
+                    <a class='item' data-no-turbolink='true' href='{{ $trans.Permalink }}'>
+                      <span class='status-container'>
+                        <span class='status-icon'>
+                          &nbsp;
+                        </span>
+                      </span>
+                      <div class='title-container'>
+                        <div class='btn-primary btn-sm pull-right'>
+                          Start
+                        </div>
+                        {{ if .Params.audio }}
+                        <span class="lecture-icon">
+                            <i class="fa fa-volume-up"></i>
+                        </span>
+                        {{ else }}
+                        <span class='lecture-icon'>
+                            <i class='fa fa-file-text'></i>
+                        </span>
+                        {{ end }}
+                        <span class='lecture-name'>
+                          {{ partial "print-menu-title.html" $trans }} ({{ partial "functions/word-count.html" . }} words)
+                        </span>
+                      </div>
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
+          </div>
+
 
 {{ partial "footer.html" . }}

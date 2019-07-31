@@ -32,7 +32,9 @@
                 {{ $search = $lower }}
             {{ else if not (or (isset $synonyms $word) (isset $vocab $word) (isset $custom_words $word)) }}
                 <!-- We must know, set word into a json data map (even if value is empty). -->
-                {{ errorf "Capitalization of \"%s\" unknown." $word }}
+                {{ if $.Site.Params.Debug.Capitalization }}
+                    {{ errorf "Capitalization of \"%s\" unknown." $word }}
+                {{ end }}
             {{ end }}
         {{ end }}
 
@@ -89,9 +91,7 @@
         <!-- Check if it's an important word. -->
         {{ with index $vocab $info.basic_form }}
             {{ $classes = $classes | append "important" }}
-            {{ if not (in $learned_words $info.basic_form) }}
-                {{ $learned_words = $learned_words | append $info.basic_form }}
-            {{ end }}
+            {{ $learned_words = $learned_words | append $info.basic_form }}
         {{ end }}
 
         {{ with $classes }}
@@ -101,7 +101,9 @@
             {{ end }}
             {{ $html = print $html "class=\"" (delimit $classes " ") "\">" $word "</a>" $post " "}}
         {{ else }}
-            {{ errorf "Could not find word \"%s\"." . }}
+            {{ if $.Site.Params.Debug.MissingWords }}
+                {{ errorf "Could not find word \"%s\"." . }}
+            {{ end }}
             {{ $html = print $html $pre . "* "  $post }}
         {{ end }}
     {{ else }}

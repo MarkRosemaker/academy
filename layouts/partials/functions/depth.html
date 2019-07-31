@@ -1,0 +1,11 @@
+{{ $depth := 0 }}
+{{ with .Parent }}
+    {{ $depth = add 1 (partial "functions/depth.html" .) }}
+{{ end }}
+
+{{ if gt $depth 4 }}
+    {{ errorf "Depth of %s is  %d" . $depth }}
+    {{ $depth = 4 }}
+{{ end }}
+
+{{ return int $depth }}

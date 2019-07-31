@@ -15,11 +15,12 @@ defaultContentLanguageInSubdir = false
   disableNextPrev = false
 
   enableTeachableCSS = true
-  enableTeachableJS = true
+  enableTeachableJS = false
 
-  showCopyableHTML = true
+  showCopyableHTML = false
+  buildPopups = true
 
-[params.colors]
+[params.colors] # doesn't work in CSS
 
 primary = '#FF8000'
 secondary = '#00A651'
@@ -30,6 +31,11 @@ text = '#2b3636'
 navbar_text = '#ffffff'
 homepage_heading = '#ffffff'
 video_player_color = '#00A651'
+
+[params.debug]
+
+missingWords = false
+capitalization = false
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -46,3 +52,6 @@ title = "Authentic German Learning Akademie"
 description = "Die beste Plattform, um Deutsch zu lernen."
 weight = 2
 languageName = "Deutsch"
+
+[taxonomies]
+  category = "categories"
