@@ -1,13 +1,12 @@
 +++
-title = "{{ .Name | replaceRE "unit-[0-9]*?-(.*)" "$1" | replaceRE  "-" " " }}"
+title = ""
 date =  {{ .Date }}
-weight = {{ .Name | replaceRE "unit-([0-9]*?)-.*" "$1" }}
-type = "course"
-layout = "unit"
+weight = {{ .Name | replaceRE "\\A([0-9]*?)-.*" "$1" }}
 
-categories = []
+categories = [] # 'mindset', 'immersion', 'meta', 'quiz'
 draft = true
 spellchecked = false
+audio = ''
 +++
 
 
