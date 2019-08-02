@@ -4,7 +4,7 @@
 {{ $word_classes_all := slice }}
 {{ $learned_words := slice }}
 
-{{ if and .Site.Params.buildPopups .Params.popups }}
+{{ if and .Site.Params.buildPopups }}<!--  .Params.popups -->
 
 {{ $vocab := .Site.Data.a1_vocab }}
 {{ $synonyms := .Site.Data.synonyms }}
