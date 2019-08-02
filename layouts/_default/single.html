@@ -2,11 +2,12 @@
 
 {{ $content := partial "content-teachable.html" . }}
 
-{{ if .Site.Params.showCopyableHTML }}
+{{ $de := index (where .Translations "Lang" "de") 0 | default . }}
+{{ if and (not $de.Draft) (not .Draft) .Site.Params.showCopyableHTML }}
   {{ $targetPath := print "html" .RelPermalink "de.html" }}
   {{ $minified := $content | resources.FromString $targetPath | minify }}
   {{ $js := partial "functions/scripts.html" .Page }}
-  <div style="margin-bottom: 10px;"><textarea rows="4" cols="50" data-role="none">{{ $minified.Content }}<script defer src="{{ $js.Permalink }}"></script></textarea></div>
+  <div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">{{ $minified.Content }}<script defer src="{{ $js.Permalink }}"></script></textarea></div>
 {{ end }}
 
 {{ $content | safeHTML }}

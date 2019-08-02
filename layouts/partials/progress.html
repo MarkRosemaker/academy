@@ -3,7 +3,7 @@
 {{ $words := partial "functions/word-count.html" . }}
 {{ $depth := partial "functions/depth.html" . }}
 
-{{ $max := index (slice 1000000 100000 20000 5000 300) $depth | float }}
+{{ $max := index (slice 1000000 100000 20000 5000 250) $depth | float }}
 
 {{ $progress := div $words $max | mul 100 | int }}
 {{ if gt $progress 100 }}

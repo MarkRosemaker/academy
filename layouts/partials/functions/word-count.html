@@ -1,17 +1,11 @@
 {{ $words := 0 }}
-{{ $page := . }}
-{{ with index (where .Translations "Lang" "de") 0 -}}
-    {{ $page = . }}
-{{- end -}}
+{{ $page := index (where .Translations "Lang" "de") 0 | default . }}
 
-{{ if .IsPage }}
-    {{ $words = .WordCount }}
+{{ if $page.IsPage }}
+    {{ $words = $page.WordCount }}
 {{ else }}
-    {{ range .Sections }}
+    {{ range $page.Sections | default $page.Pages }}
         {{ $words = add $words (partial "functions/word-count.html" .) }}
-    {{ end }}
-    {{ range .Pages }}
-        {{ $words = add $words .WordCount }}
     {{ end }}
 {{ end }}
 

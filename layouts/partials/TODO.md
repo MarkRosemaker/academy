@@ -1,5 +1,20 @@
-- make docalyzer work
-- write beginner course
+- [x] Gunda Bescheid sagen -> am 17. Bahnhof Letter treffen
+- [ ] Bus nach Hanover buchen, Caroline Bescheid sagen
+- [ ] Hochzeitsgeschenk
+- [ ] Wo in Berlin schlafen?
+- [ ] Bus nach Berlin buchen
+- [ ] Bus nach Neubrandenburg buchen
+- [ ] Polizeiliches Führungszeugnis in Berlin besorgen
+- [ ] Bus nach Paris buchen
+
+
+- make get-word-info.html more efficient
+- make info boxes for each category via categories folder
+   - https://workflowy.com/#/4c25127c4a2d
+   - formatting: take a page from learn theme
+- write [beginner course](https://workflowy.com/#/9f92ea0ffc1a)
+  - improve [block shortcodes](https://workflowy.com/#/ed7893496de8) as you use them
+   - formatting: take a page from learn theme
 - import emails, free course
   - figure out how to enable elements like pictures, h5p
   - transfer code to generate pdf
@@ -14,6 +29,8 @@
 - improve js: jquery mobile (as soon as downloader works again)
   - close on clicking outside
   - don't jump to top on click
+
+ The kind of subjects I am referring to are about German life, talk about where you live in Berlin, the places you have visited and/or lived in, the education system in Germany or what family life is like there.  I listen to National Public Radio and they bring up all kinds of subject matter from all over the world.
 
 
 {{ if eq "page" .Kind }}

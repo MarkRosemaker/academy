@@ -18,15 +18,19 @@
 {{ with index (where .AllTranslations "Lang" "de") 0 }}
 
     <!-- Info -->
-    <p id="info">{{ .WordCount }} Wörter ({{ .ReadingTime }} min)</p>
+    <p id="word-count">
+        {{ if or $.Draft .Draft }}DRAFT{{ end }}
+        {{ .WordCount }} Wörter ({{ .ReadingTime }} min)
+    </p>
+
+    {{ with .Params.categories }}
+        {{ . }}
+    {{ else }}
+        NO CATEGORIES
+    {{ end }}
 
     <!-- Improve presentation of German text. -->
-    {{ $smart_text := dict }}
-    {{ if and .Site.Params.buildPopups .Params.spellchecked }}
-        {{ $smart_text = partial "functions/get-smart-text" (dict "de_html" .Content "Site" $.Site) }}
-    {{ else }}
-        {{ $smart_text = dict "html" .Content }}
-    {{ end }}
+    {{ $smart_text := partial "functions/get-smart-text" . }}
 
     <!-- Unit Wrapper -->
     <div class="show-important Substantiv-enabled Verb-enabled" id="unit">
@@ -101,6 +105,7 @@
                 <span lang="en" class="en trans">Important Words you learned in this lesson: {{ delimit $learned ", " }}.</span>
             </p>
             {{ end }}
+            {{ .Scratch.Set "learned" $smart_text.learned_words }}
         </div><!-- end #show-important-expl -->
 
         <!-- Genders Explanation -->

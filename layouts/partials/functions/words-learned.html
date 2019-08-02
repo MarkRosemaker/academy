@@ -1,0 +1,19 @@
+{{ $word_count := dict }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "count" $word_count }}
+
+{{ if .IsPage }}
+    {{ range (partial "functions/get-smart-text.html" .).learned_words }}
+        {{ $count := index $word_count . | default 0 | add 1 | int }}
+        {{ $scratch.SetInMap "count" . $count }}
+    {{ end }}
+{{ else }}
+    {{ range .Sections | default .Pages  }}
+        {{ range $word, $count := partial "functions/words-learned.html" . }}
+            {{ $new := index $word_count $word | default 0 | add $count | int }}
+            {{ $scratch.SetInMap "count" $word $new }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ return $word_count }}

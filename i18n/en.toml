@@ -157,9 +157,6 @@ other = "feminine"
 ["sächlich"]
 other = "neuter"
 
-["männlich, weiblich, sächlich"]
-other = "masculine, feminine, neuter"
-
 ["Singular"]
 other = "singular"
 
@@ -247,11 +244,14 @@ other = "possessive pronoun"
 ["attributiv (vor Substantiv)"]
 other = "attributive (before a noun)"
 
-["nicht attributiv, ohne Artikel"]
-other = "not attributive, without article"
+["nicht attributiv"]
+other = "not attributive"
 
-["nicht attributiv, mit Artikel"]
-other = "not attributive, with article"
+["ohne Artikel"]
+other = "without article"
+
+["mit Artikel"]
+other = "with article"
 
 ["Weibliche Wortformen"]
 other = "feminine word forms"

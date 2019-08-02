@@ -1,9 +1,10 @@
 +++
 title = "The Mission"
 date = 2019-07-31T15:12:49+02:00
+spellchecked = false
 +++
 
-Hello, I am Mark of Authentic German Learning.
+Hello, I am Mark from Authentic German Learning.
 
 I want you to not only learn the German language successfully, but also have fun with it.
 
@@ -15,7 +16,7 @@ I do not want to ruin this beauty by presenting you boring lessons.
 
 And I do not want to, as is unfortunately the case with many traditional schools, that too much emphasis on grammar and correctness confuses you and blocks you from speaking.
 
-No - I want you to learn German in an authentic and enjoyable way so that you can speak for yourself without inhibitions soon.
+No -- I want you to learn German in an authentic and enjoyable way so that you can speak for yourself without inhibitions soon.
 
 I will explain the German grammar in a comprehensible way and show you ways, how you will not be overwhelmed by it.
 

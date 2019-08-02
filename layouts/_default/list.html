@@ -18,14 +18,8 @@
 <!-- Lecture list on courses page (enrolled user) -->
 
 <div class='row'>
-{{ $de := . }}
-{{- with index (where .Translations "Lang" "de") 0 }}
-  {{ $de = . }}
-{{ end }}
-{{ $sections := $de.Sections }}
-{{ if eq $depth 3 }}
-    {{ $sections = slice $de }}
-{{ end }}
+{{ $de := index (where .Translations "Lang" "de") 0 | default . }}
+{{ $sections := $de.Sections | default (slice $de) }}
 {{ range $sections }}
     {{ $trans := index (where .AllTranslations "Lang" $.Lang) 0 }}
 
@@ -78,5 +72,21 @@
             {{ end }}
           </div>
 
+<p>
+  {{ $vocab := .Site.Data.a1_vocab }}
+  {{ $learned := partial "functions/words-learned.html" $de }}
+  Learned words: {{ $learned }}
+</p>
 
+<p>
+  {{ $left := dict }}
+  {{ $.Scratch.Set "left" $left }}
+  {{ range $word, $count := $vocab }}
+    {{ $result := index $learned $word | default 0 | sub $count | int }}
+    {{ if gt $result 1 }}
+      {{ $.Scratch.SetInMap "left" $word $result }}
+    {{ end }}
+  {{ end }}
+  Left to use: {{ $left }}
+</p>
 {{ partial "footer.html" . }}

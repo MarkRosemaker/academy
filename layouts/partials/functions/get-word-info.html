@@ -1,5 +1,7 @@
+<!-- The word we are looking for. -->
 {{ $word := . }}
 
+<!-- Initialize output variable. -->
 {{ $html  := "" }}
 {{ $audio := "" }}
 {{ $word_classes := slice }}
@@ -8,13 +10,13 @@
 <!-- Get HTML from Wiktionary. -->
 {{ $html_raw := "" }}
 {{ $json := getJSON (print "https://de.wiktionary.org/w/api.php?action=parse&format=json&prop=text&disabletoc=true&page=" $word) }}
-{{ with $json.parse }}{{ with .text }}{{ with index . "*" }}
+{{ with $json.parse.text }}{{ with index . "*" }}
     {{ with findRE "<a href=\"//upload.wikimedia.org/wikipedia/commons/.*?\" class=\"internal\" title=\".*?\">" . }}
         {{ $audio = print "https:" (index . 0) | replaceRE "<a .*href=\"|\".*" "" }}
     {{ end }}
 
-    {{ $html_raw = .   }}
-{{ end }}{{ end }}{{ end }} <!-- end of HTML -->
+    {{ $html_raw = . }}
+{{ end }}{{ end }} <!-- end of HTML -->
 
 {{ with $html_raw }}
     {{ range split $html_raw "<h2" }}
@@ -143,7 +145,11 @@
                                     {{ $inner_trans = "Singular" | i18n | title }}
                                     {{ $inner_trans = print $inner_trans (replaceRE "\\ASingular(.*)" "$1" $inner) }}
                                 {{ else }}
-                                    {{ $inner_trans = $inner | i18n | title }}
+                                    {{ $each_trans := slice }}
+                                    {{ range split $inner ", " }}
+                                        {{ $each_trans =  $each_trans | append (i18n .) }}
+                                    {{ end }}
+                                    {{ $inner_trans = delimit  $each_trans ", " | title }}
                                 {{ end }}
 
                                 {{ $inner_trans = print $pre "<span lang=\"de\" class=\"de\">" $inner "</span><br><span lang=\"en\" class=\"en trans\">" $inner_trans "</span></th>" }}
@@ -201,10 +207,6 @@
                         <!-- Clean up the html including all links. -->
                         {{ $body = $body | replaceRE "<p class=\"mw-empty-elt\"></p>|<a .*?>|</a>|\\(\\)|<!--.*?-->|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*|<sup.*?</sup>|<p><i><span style=\"visibility:hidden\" id=\"Quellen\">.*|<p>.*?Quellen:</i>.*|<a[^>]*?><\\/a>|<table><tbody><tr><th>Dialektausdrücke:</th></tr><tr><td><div id=\"Vorlage_Uberarbeiten\".*|<div id=\"Vorlage_Uberarbeiten\".*" "" }}
 
-                        {{ if in $body "Quellen" }}
-                        {{ errorf "%s" $body }}
-                        {{ end }}
-
                         <!-- Clean up whitespaces. -->
                         {{ $body = $body | replaceRE "\\[([0-9]+), ([0-9]+)\\]" "[$1,&#160;$2]"  | replaceRE "#8206;" "&#160;" | replaceRE "(&#160;)+" "&#160;" | replaceRE "&#160; " "&#160;" | replaceRE "&#160;([;,.])" "$1" | replaceRE "\\s+" " " | replaceRE "<div[^>]*>&#160;</div>" "" }}
 
@@ -219,7 +221,7 @@
                                     {{ $basic_form = $basic_form_instance }}
                                 {{ end }}
 
-                                {{ $basic := partial "functions/get_word_info.html" $basic_form_instance }}
+                                {{ $basic := partial "functions/get-word-info.html" $basic_form_instance }}
 
                                 {{ $word_classes = $word_classes | append (index $basic.word_classes 0) }}
 

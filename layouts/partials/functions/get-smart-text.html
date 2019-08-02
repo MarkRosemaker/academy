@@ -1,13 +1,16 @@
+<!-- Initialize output variables. -->
 {{ $html   := "" }}
 {{ $popups := "" }}
 {{ $word_classes_all := slice }}
 {{ $learned_words := slice }}
 
+{{ if and .Site.Params.buildPopups .Params.popups }}
+
 {{ $vocab := .Site.Data.a1_vocab }}
 {{ $synonyms := .Site.Data.synonyms }}
 {{ $custom_words := .Site.Data.custom_words }}
 
-{{ $input  := replace .de_html "<br>" "<br> " }}
+{{ $input  := replace .Content "<br>" "<br> " }}
 {{ $input   = replace $input "</p>" "</p> " }}
 
 {{ $input   = replace $input "Authentic German Learning" "Authentic_German_Learning" }}
@@ -44,12 +47,7 @@
         {{ end }}
 
         <!-- Get word info from Wiktionary. -->
-        {{ $info := dict }}
-        {{ with index $custom_words $search }}
-            {{ $info = . }}
-        {{ else }}
-            {{ $info = partial "functions/get_word_info.html" $search }}
-        {{ end }}
+        {{ $info := index $custom_words $search | default (partial "functions/get-word-info.html" $search) }}
 
         <!-- Collect all the attributes and classes of the link element. -->
         {{ $s := newScratch }}
@@ -115,5 +113,9 @@
 
 <!-- Add disclaimer -->
 {{ $popups = print "<p class=\"disclaimer\"><span lang=\"de\" class=\"de\">Manche Inhalte auf dieser Seite wurden von <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a> entnommen.</span><br><span lang=\"en\" class=\"en trans\">Some content on this page was extracted from <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a>.</span></p>" $popups }}
+
+{{ else }}
+    {{ $html = .Content }}
+{{ end }}<!-- end of  and .Site.Params.buildPopups .Params.spellchecked -->
 
 {{ return dict "html" $html "popups" $popups "word_classes" $word_classes_all "learned_words" $learned_words }}

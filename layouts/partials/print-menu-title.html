@@ -1,11 +1,11 @@
 {{ $title := "" }}
 
+<!-- TODO improve using default -->
+
 {{ with . }}
 
-{{- $weight := 0 -}}
+{{- $weight := .Params.Weight | default 0 -}}
 {{- $title = printf "[%s] %s" (upper .Lang) .Title -}}
-
-{{- with .Params.Weight -}}{{ $weight = . -}}{{- end -}}
 
 {{- with index (where .Translations "Lang" "de") 0 }}
     {{ with .Title }}{{- $title = . -}}{{ end }}
