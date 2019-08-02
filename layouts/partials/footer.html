@@ -1,7 +1,8 @@
 
 </div><!-- end of div.course-mainbar.lecture-content -->
 
-{{ with .Page.Params.Audio }}
+{{ $de := index (where .Translations "Lang" "de") 0 | default . }}
+{{ with $de.Params.audio }}
 
 <div class='lecture-attachment lecture-attachment-type-audio' id="lecture-attachment-22310525">
     <div class="attachment-data"></div>

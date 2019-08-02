@@ -4,7 +4,7 @@
 {{ $word_classes_all := slice }}
 {{ $learned_words := slice }}
 
-{{ if and .Site.Params.buildPopups }}<!--  .Params.popups -->
+{{ if or (and (not .Draft) .Site.Params.buildPopups (not .Site.IsServer)) (eq .Title "Test-Einheit") }}
 
 {{ $vocab := .Site.Data.a1_vocab }}
 {{ $synonyms := .Site.Data.synonyms }}

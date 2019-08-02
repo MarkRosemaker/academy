@@ -17,8 +17,8 @@ defaultContentLanguageInSubdir = false
   enableTeachableCSS = true
   enableTeachableJS = false
 
-  showCopyableHTML = false
-  buildPopups = true
+  showCopyableHTML = true # only if not server
+  buildPopups = true # only if not server
 
 [params.colors] # doesn't work in CSS
 

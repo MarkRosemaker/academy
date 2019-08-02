@@ -29,7 +29,7 @@ if (undefined !== l) {
   t.innerHTML = `<i class="fa fa-language" aria-hidden="true"></i>
         &nbsp;
         <span class="nav-text" id="show-trans"></span>`;
-  l.insertBefore(t, l.childNodes[2]);
+  l.insertBefore(t, l.children[1]);
 
   // Show or hide the translation based on user selection.
   t.onclick = function() {

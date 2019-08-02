@@ -91,6 +91,9 @@
                                 {{ $trans = $trans | replaceRE "\\[.*?\\] " "" }}
                             {{ end }}
 
+                            <!-- Make breaks instead of semicolons. -->
+                            {{ $trans = $trans | replaceRE "; " "<br>" }}
+
                             <!-- Add the word as a big header before the first entry. -->
                             {{ $html = print $html "<h2><span lang=\"de\" class=\"de\">" $article $word "</span><br><span lang=\"en\" class=\"en trans\">" $trans "</span></h2>" }}
                         {{ else }}

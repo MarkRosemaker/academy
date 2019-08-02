@@ -3,7 +3,7 @@
 {{ $content := partial "content-teachable.html" . }}
 
 {{ $de := index (where .Translations "Lang" "de") 0 | default . }}
-{{ if and (not $de.Draft) (not .Draft) .Site.Params.showCopyableHTML }}
+{{ if and (not $de.Draft) (not .Draft) .Site.Params.showCopyableHTML (not .Site.IsServer) }}<!-- TODO still show on server if it's an email -->
   {{ $targetPath := print "html" .RelPermalink "de.html" }}
   {{ $minified := $content | resources.FromString $targetPath | minify }}
   {{ $js := partial "functions/scripts.html" .Page }}
