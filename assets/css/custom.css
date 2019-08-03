@@ -29,7 +29,7 @@
  */
 .lecture-attachment p, h1, h2, h3, h4, h5,
 body.show-important .important, body.show-important .checked,
-body.show-genders .noun-m, body.show-genders .noun-f, body.show-genders .noun-n {
+body.show-genders .m, body.show-genders .f, body.show-genders .n {
 	color: #2b3636;
 	margin-bottom: 5px;
 }
@@ -83,13 +83,13 @@ body.show-important .checked {
 }
 
 /* Genders */
-body.show-genders .noun-m {
+body.show-genders .m {
 	background-color: #b4b9ff;
 }
-body.show-genders .noun-f {
+body.show-genders .f {
 	background-color: #ffb9b9;
 }
-body.show-genders .noun-n {
+body.show-genders .n {
 	background-color: #c5ffb4;
 }
 

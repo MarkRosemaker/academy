@@ -21,6 +21,11 @@
 - add cta on free course, then publish on multiple sites like teachable (more reach and figure out which site is best)
 - compare sites, choose one to invest in
 - improve emails
+- show to people and get feedback
+- consult docalyzer for counting
+- same process for Wiktionary English, kind of merge with the other (e.g. look for matching word class and header, then put in orange in front)
+- check for and fix errors, e.g.
+- stop jumping to top when I click on something
 
 
 - import data from English Wiktionary

@@ -111,8 +111,8 @@
         <!-- Genders Explanation -->
         <div id="show-genders-expl" class="expl">
             <p>
-                <span lang="de" class="de">Die grammatikalischen Geschlechter von Substantiven werden hervorgehoben, zum Beispiel so: der <span class="noun-m">Mann</span> (männlich), die <span class="noun-f">Frau</span> (weiblich), das <span class="noun-n">Fahrrad</span> (sächlich).</span><br>
-                <span lang="en" class="en trans">The grammatical genders of nouns are highlighted, e.g. like this: the <span class="noun-m">man</span> (masculine), the <span class="noun-f">woman</span> (feminine), the <span class="noun-n">bicycle</span> (neuter).</span>
+                <span lang="de" class="de">Die grammatikalischen Geschlechter von Substantiven werden hervorgehoben, zum Beispiel so: der <span class=m>Mann</span> (männlich), die <span class=f>Frau</span> (weiblich), das <span class=n>Fahrrad</span> (sächlich).</span><br>
+                <span lang="en" class="en trans">The grammatical genders of nouns are highlighted, e.g. like this: the <span class=m>man</span> (masculine), the <span class=f>woman</span> (feminine), the <span class=n>bicycle</span> (neuter).</span>
             </p>
         </div><!-- end #show-genders-expl -->
 
@@ -160,7 +160,7 @@
                     <div class="ui-controlgroup-controls">
 
                         {{ $wc := slice }}
-                        {{ $ignore := slice $wc_main "noun-m" "noun-f" "noun-n" }}
+                        {{ $ignore := slice $wc_main "m" "f" "n" }}
                         {{ range $smart_text.word_classes }}  <!-- Only the ones that show up. -->
                             {{ if not (in $ignore .) }}
                                 {{ $wc = append . $wc }}

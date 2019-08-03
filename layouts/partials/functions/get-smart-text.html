@@ -4,14 +4,15 @@
 {{ $word_classes_all := slice }}
 {{ $learned_words := slice }}
 
-{{ if or (and (not .Draft) .Site.Params.buildPopups (not .Site.IsServer)) (eq .Title "Test-Einheit") }}
+<!-- or (and (not .Draft) .Site.Params.buildPopups (not .Site.IsServer)) (eq .Title "Test-Einheit")-->
+{{ if and .Site.Params.buildPopups (not .Site.IsServer) }}
 
 {{ $vocab := .Site.Data.a1_vocab }}
 {{ $synonyms := .Site.Data.synonyms }}
 {{ $custom_words := .Site.Data.custom_words }}
 
 {{ $input  := replace .Content "<br>" "<br> " }}
-{{ $input   = replace $input "</p>" "</p> " }}
+{{ $input   = replace $input "</p>" "</p> " | replaceRE "\n" "" }}
 
 {{ $input   = replace $input "Authentic German Learning" "Authentic_German_Learning" }}
 
@@ -21,7 +22,7 @@
     <!-- Seperate the word from surrounding characters. -->
     {{ $word := . | replaceRE "<.*?>|[^A-Za-zöäüßÖÄÜ_-]" "" }}
     {{ $pre  := . | replaceRE (print $word ".*") "" }}
-    {{ $post := . | replaceRE (print ".*" $word) "" | replaceRE "\n" "" }}
+    {{ $post := . | replaceRE (print ".*" $word) "" }}
 
     {{ with $word }}
         {{ $search := $word }}
@@ -35,7 +36,7 @@
                 {{ $search = $lower }}
             {{ else if not (or (isset $synonyms $word) (isset $vocab $word) (isset $custom_words $word)) }}
                 <!-- We must know, set word into a json data map (even if value is empty). -->
-                {{ if $.Site.Params.Debug.Capitalization }}
+                {{ if and $.Site.Params.Debug.Capitalization (not $.Draft) }}
                     {{ errorf "Capitalization of \"%s\" unknown." $word }}
                 {{ end }}
             {{ end }}
@@ -99,7 +100,7 @@
             {{ end }}
             {{ $html = print $html "class=\"" (delimit $classes " ") "\">" $word "</a>" $post " "}}
         {{ else }}
-            {{ if $.Site.Params.Debug.MissingWords }}
+            {{ if and $.Site.Params.Debug.MissingWords (not $.Draft) }}
                 {{ errorf "Could not find word \"%s\"." . }}
             {{ end }}
             {{ $html = print $html $pre . "* "  $post }}
@@ -115,6 +116,12 @@
 {{ $popups = print "<p class=\"disclaimer\"><span lang=\"de\" class=\"de\">Manche Inhalte auf dieser Seite wurden von <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a> entnommen.</span><br><span lang=\"en\" class=\"en trans\">Some content on this page was extracted from <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a>.</span></p>" $popups }}
 
 {{ else }}
+    {{ if not .Draft }}
+        {{ if and $.Site.Params.Debug.Capitalization (not $.Draft) }}
+            {{/* errorf "Capitalization of \"%s\" unknown." $word */}} TODO: CHECK CAPITALIZATION
+        {{ end }}
+
+    {{ end }}
     {{ $html = .Content }}
 {{ end }}<!-- end of  and .Site.Params.buildPopups .Params.spellchecked -->
 

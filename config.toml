@@ -22,20 +22,20 @@ defaultContentLanguageInSubdir = false
 
 [params.colors] # doesn't work in CSS
 
-primary = '#FF8000'
-secondary = '#00A651'
-course_heading = '#ffffff'
-navbar_fixed_text = '#ffffff'
-heading = '#2b3636'
-text = '#2b3636'
-navbar_text = '#ffffff'
-homepage_heading = '#ffffff'
-video_player_color = '#00A651'
+  primary = '#FF8000'
+  secondary = '#00A651'
+  course_heading = '#ffffff'
+  navbar_fixed_text = '#ffffff'
+  heading = '#2b3636'
+  text = '#2b3636'
+  navbar_text = '#ffffff'
+  homepage_heading = '#ffffff'
+  video_player_color = '#00A651'
 
 [params.debug]
 
-missingWords = false
-capitalization = false
+  missingWords = true
+  capitalization = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
