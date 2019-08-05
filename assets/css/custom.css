@@ -178,6 +178,16 @@ div.thumbcaption > p {
 	display: table;
 }
 
+/*
+ * Adjustment for English Entry
+ */
+.ui-bar h5 {
+    margin: 0;
+    padding: .7em 1em;
+    font-size: 16px;
+    color: #fff;
+}
+
 
 /*
  * Disable a warning that tells the user that the CSS was not loaded, and the jQueryMobile loader.
@@ -185,88 +195,6 @@ div.thumbcaption > p {
 #nocss-warning, .ui-loader {
 	display: none;
 }
-
-/*
-
-
-
-table {
-	width: auto;
-}
-
-div.caption {
-	margin-bottom: 10px;
-}
-
-
-
-
-.ui-popup-container, .ui-popup {
-	/*width: 95% !important;
-	left: 1% !important;
-}
-
-.ui-checkbox {
-	margin: 0;
-}
-
-#show-trans-cb {
-	/*
-	position:  fixed;
-    top: 46px;
-	left:  0;
-	width: 100%;
-
-	min-width: 33%;
-}
-label#show-trans-label {
-	border-radius: 0;
-	/*
-	margin-left: 349px;
-
-	text-align: center;
-	height: 46px;
-}
-#show-trans-label img {
-    padding-right: .5em;
-    margin-top: -.5em;
-}
-
-
-
-
-div.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
-
-
-/*
-div.ui-popup {
-	padding: 0 1em;
-}
-
-div.ui-flipswitch {
-	width: 300px !important;
-}
-
-.ui-popup-container, .ui-popup {
-    height: 98%;
-    width: 99%;
-    position: absolute;
-    top: 0;
-    left:0;
-} */
-
-/*
-
-.lecture-hl a.nav-btn {
-	margin: 0;
-	background-color: #FF8000;
-}
-
 
 
 

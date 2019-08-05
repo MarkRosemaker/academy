@@ -18,7 +18,7 @@ defaultContentLanguageInSubdir = false
   enableTeachableJS = false
 
   showCopyableHTML = true # only if not server
-  buildPopups = true # only if not server
+  buildPopups = true # but always if not server
 
 [params.colors] # doesn't work in CSS
 
@@ -38,7 +38,8 @@ defaultContentLanguageInSubdir = false
   capitalization = true
 
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+
+  home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]

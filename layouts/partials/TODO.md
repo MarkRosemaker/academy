@@ -1,14 +1,13 @@
 - [x] Gunda Bescheid sagen -> am 17. Bahnhof Letter treffen
-- [ ] Bus nach Hanover buchen, Caroline Bescheid sagen
+- [x] Bus nach Hanover buchen, Caroline Bescheid sagen
+- [x] Bus nach Berlin buchen
+- [x] Wo in Berlin schlafen?
 - [ ] Hochzeitsgeschenk
-- [ ] Wo in Berlin schlafen?
-- [ ] Bus nach Berlin buchen
 - [ ] Bus nach Neubrandenburg buchen
 - [ ] Polizeiliches Führungszeugnis in Berlin besorgen
 - [ ] Bus nach Paris buchen
 
 
-- make get-word-info.html more efficient
 - make info boxes for each category via categories folder
    - https://workflowy.com/#/4c25127c4a2d
    - formatting: take a page from learn theme
@@ -19,13 +18,11 @@
   - figure out how to enable elements like pictures, h5p
   - transfer code to generate pdf
 - add cta on free course, then publish on multiple sites like teachable (more reach and figure out which site is best)
-- compare sites, choose one to invest in
+- compare course sites, choose one to invest in
 - improve emails
 - show to people and get feedback
-- consult docalyzer for counting
-- same process for Wiktionary English, kind of merge with the other (e.g. look for matching word class and header, then put in orange in front)
 - check for and fix errors, e.g.
-- stop jumping to top when I click on something
+  - stop jumping to top when I click on something
 
 
 - import data from English Wiktionary

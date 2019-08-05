@@ -4,11 +4,11 @@
 {{ $word_classes_all := slice }}
 {{ $learned_words := slice }}
 
-<!-- or (and (not .Draft) .Site.Params.buildPopups (not .Site.IsServer)) (eq .Title "Test-Einheit")-->
-{{ if and .Site.Params.buildPopups (not .Site.IsServer) }}
+<!-- Build all finished pages if set in config to true, if not server or if it's the sample unit. -->
+{{ if and (not .Draft) (or .Site.Params.buildPopups (not .Site.IsServer) (eq .Title "Test-Einheit")) }}
 
 {{ $vocab := .Site.Data.a1_vocab }}
-{{ $synonyms := .Site.Data.synonyms }}
+{{ $basic_forms := .Site.Data.basic_forms }}
 {{ $custom_words := .Site.Data.custom_words }}
 
 {{ $input  := replace .Content "<br>" "<br> " }}
@@ -31,10 +31,10 @@
         <!-- Check capitalization. -->
         {{ if $sentence_start }}
             {{ $lower := lower $word }}
-            {{ if or (isset $synonyms $lower) (isset $vocab $lower) (isset $custom_words $lower) }}
+            {{ if or (isset $basic_forms $lower) (isset $vocab $lower) (isset $custom_words $lower) }}
                 <!-- We know the lower variant is correct because we found it in our maps. -->
                 {{ $search = $lower }}
-            {{ else if not (or (isset $synonyms $word) (isset $vocab $word) (isset $custom_words $word)) }}
+            {{ else if not (or (isset $basic_forms $word) (isset $vocab $word) (isset $custom_words $word)) }}
                 <!-- We must know, set word into a json data map (even if value is empty). -->
                 {{ if and $.Site.Params.Debug.Capitalization (not $.Draft) }}
                     {{ errorf "Capitalization of \"%s\" unknown." $word }}
@@ -42,17 +42,23 @@
             {{ end }}
         {{ end }}
 
-        <!-- Check for synonyms. -->
-        {{ with index $synonyms $search }}
-            {{ $search = . }}
+        <!-- Get word info from our custom words or Wiktionary. -->
+        {{ $info := dict }}
+        {{ with index $custom_words $search }}
+            {{ $info = . }}
+        {{ else }}
+            {{ $info = partial "functions/get-word-info.html" $search }}
         {{ end }}
 
-        <!-- Get word info from Wiktionary. -->
-        {{ $info := index $custom_words $search | default (partial "functions/get-word-info.html" $search) }}
+        <!-- Check for basic forms. -->
+        {{ $basic_form := $info.basic_form }}
+        {{ with index $basic_forms $search }}
+            {{ $basic_form = . }}
+        {{ end }}
 
         <!-- Collect all the attributes and classes of the link element. -->
         {{ $s := newScratch }}
-        {{ $attr := dict "basic-form" $info.basic_form }}
+        {{ $attr := dict "basic-form" $basic_form }}
         {{ $s.Set "attr" $attr }}
         {{ $classes := slice }}
 

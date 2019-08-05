@@ -8,18 +8,23 @@
 {{ $basic_form := "" }}
 
 <!-- Check if entry is cached. -->
-{{ $path_html := print "assets/html/wiktionary/" $word "_html.html" }}
+{{ $path_html := print "assets/html/wiktionary/" $word "_popup.html" }}
 {{ $path_data := print "assets/html/wiktionary/" $word "_data.html" }}
-{{ $rebuild := true }}
 
-{{ if and (not $rebuild) (fileExists $path_html) (fileExists $path_data) }}
+<!-- -->
+{{ if and (fileExists $path_html) (fileExists $path_data) }}
     {{ $html = readFile $path_html }}
 
+    {{ $data := readFile $path_data }}
+    {{ $audio = index (findRE "\"audio\":\".*?\"" $data) 0 | replaceRE "\"audio\":\"(.*?)\"" "$1" }}
+    {{ $basic_form = index (findRE "\"basic_form\":\".*?\"" $data) 0 | replaceRE "\"basic_form\":\"(.*?)\"" "$1" }}
+    {{ $wc := index (findRE "\"word_classes\":\\[.*?\\]" $data) 0 | replaceRE "\"word_classes\":\\[(.*?)\\]" "$1" | replaceRE "\"(.*?)\"" "$1" }}
+    {{ $word_classes = split $wc "," }}
 {{ else }}
 
     <!-- Get HTML from cache or from Wiktionary. -->
     {{ $raw := "" }}
-    {{ $path_raw := print "assets/html/wiktionary/" $word "_raw.html" }}
+    {{ $path_raw := print "assets/html/wiktionary/" $word "_de_raw.html" }}
     {{ if fileExists $path_raw }}
         {{ $raw = readFile $path_raw }}
     {{ else }}
@@ -28,11 +33,11 @@
 
         <!-- Cache the result. -->
         {{ with $json.parse  }}
-            {{ $cache := index .text  "*" | resources.FromString (print "wiktionary/" $word "_raw.html") | minify }}
+            {{ $cache := index .text  "*" | resources.FromString (print "wiktionary/" $word "_de_raw.html") | minify }}
 
             {{ $raw = $cache.Content }}
         {{ else }}
-            {{/* errorf "Could not access $json.parse.text.* for %s." $word */}}
+            {{ errorf "Please add \"%s\" to data/wiktionary/custom_words.json or data/wiktionary/synonyms.json." $word }}
         {{ end }}
     {{ end }}
 
@@ -47,6 +52,9 @@
         {{ $gender := "" }}
         {{ $article := "" }}
 
+        <!-- Fast lookup for singulars. -->
+        {{ $singular_map := dict "Bedeutungen" "Bedeutung" "Beispiele" "Beispiel" }}
+
         <!-- Analyse each word classes entry. (First in split is rubbish.) -->
         {{ range $num_wc, $k := split (replaceRE "\n" "" .) "<h3" }}{{ if ne $num_wc 0 }}
 
@@ -56,12 +64,6 @@
                 - transform slashes into commas
             -->
             {{ $wc_header := . | replaceRE "</h3>.*|\\A>|<span.*?>|</span>|<a.*?>|</a>|\\[.*" "" | replaceRE "<em.*?>|<i>" "(" | replaceRE "</em>|</i>" ")" | replaceRE "/" ", " }}
-
-            <!--
-                Interjektion, Grußformel
-                Substantiv, <em title="Genus: Femininum (grammatikal. Geschlecht: weiblich)">m/f/n</em>
-                Substantiv, <em title="Genus: Neutrum (grammatikal. Geschlecht: sächlich)">n</em>, Toponym
-            -->
 
             <!-- Initialize word class variables. -->
             {{ $wc_infos := slice }}
@@ -139,6 +141,94 @@
 
             {{ end }}
 
+            <!-- ENGLISH START -->
+
+            <!-- Get HTML from cache or from Wiktionary. -->
+            {{ $raw := "" }}
+            {{ $html_en := "" }}
+            {{ $path_raw := print "assets/html/wiktionary/" $word "_en_raw.html" }}
+            {{ if fileExists $path_raw }}
+                {{ $raw = readFile $path_raw }}
+            {{ else }}
+                <!-- Get JSON from Wiktionary. -->
+                {{ $json := getJSON (print "https://en.wiktionary.org/w/api.php?action=parse&format=json&prop=text&disabletoc=true&page=" $word) }}
+
+                <!-- Cache the result. -->
+                {{ with $json.parse  }}
+                    {{ $cache := index .text  "*" | resources.FromString (print "wiktionary/" $word "_en_raw.html") | minify }}
+
+                    {{ $raw = $cache.Content }}
+                {{ end }}
+            {{ end }}
+
+            <!-- Analyse the German entry. -->
+            {{ range split $raw "<h2" }}{{ if in . "id=German>" }}
+                <!-- Clean up the html. -->
+                {{ $entry_en := . | replaceRE ".*</h2>|<span.*?>|</span>|<style.*?</style>|<sup.*?</sup>|<a .*?>|</a>| class=\".*?\"| class=[^ >]*" "" }}
+
+                {{ $collapsed := false }}
+                {{ range split $entry_en "<h3" }}
+                    {{ $header := . | replaceRE "\\A[^>]*?>|\\[.*" "" }}
+                    {{ if and $header (ne $header "Pronunciation") (ne $header "Further reading") (ne $header "See also") (ne $header "Alternative forms") }}
+
+                        {{ $body := "" }}
+                        {{ range split (replaceRE ".*<\\/h3>" "" . ) "<h4>" }}
+                            {{ if gt (len (findRE "</h4>" .)) 0 }}
+                                {{ $mini_header := . | replaceRE "\\[.*" "" }}
+
+                                {{ if  (ne $mini_header "Declension") }}
+                                    <!-- Remove (repeated) header. -->
+                                    {{ $mini_body := . | replaceRE ".*</h4>|<hr>" "" | replaceRE (print "<div[^>]*>" $mini_header "</div>") "" | replaceRE "<h5>(.*?)\\[edit\\]</h5>" "<p><strong>$1</strong></p>"}}
+
+                                    <!-- Small (or very important) entries are shown right away (non-collapsible). -->
+                                    {{ $length := len (replaceRE "<[^>]*>" "" $mini_body) }}
+                                    {{ $lines := len (findRE "</li>" $mini_body) }}
+                                    {{ if and (lt $length 100) (lt $lines 3) }}
+                                        {{ $body = print $body "<div class=\"ui-corner-all custom-corners\"><div class=\"ui-bar ui-bar-a\"><h5>" $mini_header "</h5></div><div class=\"ui-body ui-body-a\">" $mini_body "</div></div>" }}
+                                    {{ else }}
+                                        {{ $body = print $body "<div data-role=collapsible><h5>" $mini_header "</h5>" $mini_body "</div>" }}
+                                    {{ end }}
+                                {{ end }}
+                            {{ else }}
+
+                                {{ $body = print $body (replaceRE "</div>|</div>" "" .) }}
+                            {{ end }}
+
+
+                        {{ end }}
+
+                        <!-- Small (or very important) entries are shown right away (non-collapsible). -->
+                        {{ $length := len (replaceRE "<[^>]*>" "" $body) }}
+                        {{ $lines := len (findRE "</li>" $body) }}
+                        {{ if and (lt $length 100) (lt $lines 3) }}
+                            {{ $html_en = print $html_en "<div class=\"ui-corner-all custom-corners\"><div class=\"ui-bar ui-bar-a\"><h4>" $header "</h4></div><div class=\"ui-body ui-body-a\">" $body "</div></div>" }}
+                        {{ else }}
+                            {{ $collapsed := or $collapsed (eq $header "Etymology")}}
+                            {{ $html_en = print $html_en "<div data-role=collapsible data-collapsed=" $collapsed "><h4>" $header "</h4>" $body "</div>" }}
+                            {{ if not $collapsed }}
+                                {{ $collapsed = true }}
+                            {{ end }}
+                        {{ end }}
+
+                    {{ end }}
+
+
+                <!--
+" ""
+                 | replaceRE "|\\(\\)|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*|<p><i><span id=Quellen>.*|<p>.*?Quellen:</i>.*|<a[^>]*?><\\/a>|<table><tbody><tr><th>Dialektausdrücke:</th></tr><tr><td><div id=Vorlage_Uberarbeiten.*|<div id=Vorlage_Uberarbeiten.*| id=\".*?\"| id=[^ >]*" ""  | replaceRE "<table.*?>" "<table>"  | replaceRE "<th.*?>" "<th>" | replaceRE "<td.*?>" "<td>" | replaceRE "<p.*?>" "<p>" | replaceRE "<div></div>" ""
+                -->
+
+
+                {{ end }}
+
+            {{ end }}{{ end }}
+
+            {{ with $html_en }}
+                {{ $html = print $html "<div data-role=collapsible data-collapsed=false lang=en class=\"en trans\"><h3>English Entry</h3>" $html_en "</div>"}}
+            {{ end }}
+
+            <!-- ENGLISH STOP -->
+
             <!-- Now analyse everything under the header. -->
             {{ $rest := . | replaceRE ".*</h3>" "" }}
             {{ $html_wc := "" }} <!-- This will be the html describing the word for the current word class. -->
@@ -170,7 +260,7 @@
 
             <!-- Get the table, if present.  -->
             {{ $html_table := "" }}
-            {{ range findRE "<table.*?wikitable.*?.*?</table>" $pre }}
+            {{ range findRE "<table class=\"wikitable.*?\".*?</table>" $pre }}
                 <!-- Clean up the table html. -->
                 {{ $table := . | replaceRE "<a.*?>|</a>|<p class=mw-empty-elt></p>| class=\".*?\"| style=\".*?\"| class=([^ >])*| style=([^ >])*" "" | replaceRE "<table>" "<table class=wikitable>" }}
 
@@ -184,7 +274,7 @@
                     {{ if and $cell (ne $cell "—") }}
                         {{ if in $cell "<i>"}}
                             <!-- Show link to Flexion:... -->
-                            {{ $cell = $cell | replaceRE "(Flexion:.*)" "<a href=\"https://de.wiktionary.org/wiki/$1\" target=\"_blank\">$1</a>" }}
+                            {{ $cell = $cell | replaceRE "(Flexion:.*)" "<a href=https://de.wiktionary.org/wiki/$1 target=_blank>$1</a>" }}
 
                             <!-- Translate only the cursive. -->
                             {{ $inner_i18n := index (findRE "<i>.*?</i>" $cell) 0 | replaceRE "<i>|</i>" "" | i18n }}
@@ -230,121 +320,117 @@
 
             <!-- Split into seperate dictionary items. -->
             {{ $rest = $rest | replaceRE "\\A.*?<h4" "<h4" }}
-            {{ range $k, $item := split $rest "<h4" }}
+            {{ range split $rest "<h4" }}
                 <!-- Split into header and body. -->
                 {{ $header := . | replaceRE "\\A[^>]*?>|<\\/h4>.*|<[^>]*?>|\\[.*" "" | replaceRE "&#160;" " " }}
                 {{ $body   := . | replaceRE ".*<\\/h4>" "" }}
 
-                <!-- TODO CONTINUE HERE -->
-
-                <!-- Make sure the header is blank for tables, pictures. -->
-                        {{ if not (in . "</h4>") }}
-                            {{  $header = "" }}
-                        {{ end }}
-
-                        <!-- Don't show hyphenation if there is none.-->
-                        {{ if and (eq $header "Worttrennung") (not (in $body "·")) }}
-                            {{ $body = "" }}
-                        {{ end }}
-
-                        <!-- Remove rhymes. -->
-                        {{ $body = $body | replaceRE "<dd><a href=\"/wiki/Hilfe:Reime\".*?</dd>" "" }}
-
-                        <!-- Remove style information. -->
-                        {{ $body = $body | replaceRE "<table.*?>" "<table>"  | replaceRE "<th.*?>" "<th>" | replaceRE "<td.*?>" "<td>" | replaceRE "<p.*?>" "<p>" | replaceRE "<div([^>]*?)style=\".*?\"([^>]*?)>" "<div$1 $2>" | replaceRE " class=\".*?\"" "" | replaceRE "<div></div>" ""  }}
-
-                        <!-- Make audio files playable (not just in pronunciation section). -->
-                        {{ $body = $body | replaceRE "<span.*?>|</span.>" "" | replaceRE "(<img[^>]*?Loudspeaker.svg[^>]*?>&#160;)<a href=\"(.*?)\"[^>]*>(.*?)<\\/a>" "<span class=\"audio-available\" audio=\"https:$2\">$1$3</span>" }}
-
-                        <!-- Correct false plurals. -->
-                        {{ $lines := len (findRE "</dd>" $body) }}
-                        {{ if lt $lines 2 }}
-                            {{ if eq $header "Bedeutungen" }}
-                                {{ $header = "Bedeutung"}}
-                            {{ end }}
-                            {{ if eq $header "Beispiele" }}
-                                {{ $header = "Beispiel"}}
-                            {{ end }}
-                        {{ end }}
-
-                        <!-- Clean up the html including all links. -->
-                        {{ $body = $body | replaceRE "<p class=\"mw-empty-elt\"></p>|<a .*?>|</a>|\\(\\)|<!--.*?-->|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*|<sup.*?</sup>|<p><i><span style=\"visibility:hidden\" id=\"Quellen\">.*|<p>.*?Quellen:</i>.*|<a[^>]*?><\\/a>|<table><tbody><tr><th>Dialektausdrücke:</th></tr><tr><td><div id=\"Vorlage_Uberarbeiten\".*|<div id=\"Vorlage_Uberarbeiten\".*" "" }}
-
-                        <!-- Clean up whitespaces. -->
-                        {{ $body = $body | replaceRE "\\[([0-9]+), ([0-9]+)\\]" "[$1,&#160;$2]"  | replaceRE "#8206;" "&#160;" | replaceRE "(&#160;)+" "&#160;" | replaceRE "&#160; " "&#160;" | replaceRE "&#160;([;,.])" "$1" | replaceRE "\\s+" " " | replaceRE "<div[^>]*>&#160;</div>" "" }}
-
-                        <!-- Correct image source links. -->
-                        {{ $body = $body | replaceRE "src=\"(/w/extensions.*?)\"" "src=\"https://wiktionary.org$1\"" }}
-
-                        <!-- Insert the entry for the basic form. -->
-                        {{ if eq $header "Grammatische Merkmale" }}
-                            {{ with findRE "flektierte Form von <b>(.*?).</b>" $body }}
-                                {{ $basic_form_instance := index . 0 | replaceRE ".*<b>|\\.</b>" "" }}
-                                {{ if eq $num_wc 1 }}
-                                    {{ $basic_form = $basic_form_instance }}
-                                {{ end }}
-
-                                {{ $basic := partial "functions/get-word-info.html" $basic_form_instance }}
-
-                                {{ $word_classes = $word_classes | append (index $basic.word_classes 0) }}
-
-                                {{ $body = $body | replaceRE "</ul>.*" (print "</ul></div>" $basic.html) }}
-                            {{ end }}
-                        {{ end }}
-
-                        {{ $html_item := "" }}
-                        {{ with $body }}
-                            {{ with $header }}
-
-                                <!-- Translate the header. -->
-                                {{ $header = print "<h4><span lang=de class=de>" $header "</span><br><span lang=en class=\"en trans\">" (title (i18n $header)) "</span></h4>" }}
-
-                                <!-- Small (or very important) entries are shown. -->
-                                {{ $length := len (replaceRE "<[^>]*>" "" $body) }}
-                                {{ if or (and (lt $length 100) (lt $lines 3)) (in $header "Grammatische Merkmale")}}
-                                    {{ $html_item = print "<div class=\"ui-corner-all custom-corners\"><div class=\"ui-bar ui-bar-a\">" $header "</div><div class=\"ui-body ui-body-a\">" $body "</div></div>" }}
-                                {{ else }}
-                                    {{ $html_item = print "<div class=\"\" data-role=\"collapsible\">" $header $body "</div>" }}
-                                {{ end }}
-
-                                <!-- If there is audio in the body, play the first one when clicking on the header. -->
-                                {{ if in $header "Aussprache" }}
-                                    {{ with index (findRE "https://upload.*?" $body) 0 }}
-                                        {{ $html_item = replaceRE "<h4>(.*?)</h4>" (print "<h4 audio=" . " class=\"audio-available\">$1</h4>") $html_item }}
-
-                                        <!-- Get the first audio file. -->
-                                        {{ $audio = $audio | default index (findRE "<a href=//upload.wikimedia.org/wikipedia/commons/.*? class=internal title=.*?>" $raw) 0 | print "https:" | replaceRE "<a .*href=| .*" "" | default "" }}
-                                            <!-- TODO correct -->
-                                    {{ end }}<!-- end with $header  -->
-                                {{ end }}
-
-                            {{ else }}
-                                {{ $html_item = $body }}
-
-                            {{ end }}<!-- end with $body  -->
-                        {{ end }}<!-- end range over items -->
-                        <!-- Add the item. -->
-                        {{ $html_wc = print $html_wc $html_item }}
-                    {{ end }}<!-- end range over items -->
-
-                    <!-- Wrap in collapsible div. -->
-                    {{ $html = print $html "<div data-role=\"collapsible\"" }}
-                    {{ if eq $num_wc 1 }}
-                        <!-- Expand the first. -->
-                        {{ $html = print $html " data-collapsed=\"false\"" }}
+                <!-- Adjust depending on item type. -->
+                {{ if eq $header "Worttrennung" }}
+                    <!-- Don't show hyphenation if there is none.-->
+                    {{ if not (in $body "·") }}
+                        {{ $body = "" }}
                     {{ end }}
-                    {{ $html = print $html "><h3>" $html_wc_name "</h3>" $html_wc "</div>" }}
 
+                {{ else if eq $header "Aussprache" }}
+                    <!-- Get the first audio file. -->
+                    {{ if not $audio }}{{ with index (findRE "<a href=//upload.wikimedia.org/wikipedia/commons/.*? class=internal title=.*?>" $body) 0 }}
+                        {{ $audio = . | replaceRE "<a .*href=| .*" "" | print "https:" | default "" }}
+                    {{ end }}{{ end }}
+
+                    <!-- Remove rhymes. -->
+                    {{ $body = $body | replaceRE "<dd><a href=/wiki/Hilfe:Reime.*?</dd>" "" }}
+                {{ end }}
+
+                <!-- Clean up the html. -->
+                {{ $body = $body | replaceRE "<span.*?>|</span>| class=\".*?\"| class=[^ >]*" "" }}
+
+                <!-- Make audio files playable (not just in pronunciation section). -->
+                {{ $body = $body | replaceRE "(<img[^>]*?Loudspeaker.svg[^>]*?>&#160;)<a href=([^ >]*)[^>]*>(.*?)<\\/a>" "<span class=audio-available audio=https:$2>$1$3</span>" }}
+
+                <!-- Clean up the html including all links. -->
+                {{ $body = $body | replaceRE "<a .*?>|</a>|\\(\\)|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*|<sup.*?</sup>|<p><i><span id=Quellen>.*|<p>.*?Quellen:</i>.*|<a[^>]*?><\\/a>|<table><tbody><tr><th>Dialektausdrücke:</th></tr><tr><td><div id=Vorlage_Uberarbeiten.*|<div id=Vorlage_Uberarbeiten.*| style=\".*?\"| style=[^ >]*| id=\".*?\"| id=[^ >]*" ""  | replaceRE "<table.*?>" "<table>"  | replaceRE "<th.*?>" "<th>" | replaceRE "<td.*?>" "<td>" | replaceRE "<p.*?>" "<p>" | replaceRE "<div></div>" "" }}
+
+                <!-- Clean up whitespaces. -->
+                {{ $body = $body | replaceRE "\\[([0-9]+), ([0-9]+)\\]" "[$1,&#160;$2]"  | replaceRE "#8206;" "&#160;" | replaceRE "(&#160;)+" "&#160;" | replaceRE "&#160; " "&#160;" | replaceRE "&#160;([;,.])" "$1" | replaceRE "\\s+" " " | replaceRE "<div[^>]*>&#160;</div>" "" }}
+
+                <!-- Correct image source links. -->
+                {{ $body = $body | replaceRE "src=\"(/w/extensions.*?)\"" "src=\"https://wiktionary.org$1\"" | replaceRE "src=(/w/extensions[^ ]*?)" "src=https://wiktionary.org$1" }}
+
+                <!-- Insert the entry for the basic form. -->
+                {{ if eq $header "Grammatische Merkmale" }}
+                    {{ with findRE "flektierte Form von <b>(.*?).</b>" $body }}
+                        {{ $bf := index . 0 | replaceRE ".*<b>|\\.</b>" "" }}
+                        {{ if eq $num_wc 1 }}<!-- only if first entry -->
+                            {{ $basic_form = $bf }}
+                        {{ end }}
+
+                        {{ $basic := partial "functions/get-word-info.html" $bf }}
+
+                        <!-- Add all word classes of the basic form. -->
+                        {{ $word_classes = $word_classes | append (index $basic.word_classes 0) }}
+
+                        <!-- Close the bracket. -->
+                        {{ $body = $body | replaceRE "</ul>.*" (print "</ul></div>" $basic.html) }}
+                    {{ end }}
+                {{ end }}
+
+                {{ $html_item := "" }}
+                {{ with $body }}{{ with $header }}
+                    <!-- Correct false plurals. -->
+                    {{ $lines := len (findRE "</dd>" $body) }}
+                    {{ if lt $lines 2 }}
+                        {{ $header = index $singular_map $header | default $header }}
+                    {{ end }}
+
+                    <!-- Translate the header. -->
+                    {{ $header = print "<h4><span lang=de class=de>" $header "</span><br><span lang=en class=\"en trans\">" (title (i18n $header)) "</span></h4>" }}
+
+                    <!-- If there is audio in the body, play the first one when clicking on the header. -->
+                    {{ if in $header "Aussprache" }}
+                        {{ with index (findRE "audio=([^ >]*)>" $body) 0 }}
+                            {{ $header = replaceRE "<h4>(.*?)</h4>" (print "<h4 audio=" (replaceRE "audio=|>" "" .) " class=audio-available>$1</h4>") $header }}
+                        {{ end }}
+                    {{ end }}
+
+                    <!-- Small (or very important) entries are shown right away (non-collapsible). -->
+                    {{ $length := len (replaceRE "<[^>]*>" "" $body) }}
+                    {{ if or (and (lt $length 100) (lt $lines 3)) (in $header "Grammatische Merkmale")}}
+                        {{ $html_item = print "<div class=\"ui-corner-all custom-corners\"><div class=\"ui-bar ui-bar-a\">" $header "</div><div class=\"ui-body ui-body-a\">" $body "</div></div>" }}
+                    {{ else }}
+                        {{ $html_item = print "<div data-role=collapsible>" $header $body "</div>" }}
+                    {{ end }}
+
+                    <!-- Add the item. -->
+                    {{ $html_wc = print $html_wc $html_item }}
+
+                {{ end }}{{ end }}<!-- end with $header, with $body  -->
+            {{ end }}<!-- end range over items -->
+
+            <!-- Wrap in collapsible div. -->
+            {{ $html = print $html "<div data-role=collapsible" }}
+            {{ if eq $num_wc 1 }}
+                <!-- Expand the first. -->
+                {{ $html = print $html " data-collapsed=false" }}
+            {{ end }}
+            {{ $html = print $html "><h3>" $html_wc_name "</h3>" $html_wc "</div>" }}
 
         {{ end }}{{ end }}<!-- end of: Analyse each word classes entry. -->
     {{ end }}{{ end }}<!-- end of: Analyse the German entry. -->
+
+    <!-- Set basic form to word itself if it was not set. -->
+    {{ $basic_form = $basic_form | default $word }}
+
+    <!-- Remove duplicate elements. -->
+    {{ $word_classes = uniq $word_classes }}
+
+    <!-- Cache the result. -->
+    {{ $cache_html := $html | resources.FromString (print "wiktionary/" $word "_popup.html") | minify }}
+    {{ $cache_data := dict "audio" $audio "word_classes" $word_classes "basic_form" $basic_form | jsonify | resources.FromString (print "wiktionary/" $word "_data.html") | minify }}
+
+    {{ $html = $cache_html.Content }}
+    {{ $data := $cache_data.Content }}
+
 {{ end }}<!-- end of: Extract cache or not. -->
-
-{{ if not $basic_form }}
-    {{ $basic_form = $word }}
-{{ end }}
-
-<!-- Remove duplicate elements. -->
-{{ $word_classes = uniq $word_classes }}
 
 {{ return dict "html" $html "audio" $audio "word_classes" $word_classes "basic_form" $basic_form }}
