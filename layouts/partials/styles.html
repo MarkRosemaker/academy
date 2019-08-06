@@ -9,9 +9,10 @@
 
 {{ $spp_css := resources.Get "css/spp-2.8.0.css" }}
 {{ $essential := resources.Get "css/jquery.mobile.essential.css" }}
+{{ $learn := resources.Get "css/learn-theme.css" }}
 {{ $custom := resources.Get "css/custom.css" }}
 
-{{ $bundle := slice $spp_css $essential $custom }}
+{{ $bundle := slice $spp_css $essential $learn $custom }}
 
 {{ $css := $bundle | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint "sha512" }}
 

@@ -1,11 +1,14 @@
 <!-- Initialize output variables. -->
 {{ $html   := "" }}
-{{ $popups := "" }}
+{{ $popups_slice := slice }}
 {{ $word_classes_all := slice }}
 {{ $learned_words := slice }}
 
 <!-- Build all finished pages if set in config to true, if not server or if it's the sample unit. -->
 {{ if and (not .Draft) (or .Site.Params.buildPopups (not .Site.IsServer) (eq .Title "Test-Einheit")) }}
+
+<!-- Add disclaimer -->
+{{ $popups_slice = $popups_slice | append "<p class=\"disclaimer\"><span lang=\"de\" class=\"de\">Manche Inhalte auf dieser Seite wurden von <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a> entnommen.</span><br><span lang=\"en\" class=\"en trans\">Some content on this page was extracted from <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a>.</span></p>" }}
 
 {{ $vocab := .Site.Data.a1_vocab }}
 {{ $basic_forms := .Site.Data.basic_forms }}
@@ -69,8 +72,8 @@
             {{ $s.SetInMap "attr" "data-transition" "pop" }}
 
             <!-- Add the html to the popup contents below the text.  data-dismissible=\"true\"-->
-            {{ $popup := print "<div class=\"ui-content\" data-role=\"popup\" id=\"word-" $i "\" data-overlay-theme=\"a\" data-position-to=\"origin\"><a href=\"#\" data-rel=\"back\" class=\"ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right\">Schließen</a>" . "</div>"}}<!--  data-position-to=\"window\" -->
-            {{ $popups = print $popups $popup }}
+            {{ $popup := print "<div class=ui-content data-role=popup id=word-" $i " data-overlay-theme=a data-position-to=origin><a href=# data-rel=back class=\"ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right\">Schließen</a>" . "</div>"}}<!--  data-position-to=\"window\" -->
+            {{ $popups_slice = $popups_slice | append $popup }}
 
             <!-- Iterate the number for the id. -->
             {{ $i = add $i 1 }}
@@ -81,10 +84,8 @@
             <!-- Add word types. -->
             {{ range $info.word_classes }}
                 {{ $classes = $classes | append (replace . " " "-") }}
-                {{ if not (in $word_classes_all .) }}
-                    {{ $word_classes_all = $word_classes_all | append . }}
-                {{ end }}
             {{ end }}
+            {{ $word_classes_all = $word_classes_all | append $info.word_classes }}
         {{ end }}
 
         <!-- Add audio file, if available. -->
@@ -118,9 +119,6 @@
     {{ $sentence_start = gt (len (findRE "[\\.\\?\\!]" .) ) 0 }}
 {{ end }}
 
-<!-- Add disclaimer -->
-{{ $popups = print "<p class=\"disclaimer\"><span lang=\"de\" class=\"de\">Manche Inhalte auf dieser Seite wurden von <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a> entnommen.</span><br><span lang=\"en\" class=\"en trans\">Some content on this page was extracted from <a href=\"https://www.wiktionary.org/\" target=\"_blank\">Wiktionary</a>.</span></p>" $popups }}
-
 {{ else }}
     {{ if not .Draft }}
         {{ if and $.Site.Params.Debug.Capitalization (not $.Draft) }}
@@ -130,5 +128,8 @@
     {{ end }}
     {{ $html = .Content }}
 {{ end }}<!-- end of  and .Site.Params.buildPopups .Params.spellchecked -->
+
+{{ $popups := delimit $popups_slice "" }}
+{{ $word_classes_all := uniq $word_classes_all }}
 
 {{ return dict "html" $html "popups" $popups "word_classes" $word_classes_all "learned_words" $learned_words }}

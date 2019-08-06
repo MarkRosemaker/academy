@@ -45,7 +45,9 @@ if (undefined !== l) {
 
 } catch (e) {
   alert('Error in pre.js: ' + e)
-}/*!
+}
+;
+/*!
  * jQuery JavaScript Library v1.9.1
  * http://jquery.com/
  *
@@ -9642,6 +9644,8 @@ if (undefined !== l) {
     }
 
     })( window );
+
+;
 //     Underscore.js 1.9.1
 //     http://underscorejs.org
 //     (c) 2009-2018 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -10149,6 +10153,8 @@ if (undefined !== l) {
 
 
 }());
+
+;
 /*!
 * jQuery Mobile 1.4.5
 * Git HEAD hash: 68e55e78b292634d3991c795f06f5e37a512decc <> Date: Fri Oct 31 2014 17:33:30 UTC
@@ -25603,6 +25609,8 @@ $.widget( "ui.tabs", {
 
 
 }));
+
+;
 var audio = document.getElementsByClassName('audioloader')[0];
 
 if(audio) {
@@ -31060,7 +31068,9 @@ var SmartPodcastPlayer_uid_9f03c450 = {"errors":[],"options":{"title":lecture_na
 // remove the old audio html
 audio.parentNode.removeChild(audio);
 
-}// Paint all instances of the word green after it is clicked.
+}
+;
+// Paint all instances of the word green after it is clicked.
 $(".word-info").click(function () {
     for(var e = document.querySelectorAll('[basic-form=' + this.getAttribute("basic-form") + ']'), t = 0; t < e.length; t++)
         e[t].classList.add('checked');

@@ -7,15 +7,20 @@
     If you can see this text then the css was not properly loaded.
 </p>
 
-<!-- Lesson title -->
-<span id="lh-trans" lang="{{ .Lang }}" class="{{ .Lang }} trans"><br>
-    <i class="fa fa-file-text"></i>
-    &nbsp;
-    {{ .Title }}
-</span>
 
 <!-- Get German HTML -->
 {{ with index (where .AllTranslations "Lang" "de") 0 }}
+
+    <!-- Lesson title -->
+    <span id="lh-trans" lang="{{ .Lang }}" class="{{ .Lang }} trans"><br>
+        <i class="fa fa-file-text"></i>
+        &nbsp;
+        {{ $.Title }}
+        {{ range .Params.categories }}
+            #{{ . }}
+        {{ end }}
+    </span>
+
 
     <!-- Info -->
     <p id="word-count">
@@ -23,17 +28,14 @@
         {{ .WordCount }} Wörter ({{ .ReadingTime }} min)
     </p>
 
-    {{ with .Params.categories }}
-        {{ . }}
-    {{ else }}
-        NO CATEGORIES
-    {{ end }}
+    <!-- Unit Wrapper -->
+    <div class="show-important Substantiv-enabled Verb-enabled" id="unit">
+
+    {{ $.Render "categories" }}
 
     <!-- Improve presentation of German text. -->
     {{ $smart_text := partial "functions/get-smart-text" . }}
 
-    <!-- Unit Wrapper -->
-    <div class="show-important Substantiv-enabled Verb-enabled" id="unit">
 
     {{ if eq "de" $.Lang }}
         {{ $smart_text.html }}

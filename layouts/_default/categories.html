@@ -1,0 +1,36 @@
+{{ $de_page := index (where .AllTranslations "Lang" "de") 0 | default . }}
+
+{{ with $de_page.Params.categories }}
+    {{ range . }}
+        {{ with  $.Site.GetPage "taxonomyTerm" . }}
+            {{ if eq "de" $.Lang }}
+                TO DO: Edit layouts/_default/categories.html.
+            {{ else }}
+                <!-- Display both languages side by side. -->
+                {{ $de_cat := index (where .AllTranslations "Lang" "de") 0 | default . }}
+
+                {{ $de := split $de_cat.Content "</p>" }}
+                {{ $other := split .Content "<p>" }}
+
+                {{ $k := sub (len $de) 1 }}
+                <div class="notice {{ $de_cat.Params.type }}" {{ with $de_cat.Params.id }} id="{{ . }}" {{ end }}>
+                    <div class="title">{{ $de_cat.Title }} <span class="{{ $.Lang }} trans">({{ .Title }})</span></div>
+                    <div class="content">
+                    {{ range $i := seq 1 $k }}
+                        <p>
+                            <span lang="de" class="de">{{ index $de (sub $i 1) | replaceRE "<p>|</p>" "" | safeHTML }}</span><br>
+                            <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ index $other $i | replaceRE "<p>|</p>|\n" "" | safeHTML }}</span>
+                        </p>
+                    {{ end }}
+                </div></div>
+            {{ end }}
+        {{ else }}
+        <p>NO PAGE FOR CATEGORY "{{ . }}"</p>
+        {{ end }}
+    {{ end }}
+{{ else }}
+NO CATEGORIES
+{{ end }}
+
+
+

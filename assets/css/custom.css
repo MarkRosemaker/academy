@@ -27,7 +27,7 @@
  * Make text more visible. This is what Teachable should be doing.
  * Also, reset font color for highlighted text.
  */
-.lecture-attachment p, h1, h2, h3, h4, h5,
+.lecture-attachment p, div.notices p span.trans, h1, h2, h3, h4, h5,
 body.show-important .important, body.show-important .checked,
 body.show-genders .m, body.show-genders .f, body.show-genders .n {
 	color: #2b3636;
@@ -162,6 +162,9 @@ div.thumbcaption > p {
 	margin: 8px;
 	border-collapse: collapse;
 }
+.trans .wikitable {
+	float: none;
+}
 .wikitable > tr > th, .wikitable > * > tr > th {
     background-color: #eaecf0;
 	text-align: center;
@@ -187,7 +190,17 @@ div.thumbcaption > p {
     font-size: 16px;
     color: #fff;
 }
+.trans h6 {
+	font-size: 20px;
+}
 
+/* Underline words without spaces (which would mess up our program). */
+mark {
+	text-decoration: underline;
+	padding: initial;
+	background-color: initial;
+	color: initial;
+}
 
 /*
  * Disable a warning that tells the user that the CSS was not loaded, and the jQueryMobile loader.
@@ -195,6 +208,4 @@ div.thumbcaption > p {
 #nocss-warning, .ui-loader {
 	display: none;
 }
-
-
 
