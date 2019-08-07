@@ -90,7 +90,7 @@ div.notice div.title {
     line-height: 30px;
     font-size: 22px;
     background-color: #5cb85ccc;
-    height: 30px;
+    min-height: 30px;
     padding-left: 38px;
 
 }
@@ -105,3 +105,21 @@ div.notice div.content {
     margin-top: 0rem;
     margin-bottom: 0rem;
 }
+
+
+
+input + label.toggle + div.toggle,
+input:checked + label.toggle {
+    display: none;
+}
+input:checked + label.toggle + div.toggle {
+    display: inline;
+}
+
+label.toggle {
+    cursor: pointer;
+    color: #000;
+    text-decoration: underline;
+    font-weight: 500;
+}
+

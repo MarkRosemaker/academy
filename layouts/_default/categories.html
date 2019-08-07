@@ -1,5 +1,9 @@
 {{ $de_page := index (where .AllTranslations "Lang" "de") 0 | default . }}
 
+{{ if ne $de_page.Lang "de" }}
+    NO GERMAN AVAILABLE
+{{ end }}
+
 {{ with $de_page.Params.categories }}
     {{ range . }}
         {{ with  $.Site.GetPage "taxonomyTerm" . }}
@@ -21,6 +25,18 @@
                             <span lang="de" class="de">{{ index $de (sub $i 1) | replaceRE "<p>|</p>" "" | safeHTML }}</span><br>
                             <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ index $other $i | replaceRE "<p>|</p>|\n" "" | safeHTML }}</span>
                         </p>
+                        {{ if gt $k 1 }}
+                            {{ if eq $i 1 }}
+                            {{ $id := $de_cat.Title | replaceRE " " "-" }}
+                            <input type='checkbox' data-role=none id={{ $id }}>
+                            <label class=toggle for={{ $id }}>
+                                <span lang="de" class="de">Klicke hier, um mehr zu erfahren.</span>
+                                <span lang="en" class="en trans">(Click here to find out more.)</span>
+                            </label><div class=toggle>
+                            {{ else if eq $i $k }}
+                                </div>
+                            {{ end }}
+                        {{ end }}
                     {{ end }}
                 </div></div>
             {{ end }}
@@ -29,7 +45,7 @@
         {{ end }}
     {{ end }}
 {{ else }}
-NO CATEGORIES
+    NO CATEGORIES
 {{ end }}
 
 

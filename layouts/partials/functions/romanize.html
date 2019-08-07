@@ -15,6 +15,7 @@
     {{- range $i, $v := $values -}}
         <!-- Divide by current value. -->
         {{- $div := div $input $v -}}
+
         <!-- Add the respective symbol as often as was the result of the division. -->
         {{- range seq $div -}}
             {{- $output = print $output (index $symbols $i) -}}

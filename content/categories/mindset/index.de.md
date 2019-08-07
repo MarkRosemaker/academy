@@ -2,7 +2,7 @@
 title = "Die richtige Denkweise"
 date =  2019-08-06T16:45:10+02:00
 
-draft = true
+draft = false
 spellchecked = false
 type = "tip" # 'tip', 'info', 'warning', 'note'
 hashtag = "Denkweise"

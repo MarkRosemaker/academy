@@ -13,7 +13,9 @@
     {{- end -}}
 </h2>
 
+
 {{ .Content }}
+
 
 <!-- Lecture list on courses page (enrolled user) -->
 
@@ -69,11 +71,13 @@
                 {{ end }}
               </ul>
             </div>
-            {{ end }}
-          </div>
+{{ end }}
+</div>
 
+{{ if and (eq .Type "courses") (gt (partial "functions/depth.html" .) 1) }}
 <p>
   {{ $vocab := .Site.Data.a1_vocab }}
+
   {{ $learned := partial "functions/words-learned.html" $de }}
   Learned words: {{ $learned }}
 </p>
@@ -89,4 +93,6 @@
   {{ end }}
   Left to use: {{ $left }}
 </p>
+{{ end }}
+
 {{ partial "footer.html" . }}

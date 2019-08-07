@@ -1,9 +1,9 @@
 +++
 title = "Höre und schreibe deine ersten Vokabeln"
-date =  2019-07-31T15:21:26+02:00
+date =  2019-08-07T19:09:18+02:00
 weight = 10
 
-categories = ['quiz'] # 'mindset', 'immersion', 'instruction',
+categories = ['quiz'] # 'mindset', 'immersion', 'meta', 'quiz'
 draft = true
 spellchecked = false
 audio = ''
@@ -12,6 +12,3 @@ audio = ''
 (audio)
 
 H5P 452975
-
-
-

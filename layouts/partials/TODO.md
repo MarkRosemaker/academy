@@ -2,16 +2,15 @@
 - [x] Bus nach Hanover buchen, Caroline Bescheid sagen
 - [x] Bus nach Berlin buchen
 - [x] Wo in Berlin schlafen?
+- [x] Neubrandenburg anrufen
+- [x] Bus nach Neubrandenburg buchen
+- [x] Bus nach Paris buchen
 - [ ] Hochzeitsgeschenk
-- [ ] Neubrandenburg anrufen
-- [ ] Bus nach Neubrandenburg buchen
 - [ ] Polizeiliches Führungszeugnis in Berlin besorgen
-- [ ] Bus nach Paris buchen
 
 - make info boxes for each category via categories folder
    - https://workflowy.com/#/4c25127c4a2d
    - different icons depending on the content
-   - show only first paragaph and "show more" for the other paragraphs
 - write [beginner course](https://workflowy.com/#/9f92ea0ffc1a)
   - improve [block shortcodes](https://workflowy.com/#/ed7893496de8) as you use them
    - formatting: take a page from learn theme

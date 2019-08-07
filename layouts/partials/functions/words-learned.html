@@ -8,7 +8,8 @@
         {{ $scratch.SetInMap "count" . $count }}
     {{ end }}
 {{ else }}
-    {{ range .Sections | default .Pages  }}
+    {{ $subs := .Sections | default .Pages}}
+    {{ range $subs }}
         {{ range $word, $count := partial "functions/words-learned.html" . }}
             {{ $new := index $word_count $word | default 0 | add $count | int }}
             {{ $scratch.SetInMap "count" $word $new }}

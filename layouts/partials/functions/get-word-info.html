@@ -185,7 +185,7 @@
                                     {{ if (ne $mini_header "Declension") }}
 
                                         <!-- Remove (repeated) header. -->
-                                        {{ $mini_body := . | replaceRE ".*</h4>" "" | replaceRE (print "<div[^>]*>" $mini_header "</div>") "" }}
+                                        {{ $mini_body := . | replaceRE ".*</h4>" "" | replaceRE (print "<div[^>]*>" $mini_header "</div>") "" | replaceRE "<div.*?>|</div>" "" }}
 
                                         <!-- Small (or very important) entries are shown right away (non-collapsible). -->
                                         {{ $length := len (replaceRE "<[^>]*>" "" $mini_body) }}
@@ -197,6 +197,8 @@
                                         {{ end }}
                                     {{ end }}
                                 {{ else }}
+                                    <!-- Clean html. -->
+                                    {{ $mini_body := . | replaceRE "<div.*?>|</div>" "" }}
 
                                     {{ $body = print $body $mini_body }}
                                 {{ end }}
