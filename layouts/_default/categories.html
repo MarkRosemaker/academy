@@ -13,30 +13,21 @@
                 <!-- Display both languages side by side. -->
                 {{ $de_cat := index (where .AllTranslations "Lang" "de") 0 | default . }}
 
-                {{ $de := split $de_cat.Content "</p>" }}
-                {{ $other := split .Content "<p>" }}
+                {{ $merged := partial "languages-merger.html" (dict "first" $de_cat "second" .) }}
 
-                {{ $k := sub (len $de) 1 }}
                 <div class="notice {{ $de_cat.Params.type }}" {{ with $de_cat.Params.id }} id="{{ . }}" {{ end }}>
                     <div class="title">{{ $de_cat.Title }} <span class="{{ $.Lang }} trans">({{ .Title }})</span></div>
                     <div class="content">
-                    {{ range $i := seq 1 $k }}
-                        <p>
-                            <span lang="de" class="de">{{ index $de (sub $i 1) | replaceRE "<p>|</p>" "" | safeHTML }}</span><br>
-                            <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ index $other $i | replaceRE "<p>|</p>|\n" "" | safeHTML }}</span>
-                        </p>
-                        {{ if gt $k 1 }}
-                            {{ if eq $i 1 }}
-                            {{ $id := $de_cat.Title | replaceRE " " "-" }}
-                            <input type='checkbox' data-role=none id={{ $id }}>
-                            <label class=toggle for={{ $id }}>
-                                <span lang="de" class="de">Klicke hier, um mehr zu erfahren.</span>
-                                <span lang="en" class="en trans">(Click here to find out more.)</span>
-                            </label><div class=toggle>
-                            {{ else if eq $i $k }}
-                                </div>
-                            {{ end }}
-                        {{ end }}
+
+                    {{ $merged := $merged | replaceRE "\n" "" }}
+
+                    {{ with index (findRE "<p>.*?</p>" $merged) 1 }}
+                        {{ $id := $de_cat.Title | replaceRE " " "-" }}
+
+                        {{ $merged  | replaceRE . (print "<input type='checkbox' data-role=none id=" $id "><label class=toggle for=" $id "><span lang=de>Klicke hier, um mehr zu erfahren.</span><span lang=en class=trans>(Click here to find out more.)</span></label><div class=toggle>" .) | safeHTML }}
+                         </div>
+                    {{ else }}
+                        {{ $merged | safeHTML }}
                     {{ end }}
                 </div></div>
             {{ end }}

@@ -13,3 +13,5 @@ Read the translation and understand the text. Take the lesson to heart by applyi
 It is recommended that you also look at the German text and (at the same time) listen to the audio.
 
 This is for immersion: Do not try to understand every word, but familiarize yourself with the sound of the German language. Guess the meaning of words. Recognize patterns. Listen to the pronunciation. Consider this immersion exercise as a {{% ul %}}game{{% /ul %}}.
+
+However, the **main thing** in this lesson is that you *improve your mindset* so that you can learn German with much more **fun** and **efficiency**.

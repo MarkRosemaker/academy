@@ -8,12 +8,12 @@
 - [ ] Hochzeitsgeschenk
 - [ ] Polizeiliches Führungszeugnis in Berlin besorgen
 
-- make info boxes for each category via categories folder
-   - https://workflowy.com/#/4c25127c4a2d
-   - different icons depending on the content
+- make blocks
+  - https://workflowy.com/#/7c01ae5c8906
+  - different icons depending on the content
 - write [beginner course](https://workflowy.com/#/9f92ea0ffc1a)
   - improve [block shortcodes](https://workflowy.com/#/ed7893496de8) as you use them
-   - formatting: take a page from learn theme
+  - formatting: take a page from learn theme
 - import emails, free course
   - figure out how to enable elements like pictures, h5p
   - transfer code to generate pdf
@@ -24,8 +24,8 @@
 - check for and fix errors, e.g.
   - stop jumping to top when I click on something
 
-
 - improve js: jquery mobile (as soon as downloader works again)
+  - https://jquerymobile.com/download-builder/
   - close on clicking outside
   - don't jump to top on click
 

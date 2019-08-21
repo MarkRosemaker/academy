@@ -7,6 +7,8 @@
     If you can see this text then the css was not properly loaded.
 </p>
 
+{{ $page := . }}
+
 
 <!-- Get German HTML -->
 {{ with index (where .AllTranslations "Lang" "de") 0 }}
@@ -36,21 +38,11 @@
     <!-- Improve presentation of German text. -->
     {{ $smart_text := partial "functions/get-smart-text" . }}
 
-
     {{ if eq "de" $.Lang }}
-        {{ $smart_text.html }}
+        {{ $smart_text.Content }}
     {{ else }}
         <!-- Display both languages side by side. -->
-        {{ $de := split $smart_text.html "</p>" }}
-        {{ $other := split $.Content "<p>" }}
-
-        {{ $k := sub (len $de) 1 }}
-        {{ range $i := seq 1 $k }}
-            <p>
-                <span lang="de" class="de">{{ index $de (sub $i 1) | replaceRE "<p>|</p>" "" | safeHTML }}</span><br>
-                <span lang="{{ $.Lang }}" class="{{ $.Lang }} trans">{{ index $other $i | replaceRE "<p>|</p>|\n" "" | safeHTML }}</span>
-            </p>
-        {{ end }}
+        {{ partial "languages-merger.html" (dict "first" $smart_text "second" $page) }}
     {{ end }}
 
     </div><!-- end div#unit -->

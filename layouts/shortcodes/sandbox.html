@@ -1,0 +1,4 @@
+{{ $c := delimit (slice "c") " " }}<!-- should be 'c' -->
+{{ $abc_slice := slice "a" | append "b" $c  }}<!-- should be ['a','b','c'] -->
+{{ $abc := delimit $abc_slice "+" }}<!-- should be 'a+b+c' -->
+{{ errorf "'%s' (%T) - '%s' (%T)" $c $c $abc $abc }}

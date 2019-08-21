@@ -1,28 +1,24 @@
-{{ $title := "" }}
+{{- $de := index (where .AllTranslations "Lang" "de") 0 | default . -}}
 
-<!-- TODO improve using default -->
+{{- if ne $de.Lang "de" -}}
+    {{- print "[%s]" (upper $de.Lang) }}
+{{ end -}}
 
-{{ with . }}
-
-{{- $weight := .Params.Weight | default 0 -}}
-{{- $title = printf "[%s] %s" (upper .Lang) .Title -}}
-
-{{- with index (where .Translations "Lang" "de") 0 }}
-    {{ with .Title }}{{- $title = . -}}{{ end }}
-    {{- with .Params.Weight -}}{{- $weight = . -}}{{- end -}}
-{{- end -}}
-
+{{- $weight := $de.Params.weight | default 0 -}}
 {{- if $weight -}}
     {{- if eq "section" .Kind -}}
-        {{ with $weight }}
-            {{- partial "functions/romanize.html" . -}}.
-        {{ end }}
+        {{- partial "functions/romanize.html" $weight -}}.
     {{- else -}}
         {{- $weight -}}.
     {{- end -}}
-{{- end -}}
 {{- end }}
 
-{{ $title -}}
+{{ $de.Title -}}
 
-
+{{- range $de.Params.categories -}}{{- with $.Site.GetPage "taxonomyTerm" . }}
+    #{{- with (index (where .AllTranslations "Lang" "de") 0).Params.hashtag -}}
+        {{- . -}}
+    {{- else -}}
+        [{{ upper .Lang }}] {{- .Title -}}
+    {{- end -}}
+{{- end -}}{{- end -}}

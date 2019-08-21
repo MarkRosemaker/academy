@@ -11,7 +11,9 @@
 }
 
 * {
-    font-family: Larsseit, Manrope, Helvetica, sans-serif;
+	font-family: Larsseit, Manrope, Helvetica, sans-serif;
+	text-align: justify;
+	text-justify: auto;
 }
 
 #word-count {
@@ -27,10 +29,12 @@
  * Make text more visible. This is what Teachable should be doing.
  * Also, reset font color for highlighted text.
  */
-.lecture-attachment p, div.notices p span.trans, h1, h2, h3, h4, h5,
+.lecture-attachment p,
+div.notice,
+h1, h2, h3, h4, h5,
 body.show-important .important, body.show-important .checked,
 body.show-genders .m, body.show-genders .f, body.show-genders .n {
-	color: #2b3636;
+	color: #000; /*#2b3636*/
 	margin-bottom: 5px;
 }
 body {
@@ -195,11 +199,8 @@ div.thumbcaption > p {
 }
 
 /* Underline words without spaces (which would mess up our program). */
-mark {
+.ul {
 	text-decoration: underline;
-	padding: initial;
-	background-color: initial;
-	color: initial;
 }
 
 /*

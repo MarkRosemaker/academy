@@ -39,7 +39,7 @@ div.notices.info p:first-child:after {
     content: 'Info';
 }
 div.notices.warning p {
-    border-top: 30px solid rgba(217, 83, 79, 0.8);
+    border-top: 30px solid #d9534fcc;
     background: #FAE2E2;
 }
 div.notices.warning p:first-child:after {
@@ -90,10 +90,10 @@ div.notice div.title {
     line-height: 30px;
     font-size: 22px;
     background-color: #5cb85ccc;
-    min-height: 30px;
-    padding-left: 38px;
-
+    padding: 1px 10px 1px 38px
 }
+
+
 #unit div.notice div.title span.trans {
     color: #fff;
 }
@@ -105,8 +105,6 @@ div.notice div.content {
     margin-top: 0rem;
     margin-bottom: 0rem;
 }
-
-
 
 input + label.toggle + div.toggle,
 input:checked + label.toggle {

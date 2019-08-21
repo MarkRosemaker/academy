@@ -1,0 +1,99 @@
+<!-- TODO:
+    - if image, add only once and in the right place
+-->
+
+<!-- Clean up the content. -->
+{{- $f_content := .first.Content  | replaceRE "\n" "" -}}
+{{- $s_content := .second.Content | replaceRE "\n" "" -}}
+
+<!-- Split the content -->
+{{- $f_split := split $f_content "<" -}}
+{{- $s_split := split $s_content "<" -}}
+
+<!-- Save the language codes. -->
+{{- $f_lang :=  .first.Lang | default "de" -}}
+{{- $s_lang := .second.Lang | default "en" -}}
+
+<!-- The regex we need. -->
+{{ $reg_start := "\\A<p|\\A<li|\\A<ul|\\A<ol|\\A<h[1-9]" }}
+{{ $reg_end   := "\\A</p|\\A</li|\\A</ul|\\A</ol|\\A</h[1-9]" }}
+
+<!-- The final result. -->
+{{ $merged := "" }}
+
+<!-- Variables to save the lines of each language. -->
+{{ $f_line := "" }}
+
+<!-- Collect the translated lines. -->
+{{ $s_lines := slice }}
+{{ $s_line  := "" }}
+{{ range $s_split }}
+    <!-- Seperate the text from the tag. -->
+    {{ $s     := . | replaceRE ".*>" "" }}
+    {{ $s_tag := . | replaceRE "(.*>).*" "$1" }}
+
+    <!-- Add the bracket back in. -->
+    {{ if findRE "\\A[a-z/]" $s_tag }}{{ $s_tag = print "<" $s_tag }}{{ end }}
+
+    {{ if findRE $reg_start $s_tag }}
+        <!-- Starting tag. Save the text until tag closes. -->
+        {{ $s_line = print $s_line $s }}
+
+    {{ else if findRE  $reg_end $s_tag }}
+        <!-- Closing tag. Save the text to the slice. -->
+        {{ $s_line = print $s_line $s }}
+        {{ $s_lines = $s_lines | append $s_line }}
+
+        <!-- Reset. -->
+        {{ $s_line = "" }}
+
+    {{ else }}
+        <!-- Continue the line. -->
+        {{ $s_line = print $s_line $s_tag $s }}
+    {{ end }}
+{{ end }}
+
+<!-- An index counter for the translated lines. -->
+{{ $i := 0 }}
+
+<!-- Go through the original lines. -->
+{{ range $f_split }}
+    <!-- Seperate the text from the tag. -->
+    {{ $f     := . | replaceRE ".*>" "" }}
+    {{ $f_tag := . | replaceRE "(.*>).*" "$1" }}
+
+    <!-- Add the bracket back in. -->
+    {{ if findRE "\\A[a-z/]" $f_tag }}{{ $f_tag = print "<" $f_tag }}{{ end }}
+
+    {{ if findRE $reg_start $f_tag }}
+        <!-- Starting tag, apply to both. -->
+        {{ $merged = print $merged $f_tag }}
+
+        <!-- Save the text until tag closes. -->
+        {{ $f_line = print $f_line $f }}
+
+    {{ else if findRE $reg_end $f_tag }}
+        <!-- Finish the text. -->
+        {{ $f_line = print $f_line $f }}
+
+        {{ with $f_line }}
+            {{ $merged = print $merged "<span lang=" $f_lang ">" . "</span>" }}
+        {{ end }}
+        {{ with index $s_lines $i }}
+            {{ $merged = print $merged "<br><span lang=" $s_lang " class=trans>" . "</span>" }}
+            {{ $i = add $i 1 }}
+        {{ end }}
+
+        <!-- Add closing tag. -->
+        {{ $merged = print $merged $f_tag }}
+
+        <!-- Reset the line. -->
+        {{ $f_line = "" }}
+
+    {{ else }}
+        <!-- Just other formatting. -->
+        {{ $f_line = print $f_line $f_tag $f }}
+    {{ end }}
+{{ end }}
+
+{{- $merged | safeHTML -}}
