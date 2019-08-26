@@ -1,3 +1,5 @@
+{{ with . }}
+
 {{- $de := index (where .AllTranslations "Lang" "de") 0 | default . -}}
 
 {{- if ne $de.Lang "de" -}}
@@ -22,3 +24,5 @@
         [{{ upper .Lang }}] {{- .Title -}}
     {{- end -}}
 {{- end -}}{{- end -}}
+
+{{ end }}

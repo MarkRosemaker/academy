@@ -3,7 +3,7 @@ title = "Test-Einheit"
 date =  2019-06-29T11:34:03+01:00
 weight = 11
 
-categories = ['video']
+categories = ['immersion']
 draft = false
 spellchecked = true
 popups = true

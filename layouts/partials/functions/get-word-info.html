@@ -238,6 +238,7 @@
             <!-- Transform the bold headers into real headers. -->
             {{ $rest = $rest | replaceRE "<p><span style=visibility:hidden.*?</span></p><div .*?>(.*?):</div>" "<h4>$1</h4>" }}
             {{ $rest = $rest | replaceRE "<p style=margin-bottom:-.5em><b>(.*?):</b></p>" "<h4>$1</h4>" }}
+            {{ $rest = $rest | replaceRE "<p style=margin-bottom:-.5em;font-weight:700.*?>(.*?):</p>" "<h4>$1</h4>" }}
 
             <!-- Analyse the content before the entry, like tables and images. -->
             {{ $pre := $rest | replaceRE "<h4>.*" "" }}
@@ -342,6 +343,11 @@
 
                     <!-- Remove rhymes. -->
                     {{ $body = $body | replaceRE "<dd><a href=/wiki/Hilfe:Reime.*?</dd>" "" }}
+
+                {{ else if eq $header "Ähnliche Wörter (Deutsch)" }}
+                    {{ $header = "Ähnliche Wörter" }}
+                {{ else if in $header "Das Gesuchte nicht gefunden?" }}
+                    {{ $header = "" }}
                 {{ end }}
 
                 <!-- Clean up the html. -->
@@ -424,6 +430,7 @@
                 {{ $html = print $html " data-collapsed=false" }}
             {{ end }}
             {{ $html = print $html "><h3>" $html_wc_name "</h3>" $html_wc "</div>" }}
+
 
         {{ end }}{{ end }}<!-- end of: Analyse each word classes entry. -->
     {{ end }}{{ end }}<!-- end of: Analyse the German entry. -->

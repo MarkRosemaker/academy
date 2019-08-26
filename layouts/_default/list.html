@@ -13,7 +13,6 @@
     {{- end -}}
 </h2>
 
-
 {{ .Content }}
 
 
@@ -35,10 +34,7 @@
                 </a>
               </div>
               <ul class='section-list'>
-                {{ $sub := .Sections }}
-                {{ if gt $depth 1 }}
-                    {{ $sub = .Pages }}
-                {{ end }}
+                {{ $sub := append .Sections .Pages }}
 
                 {{ range $sub }}
                   {{ $trans := index (where .AllTranslations "Lang" $.Lang) 0 }}

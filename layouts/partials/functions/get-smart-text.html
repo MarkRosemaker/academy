@@ -28,7 +28,6 @@
 
     <!-- Seperate text from html brackets. -->
     {{ range split $input "<" }}
-
         {{ $pre  := . | replaceRE "(.*>).*" "$1" }}
         {{ $text  := . | replaceRE ".*>" "" }}
 
@@ -127,22 +126,16 @@
                     {{ end }}
                     {{ $html_slice = $html_slice | append . "* "  $post }}
                 {{ end }}
+
+                {{ $sentence_start = ne "" $post }}
             {{ else }}
                 {{ $html_slice = $html_slice | append . " " }}
             {{ end }}
-
-            {{ $sentence_start = ne "" $post }}
         {{ end }}
     {{ end }}
 
 {{ else }}
-    {{ if not .Draft }}
-        {{ if and $.Site.Params.Debug.Capitalization (not $.Draft) }}
-            {{/* errorf "Capitalization of \"%s\" unknown." $word */}} TODO: CHECK CAPITALIZATION
-        {{ end }}
-
-    {{ end }}
-    {{ $html = .Content }}
+    {{ $html_slice = $html_slice | append .Content }}
 {{ end }}<!-- end of  and .Site.Params.buildPopups .Params.spellchecked -->
 
 <!-- The last is needed because otherwise underline messes up. -->
