@@ -64,7 +64,7 @@ div.notices.tip p:first-child:after {
 
 
 
-#unit div.notice span.trans {
+#unit div.notice .content span.trans {
     visibility: visible;
     font-style: italic;
     color: initial;
@@ -80,8 +80,6 @@ div.notice {
 div.notice div.title:before {
     position: absolute;
     font-family: "FontAwesome";
-    font-weight: 900;
-    content: "\f05a";
     left: 10px;
 }
 
@@ -89,22 +87,191 @@ div.notice div.title {
     color: #fff;
     line-height: 30px;
     font-size: 22px;
-    background-color: #5cb85ccc;
     padding: 1px 10px 1px 38px
 }
 
-
-#unit div.notice div.title span.trans {
-    color: #fff;
-}
-
+/* Default */
 div.notice div.content {
-    background: #E6F9E6;
     padding: 15px;
     display: block;
     margin-top: 0rem;
     margin-bottom: 0rem;
 }
+div.notice div.title {
+    background-color: #5cb85ccc;
+    color: #fff;
+}
+div.notice div.title span.trans {
+    color: #fff;
+}
+div.notice div.content {
+    background: #E6F9E6;
+}
+
+/* Green: associated with success */
+div.Erfolg div.title:before {
+    content: "\f164";
+}
+div.Erfolg div.title {
+    background-color:#00a851;
+}
+div.Erfolg div.content {
+    background: #b2ffb2;
+}
+
+/* Blue: resources */
+div.Ressource div.title,
+div.Musik div.title,
+div.Audio div.title {
+    background-color: #0000ff;
+}
+div.Ressource div.content,
+div.Musik div.content,
+div.Audio div.content {
+    background: #9999ff;
+}
+div.Musik div.title:before {
+    content: "\f001";
+}
+div.Ressource div.title:before {
+    content: "\f518";
+}
+div.Audio div.title:before {
+    content: "\f025";
+}
+
+/* Yellow: information */
+div.Hinweis div.title,
+div.Tipp div.title,
+div.Information div.title,
+div.Kontext div.title,
+div.Schlüssel div.title {
+    background-color: #ffff00;
+    color: black !important;
+}
+div.Hinweis div.content,
+div.Tipp div.content,
+div.Information div.content,
+div.Kontext div.content,
+div.Schlüssel div.content {
+    background: #ffffe0;
+}
+div.Schlüssel div.title:before {
+    content: "\f084";
+}
+div.Hinweis div.title:before {
+    content: "\f0a4";
+}
+div.Tipp div.title:before {
+    content: "\f0eb";
+}
+div.Information div.title:before {
+    content: "\f05a";
+}
+div.Kontext div.title:before {
+    content: "\f20e";
+}
+
+/* Magenta: actions */
+div.Suche div.title,
+div.Sprechen div.title,
+div.Schauen div.title,
+div.Aufschreiben div.title,
+div.Markieren div.title,
+div.Aktion div.title,
+div.Aufgabe div.title {
+    background-color: #ff00ff;
+}
+div.Suche div.content,
+div.Sprechen div.content,
+div.Schauen div.content,
+div.Aufschreiben div.content,
+div.Markieren div.content,
+div.Aktion div.content,
+div.Aufgabe div.content {
+    background: #fa9dfa;
+}
+div.Suche div.title:before {
+    content: "\f002";
+}
+div.Sprechen div.title:before {
+    content: "\f075";
+}
+div.Schauen div.title:before {
+    content: "\f06e";
+}
+div.Aufschreiben div.title:before {
+    content: "\f305";
+}
+div.Markieren div.title:before {
+    content: "\f591";
+}
+div.Aktion div.title:before {
+    content: "\f70c";
+}
+div.Aufgabe div.title:before {
+    content: "\f0ae";
+}
+div.Aufgabe div.title:before {
+    content: "\f0ae";
+}
+
+/* Red: warning */
+div.Achtung div.title {
+    background-color: #ff0000;
+}
+div.Achtung div.content {
+    background: #ffe0e0;
+}
+div.Achtung div.title:before {
+    content: "\f06a";
+}
+
+/* WhatsApp green */
+div.Achtung div.title {
+    background-color: #4AC959;
+}
+div.Achtung div.content {
+    background: hsl(127, 54%, 80%);
+}
+div.WhatsApp div.title:before {
+    content: "\f232";
+}
+
+/* Purple: mnemonics */
+div.Eselsbrücke div.title:before {
+    content: "\f5dc";
+}
+div.Eselsbrücke div.title {
+    background-color: #7f007f;
+}
+div.Eselsbrücke div.content {
+    background: #dd92dd;
+}
+
+/* selcom used, no color yet */
+div.Humor div.title:before {
+    content: "\f518";
+}
+div.Dankbarkeit div.title:before {
+    content: "\f004";
+}
+/* Emotions: https://fontawesome.com/icons?d=gallery&q=emotion&m=free */
+
+div.cat div.title {
+    background-color: #FF8000;
+    padding-left: 44px;
+}
+div.cat div.content {
+    background: hsl(30, 100%, 90%);
+}
+div.cat div.title:before {
+    content: "\f19d";
+}
+
+
+
+
 
 input + label.toggle + div.toggle,
 input:checked + label.toggle {

@@ -21,7 +21,7 @@ Zum anderen gibt es fast immer eine Übersetzung für dich.
 Es gibt in diesem Kurs drei Arten von Lektionen: Informationen über den Kurs oder die deutsche Sprache (Meta-Informationen), Mentalitäts-Tipps und reine Immersionsübungen.
 Es gibt ein paar Lerntechniken, wichtige Informationen über die deutsche Sprache (Meta-Informationen) und Hinweise zur inneren Einstellung (Mentalität), die ich dir gerne vermitteln möchte. Da du Anfänger bist, wäre es sehr schwer, dir diese Tipps in deutscher Sprache zu erklären.
 Trotzdem präsentiere ich dir diese Lektionen auch in deutscher Sprache als Text und Hördatei, damit du in die deutsche Sprache eintauchen kannst.
-Es immer hilfreich, zusätzlich auch den deutschen Text zu lesen und die Tonaufzeichnung zu hören. Diese Immersion stärkt dein Sprachgefühl.
+Es immer hilfreich, zusätzlich auch den deutschen Text zu lesen und die Tonaufnahme zu hören. Diese Immersion stärkt dein Sprachgefühl.
 #Tipp Tipp: Lies und höre den deutschen Text jeder Lektion, um ein Gefühl für die deutsche Sprache zu bekommen.
 Lass dich dabei allerdings nicht von den vielen unbekannten Wörtern überwältigen. Das Ziel ist es, Muster zu erkennen – nicht alle Vokabeln auswendig zu lernen.
 Es wäre kontraproduktiv, schon jetzt alle Wörter in diesen Lektionen verstehen zu wollen. STYLE BOLD

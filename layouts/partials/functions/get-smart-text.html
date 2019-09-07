@@ -28,18 +28,26 @@
 
     <!-- Seperate text from html brackets. -->
     {{ range split $input "<" }}
-        {{ $pre  := . | replaceRE "(.*>).*" "$1" }}
+        {{ $tag  := . | replaceRE "(.*>).*" "$1" }}
         {{ $text  := . | replaceRE ".*>" "" }}
 
         <!-- Add -->
-        {{ with $pre }}
+        {{ with $tag }}
             {{ $html_slice = $html_slice | append "<" . }}
         {{ end }}
 
         {{ range split $text " " }}
             <!-- Seperate the word from surrounding characters. -->
-            {{ $word := . | replaceRE "[^A-Za-zöäüßÖÄÜ_-]" "" }}
-            {{ $post := . | replaceRE "[A-Za-zöäüßÖÄÜ_-]" "" }}
+            {{ $word := . | replaceRE "[^\\&;A-Za-zöäüßÖÄÜ_-]" "" }}
+            {{ if not (in . $word)}}
+                {{ errorf "Something went wrong analyzing '%s'. The extracted word is '%s'." . $word }}
+            {{ end }}
+            {{ $post := . | replaceRE (print ".*" $word ) "" }}
+            {{ $pre  := . | replaceRE (print $word ".*") "" }}
+
+            {{ if or (eq . "&ndash;") (eq . "&hellip;") }}
+                {{ $word = "" }}
+            {{ end }}
 
             {{ with $word }}
                 {{ $search := $word }}
@@ -54,7 +62,7 @@
                     {{ else if not (or (isset $basic_forms $word) (isset $vocab $word) (isset $custom_words $word)) }}
                         <!-- We must know, set word into a json data map (even if value is empty). -->
                         {{ if and $.Site.Params.Debug.Capitalization (not $.Draft) }}
-                            {{ errorf "Capitalization of \"%s\" unknown." $word }}
+                            {{ errorf "Capitalization of \"%s\" unknown. Please add the word to 'data/basic_forms.json'." $word }}
                         {{ end }}
                     {{ end }}
                 {{ end }}
@@ -64,7 +72,7 @@
                 {{ with index $custom_words $search }}
                     {{ $info = . }}
                 {{ else }}
-                    {{ $info = partial "functions/get-word-info.html" $search }}
+                    {{ $info = partial "functions/get-word-info.html" (dict "Word" $search "Data" $.Site.Data) }}
                 {{ end }}
 
                 <!-- Check for basic forms. -->
@@ -98,8 +106,8 @@
                     <!-- Add word types. -->
                     {{ range $info.word_classes }}
                         {{ $classes = $classes | append (replace . " " "-") }}
+                        {{ $word_classes_all = $word_classes_all | append . }}
                     {{ end }}
-                    {{ $word_classes_all = $word_classes_all | append $info.word_classes }}
                 {{ end }}
 
                 <!-- Add audio file, if available. -->
@@ -115,7 +123,7 @@
                 {{ end }}
 
                 {{ with $classes }}
-                    {{ $html_slice = $html_slice | append "<a " }}
+                    {{ $html_slice = $html_slice | append $pre "<a " }}
                     {{ range $a, $k := $attr }}
                         {{ $html_slice = $html_slice | append $a "=" $k " " }}
                     {{ end }}
@@ -127,7 +135,7 @@
                     {{ $html_slice = $html_slice | append . "* "  $post }}
                 {{ end }}
 
-                {{ $sentence_start = ne "" $post }}
+                {{ $sentence_start = or (in $post ".") (in $post "!") (in $post "?") (eq $tag "div class=title>") }}
             {{ else }}
                 {{ $html_slice = $html_slice | append . " " }}
             {{ end }}

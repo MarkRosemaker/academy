@@ -15,8 +15,8 @@
 {{- $s_lang := .second.Lang | default "en" -}}
 
 <!-- The regex we need. -->
-{{ $reg_start := "\\A<p|\\A<li|\\A<ul|\\A<ol|\\A<h[1-9]" }}
-{{ $reg_end   := "\\A</p|\\A</li|\\A</ul|\\A</ol|\\A</h[1-9]" }}
+{{ $reg_start := "\\A<p|\\A<li|\\A<ul|\\A<ol|\\A<h[1-9]|\\A<div" }}
+{{ $reg_end   := "\\A</p|\\A</li|\\A</ul|\\A</ol|\\A</h[1-9]|\\A</div" }}
 
 <!-- The final result. -->
 {{ $merged := "" }}
@@ -39,10 +39,12 @@
         <!-- Starting tag. Save the text until tag closes. -->
         {{ $s_line = print $s_line $s }}
 
-    {{ else if findRE  $reg_end $s_tag }}
+    {{ else if findRE $reg_end $s_tag }}
         <!-- Closing tag. Save the text to the slice. -->
-        {{ $s_line = print $s_line $s }}
-        {{ $s_lines = $s_lines | append $s_line }}
+        {{ $s_line = print $s_line $s | replaceRE "\\A\\s+|\\s+\\z" "" }}
+        {{ if $s_line }}
+            {{ $s_lines = $s_lines | append $s_line }}
+        {{ end }}
 
         <!-- Reset. -->
         {{ $s_line = "" }}
@@ -51,10 +53,18 @@
         <!-- Continue the line. -->
         {{ $s_line = print $s_line $s_tag $s }}
     {{ end }}
+
 {{ end }}
+
+{{/* if in $s_lines "Today is a good day."}}
+{{ errorf "'%s'" (delimit $s_lines "+") }}
+{{ end */}}
 
 <!-- An index counter for the translated lines. -->
 {{ $i := 0 }}
+
+<!-- A boolean that remembers if the line is a title. -->
+{{ $isTitle := false }}
 
 <!-- Go through the original lines. -->
 {{ range $f_split }}
@@ -68,20 +78,31 @@
     {{ if findRE $reg_start $f_tag }}
         <!-- Starting tag, apply to both. -->
         {{ $merged = print $merged $f_tag }}
+        {{ $isTitle = eq $f_tag "<div class=title>"}}
 
         <!-- Save the text until tag closes. -->
         {{ $f_line = print $f_line $f }}
 
     {{ else if findRE $reg_end $f_tag }}
         <!-- Finish the text. -->
-        {{ $f_line = print $f_line $f }}
+        {{ $f_line = print $f_line $f | replaceRE "\\A\\s+|\\s+\\z" "" }}
 
         {{ with $f_line }}
             {{ $merged = print $merged "<span lang=" $f_lang ">" . "</span>" }}
-        {{ end }}
-        {{ with index $s_lines $i }}
-            {{ $merged = print $merged "<br><span lang=" $s_lang " class=trans>" . "</span>" }}
-            {{ $i = add $i 1 }}
+
+            {{ with index $s_lines $i }}
+                {{ if $isTitle }}
+                    {{ $merged = print $merged " <span lang=" $s_lang " class=trans>(" . ")</span>" }}
+                {{ else }}
+                    {{ $merged = print $merged "<br><span lang=" $s_lang " class=trans>" . "</span>" }}
+                {{ end }}
+                {{ $i = add $i 1 }}
+            {{ else }}
+                {{ if $.second.Site.Params.checkForTranslation }}
+                    {{ errorf "Missing translation in %s." $.second }}
+                {{ end }}
+                {{ $merged = print $merged "<br>NO TRANSLATION FOUND PLEASE TELL MARK" }}
+            {{ end }}
         {{ end }}
 
         <!-- Add closing tag. -->

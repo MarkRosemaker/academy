@@ -1,10 +1,9 @@
-{{ with . }}
-
 {{- $de := index (where .AllTranslations "Lang" "de") 0 | default . -}}
 
 {{- if ne $de.Lang "de" -}}
     {{- print "[%s]" (upper $de.Lang) }}
 {{ end -}}
+
 
 {{- $weight := $de.Params.weight | default 0 -}}
 {{- if $weight -}}
@@ -17,12 +16,4 @@
 
 {{ $de.Title -}}
 
-{{- range $de.Params.categories -}}{{- with $.Site.GetPage "taxonomyTerm" . }}
-    #{{- with (index (where .AllTranslations "Lang" "de") 0).Params.hashtag -}}
-        {{- . -}}
-    {{- else -}}
-        [{{ upper .Lang }}] {{- .Title -}}
-    {{- end -}}
-{{- end -}}{{- end -}}
-
-{{ end }}
+{{- partial "print-hashtags.html" $de -}}

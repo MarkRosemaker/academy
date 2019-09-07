@@ -21,6 +21,7 @@ hrefTargetBlank = true
 
   showCopyableHTML = true # only if not server
   buildPopups = true # but always if not server
+  checkForTranslation = false # throws an error if a text has not been translated
 
 [params.colors] # doesn't work in CSS
 

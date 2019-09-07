@@ -1,5 +1,7 @@
 var audio = document.getElementsByClassName('audioloader')[0];
 
+
+
 if(audio) {
 
 // add smart track player (variable audio is removed at the end)
@@ -5453,6 +5455,6 @@ var SmartPodcastPlayer_uid_9f03c450 = {"errors":[],"options":{"title":lecture_na
 
 
 // remove the old audio html
-audio.parentNode.removeChild(audio);
+//audio.parentNode.removeChild(audio);
 
 }

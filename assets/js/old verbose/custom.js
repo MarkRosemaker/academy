@@ -47,15 +47,5 @@ $(".audio-available").click(function() {
     new Audio($(this).attr("audio")).play();
 });
 
-// Load the audio Player.
-
-//<div
-// class="audioloader"
- // data-audioloader="AttachmentDrop"
-// data-audioloader-name="AGLP0062_Weltanschauung_Vokabel.mp3"
-// data-audioloader-type="audio/mpeg"
-// data-audioloader-url="https://www.filepicker.io/api/file/CG5zI1ARX2dQv91MmaHW"
-// ></div>
-
 // Remove the loading animation.
 document.getElementById("loading").style.display = "none";

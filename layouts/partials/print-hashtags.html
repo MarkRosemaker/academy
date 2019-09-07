@@ -1,0 +1,11 @@
+{{ $lang := .Lang }}
+{{ $de := index (where .AllTranslations "Lang" "de") 0 | default . }}
+{{- range $de.Params.categories -}}
+{{ $cat := . }}
+{{- with $.Site.GetPage (print "/categories/" .) }}
+    #{{- with (index (where .AllTranslations "Lang" $lang) 0).Params.hashtag -}}
+        {{- . -}}
+    {{- else -}}
+        {{- $cat -}}
+    {{- end -}}
+{{- end -}}{{- end -}}

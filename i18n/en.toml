@@ -411,3 +411,33 @@ other = "with adjectival declension"
 
 ["Ähnliche Wörter"]
 other = "similar words"
+
+["Geflügelte Worte"]
+other = "well-known sayings"
+
+["m"]
+other = "m"
+
+["f"]
+other = "f"
+
+["n"]
+other = "n"
+
+["Präposition mit dem Dativ"]
+other = "preposition with the dative"
+
+["Wortfamilie"]
+other = "word family"
+
+["Lokaladverb"]
+other = "local adverb"
+
+["Temporaladverb"]
+other = "temporal adverb"
+
+["Plural selten gebräuchlich"]
+other = "plural seldom used"
+
+[""]
+other = "EMPTY SPACE TRANSLATED PLEASE TELL MARK"

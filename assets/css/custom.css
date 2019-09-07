@@ -8,12 +8,15 @@
  #loading {
 	margin: 10% auto 200% auto;
 	width: min-content;
+	display: none; /* TODO delete */
 }
 
 * {
 	font-family: Larsseit, Manrope, Helvetica, sans-serif;
-	text-align: justify;
+}
+p {
 	text-justify: auto;
+	text-align: justify;
 }
 
 #word-count {
@@ -32,8 +35,8 @@
 .lecture-attachment p,
 div.notice,
 h1, h2, h3, h4, h5,
-body.show-important .important, body.show-important .checked,
-body.show-genders .m, body.show-genders .f, body.show-genders .n {
+body.show-important .main .important, body.show-important .main .checked,
+body.show-genders .main .m, body.show-genders .main .f, body.show-genders .main .n {
 	color: #000; /*#2b3636*/
 	margin-bottom: 5px;
 }
@@ -79,39 +82,47 @@ body.hide-trans #unit .trans {
  */
 
 /* Important words. */
-body.show-important .important {
-    background-color: #ff0;
+body.show-important .main .important {
+    background-color: #ffff65;
+	outline: 2px solid #ffff65;
 }
-body.show-important .checked {
-    background-color: #0f0;
+body.show-important .main .checked {
+    background-color: #65ff65;
+	outline: 2px solid #65ff65;
 }
 
 /* Genders */
-body.show-genders .m {
+body.show-genders .main .m {
 	background-color: #b4b9ff;
+	outline: 2px solid #b4b9ff;
 }
-body.show-genders .f {
+body.show-genders .main .f {
 	background-color: #ffb9b9;
+	outline: 2px solid #ffb9b9;
 }
-body.show-genders .n {
+body.show-genders .main .n {
 	background-color: #c5ffb4;
+	outline: 2px solid #c5ffb4;
 }
 
 /* Word classes */
-body.show-wc.Substantiv-enabled a.Substantiv {
-	background-color: #ffb9b9;
+body.show-wc.Substantiv-enabled .main a.Substantiv {
+	background-color: #ff6565;
+	outline: 2px solid #ff6565;
 }
-body.show-wc.Verb-enabled a.Verb {
-	background-color: #b4b9ff;
+body.show-wc.Verb-enabled .main a.Verb {
+	background-color: #6a74fa;
+	outline: 2px solid #6a74fa;
 }
-body.show-wc a.wc-other {
-	background-color: #ff0;
+body.show-wc .main a.wc-other {
+	background-color: #89ff65;
+	outline: 2px solid #89ff65;
 }
 
 /* Make words with multiple reasons to highlight bold. */
-body.show-important a.important.checked,
-body.show-wc.Substantiv-enabled a.Substantiv.wc-other,
-body.show-wc.Verb-enabled a.Verb.wc-other {
+body.show-important .main a.important.checked,
+body.show-wc.Substantiv-enabled .main a.Substantiv.wc-other,
+body.show-wc.Verb-enabled .main a.Verb.wc-other {
 	font-weight: 700;
 }
 
@@ -146,7 +157,7 @@ body.show-genders #show-wc-expl {
 }
 
 img.thumbimage {
-	margin: 0 auto;
+	margin: 0 2px;
 	display: block;
 	border: 1px solid #a2a9b1;
 }
@@ -183,6 +194,17 @@ div.thumbcaption > p {
 	content: "";
 	clear: both;
 	display: table;
+}
+
+/*
+ * Info Table
+ */
+.infotable {
+	width: 100%;
+    border: 1px solid #a2a9b1;
+    background-color: #eaecf0;
+    font-size: 95%;
+    text-align: center;
 }
 
 /*

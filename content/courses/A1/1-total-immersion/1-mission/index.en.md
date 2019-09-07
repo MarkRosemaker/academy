@@ -33,6 +33,9 @@ I only work with people who are willing to leave behind old ways of thinking and
 If you are such a person, you will gain much from this course.
 Here we go!
 
-<!-- # key --> key to success: Enjoy learning and enjoy the beauty of the German language.
+{{< notice "the key to success" >}}
 
+Enjoy learning and enjoy the beauty of the German language.
+
+{{< /notice >}}
 

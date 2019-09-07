@@ -22,6 +22,7 @@
     <title>
     {{- with index (where .Translations "Lang" "de") 0 -}}
         {{- .Title -}}
+        {{- partial "print-hashtags.html" . -}}
     {{- else -}}
         [{{- .Lang | upper -}}] {{ .Title -}}
     {{- end }} | {{ .Site.Title }}</title>
@@ -217,10 +218,7 @@
           &nbsp;
           {{ with index (where .Translations "Lang" "de") 0 -}}
                 {{- .Title -}}
-
-                {{ range .Params.categories }}{{ with $.Site.GetPage "taxonomyTerm" . }}
-                    #{{ with (index (where .AllTranslations "Lang" "de") 0).Params.hashtag }}{{ . }}{{ else }}EN{{ . }}{{ end }}
-                {{ end }}{{ end }}
+                {{- partial "print-hashtags.html" . -}}
           {{- else -}}
               [{{- .Lang | upper -}}] {{ .Title -}}
           {{- end }}

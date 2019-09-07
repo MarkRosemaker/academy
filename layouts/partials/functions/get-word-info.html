@@ -1,5 +1,8 @@
 <!-- The word we are looking for. -->
-{{ $word := . }}
+{{ $word := .Word | replaceRE "&rsquo;" "" }}
+
+<!-- The site data. -->
+{{ $data := .Data }}
 
 <!-- Initialize output variables. -->
 {{ $html  := "" }}
@@ -7,24 +10,29 @@
 {{ $word_classes := slice }}
 {{ $basic_form := "" }}
 
+{{ $id := lower $word }}
+{{ if len (findRE "\\A[A-ZÄÖÜ]" $word) }}
+    {{ $id = print $id "_cap" }}
+{{ end }}
+
 <!-- Check if entry is cached. -->
-{{ $path_html := print "assets/html/wiktionary/" $word "_popup.html" }}
-{{ $path_data := print "assets/html/wiktionary/" $word "_data.html" }}
+{{ with $data.wiktionary }}{{ with index . $id }}
+    <!-- Save all variable from the data file. -->
+    {{ $audio        = .audio }}
+    {{ $basic_form   = .basic_form }}
+    {{ $word_classes = .word_classes }}
 
-<!-- -->
-{{ if and (fileExists $path_html) (fileExists $path_data) }}
-    {{ $html = readFile $path_html }}
+    <!-- It is assumed that if the data file is present, so is the popup html.-->
+    {{ $html = readFile (print "assets/html/wiktionary/" $id "_popup.html") }}
 
-    {{ $data := readFile $path_data }}
-    {{ $audio = index (findRE "\"audio\":\".*?\"" $data) 0 | replaceRE "\"audio\":\"(.*?)\"" "$1" }}
-    {{ $basic_form = index (findRE "\"basic_form\":\".*?\"" $data) 0 | replaceRE "\"basic_form\":\"(.*?)\"" "$1" }}
-    {{ $wc := index (findRE "\"word_classes\":\\[.*?\\]" $data) 0 | replaceRE "\"word_classes\":\\[(.*?)\\]" "$1" | replaceRE "\"(.*?)\"" "$1" }}
-    {{ $word_classes = split $wc "," }}
-{{ else }}
+{{ end }}{{ end }}
+
+<!-- else -->
+{{ if not $html }}
 
     <!-- Get HTML from cache or from Wiktionary. -->
     {{ $raw := "" }}
-    {{ $path_raw := print "assets/html/wiktionary/" $word "_de_raw.html" }}
+    {{ $path_raw := print "assets/html/wiktionary/" $id "_de_raw.html" }}
     {{ if fileExists $path_raw }}
         {{ $raw = readFile $path_raw }}
     {{ else }}
@@ -33,20 +41,25 @@
 
         <!-- Cache the result. -->
         {{ with $json.parse  }}
-            {{ $cache := index .text  "*" | resources.FromString (print "wiktionary/" $word "_de_raw.html") | minify }}
+            {{ $cache := index .text  "*" | resources.FromString (print "wiktionary/" $id "_de_raw.html") | minify }}
 
             {{ $raw = $cache.Content }}
         {{ else }}
-            {{ errorf "Please add \"%s\" to data/wiktionary/custom_words.json or data/wiktionary/synonyms.json." $word }}
+            {{ errorf "Please add \"%s\" to data/custom_words.json or data/synonyms.json because I can't get the Wiktionary entry." $word }}
         {{ end }}
     {{ end }}
 
     <!-- Analyse the German entry. -->
     {{ range split $raw "<h2" }}{{ if in . "Wiktionary:Deutsch" }}
+        <!-- Clean up whitespaces. -->
+        {{ $Deutsch := . | replaceRE "\n|<p><br></p>" "" | replaceRE "\\[([0-9]+), ([0-9]+)\\]" "[$1,&#160;$2]"  | replaceRE "#8206;" "&#160;" | replaceRE "(&#160;)+" "&#160;" | replaceRE "&#160; " "&#160;" | replaceRE "&#160;([;,.])" "$1" | replaceRE "\\s+" " " | replaceRE "<div[^>]*>&#160;</div>" "" }}
+
+        <!-- Correct image source links. -->
+        {{ $Deutsch = $Deutsch | replaceRE "src=\"(/w/extensions.*?)\"" "src=\"https://wiktionary.org$1\"" | replaceRE "src=(/w/extensions[^ ]*?)" "src=https://wiktionary.org$1" }}
 
         <!-- Fast lookup for gender abbreviations. -->
-        {{ $gender_map := dict "m" "männlich" "f" "weiblich" "n" "sächlich" }}
-        {{ $article_map := dict "m" "der " "f" "die " "n" "das " }}
+        {{ $gender_lookup := dict "m" "männlich" "f" "weiblich" "n" "sächlich" }}
+        {{ $article_lookup := dict "m" "der " "f" "die " "n" "das " }}
 
         <!-- Initialize gender variables. -->
         {{ $gender := "" }}
@@ -56,14 +69,14 @@
         {{ $singular_map := dict "Bedeutungen" "Bedeutung" "Beispiele" "Beispiel" }}
 
         <!-- Analyse each word classes entry. (First in split is rubbish.) -->
-        {{ range $num_wc, $k := split (replaceRE "\n" "" .) "<h3" }}{{ if ne $num_wc 0 }}
+        {{ range $num_wc, $k := split $Deutsch "<h3" }}{{ if ne $num_wc 0 }}
 
             <!-- Check which word classes are named in the header, then:
                 - clean
                 - tranform emphasis into brackets
                 - transform slashes into commas
             -->
-            {{ $wc_header := . | replaceRE "</h3>.*|\\A>|<span.*?>|</span>|<a.*?>|</a>|\\[.*" "" | replaceRE "<em.*?>|<i>" "(" | replaceRE "</em>|</i>" ")" | replaceRE "/" ", " }}
+            {{ $wc_header := . | replaceRE "</h3>.*|\\A>|<span.*?>|</span>|<a.*?>|</a>|\\[.*" "" | replaceRE "<em.*?>|<i>" "(" | replaceRE "</em>|</i>" ")" | replaceRE "/" ", " | replaceRE ",\\) \\(|\\), \\(" ", " }}
 
             <!-- Initialize word class variables. -->
             {{ $wc_infos := slice }}
@@ -82,12 +95,15 @@
                     {{ $info = . | replaceRE "\\(|\\)" ""  }}
 
                     <!-- Check if the info is which gender a noun has. -->
-                    {{ with index $gender_map $info }}
-                        <!-- Initialize gender variables but don't overwrite them. -->
-                        {{ if not $gender }}
+                    {{ with index $gender_lookup $info }}
+                        <!--
+                            Initialize gender variables but don't overwrite them.
+                            Only save gender variable if the word is actually a noun.
+                        -->
+                        {{ if and (not $gender) (in $word_classes "Substantiv") }}
                             {{ $gender = $info }}
                             {{ $word_classes = $word_classes | append $info }}
-                            {{ $article = index $article_map $info }}
+                            {{ $article = index $article_lookup $info }}
                         {{ end }}
 
                         {{ $info = . }}<!-- write out -->
@@ -102,7 +118,7 @@
                     <!-- Add the word class to a list to use as css classes. -->
                     {{ $word_classes = $word_classes | append $info }}
 
-                    {{ $info_i18n = i18n . | title }}
+                    {{ $info_i18n = . | i18n | title }}
                 {{ end }}
 
                 {{ $wc_infos = $wc_infos | append $info }}
@@ -144,7 +160,7 @@
                 <!-- Get HTML from cache or from Wiktionary. -->
                 {{ $raw := "" }}
                 {{ $html_en := "" }}
-                {{ $path_raw := print "assets/html/wiktionary/" $word "_en_raw.html" }}
+                {{ $path_raw := print "assets/html/wiktionary/" $id "_en_raw.html" }}
                 {{ if fileExists $path_raw }}
                     {{ $raw = readFile $path_raw }}
                 {{ else }}
@@ -153,13 +169,13 @@
 
                     <!-- Cache the result. -->
                     {{ with $json.parse  }}
-                        {{ $cache := index .text  "*" | resources.FromString (print "wiktionary/" $word "_en_raw.html") | minify }}
+                        {{ $cache := index .text  "*" | resources.FromString (print "wiktionary/" $id "_en_raw.html") | minify }}
 
                         {{ $raw = $cache.Content }}
                     {{ end }}
                 {{ end }}
 
-                <!-- Analyse the German entry. -->
+                <!-- Analyse the German entry in English. -->
                 {{ range split $raw "<h2" }}{{ if in . "id=German>" }}
 
                     {{ $collapsed := false }}
@@ -184,7 +200,7 @@
 
                                     {{ if (ne $mini_header "Declension") }}
 
-                                        <!-- Remove (repeated) header. -->
+                                        <!-- Remove (repeated) header and div's. -->
                                         {{ $mini_body := . | replaceRE ".*</h4>" "" | replaceRE (print "<div[^>]*>" $mini_header "</div>") "" | replaceRE "<div.*?>|</div>" "" }}
 
                                         <!-- Small (or very important) entries are shown right away (non-collapsible). -->
@@ -197,13 +213,11 @@
                                         {{ end }}
                                     {{ end }}
                                 {{ else }}
-                                    <!-- Clean html. -->
+                                    <!-- Clean html by removing div's. -->
                                     {{ $mini_body := . | replaceRE "<div.*?>|</div>" "" }}
 
                                     {{ $body = print $body $mini_body }}
                                 {{ end }}
-
-
                             {{ end }}
 
                             <!-- Small (or very important) entries are shown right away (non-collapsible). -->
@@ -235,23 +249,29 @@
             {{ $rest := . | replaceRE ".*</h3>" "" }}
             {{ $html_wc := "" }} <!-- This will be the html describing the word for the current word class. -->
 
+            {{ if in $rest "Dieser Abschnitt fehlt noch"}}
+                {{ $rest = "" }}
+            {{ end }}
+
             <!-- Transform the bold headers into real headers. -->
             {{ $rest = $rest | replaceRE "<p><span style=visibility:hidden.*?</span></p><div .*?>(.*?):</div>" "<h4>$1</h4>" }}
             {{ $rest = $rest | replaceRE "<p style=margin-bottom:-.5em><b>(.*?):</b></p>" "<h4>$1</h4>" }}
-            {{ $rest = $rest | replaceRE "<p style=margin-bottom:-.5em;font-weight:700.*?>(.*?):</p>" "<h4>$1</h4>" }}
+            {{ $rest = $rest | replaceRE "<p style=margin-bottom:-.5em;font-weight:700[^>]*>(.*?):</p>" "<h4>$1</h4>" }}
 
             <!-- Analyse the content before the entry, like tables and images. -->
             {{ $pre := $rest | replaceRE "<h4>.*" "" }}
 
             <!-- Get images, if present. -->
             {{ $html_image := "" }}
+
             {{ range findRE "<div class=thumbinner.*?</div></div>" $pre }}
                 <!-- Extract the image and caption. -->
                 {{ $img := . | replaceRE ".*(<img.*?>).*" "$1" }}
-                {{ $caption := . | replaceRE ".*</div>(.*?)</div></div>" "$1" }}
+                {{ $caption := . | replaceRE ".*</div>(.*?)</div></div>.*" "$1" }}
 
                 <!-- Get an alt value for the image from the caption. -->
                 {{ $alt := $caption | replaceRE "<.*?>|\\[.*\\] " "" }}
+                <!-- Replace empty alt with our alt value. -->
                 {{ $img = $img | replaceRE " alt " (print " alt=\"" $alt "\" ") }}
 
                 <!-- Get the width of the image. -->
@@ -264,13 +284,15 @@
             <!-- Get the table, if present.  -->
             {{ $html_table := "" }}
             {{ range findRE "<table class=\"wikitable.*?\".*?</table>" $pre }}
-                <!-- Clean up the table html. -->
-                {{ $table := . | replaceRE "<a.*?>|</a>|<p class=mw-empty-elt></p>| class=\".*?\"| style=\".*?\"| class=([^ >])*| style=([^ >])*" "" | replaceRE "<table>" "<table class=wikitable>" }}
+                <!-- Clean up the table html including removing div's. -->
+                {{ $table := . | replaceRE "<a.*?>|</a>|<p class=mw-empty-elt></p>| class=\".*?\"| style=\".*?\"| class=([^ >])*| style=([^ >])*|<div.*?>|</div>" "" | replaceRE "<table>" "<table class=wikitable>" }}
 
                 <!-- Translate header cells. -->
                 {{ range findRE "<th.*?</th>" $table }}
+
+
                     {{ $th   := . | replaceRE "(<th.*?>).*" "$1" }}
-                    {{ $cell := . | replaceRE "<th.*?>|</th>|<div>|</div>|<span.*?>|</span>" "" | replaceRE "&#160;" " " }}
+                    {{ $cell := . | replaceRE "<th.*?>|</th>|<span.*?>|</span>" "" | replaceRE "&#160;" " " }}
 
                     {{ $cell_trans := $cell }}
 
@@ -323,6 +345,7 @@
 
             <!-- Split into seperate dictionary items. -->
             {{ $rest = $rest | replaceRE "\\A.*?<h4" "<h4" }}
+
             {{ range split $rest "<h4" }}
                 <!-- Split into header and body. -->
                 {{ $header := . | replaceRE "\\A[^>]*?>|<\\/h4>.*|<[^>]*?>|\\[.*" "" | replaceRE "&#160;" " " }}
@@ -338,7 +361,7 @@
                 {{ else if eq $header "Aussprache" }}
                     <!-- Get the first audio file. -->
                     {{ if not $audio }}{{ with index (findRE "<a href=//upload.wikimedia.org/wikipedia/commons/.*? class=internal title=.*?>" $body) 0 }}
-                        {{ $audio = . | replaceRE "<a .*href=| .*" "" | print "https:" | default "" }}
+                        {{ $audio = . | replaceRE "<a .*href=| .*" "" | print "https:" }}
                     {{ end }}{{ end }}
 
                     <!-- Remove rhymes. -->
@@ -346,48 +369,54 @@
 
                 {{ else if eq $header "Ähnliche Wörter (Deutsch)" }}
                     {{ $header = "Ähnliche Wörter" }}
+                {{ else if in $header "Ähnliche Wörter" }}
+                    {{ $body = "" }}<!-- discard -->
                 {{ else if in $header "Das Gesuchte nicht gefunden?" }}
                     {{ $header = "" }}
                 {{ end }}
 
-                <!-- Clean up the html. -->
+                <!-- Clean up the spans and classes before adding the only allowed span and class. -->
                 {{ $body = $body | replaceRE "<span.*?>|</span>| class=\".*?\"| class=[^ >]*" "" }}
 
                 <!-- Make audio files playable (not just in pronunciation section). -->
                 {{ $body = $body | replaceRE "(<img[^>]*?Loudspeaker.svg[^>]*?>&#160;)<a href=([^ >]*)[^>]*>(.*?)<\\/a>" "<span class=audio-available audio=https:$2>$1$3</span>" }}
 
-                <!-- Clean up the html including all links. -->
-                {{ $body = $body | replaceRE "<a.*?>|</a>|\\(\\)|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*| <sup.*?</sup>|&#160;<sup.*?</sup></sup.>|<sup.*?</sup>|<p><i><span id=Quellen>.*|<p>.*?Quellen:</i>.*|<a[^>]*?><\\/a>|<table><tbody><tr><th>Dialektausdrücke:</th></tr><tr><td><div id=Vorlage_Uberarbeiten.*|<div id=Vorlage_Uberarbeiten.*| style=\".*?\"| style=[^ >]*| id=\".*?\"| id=[^ >]*" ""  | replaceRE "<table.*?>" "<table>"  | replaceRE "<th.*?>" "<th>" | replaceRE "<td.*?>" "<td>" | replaceRE "<p.*?>" "<p>" | replaceRE "<div></div>" "" }}
+                <!-- Remove the references, sources, and templates. -->
+                {{ $body = $body | replaceRE "<div class=mw-references-wrap>.*|\\(\\)|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*|<p><i><span id=Quellen>.*|<p>.*?Quellen:</i>.*|<div id=Vorlage_Uberarbeiten.*?</div>" "" }}
 
-                <!-- Remove table "ist eine flektierte Form von". -->
-                {{ $body = $body | replaceRE "<div><table><tbody>.*? ist eine flektierte Form von .*" "" }}
+                <!-- Remove superscripts. -->
+                {{ $body = $body | replaceRE " <sup.*?</sup>|&#160;<sup.*?</sup>|<sup.*?</sup>" "" }}
 
-                <!-- Clean up whitespaces. -->
-                {{ $body = $body | replaceRE "\\[([0-9]+), ([0-9]+)\\]" "[$1,&#160;$2]"  | replaceRE "#8206;" "&#160;" | replaceRE "(&#160;)+" "&#160;" | replaceRE "&#160; " "&#160;" | replaceRE "&#160;([;,.])" "$1" | replaceRE "\\s+" " " | replaceRE "<div[^>]*>&#160;</div>" "" }}
+                <!-- Remove attributes to tags. -->
+                {{ $body = $body | replaceRE "<table.*?>" "<table>"  | replaceRE "<th.*?>" "<th>" | replaceRE "<td.*?>" "<td>" | replaceRE "<p.*?>" "<p>" | replaceRE " style=\".*?\"| style=[^ >]*| id=\".*?\"| id=[^ >]*" ""}}
 
-                <!-- Correct image source links. -->
-                {{ $body = $body | replaceRE "src=\"(/w/extensions.*?)\"" "src=\"https://wiktionary.org$1\"" | replaceRE "src=(/w/extensions[^ ]*?)" "src=https://wiktionary.org$1" }}
+                <!-- Clean up all links, div's. -->
+                {{ $body = $body | replaceRE "<a.*?>|</a>|<div.*?>|</div>" "" }}
 
                 <!-- Insert the entry for the basic form. -->
                 {{ if eq $header "Grammatische Merkmale" }}
+                    <!-- Improve declension table-->
+                    {{ $body = $body | replaceRE "<table><tbody><tr.*?>(.*?)<br>Alle weiteren Informationen.*?</td>" "<table class=infotable><tbody><tr>$1</td>" | replaceRE "(Flexion:[^.,<]*)" "<a href=https://de.wiktionary.org/wiki/$1 target=_blank>$1</a>" }}
+
                     {{ with findRE "<b>(.*?)</b>" $body }}
-                        {{ $bf := index . 0 | replaceRE ".*<b>|</b>" "" }}
-                        {{ if eq $num_wc 1 }}<!-- only if first entry -->
+                        {{ $bf := index . 0 | replaceRE ".*<b>|</b>|\\.|\\,|„|“" "" }}
+
+                        <!-- Prevent an infinite loop by not picking the same word and only bothering with first entry. -->
+                        {{ if and (ne $word $bf) (eq $num_wc 1) }}
                             {{ $basic_form = $bf }}
+
+                            {{ $basic := partial "functions/get-word-info.html" (dict "Word" $bf "Data" $data) }}
+
+                            {{ with $basic.word_classes }}
+                                <!-- Add all word classes of the basic form. -->
+                                {{ $word_classes = $word_classes | append . }}
+                            {{ else }}
+                                {{ errorf "'%s', the basic word of '%s' does not have any word classes: %s" $basic $word }}
+                            {{ end }}
+
+                            <!-- Add the definition of the basic word. -->
+                            {{ $body = print $body $basic.html }}
                         {{ end }}
-
-                        {{ $basic := partial "functions/get-word-info.html" $bf }}
-                        <!-- TODO check here and above if it worked, get basic word instead if not -->
-
-                        {{ with index $basic.word_classes 0 }}
-                            <!-- Add all word classes of the basic form. -->
-                            {{ $word_classes = $word_classes | append . }}
-                        {{ else }}
-                            {{ errorf "The word '%s' does not have any word classes: %s" $word $basic }}
-                        {{ end }}
-
-                        <!-- Close the bracket. -->
-                        {{ $body = $body | replaceRE "</ul>.*" (print "</ul>" $basic.html "</div>") }}
                     {{ end }}
                 {{ end }}
 
@@ -399,7 +428,11 @@
                         {{ $header = index $singular_map $header | default $header }}
                     {{ end }}
 
-                    <!-- Translate the header. -->
+                    <!-- Wrap header in tags and add translation. -->
+
+                    {{ if in $header "Charakteristische Wortkombinationen:" }}
+                        {{ errorf "FOUND: #7 (%s): %s" $word $header }}
+                    {{ end }}
                     {{ $header = print "<h4><span lang=de class=de>" $header "</span><br><span lang=en class=\"en trans\">" (title (i18n $header)) "</span></h4>" }}
 
                     <!-- If there is audio in the body, play the first one when clicking on the header. -->
@@ -431,7 +464,6 @@
             {{ end }}
             {{ $html = print $html "><h3>" $html_wc_name "</h3>" $html_wc "</div>" }}
 
-
         {{ end }}{{ end }}<!-- end of: Analyse each word classes entry. -->
     {{ end }}{{ end }}<!-- end of: Analyse the German entry. -->
 
@@ -443,8 +475,9 @@
 
     <!-- Cache the result. -->
     {{ with $html }}
-        {{ $cache_html := . | resources.FromString (print "wiktionary/" $word "_popup.html") | minify }}
-        {{ $cache_data := dict "audio" $audio "word_classes" $word_classes "basic_form" $basic_form | jsonify | resources.FromString (print "wiktionary/" $word "_data.html") | minify }}
+
+        {{ $cache_html := . | resources.FromString (print "wiktionary/" $id "_popup.html") | minify }}
+        {{ $cache_data := dict "audio" $audio "word_classes" $word_classes "basic_form" $basic_form | jsonify | resources.FromString (print "wiktionary/data/" $id ".html") | minify }}
 
         {{ $html = $cache_html.Content }}
         {{ $data := $cache_data.Content }}
@@ -452,4 +485,4 @@
 
 {{ end }}<!-- end of: Extract cache or not. -->
 
-{{ return dict "html" $html "audio" $audio "word_classes" $word_classes "basic_form" $basic_form }}
+{{ return dict "html" $html "audio" $audio "word_classes" $word_classes "basic_form" $basic_form "id" (urlize $id) }}

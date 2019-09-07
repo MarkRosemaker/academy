@@ -4,7 +4,7 @@ date =  2019-07-31T15:12:49+02:00
 weight = 1
 
 categories = ['mindset']
-draft = true
+draft = false
 spellchecked = false
 popups = false
 audio = ''
@@ -38,6 +38,8 @@ Falls du ein solcher Mensch bist, wirst du viel aus diesem Kurs gewinnen.
 
 Los geht's!
 
-# Schlüssel
+{{< notice "Schlüssel" "Der Schlüssel zum Erfolg" >}}
 
-Schlüssel zum Erfolg: Habe Spaß am Lernen und erfreue dich an der Schönheit der deutschen Sprache.
+Habe Spaß am Lernen und erfreue dich an der Schönheit der deutschen Sprache.
+
+{{< /notice >}}

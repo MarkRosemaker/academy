@@ -9,8 +9,8 @@
 
 {{ $page := . }}
 
-
 <!-- Get German HTML -->
+{{ $trans := . }}
 {{ with index (where .AllTranslations "Lang" "de") 0 }}
 
     <!-- Lesson title -->
@@ -18,9 +18,7 @@
         <i class="fa fa-file-text"></i>
         &nbsp;
         {{ $.Title }}
-        {{ range .Params.categories }}
-            #{{ . }}
-        {{ end }}
+        {{- partial "print-hashtags.html" $trans -}}
     </span>
 
 
@@ -33,17 +31,23 @@
     <!-- Unit Wrapper -->
     <div class="show-important Substantiv-enabled Verb-enabled" id="unit">
 
-    {{ $.Render "categories" }}
+    {{- $.Render "categories" -}}
 
     <!-- Improve presentation of German text. -->
-    {{ $smart_text := partial "functions/get-smart-text" . }}
+    {{- $smart_text := partial "functions/get-smart-text" . -}}
 
-    {{ if eq "de" $.Lang }}
-        {{ $smart_text.Content }}
-    {{ else }}
+    {{- $content := "" -}}
+    {{- if eq "de" $.Lang -}}
+        {{- $content = $smart_text.Content -}}
+    {{- else -}}
         <!-- Display both languages side by side. -->
-        {{ partial "languages-merger.html" (dict "first" $smart_text "second" $page) }}
-    {{ end }}
+        {{- $content = partial "languages-merger.html" (dict "first" $smart_text "second" $page) -}}
+    {{- end -}}
+
+    <!-- Wrap everything that is not a notice. -->
+    {{- $content = print "<div class=main>" $content "</div>" | replaceRE "<div class=main></div>" "" | safeHTML -}}
+
+    {{- $content -}}
 
     </div><!-- end div#unit -->
     <hr>

@@ -6,7 +6,7 @@
     NO GERMAN AVAILABLE
 
     {{ .Content }}
-{{ else if eq .Type "courses"}}
+{{ else if eq .Type "courses" }}
     {{ $content := partial "content-teachable.html" . }}
 
     {{ if and (not $de.Draft) (not .Draft) .Site.Params.showCopyableHTML (not .Site.IsServer) }}

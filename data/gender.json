@@ -1,0 +1,14 @@
+{
+  "f": {
+    "name": "weiblich",
+    "article": "die "
+  },
+  "m": {
+    "name": "männlich",
+    "article": "der "
+  },
+  "n": {
+    "name": "sächlich",
+    "article": "das "
+  }
+}

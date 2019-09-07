@@ -1,2 +1,22 @@
-{{ $_hugo_config := `{ "version": 1 }` }}
-<div class="notices {{ .Get 0 }}" {{ if len .Params | eq 2 }} id="{{ .Get 1 }}" {{ end }}>{{ .Inner }}</div>
+{{- $type  := "" -}}
+{{- $subtype  := "" -}}
+{{- $title := "" -}}
+
+{{- if eq "de" $.Page.Lang -}}
+    {{- $subtype  = index .Params 0 | default "" -}}
+    {{- $title = index .Params 1 | default $subtype | default "Ohne Titel" -}}
+{{- else -}}
+    {{- $title = index .Params 0 | default "MISSING TRANSLATION" -}}
+{{- end -}}
+
+
+
+</div><!-- ending div.main -->
+<div class="notice {{ $type }} {{ $subtype }}">
+    <div class=title>{{ $title }}</div>
+    <div class="content">
+
+    <!-- Print Inner with proper paragraphs. -->
+    {{- print "<p>" $.Inner "</p>" | replaceRE "\\s*\n\\s*" "</p><p>" | replaceRE "<p></p>" "" | safeHTML -}}
+
+</div></div><div class=main><!-- starting div.main -->
