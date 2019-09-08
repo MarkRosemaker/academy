@@ -131,7 +131,7 @@ other = "reflexive pronoun"
 other = "adjective"
 
 ["Deklinierte Form"]
-other = "decline form"
+other = "declined form"
 
 ["Antwortpartikel"]
 other = "answer particle"
@@ -438,6 +438,15 @@ other = "temporal adverb"
 
 ["Plural selten gebräuchlich"]
 other = "plural seldom used"
+
+["Teilbegriffe"]
+other = "partial terms"
+
+["Wiederholungszahlwort"]
+other = "repetition quantifier"
+
+["Klicke hier, um mehr zu erfahren."]
+other = "Click here to find out more."
 
 [""]
 other = "EMPTY SPACE TRANSLATED PLEASE TELL MARK"

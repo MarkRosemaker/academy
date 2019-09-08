@@ -78,7 +78,7 @@
     {{ if findRE $reg_start $f_tag }}
         <!-- Starting tag, apply to both. -->
         {{ $merged = print $merged $f_tag }}
-        {{ $isTitle = eq $f_tag "<div class=title>"}}
+        {{ $isTitle = eq $f_tag "<div class=title>" }}
 
         <!-- Save the text until tag closes. -->
         {{ $f_line = print $f_line $f }}

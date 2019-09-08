@@ -62,18 +62,22 @@ a.word-info {
 	cursor: help;
 }
 
+
 /*
  * Show the (English) translation in a different color.
  */
-.trans {
+ .trans,
+ #show-important-expl .trans a {
 	color: #ffa600; /* when shown */
+}
+#show-important-expl a {
+	color: initial;
 }
 body.hide-trans .ui-popup-container .trans,
 body.hide-trans #rest .trans {
 	display: none; /* remove in popups, toggles, explanation */
 }
-body.hide-trans #lecture_heading .trans,
-body.hide-trans #unit .trans {
+body.hide-trans .trans {
 	visibility: hidden; /* hide but reserve the space */
 }
 
@@ -82,27 +86,37 @@ body.hide-trans #unit .trans {
  */
 
 /* Important words. */
-body.show-important .main .important {
+body.show-important .main .important,
+#show-important-expl .important {
     background-color: #ffff65;
 	outline: 2px solid #ffff65;
+	color: initial;
 }
-body.show-important .main .checked {
+body.show-important .main .checked,
+#show-important-expl .checked {
     background-color: #65ff65;
 	outline: 2px solid #65ff65;
+	color: initial;
 }
 
 /* Genders */
-body.show-genders .main .m {
+body.show-genders .main .m,
+#show-genders-expl .m {
 	background-color: #b4b9ff;
 	outline: 2px solid #b4b9ff;
+	color: initial;
 }
-body.show-genders .main .f {
+body.show-genders .main .f,
+#show-genders-expl .f {
 	background-color: #ffb9b9;
 	outline: 2px solid #ffb9b9;
+	color: initial;
 }
-body.show-genders .main .n {
+body.show-genders .main .n,
+#show-genders-expl .n {
 	background-color: #c5ffb4;
 	outline: 2px solid #c5ffb4;
+	color: initial;
 }
 
 /* Word classes */

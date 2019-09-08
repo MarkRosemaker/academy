@@ -1,0 +1,22 @@
+</div><!-- ending div.main -->
+
+<!-- Look up the categories in the German files and range over them. -->
+{{ $de_page := index (where .AllTranslations "Lang" "de") 0 }}
+{{- with $de_page.Params.categories -}}
+    {{- range . -}}
+        {{- with  $.Site.GetPage (print "/categories/" .) -}}
+
+            <div class="notice cat {{ .Params.hashtag  }}">
+                <div class=title>{{ .Title }}</div>
+                <div class=content>
+                    {{ .Content }}
+                </div></div>
+        {{ else }}
+        <p>NO PAGE FOR CATEGORY "{{ . }}"</p>
+        {{ end }}
+    {{ end }}
+{{ else }}
+    NO CATEGORIES
+{{ end }}
+
+<div class=main><!-- starting div.main -->

@@ -1,5 +1,5 @@
 {
-  "Authentic_German_Learning": {
+  "Authentic German Learning": {
     "html": "<h2>Authentic German Learning</h2><p>Authentic German Learning ist die Deutschschule, mit der du gerade lernst!</p>",
     "audio": "",
     "word_classes": [],
@@ -22,6 +22,15 @@
       "m"
     ],
     "basic_form": "Deutschlerner"
+  },
+  "Immersionsübung": {
+    "html": "<h2>Immersionsübung</h2><p>Eine Immersionsübung ist eine Übung, in der du ganz in die Sprache eintauchst.</p>",
+    "audio": "",
+    "word_classes": [
+      "Substantiv",
+      "f"
+    ],
+    "basic_form": "Immersionsübung"
   },
   "Korrektheit": {
     "html": "<h2>die Korrektheit</h2><p>Ein Synonym von Korrektheit ist Richtigkeit.</p>",

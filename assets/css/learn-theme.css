@@ -1,75 +1,8 @@
-/*
-div.notices {
-    margin: 2rem 0;
-    position: relative;
-}
-div.notices p {
-    padding: 15px;
-    display: block;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-}
-#unit div.notices p span.trans {
-    visibility: visible;
-    font-style: italic;
-}
-#unit div.notices p span.trans em {
-    font-style: normal;
-}
-div.notices p:first-child:before {
-    position: absolute;
-    top: 2px;
-    color: #fff;
-    font-family: "FontAwesome";
-    font-weight: 900;
-    content: "\f05a";
-    left: 10px;
-}
-div.notices p:first-child:after {
-    position: absolute;
-    top: 2px;
-    color: #fff;
-    left: 3rem;
-}
-div.notices.info p {
-    border-top: 30px solid #F0B37E;
-    background: #FFF2DB;
-}
-div.notices.info p:first-child:after {
-    content: 'Info';
-}
-div.notices.warning p {
-    border-top: 30px solid #d9534fcc;
-    background: #FAE2E2;
-}
-div.notices.warning p:first-child:after {
-    content: 'Warning';
-}
-div.notices.note p {
-    border-top: 30px solid #6AB0DE;
-    background: #E7F2FA;
-}
-div.notices.note p:first-child:after {
-    content: 'Note';
-}
-div.notices.tip p {
-    border-top: 30px solid #5cb85ccc;
-    background: #E6F9E6;
-}
-div.notices.tip p:first-child:after {
-    content: 'Tip';
-}
-
-*/
-
-
-
-#unit div.notice .content span.trans {
-    visibility: visible;
+div.notice span.trans {
     font-style: italic;
     color: initial;
 }
-#unit div.notice span.trans em {
+div.notice .content span.trans em {
     font-style: normal;
 }
 
@@ -79,8 +12,9 @@ div.notice {
 }
 div.notice div.title:before {
     position: absolute;
-    font-family: "FontAwesome";
+    font-family: "Font Awesome\ 5 Free";
     left: 10px;
+    font-weight: 900;
 }
 
 div.notice div.title {
@@ -120,41 +54,35 @@ div.Erfolg div.content {
 }
 
 /* Blue: resources */
-div.Ressource div.title,
-div.Musik div.title,
-div.Audio div.title {
+div.Ressource div.title {
     background-color: #0000ff;
 }
-div.Ressource div.content,
-div.Musik div.content,
-div.Audio div.content {
-    background: #9999ff;
-}
-div.Musik div.title:before {
-    content: "\f001";
+div.Ressource div.content {
+    background: #65baff;
 }
 div.Ressource div.title:before {
     content: "\f518";
+}
+div.Musik div.title:before {
+    content: "\f001";
 }
 div.Audio div.title:before {
     content: "\f025";
 }
 
 /* Yellow: information */
-div.Hinweis div.title,
-div.Tipp div.title,
-div.Information div.title,
-div.Kontext div.title,
-div.Schlüssel div.title {
+div.Information div.title {
     background-color: #ffff00;
     color: black !important;
 }
-div.Hinweis div.content,
-div.Tipp div.content,
-div.Information div.content,
-div.Kontext div.content,
-div.Schlüssel div.content {
+div.Information div.title span.trans {
+    color: black;
+}
+div.Information div.content {
     background: #ffffe0;
+}
+div.Information div.title:before {
+    content: "\f05a";
 }
 div.Schlüssel div.title:before {
     content: "\f084";
@@ -165,31 +93,23 @@ div.Hinweis div.title:before {
 div.Tipp div.title:before {
     content: "\f0eb";
 }
-div.Information div.title:before {
-    content: "\f05a";
-}
 div.Kontext div.title:before {
     content: "\f20e";
+    font-family: "font awesome\ 5 brands"
+}
+div.Eselsbrücke div.title:before {
+    content: "\f5dc";
 }
 
-/* Magenta: actions */
-div.Suche div.title,
-div.Sprechen div.title,
-div.Schauen div.title,
-div.Aufschreiben div.title,
-div.Markieren div.title,
-div.Aktion div.title,
-div.Aufgabe div.title {
-    background-color: #ff00ff;
+/* Purple: actions */
+div.Aktion div.title {
+    background-color: #7f007f;
 }
-div.Suche div.content,
-div.Sprechen div.content,
-div.Schauen div.content,
-div.Aufschreiben div.content,
-div.Markieren div.content,
-div.Aktion div.content,
-div.Aufgabe div.content {
-    background: #fa9dfa;
+div.Aktion div.content {
+    background: #dd92dd;
+}
+div.Aktion div.title:before {
+    content: "\f70c";
 }
 div.Suche div.title:before {
     content: "\f002";
@@ -205,9 +125,6 @@ div.Aufschreiben div.title:before {
 }
 div.Markieren div.title:before {
     content: "\f591";
-}
-div.Aktion div.title:before {
-    content: "\f70c";
 }
 div.Aufgabe div.title:before {
     content: "\f0ae";
@@ -227,32 +144,45 @@ div.Achtung div.title:before {
     content: "\f06a";
 }
 
-/* WhatsApp green */
-div.Achtung div.title {
+/* Whatsapp green */
+div.Whatsapp div.title {
     background-color: #4AC959;
 }
-div.Achtung div.content {
-    background: hsl(127, 54%, 80%);
+div.Whatsapp div.content {
+    background: #b0e7b6;
 }
-div.WhatsApp div.title:before {
+div.Whatsapp div.title:before {
     content: "\f232";
+    font-family: "font awesome\ 5 brands"
 }
 
-/* Purple: mnemonics */
-div.Eselsbrücke div.title:before {
-    content: "\f5dc";
+/* Facebook blue */
+div.Facebook div.title {
+    background-color: #3C5A99;
 }
-div.Eselsbrücke div.title {
-    background-color: #7f007f;
+div.Facebook div.content {
+    background: #3273ff;
 }
-div.Eselsbrücke div.content {
-    background: #dd92dd;
+div.Facebook div.content span {
+    color: #fff;
+}
+div.Facebook div.title:before {
+    content: "\f09a";
+    font-family: "font awesome\ 5 brands"
 }
 
-/* selcom used, no color yet */
+/* Magenta: Humor  */
+div.Humor div.title {
+    background-color: #ff00ff;
+}
+div.Humor div.content {
+    background: #fa9dfa;
+}
 div.Humor div.title:before {
-    content: "\f518";
+    content: "\f586";
 }
+
+/* Emotions: no color yet */
 div.Dankbarkeit div.title:before {
     content: "\f004";
 }

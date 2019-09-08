@@ -31,6 +31,7 @@ You will immerse yourself in the German language with this course and get a feel
 I only work with people who are willing to leave behind old ways of thinking and be part of the language learning revolution.
 
 If you are such a person, you will gain much from this course.
+
 Here we go!
 
 {{< notice "the key to success" >}}

@@ -5,16 +5,21 @@
 {{- if eq "de" $.Page.Lang -}}
     {{- $subtype  = index .Params 0 | default "" -}}
     {{- $title = index .Params 1 | default $subtype | default "Ohne Titel" -}}
+
+    {{ range $t, $subtypes := $.Site.Data.notice_types }}
+        {{ if in $subtypes $subtype }}
+            {{ $type = $t }}
+        {{ end }}
+    {{ end }}
+
 {{- else -}}
     {{- $title = index .Params 0 | default "MISSING TRANSLATION" -}}
 {{- end -}}
 
-
-
 </div><!-- ending div.main -->
 <div class="notice {{ $type }} {{ $subtype }}">
     <div class=title>{{ $title }}</div>
-    <div class="content">
+    <div class=content>
 
     <!-- Print Inner with proper paragraphs. -->
     {{- print "<p>" $.Inner "</p>" | replaceRE "\\s*\n\\s*" "</p><p>" | replaceRE "<p></p>" "" | safeHTML -}}

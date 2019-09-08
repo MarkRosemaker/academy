@@ -9,7 +9,7 @@ draft = false
 
 I am well.
 
-{{< notice "translation" >}}
+{{< notice "success" >}}
 
 Bravo! In this lesson you learned, that this interface looks nice.
 
@@ -23,116 +23,122 @@ Enjoy learning and enjoy the beauty of the German language.
 
 {{< /notice >}}
 
-{{< notice "translation" >}}
+{{< notice "listen to this audio recording" >}}
 
-the translation
-
-{{< /notice >}}
-
-{{< notice "translation" >}}
-
-the translation
+Listen carefully to this audio recording.
 
 {{< /notice >}}
 
-{{< notice "translation" >}}
+{{< notice "good to know" >}}
 
-the translation
-
-{{< /notice >}}
-
-{{< notice "translation" >}}
-
-the translation
+Click on a word to find out the meaning.
 
 {{< /notice >}}
 
-{{< notice "translation" >}}
+{{< notice "music" >}}
 
-the translation
-
-{{< /notice >}}
-
-{{< notice "translation" >}}
-
-the translation
+Listen to this song to learn German better.
 
 {{< /notice >}}
 
-{{< notice "translation" >}}
+{{< notice "humor" >}}
 
-the translation
-
-{{< /notice >}}
-
-{{< notice "translation" >}}
-
-the translation
+Here's a funny joke:
 
 {{< /notice >}}
 
-{{< notice "translation" >}}
+{{< notice "resource" >}}
 
-the translation
-
-{{< /notice >}}
-
-{{< notice "translation" >}}
-
-the translation
+Save this resource in your bookmarks.
 
 {{< /notice >}}
 
-{{< notice "translation" >}}
+{{< notice "Send me a message!" >}}
 
-the translation
-
-{{< /notice >}}
-
-{{< notice "translation" >}}
-
-the translation
+Send me a message on Whatsapp.
 
 {{< /notice >}}
 
-{{< notice "translation" >}}
+{{< notice "Facebook" >}}
 
-the translation
-
-{{< /notice >}}
-
-{{< notice "translation" >}}
-
-the translation
+Write a post in the Facebook group!
 
 {{< /notice >}}
 
-{{< notice "translation" >}}
+{{< notice "tip" >}}
 
-the translation
-
-{{< /notice >}}
-
-{{< notice "translation" >}}
-
-the translation
+Here is a useful tip for you:
 
 {{< /notice >}}
 
-{{< notice "translation" >}}
+{{< notice "heads up" >}}
 
-the translation
-
-{{< /notice >}}
-
-{{< notice "translation" >}}
-
-the translation
+Heads up: If learning German is not fun, then do something else.
 
 {{< /notice >}}
 
-{{< notice "translation" >}}
+{{< notice "information" >}}
 
-the translation
+Today is a nice day.
+
+{{< /notice >}}
+
+{{< notice "mnemonic" >}}
+
+With this mnemonic you can remember it more easily:
+
+{{< /notice >}}
+
+{{< notice "search" >}}
+
+Carefully examine the text for words that you already know.
+
+{{< /notice >}}
+
+{{< notice "context" >}}
+
+The context of this text is as follows:
+
+{{< /notice >}}
+
+{{< notice "speaking" >}}
+
+Say this sentence yourself:
+
+{{< /notice >}}
+
+{{< notice "Look at this." >}}
+
+Look at the picture.
+
+{{< /notice >}}
+
+{{< notice "Write this down." >}}
+
+Write the most important words in your notebook.
+
+{{< /notice >}}
+
+{{< notice "Mark this." >}}
+
+Mark all verbs.
+
+{{< /notice >}}
+
+{{< notice "action" >}}
+
+Now it's your turn!
+
+{{< /notice >}}
+
+{{< notice "gratitude" >}}
+
+Thank you for taking this course!
+
+{{< /notice >}}
+
+{{< notice "task" >}}
+
+Here is a task for you:
 
 {{< /notice >}}

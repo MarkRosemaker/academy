@@ -27,8 +27,7 @@
 }
 
 .ui-btn, .ui-btn:focus, .ui-bar, .ui-bar h4 {
-    /* Color
-     .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited */
+    /* Color */
     background-color: #FF8000;
     border: 1px solid rgba(215, 218, 219, 0.3);
     color: #fff;
@@ -40,7 +39,7 @@
     white-space: normal;
     z-index: 2;
 }
-.ui-btn.ui-btn-active, .ui-btn.ui-checkbox-on, .ui-btn:hover,/* html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-a.ui-btn-active, .ui-checkbox-on::after, html .ui-bar-a .ui-checkbox-on::after, html .ui-body-a .ui-checkbox-on::after, html body .ui-checkbox-on::after, .ui-btn.ui-checkbox-on.ui-btn-a::after, .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active*/
+.ui-btn.ui-btn-active, .ui-btn.ui-checkbox-on, .ui-btn:hover,
 .ui-btn:active {
     /* Color */
     background-color: #00A651;

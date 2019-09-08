@@ -30,49 +30,55 @@ Habe Spaß am Lernen und erfreue dich an der Schönheit der deutschen Sprache.
 
 {{< notice "Audio" "Höre dir diese Tonaufnahme an" >}}
 
-Höre diese Tonaufnahme.
+Höre dir die Tonaufnahme aufmerksam an.
 
 {{< /notice >}}
 
-{{< notice "Hinweis" >}}
+{{< notice "Hinweis" "Gut zu wissen" >}}
 
-Heute ist ein schöner Tag.
+Klicke auf ein Wort, um die Bedeutung zu erfahren.
 
 {{< /notice >}}
 
 {{< notice "Musik" >}}
 
-Heute ist ein schöner Tag.
+Höre dieses Lied, um besser Deutsch zu lernen.
 
 {{< /notice >}}
 
 {{< notice "Humor" >}}
 
-Heute ist ein schöner Tag.
+Hier ist ein lustiger Witz:
 
 {{< /notice >}}
 
 {{< notice "Ressource" >}}
 
-Heute ist ein schöner Tag.
+Speichere diese Ressource in deinen Lesezeichen ab.
 
 {{< /notice >}}
 
-{{< notice "WhatsApp" "Schicke mir eine Nachricht!" >}}
+{{< notice "Whatsapp" "Schicke mir eine Nachricht!" >}}
 
-Heute ist ein schöner Tag.
+Schicke mir eine Nachricht auf Whatsapp.
+
+{{< /notice >}}
+
+{{< notice "Facebook" >}}
+
+Schreibe einen Beitrag in der Facebook-Gruppe!
 
 {{< /notice >}}
 
 {{< notice "Tipp" >}}
 
-Heute ist ein schöner Tag.
+Hier ist ein nützlicher Tipp für dich:
 
 {{< /notice >}}
 
 {{< notice "Achtung" >}}
 
-Heute ist ein schöner Tag.
+Achtung: Wenn das Deutschlernen keinen Spaß macht, dann mache lieber etwas anderes.
 
 {{< /notice >}}
 
@@ -84,60 +90,60 @@ Heute ist ein schöner Tag.
 
 {{< notice "Eselsbrücke" >}}
 
-Heute ist ein schöner Tag.
+Mit dieser Eselsbrücke kannst du es dir einfacher merken:
 
 {{< /notice >}}
 
 {{< notice "Suche" >}}
 
-Heute ist ein schöner Tag.
+Untersuche den Text sorgfältig auf Wörter, die du schon kennst.
 
 {{< /notice >}}
 
 {{< notice "Kontext" >}}
 
-Heute ist ein schöner Tag.
+Der Kontext dieses Textes ist folgender:
 
 {{< /notice >}}
 
 {{< notice "Sprechen" >}}
 
-Heute ist ein schöner Tag.
+Sprich diesen Satz einmal selbst aus:
 
 {{< /notice >}}
 
 {{< notice "Schauen" "Schaue dir dies an." >}}
 
-Heute ist ein schöner Tag.
+Schaue dir das Bild an.
 
 {{< /notice >}}
 
 {{< notice "Aufschreiben" "Schreibe dir dies auf." >}}
 
-Heute ist ein schöner Tag.
+Schreibe dir die wichtigsten Wörter in dein Notizbuch.
 
 {{< /notice >}}
 
 {{< notice "Markieren" "Markiere dir dies." >}}
 
-Heute ist ein schöner Tag.
+Markiere alle Verben.
 
 {{< /notice >}}
 
 {{< notice "Aktion" >}}
 
-Heute ist ein schöner Tag.
+Jetzt bist du dran!
 
 {{< /notice >}}
 
 {{< notice "Dankbarkeit" >}}
 
-Heute ist ein schöner Tag.
+Vielen Dank dafür, dass du diesen Kurs belegst!
 
 {{< /notice >}}
 
 {{< notice "Aufgabe" >}}
 
-Heute ist ein schöner Tag.
+Hier ist eine Aufgabe für dich:
 
 {{< /notice >}}

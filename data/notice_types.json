@@ -1,3 +1,25 @@
 {
-
+  "Aktion": [
+    "Suche",
+    "Sprechen",
+    "Schauen",
+    "Aufschreiben",
+    "Markieren",
+    "Aufgabe"
+  ],
+  "Information": [
+    "Hinweis",
+    "Tipp",
+    "Kontext",
+    "Schlüssel",
+    "Eselsbrücke"
+  ],
+  "Kontakt": [
+    "Whatsapp",
+    "Facebook"
+  ],
+  "Ressource": [
+    "Musik",
+    "Audio"
+  ]
 }
