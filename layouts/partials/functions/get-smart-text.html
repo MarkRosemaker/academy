@@ -41,33 +41,23 @@
 
         {{ range split $text " " }}
             <!-- Seperate the word from surrounding characters. -->
-            {{ $word := . | replaceRE "[^\\&;A-Za-zöäüßÖÄÜ_-]" "" }}
+            {{ $word := . | replaceRE "&.*?;.*|[^A-Za-zöäüßÖÄÜ_-]" "" }}
+
             {{ if not (in . $word)}}
                 {{ errorf "Something went wrong analyzing '%s'. The extracted word is '%s'." . $word }}
             {{ end }}
-            {{ $post := . | replaceRE (print ".*" $word ) "" }}
 
             {{ $pre  := . | replaceRE (print $word ".*") "" }}
-
-            <!-- Don't analyze special characters. -->
-            {{ if or (eq . "&ndash;") (eq . "&hellip;") }}
-                {{ $word = "" }}
-            {{ end }}
+            {{ $post := . | replaceRE (print ".*" $word ) "" }}
 
             {{ with $word }}
                 {{ $html_slice = $html_slice | append $pre }}
 
-                {{ $words := slice $word }}
-                {{ if in $.Site.Data.splittable . }}
-                    {{ $words = split $word "-" }}
-                {{ end }}
+                {{ $words := index $.Site.Data.splittable . | slice $word }}
 
                 {{ $html_words := slice }}
                 {{ range $words }}
                     {{ $word := . }}
-
-                    <!-- In case it's 'Authentic_German_Learning'. -->
-                    {{ $word = replace $word "_" " " }}
 
                     <!-- We might search for the lowercase version but still want to display the original word. -->
                     {{ $search := $word }}
@@ -167,7 +157,12 @@
                     {{ end }}
                     {{ $html_words = $html_words | append $html_word }}
                 {{ end }}
-                {{ $html_slice = $html_slice | append (delimit $html_words "-") $post " " }}
+                {{ if eq (len $word) 1}}
+                    {{ $html_slice = $html_slice | append (index $html_words 0) $post " " }}
+                {{ else }}
+                    {{ $html_slice = $html_slice | append (delimit $html_words "-") $post " " }}
+
+                {{ end }}
 
                 {{ $sentence_start = or (in $post ".") (in $post "!") (in $post "?") }}
             {{ else }}

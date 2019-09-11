@@ -1,5 +1,15 @@
 {
-  "Authentic German Learning": {
+  "Authentic": {
+    "html": "<h2>Authentic German Learning</h2><p>Authentic German Learning ist die Deutschschule, mit der du gerade lernst!</p>",
+    "audio": "",
+    "word_classes": [],
+    "basic_form": "Authentic_German_Learning"
+  },"German": {
+    "html": "<h2>Authentic German Learning</h2><p>Authentic German Learning ist die Deutschschule, mit der du gerade lernst!</p>",
+    "audio": "",
+    "word_classes": [],
+    "basic_form": "Authentic_German_Learning"
+  },"Learning": {
     "html": "<h2>Authentic German Learning</h2><p>Authentic German Learning ist die Deutschschule, mit der du gerade lernst!</p>",
     "audio": "",
     "word_classes": [],
@@ -13,24 +23,6 @@
       "n"
     ],
     "basic_form": "Deutschlernen"
-  },
-  "Deutschlerner": {
-    "html": "<h2>der Deutschlerner</h2><p>Jemand, der Deutsch lernt.</p>",
-    "audio": "",
-    "word_classes": [
-      "Substantiv",
-      "m"
-    ],
-    "basic_form": "Deutschlerner"
-  },
-  "Immersionsübung": {
-    "html": "<h2>Immersionsübung</h2><p>Eine Immersionsübung ist eine Übung, in der du ganz in die Sprache eintauchst.</p>",
-    "audio": "",
-    "word_classes": [
-      "Substantiv",
-      "f"
-    ],
-    "basic_form": "Immersionsübung"
   },
   "Korrektheit": {
     "html": "<h2>die Korrektheit</h2><p>Ein Synonym von Korrektheit ist Richtigkeit.</p>",

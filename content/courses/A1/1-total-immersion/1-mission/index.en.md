@@ -16,9 +16,9 @@ The German language is beautiful, very expressive and is rightly called the lang
 
 I do not want to ruin this beauty by presenting you boring lessons.
 
-And I do not want to, as is unfortunately the case with many traditional schools, that too much emphasis on grammar and correctness confuses you and blocks you from speaking.
+And I also don't want to -- as is unfortunately the case with many traditional schools --, put too much emphasis on grammar and correctness to a point where it confuses you and blocks you from speaking.
 
-No -- I want you to learn German in an authentic and enjoyable way so that you can speak for yourself without inhibitions soon.
+No -- I want you to learn .- German in an authentic and enjoyable way so that you can speak for yourself without inhibitions soon.
 
 I will explain the German grammar in a comprehensible way and show you ways, how you will not be overwhelmed by it.
 
@@ -34,7 +34,7 @@ If you are such a person, you will gain much from this course.
 
 Here we go!
 
-{{< notice "the key to success" >}}
+{{< notice title="the key to success" >}}
 
 Enjoy learning and enjoy the beauty of the German language.
 

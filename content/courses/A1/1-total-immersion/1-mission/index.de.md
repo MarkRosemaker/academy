@@ -6,11 +6,12 @@ weight = 1
 categories = ['mindset']
 draft = false
 spellchecked = false
-popups = false
 audio = ''
 +++
 
 Hallo, ich bin Mark von Authentic German Learning.
+
+{{< img src="Mark" title="Das bin ich!" >}}
 
 Ich möchte, dass du die deutsche Sprache nicht nur erfolgreich lernst, sondern auch Spaß dabei hast.
 
@@ -20,9 +21,9 @@ Die deutsche Sprache ist wunderschön, sehr ausdrucksreich und wird zu Recht die
 
 Diese Schönheit möchte ich nicht kaputt machen, indem ich dir langweilige Lektionen präsentiere.
 
-Und ich möchte auch nicht, wie es bei vielen traditionellen Schulen leider der Fall ist, dass eine zu große Betonung auf Grammatik und Korrektheit dich verunsichert und dich beim Sprechen blockiert.
+Und ich möchte auch nicht -- wie es bei vielen traditionellen Schulen leider der Fall ist --, dass eine zu große Betonung auf Grammatik und Korrektheit dich verunsichert und dich beim Sprechen blockiert.
 
-Nein -- ich möchte, dass du auf eine authentische und angenehme Art und Weise Deutsch lernst, sodass du bald selber ohne Hemmungen sprechen kannst.
+Nein -- ich möchte, dass du auf eine authentische und angenehme Art und Weise Deutsch lernst. So wirst du bald selber ohne Hemmungen sprechen können.
 
 Ich werde dir die deutsche Grammatik auf eine verständliche Art erklären und dir Wege zeigen, wie du nicht von ihr überwältigt wirst.
 
@@ -38,7 +39,7 @@ Falls du ein solcher Mensch bist, wirst du viel aus diesem Kurs gewinnen.
 
 Los geht's!
 
-{{< notice "Schlüssel" "Der Schlüssel zum Erfolg" >}}
+{{< notice type="Schlüssel" title="Der Schlüssel zum Erfolg" >}}
 
 Habe Spaß am Lernen und erfreue dich an der Schönheit der deutschen Sprache.
 

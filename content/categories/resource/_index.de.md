@@ -11,4 +11,4 @@ In dieser Lektion teile ich eine oder mehrere nützliche **Hilfsmittel** mit dir
 
 Speichere das Hilfsmittel in deinen **Lesezeichen** oder als Datei auf deinem Computer oder Smartphone.
 
-Nutze es oft! :smiley: :thumbsup:
+Nutze sie oft! :thumbsup:

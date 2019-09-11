@@ -1,6 +1,6 @@
 {
   "Aktion": [
-    "Suche",
+    "Analysieren",
     "Sprechen",
     "Schauen",
     "Aufschreiben",
@@ -21,5 +21,10 @@
   "Ressource": [
     "Musik",
     "Audio"
+  ],
+  "Weitere": [
+    "Achtung",
+    "Humor",
+    "Dankbarkeit"
   ]
 }

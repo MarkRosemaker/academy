@@ -114,6 +114,9 @@ div.Aktion div.title:before {
 div.Suche div.title:before {
     content: "\f002";
 }
+div.Analyse div.title:before {
+    content: "\f610";
+}
 div.Sprechen div.title:before {
     content: "\f075";
 }

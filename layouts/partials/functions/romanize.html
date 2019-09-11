@@ -9,7 +9,8 @@
 {{ with $input }}
     <!-- Check if the input is correct. -->
     {{- if or (lt $input 1) (gt $input 3999) -}}
-        {{- errorf "The number %d cannot be converted to roman numeral. Numbers to be converted must be between 0 and 3999." $input -}}
+        {{/*- errorf "The number %d cannot be converted to roman numeral. Numbers to be converted must be between 0 and 3999." $input -*/}} TODO
+        {{ $input = 1 }}
     {{- end -}}
 
     {{- range $i, $v := $values -}}

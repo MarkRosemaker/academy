@@ -1,28 +1,30 @@
-- [x] Gunda Bescheid sagen -> am 17. Bahnhof Letter treffen
-- [x] Bus nach Hanover buchen, Caroline Bescheid sagen
-- [x] Bus nach Berlin buchen
-- [x] Wo in Berlin schlafen?
-- [x] Neubrandenburg anrufen
-- [x] Bus nach Neubrandenburg buchen
-- [x] Bus nach Paris buchen
-- [ ] Hochzeitsgeschenk
-- [ ] Polizeiliches Führungszeugnis in Berlin besorgen
-
-- make blocks
-  - https://workflowy.com/#/7c01ae5c8906
-  - different icons depending on the content
 - write [beginner course](https://workflowy.com/#/9f92ea0ffc1a)
-  - improve [block shortcodes](https://workflowy.com/#/ed7893496de8) as you use them
-  - formatting: take a page from learn theme
+  - if not checked for errors, paste clean text instead to check
+  - Checkliste/Studienplan für 1h/5h Zeitinvestment pro Tag: wann welche Lektionen absolviert, wann welche Quizlet-Einheiten absolviert, wann Immersionsübungen zum zweiten Mal etc.
+  - Aussprachetraining (wie Dawn)
 - import emails, free course
-  - figure out how to enable elements like pictures, h5p
-  - transfer code to generate pdf
+- transfer code to generate pdf
+
+
 - add cta on free course, then publish on multiple sites like teachable (more reach and figure out which site is best)
-- compare course sites, choose one to invest in
 - improve emails
 - show to people and get feedback
 - check for and fix errors, e.g.
+  - delete just [1] as translation, better yet: try to extract the translation from the English entry
+  - remove empty entry like in 'erraten'
+  - 'Ähnliche Wörter' wie bei "erraten" (und alles unter <div style="margin-top:20px; margin-bottom:0em; border-top:1px solid #AAAAAA;".*?>) gehören nicht zu einer Wortart
+  - Grammatische Merkmale soll immer einklappbar sein (nicht wie "reine", mögliche Lösung: '</ul><ul>' entfernen)
+  - im zweiten Modus
+    - benutze ::after, um FontAwesome-Symbol in Klammern in notices einzufügen
+  - im dritten Modus (siehe Sandbox)
+    - "Substantiv" und "Verb" ausschließen
+    - benutze ::before und ::after, um  Instanzen des dritten Wortes in notices mit Sternchen zu versehen
+    - mache Instanzen der dritten Wortart grün wenn es auch Substantiv oder Verb ist
+    - was ist "Wort" und "Wörter" als Wortart?
+    - 2. Person Singular sollte nicht Wortart sein
   - stop jumping to top when I click on something
+  - Bilder: netlifly-URL, dann auf netlifly-Seite zugreifen
+
 
 - improve js: jquery mobile (as soon as downloader works again)
   - https://jquerymobile.com/download-builder/

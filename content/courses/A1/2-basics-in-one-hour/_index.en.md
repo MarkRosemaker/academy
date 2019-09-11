@@ -1,4 +1,3 @@
 +++
-title = "Learn German Basics In One Hour (Tim Ferris Style)"
+title = "Learn German Basics In One Hour"
 +++
-

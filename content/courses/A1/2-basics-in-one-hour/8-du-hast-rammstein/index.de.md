@@ -9,15 +9,20 @@ spellchecked = false
 audio = ''
 +++
 
-# Hinweis
+Manche deutsche Lieder eignen sich hervorragend zum Deutschlernen.
 
-Manche deutsche Lieder eignen sich hervorragend zum Deutschlernen. "Du hast" von Rammstein ist recht einfach. Schaue dir einmal dieses Video an:
+"Du hast" von Rammstein ist recht einfach.
 
-H5P TODO
+Schaue dir dieses Video an:
 
-#Tipp
+{{< rem >}}TODO "Du hast" von Rammstein {{< /rem >}}
+{{< h5p >}}
 
-Höre auch andere deutsche Lieder, um einfach und mit Spaß Deutsch zu lernen. Hier ist eine hilfreiche Wiedergabeliste:
+{{< notice type="Musik" title="Andere deutsche Lieder" >}}
+Höre auch andere deutsche Lieder, um einfach und mit Spaß Deutsch zu lernen.
 
-- Spotify-Link TODO
-- YouTube-Link TODO#todo
+[Hier ist eine Wiedergabeliste](https://www.youtube.com/playlist?list=PLEByPi2gBp1SThXGFx_9h57mB7YjagALp) mit den beliebtesten deutschen Liedern.
+
+{{< /notice >}}
+
+{{< rem >}}TODO Bessere Wiedergabelisten erstellen, auch eine für Spotify.{{< /rem >}}
