@@ -15,7 +15,7 @@ Du hörst einen zur letzten Lektion identischen Text.
 Die Untertitel sind zum Teil verkürzt.
 {{< /notice >}}
 
-{{< h5p "435935" >}}
+{{< h5p 435935 >}}
 
 {{< notice type="Erfolg">}}
 In dieser und der letzten Lektion hast du viele neue deutsche Wörter gelernt und die Grammatik gelernt, indem du Muster erkennst.

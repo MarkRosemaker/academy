@@ -87,6 +87,21 @@ Eine Sprache zu lernen dauert Zeit (allerdings nicht so lange wie manche Leute d
 
 Später kannst du hierhin zurückkommen und erstaunt sein, wie viel du gelernt hast!
 
+{{< notice type="Hinweis" title="Häufige Ausreden und negativen Gedanken" >}}
+Falls du denkst, dass
+
+- du dir schlecht Vokabeln merken kannst,
+- [zu alt](TODO Link zu 100 jährigen) oder zu jung bist,
+- schlecht im Sprachenlernen bist,
+- oder nicht Deutsch lernen kannst ohne nach Deutschland zu reisen,
+
+dann sage ich: papperlapapp!
+
+Zum einen denke ich nicht, dass es wahr ist, zum anderen wirst du es mit dieser Methode trotzdem schaffen, selbst wenn es wahr wäre.
+
+Erinnere dich stets daran: **Lernen ist ein Abenteuer.**
+{{< /notice >}}
+
 {{< notice type="Erfolg" >}}
 
 Bravo! Du hast gelernt, wie du mit diesem Kurs Deutsch lernst.

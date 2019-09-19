@@ -12,7 +12,7 @@ audio = ''
 {{< notice type="Hinweis" >}}
 In dieser Lektion geht es wieder um etwas, das du vielleicht schon ein paar Mal gehört hast.
 
-Wenn du viel reist, hast du die folgende Rede vielleicht sogar schon zu oft gehört. 😅
+Wenn du viel reist, hast du die folgende Rede vielleicht sogar schon zu oft gehört.
 
 In diesem Fall ist das jedoch gut, da wir damit Deutsch lernen werden!
 
