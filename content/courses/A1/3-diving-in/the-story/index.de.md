@@ -13,9 +13,12 @@ audio = ''
 - [Carlos stellt sich vor](#carlos-stellt-sich-vor)
 - [Carlos erster Tag](#carlos-erster-tag)
 - [Carlos trifft einen Bayern](#carlos-trifft-einen-bayern)
-- [Jacob kommt in Berlin an](#jacob-kommt-in-berlin-an)
-- [Emama Brown](#emama-brown)
+- [Jacob Fischer](#jacob-fischer)
+  - [Jacob kommt in Berlin an](#jacob-kommt-in-berlin-an)
+- [Emma Brown](#emma-brown)
   - [Emma plant ihre Reise zur ihren Verwandten](#emma-plant-ihre-reise-zur-ihren-verwandten)
+  - [Emmas Sohn](#emmas-sohn)
+  - [Emmas Flug](#emmas-flug)
   - [Emma in Hannover](#emma-in-hannover)
   - [Emma's Tag mit ihren Verwandten](#emmas-tag-mit-ihren-verwandten)
 - [Bill und Alessandro](#bill-und-alessandro)
@@ -24,10 +27,12 @@ audio = ''
   - [Lerne Alessandro kennen!](#lerne-alessandro-kennen)
   - [Alessandro erzählt uns von der Luftbrücke](#alessandro-erzählt-uns-von-der-luftbrücke)
   - [Alles ist möglich!](#alles-ist-möglich)
+  - [Alessandro fährt mit der Bahn nach Berlin](#alessandro-fährt-mit-der-bahn-nach-berlin)
   - [Alessandro trifft Bill am Brandenburger Tor.](#alessandro-trifft-bill-am-brandenburger-tor)
 - [Yui Nakamura](#yui-nakamura)
+  - [Yui schickt einen Brief nach Hause](#yui-schickt-einen-brief-nach-hause)
 - [Sophia Brooks](#sophia-brooks)
-- [Das Märchen "Tischlein-deck-dich"](#das-märchen-tischlein-deck-dich)
+- [Das Märchen "Tischlein, deck dich!"](#das-märchen-tischlein-deck-dich)
   - [Der erste Sohn hat ganz großes Pech.](#der-erste-sohn-hat-ganz-großes-pech)
   - [Der zweite Sohn erlebt dasselbe Schicksal.](#der-zweite-sohn-erlebt-dasselbe-schicksal)
   - [Der dritte Tag, eine weitere Tragödie](#der-dritte-tag-eine-weitere-tragödie)
@@ -35,6 +40,15 @@ audio = ''
   - [Die Söhne in der weiten Welt](#die-söhne-in-der-weiten-welt)
     - [Der Weg des ersten Sohnes](#der-weg-des-ersten-sohnes)
     - [Der Weg des zweiten Sohnes](#der-weg-des-zweiten-sohnes)
+- [Lasst uns](#lasst-uns)
+- [Julia Engelmann – Eines Tages, baby, werden wir alt sein!“](#julia-engelmann--eines-tages-baby-werden-wir-alt-sein)
+- [Lasst uns nach den Sternen greifen!](#lasst-uns-nach-den-sternen-greifen)
+- [Alle deine Probleme sind lösbar](#alle-deine-probleme-sind-lösbar)
+- [Triff einen deutschen König](#triff-einen-deutschen-könig)
+- [Warum wir so reich sind](#warum-wir-so-reich-sind)
+- [Die Unendliche Geschichte](#die-unendliche-geschichte)
+- [Schneewittchen](#schneewittchen)
+- [Rumpelstilzchen](#rumpelstilzchen)
 
 
 # Carlos kommt in Deutschland an
@@ -126,7 +140,8 @@ Herr Schmitt kommt und sagt: "Grüß Gott, Frau Weber! Wenn ich mich nicht irre,
 
 "Das stimmt! Nun, willkommen bei der Firma Isaacs und willkommen in Deutschland."
 
-# Jacob kommt in Berlin an
+# Jacob Fischer
+## Jacob kommt in Berlin an
 
 Zur selben Zeit wie Carlos kam Jacob Fischer in Berlin an.
 
@@ -146,7 +161,7 @@ Er kaufte sich ein Ticket für die öffentlichen Verkehrsmittel, um die Stadt zu
 
 Es gibt viele Autos in Berlin, aber man braucht kein Auto, um jeden Ort in Berlin schnell zu erreichen.
 
-# Emama Brown
+# Emma Brown
 ## Emma plant ihre Reise zur ihren Verwandten
 
 Emma Brown ist eine junge Ärztin aus Großbritannien. Sie hat Verwandte in Hannover. Deshalb besucht sie diese Stadt sehr gerne.
@@ -165,6 +180,27 @@ Da sie eine Leseratte ist, nimmt sie auch ein Buch mit. Ein Notizblock und ein K
 Schließlich darf sie ihre Papiere nicht vergessen: Sie packt ihren Pass sicher in ihrem Koffer.
 Ihren Ausweis hat sie in der Brieftasche, zusammen mit ihrer Kreditkarte und ein bisschen Bargeld.
 
+Diesmal nimmt sie auch ein kleines Geschenk mit, da ihr Onkel bald Geburtstag hat.
+
+## Emmas Sohn
+
+"Schatz," sagt Emma zu ihrem Ehemann Thomas. "Bald fliege ich nach Deutschland. Passt du gut auf unseren Sohn auf?"
+
+"Na klar," sagt ihr Mann. "Ich passe gut auf den Kleinen auf. Nicht wahr, Oliver?"
+
+Ihr Sohn heißt nämlich Oliver. Oliver ist ein sehr schlauer Junge.
+
+Er geht jeden Tag zur Schule – außer am Wochenende natürlich.
+
+Er bekommt Unterricht von seiner Lehrerin, die ihm viel über Geschichte, Kunst, Biologie usw. beibringt.
+
+## Emmas Flug
+
+Da ihr Flug sehr früh ist, muss Emma um 4 Uhr morgens aufstehen.
+
+Zum Glück ist die Haltestelle für den Bus zum Flughafen nicht weit von ihrer Wohnung entfernt.
+
+
 
 ## Emma in Hannover
 
@@ -180,7 +216,7 @@ Sie selber hat immer nur zur Miete gewohnt. Sie ist dadurch sehr flexibel, hatte
 
 Emma freut sich, ihren Onkel, ihre Tante und ihre Cousins wiederzusehen.
 
-Gemeinsam gehen sie spazieren.
+Gemeinsam gehen sie spazieren. Das Wetter ist herrlich! Die Sonne scheint mal wieder und es sind keine Wolken am Himmel.
 
 Am Abend grillen sie. Ihr Onkel zündet den Grill an und grillt Schweinefleisch und Würste. Da Emma Vegetarierin ist, kommen auch ein paar vegetarische Würste auf den Grill.
 
@@ -258,7 +294,7 @@ Es gab ein großes Problem: Berlin liegt mitten in Ostdeutschland. Also war West
 
 Am Anfang fuhren LKWs und Schiffe ohne Probleme von Westdeutschland nach Westberlin durch Ostdeutschland.
 
-Dann sagte aber die Sowjetunion: "Schiffe und LKWs dürfen nicht mehr durch Ostdeutschland fahren! Keine Schiffe und keine LKWs mehr durch Ostdeutschland nach Westberlin."
+Dann sagte aber die Sowjetunion: "Schiffe, Züge und LKWs dürfen nicht mehr durch Ostdeutschland fahren! Kein Schiff, kein Zug und kein LKW fährt mehr durch Ostdeutschland nach Westberlin."
 
 Also blieb nur noch eine Möglichkeit: Flugzeuge! Flugzeuge durften noch über Ostdeutschland fliegen (laut Vertrag). Also wurde Westdeutschland durch Flugzeuge versorgt.
 
@@ -282,9 +318,34 @@ Und wer weiß, was dann passiert: Vielleicht haben wir bis dahin einen Weg gefun
 
 Ich persönlich denke, dass ich mehr als 150 Jahre leben werde, wenn nicht gar viel, viel mehr.
 
+## Alessandro fährt mit der Bahn nach Berlin
+
+Zurück zu Alessandro. Er hat sich dazu entschieden, mit der Bahn nach Berlin zu fahren.
+
+Um mit dem Zug zu fahren, braucht er natürlich eine Fahrkahrte.
+Er hat vier Möglichkeiten.
+
+Er kann sich seine Fahrkarte auf dem Bahnhof kaufen. Dort gibt es nämlich einen Schalter und einen Automaten.
+
+Am Schalter ist eine Person, mit der er sprechen kann. Er kann ihr sagen, welches Ticket er kaufen möchte. Dieser Mensch kann ihm auch Auskunft geben, falls Alessandro eine Frage hat und mehr Informationen braucht. Leider ist die Schlange am Schalter jedoch sehr lang – viele Menschen stehen und warten darauf, mit der Person am Schalter zu sprechen.
+
+Es gibt auch einen Automaten auf dem Bahnhof, aber der ist leider kaputt. Deshalb warten ja so viele Menschen in der Schlange.
+Die zweite Möglichkeit funktioniert also nicht: Alessandro kann kein Ticket am Automaten kaufen.
+
+Die dritte Möglichkeit: Alessandro kauft sich seine Fahrkarte im Internet. Auf der Webseite der Deutschen Bahn kann er sich Fahrkarten kaufen.
+
+Alessandro hat sich sein Ticket jedoch schon mit einer App gekauft. Das ist sehr praktisch und er braucht nicht so viel zu zahlen.
+
+Auf seiner Fahrkahrte steht, dass die Abfahrt um 17:30 Uhr ist, also um halb sechs Uhr abends. Der Zug fährt nach Zürich. In Zürich bekommt er einen Anschluss nach Berlin.
+
+Jetzt ist es 17:03 Uhr. Alessandro wartet auf dem Bahnsteig auf seinen Zug. Er ist sehr pünktlich und muss ein bisschen warten, bis der Zug kommt.
+
+Nach einer halben Stunde kommt dann die Ansage. "Achtung! Zug nach Zürich auf Gleis 4. Vorsicht bei der Einfahrt."
+Der Zug kommt, Alessandro steigt ein und nimmt Platz.
+
 ## Alessandro trifft Bill am Brandenburger Tor.
 
-Zurück zu Alessandro. Es ist der 15. Oktober. Alessandro ist seit zwei Tagen in Berlin. Er hat viel über die Geschichte Berlins gelernt.
+Es ist der 15. Oktober. Alessandro ist seit zwei Tagen in Berlin. Er hat viel über die Geschichte Berlins gelernt.
 
 Alessandro ist am Brandenburger Tor.
 
@@ -308,7 +369,11 @@ Yui Nakamura ist auch in Berlin. Sie ist eine Touristin aus Japan.
 
 Sie ist zusammen mit ihrer Familie nach Deutschland gekommen, um dort den Urlaub zu verbringen und viele Sehenswürdigkeiten zu sehen.
 
-Yui ist beeindruckt von all dem, was es in Berlin zu sehen gibt.
+Yui ist beeindruckt von all dem, was es in Berlin zu sehen gibt. Sie hat sich extra einen Reiseführer gekauft, um den Überblick zu behalten
+
+## Yui schickt einen Brief nach Hause
+
+
 
 # Sophia Brooks
 
@@ -341,7 +406,7 @@ Sophie findet es sehr toll, mit Kollegen aus unterschiedlichen Ländern zusammen
 Sie gehen gemeinsam essen.
 
 
-# Das Märchen "Tischlein-deck-dich"
+# Das Märchen "Tischlein, deck dich!"
 
 ## Der erste Sohn hat ganz großes Pech.
 
@@ -437,7 +502,7 @@ Achte auf ähnliche Wörter. Ihre Bedeutung kannst du einfach erraten.
 
 Da du das Substantiv "Hunger" kennst, kannst du zum Beispiel die Bedeutung des Adjektivs "hungrig" erraten. Genauso mit "Durst" und "durstig".
 
-Am Ende brauchst du dir also nur ein Wort zu merken und das entsprechende Schema. Nimm zum Beispiel das Wort "verfluchte", das du bald in der Geschichte lesen wirst. Du brauchst dir nur das Wort "Fluch" zu merken, die Transformierung zum Verb (verfluchen), die Transformierung zum Adjektiv bzw. xxx (verflucht) und die Anpassung von Adjektiven auf feminine Nomen (verfluchte Antwort).
+Am Ende brauchst du dir also nur ein Wort zu merken und das entsprechende Schema. Nimm z. B. das Wort "verfluchte", das du bald in der Geschichte lesen wirst. Du brauchst dir nur das Wort "Fluch" zu merken, die Transformierung zum Verb (verfluchen), die Transformierung zum Adjektiv bzw. xxx (verflucht) und die Anpassung von Adjektiven auf feminine Nomen (verfluchte Antwort).
 
 Das klingt vielleicht alles viel -- ist es am Anfang auch --, aber bedenke, dass solche Schema auf so viele Situationen anwendbar sind. Zudem brauchst sie es **nicht auswendig zu lernen**, sondern nur zu bemerken -- mit der Zeit erwirbst du solche Muster **automatisch**. Zu verstehen, was gemeint ist, ist schon die halbe Miete!
 {{< /notice >}}
@@ -506,22 +571,253 @@ Leider hatte der Sohn nicht viel Geld und der Preis der Lebensmittel war sehr ho
 
 
 
+# Lasst uns
+
+
+
+# Julia Engelmann – Eines Tages, baby, werden wir alt sein!“
+
+https://www.youtube.com/watch?v=F47CQEZI_Bs
+
+Eines Tages, Baby, werden wir alt sein. Oh Baby, werden wir alt sein
+und an all die Geschichten denken, die wir hätten erzählen können.
+
+Ich, ich bin der Meister der Streiche, wenn´s um Selbstbetrug geht.
+Bin ein Kleinkind vom Feinsten, wenn ich vor Aufgaben stehe.
+Bin ein entschleunigtes Teilchen, kann auf keinstem was reißen,
+lass mich begeistern für Leichtsinn – wenn ein anderer ihn lebt.
+
+Und ich denke zu viel nach. Ich warte zu viel ab. Ich nehme mir zu viel vor – und ich mach davon zu wenig.
+
+Ich halte mich zu oft zurück – ich zweifel alles an, ich wäre gerne klug,
+allein das ist ziemlich dämlich.
+
+Ich würde gern so vieles sagen
+aber bleibe meistens still,
+weil, wenn ich das alles sagen würde,
+wär das viel zu viel.
+
+Ich würde gern so vieles tun,
+meine Liste ist so lang,
+aber ich werde eh nie alles schaffen –
+also fange ich gar nicht an.
+Stattdessen hänge ich planlos vorm Smartphone,
+warte bloß auf den nächsten Freitag.
+Ach, das mach ich später,
+ist die Baseline meines Alltags.
+
+Ich bin so furchtbar faul
+wie ein Kieselstein am Meeresgrund.
+Ich bin so furchtbar faul,
+mein Patronus ist ein Schweinehund.
+
+Mein Leben ist ein Wartezimmer,
+niemand ruft mich auf.
+Mein Dopamin, das spare ich immer –
+falls ich´s nochmal brauch.
+
+Und eines Tages, Baby, werde ich alt sein. Oh Baby, werde ich alt sein
+und an all die Geschichten denken, die ich hätte erzählen können.
+
+Und Du? Du murmelst jedes Jahr neu an Silvester
+die wiedergleichen Vorsätze treu in dein Sektglas
+und Ende Dezember stellst Du fest, das du Recht hast,
+wenn Du sagst, dass Du sie dieses Jahr schon wieder vercheckt hast.
+
+Dabei sollte für Dich 2013 das erste Jahr vom Rest deines Lebens werden.
+Du wolltest abnehmen,
+früher aufstehen,
+öfter rausgehen,
+mal deine Träume angehen,
+mal die Tagesschau sehen,
+für mehr Smalltalk, Allgemeinwissen.
+Aber so wie jedes Jahr,
+obwohl Du nicht damit gerechnet hast,
+kam Dir wieder mal dieser Alltag dazwischen.
+
+Unser Leben ist ein Wartezimmer,
+niemand ruft uns auf.
+Unser Dopamin das sparen wir immer,
+falls wir´s nochmal brauchen.
+
+Und wir sind jung und haben viel Zeit.
+Warum sollen wir was riskieren,
+wir wollen doch keine Fehler machen,
+wollen auch nichts verlieren.
+
+Und es bleibt soviel zu tun,
+unsere Listen bleiben lang
+und so geht Tag für Tag
+ganz still ins unbekannte Land.
+
+Und eines Tages, Baby, werden wir alt sein. Oh Baby, werden wir alt sein,
+und an all die Geschichten denken, die wir hätten erzählen können
+und die Geschichten, die wir dann stattdessen erzählen werden,
+traurige Konjunktive sein wie
+
+„Ein mal bin ich fast einen Marathon gelaufen
+und hätte fast die Buddenbrooks gelesen und einmal wäre ich beinah bis die Wolken wieder lila waren noch wach gewesen und fast, fast hätten wir uns mal demaskiert und gesehen, wir sind die Gleichen,
+und dann hätten wir uns fast gesagt, wie viel wir uns bedeuten.“
+
+Werden wir sagen.
+
+Und das wir bloß faul und feige waren,
+das werden wir verschweigen,
+und uns heimlich wünschen,
+noch ein bisschen hier zu bleiben.
+
+Wenn wir dann alt sind
+und unsere Tage knapp,
+und das wird sowieso passieren,
+dann erst werden wir kapieren,
+wir hatten nie was zu verlieren –
+denn das Leben, das wir führen wollen,
+das können wir selber wählen.
+
+Also lass uns doch Geschichten schreiben,
+die wir später gern erzählen.
+Lass uns nachts lange wach bleiben,
+auf´s höchste Hausdach der Stadt steigen,
+lachend und vom Takt frei die allertollsten Lieder singen.
+Lass uns Feste wie Konfetti schmeißen,
+sehen, wie sie zu Boden reisen
+und die gefallenen Feste feiern,
+bis die Wolken wieder lila sind.
+Und lass mal an uns selber glauben,
+ist mir egal, ob das verrückt ist,
+und wer genau guckt, sieht,
+dass Mut auch bloß ein Anagramm von Glück ist.
+Und – wer immer wir auch waren –
+lass mal werden wer wir sein wollen.
+Wir haben schon viel zu lang gewartet,
+lass mal Dopamin vergeuden.
+
+„Der Sinn des Lebens ist leben“,
+das hat schon Casper gesagt,
+„let´s make the most of the night“,
+das hat schon Kesha gesagt.
+Lass uns möglichst viele Fehler machen,
+und möglichst viel aus ihnen lernen.
+Lass uns jetzt schon Gutes sähen,
+dass wir später Gutes ernten.
+Lass uns alles tun,
+weil wir können – und nicht müssen.
+Weil jetzt sind wir jung und lebendig,
+und das soll ruhig jeder wissen,
+und – unsere Zeit die geht vorbei.
+Das wird sowieso passieren
+und bis dahin sind wir frei
+und es gibt nichts zu verlieren.
+
+Lass uns uns mal demaskieren
+und dann sehen, wir sind die Gleichen,
+und dann können wir uns ruhig sagen,
+dass wir uns viel bedeuten,
+denn das Leben, das wir führen wollen,
+das können wir selber wählen.
+
+Also los, schreiben wir Geschichten,
+die wir später gern erzählen. Und eines Tages, Baby, werden wir alt sein. Oh Baby, werden wir alt sein
+und an all die Geschichten denken, die für immer unsere sind.
+
+
+# Lasst uns nach den Sternen greifen!
+
+Wir befinden uns in einer faszinierenden Welt. Jeden Tag lernen wir etwas Neues. Jeder Tag ist eine neue Möglichkeit, uns zu verbessern: Wir werden glücklicher, effizienter und freier.
+
+Jeden Tag schreitet die Forschung voran. Wissenschafler machen neue Entdeckungen und Erkenntnisse. Die Menschen entwickeln neue Technologien. Wir lösen jeden Tag Probleme, dessen Lösung uns gestern noch fremd war.
+
+Es wird immer Probleme geben, so ist das Leben. Es ist eine Herausforderung und macht Spaß, sie zu lösen. Es ist schön, die Früchte unserer Arbeit zu ernten.
+
+Jedes noch so große Problem hat eine Lösung. Alles, was uns fehlt, ist Wissen. Je mehr relevantes Wissen wir uns aneignen, desto näher sind wir der Lösung.
+
+Eines Tages werden wir nach den Sternen greifen. Eines Tages leben wir nicht nur auf der Erde, sondern auch auf dem Mond, auf dem Mars und auf noch entferntereren Planeten.
+
+Es ist der Anfang der Unendlichkeit.
+
+Du bist ein Teil dieses Anfangs.
+
+# Alle deine Probleme sind lösbar
+
+Du hast auch Probleme und löst sie. Jeder Tag ist auch für dich eine Möglichkeit, der Unendlichkeit näher zu kommen.
+
+Da du diese Sätze liest, bist du gerade dabei, Deutsch zu lernen. Das ist ein Problem: Wie lerne ich effektiv Deutsch?
+
+Du hast bestimmt auch ganz viele andere spannende Probleme in deinem Leben, an deren Lösung du arbeitest. Jede Frustration, jedes schlechte Gefühl, jeder Mangel ist ein Problem.
+
+Du bist ein Mensch im 21. Jahrhundert. Du hast Zugang zu mehr Reichtum als die großen Könige der Antike.
+
+Glaubst du mir nicht? Einen Moment, ich bin gleich wieder da.
+
+# Triff einen deutschen König
+
+Ich bin wieder da! Ich habe einen Freund von mir geholt. Er sieht ein bisschen komisch aus, ich weiß.
+
+Mein Freund ist Deutscher. Na ja, er kommt nicht aus Deutschland, aber er ist hier geboren.  Er kommt aus einer anderen Zeit.
+
+Ich habe mir nämlich eine Zeitmaschine gebaut und mich entschieden, ihn mitzubringen. Er spricht auch kein Deutsch, zumindest nicht so ein Deutsch, wie wir es heute sprechen.
+
+Wie war noch mal sein Name? Ich weiß nicht, wie er heißt. Arminius, Karl der Große, Ludwig der Deutsche ... ich weiß es nicht.
+
+Nennen wir ihn einfach König, denn er ist ein König, glaube ich. Er hat sehr hübsche Kleidung an, auch wenn sie nicht mehr in Mode sind.
+
+Ich habe auch seine Familie mitgenommen auf diese Reise in die Gegenwart. Er hat eine schöne Frau und zwei Kinder, einen Jungen und ein Mädchen.
+
+Lass uns etwas unternehmen! Du möchtest dem König und seinen Kindern all die großen und bedeutenden Errungenschaften zeigen: Flugzeuge, Raketen, Wolkenkratzer.
+
+Aber zuerst müssen wir noch zum nächsten Supermarkt und ein paar Dinge kaufen. Du denkst: "Der König ist wird sich in so einer banalen Umgebung bestimmt langweilen."
+
+Naja, alltäglich und banal für dich -- aber nicht für ihn! Für ihn ist ein einfacher Supermarkt ein größeres Wunder als seine großen Pyramiden.
+
+Noch bevor ihr in den Supermarkt geht, ist der antike König sehr erstaunt: Er kann durch die Wände sehen. Er ist sehr beeindruckt von den Wänden aus Glas, denn davon hat er noch nie gehört.
+
+Dann gehen die Türen auf -- ganz automatisch, wie durch Magie! Das ist die Macht der Elektrizität, die von Menschen genutzt wird.
+
+Ihr geht in den Supermarkt und sofort wird es kühl, weil die Klimaanlage an ist. Es ist ein heißer Tag, aber im Supermarkt ist es erfrischend kühl. Der König, der ständige Hitze gewöhnt ist, ist beeindruckt.
+
+Dann sieht er die Zeitschriften. Was ist das? So realistische Bilder hat er noch nie gesehen. Es sind natürlich Fotos.
+
+Der König hat viele Zeichnung von sich machen lassen, weil er Angst davor hat, vergessen zu werden. Aber wir haben vergessen, wie er wirklich aussieht.
+Wie viele Stunden müssten seine Diener malen, um so viele Bilder zu produzieren wie man sie in einer einzelnen Zeitschrift findet?
+
+Und was ist mit dem Text? Diese Zeitschriften berichten von Nachrichten aus der ganzen Welt. Wie muss sich da ein König fühlen, der Wochen oder gar Monate darauf warten muss, Neuigkeiten aus einer Region am Rande seines Reiches zu bekommen?
+
+Die Nachrichten in den Zeitschriften kommen aus Regionen, die tausende Kilometer entfernt sind und aus Kontinenten, von denen der König noch nie gehört hat. All das für sehr wenig Geld.
+
+Obwohl wir nicht wissen, wo die Lebensmittel produziert wurden, wann, und von wem -- wir wissen, dass sie sicher sind und wir sie essen können.
+
+Der König entdeckt Feuerzeuge im Supermarkt. Mit einem kleinen Gegenstand kann er ein Feuer machen.
+
+Er sieht sich auf einem Bildschirm -- die Überwachungskamera filmt ihn gerade. Das ist ein Fernseher und wir können viel mehr damit machen. Wir können Sänger, Schauspieler, Nachrichtensprecher etc. damit sehen, auch wenn sie tausende Kilometer weg sind oder gar gestorben.
+
+Draußen wird es langsam dunkel, aber hier im Supermarkt ist es immer noch so hell wie am Anfang. Der König, der sein ganzes Leben lang Kerzen benutzen musste, um nachts zu lesen, ist erstaunt: Die Nacht wird zum Tag mit der Macht elektrischer Lampen.
+
+
+Jetzt wird es Zeit nach Hause zu gehen. Wir legen unseren Einkauf auf das Band und bezahlen. Mit einer wundersamen Maschine  wird die Summe berechnet, die wir bezahlen müssen. Die Rechnung ist immer richtig, ohne Ausnahme. So eine Maschine, ein Computer, kann in Sekunden tausende Rechnungen machen. Mehr noch, so viele Rechnungen, dass die Buchhalter des Königs Jahre brauchen würden, um dieselben Rechnungen zu machen.
+
+Der König ist nicht glücklich. Er ist der mächtigste Mann seiner Zeit und doch leidet er wie alle anderen. Er hat Zahnschmerzen, weil er noch nie bei einem modernen Zahnarzt war.
+
+Zum Glück gibt es neben dem Supermarkt eine Apotheke. Dort kaufen wir Medizin gegen Schmerzen. In ein paar Minuten hat der König keine Schmerzen mehr. Er ist zum ersten Mal in seinem Leben frei von Schmerzen.
+
+# Warum wir so reich sind
+
+Wir befinden uns in der Zukunft.
+
+- wie wir unsere Werte schützen sollten
+- die Macht des Rationalismus und Gewaltfreiheit
+- Freiheit, Kreativität und Erfindergeist das Rezept für Reichtum -> wie wird ein Auto hergestellt?
+
+# Die Unendliche Geschichte
+# Schneewittchen
+# Rumpelstilzchen
 
 
 
 
-Die Unendliche Geschichte
-Schneewittchen
-Rumpelstilzchen
 
 
-
-
-
-
-
-Jetzt: 3562
-Ziel:- 6562
+Jetzt: 6924
+Ziel:  7924
 
 
 
