@@ -45,7 +45,12 @@ audio = ''
 - [Lasst uns nach den Sternen greifen!](#lasst-uns-nach-den-sternen-greifen)
 - [Alle deine Probleme sind lösbar](#alle-deine-probleme-sind-lösbar)
 - [Triff einen deutschen König](#triff-einen-deutschen-könig)
-- [Warum wir so reich sind](#warum-wir-so-reich-sind)
+- [Warum sind wir so reich?](#warum-sind-wir-so-reich)
+- [Was macht Fortschritt möglich?](#was-macht-fortschritt-möglich)
+- [Dieser Kurs ist anders](#dieser-kurs-ist-anders)
+  - [Dieser Kurs ist inspirierend](#dieser-kurs-ist-inspirierend)
+  - [Dieser Kurs ist zukunftsorientiert](#dieser-kurs-ist-zukunftsorientiert)
+  - [Dieser Kurs ist nicht einfach](#dieser-kurs-ist-nicht-einfach)
 - [Die Unendliche Geschichte](#die-unendliche-geschichte)
 - [Schneewittchen](#schneewittchen)
 - [Rumpelstilzchen](#rumpelstilzchen)
@@ -799,13 +804,79 @@ Der König ist nicht glücklich. Er ist der mächtigste Mann seiner Zeit und doc
 
 Zum Glück gibt es neben dem Supermarkt eine Apotheke. Dort kaufen wir Medizin gegen Schmerzen. In ein paar Minuten hat der König keine Schmerzen mehr. Er ist zum ersten Mal in seinem Leben frei von Schmerzen.
 
-# Warum wir so reich sind
+# Warum sind wir so reich?
 
 Wir befinden uns in der Zukunft.
+
+Wir haben zwar noch keine fliegende Autos, dafür werden unsere Autos aber bald ohne Fahrer fahren -- ganz automatisch.
+
+Nicht nur unsere Autos, viele andere Dinge sind jetzt teilweise oder voll automatisiert. Dein Smartphone ist ein kleines Objekt, dass in deine Tasche passt -- und doch ist es ein Wunderwerk der Technik mit so vielen Funktionen. Es ist eine Kamera, ein Rechner, eine Post, eine Spielkonsole, eine Uhr, ein Wecker. Ach ja, es ist auch ein Telefon. Mit den sozialen Medien kannst du kostenlos mehr Menschen erreichen als jede Zeitung und jeder Fernsehsender.
+
+In Mark Twain's Huckleberry Finn hilft der junge Protagonist seinem Freund, aus der Sklaverei zu entfliehen. Am Ende sagt sein Freund: "Ich habe es dir gesagt, Huck: Ich war reich und ich werde wieder reich sein. Jetzt gehöre ich mir selbst und ich bin 800 Dollar wert."
+
+800 Dollar waren damals eine sehr große Summe. Aber er war nicht 800 Dollar wert; er war viel mehr wert. Man kann es nicht in Zahlen messen, weil jeder Mensch von unschätzbarem Wert ist.
+
+Du bist ein freier Mensch in einer Welt, die sich ständig weiterentwickelt. Schon in zehn (10) Jahren wird die Welt ganz anders aussehen, als wir uns jetzt vorstellen können. Wir alle werden ganz anders sein; *du* wirst ganz anders sein. Oft unterschätzen wir, wie sehr wir uns in zehn Jahren entwicklen können.
+
+# Was macht Fortschritt möglich?
+
+Man sagt, dass Deutschland das Land der Dichter und Denker ist.
+
+Natürlich gab und gibt es auch Zensur in diesem Land, aber im Allgemeinen konnten unsere Denker sich frei ausdrücken und das sagen, was sie denken. Es gibt eine klare Trennung von Kirche und Staat, weshalb man auch über Religion kritisch denken kann.
+
+Unsere Dichter haben uns auf sehr poetische Art und Weise die Tiefen der menschlichen Seele gezeigt.
+Dies hat die Geburt der Psychoanalyse als wissenschaftliche Disziplin begünstigt.
+
+Freiheit
+
+Als Tourist bist du Gast in dieser Kultur, als Einwanderer mit der Zeit ein adoptiertes Familienmitglied.
+
+
+Um diesen stetigen Fortschritt möglich zu machen, sollten wir die Werte schützen, die diesen Fortschritt möglich machen.
 
 - wie wir unsere Werte schützen sollten
 - die Macht des Rationalismus und Gewaltfreiheit
 - Freiheit, Kreativität und Erfindergeist das Rezept für Reichtum -> wie wird ein Auto hergestellt?
+
+
+# Dieser Kurs ist anders
+
+Am Anfang habe ich versucht, diesen Kurs so zu schreiben wie ein normaler Deutschkurs. Dann fiel mir auf, dass ich es nicht kann, weil es meine Integrität verletzt. Ich möchte nur etwas schreiben, dass mir selber Spaß machen würde zu lesen!
+
+Dieser Kurs ist anders, und zwar in drei Aspekten.
+
+## Dieser Kurs ist inspirierend
+
+Die meisten Deutschkurse fangen mit ganz simplen und langweiligen Geschichten an. Was interessiert es dich, dass gerade ein neuer Praktikant in einer Firma ist? Es ist so banal und langweilig. Auf der anderen Seite, wie soll man sonst grundlegende Vokabeln einführen? Sicher ist, dass dies mit Geschichten geschen sollte, weil wir Vokabeln schneller im Zusammenhang lernen.
+
+Um das Wort "Praktikant" einzuführen, muss man also wohl oder übel eine Geschichte erzählen, in der ein Praktikant vorkommt. Aber was ist, wenn diese Firma daran arbeitet, eine Menschen mit einer Rakete zum Mond zu transportieren? Was ist, wenn die Firma daran arbeitet, künstliche Intelligenz zu erforschen und zu erschaffen? Was ist, wenn diese Firma daran arbeitet, Menschen unsterblich zu machen? Was ist, wenn die Geschichte in der fernen Zukunft spielt?
+
+Deshalb ist dieser Kurs anders. Er ist nicht nur ein Deutschkurs, sondern auch eine Erinnerung daran, was möglich ist. Es sind inspirierende Geschichten und Gedanken, die dich aufbauen und dich inspirieren.
+
+## Dieser Kurs ist zukunftsorientiert
+
+In traditionellen Kursen gibt es Geschichten von Leuten, die noch nicht mal im 21. Jahrhundert angekommen sind. Sie fragen nach dem Weg, statt eine Karten-App auf ihrem Handy zu benutzen. Sie schreiben Briefe an ihre Freunde, anstatt WhatsApp zu benutzen. Sie warten auf dem Bahnhof in der Schlange, um sich ein Ticket am Schalter zu kaufen, anstatt einfach eine App zu benutzen.
+
+Die Dinge ändern sich und mit neuester Technologie können wir die kleinen Probleme des Alltags viel schneller und effizienter lösen. Deshalb sind manche Vokabeln nicht mehr so wichtig und andere Vokabeln werden bedeutender. (Trotzdem werde ich dir natürlich alle Vokabeln beigringen, die du für die A1-Prüfung brauchst.)
+
+In diesem Kurs wirst du nicht nur Deutsch lernen, du wirst auch eine neue Weltanschauung gewinnen. Du wirst positiver über die Zukunft denken. Du wirst Probleme nicht mehr als etwas Schlechtes oder als Quelle von Frustrationen sehen, sondern als spannende Herausforderungen, die du meistern kannst.
+
+Du wirst erfahren, was die deutsche und westliche Kultur im Allgemeinen so großartig macht und wie du dabei helfen kannst, dieses Erbe weiterzutragen.
+
+Was ist deutsche Kultur? Traditionelle Kurse werden dir zusammenhanglos von der Geschichte erzählen und von bestimmten Verhaltensweisen, die wir Deutschen haben. Ich möchte dir auch etwas über die deutsche Kultur beibringen, aber auch erklären, auf welchen Ideen und Werten sie basiert und warum das in deinem Leben wichtig ist.
+
+## Dieser Kurs ist nicht einfach
+
+Warum sollte es gut sein, dass dieser Kurs nicht einfach ist?
+
+Nun, er *ist* einfach, in dem Sinne, dass die Immersionsmethode laut der Meinung von Sprachwissenschaftlern die effizienteste Sprachlernmethode ist. Er ist einfach, weil du viel Spaß haben wirst. Er ist einfach, weil du nicht so viel auswendig lernen musst. Er ist einfach, weil du die Sprache ganz automatisch erwerben wirst.
+
+Die Sätze sind allerdings nicht immer einfach. Es gibt am Anfang ein paar Lektionen, die sehr einfach sind: Ich benutze kurze Sätze. Ich benutze einfache Wörter. Ich spreche sehr einfach. Du verstehst diese Sätze. Du verstehst jedes Wort. Nicht wahr? Diese Lektionen sind gut für die Prüfung.
+
+In anderen Lektionen sind die Sätze komplizierter, weil ich über wichtige und komplizierte Themen spreche. Diese Lektionen sind wichtig für unsere langfristige Strategie: Langfristig gesehen möchtest du Deutsch fließend sprechen. Ich möchte dich nicht nur darauf vorbereiten, die A1-Prüfung zu bestehen; ich möchte dich auch langfristig darauf vorbereiten, nicht mehr wie ein Kind zu sprechen.
+
+Kurzfristig gesehen, möchtest du die A1-Prüfung bestehen. Das ist schön und gut -- dieser Kurs wird dir dabei helfen. Am Ende des Kurses (wenn du meinen Anweisungen folgst) wirst du genug einfache Sätze sprechen können, um diese Prüfung zu bestehen.
+
 
 # Die Unendliche Geschichte
 # Schneewittchen
@@ -816,8 +887,8 @@ Wir befinden uns in der Zukunft.
 
 
 
-Jetzt: 6924
-Ziel:  7924
+Jetzt: 7971
+Ziel:  8971
 
 
 
