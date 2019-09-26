@@ -46,7 +46,7 @@ audio = ''
 - [Alle deine Probleme sind lösbar](#alle-deine-probleme-sind-lösbar)
 - [Triff einen deutschen König](#triff-einen-deutschen-könig)
 - [Warum sind wir so reich?](#warum-sind-wir-so-reich)
-- [Was macht Fortschritt möglich?](#was-macht-fortschritt-möglich)
+- [Was macht Fortschritt möglich? Eine Meinung.](#was-macht-fortschritt-möglich-eine-meinung)
 - [Dieser Kurs ist anders](#dieser-kurs-ist-anders)
   - [Dieser Kurs ist inspirierend](#dieser-kurs-ist-inspirierend)
   - [Dieser Kurs ist zukunftsorientiert](#dieser-kurs-ist-zukunftsorientiert)
@@ -818,7 +818,7 @@ In Mark Twain's Huckleberry Finn hilft der junge Protagonist seinem Freund, aus 
 
 Du bist ein freier Mensch in einer Welt, die sich ständig weiterentwickelt. Schon in zehn (10) Jahren wird die Welt ganz anders aussehen, als wir uns jetzt vorstellen können. Wir alle werden ganz anders sein; *du* wirst ganz anders sein. Oft unterschätzen wir, wie sehr wir uns in zehn Jahren entwicklen können.
 
-# Was macht Fortschritt möglich?
+# Was macht Fortschritt möglich? Eine Meinung.
 
 Man sagt, dass Deutschland das Land der Dichter und Denker ist.
 
@@ -827,16 +827,35 @@ Natürlich gab und gibt es auch Zensur in diesem Land, aber im Allgemeinen konnt
 Unsere Dichter haben uns auf sehr poetische Art und Weise die Tiefen der menschlichen Seele gezeigt.
 Dies hat die Geburt der Psychoanalyse als wissenschaftliche Disziplin begünstigt.
 
-Freiheit
+Mit der Psychoanalyse haben wir die dunkelsten Seiten unserer Seele erforscht -- und viele gute Seiten in den Menschen hervorgebracht. Das Reflektieren, mit oder ohne Psychotherapeut, ist die beste Methode, um sich selbst zu entdecken und mentale Blockaden zu überwinden.
+
+Ein freiheitliches Miteinander bringt uns Freiheit und Lebensglück. Wir schlagen unsere Kinder nicht und erziehen sie nicht authoritär. Stattdessen respektieren wir ihre Wünsche, ihre Bedürfnisse und ihre Persönlichkeit. So wachsen unsere Kinder mit Liebe auf, sind glücklich im Leben und haben selber ein freiheitliches Weltbild.
+
+Wir Deutschen wissen nämlich, was schief laufen kann, da vor der Zeit des Nationalsozialismus das Schlagen der Kinder und die Unterrückung ihrer Bedürfnisse als normal angesehen wurde. Die Eltern sagten zu ihren Kindern: "Höre auf zu weinen! Mach das, was ich sage!" Später kam dann die Diktatur und der Ditkator sagte: "Unterdrückt eure Empathie! Macht das, was ich sage!" (Darüber gibt es ein gutes Buch namens "Am Anfang war Erziehung".)
+
+Heute ist die Kindererziehung besser und die Eltern sagen zu den Kindern: "Wie fühlst du dich? Was brauchst du? Was möchtest du gerne tun?"
+Also gibt es auch in der Politik mehr Freiheit.
+
+Diese Freiheit, die wir jetzt durch diese bessere Denkweise haben, macht den Fortschritt möglich. Je authoritärer wir denken, je mehr Gewalt wir vom Staat akzeptieren, desto schlechter geht es uns langfristig. Aber wenn Leute nicht mit Gewalt zu etwas gezwungen werden und selber entscheiden können, was sie tun, haben sie bessere Chancen, erfolgreich zu sein und vor allem, glücklich zu sein.
+
+All dies ist zu einem großen Grade auch deutsche Kultur. Es ist deutsche Kultur, freiheitlich zu denken. Es ist deutsche Kultur, Gewalt zu verabscheuen. Es ist deutsche Kultur, reflektiert zu handeln.
 
 Als Tourist bist du Gast in dieser Kultur, als Einwanderer mit der Zeit ein adoptiertes Familienmitglied.
 
+Manche Deutsche haben Angst vor Ausländern, gerade vor denen, die aus Ländern mit autoritären Strukturen kommen. Sie haben Angst, dass die Ausländer die Denkweisen haben, die zu den Problemen in ihren Land geführt haben. Es ist wichtig, dies zu wissen. Man kann diese Angst nur lindern, indem man diesen Menschen das Gegenteil zeigt.
 
-Um diesen stetigen Fortschritt möglich zu machen, sollten wir die Werte schützen, die diesen Fortschritt möglich machen.
+Um den stetigen Fortschritt möglich zu machen, sollten wir die Werte schützen, die diesen Fortschritt möglich machen.
 
-- wie wir unsere Werte schützen sollten
-- die Macht des Rationalismus und Gewaltfreiheit
-- Freiheit, Kreativität und Erfindergeist das Rezept für Reichtum -> wie wird ein Auto hergestellt?
+Wir sollten rational und kritisch denken und Argument für unsere Meinungen haben. Es ist nicht einfach, gute Argumente zu haben und rational zu denken. Wie wir in der deutschen Geschichte gesehen haben, kann sehr viel schief gehen, wenn wir einer falschen Ideologie folgen.
+
+Wir sollten stets gegen die Anwendng von Gewalt argumentieren (mit Ausnahme der Selbstverteidigung), denn wenn wir Waffen einsetzen, könne wir keine Worte benutzen.
+Intellektuelle Debatten hören sofort auf, wenn wir zu den Waffen greiven.
+
+Zum Glück leben wir heute in einer Welt, die nicht mehr so gewaltätig ist wie früher. Staaten setzen leider immer noch Gewalt ein -- gegen andere Menschen in Kriegen und gegen die eigene Bevölkerung mit freiheitseinschränkenden Gesetzen. Dafür wird diese Gewalt aber von immer mehr Leuten bekämpft.
+
+Die Freiheit, Kreativität und Erfindergeist, den wir in Deutschland haben, sind das Rezept für Reichtum.
+
+Wir Deutschen sind ja besonders bekannt für unsere Autos. Aber wie wird ein Auto hergestellt? TODO
 
 
 # Dieser Kurs ist anders
@@ -878,6 +897,18 @@ In anderen Lektionen sind die Sätze komplizierter, weil ich über wichtige und 
 Kurzfristig gesehen, möchtest du die A1-Prüfung bestehen. Das ist schön und gut -- dieser Kurs wird dir dabei helfen. Am Ende des Kurses (wenn du meinen Anweisungen folgst) wirst du genug einfache Sätze sprechen können, um diese Prüfung zu bestehen.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Die Unendliche Geschichte
 # Schneewittchen
 # Rumpelstilzchen
@@ -887,8 +918,8 @@ Kurzfristig gesehen, möchtest du die A1-Prüfung bestehen. Das ist schön und g
 
 
 
-Jetzt: 7971
-Ziel:  8971
+Jetzt: 8999
+Ziel:  9999
 
 
 
