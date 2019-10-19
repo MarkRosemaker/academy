@@ -53,13 +53,17 @@ audio = ''
   - [Dieser Kurs ist nicht einfach](#dieser-kurs-ist-nicht-einfach)
 - [Deutsche Visionäre](#deutsche-visionäre)
   - [der Neuzeit](#der-neuzeit)
+    - [New Made in Germany – Deutsche Startups starten durch | Abenteuer Leben](#new-made-in-germany--deutsche-startups-starten-durch--abenteuer-leben)
   - [der Vergangenheit](#der-vergangenheit)
+    - [Vordenker und Visionäre: 50 deutsche Vorbilder (Zeit)](#vordenker-und-visionäre-50-deutsche-vorbilder-zeit)
+      - [Vorbild – das ist ein großes Wort](#vorbild--das-ist-ein-großes-wort)
 - [Visionäre](#visionäre)
   - [Elon Musk](#elon-musk)
   - [Jeff Bezos](#jeff-bezos)
 - [Eselsbrücken](#eselsbrücken)
 - [Meditation](#meditation)
 - [Grundgesetz](#grundgesetz)
+- [Pokemon](#pokemon)
 - [Die Unendliche Geschichte](#die-unendliche-geschichte)
 - [Schneewittchen](#schneewittchen)
 - [Rumpelstilzchen](#rumpelstilzchen)
@@ -911,9 +915,37 @@ Kurzfristig gesehen, möchtest du die A1-Prüfung bestehen. Das ist schön und g
 
 https://www.handelsblatt.com/today/companies/top-innovators-germanys-quiet-visionaries-part-x/23568432.html?ticket=ST-17499302-ofrxfa5YI9HkfZj1YKvw-ap3
 
+
+### New Made in Germany – Deutsche Startups starten durch | Abenteuer Leben
+
+https://www.youtube.com/watch?v=C35NDfH6wgQ
+
+- "Deutsche Kunden sind kritischer als anderswo. Wer es in Deutschland schafft, der schafft es angeblich überall."
+- "Markus Schranner vom Verein Startup Germany will jungen deutschen Gründern helfen."
+  - "Deutschland hat eine hervorragende Infrastruktur, Deutschland hat eine gute Bildung, Deutschland ist definitiv eines der besten Länder, um eine Unternehmung zu gründen. Ich würde das auch jeden empfehlen, weil wir, glaube ich, an vielen Stellen einfach das Land auch schlechter reden, als es ist."
+- Nils Wagner: Portmonnaie aus Kunststofffasern (Tyvek) -> reißfest, wasserfest
+  - Tyvek drucken ~ 100 mal so teuer wie Papier
+  - 35.000 € selbst investiert
+  - in die USA expandieren
+- Vincent Brass und Frederic Böert
+- neuwertige Kissen
+
 ## der Vergangenheit
 
+### Vordenker und Visionäre: 50 deutsche Vorbilder (Zeit)
+
 https://www.zeit.de/themen/wissen/50-deutsche-vorbilder/index
+
+#### Vorbild – das ist ein großes Wort
+
+- nicht dabei:
+  - Dürer
+    - [Betende Hände](https://de.wikipedia.org/wiki/Betende_H%C3%A4nde)
+    - [Die vier Apostel](https://de.wikipedia.org/wiki/Die_vier_Apostel)
+  - Bach
+    - [Matthäus-Passion](https://de.wikipedia.org/wiki/Matthäus-Passion_(J._S._Bach))
+  - Beethoven, Kant, Hegel, Heine, Wilhelm Busch, Blum, Bismarck, Bebel, Stresemann
+-
 
 # Visionäre
 
@@ -947,7 +979,9 @@ Both Gary and Grant Cardone have tremendous energy and drive (actually all four)
 
 
 
+# Pokemon
 
+https://www.youtube.com/watch?v=s2119-wrJo0
 
 
 # Die Unendliche Geschichte
