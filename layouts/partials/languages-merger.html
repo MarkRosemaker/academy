@@ -101,7 +101,7 @@
                 {{ if $.second.Site.Params.checkForTranslation }}
                     {{ errorf "Missing translation in %s." $.second }}
                 {{ end }}
-                {{ $merged = print $merged "<br>NO TRANSLATION FOUND PLEASE TELL MARK" }}
+                {{ $merged = print $merged "<br>NO TRANSLATION FOUND <span lang=" $s_lang " class=trans>PLEASE TELL MARK</span>" }}
             {{ end }}
         {{ end }}
 

@@ -78,7 +78,7 @@ Weil die Tomate lecker *schmeckt*, *isst* er sie.
 
 *Isst* du Tomaten?
 
-{< notice type="Analyse" >}}
+{{< notice type="Analyse" >}}
 
 Nutze nun auch die anderen Modi. (Klicke dazu unten auf "Genera" und dann "Wortarten".)
 

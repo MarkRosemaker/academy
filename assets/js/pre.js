@@ -13,7 +13,10 @@ var lh = document.getElementById('lecture_heading'); // lecture heading
 var lecture_name = 'Lesson'; // variable for the mp3 player
 lh.innerHTML = lh.innerHTML.replace('fa fa-download','fa fa-file-text');
 lecture_name = lh.innerHTML.split('&nbsp;')[1].trim(); // lecture name
-lh.appendChild(document.getElementById('lh-trans'));
+var node = document.getElementById('lh-trans')
+if (node) {
+  lh.appendChild(node);
+}
 
 // Get body class list which we'll need often.
 var b = document.body.classList;

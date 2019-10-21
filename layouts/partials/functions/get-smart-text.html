@@ -16,7 +16,7 @@
     {{ $basic_forms := .Site.Data.basic_forms }}
     {{ $custom_words := .Site.Data.custom_words }}
 
-    <!-- Clean up the input. -->
+    <!-- Put category notice in front, clean up the input. -->
     {{ $cat    := partial "category-notice.html" . }}
     {{ $input  := print $cat .Content | replaceRE "\n" ""  | replaceRE "\\s+" " " }}
 
@@ -26,145 +26,191 @@
     <!-- Keep track if it's the start of a sentence. -->
     {{ $sentence_start := true }}
 
-    <!-- Seperate text from html brackets. -->
+    <!-- Split the text whenever there's a tag. -->
     {{ range split $input "<" }}
+         <!-- Seperate text from html tags. -->
         {{ $tag  := . | replaceRE "(.*>).*" "$1" }}
         {{ $text := . | replaceRE ".*>" "" }}
 
         {{ with $tag }}
             {{ $html_slice = $html_slice | append "<" . }}
+
+            <!-- A new sentence has started when the first tag is <div>, <p>, or <label>. -->
+            {{ if findRE "\\Adiv|\\Ap|\\Alabel" $tag }}
+                {{ $sentence_start = true }}
+            {{ end }}
         {{ end }}
 
-        {{ if findRE "\\Adiv|\\Ap|\\Alabel" $tag }}
-            {{ $sentence_start = true }}
-        {{ end }}
-
+        <!-- Split the text into words. -->
         {{ range split $text " " }}
             <!-- Seperate the word from surrounding characters. -->
-            {{ $word := . | replaceRE "&.*?;.*|[^A-Za-zöäüßÖÄÜ_-]" "" }}
+            {{ $word := . | replaceRE "&.*?;.*|[^A-Za-zöäüßÖÄÜ_-]" "" | replaceRE "'" "’" }}
 
             {{ if not (in . $word)}}
                 {{ errorf "Something went wrong analyzing '%s'. The extracted word is '%s'." . $word }}
             {{ end }}
 
+            <!-- Get the characters before and after the word. -->
             {{ $pre  := . | replaceRE (print $word ".*") "" }}
             {{ $post := . | replaceRE (print ".*" $word ) "" }}
 
             {{ with $word }}
+                <!-- Add any characters before the word. -->
                 {{ $html_slice = $html_slice | append $pre }}
 
-                {{ $words := index $.Site.Data.splittable . | slice $word }}
+                <!--
+                    Create little "packages", one for each word part.
+                    (Only a small number of words have more than one part, like "Facebook-Group" into "Facebook" and "Group".)
+                -->
+                {{ $packages := slice }}
 
-                {{ $html_words := slice }}
-                {{ range $words }}
-                    {{ $word := . }}
+                {{ with index $.Site.Data.splittable $word }}
+                    <!-- Split the word into parts. -->
 
-                    <!-- We might search for the lowercase version but still want to display the original word. -->
+                    {{ $left  := $word }}<!-- what's left to analyze -->
+
+                    {{ range . }}
+                        {{ $search := . }}
+                        {{ $write  := . }}
+                        {{ if not (in $word $write) }}
+                            {{ $write = lower $write }}
+                            {{ if not (in $word $write) }}
+                                {{ errorf "Something went wrong analysizing a split word: '%s' does not seem to be a part '%s'" $write $word }}
+                            {{ end }}
+                        {{ end }}
+
+                        <!-- If what's left does not begin with the word ... -->
+                        {{ with replaceRE (print $write ".*") "" $left }}
+                            <!-- ... add a package that we do not search for ... -->
+                            {{ $packages = $packages | append (dict "search" "" "write" .) }}
+                            <!-- and delete that part from what's left. -->
+                            {{ $left = $left | replaceRE (print "\\A" .) "" }}
+                        {{ end }}
+
+                        <!-- Add the new package. -->
+                        {{ $packages = $packages | append (dict "search" $search "write" $write) }}
+                        <!-- Delete part from what's left. -->
+                        {{ $left = $left | replaceRE (print "\\A" $write) "" }}
+                    {{ end }}
+
+                    {{ with $left }}
+                        {{ errorf "Didn't analyze the whole word, there '%s' left." $left }}
+                    {{ end }}
+
+                {{ else }}
                     {{ $search := $word }}
 
                     <!-- Check capitalization. -->
                     {{ if $sentence_start }}
-                        {{ $lower := lower $word }}
+                        {{ $lower := lower $search }}
 
                         {{ if or (isset $basic_forms $lower) (isset $vocab $lower) (isset $custom_words $lower) }}
                             <!-- We know the lower variant is correct because we found it in our maps. -->
                             {{ $search = $lower }}
-                        {{ else if not (or (isset $basic_forms $word) (isset $vocab $word) (isset $custom_words $word)) }}
+                        {{ else if not (or (isset $basic_forms $search) (isset $vocab $search) (isset $custom_words $search)) }}
                             <!-- We must know, set word into a json data map (even if value is empty). -->
                             {{ if and $.Site.Params.Debug.Capitalization (not $.Draft) }}
-                                {{ errorf "Capitalization of \"%s\" unknown. Please add the word to 'data/basic_forms.json'." $word }}
+                                { errorf "Capitalization of \"%s\" unknown. Please add the word to 'data/basic_forms.json'." $word }}
                             {{ end }}
                         {{ end }}
                     {{ end }}
 
-                    <!-- Get word info from our custom words or Wiktionary. -->
-                    {{ $info := dict }}
-                    {{ with index $custom_words $search }}
-                        {{ $info = . }}
-                    {{ else }}
-                        {{ $info = partial "functions/get-word-info.html" (dict "Word" $search "Data" $.Site.Data) }}
-                    {{ end }}
-
-                    <!-- Check for basic forms. -->
-                    {{ $basic_form := index $basic_forms $word | default $info.basic_form }}
-
-                    <!-- Collect all the attributes and classes of the link element. -->
-                    {{ $attr := dict "basic-form" $basic_form }}
-                    {{ $s.Set "attr" $attr }}
-                    {{ $html_classes := slice }}
-
-                    {{ $id := $search | lower | urlize }}
-                    {{ if len (findRE "\\A[A-ZÄÖÜ]" $search) }}
-                        {{ $id = print $id "_cap" }}
-                    {{ end }}
-
-                    {{ with $info.html }}
-
-                        <!-- Make the word into a popup element. -->
-                        {{ $url := urlize $id | print "#word_" }}
-                        {{ $s.SetInMap "attr" "href" $url }}
-                        {{ $s.SetInMap "attr" "data-rel" "popup" }}
-                        {{ $s.SetInMap "attr" "data-transition" "pop" }}
-                        {{ with $info.translation }}
-                            {{ $s.SetInMap "attr" "title" (print "\"" . "\"") }}
-                        {{ end }}
-
-                        {{ if not (isset $popups $id) }}
-                            <!--
-                                Add the html to the popup contents below the text.
-                                Not used any more:
-                                    data-dismissible=\"true\"
-                                    data-position-to=\"window\"
-                            -->
-                            {{ $popup := print "<div class=ui-content data-role=popup id=word_" (urlize $id) " data-overlay-theme=a data-position-to=origin><a href=# data-rel=back class=\"ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right\">Schließen</a>" . "</div>" }}
-                            {{ $s.SetInMap "popups" $id $popup }}
-                        {{ end }}
-
-                        <!-- Define classes of the text element. -->
-                        {{ $html_classes = $html_classes | append "word-info" "ui-btn-inline" }}
-                    {{ end }}
-
-                    <!-- Add word types. -->
-                    {{ range $info.word_classes }}
-                        {{ $html_classes = $html_classes | append (replace . " " "-") }}
-                        {{ $word_classes_all = $word_classes_all | append . }}
-                    {{ end }}
-
-                    <!-- Add audio file, if available. -->
-                    {{ with $info.audio }}
-                        {{ $s.SetInMap "attr" "audio" . }}
-                        {{ $html_classes = $html_classes | append "audio-available" }}
-                    {{ end }}
-
-                    <!-- Check if it's an important word. -->
-                    {{ with index $vocab $info.basic_form }}
-                        {{ $html_classes = $html_classes | append "important" }}
-                        {{ $learned_words = $learned_words | append $info.basic_form }}
-                    {{ end }}
-
-                    {{ $html_word := "" }}
-                    {{ with $html_classes }}
-                        {{ $html_word = "<a " }}
-                        {{ range $a, $k := $attr }}
-                            {{ $html_word = print $html_word $a "=" $k " " }}
-                        {{ end }}
-                        {{ $html_word = print $html_word "class=\"" (delimit $html_classes " ") "\">" $word "</a>" }}
-                    {{ else }}
-                        {{ if and $.Site.Params.Debug.MissingWords (not $.Draft) }}
-                            {{ errorf "Could not find word \"%s\"." . }}
-                        {{ end }}
-                        {{ $html_word = print $html_word . "*" }}
-                    {{ end }}
-                    {{ $html_words = $html_words | append $html_word }}
-                {{ end }}
-                {{ if eq (len $word) 1}}
-                    {{ $html_slice = $html_slice | append (index $html_words 0) $post " " }}
-                {{ else }}
-                    {{ $html_slice = $html_slice | append (delimit $html_words "-") $post " " }}
-
+                    {{ $packages := slice (dict "search" $search "write" $word) }}
                 {{ end }}
 
-                {{ $sentence_start = or (in $post ".") (in $post "!") (in $post "?") }}
+                {{ $html_words := slice }}
+                {{ range $p := $packages }}
+
+                    {{ with $p.search }}
+                        <!-- Get word info from our custom words or Wiktionary. -->
+                        {{ $info := dict }}
+                        {{ with index $custom_words $p.search }}
+                            {{ $info = . }}
+                        {{ else }}
+                            {{ $info = partial "functions/get-word-info.html" (dict "Word" $p.search "Data" $.Site.Data) }}
+                        {{ end }}
+
+                        <!-- Check for basic forms. -->
+                        {{ $basic_form := index $basic_forms $p.search | default $info.basic_form }}
+
+                        <!-- Collect all the attributes and classes of the link element. -->
+                        {{ $attr := dict "basic-form" $basic_form }}
+                        {{ $s.Set "attr" $attr }}
+                        {{ $html_classes := slice }}
+
+                        {{ $id := $p.search | lower | urlize }}
+                        {{ if len (findRE "\\A[A-ZÄÖÜ]" $p.search) }}
+                            {{ $id = print $id "_cap" }}
+                        {{ end }}
+
+                        {{ with $info.html }}
+
+                            <!-- Make the word into a popup element. -->
+                            {{ $url := urlize $id | print "#word_" }}
+                            {{ $s.SetInMap "attr" "href" $url }}
+                            {{ $s.SetInMap "attr" "data-rel" "popup" }}
+                            {{ $s.SetInMap "attr" "data-transition" "pop" }}
+                            {{ with $info.translation }}
+                                {{ $s.SetInMap "attr" "title" (print "\"" . "\"") }}
+                            {{ end }}
+
+                            {{ if not (isset $popups $id) }}
+                                <!--
+                                    Add the html to the popup contents below the text.
+                                    Not used any more:
+                                        data-dismissible=\"true\"
+                                        data-position-to=\"window\"
+                                -->
+                                {{ $popup := print "<div class=ui-content data-role=popup id=word_" (urlize $id) " data-overlay-theme=a data-position-to=origin><a href=# data-rel=back class=\"ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right\">Schließen</a>" . "</div>" }}
+                                {{ $s.SetInMap "popups" $id $popup }}
+                            {{ end }}
+
+                            <!-- Define classes of the text element. -->
+                            {{ $html_classes = $html_classes | append "word-info" "ui-btn-inline" }}
+                        {{ end }}
+
+                        <!-- Add word types. -->
+                        {{ range $info.word_classes }}
+                            {{ $html_classes = $html_classes | append (replace . " " "-") }}
+                            {{ $word_classes_all = $word_classes_all | append . }}
+                        {{ end }}
+
+                        <!-- Add audio file, if available. -->
+                        {{ with $info.audio }}
+                            {{ $s.SetInMap "attr" "audio" . }}
+                            {{ $html_classes = $html_classes | append "audio-available" }}
+                        {{ end }}
+
+                        <!-- Check if it's an important word. -->
+                        {{ with index $vocab $info.basic_form }}
+                            {{ $html_classes = $html_classes | append "important" }}
+                            {{ $learned_words = $learned_words | append $info.basic_form }}
+                        {{ end }}
+
+                        {{ $html_word := "" }}
+                        {{ with $html_classes }}
+                            {{ $html_word = "<a " }}
+                            {{ range $a, $k := $attr }}
+                                {{ $html_word = print $html_word $a "=" $k " " }}
+                            {{ end }}
+                            {{ $html_word = print $html_word "class=\"" (delimit $html_classes " ") "\">" $p.write "</a>" }}
+                        {{ else }}
+                            {{ if and $.Site.Params.Debug.MissingWords (not $.Draft) }}
+                                {{ errorf "Could not find word \"%s\"." . }}
+                            {{ end }}
+                            {{ $html_word = print $html_word . "*" }}
+                        {{ end }}
+                        {{ $html_slice = $html_slice | append $html_word }}
+
+                    {{ else }}
+                        <!-- Write the hyphen or similar. -->
+                        {{ $html_slice = $html_slice | append $p.write }}
+                    {{ end }}
+
+                    {{ $html_slice = $html_slice | append $post " " }}
+                {{ end }}
+
+                {{ $sentence_start = or (in $post ".") (in $post "!") (in $post "?") }}<!-- TODO IMPROVE with regex-->
             {{ else }}
                 {{ $html_slice = $html_slice | append . " " }}
             {{ end }}

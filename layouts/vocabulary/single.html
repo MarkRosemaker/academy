@@ -1,0 +1,56 @@
+
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+{{ with .Page.Resources.GetMatch "*.html" }}
+    <!-- Get thte content of the html file which is export of WorkFlowy. -->
+    {{ $wf := .Content }}
+
+    <!-- Make it work across lines. -->
+    {{ $wf = $wf | replaceRE "\n" "" }}
+
+    <!-- Take only the inner part. -->
+    {{ $wf = $wf | replaceRE ".*<body>\\s+<.*?>(.*)<.*?>\\s+</body>.*" "$1" }}
+
+    {{ $vocab := dict }}
+
+    {{ $.Scratch.Set "vocab" $vocab }}
+
+    {{ range findRE "<outline text=\".*?\"" $wf }}
+        {{ $word := . | replaceRE "<outline text=\"(.*?)\"" "$1" }}
+        {{ if not (findRE "\\A\\*" $word) }}
+
+        {{ $examples := slice }}
+
+        <!-- Seperate the word from the example. -->
+        {{ if in $word "_" }}
+            {{ $examples = $examples | append (replaceRE ".*_ " "" $word) }}
+            {{ $word = $word | replaceRE " _.*" "" }}
+        {{ end }}
+
+        {{ $regex := $word }}
+
+        {{ $info := dict "examples" $examples "regex" $regex }}
+
+        {{ $.Scratch.SetInMap "vocab" $word $info }}
+        {{ end }}
+    {{ end }}
+
+    {{ len $vocab }} Vokabeln:
+    <ol>
+    {{ range $word, $info := $vocab }}
+        <li>"{{ $word }}"
+            <ul>
+                {{ range $k, $v := $info }}
+                    <li>{{ $k }}: {{ $v }}</li>
+                {{ end }}
+            </ul>
+        </li>
+    {{ end }}
+    </ol>
+    <div style="margin-bottom: 30px;"><textarea rows="40" cols="50" data-role="none">{{ $wf }}</textarea></div>
+
+{{ end }}
+
+{{ partial "footer.html" . }}

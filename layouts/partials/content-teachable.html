@@ -21,7 +21,6 @@
         {{- partial "print-hashtags.html" $trans -}}
     </span>
 
-
     <!-- Info -->
     <p id="word-count">
         {{ if or $.Draft .Draft }}DRAFT{{ end }}
@@ -40,8 +39,9 @@
     {{- else -}}
         <!-- Display both languages side by side. -->
         {{ $cat    := partial "category-notice.html" $page }}
-        {{ $second := dict "Content" (print $cat $page.Content)}}
-        {{- $content = partial "languages-merger.html" (dict "first" $smart_text "second" $second) -}}
+        {{ $first := dict "Content" (print (partial "category-notice.html" .) $smart_text.Content) }}
+        {{ $second := dict "Content" (print $cat $page.Content) }}
+        {{- $content = partial "languages-merger.html" (dict "first" $first  "second" $second) -}}
     {{- end -}}
 
     <!-- Search for Categories to abbreviate. -->
@@ -58,9 +58,6 @@
             {{ $content = replace $content . (print "<input type='checkbox' data-role=none id=" $id "><label class=toggle for=" $id ">" $label "</label><div class=toggle>" .)  }}
         {{ end }}
     {{ end }}
-
-
-
 
     <!-- Wrap everything that is not a notice. -->
     {{- $content = print "<div class=main>" $content "</div>" | replaceRE "<div class=main></div>" "" | safeHTML -}}

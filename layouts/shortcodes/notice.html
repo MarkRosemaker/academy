@@ -3,8 +3,8 @@
 {{- $title := "" -}}
 
 {{- if eq "de" $.Page.Lang -}}
-    {{- $subtype  = index .Params 0 | default "" -}}
-    {{- $title = index .Params 1 | default $subtype | default "Ohne Titel" -}}
+    {{- $subtype  = .Get 0 | default "" -}}
+    {{- $title = .Get 1 | default $subtype | default "Ohne Titel" -}}
 
     {{ range $t, $subtypes := $.Site.Data.notice_types }}
         {{ if in $subtypes $subtype }}
@@ -13,7 +13,7 @@
     {{ end }}
 
 {{- else -}}
-    {{- $title = index .Params 0 | default "MISSING TRANSLATION" -}}
+    {{- $title = .Get 0 | default "MISSING TRANSLATION" -}}
 {{- end -}}
 
 </div><!-- ending div.main -->
@@ -21,7 +21,8 @@
     <div class=title>{{ $title }}</div>
     <div class=content>
 
+    {{ $inner := $.Inner | markdownify }}
     <!-- Print Inner with proper paragraphs. -->
-    {{- print "<p>" $.Inner "</p>" | replaceRE "\\s*\n\\s*" "</p><p>" | replaceRE "<p></p>" "" | safeHTML -}}
+    {{- print "<p>" $inner "</p>" | replaceRE "\\s*\n\\s*" "</p><p>" | replaceRE "<p></p>" "" | safeHTML -}}
 
 </div></div><div class=main><!-- starting div.main -->
