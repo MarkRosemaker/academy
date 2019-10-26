@@ -1,0 +1,5 @@
+{{ $trans := . }}
+{{ range findRE "[A-Za-zÖÄÜöäü]+" . }}
+    {{ $trans = replace $trans . (i18n .) }}
+{{ end }}
+{{ return $trans }}

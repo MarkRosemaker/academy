@@ -1,5 +1,5 @@
 +++
-title = Die Geschichte"
+title = "First Draft"
 date =- 2019-09-13T18:12:02+02:00
 weight = 0
 
@@ -9,18 +9,769 @@ spellchecked = false
 audio = ''
 +++
 
-- [Carlos kommt in Deutschland an](#carlos-kommt-in-deutschland-an)
-- [Carlos stellt sich vor](#carlos-stellt-sich-vor)
-- [Carlos erster Tag](#carlos-erster-tag)
-- [Carlos trifft einen Bayern](#carlos-trifft-einen-bayern)
-- [Jacob Fischer](#jacob-fischer)
+# Totale Immersion von Anfang an: wie du effektiv Deutsch lernst
+
+## Freut mich, dich kennenzulernen!
+
+Hallo! Guten Tag!
+
+Ich bin Mark.
+
+Willkommen im Anfängerkurs Deutsch!
+
+Toll, dass du die deutsche Sprache lernst.
+
+Du wirst sie lieben!
+
+Es ist eine wunderbare Sprache.
+
+Keine Sorge, es ist nicht schwer, Deutsch zu lernen.
+
+Also, fangen wir an...
+
+Guten Tag! Ich heiße Mark. Ich komme aus Berlin.
+
+Wie heißt du? Stell dich bitte vor. [vorstellen]
+
+Jetzt du! Stelle dich vor. Du kannst sagen: "Ich heiße ..."
+
+
+Ich komme aus Berlin.
+
+Woher kommst du?
+
+
+
+Du kannst sagen: "Ich komme aus ..."
+
+
+Ah, ich verstehe. Freut mich, dich kennenzulernen! [kennenlernen]
+
+Ich wünsche dir viel Erfolg und viel Spaß mit diesem Kurs!
+
+Bist du bereit? Dann sage jetzt: “Ja!”
+
+In Ordnung, los geht’s!
+
+Wir sehen uns in der nächsten Lektion.
+
+
+# Lerne die Grundlagen des Deutschen in einer Stunde!
+
+## Der Apfel
+
+Ich esse einen Apfel.
+
+Der Apfel ist grün. 🍏
+
+Es ist mein Apfel.
+
+Ich gebe Susie einen roten Apfel. Ich gebe ihr ihn.  🍎
+
+Susie gibt Paul den Apfel. Sie gibt ihm ihn.
+
+Wir geben ihm den Apfel.
+
+Die Tomate ist auch rot. 🍅
+
+Es ist Pauls Tomate. Es ist seine Tomate.
+
+Er gibt sie mir. Er gibt mir die Tomate.
+
+Er hat sie nicht Susie gegeben.
+
+Er hat mir die Tomate gegeben.
+
+Paul möchte die Tomate.
+
+Ich muss sie ihm geben.
+
+Ich möchte die Tomate Susie geben. Ich möchte sie ihr geben.
+
+Paul möchte sie essen.
+
+Nein, nicht Susie – die Tomate! Paul möchte die Tomate essen.
+
+Er *aß* gestern eine leckere Tomate.
+
+Gestern *aß* er eine leckere Toamte.
+
+Er *hat* gestern eine leckere Tomate *gegessen*.
+
+Gestern *hat* er eine leckere Tomate *gegessen*.
+
+Paul *isst* die Tomate, weil sie lecker *schmeckt*.
+
+Weil die Tomate lecker *schmeckt*, *isst* er sie.
+
+*Isst* du Tomaten?
+
+## Bewege dich viel!
+
+Ich bin mir sicher, dass dir dieser Kurs sehr viel Spaß machen wird.
+
+Die Lektionen sind nicht lang, sodass du sie in kurzer Zeit erledigen kannst.
+
+Übe jeden Tag ein bisschen – oder mehr!
+
+So wirst du in kurzer Zeit Deutsch lernen.
+
+Bewege dich viel.
+
+Wenn dein Körper aktiv ist, dann ist es leichter für deinen Geist, aktiv zu sein.
+
+Lass uns anfangen.
+
+Ich sitze (auf einem Stuhl). Du sitzt auch, oder?
+
+Jetzt stehe ich. Stehe bitte auf.
+
+Ich strecke mich.
+
+Jetzt du: Streck dich!
+
+Sehr gut. Du streckst dich.
+
+Wir strecken uns.
+
+Ich bewege meinen Kopf nach links und nach rechts.
+
+Bewege auch du deinen Kopf nach links und nach rechts.
+
+Ich bewege meine Arme und Beine – ganz schnell!
+
+Jetzt mache ich es ganz langsam.
+
+Lass uns springen!
+
+Ich springe.
+
+Jetzt du: Spring!
+
+Sehr gut. Du springst.
+
+Wir springen.
+
+Sehr gut! Fantastisch.
+
+Ich hebe meine Beine.
+
+Kannst du das auch machen?
+
+Ja, du kannst das auch machen! Toll!
+
+Wir machen zusammen Sport.
+
+Höher kann ich mein Bein nicht heben. Das ist nicht möglich für mich.
+
+Lass uns die erste Übung wiederholen. Wir strecken uns noch einmal.
+
+Gut gemacht, toll!
+
+## Das Vaterunser
+
+Eine Version des Vaterunsers auf Deutsch lautet:
+- Vater unser im Himmel, geheiligt werde dein Name.
+- Dein Reich komme.
+- Dein Wille geschehe, wie im Himmel, so auf Erden.
+- Unser tägliches Brot gib uns heute.
+- Und vergib uns unsere Schuld, wie auch wir vergeben unsern Schuldigern.
+- Und führe uns nicht in Versuchung, sondern erlöse uns von dem Bösen.
+- Denn dein ist das Reich und die Kraft und die Herrlichkeit in Ewigkeit.
+- Amen.
+
+## Meine Wohnung
+
+### Der Eingang
+
+Ich zeige dir jetzt meine Wohnung.
+Meine Wohnung ist kein Haus, sondern ein Apartment.
+
+Dies der der Eingang zum Gebäude.
+Zuerst müssen wir nach oben.
+
+Ich kann den Aufzug nehmen.
+Ich nehme aber die Treppe, um sportlich zu seinn.
+
+Dies ist die Tür zu meiner Wohnung.
+Sie ist verschlossen. Die Tür ist zu.
+Dies ist der Schlüssel für die Wohnung. Ich schließe die Tür auf.
+Jetzt öffne ich die Tür. Sie ist auf. Ich mache die Tür hinter mir zu.
+
+Es gibt mehrere Räume, mehrere Zimmer.
+
+### Die Küche und die Lebensmittel
+
+Dies ist die Küche.
+
+Kannst du kochen? Ich koche sehr gerne. Ich esse noch viel lieber!
+Mit dem Herd mache ich das Essen warm.
+
+Ich öffne diesen Schrank. Die Gläser stehen im Schrank.
+
+Ich habe Durst. Ich trinke ein bisschen Wasser.
+
+Ich habe auch Kaffee und Tee. Wasser, Kaffee und Tee sind Getränke.
+Der Kaffee riecht gut, aber er schmeckt ein bisschen bitter. [riechen]
+In dieser Tasse ist Pfefferminztee. Ich mag Tee mehr als Kaffe. [mögen]
+
+Hier habe ich einen Wein. Wein ist ein alkoholisches Getränk, welches aus Trauben hergestellt wird. Der Wein riecht und schmeckt sehr gut. Käse passt gut zum Wein.
+Dies ist eine Flasche Bier. Wir Deutschen sind sehr bekannt für unser Bier.
+Ich trinke selten Wein oder Bier. Manche Leute trinken gar keinen Alkohol.
+
+Hast du Hunger? Lass uns schauen, welche Lebensmittel im Kühlschrank sind.
+
+Das ist Butter, welche gut zum Braten ist.
+
+Es gibt auch drei Getränke im Kühlschrank: Milch und zwei Säfte, Apfelsaft und Tomatensaft. Mein Lieblingsgetränk ist Orangensaft, aber es ist sehr süß.
+Veganer trinken keine Milch.
+
+Hier ist auch ein bisschen Fleisch: Schinken und Hähnchen. Schinken ist Fleisch von einem Schwein; Hähnchen ist ein totes Huhn.
+Hier unten ist eine Dose mit Fisch.
+Vegetarier trinken Milch und essen Butter, aber sie essen kein Fleisch.
+
+Vegetarier essen aber Gemüse. Ich habe hier rote Tomaten.
+Wenn man viel Gemüse hat, kann man daraus einen Salat machen – einen Gemüsesalat.
+
+Wie wäre es mit Obst? In meinem Obstkorb ist ein Apfel, eine Birne und zwei Bananen.
+Immer Sommer kann man in Deutschland besonders leckere Äpfel kaufen.
+Ich habe genug Obst, um einen Obstsalat zu machen.
+
+Hier ist ein bisschen Brot.
+
+Dies ist eine Kartoffel. Kartoffeln sind ein Teil vieler deutscher Gerichte.
+Wenn man Kartoffeln klein schneidet und in Öl frittiert, bekommt man Pommes frites – oder kurz: Pommes.
+Man kann die Kartoffeln auch braten, entweder mit Öl oder mit Butter. Bratkartoffeln sind in Deutschland sehr beliebt.
+
+Jetzt habe ich sehr viel Appetit bekommen. Mmh, das schmeckt lecker. [schmecken]
+Hast du auch Hunger? Hier, nimm. Guten Appetit!
+
+### Das Wohnzimmer
+
+Dies ist das Wohnzimmer.
+Lass uns die Möbel anschauen.
+Mir gefällt das Sofa. Es ist schön.
+Auf dem Tisch liegt ein Buch.
+Der Schrank ist zwei Meter breit.
+
+### Das Bad
+
+Wo ist die Toilette? Ah, sie ist hier.
+Das ist das Bad
+
+Es gibt keine Badewanne, nur eine Dusche.
+Ich bade nicht so gern, ich dusche lieber. [baden,duschen]
+
+### Das Schlafzimmer und der Rest
+
+Dies ist das Schlafzimmer. Hier schlafe ich.
+Das Bett ist neu.
+
+Ich habe leider keinen Garten und auch keinen Balkon.
+Wir schauen aus dem Fenster. Wie du siehst, sind wir im ersten Stock.
+
+Die Wohnung gehört mir nicht; sie gehört dem Vermieter. Der Vermieter vermietet mir die Wohnung. [vermieten]
+Ich miete die Wohnung. Ich bin der Mieter; ich miete die Wohnung vom Vermieter.
+
+Die Wohnung gefällt mir. Ich bin mit der Wohnung sehr zurfieden. Ich wohne hier gerne.
+Leider werde ich in zwei Monaten umziehen. Schade.
+
+## Du kennst diese Wörter schon!
+
+### Das Schaf und die Pferde
+
+Ein Schaf, das keine Wolle mehr hatte, sah Pferde, eines einen schweren Wagen fahrend, eines eine große Last, eines einen Menschen schnell tragend.
+
+Das Schaf sprach: Das Herz wird mir eng, wenn ich sehe, dass der Mensch die Pferde antreibt.
+
+Die Pferde sprachen: Höre Schaf, das Herz wird uns eng, weil wir gesehen haben: Der Mensch, der Herr, macht die Wolle der Schafe zu einem warmen Kleid für sich und die Schafe haben keine Wolle mehr.
+
+Als es dies gehört hatte, floh das Schaf auf das Feld.
+
+## Deutschlernen mit Musik: \"Du hast\" von Rammstein
+
+Du, du hast, du hast mich
+Du, du hast, du hast mich
+Du, du hast, du hast mich
+Du, du hast, du hast mich
+
+Du, du hast, du hast mich, du hast mich
+Du hast mich gefragt, du hast mich gefragt
+Du hast mich gefragt und ich hab' nichts gesagt
+
+Willst du bis der Tod euch scheidet
+Treu ihr sein für alle Tage?
+(Ja) Nein
+(Ja) Nein
+Willst du bis zum Tod, der scheide
+Sie lieben auch in schlechten Tagen?
+(Ja) Nein
+(Ja) Nein
+
+Du, du hast, du hast mich
+Du, du hast, du hast mich
+
+## Im Flugzeug
+
+Hier ist die Sicherheitsanweisung der Lufthansa:
+
+"Herzlichen Willkommen!
+
+Meine Damen und Herren, im Namen Ihrer heutigen Lufthansa-Crew möchten wir Sie bitten, sich mit den Sicherheitsvorkehrungen an Bord dieser Maschine vertraut zu machen.
+
+Bitte schenken Sie uns jetzt Ihre Aufmerksamkeit. Vielen Dank.
+
+Wenn Sie etwas in die Fächer über den Sitzen verstauen, achten Sie darauf, dass es nicht herausfallen kann.
+
+Bitte vergewissern Sie sich, dass schweres Handgepäck sicher unter dem Vordersitz verstaut ist.
+
+Wir bitten Sie jetzt, Ihren Sicherheitsgurt zu schließen und festzuziehen.
+
+Um sich wieder loszuschnallen, brauchen Sie den Verschluss des Gurtes nur anzuheben.
+
+Da unerwartete Turbulenzen auftreten können, sind Sie verpflichtet, sich anzuschnallen, sobald Sie Ihren Sitzplatz eingenommen haben. Dies dient Ihrer eigenen Sicherheit.
+
+Dieses Flugzeug hat zwölf (12) Notausgänge. Leuchtstreifen im Boden markieren den Weg zu den Notausgängen.
+
+Sie sind mit dem Wort ‚Exit‘ gekennzeichnet.
+
+Diese Ausgänge haben aufblasbare Rutschen, über die Sie das Flugzeug im Notfall verlassen können.
+
+Sollte der Druck in der Kabine sinken, fallen automatisch Sauerstoffmasken aus der Kabinendecke.
+
+Ziehen Sie die Maske ganz zu sich herunter, um den Sauerstofffluss zu starten.
+
+Drücken Sie sie dann auf Mund und Nase und streifen Sie das elastische Band über Ihren Kopf.
+
+Danach helfen Sie Kindern und Personen, die Hilfe benötigen.
+
+Zu jedem Sitz gehört eine Schwimmweste.
+
+In der First Class finden Sie ihre Schwimmweste unter der Armlehne.
+
+In der Business Class ist sie ebenfalls unter der Armlehne verstaut.
+
+In der Economy Class befindet sich Ihre Schwimmweste unter dem Sitz.
+
+Auf Anweisung der Crew ziehen Sie Ihre Weste über den Kopf.
+
+Befestigen Sie die Gurte vorn. Ziehen Sie dann die Gurte fest.
+
+Unmittelbar bevor Sie das Flugzeug verlassen, ziehen Sie an den roten Griffen, um die Weste aufzublasen.
+
+Falls erforderlich, benutzen Sie die roten Mundschläuche.
+
+Die Signallampe leuchtet im Wasser auf, wenn Sie diese Lasche herausziehen.
+
+Dieser Flug ist ein Nichtraucherflug. Das Rauchen ist während des gesamten Aufenthalts an Bord nicht erlaubt.
+
+Mobiltelefone müssen aufgrund gesetzlicher Bestimmungen ab dem Verlassen der Parkposition ausgeschaltet werden.
+
+Die Benutzung von Funkgeräten und ferngesteuertem Spielzeug ist während des gesamten Aufenthaltes an Bord verboten.
+
+Schalten Sie jetzt bitte alle elektronischen Geräte aus. Nehmen Sie sie erst wieder in Betrieb, wenn die Anschnallzeichen ausgeschaltet worden sind.
+
+Welche Geräte Sie dann benutzen dürfen, entnehmen Sie bitte den Informationen im Lufthansa-Magazin.
+
+Lesen Sie bitte zusätzlich die allgemeinen Hinweise auf der Sicherheitsinstruktion, die Sie im Bereich Ihres Sitzes finden.
+
+Für weitere Informationen steht Ihnen ebenfalls das Lufthansa-Magazin zur Verfügung.
+
+Auch Ihr Flugbegleiter gibt Ihnen gerne Auskunft.
+
+Wir sind jetzt startbereit. Verstauen Sie bitte die Tische und die Monitore sicher in der vorgesehenen Halterung und stellen Sie Ihre Rückenlehnen senkrecht."
+
+# Das Leben in Deutschland
+
+[this is not immersion]
+
+In den folgenden Lektionen zeige ich dir das Leben eines typischen Deutschen.
+
+Nun, ich bin kein typischer Deutscher – schließlich bin ich dein Online-Deutschlehrer und habe deshalb meine eigene Firma, Authentic German Learning.
+Außerdem bin ich ein digitaler Nomade; das bedeutet, dass ich nur eine Internet-Verbindung zum Arbeiten brauche und die Freiheit genieße, häufig meinen Wohnort zu wechseln.
+
+Allerdings gab es eine Zeit, wo ich ein ziehmlich typisches Leben lebte. Das war meine Zeit als Praktikant bei Bosch.
+
+Lass uns in der Zeit zurück reisen und ich erzähle dir von meinen typisch deutschen Arbeitstagen. Später erzähle ich dir, wie mein Arbeitstag heute aussieht.
+
+## Ein typischer Arbeitstag eines Deutschen
+
+### Die Morgenroutine
+
+Guten Morgen!
+
+Ich bin gerade aufgewacht, da mein Wecker geklingelt hat. Vor ein paar Minuten habe ich noch geschlafen. [schlafen]
+
+Ich gehe ins Bad und dusche mich. [duschen]
+Dann esse ich ein Frühstück in der Küche. Mein Frühstück besteht aus einem Ei, einem Apfel und einer Banane.
+Ich trinke keinen Kaffee, aber ich trinke ein Glas Milch.
+
+### Die Wochentage
+
+Heute ist ein Wochentag, also gehe ich zur Arbeit.
+Wie viele andere Deutsche auch, gehe ich von Montag bis Freitag zur Arbeit, also: Montag, Dienstag, Mittwoch, Donnerstag, Freitag.
+
+Am Wochenende, also am Samstag (oder Sonnabend) und Sonntag, habe ich frei. So, jetzt kennst du alle sieben Tage der Woche!
+
+### Transportmittel
+
+Ich gehe jeden Tag von Montag bis Freitag zu Fuß.
+Die meisten Kollegen fahren mit der S-Bahn – sie kommen mit dem Zug.
+Andere kommen mit dem Bus. Eine Fahrkarte ist nicht teuer.
+Wer Sport mag, fährt mit dem Fahrrad zur Arbeit.
+Der Rest der Kollegen fährt dem Auto. So kommen sie schnell zur Arbeit.
+
+### Auf der Arbeit
+
+Am Vormittag bin ich natürlich schon im Büro. Wir Deutschen sind ja bekannt für unsere Disziplin!
+
+Mein Computer ist aus, also mache ich ihn an. [anmachen]
+
+Was mache ich am Computer? Das darf ich leider nicht sagen, es ist ein Geheimnis. [dürfen]
+
+Am Mittag esse ich zusammen mit meinen Kollegen.
+Meistens essen wir während der Mittagspause in der Firmenkantine. Das ist ein Ort, wo wir für wenig Geld essen können. Die Firma möchte, dass die Mitarbeiter ein günstiges Mittagessen bekommen. [günstig]
+Das ist gut, weil es sehr teuer ist, jeden Tag in einem Restaurant zu essen.
+
+### Feierabend!
+
+Am späten Nachmittag ist Feierabend. Dieses wunderbare Wort, Feierabend, bedeutet, dass die Arbeit getan ist und wir nach Hause gehen können. [wunderbar]
+
+Ich mache meinen Computer aus. Nach ein paar Sekunden ist der Computer aus. [ausmachen]
+
+Ich gehe nach Hause und genieße meinen Abend mit einem kühlen Bier auf meinem Balkon. (Das ist das deutscheste, was ich machen kann.)
+
+In der Nacht schlafe ich natürlich in meinem Bett.
+
+## Ein typischer Sonntag eines Deutschen
+
+Es ist Wochenende!
+
+Am Wochenende lasse ich mir viel mehr Zeit.
+
+Am Vormittag stehe ich auf und gehe in das Badezimmer um zu duschen.
+
+### Das Sonntagsfrühstück
+
+Nach dem Duschen frühstücke ich. [frühstücken]
+Zum Frühstück essen viele Menschen gerne Weißbrot, zum Beispiel Toast oder Brötchen.
+Viele Deutsche kaufen sich Brötchen beim Bäcker, besonders am Sonntag.
+Sonntagbrötchen schmecken nicht nur gut, sie kommen auch mit einem sehr schönen Gefühl. Ich assoziiere diese Brötchen sehr mit dem Wochenende und ruhigen Tagen.
+
+An einem Sonntag darf ein Ei am Frühstückstisch nicht fehlen.
+
+Manche Leute trinken auch Kaffee zum Frühstück, besonders wenn sie noch müde sind.
+Ich trinke keinen Kaffee, ich habe noch nicht einmal eine Kaffeemaschine.
+
+### Der Ausflug
+
+Das Wetter ist schön: Die Sonne scheint und es sind fünfundzwanzig Grad Celsius. [scheinen]
+Da es keine Wolken am Himmel gibt, ist die Sonne sehr hell.
+
+Lass uns einen Ausflug machen!
+Ja, wir machen heute einen Ausflug zum nächsten See.
+
+Wir kaufen uns Tickets – Fahrkarten für den Zug. Wie viel kostet ein Ticket? Eine Fahrkarte kostet zwei Euro dreißig (2,30 €).
+Ich kaufe Tickets am Automaten. [Automat]
+
+So, fertig. Jetzt gehen wir zum Bahnsteig und warten auf den Zug.
+Es dauert nicht lange: Da kommt der Zug. Lass uns einsteigen. Ich steige in den Zug ein.
+Der Zug hält an jeder Haltestelle. [halten]
+So, an dieser Haltestelle müssen wir aussteigen.
+
+Der See ist wunderschön. Ich mache ein Foto.
+
+Oje! Jetzt fängt es an zu regnen. Es regnet. Das Wetter ist schlecht.
+Im Regen ist es hier nicht so schön. Lass uns nach Hause gehen.
+
+### Das Abendbrot
+
+Deutschland ist berühmt für sein gutes Brot. Zum Abendbrot essen wir gerne Schwarzbrot, weil es sehr gesund ist.
+
+Morgen ist Montag. Ich bin nicht traurig, denn ich liebe meine Arbeit.
+
+# Emmas Geschichte
+
+## Wer ist Emma?
+
+Emma Brown ist eine junge Ärztin aus Großbritannien. Sie hat Verwandte in Hannover. Deshalb besucht sie diese Stadt sehr gerne.
+
+Bald ist es wieder soweit: In fünf Tagen fliegt ins Ausland zu ihren Verwandten in Deutschland. [fliegen]
+
+Was heißt Ausland? Deutschland ist schon fast gar nicht mehr Ausland für sie, es ist ihre zweite Heimat.
+
+Da sie schon recht gut Deutsch spricht, fühlt sie sich auch nicht wie eine Ausländerin in Deutschland. [sprechen]
+
+## Emmas Familie
+
+Emma hat eine große Familie. Lass uns lernen, wer ihre Verwandten sind und wie sie zu ihr stehen.
+
+Wie jeder Mensch hat Emma natürlich eine Mutter und einen Vater.
+Emma ist vor sieben Jahren selber Mutter geworden. Das hat sie und ihren Ehemann Thomas sehr glücklich gemacht. Emma ist nämlich die Ehefrau von einem Mann, der Thomas heißt.
+
+Emma  hat zwei Söhne und eine Tochter.
+Ihr ältester Junge ist schon sechs Jahre alt und heißt Oliver. Am 12. (zwölften) September wird er sieben.
+Ihr anderer Sohn ist über zwei Jahre alt. Sein Name ist Max.
+Ihr Mädchen ist noch ein Baby und heißt Marie.
+
+Emma kümmert sich sehr um ihre kleinen Kinder. [kümmern]
+Emma möchte viel Zeit mit ihren Kindern verbringen.
+
+In über zehn Jahren sind ihre Kinder Jugendliche. Danach werden sie Erwachsene.
+Ja, ihre Söhne werden einmal starker Männer werden und ihre Tochter eine starke Frau.
+
+Emma hat zwei Geschwister, einen Bruder und eine Schwester. Ihr Bruder ist fünf Jahre älter als sie, ihre Schwester dreieinhalb Jahre jünger.
+
+Außerdem hat Emma auch eine Oma – Oma Ilse. Ilses Ehemann, also Emmas Großvater Karl, ist leider schon tot. Emmas Opa (Karl) ist vor fünf Jahren gestorben. Ihre Großmutter Ilse war damals sehr traurig.
+Ilse ist die Mutter von Emmas Vater. Die Großeltern mütterlicherseits, also die Eltern von Emmas Mutter, leben beide zum Glück noch.
+
+Schließlich hat Emma einen Onkel, das ist der Bruder ihrer Mutter. Ihr Onkel heißt Michael.
+
+Erstelle jetzt deinen eigenen Stammbaum! Nimm ein großes Blatt Papier, zeichne deinen Stammbaum und klebe Fotos von deinen Familienmitgliedern darauf. Schreibe unter jedem Foto den Namen des oder der Verwandten und was sie für dich sind: Onkel, Tanke, Mutter, Vater, Cousin, Cousine etc.
+Alternativ kannst auch ein Familienfoto finden und aufschreiben, wie jede Person auf dem Bild zu dir steht.
+
+## Der Kindergeburtstag
+
+Außerdem hat Emma viele Freunde und Bekannte, darunter ehemalige Mitschüler aus ihrer Schulzeit und Kollegen von der Arbeit.
+
+Sie hat ein paar von ihnen eingeladen, um den Geburtstag ihres Sohnes Oliver zu feiern. [einladen]
+Emmas Freunde bringen ihre eigenen Kinder, da diese mit Oliver befreundet sind.
+
+Manche Gäste haben sogar ihre Hunde mitgenommen, da dies Oliver auf der Einladung erlaubt hat. [erlauben]
+Oliver freut sich, dass so viele Leute und Hunde ihn besuchen kommen. Er liebt es, neue Freunde zu treffen.
+
+Vor sieben Jahren ist Emmas Sohn Oliver geboren und das muss man feiern!
+Olivers neue Freunde gratulieren ihn: "Herzlichen Glückwunsch zum Geburtstag! Wir gratulieren dir ganz herzlich.", sagen die Freunde zum kleinen Oliver.
+
+Es ist ein schöner Samstag im Herbst. Emmas Freundinnen fragen sie, wie es ihr geht und ob sie sich schon auf ihre Reise nach Deutschland freut.
+"Ja, natürlich!", sagt sie. "Ich freue mich immer, meine Verwandte in Hannover zu besuchen. Außerdem ist Deutschland ein sehr schönes Land."
+
+Alle feiern Olivers Geburtstag. Zum Essen gibt es Kuchen und Süßigkeiten.
+
+Dann spielen die Kinder mit Oliver sein Lieblingsspiel: Topfschlagen.
+Beim Kopfschlagen darf das Kind nicht schauen und sucht einen Topf. Wenn es mit einem Holzlöffel auf den Topf schlägt, hat es gewonnen. [suchen]
+
+https://commons.wikimedia.org/wiki/File:Kindergeburtstag_Topfschlagen.jpg
+
+## Emmas Reise
+
+"Schatz," sagt Emma zu ihrem Ehemann Thomas. "Bald fliege ich nach Deutschland. Passt du gut auf unsere Kinder auf?"
+
+"Na klar," sagt ihr Mann. "Ich passe gut auf die Kleinen auf. Ich wünsche dir einen schönen Urlaub."
+
+### Emma plant ihre Reise zur ihren Verwandten
+
+Emma überlegt, was sie alles in ihrem Gepäck mitnehmen möchte. Was brauchst sie?
+
+Nun, erstmal holt sie ihren Koffer. Da er noch leer ist, ist er sehr leicht. Sie fängt an, ihren Koffer zu packen.
+
+Sie möchte in Hannover joggen, also packt sie zuerst Joggingschuhe ein. Sie läuft nämlich jeden Morgen, auch auf Reisen.
+Sie wird auch wandern, aber dafür nimmt sie einfach die bequemen Schuhe, die sie immer benutzt.
+
+Da sie eine Leseratte ist, nimmt sie auch ein Buch mit. Ein Notizblock und ein Kugelschreiber packt sie auch ein, falls sie sich etwas aufschreiben möchte.
+
+Schließlich darf sie ihre Papiere nicht vergessen: Sie packt ihren Pass sicher in ihrem Koffer.
+Ihren Ausweis hat sie in der Brieftasche, zusammen mit ihrer Kreditkarte und ein bisschen Bargeld.
+
+Diesmal nimmt sie auch ein kleines Geschenk mit, da ihr Onkel bald Geburtstag hat.
+
+### Emmas Flug
+
+Da ihr Flug sehr früh ist, muss Emma um 4 Uhr morgens aufstehen.
+
+Zum Glück ist die Haltestelle für den Bus zum Flughafen nicht weit von ihrer Wohnung entfernt.
+
+Im Flughafen geht sie mit ihrem Koffer zum Schalter. Sie zeigt der Dame ihren Reisepass und ihr Flugticket.
+Alles ist in Ordnung. Emma gibt der Dame ihren Koffer und bekommt ihre Bordkarte.
+
+Sie freut sich sehr auf ihren Urlaub.
+
+
+Wo ist ihr Gepäck?
+
+Reisende [Reisender]
+
+Emma ist Gast bei ihren Verwandten. Sie übernachtet bei ihnen. [übernachten]
+
+Emma bleibt fünf Tage bei ihren Freunden. [bleiben]
+
+
+
+  - *Kleidung
+- die Sehenswürdigkeit, -en _ Welche Sehenswürdigkeiten gibt es in Frankfurt?
+  - besichtigen _ Ich möchte gern den Dom besichtigen.
+  - kulturell _ Ich bin kulturell interessiert. Ich gehe oft ins Museum.
+- zurück _
+  - Der Bus fährt zum Bahnhof.
+  - Ich gehe zu Fuß.
+  - das Meer _ Wir machen Urlaub am Meer.
+  - wandern _ Wir wandern um den Chiemsee.
+- der Ort, -e _ Der Ort liegt am Meer.
+- das Reisebüro, -s _ Mein Mann arbeitet im Reisebüro.
+  - der Reiseführer _
+    - Ich kaufe mir einen Reiseführer von Berlin.
+    - Unser Reiseführer heißt Peter.
+  - der Prospekt, -e _ Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.
+  - die Führung _ Die Führung durch das Haus beginnt in 3 Minuten.
+- das Ausland _ Fahren Sie ins Ausland?
+  - der Ausländer, -/die Ausländerin, -nen _ Sind Sie Ausländerin?
+  - ausländisch _ Leider habe ich nur ausländisches Geld.
+  - fremd _ Das weiß ich nicht; ich bin fremd hier.
+  - der Zoll _ Wir müssen noch durch den Zoll.
+  - die Papiere (pl.) _ Haben Sie Ihre Papiere dabei?
+    - der Ausweis _ Hier ist mein Ausweis.
+    - der Pass, -ä, e _ Im Hotel brauchst du deinen Pass.
+  - *Passfoto _
+- die Abfahrt _ Vor der Abfahrt rufe ich an.
+  - abfahren _ Wir fahren um zwölf Uhr ab.
+- die Ankunft _ Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.
+  - ankommen _ Wann kommt dieser Zug in Hamburg an?
+- der Fahrer _ Bitte nicht mit dem Fahrer sprechen!
+- *Transportmittel
+    - fliegen _ Ich fliege nicht gern. Deshalb fahre ich mit dem Zug.
+    - der Flughafen _ Kannst du mich zum Flughafen bringen?
+    - abfliegen _ Wann fliegst du ab?
+    - der Abflug _ Der Abflug ist um 11.20 Uhr.
+  - der Zug, -ü, e _ Ich fahre gern mit dem Zug.
+    - die Bahn _
+      - Wir fahren lieber mit der Bahn.
+      - Ich nehme die nächste Bahn.
+    - die Klasse _
+      - In unserer Klasse sind fünfundzwanzig Schüler.
+      - Im Zug fahre ich immer 2. Klasse.
+    - der Bahnhof _ Komme ich hier zum Bahnhof?
+    - das Gleis, -e _ Der ICE nach Berlin hält heute an Gleis 12.
+    - der Platz, -ä, e _
+      - Tut mir leid, der Platz ist besetzt.
+      - Bitte nehmen Sie Platz!
+      - Ich wohne Messeplatz 5.
+    - frei _ Ist der Platz noch frei?
+    - *besetzt _ Der Platz ist besetzt.
+  - das Auto, -s _ Er kommt mit dem Auto.
+    - die Autobahn, -en Wo geht‘s hier bitte zur Autobahn?
+    - die Vorsicht _ Vorsicht! Da kommt ein Auto.
+    - fahren _ Ich fahre mit dem Auto zur Arbeit.
+  - der Bus, -se _ Wann kommt der nächste Bus?
+    - die Haltestelle _ An der nächsten Haltestelle müssen Sie aussteigen.
+    - pünktlich _
+      - Der Bus fährt pünktlich um acht Uhr.
+      - Herr Müller ist immer pünktlich.
+  - das Fahrrad, -ä, er _ Fährst du mit dem Fahrrad oder mit dem Auto?
+    - Rad fahren _ Das Kind kann schon Rad fahren.
+  - das Taxi, -s _ Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.
+  - die Straßenbahn _ Wo fährt die Straßenbahn ab?
+  - die S-Bahn _ Ich nehme lieber die S-Bahn.
+  - der Lkw, -s _ Dieser Lastkraftwagen ist sehr groß.
+
+### Emma in Hannover
+
+Zusammen mit ihrem Onkel, seiner Frau und deren Kindern geht sie spazieren.
+
+Die Kinder ihres Onkels sind schon erwachsen, aber sie erinnert sich noch gut daran, als sie klein waren. Jetzt sind ihre Cousins schon groß.
+
+Ihre Familie besitzt ein großes Haus in der Nähe von Hannover. Emma findet dieses Haus sehr schön.
+
+Sie selber hat immer nur zur Miete gewohnt. Sie ist dadurch sehr flexibel, hatte aber auch einmal Stress mit dem Vermieter, weil sie zu laut am Klavier gespielt hat.
+
+### Emma's Tag mit ihren Verwandten
+
+Emma freut sich, ihren Onkel, ihre Tante und ihre Cousins wiederzusehen.
+
+Gemeinsam gehen sie spazieren. Das Wetter ist herrlich! Die Sonne scheint mal wieder und es sind keine Wolken am Himmel.
+
+Am Abend grillen sie. Ihr Onkel zündet den Grill an und grillt Schweinefleisch und Würste. Da Emma Vegetarierin ist, kommen auch ein paar vegetarische Würste auf den Grill.
+
+Emmas Onkel hat sogar Fische und ein paar Kartoffeln gegrillt: "Bei einer deutschen Mahlzeit dürfen Kartoffeln nicht fehlen!", sagt er.
+
+Das ist eine der kulturellen Eigenarten, die Emma auch bemerkt hat. Immer gibt es Kartoffeln: Schweinefleisch mit Kartoffeln, Kartoffeln mit Leinöl, Suppe mit Kartoffeln – und natürlich Pommes. Bei fast jedem berühmten deutschen Gericht sind Kartoffeln dabei.
+
+Aber
+
+TODO
+
+
+
+
+
+
+
+Er geht jeden Tag zur Schule – außer am Wochenende natürlich.
+
+Er bekommt Unterricht von seiner Lehrerin, die ihm viel über Geschichte, Kunst, Biologie usw. beibringt.
+
+
+
+
+Bald ist ihr Sohn alt genug für den Kindergarten. Emma möchte ihn aber nicht in den Kindergarten schicken, weil das für ein Kind sehr stressig sein kann.
+
+"Nein, Oliver ist Freilerner."
+
+TODO Schule
+
+
+
+
+TODO
+- special edition von jedem Video wo manche Vokabeln nochmal extra gezeigt werden mit Bild und Ton, "make it crazy" damit sie sich daran erinnern (z. B. "Kaffe!" und E-Gitarre)
+- after each immersion, write table for better memorization (connecting with known words):
+                    Vergleiche:
+                    --
+                    glücklich | das Glück
+                    --
+                    einladen | die Einladung
+                    --
+                    suchen | es sucht
+                    --
+- Dialekte https://www.youtube.com/watch?v=k7a6ak8QggY
+
+
+
+
+TODO
+
+- [Totale Immersion von Anfang an: wie du effektiv Deutsch lernst](#totale-immersion-von-anfang-an-wie-du-effektiv-deutsch-lernst)
+  - [Freut mich, dich kennenzulernen!](#freut-mich-dich-kennenzulernen)
+- [Lerne die Grundlagen des Deutschen in einer Stunde!](#lerne-die-grundlagen-des-deutschen-in-einer-stunde)
+  - [Der Apfel](#der-apfel)
+  - [Bewege dich viel!](#bewege-dich-viel)
+  - [Das Vaterunser](#das-vaterunser)
+  - [Meine Wohnung](#meine-wohnung)
+    - [Der Eingang](#der-eingang)
+    - [Die Küche und die Lebensmittel](#die-küche-und-die-lebensmittel)
+    - [Das Wohnzimmer](#das-wohnzimmer)
+    - [Das Bad](#das-bad)
+    - [Das Schlafzimmer und der Rest](#das-schlafzimmer-und-der-rest)
+  - [Du kennst diese Wörter schon!](#du-kennst-diese-wörter-schon)
+    - [Das Schaf und die Pferde](#das-schaf-und-die-pferde)
+  - [Deutschlernen mit Musik: \"Du hast\" von Rammstein](#deutschlernen-mit-musik-du-hast-von-rammstein)
+  - [Im Flugzeug](#im-flugzeug)
+- [Das Leben in Deutschland](#das-leben-in-deutschland)
+  - [Ein typischer Arbeitstag eines Deutschen](#ein-typischer-arbeitstag-eines-deutschen)
+    - [Die Morgenroutine](#die-morgenroutine)
+    - [Die Wochentage](#die-wochentage)
+    - [Transportmittel](#transportmittel)
+    - [Auf der Arbeit](#auf-der-arbeit)
+    - [Feierabend!](#feierabend)
+  - [Ein typischer Sonntag eines Deutschen](#ein-typischer-sonntag-eines-deutschen)
+    - [Das Sonntagsfrühstück](#das-sonntagsfrühstück)
+    - [Der Ausflug](#der-ausflug)
+    - [Das Abendbrot](#das-abendbrot)
+- [Emmas Geschichte](#emmas-geschichte)
+  - [Wer ist Emma?](#wer-ist-emma)
+  - [Emmas Familie](#emmas-familie)
+  - [Der Kindergeburtstag](#der-kindergeburtstag)
+  - [Emmas Reise](#emmas-reise)
+    - [Emma plant ihre Reise zur ihren Verwandten](#emma-plant-ihre-reise-zur-ihren-verwandten)
+    - [Emmas Flug](#emmas-flug)
+    - [Emma in Hannover](#emma-in-hannover)
+    - [Emma's Tag mit ihren Verwandten](#emmas-tag-mit-ihren-verwandten)
+- [Carlos' Reise](#carlos-reise)
+  - [Carlos kommt in Deutschland an](#carlos-kommt-in-deutschland-an)
+  - [Carlos stellt sich vor](#carlos-stellt-sich-vor)
+  - [Carlos erster Tag](#carlos-erster-tag)
+  - [Carlos trifft einen Bayern](#carlos-trifft-einen-bayern)
+- [Jacobs Reise](#jacobs-reise)
   - [Jacob kommt in Berlin an](#jacob-kommt-in-berlin-an)
-- [Emma Brown](#emma-brown)
-  - [Emma plant ihre Reise zur ihren Verwandten](#emma-plant-ihre-reise-zur-ihren-verwandten)
-  - [Emmas Sohn](#emmas-sohn)
-  - [Emmas Flug](#emmas-flug)
-  - [Emma in Hannover](#emma-in-hannover)
-  - [Emma's Tag mit ihren Verwandten](#emmas-tag-mit-ihren-verwandten)
 - [Bill und Alessandro](#bill-und-alessandro)
   - [Wie Bill Deutsch lernt](#wie-bill-deutsch-lernt)
   - [Das Telefon klingelt](#das-telefon-klingelt)
@@ -67,9 +818,23 @@ audio = ''
 - [Die Unendliche Geschichte](#die-unendliche-geschichte)
 - [Schneewittchen](#schneewittchen)
 - [Rumpelstilzchen](#rumpelstilzchen)
+- [Meine Geschichte](#meine-geschichte)
+  - [Universität](#universität)
 
 
-# Carlos kommt in Deutschland an
+
+
+
+
+
+
+
+
+
+
+# Carlos' Reise
+
+## Carlos kommt in Deutschland an
 
 Es ist spät am Abend. Carlos kommt in Berlin an. Er ist glücklich, diese wunderschöne Stadt zu besuchen.
 
@@ -88,7 +853,7 @@ Carlos ist müde, weil es spät ist. Außerdem ist Brasilien sehr weit von Deuts
 Um 23 Uhr kommt Carlos in seiner neuen Wohnung an. Er geht sofort ins Bett. Gute Nacht, Carlos!
 
 
-# Carlos stellt sich vor
+## Carlos stellt sich vor
 
 Carlos hat ein gutes Angebot bekommen und musste nicht viel für seinen Flug bezahlen, nur XXX Euro.
 
@@ -100,7 +865,7 @@ Carlos' Alter ist 38 Jahre alt.
 
 So stellt Carlos sich vor: "Hallo, ich heiße/bin Carlos Santos. Ich bin 38 Jahr alt. Ich lebe in Berlin. Früher habe ich in Horizonte gelebt. Mein Beruf ist Ingenieur."
 
-# Carlos erster Tag
+## Carlos erster Tag
 
 Carlos schläft jetzt. Wir müssen leise sein.
 
@@ -130,7 +895,7 @@ Nach zwei Minuten kommt Frau Weber und stellt sich vor: "Hallo, ich bin Svenja W
 
 Frau Weber läuft zusammen mit Carlos durch das Gebäude. Sie stellt ihm viele Kollegen vor.
 
-# Carlos trifft einen Bayern
+## Carlos trifft einen Bayern
 
 Einer dieser Kollegen ist Jochen Freier.
 
@@ -158,7 +923,7 @@ Herr Schmitt kommt und sagt: "Grüß Gott, Frau Weber! Wenn ich mich nicht irre,
 
 "Das stimmt! Nun, willkommen bei der Firma Isaacs und willkommen in Deutschland."
 
-# Jacob Fischer
+# Jacobs Reise
 ## Jacob kommt in Berlin an
 
 Zur selben Zeit wie Carlos kam Jacob Fischer in Berlin an.
@@ -179,68 +944,6 @@ Er kaufte sich ein Ticket für die öffentlichen Verkehrsmittel, um die Stadt zu
 
 Es gibt viele Autos in Berlin, aber man braucht kein Auto, um jeden Ort in Berlin schnell zu erreichen.
 
-# Emma Brown
-## Emma plant ihre Reise zur ihren Verwandten
-
-Emma Brown ist eine junge Ärztin aus Großbritannien. Sie hat Verwandte in Hannover. Deshalb besucht sie diese Stadt sehr gerne.
-
-Bald ist es wieder soweit: In drei Tagen fliegt ins Ausland zu ihren Verwandten in Deutschland. Was heißt Ausland? Deutschland ist schon fast gar nicht mehr Ausland für sie, es ist ihre zweite Heimat. Da sie schon recht gut Deutsch spricht, fühlt sie sich auch nicht wie eine Ausländerin in Deutschland.
-
-Sie überlegt, was sie alles in ihrem Gepäck mitnehmen möchte. Was brauchst sie?
-
-Nun, erstmal holt sie ihren Koffer. Da er noch leer ist, ist er sehr leicht. Sie fängt an, ihren Koffer zu packen.
-
-Sie möchte in Hannover joggen, also packt sie zuerst Joggingschuhe ein. Sie läuft nämlich jeden Morgen, auch auf Reisen.
-Sie wird auch wandern, aber dafür nimmt sie einfach die bequemen Schuhe, die sie immer benutzt.
-
-Da sie eine Leseratte ist, nimmt sie auch ein Buch mit. Ein Notizblock und ein Kugelschreiber packt sie auch ein, falls sie sich etwas aufschreiben möchte.
-
-Schließlich darf sie ihre Papiere nicht vergessen: Sie packt ihren Pass sicher in ihrem Koffer.
-Ihren Ausweis hat sie in der Brieftasche, zusammen mit ihrer Kreditkarte und ein bisschen Bargeld.
-
-Diesmal nimmt sie auch ein kleines Geschenk mit, da ihr Onkel bald Geburtstag hat.
-
-## Emmas Sohn
-
-"Schatz," sagt Emma zu ihrem Ehemann Thomas. "Bald fliege ich nach Deutschland. Passt du gut auf unseren Sohn auf?"
-
-"Na klar," sagt ihr Mann. "Ich passe gut auf den Kleinen auf. Nicht wahr, Oliver?"
-
-Ihr Sohn heißt nämlich Oliver. Oliver ist ein sehr schlauer Junge.
-
-Er geht jeden Tag zur Schule – außer am Wochenende natürlich.
-
-Er bekommt Unterricht von seiner Lehrerin, die ihm viel über Geschichte, Kunst, Biologie usw. beibringt.
-
-## Emmas Flug
-
-Da ihr Flug sehr früh ist, muss Emma um 4 Uhr morgens aufstehen.
-
-Zum Glück ist die Haltestelle für den Bus zum Flughafen nicht weit von ihrer Wohnung entfernt.
-
-
-
-## Emma in Hannover
-
-Zusammen mit ihrem Onkel, seiner Frau und deren Kindern geht sie spazieren.
-
-Die Kinder ihres Onkels sind schon erwachsen, aber sie erinnert sich noch gut daran, als sie klein waren. Jetzt sind ihre Cousins schon groß.
-
-Ihre Familie besitzt ein großes Haus in der Nähe von Hannover. Emma findet dieses Haus sehr schön.
-
-Sie selber hat immer nur zur Miete gewohnt. Sie ist dadurch sehr flexibel, hatte aber auch einmal Stress mit dem Vermieter, weil sie zu laut am Klavier gespielt hat.
-
-## Emma's Tag mit ihren Verwandten
-
-Emma freut sich, ihren Onkel, ihre Tante und ihre Cousins wiederzusehen.
-
-Gemeinsam gehen sie spazieren. Das Wetter ist herrlich! Die Sonne scheint mal wieder und es sind keine Wolken am Himmel.
-
-Am Abend grillen sie. Ihr Onkel zündet den Grill an und grillt Schweinefleisch und Würste. Da Emma Vegetarierin ist, kommen auch ein paar vegetarische Würste auf den Grill.
-
-Emmas Onkel hat sogar Fische und ein paar Kartoffeln gegrillt: "Bei einer deutschen Mahlzeit dürfen Kartoffeln nicht fehlen!", sagt er.
-
-Das ist eine der kulturellen Eigenarten, die Emma auch bemerkt hat. Immer gibt es Kartoffeln: Schweinefleisch mit Kartoffeln, Kartoffeln mit Leinöl, Suppe mit Kartoffeln – und natürlich Pommes. Bei fast jedem berühmten deutschen Gericht sind Kartoffeln dabei.
 
 # Bill und Alessandro
 ## Wie Bill Deutsch lernt
@@ -989,6 +1692,37 @@ https://www.youtube.com/watch?v=s2119-wrJo0
 # Rumpelstilzchen
 
 
+# Meine Geschichte
+
+idea:
+- why don't I talk about myself? or character based on me? -> meine wahre Erfahrung: Heidelberg, Rostock geboren, Rövershagen, Berlin, Universität
+- write about family (in fictional context?)
+- Imagine the **Avatar**
+
+
+Dies ist meine Geschichte. Ich erzähle sie dir, damit du durch meine Erzählung auf eine einzigartige Weise Deutsch lernst.
+
+Ich heiße Mark.
+
+Ich bin 1990 in Rostock geboren. Das ist eine  Stadt im Norden Deutschlands.
+
+Ich wuchs in einem kleinen Dorf namens Rövershagen auf. Dieses Dorf war sehr klein und nicht sehr bekannt.
+Allerdings ist das Dorf in der Zwischenzeit ein bisschen gewachsen. Dort gibt es einen Erdbeerhof und die Erdbeeren werden in ganz Deutschland verkauft. So hat das Dorf meiner Kindheit doch ein bisschen Bekanntheit gewonnen.
+
+Mir haben die Leute in diesem Dorf sehr gefallen. Fast jeden Tag traf ich mich mit meinen Freunden und wir spielten draußen.
+
+Als ich acht Jahre alt war, sind wir nach Berlin gezogen.
+
+Berlin ist eine wunderschöne Stadt: Sie ist sehr grün, es gibt viele Alleen und Parks.
+
+## Universität
+
+
+Heidelberg ist eine meiner Lieblingstädte. Es ist eine
+
+
+
+
 
 
 
@@ -996,6 +1730,531 @@ https://www.youtube.com/watch?v=s2119-wrJo0
 Jetzt: 8275
 
 
+TODO
+- "schlechter" Entwurf
+- read: https://www.britishcouncil.org/voices-magazine/how-seeing-language-can-help-learners-retain-it
+- Fehlerkorrektur (+ Quizze)
+- Übersetzung
+- Audio
+- verfügbar machen zum Testen
+- Launch-Videos (eventuell Webinar)
+- Kurs verbessern: Videos und Quizze hinzufügen, Feedback implementieren
+
+https://workflowy.com/#/9f92ea0ffc1a
+
+TODO Deutsch mit Magie https://docs.google.com/document/d/1sYld9cdoVrJwAAI24QDrl-Q9nNEYhZCWQQdEG51AcAo/edit#heading=h.jtv0da9maekn
+TODO Zeitmanagement https://docs.google.com/document/d/1apd99aLox7f1pYNO7n22lftuHXA2sNRuQIKev-NHyqE/edit
+
+eintausend
+sich anmelden
+sich anziehen
+sich ausziehen
+sich freuen
+sich waschen
+Berlin, zwölfter Vierter zweitausendzwei
+Europa
+Europäer
+Feierabend
+Finnen
+Finninnen
+Finnland
+Frauenarzt
+Mexikaner
+Mexikanerinnen
+Mexiko
+Passfoto
+Postkarte
+Rad fahren
+Reisender
+Scheckkarte
+Türken
+Türkei
+Türkinnen
+Viertel nach zwei
+Währungen
+abfahren
+abfliegen
+abgeben
+abholen
+achtzehn
+achtzig
+ist an
+anbieten
+anklicken
+ankommen
+ankreuzen
+anmachen
+anrufen
+antworten
+arbeitslos
+aufhören
+ist aus
+ausfüllen
+ausländisch
+ausmachen
+aussteigen
+bar
+beginnen
+besetzt
+bestellen
+billig
+blau
+besichtigen
+braun
+bringen
+buchstabieren
+böse
+circa
+daneben
+danken
+Augen
+Cafés
+Datum
+Doppelzimmer
+Dörfer
+Einzelzimmer
+Ergebnisse
+Fahrräder
+Faxe
+Fieber
+Formulare
+Geburtsjahr
+Geschäfte
+Gespräche
+Gewicht
+Haare
+Kinos
+Konto
+Licht
+Meer
+Reisebüros
+Salz
+Schilder
+Schwimmbad
+Studium
+Taxis
+Teams
+Thema
+Wiederhören
+Wiedersehen
+dauern
+Absender
+Anrufe
+Anrufbeantworter
+April
+Arbeitsplätze
+August
+Ausgang
+Automat
+Bauch
+Bäume
+Bleistifte
+Blick
+Bogen
+Beamten
+Buchstaben
+Dienstag
+Doktor
+Donnerstag
+Drucker
+Eintritt
+Empfänger
+Familienname
+Familienstand
+Februar
+Filme
+Frühling
+Füße
+Fußball
+Geburtsort
+Glückwunsch
+Gramm
+Grüße
+Hausmänner
+Januar
+Jobs
+Juli
+Juni
+Kilogramm
+Kiosk
+Läden
+Lehrer
+Liter
+Mai
+Mittag
+Mittwoch
+Montag
+März
+Nachmittage
+Norden
+November
+Osten
+Partnerinnen
+Pfund
+Pläne
+Prospekte
+Prozent
+Quadratmeter
+Regen
+Sonnabend
+Schluss
+Schüler
+See
+September
+Studenten
+Süden
+Termine
+Test
+Verkäufer
+Vormittage
+Vornamen
+Westen
+Wind
+Winter
+Wochentage
+Zentimeter
+Zoll
+erste Dritte
+erste März
+Anmeldung
+Anrede
+Anzeigen
+Aussagen
+Bank
+Blumen
+Briefmarken
+Bäckerei
+CDs
+Disco
+Durchsagen
+E-Mails
+Ecken
+Einladung
+Entschuldigung
+Farben
+Freizeit
+Führung
+Gruppen
+Größe
+Halbpension
+Halle
+Hausaufgaben
+Hausfrauen
+Hochzeit
+Jacken
+Kasse
+Klasse
+Mitte
+Nummern
+Party
+Pausen
+Polizei
+Postleitzahl
+Praxis
+Reparatur
+Rezeption
+S-Bahn
+Straßen
+Straßenbahn
+Uhrzeit
+Unterschrift
+Vorwahl
+Wochee
+Zigaretten
+dreizehn
+dreizehn Uhr siebzehn
+dreißig
+dunkelblau
+eilig
+ein Deutscher
+ein Uhr
+eine Deutsche
+eine Milliarden
+eine Millionen
+einkaufen
+eins
+einundzwanzig
+elf
+enden
+entschuldigen
+erreichbar
+es geht
+euer
+europäisch
+falsch
+fernsehen
+finnisch
+fünf Minuten nach eins
+fünfzehn
+fünfzig
+gefallen
+gehören
+gelb
+geradeaus
+geschlossen
+geöffnet
+grau
+gültig
+günstig
+halb drei
+heiraten
+heißen
+hellblau
+hinten
+holen
+hunderteins
+international
+kosten
+krank
+kulturell
+lachen
+ledig
+liegen
+lustig
+mexikanisch
+mieten
+mitbringen
+mitkommen
+mitmachen
+männlich
+neunzehn
+neunzehnhundertneunundneunzig
+neunzig
+null Uhr drei
+reparieren
+schlecht
+schwarz
+schwimmen
+sechzehn
+sechzig
+selbstständig
+sieben
+sieben Uhr fünfzehn
+siebzig
+studieren
+tanzen
+telefonieren
+tschüss
+türkisch
+unbekannt
+unser_ unser Haus
+unterschreiben
+verdienen
+verheiratet
+verkaufen
+vierundzwanzig Uhr
+vierzehn
+vierzig
+ist weg
+weh tun
+weiblich
+welchem
+welcher
+wen
+wohin
+wunderbar
+zurzeit
+zwanzig
+zweihundert
+zweitausendvierzehn
+öffnen
+übernachten
+überweisen
 
 
-read: https://www.britishcouncil.org/voices-magazine/how-seeing-language-can-help-learners-retain-it
+
+
+
+Fahrer
+Fehler
+Flughafen
+Freitag
+Gäste
+Kilometer
+Koffer
+Kugelschreiber
+Kunden
+Lkws
+Moment
+Oktober
+Orte
+Pässe
+Plätze
+Praktikantinnen
+Preise
+Reis
+Reiseführer
+Saft
+Schalter
+Schuhe
+Sekretärinnen
+Texte
+Unterricht
+Urlaub
+Verein
+Züge
+Abfahrt
+Adresseen
+Ankunft
+Ansagen
+Aufgaben
+Bahn
+Fahrkarten
+Firma
+Fragen
+Haltestelle
+Hände
+Heimat
+Karten
+Kleidung
+Lösungen
+Nächte
+Papiere
+Post
+Prüfung
+Rechnungen
+Reise
+Schule
+Sehenswürdigkeiten
+Sonne
+Speisekarte
+Städte
+Taschen
+Uhr
+Vorsicht
+Welt
+Zeitungen
+dorthin
+draußen
+drucken
+durch
+einfach
+empfehlen
+erklären
+erzählen
+fliegen
+frei
+fremd
+früher
+geboren
+gegen
+gehen
+gewinnen
+glauben
+gleich
+grillen
+hell
+hoch
+hören
+jung
+kaputt
+kennen
+klar
+kriegen
+lange
+laut
+legen
+leicht
+leise
+letztfoo
+meistfoo
+mitnehmen
+neun
+nie
+normal
+oft
+ohne
+pünktlich
+reisen
+richtig
+ruhig
+schreiben
+sechs
+seit
+sofort
+sollen
+spielen
+sprechen
+spät
+später
+teuer
+verstehen
+vielleicht
+vier
+wandern
+wann
+warten
+warum
+was für ein
+weit
+weiter
+welchen
+wem
+wenig
+wichtig
+wie viel
+wissen
+wohnen
+wollen
+zahlen
+zehn
+zufrieden
+zurück
+zwischen
+Briefe
+Busse
+Chef
+Computer
+Berufe
+Bahnhof
+Bahnsteig
+Ausländerinnen
+Ausweis
+Telefon
+Tickets
+Wetter
+Abende
+Abflug
+Anschluss
+Ärztinnen
+Gleise
+Handys
+Feuer
+Ende
+Geld
+danke
+Alter
+Angebote
+Ausland
+Autos
+Gepäck
+Hobbys
+Hotels
+Internet
+Länder
+Lieder
+Lokal
+Praktikum
+Probleme
+Restaurants
+acht
+Zahnarzt
+allein
+am Wochenende
+Kreditkarten
+einhundert
+sich treffen
+aufstehen
+aussehen
+Achtung
+arbeiten
+anderfoo
+Sätze
+bedeuten
+bei
+besser
+besten
+besuchen
+bezahlen
+bleiben
+Dezember

@@ -1,0 +1,72 @@
+
+                            <!-- Get the table. -->
+                            {{ with $subentry }}
+                                {{ if ne (len $tables) 1 }}
+                                    {{ errorf "We have %d tables." (len $tables) }}
+                                {{ end }}
+
+                                <!-- Put all values in a map. -->
+                                {{ range split $subentry "\n" }}
+                                    {{ $k := . | replaceRE "\\A\\|(.*)=.*" "$1" }}
+                                    {{ $v := . | replaceRE ".*=(.*)" "$1" }}
+
+                                    {{ $s.SetInMap "table" $k $v }}
+                                {{ end }}
+
+                                <!-- Get the html of the table. -->
+                                {{ $table := index $tables 0 | replaceRE "<table.*?>" "<table class=wikitable>" | replaceRE " style=\".*?\"|<a .*?>|</a>|<div.*?>|</div>" "" }}
+
+                                <!-- Show link to Flexion:... -->
+                                {{ $table = $table | replaceRE "(Flexion:[^<]*)" "<a href=https://de.wiktionary.org/wiki/$1 target=_blank>$1</a>" }}
+
+                                <!-- Translate cells. -->
+                                {{ range findRE "<th.*?</th>" $table }}
+                                    {{ $cell := . | replaceRE "<th.*?>|</th>" "" }}
+
+                                    {{ if and $cell (ne $cell "—") }}
+                                        {{ $cell_trans := "" }}
+                                        {{ if in $cell "<i>"}}
+                                            <!-- Translate only the cursive. -->
+                                            {{ $inner_i18n := $cell | replaceRE ".*<i>(.*?)</i>.*" "$1" | i18n }}
+                                            {{ $cell_trans = $cell | replaceRE "<i>.*?</i>" (print "<i>" $inner_i18n "</i>") }}
+                                        {{ else }}
+                                            {{ $cell_trans = i18n $cell }}
+                                        {{ end }}
+
+                                        {{ with $cell_trans }}
+                                            {{ $table = replace $table $cell (print "<span lang=de>" $cell "</span><br><span lang=en class=trans>" . "</span>") }}
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}<!-- end of translating table cells -->
+
+                                {{ $s.SetInMap "table" "html" $table }}
+                            {{ end }}<!-- end of table -->
+
+                            {{ with $s.Get "imgs" }}
+                                {{ $s.SetInMap "subentry" "imgs" . }}
+                                {{ $s.Delete "imgs" }}
+                            {{ end }}
+                            {{ with $s.Get "table" }}
+                                {{ $s.SetInMap "subentry" "table" . }}
+                                {{ $s.Delete "table" }}
+                            {{ end }}
+
+                        {{ else }}<!-- end of Übersicht -->
+
+                            {{ $split := split $subentry "\n" }}
+
+                            {{ partial "display" $subentry}}<br><br>
+                        {{ end }}
+
+                        {{ $s.SetInMap "subentry" "header" $subheader }}
+                        {{ $s.Add "subentries" (slice ($s.Get "subentry")) }}
+                        {{ $s.Delete "subentry" }}
+                    {{ end }}{{ end }}
+
+
+                {{ end }}<!-- end of German-->
+            {{ end }}<!-- end of analyzing each word classes entry -->
+<hr>
+        {{ end }}{{ end }}<!-- end of analyzing the relevant entry -->
+
+

@@ -1,167 +1,3 @@
-<!-- The word we are looking for. -->
-{{ $word := .Word | replaceRE "&rsquo;" "" }}
-
-<!-- The site data. -->
-{{ $data := .Data }}
-
-<!-- Initialize output variables. -->
-
-{{ $audio := "" }}
-{{ $basic_form := "" }}
-{{ $translation := "" }}
-{{ $img := dict }}<!-- TODO -->
-
-{{ $html  := "" }}
-{{ $word_classes := slice }}
-
-{{ $s := newScratch }}
-{{ $.Scratch.Set "variants" slice }}<!-- TODO for highlighint words green. -->
-
-{{ $id := lower $word }}
-{{ if len (findRE "\\A[A-ZÄÖÜ]" $word) }}
-    {{ $id = print $id "_cap" }}
-{{ end }}
-
-<!-- Check if entry is cached. -->
-{{ $popup_path := print "assets/html/wiktionary/" $id "_popup.html" }}
-{{ if fileExists $popup_path }}{{ with $data.wiktionary }}{{ with index . $id }}
-    <!-- Save all variable from the data file. -->
-    {{ $audio        = .audio }}
-    {{ $basic_form   = .basic_form }}
-    {{ $word_classes = .word_classes }}
-    {{ $translation  = .translation }}
-
-    <!-- It is assumed that if the data file is present, so is the popup html.-->
-    {{ $html = readFile $popup_path }}
-
-{{ end }}{{ end }}{{ end }}
-
-<!-- else -->
-{{ if not $html }}
-
-    <!-- Get HTML from cache or from Wiktionary. -->
-    {{ $raw := "" }}
-    {{ $path_raw := print "assets/html/wiktionary/" $id "_de_raw.html" }}
-    {{ if fileExists $path_raw }}
-        {{ $raw = readFile $path_raw }}
-    {{ else }}
-        <!-- Get JSON from Wiktionary. -->
-        {{ $json := getJSON (print "https://de.wiktionary.org/w/api.php?action=parse&format=json&prop=text&disabletoc=true&page=" $word) }}
-
-        <!-- Cache the result. -->
-        {{ with $json.parse  }}
-            {{ $cache := index .text  "*" | resources.FromString (print "wiktionary/" $id "_de_raw.html") | minify }}
-
-            {{ $raw = $cache.Content }}
-        {{ else }}
-            {{ errorf "Please add \"%s\" to data/custom_words.json or data/synonyms.json because I can't get the Wiktionary entry." $word }}
-        {{ end }}
-    {{ end }}
-
-    <!-- Analyse the German entry. -->
-    {{ range split $raw "<h2" }}{{ if in . "Wiktionary:Deutsch" }}
-        <!-- Clean up whitespaces. -->
-        {{ $Deutsch := . | replaceRE "\n|<p><br></p>" "" | replaceRE "\\[([0-9]+), ([0-9]+)\\]" "[$1,&#160;$2]"  | replaceRE "#8206;" "&#160;" | replaceRE "(&#160;)+" "&#160;" | replaceRE "&#160; " "&#160;" | replaceRE "&#160;([;,.])" "$1" | replaceRE "\\s+" " " | replaceRE "<div[^>]*>&#160;</div>" "" }}
-
-        <!-- Correct image source links. -->
-        {{ $Deutsch = $Deutsch | replaceRE "src=\"(/w/extensions.*?)\"" "src=\"https://wiktionary.org$1\"" | replaceRE "src=(/w/extensions[^ ]*?)" "src=https://wiktionary.org$1" }}
-
-        <!-- Initialize gender variables. -->
-        {{ $gender := "" }}
-        {{ $article := "" }}
-
-        <!-- Analyse each word classes entry. (First in split is rubbish.) -->
-        {{ range $num_wc, $k := split $Deutsch "<h3" }}{{ if ne $num_wc 0 }}
-
-            <!-- Check which word classes are named in the header, then:
-                - clean
-                - tranform emphasis into brackets
-                - transform slashes into commas
-            -->
-            {{ $wc_header := . | replaceRE "</h3>.*|\\A>|<span.*?>|</span>|<a.*?>|</a>|\\[.*" "" | replaceRE "<em.*?>|<i>" "(" | replaceRE "</em>|</i>" ")" | replaceRE "/" ", " | replaceRE ",\\) \\(|\\), \\(" ", " }}
-
-            <!-- Initialize word class variables. -->
-            {{ $wc_infos := slice }}
-            {{ $wc_infos_i18n := slice }}
-
-            {{ $isInfo := false }}
-            {{ range split $wc_header ", " }}
-                {{ $info := . }}
-                {{ $info_i18n := "" }}
-
-                <!-- Check if a bracket was just opened. -->
-                {{ if in . "(" }}{{ $isInfo = true }}{{ end }}
-
-                {{ if $isInfo }}
-                    <!-- Remove brackets. -->
-                    {{ $info = . | replaceRE "\\(|\\)" ""  }}
-
-                    <!-- Check if the info is which gender a noun has. -->
-                    {{ with index $data.gender $info }}
-                        <!--
-                            Initialize gender variables but don't overwrite them.
-                            Only save gender variable if the word is actually a noun.
-                        -->
-                        {{ if and (not $gender) (in $word_classes "Substantiv") }}
-                            {{ $gender = $info }}
-                            {{ $word_classes = $word_classes | append $info }}
-                            {{ $article = .article }}
-                        {{ end }}
-
-                        {{ $info = .name }}<!-- write out -->
-                    {{ end }}
-
-                    {{ $info_i18n = i18n $info }}
-
-                    <!-- Add the brackets back in. -->
-                    {{ $info = print "(" $info ")" }}
-                    {{ $info_i18n = print "(" $info_i18n ")"}}
-                {{ else }}
-                    <!-- Add the word class to a list to use as css classes. -->
-                    {{ $word_classes = $word_classes | append $info }}
-
-                    {{ $info_i18n = . | i18n | title }}
-                {{ end }}
-
-                {{ $wc_infos = $wc_infos | append $info }}
-                {{ $wc_infos_i18n = $wc_infos_i18n | append $info_i18n }}
-
-                <!-- Check if a bracket was just closed. -->
-                {{ if in . ")" }}{{ $isInfo = false }}{{ end }}
-            {{ end }}
-
-            <!-- Write out and correct formating errors. -->
-            {{ $wcs := delimit $wc_infos ", " | replaceRE ", \\(" " (" | replaceRE "\\) \\(|\\), \\(" ", " }}
-            {{ $wcs_i18n := delimit $wc_infos_i18n ", " | replaceRE ", \\(" " ("  | replaceRE "\\) \\(|\\), \\(" ", " }}
-
-            {{ $html_wc_name := print "<span lang=de class=de>" $wcs  "</span><br><span lang=en class=\"en trans\">" $wcs_i18n "</span>" }}
-
-            {{ if eq $num_wc 1 }}
-
-                <!-- Get the translation. -->
-                {{ if in . "<li><a href=/wiki/Englisch title=Englisch>Englisch</a>: "}}
-                    <!-- Clean up the translation including tags. -->
-                    {{ $trans := . | replaceRE ".*<li><a href=/wiki/Englisch title=Englisch>Englisch</a>: (.*?)</li>.*" "$1"  | replaceRE "<ul>.*|<sup.*?</sup>|&#160;|\\(.*?\\) " "" | replaceRE "<.*?>" "" }}
-
-                    <!-- Remove the brackets if there is only one meaning. -->
-                    {{ if eq (len (findRE "\\[" $trans)) 1}}
-                        {{ $trans = $trans | replaceRE "\\[.*?\\] " "" }}
-                    {{ end }}
-
-                    <!-- Translate or remove parts that are still in German. -->
-                    {{ $trans = $trans | replaceRE "veraltet" "obsolete" | replaceRE "britisch" "British" | replaceRE " \\(.*?\\)" "" | replaceRE "meist " ""  | replaceRE "\\[1\\] \\[1\\]" "[1]" }}
-
-                    <!-- Save for output. -->
-                    {{ $translation = $trans }}
-
-                    <!-- Make breaks instead of semicolons. -->
-                    {{ $trans = $trans | replaceRE "; " "<br>" }}
-
-                    <!-- Add the word as a big header before the first entry. -->
-                    {{ $html = print $html "<h2><span lang=de class=de>" $article $word "</span><br><span lang=en class=\"en trans\">" $trans "</span></h2>" }}
-                {{ else }}
-                    {{ $html = print $html "<h2>" $article $word "</h2>" }}
-                {{ end }}
 
                 <!-- ENGLISH START -->
 
@@ -471,7 +307,13 @@
             {{ $html = print $html "><h3>" $html_wc_name "</h3>" $html_wc "</div>" }}
 
         {{ end }}{{ end }}<!-- end of: Analyse each word classes entry. -->
-    {{ end }}{{ end }}<!-- end of: Analyse the German entry. -->
+
+
+
+
+
+
+
 
     <!-- Set basic form to word itself if it was not set. -->
     {{ $basic_form = $basic_form | default $word }}
@@ -497,7 +339,3 @@
         {{ $html = $cache_html.Content }}
         {{ $data := $cache_data.Content }}
     {{ end }}
-
-{{ end }}<!-- end of: Extract cache or not. -->
-
-{{ return dict "html" $html "audio" $audio "word_classes" $word_classes "basic_form" $basic_form "translation" $translation "variants" ($s.Get "variants") }}

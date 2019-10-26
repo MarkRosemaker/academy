@@ -1,0 +1,37 @@
+{{ $type := printf "%T" . }}
+{{ $max := 100 }}
+
+{{ if  in $type "map" }}
+<ul>
+{{ range $k, $v := . }}
+    <li>{{ $k }}: {{ partial "display" $v }}</li>
+{{ end }}
+</ul>
+{{ else if in $type "[]" }}
+    {{ if . }}
+        <ol start="0">
+            {{ range . }}
+            <li>{{ partial "display" . }}</li>
+            {{ end }}
+        </ol>
+    {{ else }}
+        []
+    {{ end }}
+{{ else if findRE "\n|<br>" . }}
+    {{ $text := . | replaceRE "<br>" "\n" -}}
+    <div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">
+    {{- range $i, $v := split $text "\n" }}
+        {{- . }}
+{{ end }}</textarea></div> (html)<br><br>
+{{ else if eq $type "string"}}
+    {{ if gt (len .) $max}}
+        <div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">{{ . }}</textarea></div>
+    {{ else }}
+        "{{ . }}"
+    {{ end }}
+    ({{ $type }})<br>
+{{ else if eq $type "<nil>"}}
+    {{ $type }}
+{{ else }}
+    {{ . }} ({{ $type }})<br>
+{{ end }}

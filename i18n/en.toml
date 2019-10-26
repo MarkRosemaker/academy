@@ -181,7 +181,7 @@ other = "person"
 ["Präteritum"]
 other = "simple past"
 
-["Konjunktiv II"]
+["Konjunktiv&#160;II"]
 other = "past subjunctive"
 
 ["Hilfsverb"]
@@ -223,7 +223,7 @@ other = "imperative"
 ["Perfekt"]
 other = "perfect tense"
 
-["Partizip II"]
+["Partizip&#160;II"]
 other = "past participle"
 
 ["Plural 1"]
