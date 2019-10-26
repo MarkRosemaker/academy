@@ -181,7 +181,7 @@ other = "person"
 ["Präteritum"]
 other = "simple past"
 
-["Konjunktiv&#160;II"]
+["Konjunktiv II"]
 other = "past subjunctive"
 
 ["Hilfsverb"]
@@ -223,7 +223,7 @@ other = "imperative"
 ["Perfekt"]
 other = "perfect tense"
 
-["Partizip&#160;II"]
+["Partizip II"]
 other = "past participle"
 
 ["Plural 1"]
@@ -411,6 +411,12 @@ other = "with adjectival declension"
 
 ["Ähnliche Wörter"]
 other = "similar words"
+
+["Ähnliche"]
+other = "similar"
+
+["Deutsch"]
+other = "German"
 
 ["Geflügelte Worte"]
 other = "well-known sayings"

@@ -18,11 +18,9 @@
         []
     {{ end }}
 {{ else if findRE "\n|<br>" . }}
-    {{ $text := . | replaceRE "<br>" "\n" -}}
     <div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">
-    {{- range $i, $v := split $text "\n" }}
-        {{- . }}
-{{ end }}</textarea></div> (html)<br><br>
+    {{- range $i, $v := split . "\n" }}
+        {{- . }}{{ end }}</textarea></div> (html)<br><br>
 {{ else if eq $type "string"}}
     {{ if gt (len .) $max}}
         <div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">{{ . }}</textarea></div>

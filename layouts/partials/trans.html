@@ -1,5 +1,8 @@
-{{ $trans := . }}
-{{ range findRE "[A-Za-zÖÄÜöäü]+" . }}
-    {{ $trans = replace $trans . (i18n .) }}
+{{ $trans := . | replaceRE "&#160;" " " }}
+{{ range split (replaceRE " \\(|, |\\)" "+" $trans) "+" }}
+    {{ with . }}
+        {{ $trans = replace $trans . (i18n .) }}
+    {{ end }}
 {{ end }}
+
 {{ return $trans }}

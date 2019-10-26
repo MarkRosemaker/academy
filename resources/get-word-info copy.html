@@ -5,12 +5,7 @@
                 {{ $raw := "" }}
                 {{ $html_en := "" }}
                 {{ $path_raw := print "assets/html/wiktionary/" $id "_en_raw.html" }}
-                {{ if fileExists $path_raw }}
-                    {{ $raw = readFile $path_raw }}
                 {{ else }}
-                    <!-- Get JSON from Wiktionary. -->
-                    {{ $json := getJSON (print "https://en.wiktionary.org/w/api.php?action=parse&format=json&prop=text&disabletoc=true&page=" $word) }}
-
                     <!-- Cache the result. -->
                     {{ with $json.parse  }}
                         {{ $cache := index .text  "*" | resources.FromString (print "wiktionary/" $id "_en_raw.html") | minify }}
@@ -89,214 +84,31 @@
             {{ end }}<!-- end of: if eq $num_wc 1 -->
             <!-- ENGLISH STOP -->
 
-            <!-- Now analyse everything under the header. -->
-            {{ $rest := . | replaceRE ".*</h3>" "" }}
-            {{ $html_wc := "" }} <!-- This will be the html describing the word for the current word class. -->
-
-            {{ if in $rest "Dieser Abschnitt fehlt noch"}}
-                {{ $rest = "" }}
-            {{ end }}
-
-            <!-- Transform the bold headers into real headers. -->
-            {{ $rest = $rest | replaceRE "<p><span style=visibility:hidden.*?</span></p><div .*?>(.*?):</div>" "<h4>$1</h4>" }}
-            {{ $rest = $rest | replaceRE "<p style=margin-bottom:-.5em><b>(.*?):</b></p>" "<h4>$1</h4>" }}
-            {{ $rest = $rest | replaceRE "<p style=margin-bottom:-.5em;font-weight:700[^>]*>(.*?):</p>" "<h4>$1</h4>" }}
-
-            <!-- Analyse the content before the entry, like tables and images. -->
-            {{ $pre := $rest | replaceRE "<h4>.*" "" }}
-
-            <!-- Get images, if present. -->
-            {{ $html_image := "" }}
-
-            {{ range findRE "<div class=thumbinner.*?</div></div>" $pre }}
-                <!-- Extract the image and caption. -->
-                {{ $img := . | replaceRE ".*(<img.*?>).*" "$1" }}
-                {{ $caption := . | replaceRE ".*</div>(.*?)</div></div>.*" "$1" }}
-
-                <!-- Get an alt value for the image from the caption. -->
-                {{ $alt := $caption | replaceRE "<.*?>|\\[.*\\] " "" }}
-                <!-- Replace empty alt with our alt value. -->
-                {{ $img = $img | replaceRE " alt " (print " alt=\"" $alt "\" ") }}
-
-                <!-- Get the width of the image. -->
-                {{ $width := $img | replaceRE ".* width=([0-9]*).*" "$1" }}
-
-                <!-- Construct html. -->
-                {{ $html_image = print $html_image "<div class=\"thumbinner\">" $img "<div class=\"thumbcaption\" style=width:" $width "px><p>" $caption "</p></div></div>" }}
-            {{ end }}
-
-            <!-- Get the table, if present.  -->
-            {{ $html_table := "" }}
-            {{ range findRE "<table class=\"wikitable.*?\".*?</table>" $pre }}
-                <!-- Clean up the table html including removing div's. -->
-                {{ $table := . | replaceRE "<a.*?>|</a>|<p class=mw-empty-elt></p>| class=\".*?\"| style=\".*?\"| class=([^ >])*| style=([^ >])*|<div.*?>|</div>" "" | replaceRE "<table>" "<table class=wikitable>" }}
-
-                <!-- Translate header cells. -->
-                {{ range findRE "<th.*?</th>" $table }}
-
-
-                    {{ $th   := . | replaceRE "(<th.*?>).*" "$1" }}
-                    {{ $cell := . | replaceRE "<th.*?>|</th>|<span.*?>|</span>" "" | replaceRE "&#160;" " " }}
-
-                    {{ $cell_trans := $cell }}
-
-                    {{ if and $cell (ne $cell "—") }}
-                        {{ if in $cell "<i>"}}
-                            <!-- Show link to Flexion:... -->
-                            {{ $cell = $cell | replaceRE "(Flexion:.*)" "<a href=https://de.wiktionary.org/wiki/$1 target=_blank>$1</a>" }}
-
-                            <!-- Translate only the cursive. -->
-                            {{ $inner_i18n := index (findRE "<i>.*?</i>" $cell) 0 | replaceRE "<i>|</i>" "" | i18n }}
-                            {{ $cell_trans = $cell | replaceRE "<i>.*?</i>" (print "<i>" $inner_i18n "</i>") }}
-
-                        {{ else if gt (len (findRE "\\ASingular" $cell)) 0 }}<!-- must be in the beginning -->
-                            <!-- for Singular 1, Singular 2, Singular <i>m</i> etc. -->
-                            {{ $cell_trans = "Singular" | i18n | title }}
-                            {{ $cell_trans = print $cell_trans (replaceRE "\\ASingular(.*)" "$1" $cell) }}
-
-                        {{ else if in $cell ", "}}
-                            <!-- Split each cell into components and translate each -->
-                            {{ $each_trans := slice }}
-                            {{ range split $cell ", " }}
-                                {{ $each_trans =  $each_trans | append (i18n .) }}
-                            {{ end }}
-
-                            {{ $cell_trans = delimit $each_trans ", " | title }}
-                        {{ else }}
-                            {{ $cell_trans = i18n $cell }}
-                        {{ end }}
-                    {{ end }}
-
-                    <!-- Add th, span, and German. -->
-                    {{ $cell_trans = print $th "<span lang=de class=de>" $cell "</span><br><span lang=en class=\"en trans\">" $cell_trans "</span></th>" }}
-
-                    <!-- Add the translated cell. -->
-                    {{ $table = $table | replaceRE . $cell_trans }}
-                {{ end }}
-
-                <!-- Make the word itself bold in the table. -->
-                {{ if or (in $wc_infos "Personalpronomen") (in $wc_infos "Adjektiv") (in $wc_infos "Verb") }}
-                    {{ $table = $table | replaceRE (print "<td>([^<]*)(" $word ")\\b") "<td>$1<strong>$2</strong>"}}
-                {{ end }}
-
-                {{ $html_table = print $html_table $table }}
-            {{ end }}
+<!-- STYLE -->
 
             <!-- Wrap the image and/or table in a div. -->
             {{ if or $html_image $html_table }}
                 {{ $html_wc = print $html_wc "<div class=\"non-text\">" $html_image $html_table "</div>" }}
             {{ end }}
-
-            <!-- Split into seperate dictionary items. -->
-            {{ $rest = $rest | replaceRE "\\A.*?<h4" "<h4" }}
-
-            {{ range split $rest "<h4" }}
-                <!-- Split into header and body. -->
-                {{ $header := . | replaceRE "\\A[^>]*?>|<\\/h4>.*|<[^>]*?>|\\[.*" "" | replaceRE "&#160;" " " }}
-                {{ $body   := . | replaceRE ".*<\\/h4>" "" }}
-
-                <!-- Adjust depending on item type. -->
-                {{ if eq $header "Worttrennung" }}
-                    <!-- Don't show hyphenation if there is none.-->
-                    {{ if not (in $body "·") }}
-                        {{ $body = "" }}
-                    {{ end }}
-
-                {{ else if eq $header "Aussprache" }}
-                    <!-- Get the first audio file. -->
-                    {{ if not $audio }}{{ with index (findRE "<a href=//upload.wikimedia.org/wikipedia/commons/.*? class=internal title=.*?>" $body) 0 }}
-                        {{ $audio = . | replaceRE "<a .*href=| .*" "" | print "https:" }}
-                    {{ end }}{{ end }}
-
-                    <!-- Remove rhymes. -->
-                    {{ $body = $body | replaceRE "<dd><a href=/wiki/Hilfe:Reime.*?</dd>" "" }}
-
-                {{ else if eq $header "Ähnliche Wörter (Deutsch)" }}
-                    {{ $header = "Ähnliche Wörter" }}
-                {{ else if in $header "Ähnliche Wörter" }}
-                    {{ $body = "" }}<!-- discard -->
-                {{ else if in $header "Das Gesuchte nicht gefunden?" }}
-                    {{ $header = "" }}
+            <!-- Correct false plurals. -->
+            {{ $lines := len (findRE "</dd>" $body) }}
+            {{ if lt $lines 2 }}
+                {{ $header = index $data.singulars $header | default $header }}
+            {{ end }}
+            <!-- If there is audio in the body, play the first one when clicking on the header. -->
+            {{ if in $header "Aussprache" }}
+                {{ with index (findRE "audio=([^ >]*)>" $body) 0 }}
+                    {{ $header = replaceRE "<h4>(.*?)</h4>" (print "<h4 audio=" (replaceRE "audio=|>" "" .) " class=audio-available>$1</h4>") $header }}
                 {{ end }}
+            {{ end }}
 
-                <!-- Clean up the spans and classes before adding the only allowed span and class. -->
-                {{ $body = $body | replaceRE "<span.*?>|</span>| class=\".*?\"| class=[^ >]*" "" }}
-
-                <!-- Make audio files playable (not just in pronunciation section). -->
-                {{ $body = $body | replaceRE "(<img[^>]*?Loudspeaker.svg[^>]*?>&#160;)<a href=([^ >]*)[^>]*>(.*?)<\\/a>" "<span class=audio-available audio=https:$2>$1$3</span>" }}
-
-                <!-- Remove the references, sources, and templates. -->
-                {{ $body = $body | replaceRE "<div class=mw-references-wrap>.*|\\(\\)|<div[^<]*?title=\"Referenzen und weiterführende Informationen\".*|<p><i><span id=Quellen>.*|<p><i>Quellen:</i>.*|<div id=Vorlage_Uberarbeiten.*?</div>" "" }}
-
-                <!-- Remove superscripts. -->
-                {{ $body = $body | replaceRE "( |&#160;|)<sup.*?</sup>" "" }}
-
-                <!-- Remove attributes to tags. -->
-                {{ $body = $body | replaceRE "<table.*?>" "<table>"  | replaceRE "<th.*?>" "<th>" | replaceRE "<td.*?>" "<td>" | replaceRE "<p.*?>" "<p>" | replaceRE " style=\".*?\"| style=[^ >]*| id=\".*?\"| id=[^ >]*" ""}}
-
-                <!-- Clean up all links, div's. -->
-                {{ $body = $body | replaceRE "<a.*?>|</a>|<div.*?>|</div>" "" }}
-
-                <!-- Insert the entry for the basic form. -->
-                {{ if eq $header "Grammatische Merkmale" }}
-                    <!-- Improve declension table-->
-                    {{ $body = $body | replaceRE "<table><tbody><tr.*?>(.*?)<br>Alle weiteren Informationen.*?</td>" "<table class=infotable><tbody><tr>$1</td>" | replaceRE "(Flexion:[^.,<]*)" "<a href=https://de.wiktionary.org/wiki/$1 target=_blank>$1</a>" }}
-
-                    {{ with findRE "<b>(.*?)</b>" $body }}
-                        {{ $bf := index . 0 | replaceRE ".*<b>|</b>|\\.|\\,|„|“" "" }}
-
-                        <!-- Prevent an infinite loop by not picking the same word and only bothering with first entry. -->
-                        {{ if and (ne $word $bf) (eq $num_wc 1) }}
-                            {{ $basic_form = $bf }}
-
-                            {{ $basic := partial "functions/get-word-info.html" (dict "Word" $bf "Data" $data) }}
-
-                            {{ with $basic.word_classes }}
-                                <!-- Add all word classes of the basic form. -->
-                                {{ $word_classes = $word_classes | append . }}
-                            {{ else }}
-                                {{ errorf "'%s', the basic word of '%s' does not have any word classes: %s" $basic $word }}
-                            {{ end }}
-
-                            {{ $translation = $translation | default $basic.translation }}
-
-                            <!-- Add the definition of the basic word. -->
-                            {{ $body = print $body $basic.html }}
-                        {{ end }}
-                    {{ end }}
-                {{ end }}
-
-                {{ $html_item := "" }}
-                {{ with $body }}{{ with $header }}
-                    <!-- Correct false plurals. -->
-                    {{ $lines := len (findRE "</dd>" $body) }}
-                    {{ if lt $lines 2 }}
-                        {{ $header = index $data.singulars $header | default $header }}
-                    {{ end }}
-
-                    <!-- Wrap header in tags and add translation. -->
-                    {{ $header = print "<h4><span lang=de class=de>" $header "</span><br><span lang=en class=\"en trans\">" (title (i18n $header)) "</span></h4>" }}
-
-                    <!-- If there is audio in the body, play the first one when clicking on the header. -->
-                    {{ if in $header "Aussprache" }}
-                        {{ with index (findRE "audio=([^ >]*)>" $body) 0 }}
-                            {{ $header = replaceRE "<h4>(.*?)</h4>" (print "<h4 audio=" (replaceRE "audio=|>" "" .) " class=audio-available>$1</h4>") $header }}
-                        {{ end }}
-                    {{ end }}
-
-                    <!-- Small (or very important) entries are shown right away (non-collapsible). -->
-                    {{ $length := len (replaceRE "<[^>]*>" "" $body) }}
-                    {{ if or (and (lt $length 100) (lt $lines 3)) (in $header "Grammatische Merkmale")}}
-                        {{ $html_item = print "<div class=\"ui-corner-all custom-corners\"><div class=\"ui-bar ui-bar-a\">" $header "</div><div class=\"ui-body ui-body-a\">" $body "</div></div>" }}
-                    {{ else }}
-                        {{ $html_item = print "<div data-role=collapsible>" $header $body "</div>" }}
-                    {{ end }}
-
-                    <!-- Add the item. -->
-                    {{ $html_wc = print $html_wc $html_item }}
-
-                {{ end }}{{ end }}<!-- end with $header, with $body  -->
-            {{ end }}<!-- end range over items -->
+            <!-- Small (or very important) entries are shown right away (non-collapsible). -->
+            {{ $length := len (replaceRE "<[^>]*>" "" $body) }}
+            {{ if or (and (lt $length 100) (lt $lines 3)) (in $header "Grammatische Merkmale")}}
+                {{ $html_item = print "<div class=\"ui-corner-all custom-corners\"><div class=\"ui-bar ui-bar-a\">" $header "</div><div class=\"ui-body ui-body-a\">" $body "</div></div>" }}
+            {{ else }}
+                {{ $html_item = print "<div data-role=collapsible>" $header $body "</div>" }}
+            {{ end }}
 
             <!-- Wrap in collapsible div. -->
             {{ $html = print $html "<div data-role=collapsible" }}
@@ -306,36 +118,9 @@
             {{ end }}
             {{ $html = print $html "><h3>" $html_wc_name "</h3>" $html_wc "</div>" }}
 
-        {{ end }}{{ end }}<!-- end of: Analyse each word classes entry. -->
+            <!-- Make breaks instead of semicolons. -->
+            {{ $translation = $translation | replaceRE "; " "<br>" }}
+            <!-- Add the word as a big header before the first entry. -->
+            {{ $html = print $html "<h2><span lang=de class=de>" $article $word "</span><br><span lang=en class=\"en trans\">" $trans "</span></h2>" }}
 
 
-
-
-
-
-
-
-    <!-- Set basic form to word itself if it was not set. -->
-    {{ $basic_form = $basic_form | default $word }}
-
-    <!-- Remove duplicate elements. -->
-    {{ $word_classes = uniq $word_classes }}
-
-    <!-- Cache the result. -->
-    {{ with $html }}
-
-        <!-- Check if tags match. -->
-        {{ range slice "div" "table" "tbody" "tr" "td" }}
-            {{ $opens := len (findRE (print "<" .) $html) }}
-            {{ $closes := len (findRE (print "</" .) $html) }}
-            {{ if ne $opens $closes }}
-                {{ errorf "Unbalanced %s's in '%s' (%d/%d)." . $word $opens $closes }}
-            {{ end }}
-        {{ end }}
-
-        {{ $cache_html := . | resources.FromString (print "wiktionary/" $id "_popup.html") | minify }}
-        {{ $cache_data := dict "audio" $audio "word_classes" $word_classes "basic_form" $basic_form "translation" $translation | jsonify | resources.FromString (print "wiktionary/data/" $id ".html") | minify }}
-
-        {{ $html = $cache_html.Content }}
-        {{ $data := $cache_data.Content }}
-    {{ end }}
