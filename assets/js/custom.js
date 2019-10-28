@@ -46,4 +46,4 @@ $(".audio-available").click(function() {
 });
 
 // Remove the loading animation.
-document.getElementById("loading").style.display = "none";
+// document.getElementById("loading").style.display = "none";

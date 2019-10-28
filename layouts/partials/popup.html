@@ -1,0 +1,36 @@
+            <!-- Wrap the image and/or table in a div. -->
+            {{/* if or $html_image $html_table }}
+                {{ $html_wc = print $html_wc "<div class=\"non-text\">" $html_image $html_table "</div>" }}
+            {{ end }}
+            <!-- Correct false plurals. -->
+            {{ $lines := len (findRE "</dd>" $body) }}
+            {{ if lt $lines 2 }}
+                {{ $header = index $data.singulars $header | default $header }}
+            {{ end }}
+            <!-- If there is audio in the body, play the first one when clicking on the header. -->
+            {{ if in $header "Aussprache" }}
+                {{ with index (findRE "audio=([^ >]*)>" $body) 0 }}
+                    {{ $header = replaceRE "<h4>(.*?)</h4>" (print "<h4 audio=" (replaceRE "audio=|>" "" .) " class=audio-available>$1</h4>") $header }}
+                {{ end }}
+            {{ end }}
+
+            <!-- Small (or very important) entries are shown right away (non-collapsible). -->
+            {{ $length := len (replaceRE "<[^>]*>" "" $body) }}
+            {{ if or (and (lt $length 100) (lt $lines 3)) (in $header "Grammatische Merkmale")}}
+                {{ $html_item = print "<div class=\"ui-corner-all custom-corners\"><div class=\"ui-bar ui-bar-a\">" $header "</div><div class=\"ui-body ui-body-a\">" $body "</div></div>" }}
+            {{ else }}
+                {{ $html_item = print "<div data-role=collapsible>" $header $body "</div>" }}
+            {{ end }}
+
+            <!-- Wrap in collapsible div. -->
+            {{ $html = print $html "<div data-role=collapsible" }}
+            {{ if eq $num_wc 1 }}
+                <!-- Expand the first. -->
+                {{ $html = print $html " data-collapsed=false" }}
+            {{ end }}
+            {{ $html = print $html "><h3>" $html_wc_name "</h3>" $html_wc "</div>" }}
+
+            <!-- Make breaks instead of semicolons. -->
+            {{ $translation = $translation | replaceRE "; " "<br>" }}
+            <!-- Add the word as a big header before the first entry. -->
+            {{ $html = print $html "<h2><span lang=de class=de>" $article $word "</span><br><span lang=en class=\"en trans\">" $trans "</span></h2>" */}}

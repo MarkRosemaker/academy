@@ -2,14 +2,7 @@
 
 {{ .Content }}
 
-{{ $word := dict "Word" "gehen" "Data" $.Site.Data }}
-
-{{ $info := partial "functions/get-word-info-3" $word }}
-
-<h2>Results</h2>
-{{ partial "display" $info }}
-<hr>
-{{ partial "display" $info }}
+{{ $info := partial "functions/get-word-info" "Welt" }}
 
 {{ with .Page.Resources.GetMatch "*.html" }}
     <!-- Get thte content of the html file which is export of WorkFlowy. -->
@@ -47,7 +40,12 @@
                     {{ $word = "" }}
                 {{ end }}
 
-                {{ $word = $text | replaceRE " _.*|:.*" "" | replaceRE " _.*|:.*" ""  }}
+                {{ $word = $text | replaceRE " _.*|:.*" "" | replaceRE "\\s?_.*|:.*" ""  }}
+
+                {{ if not (in $word " ") }}
+                    {{ $search := $word | replaceRE "\\(|\\)|/.*" "" }}
+                    {{ (partial "functions/get-word-info" $search).variants }}<br>
+                {{ end }}
 
                 <!-- Add most basic version to variants. -->
                 {{ $basic := $word | replaceRE "\\A\\(sich\\) |\\Asich |\\Ader |\\Adie |\\Adas |\\Ader/die | \\(pl\\.\\)\\z|,\\s*-[^\\/]*|, –\\z|\\(.*?\\)" "" | replaceRE "/die |/das " "/" | replaceRE "\\A\\s+|\\s+\\z" "" }}

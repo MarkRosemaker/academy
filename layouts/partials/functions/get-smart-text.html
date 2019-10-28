@@ -127,7 +127,7 @@
                         {{ with index $custom_words $p.search }}
                             {{ $info = . }}
                         {{ else }}
-                            {{ $info = partial "functions/get-word-info.html" (dict "Word" $p.search "Data" $.Site.Data) }}
+                            {{ $info = partial "functions/old-get-word-info" (dict "Word" $p.search "Data" $.Site.Data) }}
                         {{ end }}
 
                         <!-- Check for basic forms. -->
