@@ -1,12 +1,14 @@
-<!-- The word we are looking for. -->
+<!-- The word. -->
 {{ $word := . }}
-<!-- TODO maybe | replaceRE "&rsquo;" ""-->
+
+<!-- The string we will search for. -->
+{{ $search := $word | replaceRE " " "_" }}
 
 <!-- Initialize Scratch. -->
 {{ $s := newScratch }}
 
 <!-- Set a unique ID for the word. -->
-{{ $id := lower $word }}
+{{ $id := lower $search }}
 {{ if findRE "\\A[A-ZÄÖÜ]" $word }}
     {{ $id = print $id "_cap" }}
 {{ end }}
@@ -26,6 +28,9 @@
     {{ $basic_form   := "" }}
     {{ $translation  := "" }}
     {{ $img          := dict }}
+    {{ $s.Set "word classes" slice }}
+
+    {{ $bugfree := true }}
 
     {{ $s.SetInMap "info" "id" $id }}
 
@@ -45,7 +50,7 @@
                 {{ $s.Set (printf "%s_%s" $type $lang) (readFile $path) }}
             {{ else }}
                 <!-- Get JSON from Wiktionary. -->
-                {{ $json := getJSON (printf "https://%s.wiktionary.org/w/api.php?action=parse&format=json&disabletoc=true&prop=%s&page=%s" $lang $type $word) }}
+                {{ $json := getJSON (printf "https://%s.wiktionary.org/w/api.php?action=parse&format=json&disabletoc=true&prop=%s&page=%s" $lang $type $search) }}
 
                 <!-- Cache the result. -->
                 {{ with $json.parse  }}
@@ -57,379 +62,555 @@
                     {{ $s.Set (printf "%s_%s" $type $lang) $cache.Content }}
 
                     {{ $s.Set "foo" $cache.RelPermalink }}<!-- just to make it stick -->
-                {{ else }}
-                    {{ errorf "Please add \"%s\" to data/custom_words.json or data/synonyms.json because I can't get the Wiktionary %s." $word $type }}
                 {{ end }}
             {{ end }}
         {{ end }}
     {{ end }}<!-- end of ranging over $langs -->
 
     <!-- START of German Wiktionary entry -->
-    {{ $html := $s.Get "text_de" }}
+    {{ with $html := $s.Get "text_de" }}
 
-    <!-- START of cleanup -->
+        <!-- START of cleanup -->
         <!-- Remove notices etc. -->
-        {{ $html = $html | replaceRE "<div id=Vorlage_[^>]*>.*?</div>|<div[^>]*title=\"Referenzen und weiterführende Informationen\">.*?</div><dl>.*?</dl>|<p><i>Quellen:</i><br></p><div class=mw-references-wrap>.*?</div>|<table class=noprint.*?</table>" "" | replaceRE "<div[^>]*border-top:1px[^>]*></div>" "<hr>"}}
+        {{ $html = $html | replaceRE "<div id=Vorlage_[^>]*>.*?</div>|<div[^>]*title=\"Referenzen und weiterführende Informationen\">.*?</div><dl>.*?</dl>|<p><i>Quellen:</i><br></p><div class=mw-references-wrap>.*?</div>|<table class=noprint.*?</table>|<div class=magnify><a[^>]*></a></div>|<span class=play-btn-large>.*?</span></span>" "" | replaceRE "<div[^>]*border-top:1px[^>]*></div>" "<hr>" | replaceRE "<div class=thumbcaption>(.*?)</div>" "<p>$1</p>" | replaceRE "<h3>.*?Dieser Abschnitt fehlt noch.*?</dl>|<table.*?<img alt=RomanZ-01.png.*?</table>" "" }}
+
+        <!-- Improve media. -->
+        {{ $html = $html | replaceRE "<img[^>]*style=width:([0-9]*)px;height:([0-9]*)px[^>]*><a href=([^>]*) title=\"Mediendatei abspielen\" target=new></a>" "<video width=$1 height=$2 controls><source src=$3 /></video>" | replaceRE "=//upload" "=https://upload" }}
 
         <!-- Clean up html. -->
-        {{ $html = $html | replaceRE "<div.*?>|</div>|<span.*?>|</span>| style=\".*?\"| style=width:[^>]*|&#160;<sup.*?>.*?</sup>|<sup.*?>.*?</sup>|<p class=mw-empty-elt></p>" "" }}
+        {{ $html = $html | replaceRE "<div.*?>|</div>|<span.*?>|</span>| style=\".*?\"| style=width:[^>]*| style=margin-top[^>]*|&#160;<sup.*?>.*?</sup>|<sup.*?>.*?</sup>|<p class=mw-empty-elt></p>" "" | replaceRE "<ul class=\"gallery.*?\".*?>(.*?)</ul>" "$1" | replaceRE "<li class=gallerybox>(.*?)</li>" "$1" }}
 
         <!-- Make audio files playable (not just in pronunciation section). -->
         {{ $html = $html | replaceRE "<img[^>]*Loudspeaker.svg[^>]*>(&#160;|)<a href=([^ >]*)[^>]*>(.*?)</a>" "<span class=audio-available audio=$2>$3</span>" | replaceRE "(</span>) (<span.*?>)" "$1, $2"}}
 
         <!-- Remove href links. -->
-        {{ $html = $html | replaceRE "<a .*?>|</a>" "" | replaceRE "\\[Bearbeiten\\]" "" }}
+        {{ $html = $html | replaceRE "<a .*?>|</a>|\\s*<small>\\(Links führen zu Wikipedia\\)</small>" "" | replaceRE "\\[Bearbeiten\\]" "" }}
 
         <!-- Improve tables. -->
-        {{ $html = $html | replaceRE  "\"(wikitable).*?\"" "$1" }}
-
-        <!-- Improve images. -->
-        {{ $html = $html | replaceRE "<table[^>]*><tbody><tr><td[^>]*>(<img[^>]*>)(.*?)</td></tr></tbody></table>" "<div class=thumbinner>$1<div class=thumbcaption><p>$2</p></div></div>" | replaceRE "=//upload" "=https://upload" }}
+        {{ $html = $html | replaceRE " bgcolor=[^ >]*" "" | replaceRE  "\"(wikitable).*?\"" "$1" | replaceRE "<table[^>]*title=\"Übersetzung.*?\">" "<table class=transtable>" | replaceRE "<table cellpadding=7 rules=all>" "<table class=wikitable>" | replaceRE "<table align=center width=100%>" "<table class=flexion>" | replaceRE "<table[^>]*title=\"Deutsche Dialekte\">" "<table class=dialects>" | replaceRE "<table id=closedNavBar class=noprint width=100%><tbody><tr><td>([^<]*)<table border=1 cellspacing=0 cellpadding=3 style=border-collapse:collapse align=center>(.*?)</table></td></tr></tbody></table>" "<h4>$1</h4><table class=extra>$2</table>" | replaceRE "<table cellspacing=0 cellpadding=0 class=\"hintergrundfarbe2 rahmenfarbe1\">" "<table class=wikitable>" | replaceRE "<table cellspacing=0 cellpadding=0 style=vertical-align:top;margin-top:-.2em;margin-bottom:-.2em;margin-left:1.6em;line-height:150%><tbody><tr><td align=left valign=top>(.*?)</td><td align=left valign=top>(.*?)</td></tr><tr><td></td><td>(.*?)</td></tr></tbody></table>" "$1 $2<br>$3" }}
 
         <!-- Correct headers. -->
-        {{ $html = $html | replaceRE "<p style=margin-bottom:-.5em;font-weight:700.*?>(.*?):</p>" "<h4>$1</h4>" | replaceRE "<p style=margin-bottom:-.5em><b>(.*?):</b></p>" "<h4>$1</h4>" }}
+        {{ $html = $html | replaceRE "<p style=margin-bottom:-.5em;font-weight:700.*?>(.*?):</p>" "<h4>$1</h4>" | replaceRE "<p style=margin-bottom:-.5em><b>([^:<]*):</b></p>" "<h4>$1</h4>" }}
 
         <!-- Clean up whitespace. -->
-        {{ $html = $html | replaceRE "\\[([0-9]+), ([0-9]+)\\]" "[$1,&#160;$2]" | replaceRE "&#160;([;,.])" "$1" | replaceRE "(&#160;) " "$1" |  replaceRE "&#8206;|<p><br></p>" "" |  replaceRE "(&#160;)+" "&#160;" | replaceRE "\\s+" "\\s" }}
+        {{ $html = $html | replaceRE "\\[([0-9]+), ([0-9]+)\\]" "[$1,&#160;$2]" | replaceRE "&#160;([;,.])" "$1" | replaceRE "(&#160;) " "$1" |  replaceRE "&#8206;|<p><br></p>" "" |  replaceRE "(&#160;)+" "&#160;" | replaceRE "\\s+" " " }}
 
         <!-- DEBUG -->
         {{ with findRE "\n|<p><br></p>|(&#160;){2,}|[\\s]{2,}" $html }}
+            {{ $bugfree = false }}
             {{ errorf "Still found %d whitespaces: %s\n" (len .) (delimit . "+") }}
         {{ end }}
         {{ if not (findRE "\\A<h2>" $html) }}
+            {{ $bugfree = false }}
             {{ errorf "HTML of '%s' does not begin with  '<h2>', begins with '%s' instead." $word (findRE "\\A.{30}" $html) }}
         {{ end }}
 
-    <!-- END of cleanup-->
+        <!-- END of cleanup-->
 
-    <!-- Analyse the German part. -->
-    {{ range split $html "<h2>" }}{{ if findRE "\\A[^>]* \\(Deutsch\\)</h2>" . }}
-        {{ $entries := . | replaceRE ".*</h2>" "" }}
-
-        <!-- DEBUG -->
-        {{ if not (findRE "\\A<h3>" $entries) }}
-            {{ errorf "HTML of '%s' does not begin with '<h3>', begins with '%s' instead." $word (findRE "\\A.{30}" $entries) }}
-        {{ end }}
-
-        <!-- Analyse each word classes entry. -->
-        {{ $entries = $entries | replaceRE "\\A<h3>" "" }}
-        {{ range split $entries "<h3>" }}
-            <!-- Check which word classes are named in the header, then:
-                - clean
-                - tranform emphasis into brackets
-                - transform slashes into commas
-            -->
-            {{ $header := . | replaceRE "</h3>.*" "" }}
-
-            <!-- Get the word classes. -->
-            {{ $wcs := split (replaceRE ", <em.*?</em>|, <i>.*?</i>" "" $header) ", " }}
-            {{ $s.Add "word classes" $wcs }}
-
-            <!-- Get the gender. -->
-            {{/* with findRE ">(f|m|n)</em>" $header }}
-                {{ $g := index . 0 | replaceRE ">|<.*" "" }}
-                {{ $gender = $gender | default $g }}
-            {{ end }}
+        <!-- Analyse the German part. -->
+        {{ range split $html "<h2>" }}{{ if findRE "\\A[^<]*\\(Deutsch\\)</h2>" . }}
             <!-- DEBUG -->
-            {{ if and (in $wcs "Substantiv") (not $gender)}}
-                {{ errorf "Couldn't parse gender." }}
-            {{ end */}}
-
-            <!-- Clean the header. -->
-            {{ $header = $header | replaceRE ", <em title=\"Genus:.*?: (.*?)\">.*?</em>" " ($1" | replaceRE "<i>" "(" | replaceRE "</i>" ")" | replaceRE "\\), \\(" ", " | replaceRE ", \\(" " (" }}
-            {{ $header_trans := partial "trans" $header }}
-            {{ $s.SetInMap "entry" "header" (dict "de" $header "en" $header_trans) }}
-
-            <!-- Analize the entry. -->
-            {{ $entry := . | replaceRE ".*</h3>" "" }}
-
-            <!-- Get the table, if present.  -->
-            {{ with findRE "\\A<table class=wikitable>.*?</table>" $entry }}
-                <!-- Add the html to the info. -->
-                {{ $table := index . 0 }}
-
-                <!-- Remove the html from the entry html. -->
-                {{ $entry = replace $entry $table "" }}
-
-                <!-- Show link to Flexion:... -->
-                {{ $table = $table | replaceRE "(Flexion:[^<]*)" "<a href=https://de.wiktionary.org/wiki/$1 target=_blank>$1</a>" }}
-
-                <!-- Translate cells. -->
-                {{ range findRE "<th.*?</th>" $table }}
-                    {{ $cell := . | replaceRE "<th.*?>|</th>" "" }}
-
-                    {{ if and $cell (ne $cell "—") }}
-                        {{ $cell_trans := "" }}
-                        {{ if in $cell "<i>"}}
-                            <!-- Translate only the cursive. -->
-                            {{ $inner_i18n := $cell | replaceRE ".*<i>(.*?)</i>.*" "$1" | partial "trans" }}
-                            {{ $cell_trans = $cell | replaceRE "<i>.*?</i>" (print "<i>" $inner_i18n "</i>") }}
-                        {{ else }}
-                            {{ $cell_trans = partial "trans" $cell }}
-                        {{ end }}
-
-                        {{ with $cell_trans }}
-                            {{ $table = replace $table $cell (print "<span lang=de>" $cell "</span><br><span lang=en class=trans>" . "</span>") }}
-                        {{ end }}
-                    {{ end }}
-                {{ end }}<!-- end of translating table cells -->
-
-                {{ $s.SetInMap "entry" "table" (dict "html" $table) }}
+            {{ with findRE "<table ([^c>]|cellspacing)[^>]*>.*?</table>" . }}
+                {{ $bugfree = false }}
+                {{ errorf "In '%s', found the table: '%s'" $word (index . 0) }}
             {{ end }}
 
-            <!-- Get the image, if present. -->
-            {{ with findRE "\\A<div class=thumbinner>.*?</div></div>" $entry }}
-                <!-- Get the html. -->
-                {{ $html := index . 0 }}
-
-                 <!-- Remove the html from the entry html. -->
-                 {{ $entry = replace $entry $html "" }}
-
-                <!-- Get the src. -->
-                {{ $s.SetInMap "image" "src" (replaceRE ".* src=| .*" "" $html) }}
-
-                <!-- Get the caption. -->
-                {{ $caption := $html | replaceRE ".*<p>|</p>.*" "" }}
-                {{ $s.SetInMap "image" "caption" $caption }}
-
-                <!-- Get an alt value for the image from the caption. -->
-                {{ $alt := $caption | replaceRE "<.*?>|\\[.*\\] " "" }}
-
-                <!-- Replace empty alt with our alt value. -->
-                {{ $html = $html | replaceRE " alt " (printf " alt=\"%s\" " $alt) }}
-                {{ $s.SetInMap "image" "alt" (replaceRE ".* alt=\"|\".*" "" $html) }}
-
-                <!-- Get the width and height of the image. -->
-                {{ $w := $html | replaceRE ".* width=([0-9]*).*" "$1" | int }}
-                {{ $h := $html | replaceRE ".* height=([0-9]*).*" "$1" | int }}
-                {{ $s.SetInMap "image" "width"  $w }}
-                {{ $s.SetInMap "image" "height" $h }}
-
-                <!-- Save the changed html. -->
-                {{ $s.SetInMap "image" "html" $html }}
-
-                <!-- Save the info and delete scratch entry. -->
-                {{ $s.SetInMap "entry" "img" ($s.Get "image") }}
-                {{ $img = $img | default ($s.Get "image") }}
-                {{ $s.Delete "image" }}
-            {{ end }}
-
-            <!-- Get the coda. -->
-            {{ with findRE "<hr>" $entry }}
-                <!-- DEBUG -->
-                {{ if or (not (findRE "<hr><h4>" $entry)) (ne (len .) 1) }}
-                    {{ errorf "Something is wrong with the coda" }}
-                {{ end }}
-
-                {{ $codas := $entry | replaceRE ".*<hr><h4>" "" }}
-                {{ range $coda := split $codas "<h4>" }}
-                    {{ $header := . | replaceRE "</h4>.*" "" }}
-                    {{ if eq $header "Ähnliche Wörter (Deutsch)" }}
-                        {{ $header = "Ähnliche Wörter" }}
-                    {{ else if in $header "Ähnliche Wörter" }}
-                        {{ $header = "" }}<!-- discard -->
-                    {{ end }}
-
-                    {{ with $header }}
-                        {{ $s.SetInMap "coda_map" "header" (dict "de" . "en" (partial "trans" .)) }}
-                        {{ $s.SetInMap "coda_map" "subentry" (replaceRE ".*</h4>" "" $coda) }}
-
-                        {{ $s.Add "coda" (slice ($s.Get "coda_map")) }}
-                        {{ $s.Delete "coda_map" }}
-                    {{ end }}
-                {{ end }}
-
-                {{ $entry = $entry | replaceRE "<hr>.*" "" }}
-            {{ end }}
+            {{ $entries := . | replaceRE ".*</h2>" "" }}
 
             <!-- DEBUG -->
-            {{ if not (findRE "\\A<h4>" $entry) }}
-                {{ errorf "HTML of '%s' does not begin with '<h4>', begins with '%s' instead." $word (index (findRE "\\A.{100}" $entry) 0) }}
+            {{ if not (findRE "\\A<h3>" $entries) }}
+                {{ $bugfree = false }}
+                {{ errorf "HTML of '%s' does not begin with '<h3>', begins with '%s' instead." $word (findRE "\\A.{30}" $entries) }}
             {{ end }}
 
-            <!-- Split into seperate dictionary items. -->
-            {{ range split (replaceRE "\\A.*?<h4>" "" $entry) "<h4>" }}
-                {{ $header   := . | replaceRE "</h4>.*" "" }}
-                {{ $subentry := . | replaceRE ".*</h4>" "" }}
+            <!-- Analyse each word classes entry. -->
+            {{ $entries = $entries | replaceRE "\\A<h3>" "" }}
+            {{ range split $entries "<h3>" }}
+                <!-- Check which word classes are named in the header, then:
+                    - clean
+                    - tranform emphasis into brackets
+                    - transform slashes into commas
+                -->
+                {{ $header := . | replaceRE "</h3>.*" "" }}
 
-                <!-- Adjust depending on item type. -->
-                {{ if eq $header "Worttrennung" }}
-                    <!-- Don't show hyphenation if there is none.-->
-                    {{ if not (in $subentry "·") }}
-                        {{ $subentry = "" }}
-                    {{ end }}
-
-                {{ else if eq $header "Aussprache" }}
-                    <!-- Get the first audio file. -->
-                    {{ if not $audio }}{{ with index (findRE " audio=[^ >]*" $subentry) 0 }}
-                        {{ $audio = . | replaceRE " audio=" "" }}
-                    {{ end }}{{ end }}
-
-                    <!-- Remove rhymes. -->
-                    {{ $subentry = $subentry | replaceRE "<dd>Reime:.*?</dd>" "" }}
-                {{ else if eq $header "Grammatische Merkmale" }}
-                    <!-- Improve declension table-->
-                    {{ $subentry = $subentry | replaceRE "<table.*?><tbody><tr.*?>(.*?)<br>Alle weiteren Informationen.*?</td>" "<table class=infotable><tbody><tr>$1</td>" | replaceRE "(Flexion:[^.,<]*)" "<a href=https://de.wiktionary.org/wiki/$1 target=_blank>$1</a>" }}
-
-                    <!-- Set the basic form if not set. -->
-                    {{ if not $basic_form }}{{ with findRE "<b>(.*?)</b>" $subentry }}
-                        {{ $basic_form = index . 0 | replaceRE ".*<b>|</b>|\\.|\\,|„|“" "" }}
-
-                        <!-- Prevent an infinite loop by not picking the same word and only bothering with first entry. -->
-                        {{ if ne $word $basic_form }}
-                            <!-- Add the basic form to variants. -->
-                            {{ $s.Add "variants" (slice $basic_form) }}
-
-                            {{ $basic := partial "functions/get-word-info.html" $basic_form }}
-
-                            <!-- Add all word classes of the basic form. -->
-                            {{ with index $basic "word classes" }}
-                                {{ $s.Add "word classes" . }}
-                            {{ else }}
-                                {{ errorf "'%s', the basic word of '%s' does not have any word classes." $basic_form $word }}
-                            {{ end }}
-
-                            <!-- Get the translation. -->
-                            {{ with $basic.translation }}
-                                {{ $translation = $translation | default . }}
-                            {{ end }}
-                        {{ end }}
-                    {{ end }}{{ end }}
-
-                {{ else if eq $header "Übersetzungen" }}
-
-                    <!-- Get the translation. -->
-                    {{ range findRE "<li>Englisch: .*?</li>" $subentry }}
-                        <!-- Clean up the translation including tags. -->
-                        {{ $translation = . | replaceRE "<li>Englisch: |</li>" "" | replaceRE "&#160;" " " | replaceRE "<.*?>" "" }}
-
-                        <!-- Remove the brackets if there is only one meaning. -->
-                        {{ if eq (len (findRE "\\[" $translation)) 1}}
-                            {{ $translation =  $translation | replaceRE "\\[.*?\\] " "" }}
-                        {{ end }}
-
-                        <!-- Translate or remove parts that are still in German. -->
-                        {{ $translation =  $translation | replaceRE "veraltet" "obsolete" | replaceRE "britisch" "British" | replaceRE " \\(.*?\\)" "" | replaceRE "meist " ""  | replaceRE "\\[1\\] \\[1\\]" "[1]" }}
-                    {{ end }}
-
-                {{ else if in $header "Das Gesuchte nicht gefunden?" }}
-                    {{ $subentry = "" }}
+                <!-- Get the word classes. -->
+                {{ $wcs := split (replaceRE ", <em.*?</em>|, <i>.*?</i>" "" $header) ", " }}
+                {{ $before := $s.Get "word classes" }}
+                {{ $s.Add "word classes" $wcs }}
+                {{ if ne (printf "%T" ($s.Get "word classes")) "[]string" }}
+                    {{ $bugfree = false }}
+                    {{ errorf "The word classes of '%s' just got the wrong type through $wcs:\n'%T': '%s'\n'%T': '%s'" $word $wcs $wcs $before $before }}
                 {{ end }}
 
-                <!-- Translate the header. -->
+                <!-- Protect words that should not be translated -->
+                {{ $header = $header | replaceRE "<i>(Mutter|Mütter|Muttern|Bänke|Banken)</i>" "<i>mit dem Plural „$1“</i>" }}
+
+                <!-- Clean the header. -->
+                {{ $header = $header | replaceRE "<em title=\"Genus:[^>]*: (.*?)\\)\">.*?</em>(,\\s*|\\s*)" "($1), " | replaceRE "<i>(.*?)</i>(,\\s*|\\s*)" "($1), " | replaceRE "\\),\\s*\\(" ", " | replaceRE ",\\s*\\(" " ("  | replaceRE "\\),\\s*\\z" ")" }}
+                {{ if findRE "Numerus" $header }}
+                    {{ errorf "In '%s', the header is: '%s'" $word $header }}
+                {{ end }}
                 {{ $header_trans := partial "trans" $header }}
+                {{ $s.SetInMap "entry" "header" (dict "de" $header "en" $header_trans) }}
 
-                <!-- Save the subentry info. -->
-                {{ with $subentry }}
-                    {{ $s.SetInMap "subentry" "subentry" . }}
-                    {{ $s.SetInMap "subentry" "header" (dict "de" $header "en" $header_trans) }}
-                    {{ $s.Add "subentries" (slice ($s.Get "subentry")) }}
-                    {{ $s.Delete "subentry" }}
+                <!-- DEBUG -->
+                {{ if findRE "\\A, |</em>" $header }}
+                    {{ errorf "In '%s', one header is: '%s'" $word $header }}
                 {{ end }}
 
-            {{ end }}
-            <!-- Set basic form to word itself if it was not set (to prevent an infinite loop). -->
-            {{ $basic_form = $basic_form | default $word }}
+                <!-- Analize the stuff before the subentries. -->
+                {{ $pre := . | replaceRE ".*</h3>|<h4>.*" "" }}
 
-            {{ $s.SetInMap "entry" "subentries" ($s.Get "subentries") }}
-            {{ $s.Add "entries" (slice ($s.Get "entry")) }}
-            {{ $s.Delete "subentries" }}
-            {{ $s.Delete "entry" }}
-        {{ end }}<!-- end of: Analyse each word classes entry. -->
+                <!-- Get the tables, if present.  -->
+                {{ range findRE "<table class=wikitable>.*?</table>" $pre }}
+                    <!-- Add the html to the info. -->
+                    {{ $table := . }}
 
-        {{ with $s.Get "coda" }}
-            {{ $s.SetInMap "info_lang" "coda" . }}
-            {{ $s.Delete "coda" }}
-        {{ end }}
-        {{ $s.SetInMap "info_lang" "entries"  ($s.Get "entries") }}
-        {{ $s.Delete "entries" }}
-    {{ end }}{{ end }}<!-- end of: Analyse the German entry. -->
-    <!-- END of German Wiktionary entry -->
-
-    <!-- START of German Wikitext. -->
-    {{ $wt := $s.Get "wikitext_de" }}
-
-    <!-- Treat translation as just another info. -->
-    {{ $wt = $wt | replaceRE "====\\s?(.*?)\\s?====" "{{$1}}" }}
-
-    <!-- Transform equal signs into html tags for splitting. -->
-    {{ $wt = $wt | replaceRE "===\\s?(.*?)\\s?===" "<h3>$1" }}
-    {{ $wt = $wt | replaceRE "==\\s?(.*?)\\s?==" "<h2>$1" }}
-
-    <!-- Analyse the relevant entry. -->
-    {{ range split $wt "<h2>" }}{{ if findRE "\\A.*\\|Deutsch|\\AGerman\n" . }}
-        <!-- Remove fluff in the beginning. -->
-        {{ $entry := . | replaceRE "\\A.*\n<h3>" "" }}
-
-        <!-- Analyse each word classes entry. -->
-        {{ range $entry_num, $entry := split $entry "<h3>" }}
-            <!-- Get the table, if present. -->
-            {{ $entry := . | replaceRE "\n" "" }}
-            {{ with findRE "{{Deutsch[^\\|]*Übersicht[^}]*\\|[^}]*" $entry }}
-                <!-- Set the table from the html analysis. -->
-                {{/* $s.Set "table" (index ($s.Get "info_lang").entries $entry_num).table */}} TODO
-
-                {{ $table := index . 0 | replaceRE "{{.*?\\||\\|Bild=.*" "" }}
-                {{ range split $table "|" }}
-                    {{ $split := split . "=" }}
                     <!-- DEBUG -->
-                    {{ if ne (len $split) 2 }}
-                        {{ errorf "Something is wrong with the extracted table from the wikitext of '%s': '%s'" $word $table }}
-                    {{ else }}
-                        {{ $k := index $split 0 }}
-                        {{ $v := index $split 1 }}
-                        {{ $s.SetInMap "table" $k $v }}
+                    {{ if not (replaceRE "<(|/)t[^>]*>" "" .) }}
+                        {{ errorf "In '%s', empty table: '%s'" $word . }}
+                    {{ end}}
 
-                        {{ if eq $k "Genus" }}
-                            <!-- Get the gender. -->
-                            {{ $gender = $gender | default $v }}
-                        {{ else if ne $k "Hilfsverb" }}
-                            <!-- Get variants. -->
-                            {{ $s.Add "variants" (slice $v) }}
+                    <!-- Remove the html from the entry html. -->
+                    {{ $pre = replace $pre $table "" }}
+
+                    <!-- Show link to Flexion:... -->
+                    {{ $table = $table | replaceRE "(Flexion:[^<]*)" "<a href=https://de.wiktionary.org/wiki/$1 target=_blank>$1</a>" }}
+
+                    <!-- Translate cells. -->
+                    {{ range findRE "<th.*?</th>" $table }}
+                        {{ $cell := . | replaceRE "<th.*?>|</th>" "" }}
+
+                        {{ if and $cell (ne $cell "—") }}
+                            {{ $cell_trans := "" }}
+                            {{ if in $cell "<i>"}}
+                                <!-- DEBUG -->
+                                {{ $inner := $cell | replaceRE ".*<i>(.*?)</i>.*" "$1" }}
+                                {{ if findRE "\\A, |</em>" $inner }}
+                                    {{ errorf "In '%s', one inner is: '%s'" $word $inner }}
+                                {{ end }}
+
+                                <!-- Translate only the cursive. -->
+                                {{ $inner_i18n := $cell | replaceRE ".*<i>(.*?)</i>.*" "$1" | partial "trans" }}
+                                {{ $cell_trans = $cell | replaceRE "<i>.*?</i>" (print "<i>" $inner_i18n "</i>") }}
+                            {{ else }}
+                                {{ $cell_trans = partial "trans" $cell }}
+
+                                <!-- DEBUG -->
+                                {{ if findRE "\\A, |</em>" $cell }}
+                                    {{ errorf "In '%s', one cell is: '%s'" $word $cell }}
+                                {{ end }}
+                            {{ end }}
+
+                            {{ with $cell_trans }}
+                                {{ $table = replace $table $cell (print "<span lang=de>" $cell "</span><br><span lang=en class=trans>" . "</span>") }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}<!-- end of translating table cells -->
+
+                    <!-- Save the info. -->
+                    {{ $s.Add "tables" (slice (dict "html" $table)) }}
+                {{ end }}
+                {{ with $s.Get "tables" }}
+                    {{ $s.SetInMap "entry" "tables" . }}
+                    {{ $s.Delete "tables" }}
+                {{ end }}
+
+                <!-- Remove all table tags. -->
+                {{ $pre = $pre | replaceRE "<(|/)t[^>]*>" "" }}
+
+                <!-- Get the media. -->
+                {{ range findRE "<(img|audio|video).*?</p>" $pre }}
+                    <!-- DEBUG -->
+                    {{ $test := . | replaceRE "<img[^>]*>|<video[^>]*>|</video>|<audio[^>]*>|</audio>|<source[^>]*>|<p>.*?</p>" "" }}
+                    {{ if $test }}
+                    {{ errorf "In '%s', found strange medium:\n%s\nREST: %s" $word . $test }}
+                    {{ end }}
+
+                    <!-- Save the html. -->
+                    {{ $s.SetInMap "image" "html" . }}
+
+                    <!-- Remove the html from the entry html. -->
+                    {{ $pre = replace $pre . "" }}
+
+                    <!-- Get the caption. -->
+                    {{ $caption := . | replaceRE ".*<p>|</p>.*" "" }}
+                    {{ $s.SetInMap "medium" "caption" $caption }}
+
+                    <!-- Get the type. -->
+                    {{ $type := . | replaceRE "\\A<([^ ]*).*" "$1" }}
+                    {{ $s.SetInMap "medium" "type" $type }}
+
+                    <!-- Get sources. -->
+                    {{ with findRE "<(img|audio|video)[^>]* src=[^> ]*" . }}
+                        {{ $src := index . 0 | replaceRE ".* src=" "" }}
+                        {{ $s.SetInMap "medium" "src" $src }}
+                    {{ end }}
+                    {{ range findRE "<source[^>]*>" . }}
+                        {{ with findRE " src=[^ >]*" . }}
+                            {{ $src := index . 0 | replaceRE " src=" "" }}
+                            {{ $s.SetInMap "source" "src" $src }}
+                        {{ else }}
+                            {{ errorf "In '%s', could not find a source for:\n%s" $word . }}
+                        {{ end }}
+
+                        {{ with findRE " type=[^ >]*" . }}
+                            {{ $subtype := index . 0 | replaceRE " type=" "" }}
+                            {{ $s.SetInMap "source" "type" $subtype }}
+                        {{ end }}
+
+                        {{ with findRE " data-bandwidth=[0-9]*" . }}
+                            {{ $db := index . 0 | replaceRE " data-bandwidth=" "" | int }}
+                            {{ $s.SetInMap "source" "data-bandwidth" $db }}
+                        {{ end }}
+
+                        {{ $s.Add "sources" (slice ($s.Get "source"))}}
+                        {{ $s.Delete "source" }}
+                    {{ end }}
+                    {{ with $s.Get "sources" }}
+                        {{ $s.SetInMap "medium" "sources" . }}
+                        {{ $s.Delete "sources" }}
+                    {{ end }}
+
+                    <!-- Get an alt value for the image from the caption. -->
+                    {{ $alt := $caption | replaceRE "<.*?>|\\[.*\\] " "" }}
+                    {{ $s.SetInMap "medium" "alt" $alt }}
+                    {{ if in . "alt="}}
+                        {{ errorf "In '%s', an alt was already defined for:\n%s" $word . }}
+                    {{ end }}
+
+                    <!-- Get the width and height. -->
+                    {{ with findRE " width=[0-9]*" . }}
+                        {{ $w := index . 0 | replaceRE " width=" "" | int }}
+                        {{ $s.SetInMap "medium" "width"  $w }}
+                    {{ else }}
+                        {{ if ne $type "audio" }}
+                            {{ errorf "No width found for:\n%s" . }}
                         {{ end }}
                     {{ end }}
+                    {{ with findRE " height=[0-9]*" . }}
+                        {{ $h := index . 0 | replaceRE " height=" "" | int }}
+                        {{ $s.SetInMap "medium" "height"  $h }}
+                    {{ end }}
+
+                    <!-- Save it as the main image. -->
+                    {{ if eq $type "img" }}
+                        {{ $img = $img | default ($s.Get "medium") }}
+                    {{ end }}
+
+                    <!-- Save the info and delete scratch entry. -->
+                    {{ $s.Add "media" (slice ($s.Get "medium"))}}
+                    {{ $s.Delete "medium" }}
                 {{ end }}
+                {{ with $s.Get "media" }}
+                    {{ $s.SetInMap "entry" "media" . }}
+                    {{ $s.Delete "media" }}
+                {{ end }}
+
+                <!-- DEBUG -->
+                {{ if $pre }}
+                    {{ $bugfree = false }}
+                    {{ errorf "HTML of '%s' does not begin with '<h4>', begins instead with:\n%s\n" $word $pre }}
+                {{ end }}
+
+                <!-- Analize the entry. -->
+                {{ $entry := . | replaceRE "\\A.*?<h4>|.*</h3>" "" }}
+
+                <!-- Get the coda. -->
+                {{ with findRE "<hr>.*" $entry }}
+                    {{ $codas := index . 0 | replaceRE "<hr>" "" }}
+
+                    <!-- DEBUG -->
+                    {{ if (not (findRE "\\A<h4>" $codas)) }}
+                        {{ $bugfree = false }}
+                        {{ errorf "The <hr> is not followed by <h4> in the coda of '%s': %s" $word (index (findRE "<hr>.*" $entry) 0) }}
+                    {{ end }}
+
+                    {{ range $coda := split $codas "<h4>" }}
+                        {{ $header := . | replaceRE "</h4>.*" "" }}
+                        {{ if eq $header "Ähnliche Wörter (Deutsch)" }}
+                            {{ $header = "Ähnliche Wörter" }}
+                        {{ else if in $header "Ähnliche Wörter" }}
+                            {{ $header = "" }}<!-- discard -->
+                        {{ end }}
+
+                        {{ with $header }}
+                            {{ $s.SetInMap "coda_map" "header" (dict "de" . "en" (partial "trans" .)) }}
+                            {{ $s.SetInMap "coda_map" "subentry" (replaceRE ".*</h4>" "" $coda) }}
+
+                            {{ $s.Add "coda" (slice ($s.Get "coda_map")) }}
+                            {{ $s.Delete "coda_map" }}
+                        {{ end }}
+                    {{ end }}
+
+                    {{ $entry = $entry | replaceRE "<hr>.*" "" }}
+                {{ end }}
+
+                <!-- Split into seperate dictionary items. -->
+                {{ range split $entry "<h4>" }}
+                    {{ $header   := . | replaceRE "</h4>.*" "" }}
+                    {{ $subentry := . | replaceRE ".*</h4>" "" }}
+
+                    <!-- Adjust depending on item type. -->
+                    {{ if eq $header "Worttrennung" }}
+                        <!-- Don't show hyphenation if there is none.-->
+                        {{ if not (in $subentry "·") }}
+                            {{ $subentry = "" }}
+                        {{ end }}
+
+                    {{ else if eq $header "Aussprache" }}
+                        <!-- Get the first audio file. -->
+                        {{ if not $audio }}{{ with index (findRE " audio=[^ >]*" $subentry) 0 }}
+                            {{ $audio = . | replaceRE " audio=" "" }}
+                        {{ end }}{{ end }}
+
+                        <!-- Remove rhymes. -->
+                        {{ $subentry = $subentry | replaceRE "<dd>Reime:.*?</dd>" "" }}
+                    {{ else if eq $header "Grammatische Merkmale" }}
+                        <!-- Improve declension table-->
+                        {{ $subentry = $subentry | replaceRE "<table.*?><tbody><tr.*?>(.*?)<br>Alle weiteren Informationen.*?</td>" "<table class=infotable><tbody><tr>$1</td>" | replaceRE "(Flexion:[^.,<]*)" "<a href=https://de.wiktionary.org/wiki/$1 target=_blank>$1</a>" }}
+
+                        <!-- Set the basic form if not set. -->
+                        {{ if not $basic_form }}{{ with findRE "<b>(.*?)</b>" $subentry }}
+                            {{ $basic_form = index . 0 | replaceRE ".*<b>|</b>|\\.|\\,|„|“" "" }}
+
+                            <!-- Prevent an infinite loop by not picking the same word and only bothering with first entry. -->
+                            {{ if ne $word $basic_form }}
+                                <!-- Add the basic form to variants. -->
+                                {{ $s.Add "variants" (slice $basic_form) }}
+
+                                {{ $basic := partial "functions/get-word-info.html" $basic_form }}
+
+                                {{ if in $subentry "Plural " }}
+                                    {{ $gender = $basic.de.gender }}
+                                    {{ $s.SetInMap "info_lang" "plural" true }}
+                                {{ end }}
+
+                                <!-- Add all word classes of the basic form. -->
+                                {{ with index $basic.de "word classes" }}
+                                    {{ $before := $s.Get "word classes" }}
+                                    {{ range . }}
+                                        {{ $s.Add "word classes" . }}
+                                    {{ end }}
+                                    {{ if ne (printf "%T" ($s.Get "word classes")) "[]string" }}
+                                        {{ $bugfree = false }}
+                                        {{ errorf "The word classes of '%s' just got the wrong type by adding basic word classes:\n'%T': [%s]\n'%T': [%s]" $word ($s.Get "word classes") (delimit ($s.Get "word classes") "+") $before (delimit $before "+") }}
+                                    {{ end }}
+                                {{ else }}
+                                    {{ $bugfree = false }}
+                                    {{ errorf "'%s', the basic word of '%s' does not have any word classes." $basic_form $word }}
+                                {{ end }}
+
+                                <!-- Get the translation. -->
+                                {{ with $basic.translation }}
+                                    {{ $translation = $translation | default . }}
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}{{ end }}
+
+                    {{ else if eq $header "Übersetzungen" }}
+
+                        <!-- Get the translation. -->
+                        {{ range findRE "<li>Englisch: .*?</li>" $subentry }}
+                            <!-- Clean up the translation including tags. -->
+                            {{ $translation = . | replaceRE "<li>Englisch: |</li>" "" | replaceRE "&#160;" " " | replaceRE "<.*?>" "" }}
+
+                            <!-- Remove the brackets if there is only one meaning. -->
+                            {{ if eq (len (findRE "\\[" $translation)) 1}}
+                                {{ $translation =  $translation | replaceRE "\\[.*?\\] " "" }}
+                            {{ end }}
+
+                            <!-- Translate or remove parts that are still in German. -->
+                            {{ $translation =  $translation | replaceRE "veraltet" "obsolete" | replaceRE "britisch" "British" | replaceRE " \\(.*?\\)" "" | replaceRE "meist " ""  | replaceRE "\\[1\\] \\[1\\]" "[1]" }}
+                        {{ end }}
+
+                    {{ else if in $header "Das Gesuchte nicht gefunden?" }}
+                        {{ $subentry = "" }}
+                        {{ $bugfree = false }}
+                        {{ errorf "'Das Gesuchte nicht gefunden?' actually shows up, for example in '%s'." $word }}
+                    {{ end }}
+
+                    <!-- Translate the header. -->
+                    {{ $header_trans := partial "trans" $header }}
+
+                    <!-- Save the subentry info. -->
+                    {{ with $subentry }}
+                        {{ $s.SetInMap "subentry" "subentry" . }}
+                        {{ $s.SetInMap "subentry" "header" (dict "de" $header "en" $header_trans) }}
+                        {{ $s.Add "subentries" (slice ($s.Get "subentry")) }}
+                        {{ $s.Delete "subentry" }}
+                    {{ end }}
+
+                {{ end }}
+
+                <!-- Set basic form to word itself if it was not set (to prevent an infinite loop). -->
+                {{ $basic_form = $basic_form | default $word }}
+
+                {{ $s.SetInMap "entry" "subentries" ($s.Get "subentries") }}
+                {{ $s.Add "entries" (slice ($s.Get "entry")) }}
+                {{ $s.Delete "subentries" }}
+                {{ $s.Delete "entry" }}
+            {{ end }}<!-- end of: Analyse each word classes entry. -->
+
+            {{ with $s.Get "coda" }}
+                {{ $s.SetInMap "info_lang" "coda" . }}
+                {{ $s.Delete "coda" }}
             {{ end }}
-        {{ end }}<!-- end of analyzing each word classes entry -->
-    {{ end }}{{ end }}<!-- end of analyzing the relevant entry -->
+            {{ $s.SetInMap "info_lang" "entries"  ($s.Get "entries") }}
+            {{ $s.Delete "entries" }}
+        {{ else if and (ne . "") (not (findRE "\\A[^<]*\\(.*?\\)</h2>" .)) (ne (first 13 .) "Umschrift</h2") }}
+            {{ $bugfree = false }}
+            {{ errorf "%s: Instead of German, found: '%s'" $word (index (findRE "\\A[^>]*" .) 0) }}
+        {{ end }}
+
+        {{ end }}<!-- end of: Analyse the German entry. -->
+        <!-- END of German Wiktionary entry -->
+
+        <!-- START of German Wikitext. -->
+        {{ with $wt := $s.Get "wikitext_de" }}
+
+            <!-- Remove fluff. -->
+            {{ $wt = $wt | replaceRE "{{(Siehe auch|erweitern|überarbeiten)\\|[^}]*}}\n" "" }}
+
+            <!-- Treat translation as just another info. -->
+            {{ $wt = $wt | replaceRE "====\\s*([^=]*)\\s*====" "{{$1}}" }}
+
+            <!-- Transform equal signs into html tags for splitting. -->
+            {{ $wt = $wt | replaceRE "===\\s*([^=]*)\\s*===" "<h3>$1" }}
+            {{ $wt = $wt | replaceRE "==\\s*([^=]*)\\s*==" "<h2>$1" }}
+
+            <!-- Analyse the relevant entry. -->
+            {{ range split $wt "<h2>" }}{{ if findRE "\\A.*\\|Deutsch|\\AGerman\n" . }}
+                <!-- Remove fluff in the beginning. -->
+                {{ $entry := . | replaceRE "\\A[^<]*" "" }}
+                {{ if not (findRE "\\A<h3>" $entry) }}
+                    {{ $bugfree = false }}
+                    {{ errorf "In '%s', $entry does not start with <h3>: '%s'" $word (first 100 .) }}
+                {{ else }}
+                    {{ $entry = $entry | replaceRE "\\A<h3>" "" }}
+                {{ end }}
+
+                <!-- Analyse each word classes entry. -->
+                {{ range $entry_num, $subentry := split $entry "<h3>" }}
+                    <!-- Get gender of Toponym -->
+                    {{ with findRE "\\A{{Wortart\\|Substantiv\\|Deutsch}}, {{[mfn]}}, {{Wortart\\|Toponym\\|Deutsch}}" . }}
+                        {{ $gender = $gender | default (replaceRE ".*{{([mfn])}}.*" "$1" (index . 0)) }}
+                    {{ end }}
+
+                    <!-- Get the table, if present. -->
+                    {{ $subentry = . | replaceRE "\n" "" }}
+                    {{ range findRE "{{Deutsch Possessivpronomen\\|[a-zöäü]*}}" $subentry }}
+                        {{ $stem := . | replaceRE "{{Deutsch Possessivpronomen\\||}}" "" }}
+                        {{ range slice "es" "em" "en" "e" "er" }}
+                            {{ $s.Add "variants" (slice (print $stem .)) }}
+                        {{ end }}
+                    {{ end }}
+                    {{ range $i, $table := findRE "{{(Deutsch[^\\|]*Übersicht|[A-ZÖÄÜa-zöäü]{2,}-Tabelle)[^}]*" $subentry }}
+                        <!-- Remove pictures in the table. -->
+                        {{ $table = . | replaceRE "\\|Bild 1\\s*=.*|\\|Bild\\s*=.*" "" }}
+
+                        {{ if and (in $table "|") }}<!-- only analyze if there are entries -->
+
+                            <!-- Remove table description. -->
+                            {{ $table = $table | replaceRE "{{.*?\\|" "" }}
+
+                            <!-- Set the table from the html analysis. -->
+                            {{ with ($s.Get "info_lang").entries }}
+                                {{ with index . $entry_num }}
+                                    {{ with .tables }}
+                                        {{ with index . $i }}
+                                            {{ $s.Set "table" . }}
+                                        {{ else }}
+                                            {{ $bugfree = false }}
+                                            {{ errorf "There is no table #%d for '%s'." $i $word }}
+                                        {{ end }}
+                                    {{ else }}
+                                        {{ $bugfree = false }}
+                                        {{ errorf "There is no table for '%s'." $word }}
+                                    {{ end }}
+                                {{ else }}
+                                    {{ $bugfree = false }}
+                                    {{ errorf "The particular entry for '%s' (%d of %d) is not available:\n%s" $word (add $entry_num 1) (len .) (delimit (split $entry "<h3>") "\n+") }}
+                                {{ end }}
+                            {{ else }}
+                                {{ $bugfree = false }}
+                                {{ errorf "There are no entries yet for '%s'! This is what I have: '%s'" $word ($s.Get "info_lang") }}
+                            {{ end }}
+
+                            {{ range split $table "|" }}
+                                {{ $split := split . "=" }}
+                                <!-- DEBUG -->
+                                {{ if ne (len $split) 2 }}
+                                    {{ $bugfree = false }}
+                                    {{ errorf "Something is wrong with the extracted table from the wikitext of '%s', I have the split [%s]. This is the table: '%s'" $word (delimit $split "+") $table }}
+                                {{ else }}
+                                    {{ $k := index $split 0 | replaceRE "\\A\\s+" "" | replaceRE "\\s+\\z" "" }}
+                                    {{ $v := index $split 1 | replaceRE "\\A\\s+" "" | replaceRE "\\s+\\z" "" }}
+                                    {{ $s.SetInMap "table" $k $v }}
+
+                                    {{ if findRE "\\AGenus" $k }}
+                                        <!-- Get the gender. -->
+                                        {{ $gender = $gender | default $v }}
+                                    {{ else if and (ne "Hilfsverb" $k) (ne "—" $v) (ne "-" $v) }}
+                                        <!-- Get variants. -->
+                                        {{ $s.Add "variants" (slice $v) }}
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}<!-- end of analyzing each word classes entry -->
+            {{ end }}{{ end }}<!-- end of analyzing the relevant entry -->
+        {{ end }}<!-- end of with $s.Get "wikitext_de" -->
+    {{ end }}<!-- end of with $s.Get "text_de" -->
     <!-- END of German Wikitext. -->
-
-    {{ $s.SetInMap "info" "de" ($s.Get "info_lang") }}
-    {{ $s.Delete "info_lang" }}
-
-    <!-- Set a title (with the article, if applicable). -->
-    {{ $title := $word }}
-    {{ with $gender }}
-        {{ $articles := dict "f" "die " "m" "der " "n" "das " }}
-        {{ $title = $title | print (index $articles .) " " }}
-        {{ $s.SetInMap "info" "gender" . }}
-    {{ end }}
-    {{ $s.SetInMap "info" "title" $title }}
 
     <!-- Add all slices. -->
     {{ range $type := slice "word classes" "variants" }}
         {{ with $s.Get . }}
-            {{ $s.SetInMap "info" $type (uniq .) }}
+            {{ if ne (printf "%T" .) "[]string" }}
+                {{ $bugfree = false }}
+                {{ errorf "The %s of '%s' have the wrong type: '%T'\n'%s'" $type $word . . }}
+            {{ else }}
+                {{ $s.SetInMap "info_lang" $type (uniq .) }}
+            {{ end }}
         {{ end }}
     {{ end }}
 
+    <!-- Set a title (with the article, if applicable). -->
+    {{ $title := $word }}
+    {{ with $gender }}
+        {{ with ($s.Get "info_lang").plural }}
+            {{ $title = $title | print "die " }}
+        {{ else }}
+            {{ $articles := dict "f" "die " "m" "der " "n" "das " }}
+            {{ $title = $title | print (index $articles .) }}
+        {{ end }}
+        {{ $s.SetInMap "info_lang" "gender" . }}
+    {{ end }}
+    {{ $s.SetInMap "info_lang" "title" $title }}
+
     <!-- Add all singletons. -->
-    {{ with $gender }}{{ $s.SetInMap "info" "gender" . }}{{ end }}
-    {{ with $audio }}{{ $s.SetInMap "info" "audio" . }}{{ end }}
-    {{ with $basic_form }}{{ $s.SetInMap "info" "basic form" . }}{{ end }}
-    {{ with $translation }}{{ $s.SetInMap "info" "translation" . }}{{ end }}
-    {{ with $img }}{{ $s.SetInMap "info" "img" . }}{{ end }}
+    {{ with $gender }}{{ $s.SetInMap "info_lang" "gender" . }}{{ end }}
+    {{ with $audio }}{{ $s.SetInMap "info_lang" "audio" . }}{{ end }}
+    {{ with $basic_form }}{{ $s.SetInMap "info_lang" "basic form" . }}{{ end }}
+    {{ with $translation }}{{ $s.SetInMap "info_lang" "translation" . }}{{ end }}
+    {{ with $img }}{{ $s.SetInMap "info_lang" "img" . }}{{ end }}
+
+    {{ $s.SetInMap "info" "de" ($s.Get "info_lang") }}
+    {{ $s.Delete "info_lang" }}
 
     <!-- DEBUG -->
-    {{/* with $s.Get "word classes" */}}
-        {{ if and (not $gender) (in ($s.Get "word classes") "Substantiv") }}
-            {{ errorf "Failed to get the gender." }}
-        {{ end }}
-    {{/* end */}}
+    {{ if and (not $gender) (in ($s.Get "word classes") "Substantiv") }}
+        {{ $bugfree = false }}
+        {{ errorf "Failed to get the gender of '%s'." $word }}
+    {{ end }}
 
+    {{ if $bugfree }}
     <!-- Cache the result. -->
-    {{ $cache := $s.Get "info" | jsonify | resources.FromString (printf "cache/word-info/%s.json" $id) }}
-    {{ $s.Set "foo" $cache.RelPermalink }}<!-- just to make it stick -->
+        {{ $cache := $s.Get "info" | jsonify | resources.FromString (printf "cache/word-info/%s.json" $id) }}
+        {{ $s.Set "foo" $cache.RelPermalink }}<!-- just to make it stick -->
+    {{ end }}
 
 {{ end }}<!-- end of getting $info -->
 

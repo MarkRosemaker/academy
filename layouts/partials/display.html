@@ -21,8 +21,11 @@
     <div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">
     {{- range $i, $v := split . "\n" }}
         {{- . }}{{ end }}</textarea></div> (html)<br><br>
-{{ else if eq $type "string"}}
-    {{ if gt (len .) $max}}
+{{ else if eq $type "string" }}
+    {{ if findRE "\\Ahttp" . }}
+        <a href="{{ . }}" target=_blank>{{ . }}</a>
+        {{ $type = "link" }}
+    {{ else if gt (len .) $max}}
         <div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">{{ . }}</textarea></div>
     {{ else }}
         "{{ . }}"

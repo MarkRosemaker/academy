@@ -1,6 +1,11 @@
-{{ $trans := . | replaceRE "&#160;" " " }}
-{{ range split (replaceRE " \\(|, |\\)" "+" $trans) "+" }}
+{{ $trans := . | replaceRE "&#160;" " " | replaceRE "“" "”" | replaceRE "„" "“" }}
+{{ $raw := $trans | replaceRE "\\(|\\)|,|“.*?”|<small>|</small>|<br>|[0-9]+–[0-9]+| [0-9]+\\z" "+" | replaceRE "(Anmerkung zu[rm])" "$1+" | replaceRE "(Anmerkung zu den)" "$1+"  | replaceRE "(des Adjektivs) [a-z]*" "+$1+" | replaceRE "\\s+\\+" "+" | replaceRE "\\+\\s+" "+" | replaceRE "\\+\\+" "+" }}
+
+{{ range split $raw "+" }}
     {{ with . }}
+        {{ if eq (i18n .) "" }}
+            {{ errorf  "Could not translate '%s', which is part of: '%s'" . $trans }}
+        {{ end }}
         {{ $trans = replace $trans . (i18n .) }}
     {{ end }}
 {{ end }}

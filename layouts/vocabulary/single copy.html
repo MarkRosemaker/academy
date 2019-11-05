@@ -1,0 +1,221 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+{{ $info := partial "functions/get-word-info" "foo" }}
+
+{{ if $info.de }}
+    {{ partial "display" $info }}
+{{ end }}
+
+{{ with .Page.Resources.GetMatch "*.html" }}
+    {{ $s := newScratch }}
+
+    <!-- Get thte content of the html file which is export of WorkFlowy. -->
+    {{ $wf := .Content | replaceRE "\r\n" "" | replaceRE ">\\s+<" "><" | replaceRE ".*<body><outline[^>]*>|</outline></body></opml>" "" }}
+
+    {{ range findRE "<outline[^>]*><outline text=\"\\*\">.*?</outline>" $wf }}
+        {{ $wf = replace $wf . "" }}
+        {{ $text := . | replaceRE "\\A<outline text=\"(.*?)\".*" "$1"  }}
+
+        {{ range findRE "<outline[^>]*/>" . }}
+            {{ $example := . | replaceRE "\\A<outline text=\"(.*?)\".*" "$1"  }}
+            {{ $s.Add "examples" (slice $example) }}
+        {{ end }}
+
+        {{ $s.SetInMap $text "examples" ($s.Get "examples" ) }}
+        {{ $s.Add "vocab" (slice ($s.Get $text)) }}
+        {{ $s.Delete "examples" }}
+    {{ end }}
+
+    {{ range findRE "<outline text=\"\\*[^>]+\"(| /)>" $wf }}
+        <!-- ignore these lines -->
+        {{ $wf = replace $wf . "" }}
+    {{ end }}
+
+    {{ range findRE "<outline text=\"[^_\"]*_\\s?[A-ZÖÄÜ][^_\"]*\" />" $wf }}
+        {{ $wf = replace $wf . "" }}
+    {{ end }}
+
+    {{ partial "display" $wf}}
+
+    <!-- Get thte content of the html file which is export of WorkFlowy. -->
+    {{ $wf := .Content | replaceRE "\n\\s+" "\n" }}
+
+
+    {{ $word := "" }}
+    {{ $regex := "" }}
+
+    {{ $deepness := 0 }}
+    {{ range split $wf "\n" }}
+        {{ $isWord := false }}
+
+        {{ if in . "<outline" }}
+
+            {{ $text := . | replaceRE ".*<outline text=\"(.*?)\".*" "$1" }}
+
+            <!-- Seperate the word from the example. -->
+            {{ if or (findRE "\\A\\*" $text) (eq $deepness 0) }}
+                <!-- ignore this line -->
+            {{ else if or (not $word) (in $text "_") }}
+                {{ $isWord = true }}
+
+                <!-- Finish with the last word. -->
+                {{ if $word }}
+                    {{ $examples := $s.Get "examples" | default slice }}
+                    {{ $info := dict "examples" $examples "regex" $regex "variants" ($s.Get "variants") }}
+                    {{ $s.SetInMap "vocab" $word $info }}
+
+                    {{ $s.Delete "examples" }}
+                    {{ $s.Delete "variants" }}
+                    {{ $regex = "" }}
+                    {{ $word = "" }}
+                {{ end }}
+
+                {{ $word = $text | replaceRE " _.*|:.*" "" | replaceRE "\\s?_.*|:.*" ""  }}
+
+                {{ if ne $word "sieben" }}
+                    {{ $search := $word | replaceRE "\\(|\\)|/.*" "" }}
+                    {{ with partial "functions/get-word-info" $search }}{{ with .variants }}
+                        {{ range . }}
+                            {{ $s.Add "variants" (slice .) }}
+                        {{ end }}
+                    {{ end }}{{ end }}
+                {{ end }}
+
+                <!-- Add most basic version to variants. -->
+                {{ $basic := $word | replaceRE "\\A\\(sich\\) |\\Asich |\\Ader |\\Adie |\\Adas |\\Ader/die | \\(pl\\.\\)\\z|,\\s*-[^\\/]*|, –\\z|\\(.*?\\)" "" | replaceRE "/die |/das " "/" | replaceRE "\\A\\s+|\\s+\\z" "" }}
+
+                <!--
+                    Find alternatives.
+                    Example: Viertel vor/nach zwei
+                            $alt = "vor/nach"
+                            split = [vor,nach]
+                            Then replace "vor/nach" with "vor" or with "nach".
+                    Example: zum Beispiel/z. B.: zum Beispiel|z. B.
+                            $basic = "zum Beispiel/z. B."
+                            split = [zum Beispiel,z. B.]
+                    Example: foo
+                            $basic = "foo"
+                            split = [foo]
+                    -->
+                {{ if and (in $basic "/") (findRE "\\A([^_:]*|[^_:]*\\_.*)\\z" $text) }}
+                    <!--
+                        Found matches that:
+                            - contain "/"
+                            - don't have custom rexes (no colons or just colons in the example)
+                    -->
+                    {{ range $alt := findRE "[^\\s]*/[^\\s]*" $basic }}
+                        {{ range split . "/" }}
+                            {{ $s.Add "variants" (slice (replace $basic $alt .)) }}
+                        {{ end }}
+                    {{ end }}
+                {{ else if findRE "\\A[^_]*-\\s*:" $text }}
+                    <!-- Found matches like "lieb-: liebe|lieber", use the regex instead of "lieb-". -->
+                {{ else }}
+                    {{ $s.Add "variants" (split $basic "/") }}
+                {{ end }}
+
+                <!-- Add with backet content to variants. -->
+                {{ if findRE "\\(.*?\\)" $word }}
+                    {{ $nobr := $word | replaceRE "\\(pl.\\)|\\(|\\)" "" | replaceRE "\\Ader |\\Adie |\\Adas |\\s+\\z" "" }}
+                    {{ $s.Add "variants" (slice $nobr) }}
+                    {{ if in $nobr "sich " }}
+                        {{ $s.Add "variants" (slice (replace $nobr "sich " "mich ")) }}
+                        {{ $s.Add "variants" (slice (replace $nobr "sich " "uns ")) }}
+                        <!-- TODO allow in regex for there to be word in between, different order -->
+                    {{ end }}
+                {{ end }}
+
+                <!-- Add plural. -->
+                {{ if findRE ",\\s*-" $word }}
+                    {{ range split $word "/" }}
+                        <!-- Initialize variables. -->
+                        {{ $add    := . | replaceRE ".*,\\s*-" "" }}
+                        {{ $plural := . | replaceRE "der |die |das |,\\s*-.*" "" }}
+
+                    <!-- Give plural umlauts, delete info from singular variable. -->
+                    {{ $os := slice "O" "A" "U" "a" "o" "u" }}<!-- originals -->
+                    {{ $us := slice "Ö" "Ä" "Ü" "ä" "ö" "ü" }}<!-- umlauts -->
+                    {{ range seq 1 (len $os) }}
+                        {{ $o := index $os (sub . 1) }}
+                        {{ $u := index $us (sub . 1) }}
+
+                        <!-- If the umlaut has to be added ... -->
+                        {{ if findRE (print "\\A" $u) $add }}
+                            <!-- ... replace the last bit containing the original ... -->
+                            {{ $bit := index (findRE (print $o "[^" $o "]*\\z") $plural) 0 }}
+                            {{ $plural = $plural | replaceRE $bit (replace $bit $o $u) }}
+
+                            <!-- ... and remove the umlaut from the list of things to add. -->
+                            {{ $add = $add | replaceRE (print "\\A" $u ", |\\A" $u) "" }}
+                        {{ end }}
+                    {{ end }}
+
+                    <!-- Add addition to plural. -->
+                    {{ $plural = print $plural $add }}
+
+                    <!-- Add variant. -->
+                    {{ $s.Add "variants" (slice $plural) }}
+
+                    {{ end }}
+                {{ end }}
+
+                <!-- Add example. -->
+                {{ if in $text "_" }}
+                    {{ $ex := $text | replaceRE ".*_" "" | replaceRE "\\A\\s+" "" }}
+                    {{ with $ex }}
+                        {{ $s.Add "examples" (slice .) }}
+                    {{ end }}
+                {{ end }}
+
+                {{ $v := $s.Get "variants" }}
+                {{ if ne (printf "%T" $v) "string" }}
+
+                    {{ $t := printf "%T" $v }}
+                    {{ if ne $t "[]string" }}
+                        {{ errorf "#3: In '%s', the type is '%s': '%s'" $word $t $v }}
+                    {{ end }}
+                    {{ range $v }}
+                        {{ $s.Add "tosort" (slice (dict "variant" . "len" (len .))) }}
+                    {{ end }}
+                    {{ $s.Delete "variants" }}
+
+                    <!-- Sort variants by length. -->
+                    {{ range sort ($s.Get "tosort") ".len" "desc" }}
+                        {{ $s.Add "variants" (slice .variant) }}
+                    {{ end }}
+                    {{ $s.Delete "tosort" }}
+                {{ end }}
+
+            {{ else if ne $deepness 0 }}
+                {{ $s.Add "examples" (slice $text) }}
+            {{ end }}
+
+        {{ end }}
+
+        <!--
+            Finish with the last word
+                - if there is a word
+                - and we're not going deeper and it's a word
+        -->
+        {{ if and $word (or (in . "</outline>") (and (in . "/>") $isWord))}}
+            {{ $examples := $s.Get "examples" | default slice }}
+            {{ $info := dict "examples" $examples "regex" $regex "variants" ($s.Get "variants") }}
+            {{ $s.SetInMap "vocab" $word $info }}
+
+            {{ $s.Delete "examples" }}
+            {{ $s.Delete "variants" }}
+            {{ $regex = "" }}
+            {{ $word = "" }}
+        {{ end }}
+
+        {{ if in . "</outline>" }}
+            {{ $deepness = sub $deepness 1 }}
+        {{ end }}
+    {{ end }}
+
+
+{{ end }}
+
+{{ partial "footer.html" . }}

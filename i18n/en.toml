@@ -121,6 +121,12 @@ other = "irregular"
 ["intransitiv"]
 other = "intransitive"
 
+["transitiv"]
+other = "transitive"
+
+["reflexiv"]
+other = "reflexive"
+
 ["Personalpronomen"]
 other = "personal pronoun"
 
@@ -208,8 +214,8 @@ other = "superlative"
 ["Anmerkung"]
 other = "remark"
 
-["Anmerkung zum Artikelgebrauch"]
-other = "remark regarding the usage of the article"
+["Artikelgebrauch"]
+other = "usage of the article"
 
 ["Wortform"]
 other = "word form"
@@ -265,11 +271,20 @@ other = "name variants"
 ["Präposition"]
 other = "preposition"
 
-["Anmerkung zur Groß- und Kleinschreibung"]
-other = "note about case sensitivity"
+["Anmerkung zur"]
+other = "note on the"
 
-["Anmerkung zur Flexion"]
-other = "note on the flexion"
+["Anmerkung zum"]
+other = "note on the"
+
+["Anmerkung zu den"]
+other = "note on the"
+
+["Groß- und Kleinschreibung"]
+other = "case sensitivity"
+
+["Flexion"]
+other = "flexion"
 
 ["Pronomen"]
 other = "pronoun"
@@ -301,8 +316,8 @@ other = "degree particles"
 ["Symbole"]
 other = "symbols"
 
-["Anmerkung zur Kommasetzung"]
-other = "note on comma placement"
+["Kommasetzung"]
+other = "comma placement"
 
 ["Nachname"]
 other = "surname"
@@ -313,11 +328,11 @@ other = "indefinite pronoun"
 ["Numerale"]
 other = "numeral"
 
-["Anmerkung zur Wortart"]
-other = "note on the word class"
+["Wortart"]
+other = "word class"
 
-["Anmerkung zur Substantivierung"]
-other = "note on the nominalization"
+["Substantivierung"]
+other = "nominalization"
 
 ["Modaladverb"]
 other = "modal adverb"
@@ -328,11 +343,14 @@ other = "short forms"
 ["Kontraktion"]
 other = "contraction"
 
-["Anmerkung zur Steigerbarkeit"]
-other = "note on gradability"
+["Steigerbarkeit"]
+other = "gradability"
 
 ["Männliche Wortformen"]
 other = "masculine word forms"
+
+["Deklination"]
+other = "declension"
 
 ["adjektivische Deklination"]
 other = "adjectival declension"
@@ -355,11 +373,11 @@ other = "indeclinable"
 ["Modalpartikel"]
 other = "modal particle"
 
-["Anmerkung zum Unterschied zwischen „brauchen“ und „gebrauchen“"]
-other = "remark on the difference between „brauchen“ and „gebrauchen“"
+["Unterschied zwischen"]
+other = "difference between"
 
-["Anmerkung zur Beugung"]
-other = "remark on the flexion"
+["Beugung"]
+other = "flexion"
 
 ["Buchstabe"]
 other = "letter"
@@ -376,8 +394,8 @@ other = "regular"
 ["Wörter"]
 other = "words"
 
-["Anmerkung zur Trennung der Pluralformen"]
-other = "remark on the hyphenation of the plural forms"
+["Trennung der Pluralformen"]
+other = "hyphenation of the plural forms"
 
 ["Worte"]
 other = "sayings"
@@ -421,15 +439,6 @@ other = "German"
 ["Geflügelte Worte"]
 other = "well-known sayings"
 
-["m"]
-other = "m"
-
-["f"]
-other = "f"
-
-["n"]
-other = "n"
-
 ["Präposition mit dem Dativ"]
 other = "preposition with the dative"
 
@@ -460,8 +469,180 @@ other = "EMPTY SPACE TRANSLATED PLEASE TELL MARK"
 ["Enklitikon"]
 other = "enclitic"
 
-["Anmerkung zur Umgangssprache"]
-other = "note about the vernacular"
+["Umgangssprache"]
+other = "vernacular"
 
 ["Interrogativpronomen"]
 other = "interrogative pronoun"
+
+["untrennbar"]
+other = "inseparable"
+
+["Gebundenes Lexem"]
+other = "bound lexeme"
+
+["Worthistorie"]
+other = "word history"
+
+["Deklination der Kardinalzahlen"]
+other = "declension of the cardinal numbers"
+
+["vergleiche"]
+other = "compare"
+
+["Präfix"]
+other = "prefix"
+
+["1. Person Singular"]
+other = "1st person singular"
+
+["1. Person Plural"]
+other = "1st person plural"
+
+["attributiv"]
+other = "attributive"
+
+["vor Substantiv"]
+other = "in front of noun"
+
+["Kasus"]
+other = "case"
+
+["maskulin"]
+other = "masculine"
+
+["feminin"]
+other = "feminine"
+
+["neutrum"]
+other = "neuter"
+
+["und Plural"]
+other = "and plural"
+
+["Anrede"]
+other = ""
+
+["Unterscheidung von"]
+other = "differentiation of"
+
+["und"]
+other = "and"
+
+["Komparation"]
+other = "comparison"
+
+["Rektion"]
+other = "case government"
+
+["auch Postposition"]
+other = "also postposition"
+
+["m"]
+other = "m"
+
+["f"]
+other = "f"
+
+["n"]
+other = "n"
+
+["unpersönlich"]
+other = "impersonal"
+
+["Gebrauch in Österreich"]
+other = "usage in Austria"
+
+["Anmerkung Wortart"]
+other = "note on the part of speech"
+
+["Anmerkung Rechtschreibung"]
+other = "note on the spelling"
+
+["des Adjektivs"]
+other = "of the adjective"
+
+["nur substantivisch"]
+other = "only substantival"
+
+["mit dem bestimmten Artikel"]
+other = "with the definite article"
+
+["und ähnlichem"]
+other = "and similar"
+
+["Interrogativadverb"]
+other = "interrogative adverb"
+
+["Wortverbindung"]
+other = "word combination"
+
+["Geschlecht"]
+other = "gender"
+
+["Holonyme"]
+other = "holonyms"
+
+["Genus"]
+other = "gender"
+
+["Verbreitung"]
+other = "prevalence"
+
+["Pluralformen"]
+other = "plural forms"
+
+["Entlehnungen"]
+other = "loanwords"
+
+["Konjugation"]
+other = "conjugation"
+
+["Schreibung"]
+other = "spelling"
+
+["Koseformen"]
+other = "familiar forms"
+
+["Weibliche Namensvarianten"]
+other = "female name variants"
+
+["Zeiteinheit"]
+other = "unit of time"
+
+["Bekannte Namensträger"]
+other = "well-known namebearers"
+
+["Verwandtschaftsgrade"]
+other = "degrees of relationship"
+
+["Längenmaß"]
+other = "measure of length"
+
+["Abgabe"]
+other = "levy"
+
+["mit dem Plural"]
+other = "with the plural"
+
+["Anmerkung Singular"]
+other = "note on the singular"
+
+["Anmerkung Genus"]
+other = "note on the gender"
+
+["Orthografie"]
+other = "spelling"
+
+["weiblichen Genus"]
+other = "feminine gender"
+
+["Zeremonie"]
+other = "ceremony"
+
+["Blütezeit"]
+other = "time of blossoming"
+
+["Numerus"]
+other = "number"
+
