@@ -2,14 +2,11 @@
 
 {{ .Content }}
 
-{{/* partial "display" (partial "functions/get-word-info" "ausländisch") */}}
-
 <!-- Get a new scratch. -->
 {{ $s := newScratch }}
 
 <!-- Get the content of the html file which is export of WorkFlowy. -->
 {{ with .Page.Resources.GetMatch "*.html" }}
-
     <!--
         Clean up the vocabulary export:
         - delete line breaks
@@ -25,7 +22,7 @@
         {{ $s.Add "tags" (slice .)}}
     {{ end }}
 
-    {{ range seq 5 }}
+    {{ range seq 4 }}
 
         <!-- Get all vocabulary word lists. -->
         {{ range findRE "<outline text=\"\\*[^>]+\">(<outline[^>]*/>){0,}</outline>" $wf }}
@@ -49,20 +46,21 @@
 
     <!-- DEBUG -->
     {{ if $wf }}
-        {{ errorf "I need more iterations to parse the vocabulary."}}
+        <p>I need more iterations to parse the vocabulary, still got:<br>{{ partial "display" $wf }}</p>
     {{ end }}
 
+    <!-- Analyze all tags. -->
     {{ range $s.Get "tags" }}
         <!-- Get the initial text. -->
         {{ $text := . | replaceRE "\\A<outline text=\"(.*?)\".*" "$1"  }}
 
         {{ if not (findRE "\\A\\*" $text) }}
-            {{ $s.SetInMap $text "text" $text }}
+            <!-- DEBUG -->
+            {{ $s.SetInMap "vocab" "text" $text }}
 
             <!-- Get the only example. -->
             {{ if in $text "_" }}
-                {{ $example := $text | replaceRE ".*_\\s*" "" }}
-                {{ with $example }}
+                {{ with replaceRE ".*_\\s*" "" $text }}
                     {{ $s.Add "examples" (slice .) }}
                 {{ end }}
 
@@ -71,11 +69,10 @@
 
             <!-- Get the regex. -->
             {{ if in $text ":" }}
-                {{ $regexes := $text | replaceRE ".*:\\s*" "" }}
-                {{ with $regexes }}
-                    {{ $s.Add "regexes" (split $regexes "|") }}
+                {{ with replaceRE ".*:\\s*" "" $text}}
+                    {{ $s.Add "regexes" (split . "|") }}
                 {{ else }}
-                    {{ errorf "In '%s', found no regexes despite there being a colon." }}
+                    <p>In '{{ $text }}', found no regexes despite there being a colon.</p>
                 {{ end }}
 
                 {{ $text = $text | replaceRE "\\s*:.*" "" }}
@@ -89,101 +86,173 @@
             {{ end }}
 
             <!-- DEBUG -->
-            {{ $s.SetInMap $text "text" $text }}
+            {{ $s.SetInMap "vocab" "vocab" $text }}
 
             <!-- Add the examples to the map. -->
             {{ with $s.Get "examples" }}
-                {{ $s.SetInMap $text "examples" . }}
-                {{ $s.Delete "examples" }}
+                {{ $s.SetInMap "vocab" "examples" . }}
             {{ end }}
 
             <!-- Get the most basic version. -->
             {{ $basic := $text | replaceRE "\\A\\(sich\\) |\\Asich |\\Ader |\\Adie |\\Adas |\\Ader/die |\\Adas/der/die | \\(pl\\.\\)\\z|,\\s*-[^\\/]*|, –\\z|\\(.*?\\)" "" | replaceRE "/die |/das " "/" | replaceRE "\\A\\s+|\\s+\\z" "" }}
             {{ if not $basic }}
-                {{ errorf "Could not find basic word for '%s'." $text }}
+                <p>Could not find basic word for '{{ $text }}'.</p>
             {{ end }}
-            <!-- TODO
-                Find alternatives.
-                Example: Viertel vor/nach zwei
-                    $alt = "vor/nach"
-                    split = [vor,nach]
-                    Then replace "vor/nach" with "vor" or with "nach".
-                Example: zum Beispiel/z. B.: zum Beispiel|z. B.
-                    $basic = "zum Beispiel/z. B."
-                    split = [zum Beispiel,z. B.]
-            -->
 
-            <!-- Add the variants to the map and to a variable. -->
-            {{ $variants := slice }}
-            {{ with (partial "functions/get-word-info" $basic).de }}
-                {{ with .variants }}
-                    {{ $variants = . }}
-                    {{ $s.SetInMap $text "variants" . }}
+            <!-- Find alternatives.  -->
+            {{ if and (in $basic "/") (not (in $basic ".")) (not ($s.Get "regexes")) }}
+                <!--
+                    Example: Viertel vor/nach zwei
+                        $both = "vor/nach"
+                        split = [vor,nach]
+                        Then replace "vor/nach" with "vor" or with "nach".
+                    Exclude vocabs that are abbreviations or have regexes.
+                -->
+                {{ range $both := findRE "[^\\s]*/[^\\s]*" $basic }}
+                    {{ range split . "/" }}
+                        {{ $alt := replace $basic $both . }}
+                        {{ $s.Add "alts" (slice $alt) }}
+                        {{ if not $alt }}<p>#1: {{ $basic }}</p>{{ end }}
+                        {{ $s.Add "variants" (slice $alt) }}
+                    {{ end }}
                 {{ end }}
-                <!-- TODO add female version https://de.wiktionary.org/wiki/Teilnehmer -->
+            {{ else if findRE "[^ ]-\\z" $basic }}
+                <!-- Found matches like "lieb-: liebe|lieber", use the regex instead of "lieb-". -->
+                {{ $s.Add "alts" ($s.Get "regexes") }}
+
+                <!-- Transform dash into regex. -->
+                {{ $reg := $basic | replaceRE "-\\z" "[a-zéöäü]+" }}
+
+                <!-- Get the variants from the examples. -->
+                {{ range $s.Get "examples" }}
+                    {{ range findRE $reg . }}
+                        {{ $s.Add "variants" (slice .)}}
+                    {{ end }}
+                {{ end }}
+                {{ $s.Add "regexes" (slice $reg) }}
+            {{ else }}
+                <!--
+                    Example: zum Beispiel/z. B.
+                        split = [zum Beispiel,z. B.]
+                    But most often $basic just doesn't contain a slash.
+                -->
+                {{ range split $basic "/" }}
+                    {{ $s.Add "alts" (slice .) }}
+                    {{ if not . }}<p>#2: {{ $basic }}</p>{{ end }}
+                    {{ $s.Add "variants" (slice .) }}
+                {{ end }}
             {{ end }}
+
+            {{ range $alt := $s.Get "alts"}}
+                <!-- Add the variants to the map and to a variable. -->
+                {{ with (partial "functions/get-word-info" $alt).de }}
+                    {{ range .variants }}
+                        {{ if not . }}<p>#3: {{ $alt }}</p>{{ end }}
+                        {{ $s.Add "variants" (slice .) }}
+                    {{ end }}
+
+                    <!-- Add female version. -->
+                    {{ if in (index . "word classes") "Substantiv"}}
+                        {{ range (index .entries 0).subentries }}
+                            {{ if eq .header.de "Weibliche Wortformen" }}
+                                {{ $female := .subentry | replaceRE "<[^>]*>|\\[.*?\\]\\s*|,.*" "" }}
+                                {{ if not $female }}<p>#4: {{ $basic }}</p>{{ end }}
+                                {{ with (partial "functions/get-word-info" $female).de }}
+                                    {{ range .variants }}
+                                        {{ $s.Add "variants" (slice .) }}
+                                    {{ end }}
+                                {{ end }}
+                                {{ if not (in ($s.Get "variants") $female)}}
+                                    {{ errorf "Something went wront with the female version of '%s'." $alt }}
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            {{ $s.Delete "alts" }}
+
+            {{ $s.Set "variants" (uniq ($s.Get "variants")) }}
 
             <!-- DEBUG -->
-            {{ with $s.Get "regexes" }}
-                {{ range . }}
-                    {{ if in $variants . }}
-                        {{ errorf "No need to put '%s' in regexes of '%s', it's already a known variant." . $basic }}
+            {{ if not (findRE "[^ ]-\\z" $basic) }}
+                {{ range $s.Get "regexes" }}
+                    {{ if in ($s.Get "variants") . }}
+                        <p>No need to put '{{ . }}' in regexes of '{{ $basic }}', it's already a known variant.</p>
                     {{ end }}
                 {{ end }}
             {{ end }}
 
             <!-- Add variants to potential regexes. -->
-            {{ $s.Add "regexes" $variants }}
+            {{ $s.Add "regexes" ($s.Get "variants") }}
 
             <!-- Calculate regexes. -->
             {{ range $s.Get "regexes" }}
-                <!-- Transform dash into regex. -->
-                {{ $reg := . | replaceRE "-\\z" ".+" }}
-
-                <!-- Transform dot into regex but leave dot with asterisk or plus. -->
-                {{ $reg = $reg | replaceRE "\\." "\\." | replaceRE " \\\\.\\*" "\\b.{0,20}" | replaceRE "\\\\.\\+" "[^\\s]+" }}
+                <!-- Make it possible for words to be in between. -->
+                {{ $reg := . | replaceRE "\\s+" " [^\\\\.\\\\?!:]*?" }}
 
                 <!--
                     Add word end signifier.
                     Does not work with umlauts.
                 -->
-                {{ if not (findRE "[öäüßé\\.]\\z" .) }}
-                    {{ $reg = $reg | printf "%s\\b" }}
+                {{ if findRE "[a-z]\\z" . }}
+                    {{ $reg = $reg | printf "%s\\\\b" }}
                 {{ end }}
-                {{ if not (findRE "\\A[ÄÖÜöäü]" .) }}
-                    {{ $reg = $reg | print "\\b" }}
+                {{ if findRE "\\A[A-Za-z]" . }}
+                    {{ $reg = $reg | print "\\\\b" }}
                 {{ end }}
 
                 {{ $s.Add "regs" (slice $reg) }}
             {{ end }}
 
+            {{ $s.SetInMap "vocab" "variants" ($s.Get "variants") }}
+            {{ $s.Delete "variants" }}
+
             {{ $regex := print "(" (delimit ($s.Get "regs") "|") ")" }}
-            {{ $s.SetInMap $text "regex" $regex }}
+            {{ $s.SetInMap "vocab" "regex" $regex }}
+            {{ $s.Add "vocabs" (slice ($s.Get "vocab")) }}
+
             {{ $s.Delete "regexes" }}
             {{ $s.Delete "regs" }}
+            {{ $s.Delete "examples" }}
+            {{ $s.Delete "vocab" }}
+        {{ end }}<!-- end if does not has a asterisk -->
+    {{ end }}<!-- end ranging through tags -->
+{{ end }}<!-- end with the vocabulary file -->
 
-            {{ $s.Add "vocab" (slice ($s.Get $text)) }}
-        {{ end }}
-    {{ end }}
-{{ end }}
-
-{{ $vocab := $s.Get "vocab" }}
-{{ with $vocab }}
+{{ with $vocabs := $s.Get "vocabs" }}
 <p>{{ len . }} Vokabeln.</p>
-{{ end }}
 
 <h2>Setting</h2>
-{{ $color := slice (dict "backgroundColor" "lightgreen") }}
-{{ range $vocab }}
-    {{ $s.SetInMap "setting" .regex $color }}
+{{ range $vocabs }}
+    {{ $s.Add "regs" (slice .regex) }}
 {{ end }}
-<div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">"highlight.regexes": {{ jsonify ($s.Get "setting") }},</textarea></div>
+{{ $s.Set "regs" (uniq ($s.Get "regs")) }}
+{{ $l := sub (len ($s.Get "regs")) 1 }}
+<div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">
+    "highlight.regexes": { {{- range $i, $v := $s.Get "regs" }}
+        "{{ . }}": [{
+            "backgroundColor": "lightgreen"
+        }]{{ if ne $i $l }},{{ end }}{{ end }}
+    }
+}</textarea></div>
 
 <h2>Test</h2>
+{{ range $vocabs }}
+    {{ range .variants }}
+        {{ $v := . | replaceRE "-\\z" "foo" }}
+        {{ $s.Add "variants" (slice $v) }}
+    {{ end }}
+    {{ if not .variants }}<p>{{ partial "display" . }}</p>{{ end }}
+    {{ $variants := $s.Get "variants" | uniq | sort }}
+    {{ $s.Add "AllVariants" (slice (delimit $variants ". ")) }}
+    {{ $s.Delete "variants" }}
+{{ end }}
 <div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">
-{{- range $vocab -}}
-    {{ index .variants 0 | replaceRE " \\.\\*" "" | replaceRE "-\\z" "foo" }}
+{{- range sort (uniq ($s.Get "AllVariants")) -}}
+    {{ . }}.
 {{ end -}}
 </textarea></div>
+{{ end }}
 
 {{ partial "footer.html" . }}

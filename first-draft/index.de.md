@@ -9,871 +9,6 @@ spellchecked = false
 audio = ''
 +++
 
-woher
-wer
-warum
-was für ein
-wie viel
-zweite
-dritte
-vierte
-neunzehnhundertneunundneunzig
-zweitausendvierzehn
-erste März
-erste Dritte
-Berlin, zwölfter Vierter zweitausendzwei
-null Uhr drei
-sieben Uhr fünfzehn
-dreizehn Uhr siebzehn
-vierundzwanzig Uhr
-ein Uhr
-fünf Minuten vor/nach eins
-Viertel vor/nach zwei
-halb drei
-Uhr
-Frühling
-Sommer
-Herbst
-Winter
-1 Euro 100 Cent
-Zentimeter
-Kilometer
-Quadratmeter
-Prozent
-Liter
-Gramm
-Pfund
-Kilo
-Land
-international
-Heimat
-Deutsche
-ein Deutscher
-eine Deutsche
-deutsch
-Europäer
-europäisch
-Türkei
-Türke
-Türkin
-türkisch
-Finnland
-Finne
-Finnin
-finnisch
-Mexiko
-Mexikaner
-Mexikanerin
-mexikanisch
-Norden
-Süden
-Westen
-Osten
-der
-die
-der
-die
-das
-die
-dieser
-diese
-dieses
-diese
-ihr
-Ihr
-unser
-unsere
-unser
-euer
-man
-etwas
-nichts
-welche
-welches
-welchen
-welcher
-welchem
-ich
-du
-er
-sie
-es
-wir
-ihr
-Sie
-mich
-dich
-ihn
-dich
-ihr/ihm
-gehören
-es geht
-wer
-wen
-wem
-unbekannt
-Leute
-Mensch
-Herr
-Mann
-Jugendliche
-Bekannte
-Verwandte
-Ehefrau
-Ehemann
-Baby
-Mädchen
-Junge
-Sohn
-Tochter
-kümmern
-Bruder
-Schwester
-Vater
-Mutter
-Großmutter
-Großvater
-Oma
-tot
-Opa
-hallo
-vorstellen
-kennenlernen
-Wiedersehen
-tschüss
-Blume
-Baum
-aber
-und
-oder
-zufrieden
-böse
-bedeuten
-Beispiel
-zum Beispiel/z. B.
-Papier
-Bleistift
-Kugelschreiber
-Unterricht
-verstehen
-Hausaufgabe
-Problem
-Lösung
-Teilnehmer/Teilnehmerin
-Schüler
-Partner/Partnerin
-Team
-Test
-Prüfung
-Aussage
-falsch
-Fehler
-Thema
-Student
-studieren
-Stunde
-seit
-ab
-beginnen
-früher
-gestern
-heute
-jetzt
-sofort
-zurzeit
-bald
-spät
-später
-morgen
-immer
-oft
-reisen
-willkommen
-Doppelzimmer
-Einzelzimmer
-Rezeption
-Blick
-Familienfoto
-Passfoto
-Reisender
-Koffer
-besichtigen
-kulturell
-See
-Meer
-wandern
-Ort
-Prospekt
-Führung
-Ausländer/Ausländerin
-ausländisch
-fremd
-Zoll
-Ausweis
-Pass
-abfahren
-ankommen
-Fahrer
-fliegen
-Flughafen
-abfliegen
-Abflug
-Fahrkarte
-Schalter
-Automat
-Bahnsteig
-einsteigen
-aussteigen
-halten
-lange
-Bahnhof
-Gleis
-frei
-Autobahn
-Vorsicht
-fahren
-Haltestelle
-Rad fahren
-Taxi
-Straßenbahn
-S-Bahn
-Lkw
-Appetit
-Durst
-Hunger
-bitter
-riechen
-essen
-trinken
-Flasche
-Bier
-Saft
-Milch
-Wein
-Tee
-Wasser
-Apfel
-Birne
-Banane
-Fisch
-Schinken
-Hähnchen
-Tomate
-Kartoffel
-Pommes
-Öl
-Butter
-Salat
-Reis
-Brötchen
-Ei
-frühstücken
-Salz
-Kuchen
-ausfüllen
-ankreuzen
-Datum
-feiern
-Glückwunsch
-gratulieren
-herzlich
-Geburtsort
-Geburtsjahr
-jung
-männlich
-weiblich
-ledig
-verheiratet
-buchstabieren
-Familienname
-Straße
-Postleitzahl
-normal
-klein
-telefonieren
-Anruf
-Handy
-Vorwahl
-Wiederhören
-wiederholen
-erreichbar
-Anrufbeantworter
-arbeiten
-arbeitslos
-Job
-verdienen
-Arbeitsplatz
-Kollege
-Chef
-Praktikant/Praktikantin
-Lehrer
-Frauenarzt
-Zahnarzt
-Praxis
-weh tun
-Doktor
-krank
-Fieber
-Termin
-Sekretär/Sekretärin
-Beamte
-Hausfrau
-Hausmann
-Firma
-selbstständig
-Stelle
-Pause
-kriegen
-schwarz
-grau
-blau
-grün
-weiß
-rot
-gelb
-braun
-hellblau
-dunkelblau
-Mund
-Auge
-Bein
-Arm
-Fuß
-Bauch
-Hand
-Haar
-E-Mail
-Wort/Wort
-Satz
-Buchstabe
-lesen
-CD
-drücken
-benutzen
-anmelden
-anklicken
-drucken
-Fax
-Internet
-kaufen
-einkaufen
-verkaufen
-Geschäft
-Verkäufer
-Kunde
-Konto
-überweisen
-bar
-kosten
-bezahlen
-zahlen
-Kasse
-geöffnet
-Zeitung
-Zigarette
-Feuer
-anbieten
-mitbringen
-unterschreiben
-billig
-günstig
-teuer
-Eintritt
-Ecke
-Schild
-links
-rechts
-geradeaus
-müde
-schlafen
-werden
-weg sein
-zu sein
-öffnen
-schreiben
-mögen
-mitmachen
-mitnehmen
-holen
-kennen
-lieben
-haben
-gewinnen
-gestorben
-gefallen
-freuen
-finden
-gültig
-glücklich
-gern
-viel
-ohne
-mehr
-Apartment
-abgeben
-abholen
-wohnen
-vermieten
-Vermieter
-Raum
-Toilette
-baden
-Dusche
-duschen
-kochen
-Herd
-Kühlschrank
-Bett
-Schrank
-Sofa
-Tisch
-Sofa
-Stock
-Balkon
-Aufzug
-Treppe
-Garten
-Jacke
-anziehen
-ausziehen
-Tasche
-Schuh
-Regen
-regnen
-Wind
-Sonne
-scheinen
-hell
-ausmachen
-anmachen
-Licht
-sprechen
-sagen
-Ansage
-Durchsage
-Auskunft
-fragen
-antworten
-bitten
-danke
-Hund
-Kreditkarte
-Postkarte
-Scheckkarte
-Achtung
-rauchen
-erlauben
-verboten
-Polizei
-besuchen
-heiraten
-einladen
-Hobby
-tanzen
-Disco
-Film
-dauern
-Lieblingsfoo
-fernsehen
-Café
-Speisekarte
-Rechnung
-Halle
-grillen
-Verein
-Fußball
-Schwimmbad
-schwimmen
-Dorf
-Stadt
-Welt
-Briefmarke
-schicken
-Absender
-Empfänger
-Anrede
-aus
-oben
-daneben
-Mitte
-Glück
-gerade
-letztfoo
-kurz
-lang
-legen
-hoch
-hinten
-leider
-leise
-suchen
-liebfoo
-lieber
-man
-Lied
-lachen
-mit
-meistfoo
-möglich
-nie
-nächstfoo
-nur
-Ordnung
-Plan
-Teil
-euer
-sitzen
-sich
-stellen
-es
-erzählen
-erklären
-Ergebnis
-er
-entschuldigen
-enden
-empfehlen
-einmal
-eilig
-durch
-draußen
-dir
-diesfoo
-dich
-denn
-deinfoo
-dann
-circa/ca.
-breit
-brauchen
-bisschen
-bestfoo
-besser
-kaputt
-klar
-bekannt
-nein
-jedfoo
-beide
-automatisch
-aussehen
-Eingang
-auch
-Anzeige
-wunderbar
-reparieren
-ruhig
-geschlossen
-langsam
-schon
-anderfoo
-wichtig
-wissen
-weit
-weiter
-vielleicht
-Wochentag
-Sonntag
-Montag
-Dienstag
-Mittwoch
-Donnerstag
-Freitag
-Samstag/Sonnabend
-Wochenende
-am Wochenende
-Tag
-Morgen
-Vormittag
-Mittag
-Nachmittag
-Abend
-Nacht
-Januar
-Februar
-März
-April
-Mai
-Juni
-Juli
-August
-September
-Oktober
-November
-Dezember
-Sekunde
-Minute
-Tag
-Woche
-Jahr
-wo
-wohin
-was
-wann
-wie
-Nummer
-Meter
-Grad
-können
-wollen
-müssen
-dürfen
-sollen
-möchten
-mitkommen
-das
-einfoo
-mein
-dein
-sein
-kein
-keine
-allfoo
-danken
-helfen
-was
-Dame
-Frau
-Gruß
-einfach
-Schule
-richtig
-anfangen
-Halbpension
-übernachten
-bleiben
-zurück
-zu
-Reiseführer
-Bahn
-Klasse
-Platz
-pünktlich
-Brot
-alt
-heißen
-Vorname
-leicht
-schwer
-groß
-anrufen
-Anschluss
-besetzt
-schlecht
-Feierfoo
-Buch
-aufstehen
-auf sein
-sehen
-nehmen
-bekommen
-kommen
-liegen
-machen
-hören
-glauben
-gehen
-geben
-gut
-gleich
-fertig
-zusammen
-wenig
-Haus
-Glas
-aus sein
-an sein
-Information
-Hilfe
-bitte
-Dank
-Karte
-Freund
-treffen
-bestellen
-spielen
-Bank
-gegen
-von
-für
-an
-auf
-in
-bei
-hier
-bis
-vor
-zwischen
-leben
-Moment
-fehlen
-nicht
-nichts
-nach
-neu
-noch
-sehr
-stehen
-so
-Ende
-dort
-da
-bringen
-aufhören
-allein
-also
-Schluss
-schön
-warten
-waschen
-erste
-Uhrzeit
-Währungen
-Sprache
-Deutschland
-Europa
-Erwachsene
-Kindergarten
-Geschwister
-Eltern
-Großeltern
-Aufgabe
-Kurs
-Gruppe
-Studium
-Hotel
-Foto
-Gepäck
-Sehenswürdigkeit
-Ausflug
-Reisebüro
-Papiere
-Abfahrt
-Ankunft
-Flugzeug
-Ticket
-Auto
-Bus
-Fahrrad
-schmecken
-Essen
-Getränk
-Obst
-Fleisch
-Gemüse
-Frühstück
-Kaffee
-Geburtstag
-Bogen
-Alter
-Familienstand
-Name
-Adresse
-Gewicht
-Größe
-Telefon
-Praktikum
-Arzt/Ärztin
-Farbe
-Kopf
-Bild
-Text
-Anmeldung
-Drucker
-Geld
-Bäckerei
-Kiosk
-mieten
-Angebot
-Unterschrift
-Preis
-umziehen
-Miete
-Bad
-Küche
-Schlüssel
-Möbel
-Kleidung
-Wetter
-Maschine
-Frage
-Antwort
-Bitte
-Hochzeit
-Einladung
-Party
-Kino
-Restaurant
-Sport
-Brief
-Leben
-laut
-lustig
-Entschuldigung
-ja
-Ausgang
-Reparatur
-schließen
-schnell
-eins
-zwei
-drei
-vier
-fünf
-sechs
-sieben
-acht
-neun
-zehn
-elf
-zwölf
-dreizehn
-vierzehn
-fünfzehn
-sechzehn
-siebzehn
-achtzehn
-neunzehn
-zwanzig
-einundzwanzig
-dreißig
-vierzig
-fünfzig
-sechzig
-siebzig
-achtzig
-neunzig
-hundert
-hunderteins
-zweihundert
-tausend
-eine Million
-eine Milliarde
-Anfang
-sein
-Zimmer
-Post
-Kind
-lernen
-Zeit
-Urlaub
-Ausland
-Zug
-Lebensmittel
-geboren
-Beruf
-Computer
-Laden
-Wohnung
-Gespräch
-Gast
-Lokal
-Familie
-Reise
-Formular
-Arbeit
-Freizeit
-
 
 # Totale Immersion von Anfang an: wie du effektiv Deutsch lernst
 
@@ -897,7 +32,7 @@ Also, fangen wir an...
 
 Guten Tag! Ich heiße Mark. Ich komme aus Berlin.
 
-Wie heißt du? Stell dich bitte vor. [vorstellen]
+Wie heißt du? Stell dich bitte vor.
 
 Jetzt du! Stelle dich vor. Du kannst sagen: "Ich heiße ..."
 
@@ -911,7 +46,7 @@ Woher kommst du?
 Du kannst sagen: "Ich komme aus ..."
 
 
-Ah, ich verstehe. Freut mich, dich kennenzulernen! [kennenlernen]
+Ah, ich verstehe. Freut mich, dich kennenzulernen!
 
 Ich wünsche dir viel Erfolg und viel Spaß mit diesem Kurs!
 
@@ -1079,7 +214,7 @@ Ich habe Durst. Ich trinke ein bisschen Wasser.
 
 Ich habe auch Kaffee und Tee. Wasser, Kaffee und Tee sind Getränke.
 Der Kaffee riecht gut, aber er schmeckt ein bisschen bitter.
-In dieser Tasse ist Pfefferminztee. Ich mag Tee mehr als Kaffe. [mögen]
+In dieser Tasse ist Pfefferminztee. Ich mag Tee mehr als Kaffe.
 
 Hier habe ich einen Wein. Wein ist ein alkoholisches Getränk, welches aus Trauben hergestellt wird. Der Wein riecht und schmeckt sehr gut. Käse passt gut zum Wein.
 Dies ist eine Flasche Bier. Wir Deutschen sind sehr bekannt für unser Bier.
@@ -1109,7 +244,7 @@ Dies ist eine Kartoffel. Kartoffeln sind ein Teil vieler deutscher Gerichte.
 Wenn man Kartoffeln klein schneidet und in Öl frittiert, bekommt man Pommes frites – oder kurz: Pommes.
 Man kann die Kartoffeln auch braten, entweder mit Öl oder mit Butter. Bratkartoffeln sind in Deutschland sehr beliebt.
 
-Jetzt habe ich sehr viel Appetit bekommen. Mmh, das schmeckt lecker. [schmecken]
+Jetzt habe ich sehr viel Appetit bekommen. Mmh, das schmeckt lecker.
 Hast du auch Hunger? Hier, nimm. Guten Appetit!
 
 ### Das Wohnzimmer
@@ -1126,7 +261,7 @@ Wo ist die Toilette? Ah, sie ist hier.
 Das ist das Bad
 
 Es gibt keine Badewanne, nur eine Dusche.
-Ich bade nicht so gern, ich dusche lieber. [baden,duschen]
+Ich bade nicht so gern, ich dusche lieber.
 
 ### Das Schlafzimmer und der Rest
 
@@ -1136,7 +271,7 @@ Das Bett ist neu.
 Ich habe leider keinen Garten und auch keinen Balkon.
 Wir schauen aus dem Fenster. Wie du siehst, sind wir im ersten Stock.
 
-Die Wohnung gehört mir nicht; sie gehört dem Vermieter. Der Vermieter vermietet mir die Wohnung. [vermieten]
+Die Wohnung gehört mir nicht; sie gehört dem Vermieter. Der Vermieter vermietet mir die Wohnung.
 Ich miete die Wohnung. Ich bin der Mieter; ich miete die Wohnung vom Vermieter.
 
 Die Wohnung gefällt mir. Ich bin mit der Wohnung sehr zurfieden. Ich wohne hier gerne.
@@ -1266,9 +401,9 @@ Lass uns in der Zeit zurück reisen und ich erzähle dir von meinen typisch deut
 
 Guten Morgen!
 
-Ich bin gerade aufgewacht, da mein Wecker geklingelt hat. Vor ein paar Minuten habe ich noch geschlafen. [schlafen]
+Ich bin gerade aufgewacht, da mein Wecker geklingelt hat. Vor ein paar Minuten habe ich noch geschlafen.
 
-Ich gehe ins Bad und dusche mich. [duschen]
+Ich gehe ins Bad und dusche mich.
 Dann esse ich ein Frühstück in der Küche. Mein Frühstück besteht aus einem Ei, einem Apfel und einer Banane.
 Ich trinke keinen Kaffee, aber ich trinke ein Glas Milch.
 
@@ -1291,19 +426,19 @@ Der Rest der Kollegen fährt dem Auto. So kommen sie schnell zur Arbeit.
 
 Am Vormittag bin ich natürlich schon im Büro. Wir Deutschen sind ja bekannt für unsere Disziplin!
 
-Mein Computer ist aus, also mache ich ihn an. [anmachen]
+Mein Computer ist aus, also mache ich ihn an.
 
-Was mache ich am Computer? Das darf ich leider nicht sagen, es ist ein Geheimnis. [dürfen]
+Was mache ich am Computer? Das darf ich leider nicht sagen, es ist ein Geheimnis.
 
 Am Mittag esse ich zusammen mit meinen Kollegen.
-Meistens essen wir während der Mittagspause in der Firmenkantine. Das ist ein Ort, wo wir für wenig Geld essen können. Die Firma möchte, dass die Mitarbeiter ein günstiges Mittagessen bekommen. [günstig]
+Meistens essen wir während der Mittagspause in der Firmenkantine. Das ist ein Ort, wo wir für wenig Geld essen können. Die Firma möchte, dass die Mitarbeiter ein günstiges Mittagessen bekommen.
 Das ist gut, weil es sehr teuer ist, jeden Tag in einem Restaurant zu essen.
 
 ### Feierabend!
 
-Am späten Nachmittag ist Feierabend. Dieses wunderbare Wort, Feierabend, bedeutet, dass die Arbeit getan ist und wir nach Hause gehen können. [wunderbar]
+Am späten Nachmittag ist Feierabend. Dieses wunderbare Wort, Feierabend, bedeutet, dass die Arbeit getan ist und wir nach Hause gehen können.
 
-Ich mache meinen Computer aus. Nach ein paar Sekunden ist der Computer aus. [ausmachen]
+Ich mache meinen Computer aus. Nach ein paar Sekunden ist der Computer aus.
 
 Ich gehe nach Hause und genieße meinen Abend mit einem kühlen Bier auf meinem Balkon. (Das ist das deutscheste, was ich machen kann.)
 
@@ -1319,7 +454,7 @@ Am Vormittag stehe ich auf und gehe in das Badezimmer um zu duschen.
 
 ### Das Sonntagsfrühstück
 
-Nach dem Duschen frühstücke ich. [frühstücken]
+Nach dem Duschen frühstücke ich.
 Zum Frühstück essen viele Menschen gerne Weißbrot, zum Beispiel Toast oder Brötchen.
 Viele Deutsche kaufen sich Brötchen beim Bäcker, besonders am Sonntag.
 Sonntagbrötchen schmecken nicht nur gut, sie kommen auch mit einem sehr schönen Gefühl. Ich assoziiere diese Brötchen sehr mit dem Wochenende und ruhigen Tagen.
@@ -1331,18 +466,18 @@ Ich trinke keinen Kaffee, ich habe noch nicht einmal eine Kaffeemaschine.
 
 ### Der Ausflug
 
-Das Wetter ist schön: Die Sonne scheint und es sind fünfundzwanzig Grad Celsius. [scheinen]
+Das Wetter ist schön: Die Sonne scheint und es sind fünfundzwanzig Grad Celsius.
 Da es keine Wolken am Himmel gibt, ist die Sonne sehr hell.
 
 Lass uns einen Ausflug machen!
 Ja, wir machen heute einen Ausflug zum nächsten See.
 
 Wir kaufen uns Tickets – Fahrkarten für den Zug. Wie viel kostet ein Ticket? Eine Fahrkarte kostet zwei Euro dreißig (2,30 €).
-Ich kaufe Tickets am Automaten. [Automat]
+Ich kaufe Tickets am Automaten.
 
 So, fertig. Jetzt gehen wir zum Bahnsteig und warten auf den Zug.
 Es dauert nicht lange: Da kommt der Zug. Lass uns einsteigen. Ich steige in den Zug ein.
-Der Zug hält an jeder Haltestelle. [halten]
+Der Zug hält an jeder Haltestelle.
 So, an dieser Haltestelle müssen wir aussteigen.
 
 Der See ist wunderschön. Ich mache ein Foto.
@@ -1362,11 +497,11 @@ Morgen ist Montag. Ich bin nicht traurig, denn ich liebe meine Arbeit.
 
 Emma Brown ist eine junge Ärztin aus Großbritannien. Sie hat Verwandte in Hannover. Deshalb besucht sie diese Stadt sehr gerne.
 
-Bald ist es wieder soweit: In fünf Tagen fliegt ins Ausland zu ihren Verwandten in Deutschland. [fliegen]
+Bald ist es wieder soweit: In fünf Tagen fliegt ins Ausland zu ihren Verwandten in Deutschland.
 
 Was heißt Ausland? Deutschland ist schon fast gar nicht mehr Ausland für sie, es ist ihre zweite Heimat.
 
-Da sie schon recht gut Deutsch spricht, fühlt sie sich auch nicht wie eine Ausländerin in Deutschland. [sprechen]
+Da sie schon recht gut Deutsch spricht, fühlt sie sich auch nicht wie eine Ausländerin in Deutschland.
 
 ## Emmas Familie
 
@@ -1380,7 +515,7 @@ Ihr ältester Junge ist schon sechs Jahre alt und heißt Oliver. Am 12. (zwölft
 Ihr anderer Sohn ist über zwei Jahre alt. Sein Name ist Max.
 Ihr Mädchen ist noch ein Baby und heißt Marie.
 
-Emma kümmert sich sehr um ihre kleinen Kinder. [kümmern]
+Emma kümmert sich sehr um ihre kleinen Kinder.
 Emma möchte viel Zeit mit ihren Kindern verbringen.
 
 In über zehn Jahren sind ihre Kinder Jugendliche. Danach werden sie Erwachsene.
@@ -1400,10 +535,10 @@ Alternativ kannst auch ein Familienfoto finden und aufschreiben, wie jede Person
 
 Außerdem hat Emma viele Freunde und Bekannte, darunter ehemalige Mitschüler aus ihrer Schulzeit und Kollegen von der Arbeit.
 
-Sie hat ein paar von ihnen eingeladen, um den Geburtstag ihres Sohnes Oliver zu feiern. [einladen]
+Sie hat ein paar von ihnen eingeladen, um den Geburtstag ihres Sohnes Oliver zu feiern.
 Emmas Freunde bringen ihre eigenen Kinder, da diese mit Oliver befreundet sind.
 
-Manche Gäste haben sogar ihre Hunde mitgenommen, da dies Oliver auf der Einladung erlaubt hat. [erlauben]
+Manche Gäste haben sogar ihre Hunde mitgenommen, da dies Oliver auf der Einladung erlaubt hat.
 Oliver freut sich, dass so viele Leute und Hunde ihn besuchen kommen. Er liebt es, neue Freunde zu treffen.
 
 Vor sieben Jahren ist Emmas Sohn Oliver geboren und das muss man feiern!
@@ -1415,7 +550,7 @@ Es ist ein schöner Samstag im Herbst. Emmas Freundinnen fragen sie, wie es ihr 
 Alle feiern Olivers Geburtstag. Zum Essen gibt es Kuchen und Süßigkeiten.
 
 Dann spielen die Kinder mit Oliver sein Lieblingsspiel: Topfschlagen.
-Beim Kopfschlagen darf das Kind nicht schauen und sucht einen Topf. Wenn es mit einem Holzlöffel auf den Topf schlägt, hat es gewonnen. [suchen]
+Beim Kopfschlagen darf das Kind nicht schauen und sucht einen Topf. Wenn es mit einem Holzlöffel auf den Topf schlägt, hat es gewonnen.
 
 https://commons.wikimedia.org/wiki/File:Kindergeburtstag_Topfschlagen.jpg
 
@@ -1455,11 +590,11 @@ Sie freut sich sehr auf ihren Urlaub.
 
 Wo ist ihr Gepäck?
 
-Reisende [Reisender]
+Reisende
 
-Emma ist Gast bei ihren Verwandten. Sie übernachtet bei ihnen. [übernachten]
+Emma ist Gast bei ihren Verwandten. Sie übernachtet bei ihnen.
 
-Emma bleibt fünf Tage bei ihren Freunden. [bleiben]
+Emma bleibt fünf Tage bei ihren Freunden.
 
 
 
@@ -1594,6 +729,322 @@ TODO
 
 
 TODO
+
+1 Euro 100 Cent.
+abgeben. abgegeben. gab ab. gebe ab. gebt ab. gib ab. gibst ab. gibt ab. gäbe ab.
+abgeholt. abholen. hole ab. holst ab. holt ab. holte ab.
+Absender. Absenderin. Absendern. Absenders.
+Achtung.
+achtzehn.
+achtzig.
+Adresse. Adressen.
+allein. alleine. alleinem. alleinen. alleiner. alleines.
+Alte. Alter. Altern. Alters.
+anbieten. angeboten. biet an. biete an. bietest an. bietet an. bot an. böte an.
+angeklickt. anklicken. klicke an. klickst an. klickt an. klickte an.
+angekreuzt. ankreuzen. kreuz an. kreuze an. kreuzt an. kreuzte an.
+angemeldet. anmelden. melde an. meldest an. meldet an. meldete an.
+angerufen. anrufen. rief an. riefe an. ruf an. rufe an. rufst an. ruft an.
+angezogen. anziehen. zieh an. ziehe an. ziehst an. zieht an. zog an. zöge an.
+Anmeldung. Anmeldungen.
+Anrede. Anreden.
+Anrufbeantworter. Anrufbeantwortern. Anrufbeantworters.
+Ansage. Ansagen.
+Anschluss. Anschlusse. Anschlusses. Anschlüsse. Anschlüssen.
+Antwort. Antworten.
+Anzeige. Anzeigen.
+April. Aprile. Aprilen. Aprils.
+arbeitslos. arbeitslose. arbeitslosem. arbeitslosen. arbeitsloser. arbeitsloses.
+Arbeitsplatz. Arbeitsplatze. Arbeitsplatzes. Arbeitsplätze. Arbeitsplätzen.
+Aufgabe. Aufgaben.
+aufgehört. aufhören. hör auf. höre auf. hörst auf. hört auf. hörte auf.
+Auge. Augen. Auges.
+August. Auguste. Augusten. Augustes. Augusts.
+ausfüllen. ausgefüllt. fülle aus. füllst aus. füllt aus. füllte aus.
+ausgesehen. aussehen. sah aus. sehe aus. seht aus. sieh aus. siehe aus. siehst aus. sieht aus. sähe aus.
+Aussage. Aussagen.
+Bank. Banken. Bänke. Bänken.
+bar. bare. barem. baren. barer. bares.
+Bauch. Bauche. Bauches. Bauchs. Bäuche. Bäuchen.
+Baum. Baume. Baumes. Baums. Bäume. Bäumen.
+Beamte. Beamter.
+Berlin, zwölfter Vierter zweitausendzwei.
+Beruf. Berufe. Berufen. Berufes. Berufs.
+bestell. bestelle. bestellen. bestellst. bestellt. bestellte.
+bezahle. bezahlen. bezahlst. bezahlt. bezahlte.
+billig. billige. billigem. billigen. billiger. billiges. billigsten.
+blau. blaue. blauem. blauen. blauer. blaues. blauesten. blausten.
+Bleistift. Bleistifte. Bleistiften. Bleistiftes. Bleistifts.
+Blick. Blicke. Blicken. Blickes. Blicks.
+Blume. Blumen.
+Bogen. Bogens. Bögen.
+brachte mit. bringe mit. bringst mit. bringt mit. brächte mit. mitbringen. mitgebracht.
+braun. braune. braunem. braunen. brauner. braunes. braunsten.
+Brief. Briefe. Briefen. Briefes. Briefs.
+Briefmarke. Briefmarken.
+Buchstabe. Buchstaben. Buchstabens.
+buchstabier. buchstabiere. buchstabieren. buchstabierst. buchstabiert. buchstabierte.
+Bäckerei. Bäckereien.
+Café. Cafés.
+CD. CDs.
+Chef. Chefin. Chefs.
+daneben.
+dank. danke. danken. dankst. dankt. dankte. gedankt.
+Daten. Datum. Datums.
+Dezember. Dezembern. Dezembers.
+Disco. Discos.
+Doktor. Doktoren. Doktores. Doktorin. Doktors.
+Doppelzimmer. Doppelzimmern. Doppelzimmers.
+Dorf. Dorfe. Dorfes. Dorfs. Dörfer. Dörfern.
+dort.
+draußen.
+dreizehn.
+dreizehn Uhr siebzehn.
+dritte. drittem. dritten. dritter. drittes.
+Drucker. Druckerin. Druckern. Druckers.
+dunkelblau. dunkelblaue. dunkelblauem. dunkelblauen. dunkelblauer. dunkelblaues.
+Durchsage. Durchsagen.
+E-Mail. E-Mails.
+Ecke. Ecken.
+eilig. eilige. eiligem. eiligen. eiliger. eiliges. eiligsten.
+ein Uhr.
+eine Deutsche.
+eine Milliarde.
+eine Million.
+eingekauft. einkaufen. kauf ein. kaufe ein. kaufst ein. kauft ein. kaufte ein.
+eins.
+Eintritt. Eintritte. Eintritten. Eintrittes. Eintritts.
+einundzwanzig.
+Einzelzimmer. Einzelzimmern. Einzelzimmers.
+elf.
+empfahl. empfehle. empfehlen. empfehlt. empfiehl. empfiehlst. empfiehlt. empfohlen. empfähle. empföhle.
+Empfänger. Empfängerin. Empfängern. Empfängers.
+Ende. Enden. Endes.
+entschuldige. entschuldigen. entschuldigst. entschuldigt. entschuldigte.
+Entschuldigung. Entschuldigungen.
+Ergebnis. Ergebnisse. Ergebnissen. Ergebnisses.
+erklär. erkläre. erklären. erklärst. erklärt. erklärte.
+erreichbar. erreichbare. erreichbarem. erreichbaren. erreichbarer. erreichbares. erreichbarsten.
+erste Dritte.
+erste März.
+Euch. Euer. Ihr. Ihre. Ihrem. Ihren. Ihrer. Ihres.
+Europa.
+Europäer. Europäerin. Europäern. Europäers.
+europäisch. europäische. europäischem. europäischen. europäischer. europäisches. europäischsten.
+falsch. falsche. falschem. falschen. falscher. falsches.
+Familienname. Familiennamen. Familiennamens.
+Familienstand. Familienstande. Familienstandes. Familienstands.
+Farbe. Farben.
+Fax. Faxe. Faxen.
+Februar. Februare. Februaren. Februars.
+Fehler. Fehlern. Fehlers.
+ferngesehen. fernsehen. sah fern. sehe fern. seht fern. sieh fern. siehst fern. sieht fern. sähe fern.
+Feuer. Feuern. Feuers.
+Fieber. Fiebern. Fiebers.
+Film. Filme. Filmen. Filmes. Films.
+Finne. Finnen. Finnin.
+finnisch. finnische. finnischem. finnischen. finnischer. finnisches. finnischsten.
+Finnland.
+Formular. Formulare. Formularen. Formulars.
+Frauenarzt. Frauenarztes. Frauenärzte. Frauenärzten. Frauenärztin.
+Freizeit. Freizeiten.
+früher.
+Frühling. Frühlinge. Frühlingen. Frühlings.
+Fußball. Fußballe. Fußballes. Fußballs. Fußbälle. Fußbällen.
+fünf Minuten nach eins. fünf Minuten vor eins.
+fünfzehn.
+fünfzig.
+Geburtsjahr. Geburtsjahre. Geburtsjahren. Geburtsjahres. Geburtsjahrs.
+Geburtsort. Geburtsorte. Geburtsorten. Geburtsortes. Geburtsorts.
+gegen.
+geglaubt. glaub. glaube. glauben. glaubst. glaubt. glaubte.
+geheiratet. heirate. heiraten. heiratest. heiratet. heiratete.
+gekriegt. krieg. kriege. kriegen. kriegst. kriegt. kriegte.
+gelacht. lach. lache. lachen. lachst. lacht. lachte.
+gelb. gelbe. gelbem. gelben. gelber. gelbes. gelbsten.
+gelegt. leg. lege. legen. legst. legt. legte.
+geradeaus.
+geschlossen. geschlossene. geschlossenem. geschlossenen. geschlossener. geschlossenes. geschlossensten. geschlossner.
+Geschäft. Geschäfte. Geschäften. Geschäftes. Geschäfts.
+Gespräch. Gespräche. Gesprächen. Gespräches. Gesprächs.
+getanzt. tanz. tanze. tanzen. tanzt. tanzte.
+gewaschen. wasch. wasche. waschen. wascht. wusch. wäschst. wäscht. wüsche.
+Gewicht. Gewichte. Gewichten. Gewichtes. Gewichts.
+gezahlt. zahl. zahle. zahlen. zahlst. zahlt. zahlte.
+geöffnet. geöffnete. geöffnetem. geöffneten. geöffneter. geöffnetes.
+gleich. gleiche. gleichem. gleichen. gleicher. gleiches.
+Gramm. Gramme. Grammen. Gramms.
+grau. graue. grauem. grauen. grauer. graues. grausten.
+Gruppe. Gruppen.
+Gruß. Gruße. Grußes. Grüße. Grüßen.
+Größe. Größen.
+gültig. gültige. gültigem. gültigen. gültiger. gültiges.
+Haar. Haare. Haaren. Haares. Haars.
+halb drei.
+Halbpension.
+Halle. Hallen.
+Hand. Hände. Händen.
+Handy. Handys.
+Hausaufgabe. Hausaufgaben.
+Hausfrau. Hausfrauen.
+Hausmann. Hausmanne. Hausmannes. Hausmanns. Hausmänner. Hausmännern.
+hellblau. hellblaue. hellblauem. hellblauen. hellblauer. hellblaues.
+hinten.
+Hobby. Hobbys.
+Hochzeit. Hochzeiten.
+hundert.
+hunderteins.
+international. internationale. internationalem. internationalen. internationaler. internationales.
+Jacke. Jacken.
+Januar. Januare. Januaren. Januars.
+Job. Jobs.
+Juli. Julis.
+Juni. Junis.
+kaputt. kaputte. kaputtem. kaputten. kaputter. kaputtes. kaputtesten.
+Karte. Karten.
+Kasse. Kassen.
+kennengelernt. kennenlernen. lerne kennen. lernst kennen. lernt kennen. lernte kennen.
+Kilo. Kilos.
+Kilometer. Kilometern. Kilometers.
+Kino. Kinos.
+Kiosk. Kioske. Kiosken. Kioskes. Kiosks.
+Konten. Konti. Konto. Kontos.
+krank. kranke. krankem. kranken. kranker. krankes. kränker. kränksten.
+Kunde. Kunden. Kundin.
+Laden. Ladens. Läden.
+ledig. ledige. ledigem. ledigen. lediger. lediges. ledigsten.
+leise. leisem. leisen. leiser. leises. leisesten.
+letzte.
+Licht. Lichte. Lichten. Lichter. Lichtern. Lichtes. Lichts.
+Lied. Liede. Lieder. Liedern. Liedes. Lieds.
+Liter. Litern. Liters.
+Lokal. Lokale. Lokalen. Lokales. Lokals.
+lustig. lustige. lustigem. lustigen. lustiger. lustiges. lustigsten.
+Lösung. Lösungen.
+mach mit. mache mit. machst mit. macht mit. machte mit. mitgemacht. mitmachen.
+Mai. Maie. Maien. Mais.
+Mexikaner. Mexikanerin. Mexikanern. Mexikaners.
+mexikanisch. mexikanische. mexikanischem. mexikanischen. mexikanischer. mexikanisches. mexikanischsten.
+Mexiko.
+Mitte. Mitten.
+Moment. Momente. Momenten. Momentes. Moments.
+männlich. männliche. männlichem. männlichen. männlicher. männliches. männlichsten.
+neun.
+neunzehn.
+neunzehnhundertneunundneunzig.
+neunzig.
+nie.
+Norden. Nordens.
+normal. normale. normalem. normalen. normaler. normales. normalsten.
+November. Novembern. Novembers.
+null Uhr drei.
+Nummer. Nummern.
+ohne.
+Oktober. Oktobern. Oktobers.
+Osten. Ostens.
+Partner. Partnerin. Partnerinnen. Partnern. Partners.
+Party. Partys.
+Pause. Pausen.
+Pfund. Pfunde. Pfunden. Pfundes. Pfunds.
+Polizei. Polizeien.
+Post. Posten. Posts.
+Postkarte. Postkarten.
+Postleitzahl. Postleitzahlen.
+Praktika. Praktikum. Praktikums.
+Praktiken. Praxen. Praxis.
+Preis. Preise. Preisen. Preises.
+Problem. Probleme. Problemen. Problems.
+Prozent. Prozente. Prozenten. Prozentes. Prozents.
+Prüfung. Prüfungen.
+Quadratmeter. Quadratmetern. Quadratmeters.
+Rechnung. Rechnungen.
+Reparatur. Reparaturen.
+reparier. repariere. reparieren. reparierst. repariert. reparierte.
+Rezeption. Rezeptionen.
+richtig. richtige. richtigem. richtigen. richtiger. richtiges. richtigsten.
+Salz. Salze. Salzen. Salzes.
+Satz. Satze. Satzes. Sätze. Sätzen.
+Scheckkarte. Scheckkarten.
+Schild. Schilde. Schilden. Schilder. Schildern. Schildes. Schilds.
+Schluss. Schlusse. Schlusses. Schlüsse. Schlüssen.
+schwarz. schwarze. schwarzem. schwarzen. schwarzer. schwarzes. schwärzer. schwärzesten.
+Schwimmbad. Schwimmbade. Schwimmbades. Schwimmbads. Schwimmbäder. Schwimmbädern.
+sechzehn.
+sechzig.
+seit.
+Sekretär. Sekretäre. Sekretären. Sekretärin. Sekretärinnen. Sekretärs.
+selbstständig. selbstständige. selbstständigem. selbstständigen. selbstständiger. selbstständiges. selbstständigsten.
+sieben Uhr fünfzehn.
+siebzig.
+sofort.
+Speisekarte. Speisekarten.
+Straße. Straßen.
+Student. Studenten. Studentin.
+Studien. Studium. Studiums.
+studier. studiere. studieren. studierst. studiert. studierte.
+Süden. Südens.
+Tasche. Taschen.
+tat weh. tu weh. tue weh. tust weh. tut weh. täte weh. weh getan. weh tun.
+tausend.
+Team. Teams.
+Teilnehmer. Teilnehmerin. Teilnehmerinnen. Teilnehmern. Teilnehmers.
+Telefon. Telefone. Telefonen. Telefons.
+telefonier. telefoniere. telefonieren. telefonierst. telefoniert. telefonierte.
+Termin. Termine. Terminen. Termines. Termins.
+Test. Teste. Testen. Testes. Tests.
+Text. Texte. Texten. Textes. Texts.
+Thema. Themas. Themata. Themen.
+tschüss.
+Türke. Türken. Türkin.
+Türkei.
+türkisch. türkische. türkischem. türkischen. türkischer. türkisches. türkischsten.
+Uhrzeit. Uhrzeiten.
+unbekannt. unbekannte. unbekanntem. unbekannten. unbekannter. unbekanntes. unbekanntesten.
+unterschreib. unterschreibe. unterschreiben. unterschreibst. unterschreibt. unterschrieb. unterschriebe. unterschrieben.
+Unterschrift. Unterschriften.
+verdiene. verdienen. verdienst. verdient. verdiente.
+Verein. Vereine. Vereinen. Vereines. Vereins.
+verheiratet. verheiratete. verheiratetem. verheirateten. verheirateter. verheiratetes.
+verkauf. verkaufe. verkaufen. verkaufst. verkauft. verkaufte.
+Verkäufer. Verkäuferin. Verkäufern. Verkäufers.
+vielleicht.
+vier.
+Viertel nach zwei. Viertel vor zwei.
+vierundzwanzig Uhr.
+vierzehn.
+vierzig.
+Vorname. Vornamen. Vornamens.
+Vorwahl. Vorwahlen.
+warum.
+was für ein.
+weg sein.
+weiblich. weibliche. weiblichem. weiblichen. weiblicher. weibliches. weiblichsten.
+welche. welchem. welchen. welcher. welches.
+Welt. Welten.
+wem.
+wem. wen. wer. wes. wessen.
+Westen. Westens.
+wichtig. wichtige. wichtigem. wichtigen. wichtiger. wichtiges. wichtigsten.
+Wiederhören. Wiederhörens.
+Wiedersehen. Wiedersehens.
+Wind. Winde. Winden. Windes. Winds.
+Winter. Wintern. Winters.
+wohin.
+Währung. Währungen.
+Zahnarzt. Zahnarztes. Zahnärzte. Zahnärzten. Zahnärztin.
+Zeitung. Zeitungen.
+Zentimeter. Zentimetern. Zentimeters.
+Zigarette. Zigaretten.
+zufrieden. zufriedene. zufriedenem. zufriedenen. zufriedener. zufriedenes. zufriedensten.
+zurzeit.
+zwanzig.
+zweihundert.
+zweitausendvierzehn.
+zwischen.
+überweis. überweise. überweisen. überweist. überwies. überwiese. überwiesen.
+
+
+
 
 - [Totale Immersion von Anfang an: wie du effektiv Deutsch lernst](#totale-immersion-von-anfang-an-wie-du-effektiv-deutsch-lernst)
   - [Freut mich, dich kennenzulernen!](#freut-mich-dich-kennenzulernen)

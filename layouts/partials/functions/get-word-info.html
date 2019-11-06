@@ -499,8 +499,8 @@
 
                     <!-- Get the table, if present. -->
                     {{ $subentry = . | replaceRE "\n" "" }}
-                    {{ range findRE "{{Deutsch Possessivpronomen\\|[a-zöäü]*}}" $subentry }}
-                        {{ $stem := . | replaceRE "{{Deutsch Possessivpronomen\\||}}" "" }}
+                    {{ range findRE "{{Deutsch Possessivpronomen\\|[a-zöäüß]*|{{Deutsch Adjektiv Übersicht\\|Positiv\\s*=\\s*[a-zöäüß]*" $subentry }}
+                        {{ $stem := . | replaceRE "{{Deutsch .*\\||.*=|e\\z" "" }}
                         {{ range slice "es" "em" "en" "e" "er" }}
                             {{ $s.Add "variants" (slice (print $stem .)) }}
                         {{ end }}
@@ -546,14 +546,24 @@
                                 {{ else }}
                                     {{ $k := index $split 0 | replaceRE "\\A\\s+" "" | replaceRE "\\s+\\z" "" }}
                                     {{ $v := index $split 1 | replaceRE "\\A\\s+" "" | replaceRE "\\s+\\z" "" }}
-                                    {{ $s.SetInMap "table" $k $v }}
+                                    {{ if not (findRE "\\A(keine weiteren Formen|unpersönlich|Weitere Konjugationen)\\z" $k) }}
+                                        <!-- DEBUG -->
+                                        {{ if findRE "\\A(ja|nein)\\z|Flexion|:|#"  $v }}
+                                            {{ $bugfree = false }}
+                                            {{ errorf "In '%s', there is the table entry '%s'. What is that about?" $word . }}
+                                        {{ end }}
 
-                                    {{ if findRE "\\AGenus" $k }}
-                                        <!-- Get the gender. -->
-                                        {{ $gender = $gender | default $v }}
-                                    {{ else if and (ne "Hilfsverb" $k) (ne "—" $v) (ne "-" $v) }}
-                                        <!-- Get variants. -->
-                                        {{ $s.Add "variants" (slice $v) }}
+                                        {{ $s.SetInMap "table" $k $v }}
+
+                                        {{ $v = $v | replaceRE "'" "" | replaceRE "\\s*\\(.*?\\)" "" | replaceRE "\\A[—-](\\z|\\s+)" "" }}
+
+                                        {{ if findRE "\\AGenus" $k }}
+                                            <!-- Get the gender. -->
+                                            {{ $gender = $gender | default $v }}
+                                        {{ else if and (ne "Hilfsverb" $k) $v }}
+                                            <!-- Get variants. -->
+                                            {{ $s.Add "variants" (slice $v) }}
+                                        {{ end }}
                                     {{ end }}
                                 {{ end }}
                             {{ end }}
