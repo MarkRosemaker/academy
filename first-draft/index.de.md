@@ -18,7 +18,7 @@ Hallo! Guten Tag!
 
 Ich bin Mark.
 
-Willkommen im Anfängerkurs Deutsch!
+Willkommen im Deutschkurs für Anfänger!
 
 Toll, dass du die deutsche Sprache lernst.
 
@@ -147,6 +147,8 @@ Lass uns springen!
 
 Ich springe.
 
+Meine Haare bewegen sich beim Springen.
+
 Jetzt du: Spring!
 
 Sehr gut. Du springst.
@@ -172,6 +174,7 @@ Gut gemacht, toll!
 ## Das Vaterunser
 
 Eine Version des Vaterunsers auf Deutsch lautet:
+
 - Vater unser im Himmel, geheiligt werde dein Name.
 - Dein Reich komme.
 - Dein Wille geschehe, wie im Himmel, so auf Erden.
@@ -209,6 +212,7 @@ Kannst du kochen? Ich koche sehr gerne. Ich esse noch viel lieber!
 Mit dem Herd mache ich das Essen warm.
 
 Ich öffne diesen Schrank. Die Gläser stehen im Schrank.
+Hier ist Salz. Ich salze mein Essen gerne.
 
 Ich habe Durst. Ich trinke ein bisschen Wasser.
 
@@ -224,7 +228,7 @@ Hast du Hunger? Lass uns schauen, welche Lebensmittel im Kühlschrank sind.
 
 Das ist Butter, welche gut zum Braten ist.
 
-Es gibt auch drei Getränke im Kühlschrank: Milch und zwei Säfte, Apfelsaft und Tomatensaft. Mein Lieblingsgetränk ist Orangensaft, aber es ist sehr süß.
+Es gibt auch drei Getränke im Kühlschrank: Milch und zwei Säfte, Apfelsaft und Tomatensaft. Mein Lieblingsgetränk ist Orangensaft, aber er ist sehr süß.
 Veganer trinken keine Milch.
 
 Hier ist auch ein bisschen Fleisch: Schinken und Hähnchen. Schinken ist Fleisch von einem Schwein; Hähnchen ist ein totes Huhn.
@@ -244,7 +248,7 @@ Dies ist eine Kartoffel. Kartoffeln sind ein Teil vieler deutscher Gerichte.
 Wenn man Kartoffeln klein schneidet und in Öl frittiert, bekommt man Pommes frites – oder kurz: Pommes.
 Man kann die Kartoffeln auch braten, entweder mit Öl oder mit Butter. Bratkartoffeln sind in Deutschland sehr beliebt.
 
-Jetzt habe ich sehr viel Appetit bekommen. Mmh, das schmeckt lecker.
+Jetzt habe ich sehr viel Appetit bekommen. Mmh, das schmeckt lecker. Ich reibe meinen Bauch, um zu sagen, dass es lecker ist.
 Hast du auch Hunger? Hier, nimm. Guten Appetit!
 
 ### Das Wohnzimmer
@@ -312,79 +316,7 @@ Sie lieben auch in schlechten Tagen?
 Du, du hast, du hast mich
 Du, du hast, du hast mich
 
-## Im Flugzeug
-
-Hier ist die Sicherheitsanweisung der Lufthansa:
-
-"Herzlichen Willkommen!
-
-Meine Damen und Herren, im Namen Ihrer heutigen Lufthansa-Crew möchten wir Sie bitten, sich mit den Sicherheitsvorkehrungen an Bord dieser Maschine vertraut zu machen.
-
-Bitte schenken Sie uns jetzt Ihre Aufmerksamkeit. Vielen Dank.
-
-Wenn Sie etwas in die Fächer über den Sitzen verstauen, achten Sie darauf, dass es nicht herausfallen kann.
-
-Bitte vergewissern Sie sich, dass schweres Handgepäck sicher unter dem Vordersitz verstaut ist.
-
-Wir bitten Sie jetzt, Ihren Sicherheitsgurt zu schließen und festzuziehen.
-
-Um sich wieder loszuschnallen, brauchen Sie den Verschluss des Gurtes nur anzuheben.
-
-Da unerwartete Turbulenzen auftreten können, sind Sie verpflichtet, sich anzuschnallen, sobald Sie Ihren Sitzplatz eingenommen haben. Dies dient Ihrer eigenen Sicherheit.
-
-Dieses Flugzeug hat zwölf (12) Notausgänge. Leuchtstreifen im Boden markieren den Weg zu den Notausgängen.
-
-Sie sind mit dem Wort ‚Exit‘ gekennzeichnet.
-
-Diese Ausgänge haben aufblasbare Rutschen, über die Sie das Flugzeug im Notfall verlassen können.
-
-Sollte der Druck in der Kabine sinken, fallen automatisch Sauerstoffmasken aus der Kabinendecke.
-
-Ziehen Sie die Maske ganz zu sich herunter, um den Sauerstofffluss zu starten.
-
-Drücken Sie sie dann auf Mund und Nase und streifen Sie das elastische Band über Ihren Kopf.
-
-Danach helfen Sie Kindern und Personen, die Hilfe benötigen.
-
-Zu jedem Sitz gehört eine Schwimmweste.
-
-In der First Class finden Sie ihre Schwimmweste unter der Armlehne.
-
-In der Business Class ist sie ebenfalls unter der Armlehne verstaut.
-
-In der Economy Class befindet sich Ihre Schwimmweste unter dem Sitz.
-
-Auf Anweisung der Crew ziehen Sie Ihre Weste über den Kopf.
-
-Befestigen Sie die Gurte vorn. Ziehen Sie dann die Gurte fest.
-
-Unmittelbar bevor Sie das Flugzeug verlassen, ziehen Sie an den roten Griffen, um die Weste aufzublasen.
-
-Falls erforderlich, benutzen Sie die roten Mundschläuche.
-
-Die Signallampe leuchtet im Wasser auf, wenn Sie diese Lasche herausziehen.
-
-Dieser Flug ist ein Nichtraucherflug. Das Rauchen ist während des gesamten Aufenthalts an Bord nicht erlaubt.
-
-Mobiltelefone müssen aufgrund gesetzlicher Bestimmungen ab dem Verlassen der Parkposition ausgeschaltet werden.
-
-Die Benutzung von Funkgeräten und ferngesteuertem Spielzeug ist während des gesamten Aufenthaltes an Bord verboten.
-
-Schalten Sie jetzt bitte alle elektronischen Geräte aus. Nehmen Sie sie erst wieder in Betrieb, wenn die Anschnallzeichen ausgeschaltet worden sind.
-
-Welche Geräte Sie dann benutzen dürfen, entnehmen Sie bitte den Informationen im Lufthansa-Magazin.
-
-Lesen Sie bitte zusätzlich die allgemeinen Hinweise auf der Sicherheitsinstruktion, die Sie im Bereich Ihres Sitzes finden.
-
-Für weitere Informationen steht Ihnen ebenfalls das Lufthansa-Magazin zur Verfügung.
-
-Auch Ihr Flugbegleiter gibt Ihnen gerne Auskunft.
-
-Wir sind jetzt startbereit. Verstauen Sie bitte die Tische und die Monitore sicher in der vorgesehenen Halterung und stellen Sie Ihre Rückenlehnen senkrecht."
-
 # Das Leben in Deutschland
-
-[this is not immersion]
 
 In den folgenden Lektionen zeige ich dir das Leben eines typischen Deutschen.
 
@@ -491,7 +423,7 @@ Deutschland ist berühmt für sein gutes Brot. Zum Abendbrot essen wir gerne Sch
 
 Morgen ist Montag. Ich bin nicht traurig, denn ich liebe meine Arbeit.
 
-# Emmas Geschichte
+# Emmas Reise
 
 ## Wer ist Emma?
 
@@ -512,10 +444,11 @@ Emma ist vor sieben Jahren selber Mutter geworden. Das hat sie und ihren Ehemann
 
 Emma  hat zwei Söhne und eine Tochter.
 Ihr ältester Junge ist schon sechs Jahre alt und heißt Oliver. Am 12. (zwölften) September wird er sieben.
-Ihr anderer Sohn ist über zwei Jahre alt. Sein Name ist Max.
-Ihr Mädchen ist noch ein Baby und heißt Marie.
 
-Emma kümmert sich sehr um ihre kleinen Kinder.
+Ihr anderer Sohn ist über zwei Jahre alt. Sein Name ist Max.
+Bald ist Max alt genug für den Kindergarten. Emma möchte ihn aber nicht in den Kindergarten schicken, weil das für ein Kind sehr stressig sein kann.
+
+Ihr Mädchen ist noch ein Baby und heißt Marie. Emma kümmert sich sehr um das Baby und ihre kleinen Söhne.
 Emma möchte viel Zeit mit ihren Kindern verbringen.
 
 In über zehn Jahren sind ihre Kinder Jugendliche. Danach werden sie Erwachsene.
@@ -526,7 +459,7 @@ Emma hat zwei Geschwister, einen Bruder und eine Schwester. Ihr Bruder ist fünf
 Außerdem hat Emma auch eine Oma – Oma Ilse. Ilses Ehemann, also Emmas Großvater Karl, ist leider schon tot. Emmas Opa (Karl) ist vor fünf Jahren gestorben. Ihre Großmutter Ilse war damals sehr traurig.
 Ilse ist die Mutter von Emmas Vater. Die Großeltern mütterlicherseits, also die Eltern von Emmas Mutter, leben beide zum Glück noch.
 
-Schließlich hat Emma einen Onkel, das ist der Bruder ihrer Mutter. Ihr Onkel heißt Michael.
+Schließlich hat Emma einen Onkel, das ist der Bruder ihrer Mutter. Ihr Onkel heißt Jochen.
 
 Erstelle jetzt deinen eigenen Stammbaum! Nimm ein großes Blatt Papier, zeichne deinen Stammbaum und klebe Fotos von deinen Familienmitgliedern darauf. Schreibe unter jedem Foto den Namen des oder der Verwandten und was sie für dich sind: Onkel, Tanke, Mutter, Vater, Cousin, Cousine etc.
 Alternativ kannst auch ein Familienfoto finden und aufschreiben, wie jede Person auf dem Bild zu dir steht.
@@ -554,166 +487,886 @@ Beim Kopfschlagen darf das Kind nicht schauen und sucht einen Topf. Wenn es mit 
 
 https://commons.wikimedia.org/wiki/File:Kindergeburtstag_Topfschlagen.jpg
 
-## Emmas Reise
+## Deutschlernen mit Musik: \"Sonne\" von Rammstein
+
+[Intro]
+Eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, aus
+
+[Strophe 1]
+Alle warten auf das Licht
+Fürchtet euch, fürchtet euch nicht
+Die Sonne scheint mir aus den Augen
+Sie wird heut Nacht nicht untergeh'n
+Und die Welt zählt laut bis zehn
+
+[Refrain]
+Eins, hier kommt die Sonne
+Zwei, hier kommt die Sonne
+Drei, sie ist der hellste Stern von allen
+Vier, hier kommt die Sonne
+
+[Strophe 2]
+Die Sonne scheint mir aus den Händen
+Kann verbrennen, kann euch blenden
+Wenn sie aus den Fäusten bricht
+Legt sich heiß auf das Gesicht
+Sie wird heut Nacht nicht untergeh'n
+Und die Welt zählt laut bis zehn
+
+[Refrain]
+Eins, hier kommt die Sonne
+Zwei, hier kommt die Sonne
+Drei, sie ist der hellste Stern von allen
+Vier, hier kommt die Sonne
+Fünf, hier kommt die Sonne
+Sechs, hier kommt die Sonne
+Sieben, sie ist der hellste Stern von allen
+Acht, Neun, hier kommt die Sonne
+
+[Strophe 3]
+Die Sonne scheint mir aus den Händen
+Kann verbrennen, kann dich blenden
+Wenn sie aus den Fäusten bricht
+Legt sich heiß auf dein Gesicht
+Legt sich schmerzend auf die Brust
+Das Gleichgewicht wird zum Verlust
+Lässt dich hart zu Boden gehen
+Und die Welt zählt laut bis zehn
+
+[Refrain]
+Eins, hier kommt die Sonne
+Zwei, hier kommt die Sonne
+Drei, sie ist der hellste Stern von allen
+Vier, und wird nie vom Himmel fallen
+Fünf, hier kommt die Sonne
+Sechs, hier kommt die Sonne
+Sieben, sie ist der hellste Stern von allen
+Acht, Neun, hier kommt die Sonne
+Aus!
+
+## Oliver bringt seinem Bruder Max das Zählen bei
+
+Emmas Sohn geht nicht in die Schule, er ist Freilerner. Das bedeutet, dass er selbst entscheidet, was er lernen möchte. Seine Eltern, Freunde und Lehrer unterstützen ihn dabei.
+
+Oliver lernt sehr gerne. Die Zahlen kennt er schon gut. Er erklärt sie seinem kleinen Bruder Max:
+
+"Also, du zählst so: eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn.
+Dann elf und zwölf. Danach ist es wieder einfach, sag einfach die zweite Zahl und dann zehn, also dreizehn, vierzehn, fünfzehn ..."
+
+"Ah, ich weiß!", sagt Max, "Dann <del>sechszehn</del>, <del>siebenzehn</del> ..."
+
+"Naja," sagt Max, "hier sagst du es ein bisschen anders: sechzehn und siebzehn. Dann ist es aber wieder einfach: achtzehn und neunzehn. Insgesamt also: elf, zwölf, dreizehnm vierzehn, fünfzehn, sechzehn, siebzehn, achtzehn, neunzehn und zwanzig."
+
+"Zwanzig!", sagt Max.
+
+"Ja, genau. Jetzt sagst du aber immer die zweite Zahl, 'und', und die erste Zahl. Einundzwanzig, zweiundzwanzig und so weiter."
+
+"Dreiundzwanzig, vierundzwanzig, fünfundzwanzig, sechsundzwanzig, siebenundzwanzig, achtundzwanzig, neundundzwanzig. Was kommt nach neundundzwanzig, Oliver?"
+
+"Nach neunundzwanzig kommt dreißig. Danach geht es genauso weiter: einunddreißig, zweiunddreißig, dreiunddreißig."
+
+"Und nach neunundreißig?", fragt Max. "Vierzig", antwortet Oliver. "Und nach neunundvierzig?" "Fünfzig."
+
+"Und dann?" "Sechzig, siebzig, achtzig, neunzig. Nach neunundneunzig sind wir schon bei einhundert.", erklärt Oliver.
+
+"Wow, so eine große Zahl!", staunt Max.
+
+## Der Vater bringt seinen Kindern sehr große Zahlen bei
+
+"Es gibt noch viel größere Zahlen! Nach hundert kommt hunderteins, hundertzwei und so weiter. Dann zweihundert, dreihundert, vierhundert. Papa, was kommt nach neunhundertneunundneunzig?"
+
+Max' und Olivers Vater Thomas kommt in das Zimmer. "Du fragst, welche Zahl nach neunhundertneunundneunzig kommt? Nun, nach neunhundertneunundneunzig kommt eintausend. Dann zweitausend, dreitausend ...", erklärt Thomas.
+
+"Ich liebe dich dreitausend!", ruft Max. Darauf antwortet der Vater: "Du bist süß. Ich liebe dich auch dreitausend. Ich liebe euch beide dreitausend. Und wisst ihr, was nach neunhundertneunundneunzigtausendneunundneunzig kommt? Nein? Eine Million – eine eins mit sechs Nullen!"
+
+Seine Kinder sind sehr beeindruckt. "Und was sind tausend Millionen, Papa?", fragt Oliver.
+
+"Nun, das ist eine Milliarde. Das ist eine eins mit neun Nullen!", antwortet Thomas.
+
+"Na, dann lieben wir uns alle eine Milliarde!", ruft Max.
+
+Der Vater sehr glücklich und zufrieden.
+
+[Ach-tung billion - Milliarde]
+
+[Quiz Rechenaufgaben: Oliver rechnet, bitte hilf ihm!]
+
+## Die Telefonnummer von Authentic German Learning
+
+Die Nummer von Authentic German Learning ist: plus vier neun drei null zwei drei drei zwei sieben eins drei vier.
+
+Wirklich! Schreibe uns diese Nachricht auf WhatsApp: "Ich habe gerade die Zahlen gelernt." Dies wird nur funktionieren, wenn du unsere Nummer richtig in deinem Handy gespeichert hast.
+
+Plus vier neun (+49) ist die Vorwahl für Deutschland, drei null (30) oder null drei null (030) die Vorwahl für Berlin.
+
+## Emma plant ihre Reise
 
 "Schatz," sagt Emma zu ihrem Ehemann Thomas. "Bald fliege ich nach Deutschland. Passt du gut auf unsere Kinder auf?"
 
-"Na klar," sagt ihr Mann. "Ich passe gut auf die Kleinen auf. Ich wünsche dir einen schönen Urlaub."
+"Na klar," sagt ihr Mann. "Ich passe gut auf die Kleinen auf. Ich wünsche dir einen schönen Urlaub. Bist du erreichbar, wenn du in Deutschland bist?"
 
-### Emma plant ihre Reise zur ihren Verwandten
+"Ja," sagt Emma, "ich nehme mein Handy mit und du kannst mich jederzeit anrufen."
+
 
 Emma überlegt, was sie alles in ihrem Gepäck mitnehmen möchte. Was brauchst sie?
 
 Nun, erstmal holt sie ihren Koffer. Da er noch leer ist, ist er sehr leicht. Sie fängt an, ihren Koffer zu packen.
 
-Sie möchte in Hannover joggen, also packt sie zuerst Joggingschuhe ein. Sie läuft nämlich jeden Morgen, auch auf Reisen.
+Emma schaut in ihren Kleiderschrank und überlegt, welche Kleidung sie braucht.
+
+Sie braucht auf jeden Fall eine Jacke. Da es Herbst ist und kalt werden kann, möchte sie sich eine warme Jacke anziehen können.
+Emma packt auch weitere Kleidungsstücke ein, die sie für die eine Woche braucht.
+
+Sie möchte in Hannover joggen, also packt sie Joggingschuhe ein. Sie läuft nämlich jeden Morgen, auch auf Reisen.
 Sie wird auch wandern, aber dafür nimmt sie einfach die bequemen Schuhe, die sie immer benutzt.
 
 Da sie eine Leseratte ist, nimmt sie auch ein Buch mit. Ein Notizblock und ein Kugelschreiber packt sie auch ein, falls sie sich etwas aufschreiben möchte.
 
 Schließlich darf sie ihre Papiere nicht vergessen: Sie packt ihren Pass sicher in ihrem Koffer.
-Ihren Ausweis hat sie in der Brieftasche, zusammen mit ihrer Kreditkarte und ein bisschen Bargeld.
+Ihren Ausweis hat sie in der Brieftasche, zusammen mit ihrer Kreditkarte und ein bisschen Bargeld. Die Brieftasche legt sie in ihre Tasche, damit sie sie schnell findet.
 
 Diesmal nimmt sie auch ein kleines Geschenk mit, da ihr Onkel bald Geburtstag hat.
+TODO callback?
 
-### Emmas Flug
+## Emmas Flug
 
-Da ihr Flug sehr früh ist, muss Emma um 4 Uhr morgens aufstehen.
+Da ihr Flug sehr früh ist, muss Emma um vier Uhr (4:00 Uhr) morgens aufstehen – und das an einem Samstag!
 
 Zum Glück ist die Haltestelle für den Bus zum Flughafen nicht weit von ihrer Wohnung entfernt.
 
 Im Flughafen geht sie mit ihrem Koffer zum Schalter. Sie zeigt der Dame ihren Reisepass und ihr Flugticket.
 Alles ist in Ordnung. Emma gibt der Dame ihren Koffer und bekommt ihre Bordkarte.
 
-Sie freut sich sehr auf ihren Urlaub.
+Sie freut sich sehr auf ihren Urlaub. Sie hat sich sogar einen Reiseführer gekauft.
+
+Der Abflug ist Viertel nach sieben.
+Emma liest ihren Reiseführer, während sie wartet.
+
+## Probleme bei der Sicherheitskontrolle
+
+[eigentlich ist nicht die Poli-zei, sondern Luftsicherheitsassistenten für die Kontrolle zuständig. Der Einfachheit halber habe ich die Wörter Poli-zei, Polizisten, Polizist und Polizistin benutzt.]
+
+Oje! Emma hat ein Problem bei der Sicherheitskontrolle im Flughafen.
+
+Die Polizei hat einen verdächtigen Gegenstand in Emmas Koffer entdeckt.
+
+"Was ist das? Was ist das für ein Gegenstand?", sagt ein Polizist zum anderen. "Ich weiß es nicht.", sagt der andere.
+
+"Achtung! Ist das ihr Koffer?", fragt eine Polizistin Emma. "Ja, das ist mein Koffer", antwortet Emma.
+
+Die Polizistin stellt Emma viele Fragen:
+
+- Frage: "**Wer** sind sie? **Wie** heißen Sie?" Antwort: "Ich bin Emma Brown."
+- Frage: "**Wie** schreibt man ihren Namen?" Antwort: "Man schreibt meinen Namen E-M-M-A B-R-O-W-N."
+- Frage: "**Woher** kommen Sie?" Antwort: "Ich komme aus Großbritannien."
+- Frage: "**Wo** wohnen Sie? In welchem Ort wohnen sie?" Antwort: "Ich wohne in der Nähe von London."
+
+"**Warum** stellen Sie mir all diese Fragen? Was ist los?", fragt Emma.
+
+"Wir haben einen verdächtigen Gegenstand entdeckt", antwortet die Polizistin, "also müssen wir Ihnen diese Fragen stellen."
+
+Emma ist böse auf die Polizei, möchte aber ruhig bleiben.
+
+- "Also", sagt die Polizistin, "**wohin** möchten Sie fliegen?" "Ich möchte nach Deutschland fligen."
+- "**Welchen** Flug haben Sie gebucht?" "Ich habe den Flug um sieben Uhr fünfzehn (7:15) gebucht."
+- "**Warum** möchten Sie nach Deutschland fliegen? **Was** ist der Grund?" "Ich möchte nach Deutschland fliegen, um meine Verwandten zu besuchen."
+- "Ist dies Ihr Koffer?" "Ja, das ist mein Koffer."
+- "Haben sie den Koffer alleine gepackt?" "Ja, ich habe den Koffer alleine gepackt."
+- "**Wann** haben Sie den Koffer gepackt?" "Ich habe den Koffer in den letzten Tagen gepackt."
+
+Und so geht es immer weiter...
+
+"**Wie viele** Fragen werden Sie mir noch stellen? Lassen Sie mich den Koffer doch einfach aufmachen.", sagt Emma. "Nein, das dürfen sie nicht! Wir können Ihnen das erst erlauben, wenn wir den Koffer getestet haben."
+
+Die Polizei holt einen Hund, um an dem Koffer zu riechen.
+Dann holt sie eine Maschine (eine Art Staubsauger) und saugen an dem Koffer.
+
+"Was machen Sie da?", fragt Emma.
+
+"Wir überprüfen, ob wir Sprengstoffspuren finden.", sagt die Polizistin. "Es ist natürlich verboten, gefährliche Gegenstände im Flugzeug zu transportieren."
+
+Emma muss den Koffer aufmachen.
+
+Was war es? Ein Ladekabel, dass so aussah wie eine Bombe ...
+
+[interessante Nebenbemerkung: Meinem Bruder ist etwas ähnliches passiert. Die Geschichte basiert also auf einer wahren Begebenheit]
+
+## Im Flugzeug
+
+Völlig erleichtert steigt Emma in das Flugzeug ein und setzt sich auf ihren Platz.
+
+Pünktlich um sieben Uhr fünfzehn (7:15) fliegt das Flugzeug ab.
+
+Während Emma im Flugzeug ist, hört sie die Sicherheitsanweisung der Lufthansa:
+
+"Herzlichen Willkommen!
+
+Meine Damen und Herren, im Namen Ihrer heutigen Lufthansa-Crew möchten wir Sie bitten, sich mit den Sicherheitsvorkehrungen an Bord dieser Maschine vertraut zu machen.
+
+Bitte schenken Sie uns jetzt Ihre Aufmerksamkeit. Vielen Dank.
+
+Wenn Sie etwas in die Fächer über den Sitzen verstauen, achten Sie darauf, dass es nicht herausfallen kann.
+
+Bitte vergewissern Sie sich, dass schweres Handgepäck sicher unter dem Vordersitz verstaut ist.
+
+Wir bitten Sie jetzt, Ihren Sicherheitsgurt zu schließen und festzuziehen.
+
+Um sich wieder loszuschnallen, brauchen Sie den Verschluss des Gurtes nur anzuheben.
+
+Da unerwartete Turbulenzen auftreten können, sind Sie verpflichtet, sich anzuschnallen, sobald Sie Ihren Sitzplatz eingenommen haben. Dies dient Ihrer eigenen Sicherheit.
+
+Dieses Flugzeug hat zwölf (12) Notausgänge. Leuchtstreifen im Boden markieren den Weg zu den Notausgängen.
+
+Sie sind mit dem Wort ‚Exit‘ gekennzeichnet.
+
+Diese Ausgänge haben aufblasbare Rutschen, über die Sie das Flugzeug im Notfall verlassen können.
+
+Sollte der Druck in der Kabine sinken, fallen automatisch Sauerstoffmasken aus der Kabinendecke.
+
+Ziehen Sie die Maske ganz zu sich herunter, um den Sauerstofffluss zu starten.
+
+Drücken Sie sie dann auf Mund und Nase und streifen Sie das elastische Band über Ihren Kopf.
+
+Danach helfen Sie Kindern und Personen, die Hilfe benötigen.
+
+Zu jedem Sitz gehört eine Schwimmweste.
+
+In der First Class finden Sie ihre Schwimmweste unter der Armlehne.
+
+In der Business Class ist sie ebenfalls unter der Armlehne verstaut.
+
+In der Economy Class befindet sich Ihre Schwimmweste unter dem Sitz.
+
+Auf Anweisung der Crew ziehen Sie Ihre Weste über den Kopf.
+
+Befestigen Sie die Gurte vorn. Ziehen Sie dann die Gurte fest.
+
+Unmittelbar bevor Sie das Flugzeug verlassen, ziehen Sie an den roten Griffen, um die Weste aufzublasen.
+
+Falls erforderlich, benutzen Sie die roten Mundschläuche.
+
+Die Signallampe leuchtet im Wasser auf, wenn Sie diese Lasche herausziehen.
+
+Dieser Flug ist ein Nichtraucherflug. Das Rauchen ist während des gesamten Aufenthalts an Bord nicht erlaubt.
+
+Mobiltelefone müssen aufgrund gesetzlicher Bestimmungen ab dem Verlassen der Parkposition ausgeschaltet werden.
+
+Die Benutzung von Funkgeräten und ferngesteuertem Spielzeug ist während des gesamten Aufenthaltes an Bord verboten.
+
+Schalten Sie jetzt bitte alle elektronischen Geräte aus. Nehmen Sie sie erst wieder in Betrieb, wenn die Anschnallzeichen ausgeschaltet worden sind.
+
+Welche Geräte Sie dann benutzen dürfen, entnehmen Sie bitte den Informationen im Lufthansa-Magazin.
+
+Lesen Sie bitte zusätzlich die allgemeinen Hinweise auf der Sicherheitsinstruktion, die Sie im Bereich Ihres Sitzes finden.
+
+Für weitere Informationen steht Ihnen ebenfalls das Lufthansa-Magazin zur Verfügung.
+
+Auch Ihr Flugbegleiter gibt Ihnen gerne Auskunft.
+
+Wir sind jetzt startbereit. Verstauen Sie bitte die Tische und die Monitore sicher in der vorgesehenen Halterung und stellen Sie Ihre Rückenlehnen senkrecht."
+
+## Emma sucht ihr Gepäck
+
+Der Flug dauert zum Glück nicht lange. Nach einer Stunde und dreißig Minuten kommt Emma in Hannover an.
+
+Alle Reisenden suchen ihr Gepäck.
 
 
-Wo ist ihr Gepäck?
-
-Reisende
-
-Emma ist Gast bei ihren Verwandten. Sie übernachtet bei ihnen.
-
-Emma bleibt fünf Tage bei ihren Freunden.
+Um halb zehn, also neun Uhr dreißig (9:30) verlässt Emma den Flughafen. Sie wird am Eingang von ihrem Onkel abgeholt.
 
 
 
-  - *Kleidung
-- die Sehenswürdigkeit, -en _ Welche Sehenswürdigkeiten gibt es in Frankfurt?
-  - besichtigen _ Ich möchte gern den Dom besichtigen.
-  - kulturell _ Ich bin kulturell interessiert. Ich gehe oft ins Museum.
-- zurück _
-  - Der Bus fährt zum Bahnhof.
-  - Ich gehe zu Fuß.
-  - das Meer _ Wir machen Urlaub am Meer.
-  - wandern _ Wir wandern um den Chiemsee.
-- der Ort, -e _ Der Ort liegt am Meer.
-- das Reisebüro, -s _ Mein Mann arbeitet im Reisebüro.
-  - der Reiseführer _
-    - Ich kaufe mir einen Reiseführer von Berlin.
-    - Unser Reiseführer heißt Peter.
-  - der Prospekt, -e _ Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.
-  - die Führung _ Die Führung durch das Haus beginnt in 3 Minuten.
-- das Ausland _ Fahren Sie ins Ausland?
-  - der Ausländer, -/die Ausländerin, -nen _ Sind Sie Ausländerin?
-  - ausländisch _ Leider habe ich nur ausländisches Geld.
-  - fremd _ Das weiß ich nicht; ich bin fremd hier.
-  - der Zoll _ Wir müssen noch durch den Zoll.
-  - die Papiere (pl.) _ Haben Sie Ihre Papiere dabei?
-    - der Ausweis _ Hier ist mein Ausweis.
-    - der Pass, -ä, e _ Im Hotel brauchst du deinen Pass.
-  - *Passfoto _
-- die Abfahrt _ Vor der Abfahrt rufe ich an.
-  - abfahren _ Wir fahren um zwölf Uhr ab.
-- die Ankunft _ Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.
-  - ankommen _ Wann kommt dieser Zug in Hamburg an?
-- der Fahrer _ Bitte nicht mit dem Fahrer sprechen!
-- *Transportmittel
-    - fliegen _ Ich fliege nicht gern. Deshalb fahre ich mit dem Zug.
-    - der Flughafen _ Kannst du mich zum Flughafen bringen?
-    - abfliegen _ Wann fliegst du ab?
-    - der Abflug _ Der Abflug ist um 11.20 Uhr.
-  - der Zug, -ü, e _ Ich fahre gern mit dem Zug.
-    - die Bahn _
-      - Wir fahren lieber mit der Bahn.
-      - Ich nehme die nächste Bahn.
-    - die Klasse _
-      - In unserer Klasse sind fünfundzwanzig Schüler.
-      - Im Zug fahre ich immer 2. Klasse.
-    - der Bahnhof _ Komme ich hier zum Bahnhof?
-    - das Gleis, -e _ Der ICE nach Berlin hält heute an Gleis 12.
-    - der Platz, -ä, e _
-      - Tut mir leid, der Platz ist besetzt.
-      - Bitte nehmen Sie Platz!
-      - Ich wohne Messeplatz 5.
-    - frei _ Ist der Platz noch frei?
-    - *besetzt _ Der Platz ist besetzt.
-  - das Auto, -s _ Er kommt mit dem Auto.
-    - die Autobahn, -en Wo geht‘s hier bitte zur Autobahn?
-    - die Vorsicht _ Vorsicht! Da kommt ein Auto.
-    - fahren _ Ich fahre mit dem Auto zur Arbeit.
-  - der Bus, -se _ Wann kommt der nächste Bus?
-    - die Haltestelle _ An der nächsten Haltestelle müssen Sie aussteigen.
-    - pünktlich _
-      - Der Bus fährt pünktlich um acht Uhr.
-      - Herr Müller ist immer pünktlich.
-  - das Fahrrad, -ä, er _ Fährst du mit dem Fahrrad oder mit dem Auto?
-    - Rad fahren _ Das Kind kann schon Rad fahren.
-  - das Taxi, -s _ Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.
-  - die Straßenbahn _ Wo fährt die Straßenbahn ab?
-  - die S-Bahn _ Ich nehme lieber die S-Bahn.
-  - der Lkw, -s _ Dieser Lastkraftwagen ist sehr groß.
 
-### Emma in Hannover
 
-Zusammen mit ihrem Onkel, seiner Frau und deren Kindern geht sie spazieren.
+
+
+### Emma erster Tag bei ihren Verwandten
+
+Emma ist nun Gast bei ihren Verwandten in Hannover. Sie übernachtet bei ihnen und bleibt eine Woche dort.
+
+Ihre Familie besitzt ein großes Haus in der Nähe von Hannover. Emma findet dieses Haus sehr schön.
+Sie selber hat immer nur zur Miete gewohnt. Sie ist dadurch sehr flexibel, hatte aber auch einmal Stress mit dem Vermieter, weil sie zu laut am Klavier gespielt hat.
+
+Emma freut sich, ihren Onkel Jochen, ihre Tante Anna und ihre Cousins Lukas, Emilia und Michael wiederzusehen.
+
+Am **Sonnabend** geht sie mit ihrem Onkel, seiner Frau und deren Kindern spazieren.
+Das Wetter ist herrlich! Die Sonne scheint mal wieder und es sind keine Wolken am Himmel.
 
 Die Kinder ihres Onkels sind schon erwachsen, aber sie erinnert sich noch gut daran, als sie klein waren. Jetzt sind ihre Cousins schon groß.
 
-Ihre Familie besitzt ein großes Haus in der Nähe von Hannover. Emma findet dieses Haus sehr schön.
+Am Abend grillen sie. Ihr Onkel zündet den Grill an und grillt Schweinefleisch und Würste.
 
-Sie selber hat immer nur zur Miete gewohnt. Sie ist dadurch sehr flexibel, hatte aber auch einmal Stress mit dem Vermieter, weil sie zu laut am Klavier gespielt hat.
+Emma ist Vegetarierin. "Gibt es auch etwas ohne Fleisch?"
 
-### Emma's Tag mit ihren Verwandten
-
-Emma freut sich, ihren Onkel, ihre Tante und ihre Cousins wiederzusehen.
-
-Gemeinsam gehen sie spazieren. Das Wetter ist herrlich! Die Sonne scheint mal wieder und es sind keine Wolken am Himmel.
-
-Am Abend grillen sie. Ihr Onkel zündet den Grill an und grillt Schweinefleisch und Würste. Da Emma Vegetarierin ist, kommen auch ein paar vegetarische Würste auf den Grill.
+"Ja, kein Problem", sagt  ist, kommen auch ein paar vegetarische Würste auf den Grill.
 
 Emmas Onkel hat sogar Fische und ein paar Kartoffeln gegrillt: "Bei einer deutschen Mahlzeit dürfen Kartoffeln nicht fehlen!", sagt er.
 
 Das ist eine der kulturellen Eigenarten, die Emma auch bemerkt hat. Immer gibt es Kartoffeln: Schweinefleisch mit Kartoffeln, Kartoffeln mit Leinöl, Suppe mit Kartoffeln – und natürlich Pommes. Bei fast jedem berühmten deutschen Gericht sind Kartoffeln dabei.
 
-Aber
+### Emmas Woche in Deutschland (die Wochentage)
+
+Zusammen mit ihren Freunden und Verwandten sieht Emma viele Sehenswürdigkeiten. Emmas Onkel spielt den Reiseführer, da er sehr viel über Hanover weiß.
+Sie besichtigen am **Sonntag** zusammen die Herrenhäuser Gärten, welche Emma sehr gefallen.
+
+Emma liebt die Natur und besucht am **Montag** den Maschsee mit ihren Freunden. Sie liebt Tiere und besucht am **Dienstag** mit den Kindern den Zoo.
+Lukas, das älteste Kind, hat ein Lieblingtier: Es ist dieser graue Elefant.
+
+https://pixabay.com/photos/elephant-eye-eyelashes-skin-4077701/
+
+Emma ist auch kulturell interessiert und besucht am **Mittwoch** und **Donnerstag** viele Museen, zum Beispiel das Wilhelm-Busch-Museum. Wilhelm Busch ist ein berühmter deutscher Dichter und Zeichner.
+
+Am Freitag regnet es leider. Also bleibt Emma zu Hause, spielt mit den Kindern und underhält sich mit den Erwachsenen.
+
+## Emma geht mit den Schmidts ins Kino
+
+Am Abend sagt Emma: "Warum gehen wir nicht alle ins Kino? Da das Wetter so schlecht ist, ist der Abend perfekt für einen Film."
+
+"Das ist eine Gute Idee.", sagt Jochen. "Es gibt zurzeit mehrere Filme für Kinder im Kino."
+
+Sie fragen die Kinder: "Welchen Film möchtet ihr sehen?"
+
+"TKKG!", antwortet Lukas.
+
+"Heidi!", sagt Emilia.
+
+"Die Fünf Freunde!", sagt Michael.
+
+Es gibt noch
+
+
+"Die drei Fragezeichen!", rufen die Kinder.
+
+
+  - Jochen
+  - Anna: Februar
+  - Lukas: 9
+  - Emilia 6: Mai
+  - Michael 6: Mai
+
+
+
+
+FSK 6
+
+
+
+
+uns im Kino einen Film schauen!
+
+Ich möchte gerne einen Film sehen. Lass uns ins Kino gehen!
+
+
+Welches Popcorn magst du lieber, Popkorn mit Salz oder Popkorn ohne Salz und mit Zucker?
+
+TODO
+In welcher Straße ist das Kino?
+
+## Emma sagt auf Wiedersehen
+
+Jetzt ist es wieder **Samstag**, Emmas letzter Tag in Deutschland. Sie sagt ihrer Familie auf Wiedersehen und fliegt zurück in ihre Heimat.
+
+"Auf Wiedersehen, Jochen und Anna!", sagt Emma. "Tschüss, Kinder! Ich muss jetzt nach Hause. Aber wir sehen uns später mal wieder. Bis dann!"
+
+[Emmas Pl-an als Tabelle]
+
+
+
+
+
+
+## Lass uns einkaufen!
+
+Heute muss ich einkaufen. Kommst du mit?
+
 
 TODO
 
+## Im Restaurant
 
-
-
-
-
-
-Er geht jeden Tag zur Schule – außer am Wochenende natürlich.
-
-Er bekommt Unterricht von seiner Lehrerin, die ihm viel über Geschichte, Kunst, Biologie usw. beibringt.
-
-
-
-
-Bald ist ihr Sohn alt genug für den Kindergarten. Emma möchte ihn aber nicht in den Kindergarten schicken, weil das für ein Kind sehr stressig sein kann.
-
-"Nein, Oliver ist Freilerner."
-
-TODO Schule
-
-
-
+Restaurant
+Welchen Wein können Sie mir empfehlen?
 
 TODO
-- special edition von jedem Video wo manche Vokabeln nochmal extra gezeigt werden mit Bild und Ton, "make it crazy" damit sie sich daran erinnern (z. B. "Kaffe!" und E-Gitarre)
+
+Auf Wiedersehen!
+
+
+
+# Verbringe das Jahr mit der Familie Schmidt
+
+## Wer sind die Schmidts?
+
+Emmas deutscher Onkel, Jochen Schmidt, ist auch ein Famlienmensch. Er hat eine Frau, Anna, und drei Kinder: Lukas, Emilia und Michael. Emilia und Michael sind Zwillinge.
+
+## Jochens Jahresplan
+
+Es ist nun das Ende des Jahres, der einundreißigste Zwölfte, und Jochen möchte das nächste Jahr gut planen. Er hat sich mehrere Ziele gesetzt.
+
+- Im Januar möchte er mit seinen Kindern einen Schneemann bauen und eine Schneeballschlacht machen.
+- Im Februar hat seine Frau Geburtstag, für sie plant er einen sehr schönen Urlaub. Er hat die Reise schon im Reisebüro gebucht und möchte vorher alles im Detail organisieren.
+- Im März fängt der Frühling an. Es ist Zeit, dass Jochen für den Sommer-Marathon trainiert, indem er draußen joggt.
+- Im April feiert die Famlie gemeinsam Ostern. Die Kinder lieben es, nach den Schokoladeneiern und anderen Süßigkeiten zu suchen.
+- Im Mai haben Emilia und Michael Geburtstag. Deshalb möchte Jochen einen große Hüpfburg mieten, auf der die Kinder springen können. Das wird viel Spaß machen, wenn die ganzen Kinder aus der Nachbarschaft kommen! Jochen freut sich schon sehr darauf und fängt schon im März mit der Planung der großen Geburtstagsfeier an.
+- Im Juni fängt der Sommer an. Jochen freut sich auf den Marathonlauf, für den er in den Monaten zuvor trainiert hat.
+- Im Juli macht die ganze Familie eine Reise durch Deutschland. Gemeinsam besuchen sie Berlin, Köln, Dresden, Heidelberg, Essen und viele andere schöne Städte. Das wird eine wunderbare Reise!
+- Im August besucht Lukas einen Computer-Kurs für Kinder. Jochen möchte sicherstellen, dass er viel Zeit hat, um Lukas beim Lernen zu helfen.
+- Im September ist Herbst. Die Browns kommen zu Besuch. Jochen freut sich sehr auf die Gäste. Gemeinsam werden sie Lukas' und Olivers Geburtstag feiern.
+- Im Oktober feiert die Familie Schmidt Halloween! Halloween ist auch in Europa sehr populär. (In Deutschland wird es immer beliebter, besonders bei jungen Menschen. Jochen und die Kinder möchten gerne das Haus dekorieren. Die Kinder ziehen von Haus zu Haus und fordern mit dem Spruch "Süßes, sonst gibt's Saures" Geschenke.)
+- Im November wird es wahrscheinlich wieder sehr kalt, da es der letzte Herbstmonat ist. Deshalb wird die Familie Schmidt in den Süden fliegen und zwei Wochen lang in Nordafrika verbringen.
+- Im Dezember ist wieder Winter und die Familie Schmidts feiert Weihnachten. Heiligabend ist der Lieblingsfeiertag der Kinder, da sie viele Geschenke bekommen. Am Jahresende wird natürlich auch Sylvester gefeiert.
+
+[schöne Bilder: https://de.wikipedia.org/wiki/Jahreszeit
+Quiz: Wann fängt Jochen an, für den Marathon zu trainieren? In wel-chen Monaten macht Jochen viel Sport? In wel-chen Monaten ist Frühling/Sommer/Herbst/Winter?
+Wann ist Jochen im Reisebüro? Im letzten Jahr: hat gebucht -> abgeschlossene Vergangenheit
+Welche Feiertage feiern die Schmidts auf jeden Fall?]
+
+## Lukas Schullaufbahn
+
+Jochens Söhne gehen jeden Tag zur Schule – außer am Wochenende natürlich.
+
+Sie bekommen Unterricht von ihren Lehrerin, die ihnen viel über Geschichte, Kunst, Biologie usw. beibringen.
+
+Emilia und Michael sind in der ersten (1.) Klasse, Lukas schon in der vierten (4.).
+
+Vor drei Jahren war Lukas auch in der ersten Klasse. Wie jedes Kind bekam er eine Zuckertüte zum ersten Tag in der Schule. Das ist eine Papiertüte, die mit Süßigkeiten und Schulmaterialien gefüllt ist.
+
+In Lukas' Zuckertüte waren viele Schulmaterialien wie zum Beispiel Papier, Bleistifte und Kugelschreiber.
+Er freute sich natürlich vor allem über die Süßigkeiten: Überraschungseier, Fruchtkaubonbons, Schokoküsse, Karamellbonbons und Hallorenkugeln. Das sind übrigens typisch deutsche Süßigkeiten.
+
+1. Für Lukas war die erste Klasse sehr einfach.
+2. Die zweite Klasse war schwer für ihn, da er mehrere Wochen lang krank war.
+3. In der dritten Klasse lernte Lukas seinen besten Freund Jonas kennen. Dieser Freund ist mit seiner Famlie nach Hanover gezogen.
+4. Jetzt ist Lukas in der vierten Klasse. Es ist die letzte Klasse in der Grundschule.
+5. Lukas freut sich darauf, nächstes Jahr in die fünfte Klasse zu kommen und eine weiterführende Schule (Sekundarschule) zu besuchen.
+
+In dieser Sekundarschule wird Lukas die sechste Klasse, siebte Klasse, achte Klasse, neunte Klasse, zehnte Klasse, elfte Klasse und zwölfte Klasse verbringen. Wenn er es schafft, kann Lukas dann sein Abitur ablegen. Das ist eine große Prüfung am Ende einer Schulkarriere.
+
+Mit einem guten Abitur kann man an einer Universität studieren. Das Studium eines Gebietes
+
+## Lukas' typischer Schultag
+
+Es ist Freitag, Lukas' letzter Schultag der Woche.
+
+Der Unterricht beginnt um acht Uhr (8.00 Uhr).
+
+Jede Unterrichtsstunde dauert fünfundvierzig (45) Minuten. Die Pausen sind fünf bis zwanzig Minuten lang.
+
+### Der Deutschunterricht: eine Prüfung!
+
+Von acht bis neun Uhr fünfundvierzig (8.00 bis 9.45 Uhr) hat er eine Doppelstunde Deutschunterricht.
+
+Heute hat Lukas einen Test, eine Deutschprüfung. Die Prüfung ist zum Glück ganz einfach und Lukas hat viel für sie gelernt.
+
+Danach hat Lukas eine sehr lange Pause bis zehn Uhr fünf.
+
+## Der Mathematikunterricht: eine schwere Aufgabe
+
+Von fünf Minuten nach zehn bis zehn Uhr fünfzig (10.05 bis 10.50 Uhr) hat Lukas Mathematikunterricht.
+
+Lukas bekommt eine schwere Aufgabe, die er nicht ganz versteht:
+
+"Ein Gärtner möchte seine Blumen in seinem Garten gießen. Der Garten ist sechzehn Quadratmeter groß. Der Gärtner braucht pro Quadratmeter zwei Liter Wasser.
+
+1. Wie viele Liter Wasser braucht der Gärtner?
+2. Ein Liter Wasser wiegt ein Kilogramm. Wie schwer ist das Wasser, das der Gärtner braucht? Gib die Lösung in Kilogramm, Gramm und Pfund.
+3. Der Gärtner möchte Wasser sparen. Er nimmt beim nächsten Mal fünfundzwanzig Prozent weniger Wasser. Wie viel Wasser braucht er?"
+
+[Bevor du weiterliest: Finde selber die Lösung!
+
+Die Aufgabe ist nicht so schwer, sobald du sie gut verstanden hast. Lass dir Zeit und habe Geduld. Klicke auf jedes Wort, das du nicht verstehst.
+
+Falls du dich entscheidest weiterzulesen, dann lies nicht alles. Lies nur einen Teil von Jonas' Erklärung und überlege noch einmal.]
+
+Zum Glück brauchen die Schüler die Aufgabe nicht alleine lösen, es ist eine Gruppenarbeit: Die Schüler bilden Zweier- und Dreiergruppen. Lukas wählt seinen besten Freund Jonas als Partner.
+
+"Ich verstehe diese Aufgabe nicht.", sagt Lukas. Jonas versteht die Aufgabe zum Glück und kann Lukas das Problem gut erklären:
+
+"Nun, der Gärtner braucht zwei Liter pro Quadratmeter und der Garten ist sechzehn Quadradmeter groß. Wie viel ist zwei mal sechzehn?" "Zeiundreißig!" "Genau, also haben wir schon den ersten Teil gelöst."
+
+"Okay. Danke, Jonas. Aber was ist mit dem zweiten Teil? Ein Liter Wasser ist ein Kilogramm, also ist das Gewicht zweiundreißig Kilogramm. Aber wie viel ist das in Gramm und Pfund?"
+
+"Nun," sagt Jonas, "ein Kilogramm sind tausend Gramm, also sind es zweiunddreißigtausend Gramm. Ein Pfund ist fünfhundert Gramm oder ein halbes Kilogramm. Also vierundsechzig Pfund! Jetzt brauchen wir noch den dritten Teil der Aufgabe."
+
+"Oje, mein Kopf tut weh!", sagt Lukas. "Aber ich weiß zum Glück, was Prozent ist; das hat mir mein Vater mal erklärt. Prozent heißt einfach nur ein Teil von hundert. Fünfundzwanzig Prozent sind also fünfundzwanzig durch hundert. Das ist das gleiche wie eins durch vier oder ein Viertel!"
+
+"Genau," sagt Jonas, "also müssen wir nur ein Viertel abziehen oder drei Viertel nehmen. Drei Viertel von zweiundreißig Litern, oje ..."
+
+"Ich weiß es! Die Hälfte von zweiundreißig ist sechzehn, davon die Hälfte ist acht. Acht ist also ein Viertel von zweiundreißig! Drei Viertel von zweiundreißig ist also zeiundreißig minus acht ..."
+
+"Vierundzwanzig!", rufen sie beide gemeinsam.
+
+"Wunderbar!", sagt Lukas. "Er braucht also beim nächsten Mal vierundzwanzig Liter oder vierundzwanzig Kilogramm oder vierundzwanzigtausend Gramm oder achtundvierzig Pfund."
+
+"Das ist richtig!", sagt der Lehrer. "Sehr gut, ihr seid die erste Gruppe, die mit der Aufgabe fertig ist."
+
+"Mensch, wir sind ein gutes Team!", sagt Lukas zu Jonas. Sie klatschen ihre Hände in einem High five gegeneinander.
+Lukas ist glücklich und sagt: "Jetzt macht es Spaß. Ich freue mich."
+
+Und so geht es weiter im Mathematik unterricht:
+
+- "Was ist die Hälfte von drei Euro?" "Ein Euro und fünzig Cent!"
+- "Wieviele Zentimeter sind ein Meter fünfzehn?" "Einhundertfünfzehn Zentimeter!"
+- "Wieviele Meter sind zweihundert Kilometer?" "Zweihunderttausend Meter!"
+
+[Mathe-Quizze]
+
+## Im Musikunterricht
+
+Nach einer kleinen Pause geht Lukas Musikunterricht. Das Thema ist "berühmte deutsche Musiker."
+
+Lukas lernt etwas über klassische Komponisten wie Johann Sebastian Bach und Ludwig van Beethoven.
+
+Im Unterricht hören die Schüler Carl Orff's episches Carmina Burana. https://www.youtube.com/watch?v=EJC-_j3SnXk
+
+Auch aus der heutigen Zeit gibt es sehr berühmte deutsche Musiker wie z. B. Hans Zimmer.
+
+Um elf uhr vierzig ended der Musikunterricht.
+
+### Das Mittagessen
+
+Zwanzig vor zwölf gibt es in der Schule Mittagessen. Von der Prüfung am Morgen und den schweren Aufgaben hat Lukas großen Appetit.
+
+Er bekommt Gemüse, Pommes frites und ein bisschen Fleisch. Außerdem bekommt er Obst – eine Birne und eine Banane. Das Essen schmeckt sehr gut!
+
+### Der Sportunterricht
+
+Fünfzig Minuten später, um zwölf Uhr dreißig, fängt der Sportunterricht an.
+
+Der Lehrer bringt den Schülern viele verschiedene Sportarten bei. Heute lernt Lukas das Turnen.
+
+### Zeit für die Hausaufgaben
+
+Von dreizehn Uhr fünfzehn bis Viertel vor zwei (13.15 bis 13.45 Uhr) hat Lukas Zeit für seine Hausaufgaben.
+
+Er nutzt diese halbe Stunde, um ein paar Aufgaben zu lösen. So hat er mehr Zeit am Wochenende!
+
+Lukas löst eine Aufgabe aus dem Musikunterricht: "Ludwig van Beethoven war Niederländer. Ist die Aussage richtig oder falsch?" Lukas schreibt: "Die Aussage ist falsch. Beethovens Großvater kam aus Belgien und Beethoven ist in der deutschen Stadt Bonn geboren."
+
+Lukas löst auch ein paar Mathematikaufgaben. Manche Aufgaben sind sehr schwer; Lukas versucht, keine Fehler zu machen.
+
+### Die beste Zeit des Tages: Fußball
+
+Gleich nachdem Lukas seine Aufgaben gelöst hat, rennt er zur Sporthalle. Die Halle ist gleich neben der Schule.
+
+Lukas macht viel Sport. Jeden Freitag spielt er von vierzehn bis fünfzehn Uhr (14.00 bis 15.00 Uhr) mit seinen Mitschülern Fußball. Sein Team ist sehr gut, aber heute haben sie leider verloren.
+
+Außerdem ist er in einem Sportverein: Lukas ist ein Schwimmer. Mit seinen Freunden aus dem Verein geht er regelmäßig schwimmen. Er schwimmt nicht nur im Schwimmbad, sondern auch in Seen. Im Urlaub schwimmt Lukas mit seinem Vater im Meer, obwohl das Wasser manchmal sehr kalt ist.
+
+[Quiz: was macht Lukas um halb zehn?
+Der Stundenplan wurde geändert. Die zweite Stunde beginnt um acht Uhr fünfzig. Wann endet sie?
+Wann fängt der Musikunterricht an?
+https://freie-grundschule-wernigerode.de/2_Schule_Hort/Unterricht/Stdpl_4_Klasse.html
+
+Ressource: https://de.wiktionary.org/wiki/Verzeichnis:Deutsch/Uhrzeit]
+
+## Lukas' Computer-Kurs
+
+Lukas macht in den Sommerferien einen Computer-Kurs.
+Die anderen Teilnehmer in dem Kurs sind Kinder in seinem Alter.
+
+Der Kurs ist sehr international – außer den deutschen Kindern gibt es auch drei ausländische Kinder.
+
+Elif ist türkisch. Sie ist Türkin und kommt aus der Türkei. Kai ist finnisch. Er ist Finne und kommt aus Finnland. Sie sind beide europäisch – sie sind Europäer kommen aus Europa.
+
+Francisco ist mexikanisch. Er ist Mexikaner und kommt aus Mexiko. Fransisco ist kein Europäer, er ist Südamerikaner.
+
+Lukas ist Deutscher: Sein Vater ist ein Deutscher und seine Mutter ist eine Deutsche.
+
+In Finnland benutzt man auch Euros, die gleiche Währung wie in Deutschland. Aber in der Türkei benutzt man türkische Lira und in Mexiko mexikanische Peso.
+Zur Übung schreibt Lukas ein Programm, dass Euros in andere Währungen umrechnet.
+
+[Was bist du? Aus welchem Land kommst du? Was ist die Währung in deinem Land?
+
+Poll which country via Google Forms, including option to write-in]
+
+# Bonus-Kurs: Die Geschichte der Deutschen
+
+## Die Anfänge
+
+[disclaimer: very simple, very short]
+
+Nach dem Fall des römischen Reiches entstand das Fränkische Reich, das zwischen dem fünften und neunten Jahrhundert (5. und 9. Jh.) existierte.
+
+https://commons.wikimedia.org/wiki/File:Frankish_Empire_481_to_814-de.svg
+
+Verdun, zehnter Achter achthundertdreiundvierzig (10. August 843): Die Söhne des toten Kaisers Ludwigs des Frommen teilen das Reich.
+
+[Ein Kaiser ist übrigens ein spezieller König, ein König über andere Könige. Beachte, dass es für lange Zeit mehrere Könige gibt, die Teil eines Bundes sind.]
+
+Aus dem östlichen Teil (dem Ostfrankenreich) entstand das Heilige Römische Reich und aus dem westlichen (dem Westfrankenreich) das spätere Königreich Frankreich.
+
+https://commons.wikimedia.org/wiki/File:Vertrag_von_Verdun.svg
+
+Ab dem fünfzehnten Jahrhundert nennt man das Reich im Osten "Heiliges Römische Reich deutscher Nation".
+
+Die Grenzen änderten sich oft:
+
+https://commons.wikimedia.org/wiki/File:Sacro_Imperio_Romano.gif
+
+[let's play parse the number! this is how you parse or construct a German number
+
+explain zehnter Achter: Es gibt mehrere Arten, ein Da-tum zu schreiben. In dieser Lektion werden wir es immer wieder üben. erste Dritte. erste März.]
+
+## Kriege und das Ende des Heilige Römische Reich deutscher Nation
+
+Im siebzehnten Jahrhundert findet ein schrecklicher Krieg statt: der Dreißigjährige Krieg. Wie lange dauerte der Dreißigjährige Krieg? Richtig, er dauert dreißig Jahre – und zwar von sechzehnhundertachtzehn bis sechzehnhundertachtundvierzig (1618 bis 1648).
+
+Er begann als Religionskrieg: Protestanten gegen Katholiken.
+Die Schrecken dieses Krieges sind ein Grund, warum das Recht auf  Religionsfreiheit sehr wichtig ist.
+
+https://de.wikipedia.org/wiki/Datei:The_Hanging_by_Jacques_Callot.jpg
+
+Seit der Mitte des achtzehnten Jahrhunderts kann sich das Reich immer weniger schützen.
+
+Erinnerst du dich an das Reich im Westen? Ja, dort ist jetzt Frankreich. Du kennst bestimmt Napoleon Bonaparte; er führte Kriege gegen andere europäische Länder. Teile des alten deutschen Reiches schließen sich ihm an und treten aus dem Heiligen Römischen Reich aus (Rheinbund).
+
+https://commons.wikimedia.org/wiki/File:Charles_Meynier_-_Napoleon_in_Berlin.png
+
+Am sechsten August achtzehnhundertsechs (6. August 1806) legt Kaiser Franz der Zweite (II.) die Krone nieder und das Heilige Römische Reich gibt es nicht mehr.
+
+## Der Deutsche Bund und der Norddeutsche Bund
+
+In Mitteleuropa gibt es nun mehrere Fürsten und freie Städte, also viele kleine Staaten.
+
+Viele dieser Staaten schließen sich im Jahr achtzehnhundertfünfzehn (1815) zu einem Bund zusammen, dem Deutschen Bund.
+
+Es ist kein Staat, sondern eine Gruppe von Staaten.
+Teile von Österreich, Preußen, Dänemark und den Niederlanden sind auch im Bund.
+
+https://de.wikipedia.org/wiki/Datei:Deutscher_Bund.svg
+
+Wieder gibt es Krieg, den Deutschen Krieg im Jahr achtzehnhundertsechsundsechzig (1866). Preußen und seine Verbündeten führen Krieg gegen Österreich und deren Verbündeten.
+
+https://de.wikipedia.org/wiki/Datei:Map-AustroPrussianWar.svg
+
+Preußen und seine Verbündeten gewinnen. Da sie sich im Norden befinden, gründen sie den Norddeutschen Bund.
+
+Am ersten Siebten achtzehnhundertsiebenundsechzig (1. Juli 1867) bekommt der Norddeutscher Bund eine Verfassung und ist nun ein Staat.
+
+https://de.wikipedia.org/wiki/Datei:NB_1866-1871.99.svg
+
+## Das deutsche Kaiserreichs
+
+Ein erfolgreicher Krieg mit Frankreich ist der Auslöser für die Gründung des deutschen Kaiserreichs am ersten Ersten achtzehnhunderteinundsiebzig (1. Januar 1871).
+Ab diesem Datum gibt es eine neue Verfassung.
+
+Das Deutsche Reich ist der erste deutsche Nationalstaat.
+
+https://commons.wikimedia.org/wiki/File:Deutsches_Reich_(1871-1918)-de.svg
+
+Der preußische König ist nun der Kaiser des deutschen Reiches.
+
+Otto von Bismark, der Bundeskanzler des Norddeutsches Bundes, ist nun Kanzler und spielt eine wichtige Rolle im Reich.
+
+Er schließt Bündnisse mit vielen Ländern und kommt in Konflikt mit anderen Ländern, zum Beispiel mit Großbritannien.
+
+Die vielen Bündnisse in Europa war eine der Gründe für den "großen Krieg."
+
+## Der erste Weltkrieg
+
+Ein serbischer Attentäter tötet den österreichischen Thronfolger Franz Ferdinand.
+Also gibt es Krieg! Warum?
+
+Nun, in der letzten Lektion habe ich die Bündnisse erwähnt: Österreich möchte nun Krieg mit Serbien. Russland ist mit Serbien befreundet, also ist Russland gegen Österreich. Russland ist mit Frankreich befreundet. Österreich möchte Hilfe von Deutschland. Deutschland sagt "ja".
+
+[Humor auf Englisch: https://www.theonion.com/august-5-1914-1819588242]
+
+Deutschland ist also gegen Frankreich und Russland. Das ist schwer: ein Feind im Westen und ein Feind im Osten. Also greift Deutschland Frankreich an, indem die Soldaten durch Belgien marschieren. Das ist verrückt!
+
+https://de.wikipedia.org/wiki/Datei:Schlieffen_Plan_de_1905.svg
+
+Der sogenannten große Krieg dauert vier Jahre, von neunzehnhundertvierzehn bis neunzehnhundertachtzehn (1914 bis 1918).
+Er ist einer der schrecklichsten Kriege der Menschheit und kostet viele Menschenleben.
+
+Deutschland verliert.
+
+## Die Weimarer Republik
+
+Am Ende des Krieges geht es den Menschen sehr schlecht. Sie starten eine Revolution!
+
+In der Stadt Weimar wird die erste deutsche Republik gegründet. Der elfte Achte neunzehnhundertneunzehn (11. August 1919) gilt als „Geburtsstunde der Demokratie“.
+
+https://de.wikipedia.org/wiki/Datei:Karte_des_Deutschen_Reiches,_Weimarer_Republik-Drittes_Reich_1919%E2%80%931937.svg
+
+Die Menschen haben mehr Rechte und Freiheiten.
+Frauen dürfen nun wählen.
+
+Aber nicht alles ist gut. Die Menschen sind nicht glücklich. Viele Leute sind arbeitslos. Deutschland muss viel Geld an die Sieger des ersten Weltkrieges zahlen.
+
+Die Kommunisten und Nationalsozialisten mögen die Demokratie nicht. Wie macht man Demokratie, wenn die Menschen keine Demokratie wollen?
+
+## Das Ende der Weimarer Republik
+
+Warum geht es den Leuten schlecht? Warum sind so viele Menschen arbeitslos?
+
+Adolf Hitler sagt: "Die Juden sind böse! Dir geht es schlecht wegen den Juden!"
+
+Die Menschen glauben ihm. Viele Leute glauben, dass die Demokratie nicht gut ist und wollen einen Diktator.
+
+Am dreißigsten Ersten neunzehnhundertdreiunddreißig (30. Januar 1933) wird Adolf Hitler Reichskanzler.
+
+Die Weimarer Republik is zu Ende.
+Es beginnt eine der dunkelsten Zeiten der deutschen Geschichte.
+
+## Der NS-Staat
+
+Hitler bekommt immer mehr Macht und wird Diktator. Er nennt sich "Führer."
+
+[Deswegen sagen wir heute "Anführer" und "Reiseführer", wenn wir über Personen sprechen, die etwas leiten oder Touristen Sehenswürdigkeiten zeigen.]
+
+Politische Gegner und Juden haben immer weniger Rechte und werden immer mehr terrorisiert.
+Dann werden Millionen jüdische, homosexuelle, andersdenkende und kranke **Menschen** systematisch ermordet (Holocaust).
+
+Hitler erweitert das deutsche Reich auf Österreich und Gebiete, wo viele Deutsch sprechenden Menschen leben, zum Beispiel das Sudetenland im Osten.
+
+https://de.wikipedia.org/wiki/Datei:Grossdeutsches_Reich_NS_Administration_1944.png
+
+## Der zweite Weltkrieg
+
+Die anderen Herrscher mögen Hitler nicht, aber machen nichts, als er Deutschland immer größer macht (Appeasement-Politik).
+
+Am ersten September neunzehnhundertneunundreißig (1. September 1939) überfällt Deutschland Polen.
+
+Das nationalsozialistische Deutschland, das faschistische Italien, Japan und ihre Verbündeten kämpfen gegen Frankreich, Großbritannien und deren Verbündeten.
+
+https://de.wikipedia.org/wiki/Datei:Second_world_war_europe_animation_large_de.gif
+
+Deutschland besiegt Polen, Dänemark, Norwegen, die Niederlande, Belgien und Frankreich. Der schnelle Sieg hat viele überrascht.
+
+Großbritannien ist stark und wird nicht besiegt. Auch die Menschen in den besetzten Zonen leisten Widerstand.
+
+Die Sowjetunion ist neutral, aber Hitler möchte auch gegen die Sowjetunion Krieg führen. Der Winter in Russland ist sehr kalt und der Krieg gegen die Sowjetunion ist nicht erfolgreich für die Nazis.
+
+Am Ende kämpfen auch die US-Amerikaner gegen die Nazis.
+
+Das faschistische Deutschland verliert und kapituliert am achten Mai neunzehnhundertfünfundvierzig (8. Mai 1945).
+
+Der Historiker Ian Kershaw sagte: „Dieser Krieg war ein historisch beispielloser Angriff auf die Menschlichkeit, eine Zerstörung aller kulturellen Ideale, die die Aufklärung hervorgebracht hatte, ein Absturz, wie es ihn bis dahin nicht gegeben hatte. Er war Europas Armageddon.“
+
+## Die deutsche Teilung und der kalte Krieg
+
+Großbritannien, Frankreich, die vereinigten Staaten und die Sowjetunion besetzen Deutschland. Sie teilen Deutschland in vier Teile.
+
+https://de.wikipedia.org/wiki/Datei:Deutschland_Besatzungszonen_1945.svg
+
+Berlin ist so wichtig, dass es auch geteilt wird.
+
+https://de.wikipedia.org/wiki/Datei:Occupied_Berlin.svg
+
+Großbritannien, Frankreich und die vereinigten Staaten die USA sind kapitalistisch. Ihre Besatzungszonen nennt man West-Deutschland beziehungsweise West-Berlin (der Westen).
+
+Die Sowjetunion is sozialistisch. Ihre Besatzungszonen nennt man Ost-Deutschland und Ost-Berlin (der Osten).
+
+Die Sowjetunion und die marktwirtschaftlichen Länder sind keine Freunde. Sie führen eine Art Krieg, aber ohne Waffen – einen kalten Krieg.
+
+Im Westen gibt es eine kapitalistischen Marktwirtschaft in der Bundesrepublik Deutschland. Ims Osten gibt es Sozialismus in der Deutschen Demokratische Republik. Es gab immer wieder Probleme zwischen den beiden Staaten.
+
+## Video: Die Luftbrücke
+
+
+## Der Fall der Mauer und die Wiedervereinigung
+
+Viele Deutsche flohen vor dem Sozialismus in den Westen. Am dreizehnten Augsut neunzehnhunderteinundsechzig (13. August 1961) fing Ostdeutschland an, die Grenze zu zu machen und eine Mauer zu bauen.
+
+https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F079009-0031,_Berlin,_Brandenburger_Tor_mit_Berliner_Mauer.jpg
+
+Die Berliner Mauer war ein Symbol für die Teilung Deutschlands. Sie teilte nicht nur zwei Staaten, sondern auch Familien, Freunde, Geliebte – eine Kultur. Deutschland war achtundzwanzig (28) Jahre lang durch die Mauer geteilt.
+
+Die Menschen wollten Freiheit! Auf einer Pressekonferenz am neunten Elften neunzehnhundertneunundachtzig (9. November 1989) sagte ein Ost-Politiker, dass die Mauer offen ist und jeder Ost-Deutsche nach West-Deutschland gehen darf. Diese Aussage war falsch, aber viele Menschen bekamen diese Information.
+
+Also gingen mehrere tausende Ost-Berliner zur Grenze und sagten: "Öffnet die Grenze!"
+Die Soldaten an der Grenze konnten nichts gegen so viele Menschen machen, sie mussten die Grenze öffnen.
+
+Dies führte zum Zusammenbrauch der Diktatur im Osten und zur deutschen Wiedervereinigung. Deutschland war nun wieder ein Land.
+
+## Nach der Wiedervereinigung
+
+Das heutige Deutschland gibt es offiziell seit dem dritten Oktober neunzehnhundertneunzig (3. Oktober 1990), das ist der Tag der Deutschen Einheit.
+
+Seitdem hatten wir zwei Kanzler, Kohl und Schröder, und jetzt die Bundeskanzlerin Angela Merkel.
+
+Jetzt ist der ... zweitausendzwanzig. [Javascript to show current date in German]
+Seit neunzehnhundertneunzig ist viel passiert und es passiert jeden Tag etwas.
+Manche Dinge werden schlechter, viele Dinge werden besser.
+
+Wir müssen an die guten Dinge denken und für sie kämpfen. Wir müssen gegen die schlechten Dinge kämpfen, wir müssen etwas machen, damit die Dinge besser werden.
+
+Du bist ein Teil der Geschichte und wenn du nach Deutschland ziehst, bist du auch Teil der deutschen Geschichte. Mache etwas daraus. Kämpfe für die Freiheit und die Rechte des Menschen.
+
+## Vergangenheitsbewältigung
+
+In der Geschichte gab es viele schlechte Dinge. In jedem Land gab es schlechte Menschen.
+
+Ich mag an meinem Land, dass wir über diese Dinge sprechen und Verantwortung übernehmen.
+
+Die Anerkennung der schlechten Dinge des NS-Staates – die Schrecken und der Terror – nennen wir Vergangenheitsbewältigung.  Vergangenheitsbewältigung bedeutet, dass wir die Fakten nicht leugnen. Es bedeutet, dass wir nicht wollen, dass sich die Geschichte wiederholt.
+
+https://de.wikipedia.org/wiki/Datei:Holocaust-Mahnmal_Berlin_2006.jpg
+
+Wenn du mit einem Deutschen über Geschichte sprichst, dann frage ruhig jede Frage, die du stellen möchtest. Wir kennen unsere Geshichte, die guten und die schlechten Dinge. Darauf bin ich stolz.
+
+Ich bin jederzeit da, falls du eine Frage hast. Danke, dass du an diesem Kurs über die deutsche Geschichte teilgenommen hast.
+
+- Dein Mark
+
+# Die Reise der Schmidts durch Deutschland
+
+## Endlich Urlaub!
+
+Es ist nun Juli. Es ist Zeit für Urlaub.
+
+Die Schmidts haben ihre Reise durch Deutschland schon lange geplant. Sie werden sich die Insel Rügen anschauen und dann mehrere deutsche Städte.
+
+Jochen macht auch mal sein Handy aus, weil er im Urlaub nicht erreichbar sein möchte.
+Wenn das Handy an ist, dann kann ihn sein Chef immer anrufen. Jochen möchte das nicht. Jochen braucht einen ganz ruhigen Urlaub.
+
+##  Auf Rügen (Farben)
+
+Die Schmidts haben sehr viel Spaß auf ihrer Reise.
+
+Sie sind nun auf Rügen, das ist eine Insel im Norden Deutschlands.
+
+Die Sonne scheint. Jochen möchte gerne braun werden.
+
+Schaue dir dieses schöne Bild an, das Anna gemacht hat!
+
+Die Farben sind sehr schön: Das Meer ist blau. Der Himmel ist hellblau. Die Wolken sind weiß. Das Gras ist grün und gelb.
+
+https://pixabay.com/photos/baltic-sea-beach-germany-coast-sea-4136488/
+
+Rügen ist berühmt für seine weißen Kreidefelsen. Siehst du den weißen Felsen, der von grünen Bäumen umgeben ist?
+
+Zwischen dem Meer und dem Felsen ist eine Straße.
+
+https://pixabay.com/photos/r%C3%BCgen-white-cliffs-baltic-sea-coast-4517986/
+
+Jochen hat ein Foto von gelben Blumen gemacht. Die Wolken am Himmel sind nicht ganz weiß, sondern sehr dunkel. Sie sind dunkelgrau.
+Der Himmel ist links dunkelblau.
+In der Mitte des Bildes steht ein Baum.
+
+https://pixabay.com/photos/r%C3%BCgen-island-oilseed-rape-landscape-4335904/
+
+Dieses Bild von dem Maler Caspar David Friedrich ist sehr bekannt.
+Du siehst die weißen Kreidefelsen.
+
+Links unten ist eine Frau. Ihr Kleid ist rot.
+
+Es gibt auch zwei Männer. Ihre Kleidung ist schwarz.
+
+https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich%27s_Chalk_Cliffs_on_R%C3%BCgen.jpg
+
+Auf Rügen gibt es auch viele Tiere. Die kleine Emilia hat sich in diese braune Kuh verliebt und gibt ihr etwas Gras zu essen.
+
+https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
+
+
+
+
+
+
+
+- crazy edition von jedem Video wo wich-tige Vokabeln bei der ersten Erwähnung nochmal extra gezeigt werden mit Bild und Ton, "make it crazy" damit sie sich daran erinnern (z. B. "Kaffe!" und den Klang einer E-Gitarre)
 - after each immersion, write table for better memorization (connecting with known words):
                     Vergleiche:
                     --
@@ -724,325 +1377,395 @@ TODO
                     suchen | es sucht
                     --
 - Dialekte https://www.youtube.com/watch?v=k7a6ak8QggY
+- https://www.telc.net/verlagsprogramm/kurstraeger-lizenzpartner/deutsch-integration/lehrwerk-einfach-gut/downloads.html
+- put first names into custom words -> explain family relations, background information
+- Javascript to show current date in German (change between versions every couple of seconds, don't always show)
+- mehrere Versionen [einfach|mittel|schwer]
+  - einfach: nur A1 Vokabeln wenn möglich
+  - mittel: nur A1 Vokabeln, wenn nahe an der Bedeutung
+  - schwer: die passendste Formulierung oh-ne Rücksicht auf Wortschatz
+- die Browns
+  - Emma
+  - Thomas:
+  - Oliver
+    - Geburtstag: 12. September (current year - 7)
+  - Max
+  - Marie
+- die Schmidts
+  - Jochen
+  - Anna: Februar
+  - Lukas: 9
+  - Emilia 6: Mai
+  - Michael 6: Mai
 
 
 
 
-TODO
+  - *Fragepronomen
+    - wen _ Wen besuchst du?
+- *Vorsilben und Nachsilben
+  - *un-
+    - unbekannt _
+  - *-los
+    - *arbeitslos
+  - *-bar
+    - *erreichbar _
+- *Begrüßung
+  - der Gruß, -ü, e _
+    - Viele Grüße an Ihre Frau.
+    - Mit freundlichen Grüßen
+  - hallo _ Hallo Inge! Wie geht’s?
+  - kennenlernen: kennenzulernen _ Wir sind neu hier. Wir möchten Sie kennenlernen.
 
-1 Euro 100 Cent.
-abgeben. abgegeben. gab ab. gebe ab. gebt ab. gib ab. gibst ab. gibt ab. gäbe ab.
-abgeholt. abholen. hole ab. holst ab. holt ab. holte ab.
-Absender. Absenderin. Absendern. Absenders.
-Achtung.
-achtzehn.
-achtzig.
-Adresse. Adressen.
-allein. alleine. alleinem. alleinen. alleiner. alleines.
-Alte. Alter. Altern. Alters.
-anbieten. angeboten. biet an. biete an. bietest an. bietet an. bot an. böte an.
-angeklickt. anklicken. klicke an. klickst an. klickt an. klickte an.
-angekreuzt. ankreuzen. kreuz an. kreuze an. kreuzt an. kreuzte an.
-angemeldet. anmelden. melde an. meldest an. meldet an. meldete an.
-angerufen. anrufen. rief an. riefe an. ruf an. rufe an. rufst an. ruft an.
-angezogen. anziehen. zieh an. ziehe an. ziehst an. zieht an. zog an. zöge an.
-Anmeldung. Anmeldungen.
-Anrede. Anreden.
-Anrufbeantworter. Anrufbeantwortern. Anrufbeantworters.
-Ansage. Ansagen.
-Anschluss. Anschlusse. Anschlusses. Anschlüsse. Anschlüssen.
-Antwort. Antworten.
-Anzeige. Anzeigen.
-April. Aprile. Aprilen. Aprils.
-arbeitslos. arbeitslose. arbeitslosem. arbeitslosen. arbeitsloser. arbeitsloses.
-Arbeitsplatz. Arbeitsplatze. Arbeitsplatzes. Arbeitsplätze. Arbeitsplätzen.
-Aufgabe. Aufgaben.
-aufgehört. aufhören. hör auf. höre auf. hörst auf. hört auf. hörte auf.
-Auge. Augen. Auges.
-August. Auguste. Augusten. Augustes. Augusts.
-ausfüllen. ausgefüllt. fülle aus. füllst aus. füllt aus. füllte aus.
-ausgesehen. aussehen. sah aus. sehe aus. seht aus. sieh aus. siehe aus. siehst aus. sieht aus. sähe aus.
-Aussage. Aussagen.
-Bank. Banken. Bänke. Bänken.
-bar. bare. barem. baren. barer. bares.
-Bauch. Bauche. Bauches. Bauchs. Bäuche. Bäuchen.
-Baum. Baume. Baumes. Baums. Bäume. Bäumen.
-Beamte. Beamter.
-Berlin, zwölfter Vierter zweitausendzwei.
-Beruf. Berufe. Berufen. Berufes. Berufs.
-bestell. bestelle. bestellen. bestellst. bestellt. bestellte.
-bezahle. bezahlen. bezahlst. bezahlt. bezahlte.
-billig. billige. billigem. billigen. billiger. billiges. billigsten.
-blau. blaue. blauem. blauen. blauer. blaues. blauesten. blausten.
-Bleistift. Bleistifte. Bleistiften. Bleistiftes. Bleistifts.
-Blick. Blicke. Blicken. Blickes. Blicks.
-Blume. Blumen.
-Bogen. Bogens. Bögen.
-brachte mit. bringe mit. bringst mit. bringt mit. brächte mit. mitbringen. mitgebracht.
-braun. braune. braunem. braunen. brauner. braunes. braunsten.
-Brief. Briefe. Briefen. Briefes. Briefs.
-Briefmarke. Briefmarken.
-Buchstabe. Buchstaben. Buchstabens.
-buchstabier. buchstabiere. buchstabieren. buchstabierst. buchstabiert. buchstabierte.
-Bäckerei. Bäckereien.
-Café. Cafés.
-CD. CDs.
-Chef. Chefin. Chefs.
-daneben.
-dank. danke. danken. dankst. dankt. dankte. gedankt.
-Daten. Datum. Datums.
-Dezember. Dezembern. Dezembers.
-Disco. Discos.
-Doktor. Doktoren. Doktores. Doktorin. Doktors.
-Doppelzimmer. Doppelzimmern. Doppelzimmers.
-Dorf. Dorfe. Dorfes. Dorfs. Dörfer. Dörfern.
-dort.
-draußen.
-dreizehn.
-dreizehn Uhr siebzehn.
-dritte. drittem. dritten. dritter. drittes.
-Drucker. Druckerin. Druckern. Druckers.
-dunkelblau. dunkelblaue. dunkelblauem. dunkelblauen. dunkelblauer. dunkelblaues.
-Durchsage. Durchsagen.
-E-Mail. E-Mails.
-Ecke. Ecken.
-eilig. eilige. eiligem. eiligen. eiliger. eiliges. eiligsten.
-ein Uhr.
-eine Deutsche.
-eine Milliarde.
-eine Million.
-eingekauft. einkaufen. kauf ein. kaufe ein. kaufst ein. kauft ein. kaufte ein.
-eins.
-Eintritt. Eintritte. Eintritten. Eintrittes. Eintritts.
-einundzwanzig.
-Einzelzimmer. Einzelzimmern. Einzelzimmers.
-elf.
-empfahl. empfehle. empfehlen. empfehlt. empfiehl. empfiehlst. empfiehlt. empfohlen. empfähle. empföhle.
-Empfänger. Empfängerin. Empfängern. Empfängers.
-Ende. Enden. Endes.
-entschuldige. entschuldigen. entschuldigst. entschuldigt. entschuldigte.
-Entschuldigung. Entschuldigungen.
-Ergebnis. Ergebnisse. Ergebnissen. Ergebnisses.
-erklär. erkläre. erklären. erklärst. erklärt. erklärte.
-erreichbar. erreichbare. erreichbarem. erreichbaren. erreichbarer. erreichbares. erreichbarsten.
-erste Dritte.
-erste März.
-Euch. Euer. Ihr. Ihre. Ihrem. Ihren. Ihrer. Ihres.
-Europa.
-Europäer. Europäerin. Europäern. Europäers.
-europäisch. europäische. europäischem. europäischen. europäischer. europäisches. europäischsten.
-falsch. falsche. falschem. falschen. falscher. falsches.
-Familienname. Familiennamen. Familiennamens.
-Familienstand. Familienstande. Familienstandes. Familienstands.
-Farbe. Farben.
-Fax. Faxe. Faxen.
-Februar. Februare. Februaren. Februars.
-Fehler. Fehlern. Fehlers.
-ferngesehen. fernsehen. sah fern. sehe fern. seht fern. sieh fern. siehst fern. sieht fern. sähe fern.
-Feuer. Feuern. Feuers.
-Fieber. Fiebern. Fiebers.
-Film. Filme. Filmen. Filmes. Films.
-Finne. Finnen. Finnin.
-finnisch. finnische. finnischem. finnischen. finnischer. finnisches. finnischsten.
-Finnland.
-Formular. Formulare. Formularen. Formulars.
-Frauenarzt. Frauenarztes. Frauenärzte. Frauenärzten. Frauenärztin.
-Freizeit. Freizeiten.
-früher.
-Frühling. Frühlinge. Frühlingen. Frühlings.
-Fußball. Fußballe. Fußballes. Fußballs. Fußbälle. Fußbällen.
-fünf Minuten nach eins. fünf Minuten vor eins.
-fünfzehn.
-fünfzig.
-Geburtsjahr. Geburtsjahre. Geburtsjahren. Geburtsjahres. Geburtsjahrs.
-Geburtsort. Geburtsorte. Geburtsorten. Geburtsortes. Geburtsorts.
-gegen.
-geglaubt. glaub. glaube. glauben. glaubst. glaubt. glaubte.
-geheiratet. heirate. heiraten. heiratest. heiratet. heiratete.
-gekriegt. krieg. kriege. kriegen. kriegst. kriegt. kriegte.
-gelacht. lach. lache. lachen. lachst. lacht. lachte.
-gelb. gelbe. gelbem. gelben. gelber. gelbes. gelbsten.
-gelegt. leg. lege. legen. legst. legt. legte.
-geradeaus.
-geschlossen. geschlossene. geschlossenem. geschlossenen. geschlossener. geschlossenes. geschlossensten. geschlossner.
-Geschäft. Geschäfte. Geschäften. Geschäftes. Geschäfts.
-Gespräch. Gespräche. Gesprächen. Gespräches. Gesprächs.
-getanzt. tanz. tanze. tanzen. tanzt. tanzte.
-gewaschen. wasch. wasche. waschen. wascht. wusch. wäschst. wäscht. wüsche.
-Gewicht. Gewichte. Gewichten. Gewichtes. Gewichts.
-gezahlt. zahl. zahle. zahlen. zahlst. zahlt. zahlte.
-geöffnet. geöffnete. geöffnetem. geöffneten. geöffneter. geöffnetes.
-gleich. gleiche. gleichem. gleichen. gleicher. gleiches.
-Gramm. Gramme. Grammen. Gramms.
-grau. graue. grauem. grauen. grauer. graues. grausten.
-Gruppe. Gruppen.
-Gruß. Gruße. Grußes. Grüße. Grüßen.
-Größe. Größen.
-gültig. gültige. gültigem. gültigen. gültiger. gültiges.
-Haar. Haare. Haaren. Haares. Haars.
-halb drei.
-Halbpension.
-Halle. Hallen.
-Hand. Hände. Händen.
-Handy. Handys.
-Hausaufgabe. Hausaufgaben.
-Hausfrau. Hausfrauen.
-Hausmann. Hausmanne. Hausmannes. Hausmanns. Hausmänner. Hausmännern.
-hellblau. hellblaue. hellblauem. hellblauen. hellblauer. hellblaues.
-hinten.
-Hobby. Hobbys.
-Hochzeit. Hochzeiten.
-hundert.
-hunderteins.
-international. internationale. internationalem. internationalen. internationaler. internationales.
-Jacke. Jacken.
-Januar. Januare. Januaren. Januars.
-Job. Jobs.
-Juli. Julis.
-Juni. Junis.
-kaputt. kaputte. kaputtem. kaputten. kaputter. kaputtes. kaputtesten.
-Karte. Karten.
-Kasse. Kassen.
-kennengelernt. kennenlernen. lerne kennen. lernst kennen. lernt kennen. lernte kennen.
-Kilo. Kilos.
-Kilometer. Kilometern. Kilometers.
-Kino. Kinos.
-Kiosk. Kioske. Kiosken. Kioskes. Kiosks.
-Konten. Konti. Konto. Kontos.
-krank. kranke. krankem. kranken. kranker. krankes. kränker. kränksten.
-Kunde. Kunden. Kundin.
-Laden. Ladens. Läden.
-ledig. ledige. ledigem. ledigen. lediger. lediges. ledigsten.
-leise. leisem. leisen. leiser. leises. leisesten.
-letzte.
-Licht. Lichte. Lichten. Lichter. Lichtern. Lichtes. Lichts.
-Lied. Liede. Lieder. Liedern. Liedes. Lieds.
-Liter. Litern. Liters.
-Lokal. Lokale. Lokalen. Lokales. Lokals.
-lustig. lustige. lustigem. lustigen. lustiger. lustiges. lustigsten.
-Lösung. Lösungen.
-mach mit. mache mit. machst mit. macht mit. machte mit. mitgemacht. mitmachen.
-Mai. Maie. Maien. Mais.
-Mexikaner. Mexikanerin. Mexikanern. Mexikaners.
-mexikanisch. mexikanische. mexikanischem. mexikanischen. mexikanischer. mexikanisches. mexikanischsten.
-Mexiko.
-Mitte. Mitten.
-Moment. Momente. Momenten. Momentes. Moments.
-männlich. männliche. männlichem. männlichen. männlicher. männliches. männlichsten.
-neun.
-neunzehn.
-neunzehnhundertneunundneunzig.
-neunzig.
-nie.
-Norden. Nordens.
-normal. normale. normalem. normalen. normaler. normales. normalsten.
-November. Novembern. Novembers.
-null Uhr drei.
-Nummer. Nummern.
-ohne.
-Oktober. Oktobern. Oktobers.
-Osten. Ostens.
-Partner. Partnerin. Partnerinnen. Partnern. Partners.
-Party. Partys.
-Pause. Pausen.
-Pfund. Pfunde. Pfunden. Pfundes. Pfunds.
-Polizei. Polizeien.
-Post. Posten. Posts.
-Postkarte. Postkarten.
-Postleitzahl. Postleitzahlen.
-Praktika. Praktikum. Praktikums.
-Praktiken. Praxen. Praxis.
-Preis. Preise. Preisen. Preises.
-Problem. Probleme. Problemen. Problems.
-Prozent. Prozente. Prozenten. Prozentes. Prozents.
-Prüfung. Prüfungen.
-Quadratmeter. Quadratmetern. Quadratmeters.
-Rechnung. Rechnungen.
-Reparatur. Reparaturen.
-reparier. repariere. reparieren. reparierst. repariert. reparierte.
-Rezeption. Rezeptionen.
-richtig. richtige. richtigem. richtigen. richtiger. richtiges. richtigsten.
-Salz. Salze. Salzen. Salzes.
-Satz. Satze. Satzes. Sätze. Sätzen.
-Scheckkarte. Scheckkarten.
-Schild. Schilde. Schilden. Schilder. Schildern. Schildes. Schilds.
-Schluss. Schlusse. Schlusses. Schlüsse. Schlüssen.
-schwarz. schwarze. schwarzem. schwarzen. schwarzer. schwarzes. schwärzer. schwärzesten.
-Schwimmbad. Schwimmbade. Schwimmbades. Schwimmbads. Schwimmbäder. Schwimmbädern.
-sechzehn.
-sechzig.
-seit.
-Sekretär. Sekretäre. Sekretären. Sekretärin. Sekretärinnen. Sekretärs.
-selbstständig. selbstständige. selbstständigem. selbstständigen. selbstständiger. selbstständiges. selbstständigsten.
-sieben Uhr fünfzehn.
-siebzig.
-sofort.
-Speisekarte. Speisekarten.
-Straße. Straßen.
-Student. Studenten. Studentin.
-Studien. Studium. Studiums.
-studier. studiere. studieren. studierst. studiert. studierte.
-Süden. Südens.
-Tasche. Taschen.
-tat weh. tu weh. tue weh. tust weh. tut weh. täte weh. weh getan. weh tun.
-tausend.
-Team. Teams.
-Teilnehmer. Teilnehmerin. Teilnehmerinnen. Teilnehmern. Teilnehmers.
-Telefon. Telefone. Telefonen. Telefons.
-telefonier. telefoniere. telefonieren. telefonierst. telefoniert. telefonierte.
-Termin. Termine. Terminen. Termines. Termins.
-Test. Teste. Testen. Testes. Tests.
-Text. Texte. Texten. Textes. Texts.
-Thema. Themas. Themata. Themen.
-tschüss.
-Türke. Türken. Türkin.
-Türkei.
-türkisch. türkische. türkischem. türkischen. türkischer. türkisches. türkischsten.
-Uhrzeit. Uhrzeiten.
-unbekannt. unbekannte. unbekanntem. unbekannten. unbekannter. unbekanntes. unbekanntesten.
-unterschreib. unterschreibe. unterschreiben. unterschreibst. unterschreibt. unterschrieb. unterschriebe. unterschrieben.
-Unterschrift. Unterschriften.
-verdiene. verdienen. verdienst. verdient. verdiente.
-Verein. Vereine. Vereinen. Vereines. Vereins.
-verheiratet. verheiratete. verheiratetem. verheirateten. verheirateter. verheiratetes.
-verkauf. verkaufe. verkaufen. verkaufst. verkauft. verkaufte.
-Verkäufer. Verkäuferin. Verkäufern. Verkäufers.
-vielleicht.
-vier.
-Viertel nach zwei. Viertel vor zwei.
-vierundzwanzig Uhr.
-vierzehn.
-vierzig.
-Vorname. Vornamen. Vornamens.
-Vorwahl. Vorwahlen.
-warum.
-was für ein.
-weg sein.
-weiblich. weibliche. weiblichem. weiblichen. weiblicher. weibliches. weiblichsten.
-welche. welchem. welchen. welcher. welches.
-Welt. Welten.
-wem.
-wem. wen. wer. wes. wessen.
-Westen. Westens.
-wichtig. wichtige. wichtigem. wichtigen. wichtiger. wichtiges. wichtigsten.
-Wiederhören. Wiederhörens.
-Wiedersehen. Wiedersehens.
-Wind. Winde. Winden. Windes. Winds.
-Winter. Wintern. Winters.
-wohin.
-Währung. Währungen.
-Zahnarzt. Zahnarztes. Zahnärzte. Zahnärzten. Zahnärztin.
-Zeitung. Zeitungen.
-Zentimeter. Zentimetern. Zentimeters.
-Zigarette. Zigaretten.
-zufrieden. zufriedene. zufriedenem. zufriedenen. zufriedener. zufriedenes. zufriedensten.
-zurzeit.
-zwanzig.
-zweihundert.
-zweitausendvierzehn.
-zwischen.
-überweis. überweise. überweisen. überweist. überwies. überwiese. überwiesen.
+- *Pflanzen
+  - die Blume, -n _ Gefallen dir die Blumen?
+  - der Baum, -ä, e _ Vorsicht, fahr nicht an den Baum!
 
+  - der Fehler, – _ Diesen Fehler mache ich immer.
+  - *Termin
+  - das Thema _ Wir sprechen heute über das Thema „Essen und Trinken“.
+  - das Studium _ Das Studium beginnt im Oktober.
+    - der Student, -en _ Ich bin Studentin.
+    - studieren _ Ich studiere in Mainz.
+  - seit _ Ich wohne seit drei Jahren in Köln.
+  - früher _ Früher waren wir oft zusammen im Kino.
+  - sofort _ Bitte antworten Sie sofort.
+  - zurzeit _ Zurzeit habe ich sehr viel zu tun.
+- die Reise _ Wir machen eine Reise nach Österreich.
+  - reisen _ Ich reise gern.
+  - der Urlaub _ Ich nehme im September Urlaub.
+    - das Hotel, -s _ Im Urlaub sind wir in einem Hotel am Meer.
+      - willkommen _ Herzlich willkommen!
+      - *herzlich
+      - das Doppelzimmer _ Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?
+      - das Einzelzimmer _ Haben Sie noch ein Einzelzimmer?
+      - *Zimmernummer
+      - *Zimmerschlüssel
+      - *Gast
+      - die Halbpension _
+        - Möchten Sie Vollpension oder Halbpension?
+      - übernachten _
+        - Du kannst bei mir übernachten.
+      - die Rezeption _ Fragen Sie bitte im Hotel an der Rezeption.
+      - der Blick _ Von diesem Hotel hat man einen guten Blick auf den Rhein.
+    - bleiben _
+      - Ich bleibe heute zu Hause.
+      - Wir bleiben nur bis morgen.
+    - das Foto, -s _ Darf ich ein Foto machen?
+      - Familienfoto _
+      - Passfoto _
+  - *Geschäftsreise
+  - der Ort, -e _ Der Ort liegt am Meer.
+  - das Reisebüro, -s _ Mein Mann arbeitet im Reisebüro.
+    - der Prospekt, -e _ Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.
+    - die Führung _ Die Führung durch das Haus beginnt in 3 Minuten.
+  - das Ausland _ Fahren Sie ins Ausland?
+    - der Ausländer, -/die Ausländerin, -nen _ Sind Sie Ausländerin?
+    - ausländisch _ Leider habe ich nur ausländisches Geld.
+    - fremd _ Das weiß ich nicht; ich bin fremd hier.
+    - der Zoll _ Wir müssen noch durch den Zoll.
+    - *Passfoto _
+  - die Abfahrt _ Vor der Abfahrt rufe ich an.
+  - die Ankunft _ Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.
+  - der Fahrer _ Bitte nicht mit dem Fahrer sprechen!
+  - *Transportmittel
+      - der Bahnhof _ Komme ich hier zum Bahnhof?
+      - das Gleis, -e _ Der ICE nach Berlin hält heute an Gleis 12.
+      - der Platz, -ä, e _
+        - Tut mir leid, der Platz ist besetzt.
+        - Bitte nehmen Sie Platz!
+        - Ich wohne Messeplatz 5.
+      - frei _ Ist der Platz noch frei?
+      - *besetzt _ Der Platz ist besetzt.
+    - das Auto, -s _ Er kommt mit dem Auto.
+      - die Autobahn, -en _ Wo geht‘s hier bitte zur Autobahn?
+      - die Vorsicht _ Vorsicht! Da kommt ein Auto.
+      - fahren _ Ich fahre mit dem Auto zur Arbeit.
+    - das Taxi, -s _ Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.
+    - die Straßenbahn _ Wo fährt die Straßenbahn ab?
+    - der Lkw, -s _ Dieser Lastkraftwagen ist sehr groß.
+- das Formular, -e _ Sie müssen dieses Formular ausfüllen. *Personalbogen
+  - ausfüllen _ Füllen Sie bitte dieses Formular aus.
+  - ankreuzen _ Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen.
+  - das Datum _ Bitte schreiben Sie noch das Datum auf das Formular.
+  - geboren _ Ich bin in Zagreb geboren.
+    - der Geburtsort _ Bitte schreiben Sie Ihren Geburtsort auf das Formular.
+    - das Geburtsjahr _ Das Geburtsjahr Ihres Sohnes, bitte?
+  - der Bogen _ Schreiben Sie Ihre Lösungen bitte auf den Antwortbogen.
+    - *Personalbogen
+  - das Alter _ Alter: 26 Jahre.
+    - alt _
+      - Wie alt sind Sie?
+      - Sie sehen aber nicht so alt aus.
+      - Mein Auto ist schon sehr alt.
+      - Wir wohnen in einem sehr alten Haus.
+      - Köln ist eine alte Stadt.
+    - jung _ Claudia ist 21. – Was? Noch so jung?
+  - männlich _ Kreuzen Sie bitte an: „weiblich“ oder „männlich“.
+  - weiblich _ Kreuzen Sie bitte an: „weiblich“ oder „männlich“.
+  - der Familienstand _ Bei „Familienstand“ musst du „ledig“ ankreuzen.
+    - ledig _ Sind Sie verheiratet? – Nein. Ledig.
+    - verheiratet _ Ich bin verheiratet und habe drei Kinder.
+  - der Name, -n _ Mein Name ist Thomas Schmidt.
+    - buchstabieren _ Bitte buchstabieren Sie Ihren Namen.
+    - heißen _
+      - Ich heiße Charlotte Meier.
+      - Wie heißt das auf Deutsch?
+    - der Vorname, -n _
+      - Ich heiße Müller, mein Vorname ist Eva.
+      - Mein Vorname ist Thomas; Schmidt ist der Familienname.
+    - der Familienname _ Meine Familiennamen sind García González. *Nachname
+  - die Adresse,-en _ Können Sie mir seine Adresse sagen?
+    - die Straße, -n _ In welcher Straße wohnen Sie?
+    - die Postleitzahl _ Wie ist Ihre Postleitzahl?
+    - normal _ 75 kg. Sein Gewicht ist normal.
+  - die Größe _ Haben Sie das auch in Größe 40?
+- das Telefon _ Haben Sie ein Telefon?
+  - telefonieren _ Darf ich mal telefonieren?
+  - der Anruf, -e _ Sie bekommt viele Anrufe auf ihrem Handy.
+  - anrufen _
+    - Kann man Sie anrufen?
+    - Peter ruft kurz seine Freundin an.
+  - das Handy, -s _ In der Schule bitte die Handys ausmachen!
+  - *Handynummer, Telefonnummer
+  - die Vorwahl _ Wie ist die Vorwahl von München?
+  - das Wiederhören _ Wir müssen jetzt Schluss machen. Also auf Wiederhören!
+  - wiederholen _ Können Sie das bitte wiederholen?
+  - der Anschluss _
+    - In Mannheim haben Sie Anschluss nach Saarbrücken.
+    - Ist das die Anmeldung für einen Telefonanschluss?
+  - *Termin
+  - erreichbar _
+  - der Anrufbeantworter _ Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter.
+  - *Antwort
+- die Arbeit, -en _ Mein Bruder sucht Arbeit.
+  - arbeiten _ Wo arbeiten Sie?
+  - *schwer
+  - *leicht
+  - arbeitslos _ Es gibt bei uns viele Leute, die schon lange arbeitslos sind.
+  - der Job, -s _ Jenny hat einen neuen Job bei der Post.
+  - verdienen _ Ich verdiene 1.500 Euro im Monat.
+  - der Arbeitsplatz, -ä, e _ An meinem Arbeitsplatz fehlt ein Drucker.
+  - der Kollege, -n _ Wie heißt die neue Kollegin?
+  - der Chef _ Wir haben eine neue Chefin.
+  - das Praktikum _ Ich mache ein Praktikum bei Siemens.
+    - der Praktikant, -en/die Praktikantin, -nen _
+  - der Beruf, -e _ Was sind Sie von Beruf? Was ist Ihr Beruf?
+    - der Lehrer, – _ Unsere Deutschlehrerin heißt Frau Müller.
+    - der Arzt, -Ä, e/die Ärztin, -nen _ Morgen habe ich einen Termin bei meiner Ärztin.
+      - Frauenarzt _
+      - Zahnarzt _
+      - die Praxis _ Die Praxis ist ab acht Uhr geöffnet.
+      - weh tun _ Ich muss zum Arzt. Mein Bein tut weh.
+      - der Doktor _ Meine Tochter ist krank. Wir gehen zum Doktor.
+      - krank _ Ich kann heute nicht zur Arbeit kommen, ich bin krank und liege im Bett.
+      - schlecht _
+        - Mir ist schlecht!
+        - Sie sehen schlecht aus.
+        - Wir haben schlechtes Wetter.
+      - das Fieber _ Mein Mann hat noch immer Fieber.
+      - der Termin, -e _ Am besten machen wir sofort einen Termin.
+    - der Sekretär, -e/die Sekretärin, -nen _
+    - der Beamte, -n _ Fragen Sie die Beamtin an Schalter acht!
+    - die Hausfrau, -en _ Die Hausfrau wäscht, kocht und kauft ein.
+    - der Hausmann, -ä, er _ Der Hausmann wäscht, kocht und kauft ein.
+  - Feier-:Feierabend|Feiertag _
+    - *z. B. Feierabend, Feiertag
+    - Am Montag ist Feiertag.
+  - die Firma _ Er arbeitet jetzt bei einer anderen Firma.
+  - selbstständig _ Er ist selbstständig.
+  - die Stelle, -n _ Ich habe eine neue Stelle.
+  - die Pause, -n _ Von 12.00 bis 12.30 Uhr haben wir Mittagspause.
+  - *arbeitslos
+  - *Lohn
+    - kriegen _ Ich kriege 15 Euro in der Stunde für meine Arbeit.
+- *Medien
+  - die E-Mail, -s _ Ich habe Ihre E-Mail nicht bekommen.
+  - das Bild, -er _ Hast du ein Bild von deinem Sohn?
+    - *Bildbeschreibung
+  - das Buch, -ü, er _
+    - Gute Bücher sind oft sehr teuer.
+    - In diesem Wörterbuch finden Sie mehr als 20.000 Wörter.
+  - der Text, -e _ Lesen Sie bitte diesen Text.
+    - das Wort, -ö, er/das Wort, -e _ Ich kenne das Wort nicht.
+    - Satz, -ä, e _ Dieser Satz ist sehr einfach.
+    - der Buchstabe, -n _ Diesen Buchstaben gibt es in meiner Sprache nicht.
+    - lesen _ Ich lese ein Buch von García Márquez.
+  - die CD, -s _ Bring bitte deine Lieblings-CD mit.
+  - der Computer, – _ Wann bekommst du deinen neuen Computer?
+    - drücken _ Drück hier, dann geht der Computer an.
+    - benutzen _ Die Aufzüge bitte nicht benutzen!
+    - die Anmeldung _ Eine Anmeldung für diesen Kurs ist nicht mehr möglich.
+      - (sich) anmelden _ Wo kann ich mich anmelden?
+    - anklicken _ Da musst du dieses Wort anklicken.
+    - *ausmachen
+    - *anmachen
+  - der Drucker, – _ Mein Drucker ist kaputt.
+    - drucken _ Bitte drucke das Formular für mich.
+  - das Fax, -e _ Schicken Sie uns einfach ein Fax!
+  - das Internet _ Das findest du im Internet.
+- *Handel
+  - kaufen _ Tim kauft sich ein neues Auto.
+  - einkaufen _ Ich muss noch für morgen einkaufen.
+  - verkaufen _ Er verkauft sein altes Auto.
+  - das Geschäft, -e _ Die Geschäfte schließen um 18.30 Uhr.
+  - der Verkäufer, – _ Meine Mutter ist Verkäuferin im Kaufhaus.
+  - der Kunde, -n _ Einen Moment, bitte. Ich habe eine Kundin.
+  - das Geld _ Hast du noch Geld?
+    - das Konto _ Das Geld überweisen wir am ersten März auf Ihr Konto.
+    - überweisen _ Sie können das Geld auch überweisen.
+    - bar _ Muss ich bar zahlen oder geht‘s auch mit Karte?
+    - kosten _ Wie viel kostet das? – 10 Euro.
+    - bezahlen _ Wo muss ich bezahlen?
+    - zahlen _ Zahlen, bitte!
+  - die Kasse _ Zahlen Sie bitte an der Kasse.
+  - der Laden, -ä _ Im Buchladen können Sie Bücher kaufen.
+    - die Bäckerei _ Ich geh mal schnell zur Bäckerei.
+      - *Brötchen
+      - *Brot
+    - *Supermarkt
+    - geöffnet _ Der Laden ist samstags bis 16.00 Uhr geöffnet.
+    - der Kiosk _ Am Kiosk bekommen Sie Getränke, Zigaretten und Zeitungen.
+      - die Zeitung, -en _ Ich lese gern Zeitung.
+      - die Zigarette, -n _ Wie teuer sind die Zigaretten?
+      - das Feuer _ Haben Sie Feuer?
+  - mieten _ Ich möchte ein Auto mieten.
+    - *Auto
+  - das Angebot, -e _ Heute sind Sportschuhe im Angebot.
+    - anbieten _ Was darf ich dir anbieten?
+  - mitbringen _ Ich gehe einkaufen. Soll ich dir was mitbringen?
+  - die Unterschrift _ Hier fehlt noch Ihre Unterschrift.
+    - unterschreiben _ Wo muss ich unterschreiben?
+    - *Vertrag _
+  - der Preis, -e _ Die Preise sind hoch.
+    - billig _ Die Jacke kostet nur 10 Euro! Die ist aber billig!
+    - günstig _ Dort gibt es günstige Angebote.
+    - teuer _ Das ist mir zu teuer.
+    - *gleich
+  - der Eintritt _ Der Preis für den Eintritt ist 5 Euro.
+- *nach dem Weg fragen
+  - die Ecke, -n _ An der nächsten Ecke links.
+  - das Schild, -er _ Haben Sie nicht das Schild gesehen?
+  - links _ Gehen Sie die nächste Straße links.
+  - rechts _ Die Schillerstraße ist hier rechts.
+  - geradeaus _ Gehen Sie immer geradeaus!
+- *Verben
+    - weg sein: ist weg _ Herr Meier ist schon weg.
+  - mitmachen _ Warum macht ihr nicht mit?
+  - glauben _
+- *allgemeine Adjektive/Adverbien
+  - gültig _ Der Pass ist nicht mehr gültig.
+  - ohne _ Ohne Geld kann er nichts kaufen.
+- die Wohnung, -en _ Seit wann haben Sie diese Wohnung?
+    - abgeben _ Ich muss meine Schlüssel abgeben.
+- das Wetter _ Wir hatten schlechtes Wetter.
+  - der Wind _ Der Wind kommt aus Osten.
+- das Gespräch, -e _ Das Gespräch mit Frau Kunz ist um 14 Uhr.
+  - die Information, -en _
+    - Wenn Sie Fragen haben, gehen Sie zur Information.
+    - Wir haben hier wichtige Informationen für Sie.
+  - die Ansage, -n _ Hören Sie die Ansagen.
+  - die Durchsage, -n _ Ich habe die Durchsage nicht verstanden.
+- die Karte, -n _
+  - *
+    - Ich schreibe meinen Bekannten eine Karte aus dem Urlaub.
+    - Wollen wir Karten spielen?
+    - Ich möchte auch etwas essen. Bringen Sie mir die Karte, bitte.
+  - Kreditkarte, -n _ Kann ich auch mit Karte (be-) zahlen?
+  - Postkarte _
+  - Scheckkarte _
+- *Verbote
+  - Achtung _ Achtung! Das dürfen Sie nicht tun.
+  - die Polizei _ Holen Sie die Polizei!
+- der Gast, -ä, e _ Am Wochenende haben wir mehrere Gäste.
+  - die Hochzeit _ Zur dieser Hochzeit kommen mehr als fünfzig Gäste.
+    - *lieben
+    - heiraten _ Meine Schwester heiratet einen Japaner.
+  - die Einladung _ Danke für die Einladung!
+    - einladen _ Darf ich Sie zu einem Kaffee einladen?
+- die Freizeit _ In meiner Freizeit spiele ich oft Fußball.
+  - das Hobby, -s _ Meine Hobbys sind Wandern und Schwimmen.
+  - die Party _ Heute Abend machen wir eine Party.
+    - tanzen _ Tanzen Sie gern?
+    - die Disco _ Heute abend gehen wir in die Disco tanzen.
+  - das Kino, -s _ Wir sehen heute Abend im Kino einen schönen Film.
+    - der Film, -e _ Ich möchte gern diesen Film sehen.
+    - dauern _ Wie lange dauert der Film?
+    - Lieblings- _ Mein Lieblingsfilm ist „Schwarze Augen“.
+  - fernsehen _ Wollen wir heute Abend mal fernsehen?
+  - das Lokal _ In unserer Straße gibt es ein neues Lokal.
+    - das Café, -s _ Sollen wir uns im Café treffen?
+    - das Restaurant, -s _ Wir essen heute in einem Restaurant.
+      - *wunderbar
+      - die Speisekarte _ Bringen Sie mir die Speisekarte, bitte.
+      - bestellen _
+        - Wir möchten bestellen, bitte.
+        - Dieses Buch haben wir nicht – sollen wir es für Sie bestellen?
+      - *zahlen _ Zahlen, bitte!
+      - die Rechnung, -en _ Die Rechnung, bitte.
+  - grillen _ Heute grillen wir im Garten.
+  - spielen _
+    - Die Kinder spielen draußen.
+    - Spielen Sie Karten?
+  - der Sport _ Ich mache viel Sport.
+    - der Verein _ Es gibt einen neuen Sportverein in der Stadt.
+    - das Schwimmbad _ Kommst du mit ins Schwimmbad?
+    - schwimmen _ Ich schwimme jeden Tag einen Kilometer.
+- *Orte
+  - das Dorf, -ö, er _ Meine Familie lebt in einem Dorf.
+  - die Stadt, -ä, e _ Heidelberg ist eine alte Stadt.
+  - die Welt _ Es gibt viele Probleme auf der Welt.
+- *Botengänge
+  - die Bank _
+    - Die Bank schließt schon um vier Uhr.
+    - Er sitzt im Park auf einer Bank und liest.
+  - die Post _
+    - Wo ist die Post, bitte?
+    - Ist Post da?
+    - die Briefmarke, -n _ Kaufst du bitte Briefmarken bei der Post.
+    - schicken _ Bitte schicken Sie mir eine E-Mail.
+    - der Brief, -e _ Haben Sie einen Brief für mich?
+      - der Absender _ Da ist ein Brief für dich ohne Absender.
+      - der Empfänger, – _ Auf dem Brief steht dein Name, also bist du der Empfänger.
+    - die Anrede _ Schreiben Sie auch eine Anrede und einen Gruß.
+- *Präpositionen
+  - gegen _
+    - Fahr nicht gegen den Baum!
+    - Ich bin gegen diese Lösung.
+    - Wer spielt gegen wen?
+    - daneben _ Du kennst doch die Post. Daneben ist die Bank.
+    - zwischen _
+      - Heidelberg liegt zwischen Frankfurt und Stuttgart.
+      - Zwischen 8 und 10 Uhr bin ich zu Hause.
+    - die Mitte _ Der Lehrer steht in der Mitte des Klassenzimmers.
+- *Verschiedene
+  - hinten _ Die Tür zum Aussteigen ist hinten.
+    - leise _ Seid leise. Die anderen schlafen schon.
+  - das Lied, -er _ Welches ist dein Lieblingslied?
+  - lustig _ Frau Mertens ist lustig. Sie lacht immer.
+    - lachen _ Die Kinder lachen viel.
+  - euer _ Euer Kurs beginnt heute.
+  - das Ergebnis, -se _ Das Ergebnis des Tests bekommen Sie in zwei Wochen.
+  - die Entschuldigung _ Entschuldigung! – Bitte.
+    - entschuldigen _ Entschuldigen Sie bitte!
+  - das Ende _
+    - Sie wohnt am Ende der Straße.
+    - Er bekommt sein Geld am Ende des Monats.
+    - enden _ Die Straße endet hier.
+  - eilig _ Hast du es eilig?
+  - aussehen _ Das sieht schön aus.
+  - aufhören _
+    - Der Kurs hört in einer Woche auf.
+    - Hier hört die Bahnhofstraße auf.
+  - die Anzeige, -n _ Ich habe Ihre Anzeige in der Zeitung gelesen.
+  - allein _
+    - Er kommt allein.
+  - die Reparatur _ Die Reparatur ist sehr teuer.
+    - reparieren _ Er hat das Fahrrad repariert.
+  - ruhig _ Ich möchte ein ruhiges Zimmer.
+  - schließen _ Bitte, schließen Sie die Tür.
+    - geschlossen _ Die Bank hat am Samstag geschlossen.
+  - vielleicht _ Ich komme vielleicht mit dem Bus.
 
 
 
@@ -1061,7 +1784,6 @@ zwischen.
   - [Du kennst diese Wörter schon!](#du-kennst-diese-wörter-schon)
     - [Das Schaf und die Pferde](#das-schaf-und-die-pferde)
   - [Deutschlernen mit Musik: \"Du hast\" von Rammstein](#deutschlernen-mit-musik-du-hast-von-rammstein)
-  - [Im Flugzeug](#im-flugzeug)
 - [Das Leben in Deutschland](#das-leben-in-deutschland)
   - [Ein typischer Arbeitstag eines Deutschen](#ein-typischer-arbeitstag-eines-deutschen)
     - [Die Morgenroutine](#die-morgenroutine)
@@ -1073,15 +1795,56 @@ zwischen.
     - [Das Sonntagsfrühstück](#das-sonntagsfrühstück)
     - [Der Ausflug](#der-ausflug)
     - [Das Abendbrot](#das-abendbrot)
-- [Emmas Geschichte](#emmas-geschichte)
+- [Emmas Reise](#emmas-reise)
   - [Wer ist Emma?](#wer-ist-emma)
   - [Emmas Familie](#emmas-familie)
   - [Der Kindergeburtstag](#der-kindergeburtstag)
-  - [Emmas Reise](#emmas-reise)
-    - [Emma plant ihre Reise zur ihren Verwandten](#emma-plant-ihre-reise-zur-ihren-verwandten)
-    - [Emmas Flug](#emmas-flug)
-    - [Emma in Hannover](#emma-in-hannover)
-    - [Emma's Tag mit ihren Verwandten](#emmas-tag-mit-ihren-verwandten)
+  - [Deutschlernen mit Musik: \"Sonne\" von Rammstein](#deutschlernen-mit-musik-sonne-von-rammstein)
+  - [Oliver bringt seinem Bruder Max das Zählen bei](#oliver-bringt-seinem-bruder-max-das-zählen-bei)
+  - [Der Vater bringt seinen Kindern sehr große Zahlen bei](#der-vater-bringt-seinen-kindern-sehr-große-zahlen-bei)
+  - [Die Telefonnummer von Authentic German Learning](#die-telefonnummer-von-authentic-german-learning)
+  - [Emma plant ihre Reise](#emma-plant-ihre-reise)
+  - [Emmas Flug](#emmas-flug)
+  - [Probleme bei der Sicherheitskontrolle](#probleme-bei-der-sicherheitskontrolle)
+  - [Im Flugzeug](#im-flugzeug)
+  - [Emma sucht ihr Gepäck](#emma-sucht-ihr-gepäck)
+    - [Emma erster Tag bei ihren Verwandten](#emma-erster-tag-bei-ihren-verwandten)
+    - [Emmas Woche in Deutschland (die Wochentage)](#emmas-woche-in-deutschland-die-wochentage)
+  - [Emma geht mit den Schmidts ins Kino](#emma-geht-mit-den-schmidts-ins-kino)
+  - [Emma sagt auf Wiedersehen](#emma-sagt-auf-wiedersehen)
+  - [Lass uns einkaufen!](#lass-uns-einkaufen)
+  - [Im Restaurant](#im-restaurant)
+- [Verbringe das Jahr mit der Familie Schmidt](#verbringe-das-jahr-mit-der-familie-schmidt)
+  - [Wer sind die Schmidts?](#wer-sind-die-schmidts)
+  - [Jochens Jahresplan](#jochens-jahresplan)
+  - [Lukas Schullaufbahn](#lukas-schullaufbahn)
+  - [Lukas' typischer Schultag](#lukas-typischer-schultag)
+    - [Der Deutschunterricht: eine Prüfung!](#der-deutschunterricht-eine-prüfung)
+  - [Der Mathematikunterricht: eine schwere Aufgabe](#der-mathematikunterricht-eine-schwere-aufgabe)
+  - [Im Musikunterricht](#im-musikunterricht)
+    - [Das Mittagessen](#das-mittagessen)
+    - [Der Sportunterricht](#der-sportunterricht)
+    - [Zeit für die Hausaufgaben](#zeit-für-die-hausaufgaben)
+    - [Die beste Zeit des Tages: Fußball](#die-beste-zeit-des-tages-fußball)
+  - [Lukas' Computer-Kurs](#lukas-computer-kurs)
+- [Bonus-Kurs: Die Geschichte der Deutschen](#bonus-kurs-die-geschichte-der-deutschen)
+  - [Die Anfänge](#die-anfänge)
+  - [Kriege und das Ende des Heilige Römische Reich deutscher Nation](#kriege-und-das-ende-des-heilige-römische-reich-deutscher-nation)
+  - [Der Deutsche Bund und der Norddeutsche Bund](#der-deutsche-bund-und-der-norddeutsche-bund)
+  - [Das deutsche Kaiserreichs](#das-deutsche-kaiserreichs)
+  - [Der erste Weltkrieg](#der-erste-weltkrieg)
+  - [Die Weimarer Republik](#die-weimarer-republik)
+  - [Das Ende der Weimarer Republik](#das-ende-der-weimarer-republik)
+  - [Der NS-Staat](#der-ns-staat)
+  - [Der zweite Weltkrieg](#der-zweite-weltkrieg)
+  - [Die deutsche Teilung und der kalte Krieg](#die-deutsche-teilung-und-der-kalte-krieg)
+  - [Video: Die Luftbrücke](#video-die-luftbrücke)
+  - [Der Fall der Mauer und die Wiedervereinigung](#der-fall-der-mauer-und-die-wiedervereinigung)
+  - [Nach der Wiedervereinigung](#nach-der-wiedervereinigung)
+  - [Vergangenheitsbewältigung](#vergangenheitsbewältigung)
+- [Die Reise der Schmidts durch Deutschland](#die-reise-der-schmidts-durch-deutschland)
+  - [Endlich Urlaub!](#endlich-urlaub)
+  - [Auf Rügen (Farben)](#auf-rügen-farben)
 - [Carlos' Reise](#carlos-reise)
   - [Carlos kommt in Deutschland an](#carlos-kommt-in-deutschland-an)
   - [Carlos stellt sich vor](#carlos-stellt-sich-vor)
@@ -1136,16 +1899,10 @@ zwischen.
 - [Schneewittchen](#schneewittchen)
 - [Rumpelstilzchen](#rumpelstilzchen)
 - [Meine Geschichte](#meine-geschichte)
-  - [Universität](#universität)
-
-
-
-
-
-
-
-
-
+  - [Meine Zeit als Kind](#meine-zeit-als-kind)
+  - [Meine Universität](#meine-universität)
+  - [Meine Lieblingsstadt](#meine-lieblingsstadt)
+  - [Ich sehe was, das du nicht siehst! (Farben)](#ich-sehe-was-das-du-nicht-siehst-farben)
 
 
 
@@ -1214,7 +1971,7 @@ Frau Weber läuft zusammen mit Carlos durch das Gebäude. Sie stellt ihm viele K
 
 ## Carlos trifft einen Bayern
 
-Einer dieser Kollegen ist Jochen Freier.
+Einer dieser Kollegen ist Jochen Schmidt.
 
 "Hallo Jochen, hast du mal kurz Zeit? Ich möchte dir unseren neuen Kollegen vorstellen."
 
@@ -1222,7 +1979,7 @@ Einer dieser Kollegen ist Jochen Freier.
 
 "Dies ist Herr Freier," sagt Frau Weber zu Carlos.
 
-"Nenne mich ruhig Jochen," sagt Jochen Freier zu Carlos, "und bitte sage immer 'du', nicht 'Sie'."
+"Nenne mich ruhig Jochen," sagt Jochen Schmidt zu Carlos, "und bitte sage immer 'du', nicht 'Sie'."
 
 "Mein Name ist Carlos Santos," sagt Carlos zu Jochen Freier. "Aber wenn wir uns duzen, dann kannst du natürlich Carlos sagen."
 
@@ -2016,6 +2773,7 @@ idea:
 - write about family (in fictional context?)
 - Imagine the **Avatar**
 
+## Meine Zeit als Kind
 
 Dies ist meine Geschichte. Ich erzähle sie dir, damit du durch meine Erzählung auf eine einzigartige Weise Deutsch lernst.
 
@@ -2028,23 +2786,25 @@ Allerdings ist das Dorf in der Zwischenzeit ein bisschen gewachsen. Dort gibt es
 
 Mir haben die Leute in diesem Dorf sehr gefallen. Fast jeden Tag traf ich mich mit meinen Freunden und wir spielten draußen.
 
-Als ich acht Jahre alt war, sind wir nach Berlin gezogen.
+Als ich acht Jahre alt war, sind wir nach Berlin umgezogen.
 
 Berlin ist eine wunderschöne Stadt: Sie ist sehr grün, es gibt viele Alleen und Parks.
 
-## Universität
+## Meine Universität
 
+## Meine Lieblingsstadt
 
 Heidelberg ist eine meiner Lieblingstädte. Es ist eine
 
 
+## Ich sehe was, das du nicht siehst! (Farben)
+
+Die Kinder spielen gerne ein Spiel. Das Spiel heißt "Ich sehe was, das du nicht siehst."
 
 
 
 
 
-
-Jetzt: 8275
 
 
 TODO
@@ -2062,516 +2822,184 @@ https://workflowy.com/#/9f92ea0ffc1a
 TODO Deutsch mit Magie https://docs.google.com/document/d/1sYld9cdoVrJwAAI24QDrl-Q9nNEYhZCWQQdEG51AcAo/edit#heading=h.jtv0da9maekn
 TODO Zeitmanagement https://docs.google.com/document/d/1apd99aLox7f1pYNO7n22lftuHXA2sNRuQIKev-NHyqE/edit
 
-eintausend
-sich anmelden
-sich anziehen
-sich ausziehen
-sich freuen
-sich waschen
-Berlin, zwölfter Vierter zweitausendzwei
-Europa
-Europäer
-Feierabend
-Finnen
-Finninnen
-Finnland
-Frauenarzt
-Mexikaner
-Mexikanerinnen
-Mexiko
-Passfoto
-Postkarte
-Rad fahren
-Reisender
-Scheckkarte
-Türken
-Türkei
-Türkinnen
-Viertel nach zwei
-Währungen
-abfahren
-abfliegen
-abgeben
-abholen
-achtzehn
-achtzig
-ist an
-anbieten
-anklicken
-ankommen
-ankreuzen
-anmachen
-anrufen
-antworten
-arbeitslos
-aufhören
-ist aus
-ausfüllen
-ausländisch
-ausmachen
-aussteigen
-bar
-beginnen
-besetzt
-bestellen
-billig
-blau
-besichtigen
-braun
-bringen
-buchstabieren
-böse
-circa
-daneben
-danken
-Augen
-Cafés
-Datum
-Doppelzimmer
-Dörfer
-Einzelzimmer
-Ergebnisse
-Fahrräder
-Faxe
-Fieber
-Formulare
-Geburtsjahr
-Geschäfte
-Gespräche
-Gewicht
-Haare
-Kinos
-Konto
-Licht
-Meer
-Reisebüros
-Salz
-Schilder
-Schwimmbad
-Studium
-Taxis
-Teams
-Thema
-Wiederhören
-Wiedersehen
-dauern
-Absender
-Anrufe
-Anrufbeantworter
-April
-Arbeitsplätze
-August
-Ausgang
-Automat
-Bauch
-Bäume
-Bleistifte
-Blick
-Bogen
-Beamten
-Buchstaben
-Dienstag
-Doktor
-Donnerstag
-Drucker
-Eintritt
-Empfänger
-Familienname
-Familienstand
-Februar
-Filme
-Frühling
-Füße
-Fußball
-Geburtsort
-Glückwunsch
-Gramm
-Grüße
-Hausmänner
-Januar
-Jobs
-Juli
-Juni
-Kilogramm
-Kiosk
-Läden
-Lehrer
-Liter
-Mai
-Mittag
-Mittwoch
-Montag
-März
-Nachmittage
-Norden
-November
-Osten
-Partnerinnen
-Pfund
-Pläne
-Prospekte
-Prozent
-Quadratmeter
-Regen
-Sonnabend
-Schluss
-Schüler
-See
-September
-Studenten
-Süden
-Termine
-Test
-Verkäufer
-Vormittage
-Vornamen
-Westen
-Wind
-Winter
-Wochentage
-Zentimeter
-Zoll
-erste Dritte
-erste März
-Anmeldung
-Anrede
-Anzeigen
-Aussagen
-Bank
-Blumen
-Briefmarken
-Bäckerei
-CDs
-Disco
-Durchsagen
-E-Mails
-Ecken
-Einladung
-Entschuldigung
-Farben
-Freizeit
-Führung
-Gruppen
-Größe
-Halbpension
-Halle
-Hausaufgaben
-Hausfrauen
-Hochzeit
-Jacken
-Kasse
-Klasse
-Mitte
-Nummern
-Party
-Pausen
-Polizei
-Postleitzahl
-Praxis
-Reparatur
-Rezeption
-S-Bahn
-Straßen
-Straßenbahn
-Uhrzeit
-Unterschrift
-Vorwahl
-Wochee
-Zigaretten
-dreizehn
-dreizehn Uhr siebzehn
-dreißig
-dunkelblau
-eilig
-ein Deutscher
-ein Uhr
-eine Deutsche
-eine Milliarden
-eine Millionen
-einkaufen
-eins
-einundzwanzig
-elf
-enden
-entschuldigen
-erreichbar
-es geht
-euer
-europäisch
-falsch
-fernsehen
-finnisch
-fünf Minuten nach eins
-fünfzehn
-fünfzig
-gefallen
-gehören
-gelb
-geradeaus
-geschlossen
-geöffnet
-grau
-gültig
-günstig
-halb drei
-heiraten
-heißen
-hellblau
-hinten
-holen
-hunderteins
-international
-kosten
-krank
-kulturell
-lachen
-ledig
-liegen
-lustig
-mexikanisch
-mieten
-mitbringen
-mitkommen
-mitmachen
-männlich
-neunzehn
-neunzehnhundertneunundneunzig
-neunzig
-null Uhr drei
-reparieren
-schlecht
-schwarz
-schwimmen
-sechzehn
-sechzig
-selbstständig
-sieben
-sieben Uhr fünfzehn
-siebzig
-studieren
-tanzen
-telefonieren
-tschüss
-türkisch
-unbekannt
-unser_ unser Haus
-unterschreiben
-verdienen
-verheiratet
-verkaufen
-vierundzwanzig Uhr
-vierzehn
-vierzig
-ist weg
-weh tun
-weiblich
-welchem
-welcher
-wen
-wohin
-wunderbar
-zurzeit
-zwanzig
-zweihundert
-zweitausendvierzehn
-öffnen
-übernachten
-überweisen
 
 
 
 
-
-Fahrer
-Fehler
-Flughafen
-Freitag
-Gäste
-Kilometer
-Koffer
-Kugelschreiber
-Kunden
-Lkws
-Moment
-Oktober
-Orte
-Pässe
-Plätze
-Praktikantinnen
-Preise
-Reis
-Reiseführer
-Saft
-Schalter
-Schuhe
-Sekretärinnen
-Texte
-Unterricht
-Urlaub
-Verein
-Züge
-Abfahrt
-Adresseen
-Ankunft
-Ansagen
-Aufgaben
-Bahn
-Fahrkarten
-Firma
-Fragen
-Haltestelle
-Hände
-Heimat
-Karten
-Kleidung
-Lösungen
-Nächte
-Papiere
-Post
-Prüfung
-Rechnungen
-Reise
-Schule
-Sehenswürdigkeiten
-Sonne
-Speisekarte
-Städte
-Taschen
-Uhr
+abgeben. abgegeben. gab ab. gebe ab. gebt ab. gib ab. gibst ab. gibt ab. gäbe ab.
+Absender. Absenderin. Absendern. Absenders.
+Adresse. Adressen.
+anbieten. angeboten. biet an. biete an. bietest an. bietet an. bot an. böte an.
+angeklickt. anklicken. klicke an. klickst an. klickt an. klickte an.
+angekreuzt. ankreuzen. kreuz an. kreuze an. kreuzt an. kreuzte an.
+angemeldet. anmelden. melde an. meldest an. meldet an. meldete an.
+angerufen. anrufen. rief an. riefe an. ruf an. rufe an. rufst an. ruft an.
+Anmeldung. Anmeldungen.
+Anrede. Anreden.
+Anrufbeantworter. Anrufbeantwortern. Anrufbeantworters.
+Ansage. Ansagen.
+Anschluss. Anschlusse. Anschlusses. Anschlüsse. Anschlüssen.
+Anzeige. Anzeigen.
+Arbeitsplatz. Arbeitsplatze. Arbeitsplatzes. Arbeitsplätze. Arbeitsplätzen.
+aufgehört. aufhören. hör auf. höre auf. hörst auf. hört auf. hörte auf.
+ausfüllen. ausgefüllt. fülle aus. füllst aus. füllt aus. füllte aus.
+ausgesehen. aussehen. sah aus. sehe aus. seht aus. sieh aus. siehe aus. siehst aus. sieht aus. sähe aus.
+Bank. Banken. Bänke. Bänken.
+bar. bare. barem. baren. barer. bares.
+Baum. Baume. Baumes. Baums. Bäume. Bäumen.
+Beamte. Beamter.
+Beruf. Berufe. Berufen. Berufes. Berufs.
+bestell. bestelle. bestellen. bestellst. bestellt. bestellte.
+bezahle. bezahlen. bezahlst. bezahlt. bezahlte.
+billig. billige. billigem. billigen. billiger. billiges. billigsten.
+Blick. Blicke. Blicken. Blickes. Blicks.
+Bogen. Bogens. Bögen.
+brachte mit. bringe mit. bringst mit. bringt mit. brächte mit. mitbringen. mitgebracht.
+Brief. Briefe. Briefen. Briefes. Briefs.
+Briefmarke. Briefmarken.
+Buchstabe. Buchstaben. Buchstabens.
+buchstabier. buchstabiere. buchstabieren. buchstabierst. buchstabiert. buchstabierte.
+Bäckerei. Bäckereien.
+Café. Cafés.
+CD. CDs.
+Chef. Chefin. Chefs.
+daneben.
+Disco. Discos.
+Doktor. Doktoren. Doktores. Doktorin. Doktors.
+Doppelzimmer. Doppelzimmern. Doppelzimmers.
+Dorf. Dorfe. Dorfes. Dorfs. Dörfer. Dörfern.
+Drucker. Druckerin. Druckern. Druckers.
+Durchsage. Durchsagen.
+E-Mail. E-Mails.
+Ecke. Ecken.
+eilig. eilige. eiligem. eiligen. eiliger. eiliges. eiligsten.
+ein Uhr.
+eingekauft. einkaufen. kauf ein. kaufe ein. kaufst ein. kauft ein. kaufte ein.
+Eintritt. Eintritte. Eintritten. Eintrittes. Eintritts.
+Einzelzimmer. Einzelzimmern. Einzelzimmers.
+empfahl. empfehle. empfehlen. empfehlt. empfiehl. empfiehlst. empfiehlt. empfohlen. empfähle. empföhle.
+Empfänger. Empfängerin. Empfängern. Empfängers.
+entschuldige. entschuldigen. entschuldigst. entschuldigt. entschuldigte.
+Entschuldigung. Entschuldigungen.
+Ergebnis. Ergebnisse. Ergebnissen. Ergebnisses.
+erreichbar. erreichbare. erreichbarem. erreichbaren. erreichbarer. erreichbares. erreichbarsten.
+Euch. Euer. Ihr. Ihre. Ihrem. Ihren. Ihrer. Ihres.
+Familienname. Familiennamen. Familiennamens.
+Familienstand. Familienstande. Familienstandes. Familienstands.
+Fax. Faxe. Faxen.
+ferngesehen. fernsehen. sah fern. sehe fern. seht fern. sieh fern. siehst fern. sieht fern. sähe fern.
+Feuer. Feuern. Feuers.
+Fieber. Fiebern. Fiebers.
+Film. Filme. Filmen. Filmes. Films.
+Formular. Formulare. Formularen. Formulars.
+Frauenarzt. Frauenarztes. Frauenärzte. Frauenärzten. Frauenärztin.
+Freizeit. Freizeiten.
+früher.
+Geburtsjahr. Geburtsjahre. Geburtsjahren. Geburtsjahres. Geburtsjahrs.
+Geburtsort. Geburtsorte. Geburtsorten. Geburtsortes. Geburtsorts.
+geheiratet. heirate. heiraten. heiratest. heiratet. heiratete.
+gelacht. lach. lache. lachen. lachst. lacht. lachte.
+geradeaus.
+geschlossen. geschlossene. geschlossenem. geschlossenen. geschlossener. geschlossenes. geschlossensten. geschlossner.
+Geschäft. Geschäfte. Geschäften. Geschäftes. Geschäfts.
+Gespräch. Gespräche. Gesprächen. Gespräches. Gesprächs.
+getanzt. tanz. tanze. tanzen. tanzt. tanzte.
+gewaschen. wasch. wasche. waschen. wascht. wusch. wäschst. wäscht. wüsche.
+geöffnet. geöffnete. geöffnetem. geöffneten. geöffneter. geöffnetes.
+Gruß. Gruße. Grußes. Grüße. Grüßen.
+Größe. Größen.
+gültig. gültige. gültigem. gültigen. gültiger. gültiges.
+Halbpension.
+Hausfrau. Hausfrauen.
+Hausmann. Hausmanne. Hausmannes. Hausmanns. Hausmänner. Hausmännern.
+hinten.
+Hobby. Hobbys.
+Hochzeit. Hochzeiten.
+Job. Jobs.
+kaputt. kaputte. kaputtem. kaputten. kaputter. kaputtes. kaputtesten.
+Karte. Karten.
+Kasse. Kassen.
+Kino. Kinos.
+Kiosk. Kioske. Kiosken. Kioskes. Kiosks.
+Konten. Konti. Konto. Kontos.
+Kunde. Kunden. Kundin.
+Laden. Ladens. Läden.
+ledig. ledige. ledigem. ledigen. lediger. lediges. ledigsten.
+leise. leisem. leisen. leiser. leises. leisesten.
+Lied. Liede. Lieder. Liedern. Liedes. Lieds.
+Lokal. Lokale. Lokalen. Lokales. Lokals.
+lustig. lustige. lustigem. lustigen. lustiger. lustiges. lustigsten.
+mach mit. mache mit. machst mit. macht mit. machte mit. mitgemacht. mitmachen.
+Moment. Momente. Momenten. Momentes. Moments.
+männlich. männliche. männlichem. männlichen. männlicher. männliches. männlichsten.
+normal. normale. normalem. normalen. normaler. normales. normalsten.
+null Uhr drei.
+ohne.
+Party. Partys.
+Post. Posten. Posts.
+Postkarte. Postkarten.
+Postleitzahl. Postleitzahlen.
+Praktika. Praktikum. Praktikums.
+Praktiken. Praxen. Praxis.
+Preis. Preise. Preisen. Preises.
+Rechnung. Rechnungen.
+Reparatur. Reparaturen.
+reparier. repariere. reparieren. reparierst. repariert. reparierte.
+Rezeption. Rezeptionen.
+Satz. Satze. Satzes. Sätze. Sätzen.
+Scheckkarte. Scheckkarten.
+Schild. Schilde. Schilden. Schilder. Schildern. Schildes. Schilds.
+Schluss. Schlusse. Schlusses. Schlüsse. Schlüssen.
+Sekretär. Sekretäre. Sekretären. Sekretärin. Sekretärinnen. Sekretärs.
+selbstständig. selbstständige. selbstständigem. selbstständigen. selbstständiger. selbstständiges. selbstständigsten.
+sofort.
+Speisekarte. Speisekarten.
+Straße. Straßen.
+Student. Studenten. Studentin.
+Telefon. Telefone. Telefonen. Telefons.
+telefonier. telefoniere. telefonieren. telefonierst. telefoniert. telefonierte.
+Termin. Termine. Terminen. Termines. Termins.
+Text. Texte. Texten. Textes. Texts.
+tschüss.
+unbekannt. unbekannte. unbekanntem. unbekannten. unbekannter. unbekanntes. unbekanntesten.
+unterschreib. unterschreibe. unterschreiben. unterschreibst. unterschreibt. unterschrieb. unterschriebe. unterschrieben.
+Unterschrift. Unterschriften.
+verdiene. verdienen. verdienst. verdient. verdiente.
+verheiratet. verheiratete. verheiratetem. verheirateten. verheirateter. verheiratetes.
+verkauf. verkaufe. verkaufen. verkaufst. verkauft. verkaufte.
+Verkäufer. Verkäuferin. Verkäufern. Verkäufers.
+vielleicht.
+Vorname. Vornamen. Vornamens.
+weg sein.
+weiblich. weibliche. weiblichem. weiblichen. weiblicher. weibliches. weiblichsten.
+welche. welchem. welchen.
+ welcher. welches.
+wem.
+wem. wen. wer. wes. wessen.
+Wiederhören. Wiederhörens.
+Wiedersehen. Wiedersehens.
+Wind. Winde. Winden. Windes. Winds.
+Zahnarzt. Zahnarztes. Zahnärzte. Zahnärzten. Zahnärztin.
+Zeitung. Zeitungen.
+Zigarette. Zigaretten.
+zurzeit.
+zweitausendvierzehn.
+überweis. überweise. überweisen. überweist. überwies. überwiese. überwiesen.
 Vorsicht
-Welt
-Zeitungen
-dorthin
-draußen
-drucken
-durch
-einfach
-empfehlen
-erklären
-erzählen
-fliegen
-frei
-fremd
-früher
-geboren
-gegen
-gehen
-gewinnen
-glauben
-gleich
-grillen
-hell
-hoch
-hören
-jung
-kaputt
-kennen
-klar
-kriegen
-lange
-laut
-legen
-leicht
-leise
-letztfoo
-meistfoo
-mitnehmen
-neun
-nie
-normal
-oft
-ohne
-pünktlich
-reisen
-richtig
-ruhig
-schreiben
-sechs
-seit
-sofort
-sollen
-spielen
-sprechen
-spät
-später
-teuer
-verstehen
-vielleicht
-vier
-wandern
-wann
-warten
-warum
-was für ein
-weit
-weiter
-welchen
-wem
-wenig
-wichtig
-wie viel
-wissen
-wohnen
-wollen
-zahlen
-zehn
-zufrieden
-zurück
-zwischen
-Briefe
-Busse
-Chef
-Computer
-Berufe
-Bahnhof
-Bahnsteig
-Ausländerinnen
-Ausweis
-Telefon
-Tickets
-Wetter
-Abende
-Abflug
-Anschluss
-Ärztinnen
-Gleise
-Handys
-Feuer
-Ende
-Geld
-danke
-Alter
-Angebote
-Ausland
-Autos
-Gepäck
-Hobbys
-Hotels
-Internet
-Länder
-Lieder
-Lokal
-Praktikum
-Probleme
-Restaurants
-acht
-Zahnarzt
-allein
-am Wochenende
-Kreditkarten
-einhundert
-sich treffen
-aufstehen
-aussehen
-Achtung
-arbeiten
-anderfoo
-Sätze
-bedeuten
-bei
-besser
-besten
-besuchen
-bezahlen
-bleiben
-Dezember
+    - das Hotel, -s _
+      - Passfoto _
+    - der Prospekt, -e _ Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.
+    - die Führung _ Die Führung durch das Haus beginnt in 3 Minuten.
+    - fremd _ Das weiß ich nicht; ich bin fremd hier.
+    - der Zoll _ Wir müssen noch durch den Zoll.
+  - die Abfahrt _ Vor der Abfahrt rufe ich an.
+  - die Ankunft _
+  - Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.
+  - der Fahrer _ Bitte nicht mit dem Fahrer sprechen!
+      - der Bahnhof _ Komme ich hier zum Bahnhof?
+      - das Gleis, -e _ Der ICE nach Berlin hält heute an Gleis 12.
+        - Tut mir leid, der Platz ist besetzt.
+      - die Autobahn, -en _ Wo geht‘s hier bitte zur Autobahn?
+    - das Taxi, -s _ Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.
+    - die Straßenbahn _ Wo fährt die Straßenbahn ab?
+    - der Lkw, -s _ Dieser Lastkraftwagen ist sehr groß.

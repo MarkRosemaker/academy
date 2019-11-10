@@ -125,6 +125,7 @@
 
             <!-- Analyse each word classes entry. -->
             {{ $entries = $entries | replaceRE "\\A<h3>" "" }}
+            {{ $firstEntry := true }}
             {{ range split $entries "<h3>" }}
                 <!-- Check which word classes are named in the header, then:
                     - clean
@@ -370,12 +371,28 @@
                         <!-- Improve declension table-->
                         {{ $subentry = $subentry | replaceRE "<table.*?><tbody><tr.*?>(.*?)<br>Alle weiteren Informationen.*?</td>" "<table class=infotable><tbody><tr>$1</td>" | replaceRE "(Flexion:[^.,<]*)" "<a href=https://de.wiktionary.org/wiki/$1 target=_blank>$1</a>" }}
 
-                        <!-- Set the basic form if not set. -->
-                        {{ if not $basic_form }}{{ with findRE "<b>(.*?)</b>" $subentry }}
-                            {{ $basic_form = index . 0 | replaceRE ".*<b>|</b>|\\.|\\,|„|“" "" }}
+                        <!-- DEBUG -->
+                        {{ if and (findRE "<table class=infotable><tbody><tr>" $subentry) (not (findRE "ist eine flektierte Form von <b>(.*?)\\.</b>" $subentry)) }}
+                            {{ errorf "In '%s', there is an infotable but no 'ist eine flektierte Form von'." $word }}
+                        {{ end }}
 
-                            <!-- Prevent an infinite loop by not picking the same word and only bothering with first entry. -->
-                            {{ if ne $word $basic_form }}
+                        <!-- Set the basic form. -->
+                        {{ range findRE "<table class=infotable><tbody><tr>.*?</table>" $subentry }}
+                            {{ $subentry = replace $subentry . "" }}
+                            {{ $s.SetInMap "basic" "infotable" . }}
+
+                            {{ $bf := . | replaceRE ".*flektierte Form von <b>(.*?)\\.</b>.*" "$1" }}
+                            {{ $basic_form = $basic_form | default $bf }}
+                            {{ $s.SetInMap "basic" "basic" $bf }}
+
+                            <!-- DEBUG -->
+                            {{ if findRE "<|>|\\,|„|“" $bf }}
+                                {{ $bugfree = false }}
+                                {{ errorf "'%s', the basic word of '%s' has improper format." $bf $word }}
+                            {{ end }}
+
+                            <!-- Prevent an infinite loop by not picking the same word and only bothering with the first entry. -->
+                            {{ if and (ne $word $bf) $firstEntry }}
                                 <!-- Add the basic form to variants. -->
                                 {{ $s.Add "variants" (slice $basic_form) }}
 
@@ -406,7 +423,14 @@
                                     {{ $translation = $translation | default . }}
                                 {{ end }}
                             {{ end }}
-                        {{ end }}{{ end }}
+
+                            {{ $s.Add "basics" (slice ($s.Get "basic"))}}
+                            {{ $s.Delete "basic" }}
+                        {{ end }}
+                        {{ with $s.Get "basics" }}
+                            {{ $s.SetInMap "subentry" "basics" . }}
+                            {{ $s.Delete "basics" }}
+                        {{ end }}
 
                     {{ else if eq $header "Übersetzungen" }}
 
@@ -450,6 +474,8 @@
                 {{ $s.Add "entries" (slice ($s.Get "entry")) }}
                 {{ $s.Delete "subentries" }}
                 {{ $s.Delete "entry" }}
+
+                {{ $firstEntry = false }}
             {{ end }}<!-- end of: Analyse each word classes entry. -->
 
             {{ with $s.Get "coda" }}
@@ -499,46 +525,46 @@
 
                     <!-- Get the table, if present. -->
                     {{ $subentry = . | replaceRE "\n" "" }}
-                    {{ range findRE "{{Deutsch Possessivpronomen\\|[a-zöäüß]*|{{Deutsch Adjektiv Übersicht\\|Positiv\\s*=\\s*[a-zöäüß]*" $subentry }}
-                        {{ $stem := . | replaceRE "{{Deutsch .*\\||.*=|e\\z" "" }}
-                        {{ range slice "es" "em" "en" "e" "er" }}
-                            {{ $s.Add "variants" (slice (print $stem .)) }}
-                        {{ end }}
-                    {{ end }}
-                    {{ range $i, $table := findRE "{{(Deutsch[^\\|]*Übersicht|[A-ZÖÄÜa-zöäü]{2,}-Tabelle)[^}]*" $subentry }}
-                        <!-- Remove pictures in the table. -->
-                        {{ $table = . | replaceRE "\\|Bild 1\\s*=.*|\\|Bild\\s*=.*" "" }}
-
-                        {{ if and (in $table "|") }}<!-- only analyze if there are entries -->
-
-                            <!-- Remove table description. -->
-                            {{ $table = $table | replaceRE "{{.*?\\|" "" }}
-
-                            <!-- Set the table from the html analysis. -->
-                            {{ with ($s.Get "info_lang").entries }}
-                                {{ with index . $entry_num }}
-                                    {{ with .tables }}
-                                        {{ with index . $i }}
-                                            {{ $s.Set "table" . }}
-                                        {{ else }}
-                                            {{ $bugfree = false }}
-                                            {{ errorf "There is no table #%d for '%s'." $i $word }}
-                                        {{ end }}
+                    {{ range $i, $table := findRE "{{Deutsch [^}]*}}" $subentry }}
+                        <!-- Set the table from the html analysis. -->
+                        {{ with ($s.Get "info_lang").entries }}
+                            {{ with index . $entry_num }}
+                                {{ with .tables }}
+                                    {{ with index . $i }}
+                                        {{ $s.Set "table" . }}
                                     {{ else }}
                                         {{ $bugfree = false }}
-                                        {{ errorf "There is no table for '%s'." $word }}
+                                        {{ errorf "There is no table #%d for '%s'." $i $word }}
                                     {{ end }}
                                 {{ else }}
                                     {{ $bugfree = false }}
-                                    {{ errorf "The particular entry for '%s' (%d of %d) is not available:\n%s" $word (add $entry_num 1) (len .) (delimit (split $entry "<h3>") "\n+") }}
+                                    {{ errorf "There is no table for '%s'." $word }}
                                 {{ end }}
                             {{ else }}
                                 {{ $bugfree = false }}
-                                {{ errorf "There are no entries yet for '%s'! This is what I have: '%s'" $word ($s.Get "info_lang") }}
+                                {{ errorf "The particular entry for '%s' (%d of %d) is not available:\n%s" $word (add $entry_num 1) (len .) (delimit (split $entry "<h3>") "\n+") }}
                             {{ end }}
+                        {{ else }}
+                            {{ $bugfree = false }}
+                            {{ errorf "There are no entries yet for '%s'! This is what I have: '%s'" $word ($s.Get "info_lang") }}
+                        {{ end }}
 
+                        {{ $wc := . | replaceRE "{{Deutsch | Übersicht.*|\\|.*|}}" "" }}
+
+                        <!-- Remove pictures in the table. -->
+                        {{ $table = . | replaceRE "\\|Bild 1\\s*=.*|\\|Bild\\s*=.*|}}" "" }}
+
+                        <!-- Remove table description. -->
+                        {{ $table = $table | replaceRE "{{[^\\|}]*" "" }}
+
+                        <!-- Remove first bar. -->
+                        {{ $table = $table | replaceRE "\\A\\|" "" }}
+
+                        <!-- Add all table info to the map. -->
+                        {{ if in $table "=" }}
                             {{ range split $table "|" }}
                                 {{ $split := split . "=" }}
+
                                 <!-- DEBUG -->
                                 {{ if ne (len $split) 2 }}
                                     {{ $bugfree = false }}
@@ -546,29 +572,76 @@
                                 {{ else }}
                                     {{ $k := index $split 0 | replaceRE "\\A\\s+" "" | replaceRE "\\s+\\z" "" }}
                                     {{ $v := index $split 1 | replaceRE "\\A\\s+" "" | replaceRE "\\s+\\z" "" }}
-                                    {{ if not (findRE "\\A(keine weiteren Formen|unpersönlich|Weitere Konjugationen)\\z" $k) }}
-                                        <!-- DEBUG -->
-                                        {{ if findRE "\\A(ja|nein)\\z|Flexion|:|#"  $v }}
-                                            {{ $bugfree = false }}
-                                            {{ errorf "In '%s', there is the table entry '%s'. What is that about?" $word . }}
-                                        {{ end }}
 
+                                    {{ if and $k $v }}
                                         {{ $s.SetInMap "table" $k $v }}
-
-                                        {{ $v = $v | replaceRE "'" "" | replaceRE "\\s*\\(.*?\\)" "" | replaceRE "\\A[—-](\\z|\\s+)" "" }}
-
-                                        {{ if findRE "\\AGenus" $k }}
-                                            <!-- Get the gender. -->
-                                            {{ $gender = $gender | default $v }}
-                                        {{ else if and (ne "Hilfsverb" $k) $v }}
-                                            <!-- Get variants. -->
-                                            {{ $s.Add "variants" (slice $v) }}
-                                        {{ end }}
+                                    {{ else }}
+                                        {{ errorf "In '%s', there was a key-value error in table '%s': '%s'" $word $wc . }}
                                     {{ end }}
                                 {{ end }}
-                            {{ end }}
+                            {{ end }}<!-- end of splitting -->
+                        {{ else }}
+                            {{ $s.SetInMap "table" "Stamm" $table }}
                         {{ end }}
-                    {{ end }}
+                        {{ $t := $s.Get "table" }}
+
+                        <!-- Get the gender. -->
+                        {{ $gender = $gender | default (index $t "Genus")| default (index $t "Genus 1") | default "" }}
+
+                        <!-- Add stem with various endings to variants. -->
+                        {{ $stem := index $t "Stamm" | default (index $t "Positiv" ) | default $word }}
+
+                        <!-- Delete superfluos 'e' at the end. -->
+                        {{ $stem = $stem | replaceRE "e\\z" "" }}
+
+                        <!-- DEBUG -->
+                        {{ if and (not (in $word $stem)) (ne $stem "gut") }}
+                            {{ errorf "The word is '%s' but the stem is '%s'." $word $stem }}
+                        {{ end }}
+
+                        {{ $endings := slice }}
+                        {{ if findRE "\\A(Possessivpronomen|Adjektiv)\\z" $wc }}
+                            {{ $endings = slice "es" "em" "en" "e" "er" }}
+                        {{ else if findRE "\\A(adjektivisch)\\z" $wc }}
+                            {{ $g := index $t "Genus" }}
+                            {{ if eq $g "m" }}
+                                {{ $endings = slice "e" "er" "en" "em" }}
+                            {{ else if eq $g "f" }}
+                                {{ $endings = slice "e" "er" "en" }}
+                            {{ else }}
+                                {{ errorf "Something is wrong with 'adjektivische Deklination' of '%s', the gender is '%s'."  $word $g }}
+                            {{ end }}
+                        {{ else if findRE "\\A(Toponym|Eigenname)\\z" $wc }}
+                            {{ $stem = $word }}
+                            {{ $endings = slice "" "s" }}
+                        {{ end }}
+                        {{ if not (findRE "\\A(Substantiv|Pronomen|Personalpronomen [1-9]|Verb|Nachname|Adverb|Vorname)\\z" $wc) }}
+                            {{ if not $stem }}{{ errorf "Found no stem for '%s' as '%s'." $word $wc }}{{ end }}
+                            {{ if not $endings }}{{ errorf "Found no endings for '%s' as '%s'." $word $wc }}{{ end }}
+                        {{ end }}
+                        {{ range $endings }}
+                            {{ $s.Add "variants" (slice (print $stem .)) }}
+                        {{ end }}
+
+                        <!-- Add variants. -->
+                        {{ range $k, $v := $t }}
+                            {{ if not (findRE "\\A(keine weiteren Formen|unpersönlich|Weitere Konjugationen|Hilfsverb|html|Genus|Genus [1-3])\\z" $k) }}
+                                <!-- Ignore certain entries. -->
+                                {{ $v = $v | replaceRE "'" "" | replaceRE "\\s*\\(.*?\\)" "" | replaceRE "\\A[—-](\\z|\\s+)" "" }}
+
+                                <!-- DEBUG -->
+                                {{ if findRE "\\A(ja|nein|[a-z])\\z|Flexion|:|#" $v }}
+                                    {{ $bugfree = false }}
+                                    {{ errorf "In '%s', there is the table entry '%s=%s'. What is that about?" $word $k $v }}
+                                {{ end }}
+
+                                {{ if $v }}
+                                    {{ $s.Add "variants" (slice $v) }}
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}<!-- end of adding variants -->
+
+                    {{ end }}<!-- end of analyzing tables -->
                 {{ end }}<!-- end of analyzing each word classes entry -->
             {{ end }}{{ end }}<!-- end of analyzing the relevant entry -->
         {{ end }}<!-- end of with $s.Get "wikitext_de" -->

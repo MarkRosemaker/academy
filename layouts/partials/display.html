@@ -18,7 +18,9 @@
         []
     {{ end }}
 {{ else if findRE "\n|<br>" . }}
-    <div style="margin-bottom: 30px;"><textarea rows="4" cols="50" data-role="none">
+    {{ . | safeHTML }} (htmlsave)<br>
+    <div style="margin-bottom: 30px;">
+        <textarea rows="4" cols="50" data-role="none">
     {{- range $i, $v := split . "\n" }}
         {{- . }}{{ end }}</textarea></div> (html)<br><br>
 {{ else if eq $type "string" }}

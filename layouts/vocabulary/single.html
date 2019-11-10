@@ -94,60 +94,86 @@
             {{ end }}
 
             <!-- Get the most basic version. -->
-            {{ $basic := $text | replaceRE "\\A\\(sich\\) |\\Asich |\\Ader |\\Adie |\\Adas |\\Ader/die |\\Adas/der/die | \\(pl\\.\\)\\z|,\\s*-[^\\/]*|, –\\z|\\(.*?\\)" "" | replaceRE "/die |/das " "/" | replaceRE "\\A\\s+|\\s+\\z" "" }}
+            {{ $basic := $text | replaceRE "\\A\\(sich\\) |\\Asich |\\Ader |\\Adie |\\Adas |\\Ader/die |\\Adas/der/die | \\(pl\\.\\)\\z|,\\s*-[^\\/]*|, –\\z" "" | replaceRE "/die |/das |, –/" "/" | replaceRE "\\A\\s+|\\s+\\z" "" }}
             {{ if not $basic }}
                 <p>Could not find basic word for '{{ $text }}'.</p>
             {{ end }}
 
+            <!-- Add variants with and without content in brackets. -->
+            {{ if and (in $basic " (") (in $basic "/") }}
+
+                <!-- Replace the word before the bracket with the content in the bracket. -->
+                {{ $alt := $basic | replaceRE "[A-ZÖÄÜa-zöäü]* \\((.*?)\\)" "$1" }}
+                {{ $s.Add "nobr" (slice $alt) }}
+
+            {{ else if in $basic "(" }}
+
+                <!-- Remove brackets but not their content. -->
+                {{ $s.Add "nobr" (slice (replaceRE "\\(|\\)" "" $basic)) }}
+
+            {{ end }}
+            <!-- Remove brackets and their content. -->
+            {{ $s.Add "nobr" (slice (replaceRE "\\s*\\(.*?\\)" "" $basic)) }}
+
             <!-- Find alternatives.  -->
-            {{ if and (in $basic "/") (not (in $basic ".")) (not ($s.Get "regexes")) }}
-                <!--
-                    Example: Viertel vor/nach zwei
-                        $both = "vor/nach"
-                        split = [vor,nach]
-                        Then replace "vor/nach" with "vor" or with "nach".
-                    Exclude vocabs that are abbreviations or have regexes.
-                -->
-                {{ range $both := findRE "[^\\s]*/[^\\s]*" $basic }}
-                    {{ range split . "/" }}
-                        {{ $alt := replace $basic $both . }}
-                        {{ $s.Add "alts" (slice $alt) }}
-                        {{ if not $alt }}<p>#1: {{ $basic }}</p>{{ end }}
-                        {{ $s.Add "variants" (slice $alt) }}
+            {{ range $basic := $s.Get "nobr" }}
+                {{ if findRE "[^ ]-\\z" . }}
+                    <!-- DEBUG -->
+                    {{ if or (in . "/") }}
+                        <p>{{ . }} has dash at the end and also a slash.</p>
                     {{ end }}
-                {{ end }}
-            {{ else if findRE "[^ ]-\\z" $basic }}
-                <!-- Found matches like "lieb-: liebe|lieber", use the regex instead of "lieb-". -->
-                {{ $s.Add "alts" ($s.Get "regexes") }}
 
-                <!-- Transform dash into regex. -->
-                {{ $reg := $basic | replaceRE "-\\z" "[a-zéöäü]+" }}
+                    <!-- Found matches like "lieb-: liebe|lieber", use the regex instead of "lieb-". -->
+                    {{ with $s.Get "regexes" }}{{ $s.Add "alts" ($s.Get "regexes") }}{{ end }}
 
-                <!-- Get the variants from the examples. -->
-                {{ range $s.Get "examples" }}
-                    {{ range findRE $reg . }}
-                        {{ $s.Add "variants" (slice .)}}
+                    <!-- Transform dash into regex. -->
+                    {{ $reg := . | replaceRE "-\\z" "[a-zéöäü]+" }}
+                    {{ $s.Add "regexes" (slice $reg) }}
+
+                    <!-- Get the variants from the examples. -->
+                    {{ range $s.Get "examples" }}
+                        {{ range findRE $reg . }}
+                            {{ $s.Add "alts" (slice .) }}
+                        {{ end }}
                     {{ end }}
-                {{ end }}
-                {{ $s.Add "regexes" (slice $reg) }}
-            {{ else }}
-                <!--
-                    Example: zum Beispiel/z. B.
-                        split = [zum Beispiel,z. B.]
-                    But most often $basic just doesn't contain a slash.
-                -->
-                {{ range split $basic "/" }}
-                    {{ $s.Add "alts" (slice .) }}
-                    {{ if not . }}<p>#2: {{ $basic }}</p>{{ end }}
-                    {{ $s.Add "variants" (slice .) }}
+                {{ else }}
+
+                    {{ if in . "/" }}
+                        {{ if in . "." }}<!-- it's an abbreviation -->
+                            <!--
+                                Example: zum Beispiel/z. B.
+                                    split = [zum Beispiel,z. B.]
+                            -->
+                            {{ range split . "/" }}
+                                {{ $s.Add "alts" (slice .) }}
+                            {{ end }}
+                        {{ else }}
+                            <!--
+                                Example: Viertel vor/nach zwei
+                                    $both = "vor/nach"
+                                    split = [vor,nach]
+                                    Then replace "vor/nach" with "vor" or with "nach".
+                                Exclude vocabs that are abbreviations or have regexes.
+                            -->
+                            {{ range $both := findRE "[^\\s]*/[^\\s]*" $basic }}
+                                {{ range split . "/" }}
+                                    {{ $alt := replace $basic $both . }}
+                                    {{ $s.Add "alts" (slice $alt) }}
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    {{ else }}
+                        <!-- Just add it, nothing else to be done. -->
+                        {{ $s.Add "alts" (slice .) }}
+                    {{ end }}
                 {{ end }}
             {{ end }}
+            {{ $s.Delete "nobr" }}
 
-            {{ range $alt := $s.Get "alts"}}
+            {{ range $alt := $s.Get "alts" }}
                 <!-- Add the variants to the map and to a variable. -->
                 {{ with (partial "functions/get-word-info" $alt).de }}
                     {{ range .variants }}
-                        {{ if not . }}<p>#3: {{ $alt }}</p>{{ end }}
                         {{ $s.Add "variants" (slice .) }}
                     {{ end }}
 
@@ -172,16 +198,26 @@
             {{ end }}
             {{ $s.Delete "alts" }}
 
-            {{ $s.Set "variants" (uniq ($s.Get "variants")) }}
+            {{ range $s.Get "regexes" }}
+                <!-- Exclude certain words. -->
+                {{ if findRE "\\A\\^" . }}
+                    <!-- Word to be excluded. -->
+                    {{ $excl := . | replaceRE "\\A\\^" "" }}
 
-            <!-- DEBUG -->
-            {{ if not (findRE "[^ ]-\\z" $basic) }}
-                {{ range $s.Get "regexes" }}
-                    {{ if in ($s.Get "variants") . }}
-                        <p>No need to put '{{ . }}' in regexes of '{{ $basic }}', it's already a known variant.</p>
-                    {{ end }}
+                    <!-- Remove word from variants. -->
+                    {{ $v := $s.Get "variants" | complement (slice $excl (lower $excl)) }}
+                    {{ $s.Set "variants" $v }}
+
+                    <!-- Remove word from regexes. -->
+                    {{ $s.Set "regexes" (complement (slice .) ($s.Get "regexes")) }}
+
+                <!-- DEBUG -->
+                {{ else if and (in ($s.Get "variants") .) (findRE "[^-]\\z" $basic) }}
+                    <p>No need to put '{{ . }}' in regexes of '{{ $basic }}', it's already a known variant.</p>
                 {{ end }}
             {{ end }}
+
+            {{ $s.Set "variants" (uniq ($s.Get "variants")) }}
 
             <!-- Add variants to potential regexes. -->
             {{ $s.Add "regexes" ($s.Get "variants") }}
