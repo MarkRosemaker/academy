@@ -818,6 +818,8 @@ Emma ist auch kulturell interessiert und besucht am **Mittwoch** und **Donnersta
 
 Am Freitag regnet es leider. Also bleibt Emma zu Hause, spielt mit den Kindern und underhält sich mit den Erwachsenen.
 
+[Emmas Pl-an als Tabelle]
+
 ## Emma geht mit den Schmidts ins Kino
 
 Am Abend sagt Emma: "Warum gehen wir nicht alle ins Kino? Da das Wetter so schlecht ist, ist der Abend perfekt für einen Film."
@@ -832,66 +834,33 @@ Sie fragen die Kinder: "Welchen Film möchtet ihr sehen?"
 
 "Die Fünf Freunde!", sagt Michael.
 
-Es gibt noch
+Es gibt noch mehr Antworten. Am Ende sagen alle: "Die drei Fragezeichen!"
 
+"Ist der Film auch für Kinder, die sechs Jahre alt sind?", fragt Anna, ihre Mutter.
 
-"Die drei Fragezeichen!", rufen die Kinder.
+"Ja, der Film hat FSK 6."
 
+https://commons.wikimedia.org/wiki/File:FSK_6.svg
 
-  - Jochen
-  - Anna: Februar
-  - Lukas: 9
-  - Emilia 6: Mai
-  - Michael 6: Mai
+"Gut, dann lass uns ins Kino gehen! In welcher Straße ist das Kino?", sagt Emma.
 
+"Das Kino ist in der Bahnhofstraße zweiundreißig (32). Es ist nicht weit weg, nur fünf Minuten mit dem Auto.", antwortet Anna.
 
+Also fahren sie alle mit dem Auto ins Kino.
 
+Die Schmidts kaufen Popcorn und Getränke.
 
-FSK 6
+"Welches Popcorn magst du lieber," fragt Anna, "Popkorn mit Salz oder Popkorn mit Zucker?
 
+"Popcorn mit Salz? Nein, danke! Ich möchte lieber Popcorn ohne Salz.", antwortet Emma.
 
-
-
-uns im Kino einen Film schauen!
-
-Ich möchte gerne einen Film sehen. Lass uns ins Kino gehen!
-
-
-Welches Popcorn magst du lieber, Popkorn mit Salz oder Popkorn ohne Salz und mit Zucker?
-
-TODO
-In welcher Straße ist das Kino?
+Der Film ist schön. Die ganze Familie hat Spaß.
 
 ## Emma sagt auf Wiedersehen
 
 Jetzt ist es wieder **Samstag**, Emmas letzter Tag in Deutschland. Sie sagt ihrer Familie auf Wiedersehen und fliegt zurück in ihre Heimat.
 
 "Auf Wiedersehen, Jochen und Anna!", sagt Emma. "Tschüss, Kinder! Ich muss jetzt nach Hause. Aber wir sehen uns später mal wieder. Bis dann!"
-
-[Emmas Pl-an als Tabelle]
-
-
-
-
-
-
-## Lass uns einkaufen!
-
-Heute muss ich einkaufen. Kommst du mit?
-
-
-TODO
-
-## Im Restaurant
-
-Restaurant
-Welchen Wein können Sie mir empfehlen?
-
-TODO
-
-Auf Wiedersehen!
-
-
 
 # Verbringe das Jahr mit der Familie Schmidt
 
@@ -1125,6 +1094,8 @@ https://commons.wikimedia.org/wiki/File:Charles_Meynier_-_Napoleon_in_Berlin.png
 
 Am sechsten August achtzehnhundertsechs (6. August 1806) legt Kaiser Franz der Zweite (II.) die Krone nieder und das Heilige Römische Reich gibt es nicht mehr.
 
+## Video: Die Hansestädte
+
 ## Der Deutsche Bund und der Norddeutsche Bund
 
 In Mitteleuropa gibt es nun mehrere Fürsten und freie Städte, also viele kleine Staaten.
@@ -1314,14 +1285,80 @@ Ich bin jederzeit da, falls du eine Frage hast. Danke, dass du an diesem Kurs ü
 
 ## Endlich Urlaub!
 
-Es ist nun Juli. Es ist Zeit für Urlaub.
-
-Die Schmidts haben ihre Reise durch Deutschland schon lange geplant. Sie werden sich die Insel Rügen anschauen und dann mehrere deutsche Städte.
+Es ist jetzt Juli. Es ist Zeit für einen Urlaub.
 
 Jochen macht auch mal sein Handy aus, weil er im Urlaub nicht erreichbar sein möchte.
-Wenn das Handy an ist, dann kann ihn sein Chef immer anrufen. Jochen möchte das nicht. Jochen braucht einen ganz ruhigen Urlaub.
+Wenn das Handy an ist, dann kann ihn sein Chef immer anrufen. Jochen möchte keinen Anruf von seinem Chef bekommen. Jochen braucht einen ganz ruhigen Urlaub.
 
-##  Auf Rügen (Farben)
+Er hat einen guten Plan gemacht: Die Familie geht zuerst für eine Woche nach Rügen. Das ist eine Insel im Norden Deutschlands.
+
+Danach schauen sie sich mehrere deutsche Städte an.
+
+## Mit der Bahn nach Rügen
+
+Gestern war der letzte Tag vor den Sommerferien.
+
+Die Schmidts fahren heute mit dem Zug nach Rügen.
+
+Die Abfahrt ist um sieben uhr neunundfünzig (7:59 Uhr) auf Gleis 7 im Hanover Hauptbahnhof. Die Schmidts müssen früh am Morgen aufstehen.
+
+Die Ankunft ist ein Uhr drei (13:03 Uhr) auf Gleis 2 in der Stadt *Bergen*.
+Die Fahrt dauert also fünf Stunden und vier Minuten. Das ist eine lange Zeit!
+
+Die Schmidts sind um halb acht im Bahnhof. "Hast du die Fahrkarten?", fragt Anna. "Ja, hier sind die Tickets.", antwortet Jochen.
+
+"Das ist ja erste Klasse! Wir fahren immer zweite Klasse.", sagt Anna.
+"Aber heute nicht.", sagt Jochen und lacht. "Ich habe dieses Jahr viel gearbeitet und viel Geld bekommen. Es ist in Ordnung. Es ist ein Geschenk für dich und die Kinder."
+
+Um kurz vor acht kommt der Zug. Die Eltern, Lukas und Emilia steigen in den Zug ein. Der kleine Micheal steht noch auf dem Bahnsteig.
+"Komm schon, Michael", sagt Anna, "schnell einsteigen! Worauf wartest du? Steig ein, der Zug fährt gleich. Ich helfe dir."
+
+Es ist eine große Reise für Michael. Früher haben die Schmidts nur kleine Ausflüge gemacht, aber jetzt fahren sie weit weg – mit einem Zug!
+
+Als sie im Zug sind, fragt er: "Fahren wir ins Ausland?" "Nein, Michael, wir fahren nach Rügen. Das ist in Deutschland."
+
+"Aber das ist eine Insel, oder?", fragt Michael. "Ja, das ist richtig.", antwortet Anna. "Rügen ist eine Insel."
+
+"Aber Emma kommt von einer Insel, das ist im Ausland! Emma ist Ausländerin.", sagt das Kind. Die Mutter muss lachen. "Ja, aber nicht jede Insel ist im Ausland."
+
+Es gibt eine Ansage: "Willkommen im Zug nach Bergen auf Rügen. Der nächste Halt: Hamburg Hauptbahnhof. Ankunft: neun Uhr vierundreißig (09:34 Uhr) auf Gleis zwölf (12)."
+
+Die Schmidts suchen sich ihre Plätze. Viele Plätze sind besetzt. Es ist gut, dass sie erste Klasse fahren.
+
+Die Kinder lesen Bücher und spielen Spiele. Am Vormittag schauen sie einen kurzen Film. Danach sind sie sehr müde und schlafen.
+
+Es ist nun Mittag. Es gibt eine Ansage: "Ankunft im Bahnhof von Stralsund um zwölf Uhr neununddreißig (12:39 Uhr) auf Gleis zwei (2)."
+
+
+der Tag
+der Morgen
+der Vormittag,-e
+der Mittag
+der Nachmittag,-e
+der Abend, -e
+die Nacht, -ä, e
+
+## Im Hotel
+
+
+
+  - der Urlaub _ Ich nehme im September Urlaub.
+    - das Hotel, -s _ Im Urlaub sind wir in einem Hotel am Meer.
+      - willkommen _ Herzlich willkommen!
+      - *herzlich
+      - das Doppelzimmer _ Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?
+      - das Einzelzimmer _ Haben Sie noch ein Einzelzimmer?
+      - *Zimmernummer
+      - *Zimmerschlüssel
+      - *Gast
+      - die Halbpension _
+        - Möchten Sie Vollpension oder Halbpension?
+      - übernachten _
+        - Du kannst bei mir übernachten.
+      - die Rezeption _ Fragen Sie bitte im Hotel an der Rezeption.
+      - der Blick _ Von diesem Hotel hat man einen guten Blick auf den Rhein.
+
+##  Die vielen schönen Farben auf Rügen
 
 Die Schmidts haben sehr viel Spaß auf ihrer Reise.
 
@@ -1360,8 +1397,34 @@ Auf Rügen gibt es auch viele Tiere. Die kleine Emilia hat sich in diese braune 
 
 https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
 
+## Im Restaurant
+
+Die Kinder haben Hunger. Die Schmidts gehen in ein Restaurant.
 
 
+Bringen Sie mir bitte
+Restaurant
+Welchen Wein können Sie mir empfehlen?
+Vorsicht
+Wein unbekannt
+
+bar
+
+
+Gruß aus der Küche
+
+https://commons.wikimedia.org/wiki/File:Appetizer_(4277715160).jpg
+
+TODO
+
+## Die Schmidts gehen einkaufen
+
+  - der Ort, -e _ Der Ort liegt am Meer.
+  - das Reisebüro, -s _ Mein Mann arbeitet im Reisebüro.
+    - der Prospekt, -e _ Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.
+    - die Führung _ Die Führung durch das Haus beginnt in 3 Minuten.
+
+TODO
 
 
 
@@ -1380,6 +1443,7 @@ https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
 - https://www.telc.net/verlagsprogramm/kurstraeger-lizenzpartner/deutsch-integration/lehrwerk-einfach-gut/downloads.html
 - put first names into custom words -> explain family relations, background information
 - Javascript to show current date in German (change between versions every couple of seconds, don't always show)
+- neun Uhr drei -> Tooltip: 9:03 Uhr, oder andersrum, zufällig entschieden
 - mehrere Versionen [einfach|mittel|schwer]
   - einfach: nur A1 Vokabeln wenn möglich
   - mittel: nur A1 Vokabeln, wenn nahe an der Bedeutung
@@ -1398,92 +1462,17 @@ https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
   - Emilia 6: Mai
   - Michael 6: Mai
 
+## Beim Fotographen
 
+Die Familie Schmidt möchte gerne
 
-
-  - *Fragepronomen
-    - wen _ Wen besuchst du?
-- *Vorsilben und Nachsilben
-  - *un-
-    - unbekannt _
-  - *-los
-    - *arbeitslos
-  - *-bar
-    - *erreichbar _
-- *Begrüßung
-  - der Gruß, -ü, e _
-    - Viele Grüße an Ihre Frau.
-    - Mit freundlichen Grüßen
-  - hallo _ Hallo Inge! Wie geht’s?
-  - kennenlernen: kennenzulernen _ Wir sind neu hier. Wir möchten Sie kennenlernen.
-
-- *Pflanzen
-  - die Blume, -n _ Gefallen dir die Blumen?
-  - der Baum, -ä, e _ Vorsicht, fahr nicht an den Baum!
-
-  - der Fehler, – _ Diesen Fehler mache ich immer.
   - *Termin
-  - das Thema _ Wir sprechen heute über das Thema „Essen und Trinken“.
-  - das Studium _ Das Studium beginnt im Oktober.
-    - der Student, -en _ Ich bin Studentin.
-    - studieren _ Ich studiere in Mainz.
-  - seit _ Ich wohne seit drei Jahren in Köln.
-  - früher _ Früher waren wir oft zusammen im Kino.
-  - sofort _ Bitte antworten Sie sofort.
-  - zurzeit _ Zurzeit habe ich sehr viel zu tun.
-- die Reise _ Wir machen eine Reise nach Österreich.
-  - reisen _ Ich reise gern.
-  - der Urlaub _ Ich nehme im September Urlaub.
-    - das Hotel, -s _ Im Urlaub sind wir in einem Hotel am Meer.
-      - willkommen _ Herzlich willkommen!
-      - *herzlich
-      - das Doppelzimmer _ Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?
-      - das Einzelzimmer _ Haben Sie noch ein Einzelzimmer?
-      - *Zimmernummer
-      - *Zimmerschlüssel
-      - *Gast
-      - die Halbpension _
-        - Möchten Sie Vollpension oder Halbpension?
-      - übernachten _
-        - Du kannst bei mir übernachten.
-      - die Rezeption _ Fragen Sie bitte im Hotel an der Rezeption.
-      - der Blick _ Von diesem Hotel hat man einen guten Blick auf den Rhein.
-    - bleiben _
-      - Ich bleibe heute zu Hause.
-      - Wir bleiben nur bis morgen.
-    - das Foto, -s _ Darf ich ein Foto machen?
+
       - Familienfoto _
       - Passfoto _
-  - *Geschäftsreise
-  - der Ort, -e _ Der Ort liegt am Meer.
-  - das Reisebüro, -s _ Mein Mann arbeitet im Reisebüro.
-    - der Prospekt, -e _ Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.
-    - die Führung _ Die Führung durch das Haus beginnt in 3 Minuten.
-  - das Ausland _ Fahren Sie ins Ausland?
-    - der Ausländer, -/die Ausländerin, -nen _ Sind Sie Ausländerin?
-    - ausländisch _ Leider habe ich nur ausländisches Geld.
-    - fremd _ Das weiß ich nicht; ich bin fremd hier.
-    - der Zoll _ Wir müssen noch durch den Zoll.
-    - *Passfoto _
-  - die Abfahrt _ Vor der Abfahrt rufe ich an.
-  - die Ankunft _ Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.
-  - der Fahrer _ Bitte nicht mit dem Fahrer sprechen!
-  - *Transportmittel
-      - der Bahnhof _ Komme ich hier zum Bahnhof?
-      - das Gleis, -e _ Der ICE nach Berlin hält heute an Gleis 12.
-      - der Platz, -ä, e _
-        - Tut mir leid, der Platz ist besetzt.
-        - Bitte nehmen Sie Platz!
-        - Ich wohne Messeplatz 5.
-      - frei _ Ist der Platz noch frei?
-      - *besetzt _ Der Platz ist besetzt.
-    - das Auto, -s _ Er kommt mit dem Auto.
-      - die Autobahn, -en _ Wo geht‘s hier bitte zur Autobahn?
-      - die Vorsicht _ Vorsicht! Da kommt ein Auto.
-      - fahren _ Ich fahre mit dem Auto zur Arbeit.
-    - das Taxi, -s _ Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.
-    - die Straßenbahn _ Wo fährt die Straßenbahn ab?
-    - der Lkw, -s _ Dieser Lastkraftwagen ist sehr groß.
+
+## Auf dem Amt
+
 - das Formular, -e _ Sie müssen dieses Formular ausfüllen. *Personalbogen
   - ausfüllen _ Füllen Sie bitte dieses Formular aus.
   - ankreuzen _ Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen.
@@ -1494,13 +1483,6 @@ https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
   - der Bogen _ Schreiben Sie Ihre Lösungen bitte auf den Antwortbogen.
     - *Personalbogen
   - das Alter _ Alter: 26 Jahre.
-    - alt _
-      - Wie alt sind Sie?
-      - Sie sehen aber nicht so alt aus.
-      - Mein Auto ist schon sehr alt.
-      - Wir wohnen in einem sehr alten Haus.
-      - Köln ist eine alte Stadt.
-    - jung _ Claudia ist 21. – Was? Noch so jung?
   - männlich _ Kreuzen Sie bitte an: „weiblich“ oder „männlich“.
   - weiblich _ Kreuzen Sie bitte an: „weiblich“ oder „männlich“.
   - der Familienstand _ Bei „Familienstand“ musst du „ledig“ ankreuzen.
@@ -1518,16 +1500,42 @@ https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
   - die Adresse,-en _ Können Sie mir seine Adresse sagen?
     - die Straße, -n _ In welcher Straße wohnen Sie?
     - die Postleitzahl _ Wie ist Ihre Postleitzahl?
+
+## Mein Studium
+
+  - das **Studium** _ Das Studium beginnt im Oktober.
+    - der Student, -en _ Ich bin Studentin.
+    - studieren _ Ich studiere in Mainz.
+  - früher _ Früher waren wir oft zusammen im Kino.
+
+
+
+
+
+  - *Fragepronomen
+    - wen _ Wen besuchst du?
+  - sofort _ Bitte antworten Sie sofort.
+
+
+
+  - das Ausland _ Fahren Sie ins Ausland?
+    - der Ausländer, -/die Ausländerin, -nen _ Sind Sie Ausländerin?
+    - ausländisch _ Leider habe ich nur ausländisches Geld.
+    - fremd _ Das weiß ich nicht; ich bin fremd hier.
+    - der Zoll _ Wir müssen noch durch den Zoll.
+
+      - die Autobahn, -en _ Wo geht‘s hier bitte zur Autobahn?
+      - die Vorsicht _ Vorsicht! Da kommt ein Auto.
+      - fahren _ Ich fahre mit dem Auto zur Arbeit.
+    - das Taxi, -s _ Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.
+    - die Straßenbahn _ Wo fährt die Straßenbahn ab?
+    - der Lkw, -s _ Dieser Lastkraftwagen ist sehr groß.
+
     - normal _ 75 kg. Sein Gewicht ist normal.
   - die Größe _ Haben Sie das auch in Größe 40?
 - das Telefon _ Haben Sie ein Telefon?
   - telefonieren _ Darf ich mal telefonieren?
   - der Anruf, -e _ Sie bekommt viele Anrufe auf ihrem Handy.
-  - anrufen _
-    - Kann man Sie anrufen?
-    - Peter ruft kurz seine Freundin an.
-  - das Handy, -s _ In der Schule bitte die Handys ausmachen!
-  - *Handynummer, Telefonnummer
   - die Vorwahl _ Wie ist die Vorwahl von München?
   - das Wiederhören _ Wir müssen jetzt Schluss machen. Also auf Wiederhören!
   - wiederholen _ Können Sie das bitte wiederholen?
@@ -1812,8 +1820,6 @@ https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
     - [Emmas Woche in Deutschland (die Wochentage)](#emmas-woche-in-deutschland-die-wochentage)
   - [Emma geht mit den Schmidts ins Kino](#emma-geht-mit-den-schmidts-ins-kino)
   - [Emma sagt auf Wiedersehen](#emma-sagt-auf-wiedersehen)
-  - [Lass uns einkaufen!](#lass-uns-einkaufen)
-  - [Im Restaurant](#im-restaurant)
 - [Verbringe das Jahr mit der Familie Schmidt](#verbringe-das-jahr-mit-der-familie-schmidt)
   - [Wer sind die Schmidts?](#wer-sind-die-schmidts)
   - [Jochens Jahresplan](#jochens-jahresplan)
@@ -1830,6 +1836,7 @@ https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
 - [Bonus-Kurs: Die Geschichte der Deutschen](#bonus-kurs-die-geschichte-der-deutschen)
   - [Die Anfänge](#die-anfänge)
   - [Kriege und das Ende des Heilige Römische Reich deutscher Nation](#kriege-und-das-ende-des-heilige-römische-reich-deutscher-nation)
+  - [Video: Die Hansestädte](#video-die-hansestädte)
   - [Der Deutsche Bund und der Norddeutsche Bund](#der-deutsche-bund-und-der-norddeutsche-bund)
   - [Das deutsche Kaiserreichs](#das-deutsche-kaiserreichs)
   - [Der erste Weltkrieg](#der-erste-weltkrieg)
@@ -1844,7 +1851,14 @@ https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
   - [Vergangenheitsbewältigung](#vergangenheitsbewältigung)
 - [Die Reise der Schmidts durch Deutschland](#die-reise-der-schmidts-durch-deutschland)
   - [Endlich Urlaub!](#endlich-urlaub)
-  - [Auf Rügen (Farben)](#auf-rügen-farben)
+  - [Mit der Bahn nach Rügen](#mit-der-bahn-nach-rügen)
+  - [Im Hotel](#im-hotel)
+  - [Die vielen schönen Farben auf Rügen](#die-vielen-schönen-farben-auf-rügen)
+  - [Im Restaurant](#im-restaurant)
+  - [Die Schmidts gehen einkaufen](#die-schmidts-gehen-einkaufen)
+  - [Beim Fotographen](#beim-fotographen)
+  - [Auf dem Amt](#auf-dem-amt)
+  - [Mein Studium](#mein-studium)
 - [Carlos' Reise](#carlos-reise)
   - [Carlos kommt in Deutschland an](#carlos-kommt-in-deutschland-an)
   - [Carlos stellt sich vor](#carlos-stellt-sich-vor)
