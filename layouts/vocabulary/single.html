@@ -231,7 +231,7 @@
                     Add word end signifier.
                     Does not work with umlauts.
                 -->
-                {{ if findRE "[a-z]\\z" . }}
+                {{ if findRE "[A-Za-z]\\z" . }}
                     {{ $reg = $reg | printf "%s\\\\b" }}
                 {{ end }}
                 {{ if findRE "\\A[A-Za-z]" . }}

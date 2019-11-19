@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "Akzeptiere Fehler mit offenen Armen!"
 date =  2019-09-12T16:20:12+02:00
 weight = 11
 

@@ -9,7 +9,6 @@ spellchecked = false
 audio = ''
 +++
 
- Basically, you tell yourself a funny, silly, or otherwise memorable story to associate with a particular word.
+Basically, you tell yourself a funny, silly, or otherwise memorable story to associate with a particular word. -> example of the Schmidts at dinner: visualize what they are doing, seeing and eating, make it silly
 
-
-
+that's why I put little jokes in, like the children being confused about stuff
