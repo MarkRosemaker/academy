@@ -17,6 +17,20 @@ audio = ''
 
 ## Tauche in die deutsche Sprache ein! #mindset
 
+## Die Reihenfolge ist deine Entscheidung!
+
+TODO musst nicht der Reihenfolge folgen! Optionen:
+- meine Empfehlung:
+  - zuerst nur die Immersionsübungen
+  - dann beim zweiten Mal der Reihenfolge folgen
+  - die Tondateien mehrmals hören, während du unterwegs bist
+- Reihenfolge folgen
+  - mindestens zweimal den Kurs machen
+  - dann die Tondateien mehrmals hören
+
+Achtung: Schaue dir jede Lektion mindestens einmal an und jede Immersionsübung zweimal, besser sogar dreimal!
+Mache jede Übung so lange, bis du sie ganz verstanden hast. Falls das ein Problem ist, mache erst alle Immersionsübungen
+
 # Totale Immersion von Anfang an: wie du effektiv Deutsch lernst
 
 ## Freut mich, dich kennenzulernen!
@@ -63,8 +77,15 @@ In Ordnung, los geht’s!
 
 Wir sehen uns in der nächsten Lektion.
 
+## Stelle dich vor! #quiz
+
+
+[In diesem Quiz hast du gelernt, wie du dich selbst vorstellst und wie du andere informell vorstellst.]
+
 
 ## Lerne spielerisch Deutsch! #mindset
+
+## Personalpronomen im Nominativ #meta
 
 ## Einfach Vokabeln lernen #meta
 
@@ -232,7 +253,13 @@ Sechs. Sieben. Acht. Neun. Zehn.
 
 ## Die Aussprache des Alphabets #meta
 
+[script: write something -> play back spelling]
+
 # Meine \"deutsche\" Wohnung
+
+## Die Gegenwart: Verben im Präsens
+
+regelmäßige Verben im Präsens TODO
 
 ## Der Eingang
 
@@ -368,7 +395,7 @@ Als es dies gehört hatte, floh das Schaf auf das Feld.
 
 ## Deutschlernen mit Gedichten: Das Hexeneinmaleins von Goethe
 
-## Erinnerst du dich an deine ersten Vokabeln? #quiz
+## Erinnerst du dich an deine ersten Vokabeln? Höre und schreibe. #quiz
 
 ## Deutschlernen mit Musik: das Lied \"Du hast\" von Rammstein
 
@@ -393,7 +420,9 @@ Sie lieben auch in schlechten Tagen?
 Du, du hast, du hast mich
 Du, du hast, du hast mich
 
-## Höre und schreibe deine ersten Vokabeln
+## Deutschlernen mit Musik: nicht nur Rammstein!
+
+TODO über Musikstile Sprechen Lektion 2
 
 # Das Leben in Deutschland
 
@@ -427,7 +456,13 @@ Manche Leute haben keinen (offiziellen) Beruf.
 - Studentinnen und Studenten studieren an einer Universität.
 - Ein Hausmann oder eine Hausfrau wäscht, kocht und kauft ein.
 
-Was ist dein Beruf? Was machst du?
+## Was ist dein Beruf? Was machst du? #quiz
+
+TODO Berufe verstehen Lektion 3
+
+## Berufe in Deutschland #quiz
+
+TODO über Tortendiagramm mit Prozentzahlen sprechen Lektion 3
 
 ## Ein typischer Arbeitstag eines Deutschen
 
@@ -544,6 +579,46 @@ Im Regen ist es hier nicht so schön. Lass uns nach Hause gehen.
 Deutschland ist berühmt für sein gutes Brot. Zum Abendbrot essen wir gerne Schwarzbrot, weil es sehr gesund ist.
 
 Morgen ist Montag. Ich bin nicht traurig, denn ich liebe meine Arbeit.
+
+## Wie war dein Wochenende?
+
+TODO über sein Wochenende sprechen Lektion 5
+
+# Entdecke mit mir die Welt!
+
+TODO
+
+## Deutschland
+
+## Deutschland: Statistik
+
+TODO über Balkendiagramme sprechen Lektion 7
+
+## Die Schweiz: Sprache
+
+TODO Gruezi: sich in DACH begrüßen und verabschieden Lektion 1 Übungsbuch
+
+## Die Schweiz: Kultur
+
+TODO über kulturelle Besonderheiten bei Einladungen sprechen Lektion 7
+
+## Österreich
+
+## Lichtenstein
+
+## Weitere Gebiete, in denen Deutsch gesprochen wird
+
+Pennsylvania
+
+## Eine Weltreise
+
+TODO mit Google Maps die Namen der Länder und Kontinente lernen
+TODO Länder und Kontinente Lektion 1 Übungsbuch
+
+## Welches Land ist das? #quiz
+
+TODO prüfen, ob sie die Namen gelernt haben: ich zeige die outline und sie müssen sagen, wie das Land heißt (sie können es gerne nachschauen)
+
 
 # Emmas Reise
 
@@ -726,7 +801,23 @@ Der Vater sehr glücklich und zufrieden.
 
 [Ach-tung billion - Milliarde]
 
-[Quiz Rechenaufgaben: Oliver rechnet, bitte hilf ihm!]
+## Hilf Oliver bei seinen Mathehausaufgaben #quiz
+
+[Quiz Rechenaufgaben: Oliver rechnet, bitte hilf ihm!
+
+generate tasks based on what gives user difficulty]
+Lektion 1
+
+## Höhere Mathematik #resource
+
+[script #1: type number <-> see it in writing
+
+up to Billiarden
+addition: play audio files for each word
+
+script #2:  math probl-ems up to Milliarde (with higher difficulty up to Billiarden)
+suggestion: practice until you are sure you know it all]
+Lektion 1
 
 ## Speichere unsere Nummer auf deinem Handy
 
@@ -756,6 +847,11 @@ Mit freundlichen Grüßen
 Kurt Schneider"
 
 "Zum Glück bin ich weg," denkt Emma, "aber es tut mir Leid für meinen Ehemann und die Kinder."
+
+## Antwort an den Vermieter
+
+Bitte um Reduzierung der Miete
+TODO Nachricht an den vermieter verstehen Lektion 5
 
 ## Emma plant ihre Reise
 
@@ -861,6 +957,10 @@ Was war es? Ein Ladekabel, dass so aussah wie eine Bombe ...
 
 [interessante Nebenbemerkung: Meinem Bruder ist etwas ähnliches passiert. Die Geschichte basiert also auf einer wahren Begebenheit]
 
+## Fragen über Fragen #quiz
+
+TODO W-Frage mit Wie? Wo? Woher? Ja/Nein-Frage
+
 ## Im Flugzeug (Video)
 
 ## Im Flugzeug (Text)
@@ -937,6 +1037,15 @@ Auch Ihr Flugbegleiter gibt Ihnen gerne Auskunft.
 
 Wir sind jetzt startbereit. Verstauen Sie bitte die Tische und die Monitore sicher in der vorgesehenen Halterung und stellen Sie Ihre Rückenlehnen senkrecht."
 
+## Der Imperativ: Mache es! Lies! Schreibe! #quiz
+
+TODO Kurssprache verstehen Lektion 1
+TODO Anweisungen notieren, auf Anweisungen reagieren Lektion 6
+
+## Anweisungen im Flugzeug folgen #quiz
+
+TODO Anweisungen verstehen und höflich nachfragen Lektion 6
+
 ## Emma sucht ihr Gepäck
 
 Der Flug dauert zum Glück nicht lange. Nach einer Stunde und dreißig Minuten kommt Emma in Hannover an.
@@ -955,7 +1064,11 @@ Um halb zehn, also neun Uhr dreißig (9:30) verlässt Emma den Flughafen. Sie wi
 
 https://pixabay.com/photos/parking-autos-park-vehicles-4615361/
 
-### Emma erster Tag bei ihren Verwandten
+## Wann? Um wie viel Uhr? #quiz
+
+TODO Uhrzeiten verstehen und sagen formell/informell Lektion 2
+
+## Emma erster Tag bei ihren Verwandten
 
 Emma ist nun Gast bei ihren Verwandten in Hannover. Sie übernachtet bei ihnen und bleibt eine Woche dort.
 
@@ -979,7 +1092,11 @@ Emmas Onkel hat sogar Fische und ein paar Kartoffeln gegrillt: "Bei einer deutsc
 
 Das ist eine der kulturellen Eigenarten, die Emma auch bemerkt hat. Immer gibt es Kartoffeln: Schweinefleisch mit Kartoffeln, Kartoffeln mit Leinöl, Suppe mit Kartoffeln – und natürlich Pommes. Bei fast jedem berühmten deutschen Gericht sind Kartoffeln dabei.
 
-### Emmas Woche in Deutschland (die Wochentage)
+## Emma erzählt von ihrer Familie
+
+TODO über die Familie sprechen Lektion 3
+
+## Emmas Woche in Deutschland (die Wochentage)
 
 Zusammen mit ihren Freunden und Verwandten sieht Emma viele Sehenswürdigkeiten. Emmas Onkel spielt den Reiseführer, da er sehr viel über Hanover weiß.
 Sie besichtigen am **Sonntag** zusammen die Herrenhäuser Gärten, welche Emma sehr gefallen.
@@ -1072,6 +1189,15 @@ Die Schmidts kaufen Popcorn und Getränke.
 
 Der Film ist schön. Die ganze Familie hat Spaß.
 
+## Noch mehr Freizeitangebote
+
+TODO Kulturangebote verstehen: Zoo, Theater, Kino -> Prospekt anschauen (nicht! alles verstehen) -> Fragen Lektion 2
+TODO Freizeitanzeigen verstehen Lektion 4
+
+## Was möchtest du machen?
+
+TODO sich austauschen, was man kann, muss und möchte Lektion 3
+
 ## Emma sagt auf Wiedersehen
 
 Jetzt ist es wieder **Samstag**, Emmas letzter Tag in Deutschland. Sie sagt ihrer Familie auf Wiedersehen und fliegt zurück in ihre Heimat.
@@ -1092,7 +1218,11 @@ Jochen arbeitet bei einer Computer-Firma. Anna arbeitet bei einer Bank, bevor si
 
 ## Weihnachten in Deutschland bei den Schmidts
 
-TODO
+TODO (skip in MVP)
+
+## Die Jahreszeiten in Bildern
+
+schöne Bilder: https://de.wikipedia.org/wiki/Jahreszeit
 
 ## Jochens Jahresplan
 
@@ -1111,10 +1241,20 @@ Es ist nun das Ende des Jahres, der einundreißigste Zwölfte, und Jochen möcht
 - Im November wird es wahrscheinlich wieder sehr kalt, da es der letzte Herbstmonat ist. Deshalb wird die Familie Schmidt in den Süden fliegen und zwei Wochen lang in Nordafrika verbringen.
 - Im Dezember ist wieder Winter und die Familie Schmidts feiert Weihnachten. Heiligabend ist der Lieblingsfeiertag der Kinder, da sie viele Geschenke kriegen. Am Jahresende wird natürlich auch Sylvester gefeiert.
 
-[schöne Bilder: https://de.wikipedia.org/wiki/Jahreszeit
-Quiz: Wann fängt Jochen an, für den Marathon zu trainieren? In wel-chen Monaten macht Jochen viel Sport? In wel-chen Monaten ist Frühling/Sommer/Herbst/Winter?
+
+[Quiz: Wann fängt Jochen an, für den Marathon zu trainieren? In wel-chen Monaten macht Jochen viel Sport? In wel-chen Monaten ist Frühling/Sommer/Herbst/Winter?
 Wann ist Jochen im Reis-ebüro? Im letzten Jahr: hat gebucht -> abgeschlossene Vergangenheit
 Welche Feiertage feiern die Schmidts auf jeden Fall?]
+TODO Jahreszeiten verstehen und nennen Lektion 2
+
+## Jochens Anmeldung für den Marathon #Immersion
+
+[commitment -> decided to just sign up to have the commitment, no going back -> fulfill your dreams the same way]
+TODO sich für den Marathon anmelden Lektion 4
+
+## Jochen ist in der Zeitung!
+
+TODO Zeitungsartikel über den Marathon verstehen Lektion 4
 
 ## Bürokratie!
 
@@ -1187,6 +1327,18 @@ Anna muss auch ein Formular ausfüllen:
 Sie schreibt ihren Namen, ihren Geburtstag und ihre Adresse. Da sie Jochen geheiratet hat, kreuzt sie bei Familienstand "ledig" an. Davor hat sie immer "ledig" angekreuzt.
 Menschen, deren Ehefrau oder Ehemann tot sind, kreuzen "verwitwet" an.
 
+## Melde dich an!
+
+
+[quiz: sign up for various things -> formal, informal
+
+first version: two personal infos given (male and female)
+
+second version: script with checker if it makes sense]
+
+TODO Personalbogen ausfüllen Lektion 1
+TODO sich für den Marathon anmelden Lektion 4
+
 ## Die Anzeigen eines Reisebüro
 
 Jochen und Anna möchten in den Süden reisen, weil es in Deutschland im Winter sehr kalt wird.
@@ -1225,9 +1377,7 @@ Wandern Sie auf Lanzarote!
 
 ## Im Reisebüro
 
-
-
-TODO
+TODO Urlaubsplanung
 
 ## Lukas Schullaufbahn
 
@@ -1369,7 +1519,7 @@ https://freie-grundschule-wernigerode.de/2_Schule_Hort/Unterricht/Stdpl_4_Klasse
 
 Ressource: https://de.wiktionary.org/wiki/Verzeichnis:Deutsch/Uhrzeit]
 
-## Lukas' Computer-Kurs
+## Lukas' Computer-Kurs ist international
 
 Lukas macht in den Sommerferien einen Computer-Kurs.
 
@@ -1386,9 +1536,17 @@ Lukas ist Deutscher: Sein Vater ist ein Deutscher und seine Mutter ist eine Deut
 In Finnland benutzt man auch Euros, die gleiche Währung wie in Deutschland. Aber in der Türkei benutzt man türkische Lira und in Mexiko mexikanische Peso.
 Zur Übung schreibt Lukas ein Programm, dass Euros in andere Währungen umrechnet.
 
-[Was bist du? Aus welchem Land kommst du? Was ist die Währung in deinem Land?
+[Woher kommst du? Was ist die Währung in deinem Land?
 
-Poll which country via Google Forms, including option to write-in]
+first version: Poll which country via Google Forms, including option to write-in
+
+second version: write in each answer, check if it makes sense
+ - Addresse
+ - Land
+ - Kontinent
+
+use code from number sayer to say the numbers in Addresse]
+TODO sagen, woher man kommt Lektion 1.
 
 ## Lukas bringt seinem Bruder etwas über Computer bei
 
@@ -1479,6 +1637,10 @@ Pünktlich um ein Uhr drei (13:03 Uhr) kommen die Schmidts auf Rügen an. Am Nac
 
 [An-sage, Durch-sage rough Synonyms, An-sage  more direkt and less formal, Durch-sage announcement of something to people in general - don't sweat these small distinctions]
 
+## Zu welcher Tageszeit ist das?
+
+TODO Tageszeiten verstehen und sagen Lektion 2
+
 ## Probleme im Hotel
 
 Die Schmidts sind im Hotel. Sie sind müde, weil ihre Koffer schwer sind. Jochen geht zur Rezeption und die anderen setzen sich auf das Sofa im Empfangsbereich.
@@ -1510,6 +1672,22 @@ Jochen meldet sich an:
 Die Aussage des Mannes war richtig: Der Blick auf das Meer ist sehr schön!
 
 https://pixabay.com/photos/sail-sunset-sea-water-ocean-3585674/
+
+## Wie bitte? Wie heißen Sie? #quiz
+
+[you work in a ho-tel
+
+write down names that are being said -> include each letter at least once
+
+refer to Die Aussprache des Alphabets] Lektion 1
+
+## Jochen hört Podcasts über Rügen
+
+Im Zug auf den Weg nach Rügen hat Jochen sich schon einmal über Bergen auf Rügen informiert. Dabei hörte er einen interessanten Beitrag über ein Restaurant in einem Podcast, also im Internet-Radio.
+
+
+
+TODO Restaurant-Informationen im Radio verstehen Lektion 8
 
 ## Im Restaurant Teil 1: Die Speisekarte
 
@@ -1569,6 +1747,12 @@ Die Schmidts sitzen am Tisch und lesen die Speisekarte:
 Speisek-arte inspiriert von: https://www.omas-kueche-binz.de/das-restaurant/speis  ekarte/
 und ausgewählt nach den wichtigsten Vokabeln und relevantesten Eigenschaften der deutschen Kultur - weitere Informationen später/woanders]
 
+## Was würdest du bestellen?
+
+TODO Speisekarte verstehen Lektion 8 -> very short
+TODO über Vorlieben beim Essen und Trinken sprechen
+TODO Gespräch im Restaurant spielen
+
 ## Im Restaurant Teil 2: Getränke und einen Gruß aus der Küche
 
 "Entschuldigung," sagt Anna fünf Minuten später, "wir möchten gerne bestellen."
@@ -1611,6 +1795,8 @@ Als der Kellner die Rechnung bringt, fragt er: "Möchten sie bar bezahlen oder m
 Die Familie geht zurück zum Hotel. Es ist jetzt Nacht.
 
 ## Wie du Eselsbrücke erstellen kannst #meta
+
+Eselsbrücken mit berühmten Personen: Thomas Mann, Hans Zimmer, Albert Einstein,  Helmut Kohl, Bastian Schweinsteiger, Henry Maske
 
 ## Gute Nacht!
 
@@ -1661,6 +1847,8 @@ https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
 
 ## Die Reihenfolge der Wörter in deutschen Sätzen #meta
 
+Worstellung: Ausssagesatz, W-Fragen, Ja/Nein-Fragen
+
 ## Die Schmidts schreiben eine Postkarte
 
 Die Schmidts haben einen schönen Urlaub.
@@ -1696,6 +1884,10 @@ Am Ende schreibt Emma auf der rechten Seite den Namen und die Adresse von Emma. 
 
 [image of card with areas marked in red]
 
+## Eine E-Mail von Emma #quiz
+
+TODO eine Urlaubsmail verstehen und schreiben Lektion 2
+
 ## Wo ist die Post?
 
 Jetzt fehlt nur noch die Briefmarke.
@@ -1712,7 +1904,12 @@ Sie fragt einen anderen Menschen: "Entschuldigung, wir sind Reisende und suchen 
 
 Auf der Post kauft Anna eine Briefmarke und schickt die Postkarte an Emma.
 
+## Wir haben uns verlaufen!
+
 [very simple mini game: walking through a city -> left, right, straight ]
+TODO Wegbeschreibungen verstehen und machen Lektion 7
+TODO mündliche Wegbeschreibungen notieren Lektion 7
+Google Maps funktioniert nicht ;)
 
 ## So lernst du den Akzent und die Betonung #meta
 
@@ -1733,6 +1930,10 @@ Sechs Stunden später sind die Schmidts in Berlin. "Schaut mal! Dort hinten ist 
 Ja, die Kinder sehen den berühmten Berliner Fernsehturm.
 
 https://pixabay.com/photos/night-photograph-long-exposure-night-4581193/
+
+## Wir brauchen Fahrkarten
+
+TODO Anweisungen an einem Fahrkartenautomaten verstehen Lektion 7
 
 ## Der Geschäftsmann
 
@@ -1758,10 +1959,33 @@ Jetzt können die Schmidts sich anmelden. "Guten Tag," sagt Jochen. "Mein Name i
 
 "Guten Tag! Einen Moment bitte. Ich suche sie im Computer. Ah, ich habe sie gefunden. Sie übernachten im Zimmer mit der Nummer siebenundsechzig (67).  Hier ist ihr Schlüssel." "Danke. Auf Wiedersehen!" "Auf Wiedersehen."
 
+## Berliner Sehenswürdigkeiten
 
----------------------
+TODO Informationen über Sehenswürdigkeiten verstehen Lektion 7
+
+TODO weitere Städte (skip for now)
+
+## Eine E-Mail von Emma
+
+TODO bedankt sich für die Postkarte, erzählt eigene Erlebnisse in Bayern
+
+## Lass uns Emma antworten! #quiz
+
+TODO E-Mail über Erlebnisse verstehen und darauf antworten Lektion 7 -> auch weitere Erlebnisse auf der Reise zusammenfassen
+
+## Wann und wo haben wir diese Fotos gemacht?
+
+TODO Bildbeschreibung passendem Bild zuordnen und sagen, wie einem die Bilder gefallen
+-> Der Urlaub der Schmidts ist vorbei. Hilf ihnen, ihre Bilder zu sortieren. Wie gefallen dir die Bilder?
 
 
+# Wie geht es dir?
+
+## Wie geht es dir wirklich?
+
+Auf die Frage "Wie geht es dir?" sagen viele Menschen oft nur "gut".
+Aber wie geht es uns wirklich?
+TODO Informationen über das Befinden verstehen und über das eigene Befindne sprechen Lektion 5
 
 ## Beim Arzt
 
@@ -1795,7 +2019,18 @@ Er muss eine halbe Stunde warten. "Herr Schmidt? Doktor Becker ist nun für sie 
 
 Die Aussage des Arztes ist richtig. Nach zwei Tagen geht es Jochen wieder viel besser!
 
-## Anna geht  einkaufen
+## Geht es dir besser?
+
+TODO Informationen über das Befinden verstehen und über das eigene Befindne sprechen Lektion 5
+
+# Annas großer Einkauf
+
+## Der Einkaufszettel #quiz
+
+[images with name of produkt to lean vocab, then write Einkaufszettel]
+TODO Einkaufszettel schreiben Lektion 3
+
+## Im Laden #quiz #immersion
 
 Heute geht Anna einkaufen. Sie fragt Jochen: "Ich gehe einkaufen. Soll ich dir was mitbringen? Vielleicht etwas Obst?"
 
@@ -1807,12 +2042,20 @@ Vor dem Laden sind Schilder: "Wir haben die besten Preise! Heute im Angebot: Hä
 
 Anna geht in das Geschäft.
 
-TODO
+TODO Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungsarten verstehen Lektion 3; sie liest vom Einkaufszettel Lektion 3
+
+## An der Käsetheke
+
+TODO Verkaufsgespräch an der Käsetheke (oder andere) verstehen und nachspielen
+
+## An der Kasse #quiz #immersion
 
 
 Anna ist fertig, jetzt muss sie nur noch an der Kasse bezahlen.
 
 An der Kasse sieht sie Zigaretten. Anna schüttelt den Kopf. Zigaretten machen einen nur krank.
+
+TODO Preise verstehen und sagen Lektion 3
 
 # Die Welt der Zukunft
 
@@ -1830,13 +2073,14 @@ Es gibt dann viele Getränke, Kuchen und gute Musik. Lukas lernt so viele Leute 
 
 Manchmal geht Lukas in die Disco. Er liebt es, in der Disco zu tanzen.
 
-## Eine formale Begrüßung
+## Lukas möchte neue Freunde treffen
 
-TODO see 1-formal-greeting/index.de.md
+TODO Anzeigen für Freizeitpartner schreiben bzw. darauf antworten Lektion 4
 
-## Eine Formale Begrüßung #quiz
+## Lukas trifft sich mit seinen Freunden
 
-TODO Lückentext
+TODO Verabredungen verstehen Lektion 2
+TODO Zusagen, Absagen verstehen Lektion 8
 
 ## Lukas studiert
 
@@ -1849,12 +2093,51 @@ Das Studium ist sehr schwer. Lukas lernt sehr viel über den menschlichen Körpe
 
 [quiz body parts]
 
+## Auf Wohnungssuche
+
+für das Studium muss Lukas nach Berlin umziehen
+TODO Informationen über ein Zimmer, eine Wohnung verstehen und weitergeben Lektion 5
+
+## Neue Möbel gesucht
+
+TODO Möbelanzeigen verstehen Lektion 5
+Vokabeln: umziehen, Umzug
+
+## Bestellung per Telefon
+
+TODO telefonisch einen Möbelkauf verabreden Lektion 5
+
+## Die Aufgaben im Haushalt #quiz
+
+[now Lukas has to do everything himself!]
+TODO Aufgaben im Haushalt verstehen Lektion 2
+
+## Lukas probiert andere Sportarten
+
+TODO sich über Sportangebote informieren Lektion 4
+TODO Flyer über Sportangebote verstehen Lektion 4
+Quiz: wähle eine deutsche Stadt, finde ein Sportangebot
+
+## Lukas' Studentenjob Job
+
+TODO see 1-formal-greeting/index.de.md -> Lukas muss sich Fremden Personen vorstellen -> Nebenjob
+Lektion 1
+
+## Eine Formale Begrüßung #quiz
+
+TODO Lückentext Lektion 1
+
+## Lukas erzählt seinen Eltern von seinem neuen Zimmer
+
+TODO sein Zimmer schriftlich und mündlich beschreiben
 
 ## Lukas trifft eine junge Frau
 
 Eines Tages trifft Lukas auf einer Party eine junge Frau in seinem Alter. Sie heißt Sophia.
 
-Lukas und Sophia haben ein schönes Gespräch auf der Party. Am Ende gibt Sophia ihm ihre Telefonnummer.
+Lukas und Sophia haben ein schönes Gespräch auf der Party. Am Ende gibt Sophia ihm ihre Telefonnummer:
+
+"Vielleicht können wir später etwas gemeinsam machen. Dies ist meine Handynummer: plus vier neun eins fünf eins fünf sieben fünf vier neun zwei zwei. Rufe mich ruhig an!"
 
 Am nächsten Tag möchte Lukas mit ihr telefonieren. Er steht vor dem Telefon. Er ist nervös, aber das ist normal.
 Er ruft sie an.
@@ -1872,6 +2155,14 @@ Er ruft sie an.
 Oje! Hat er gerade das Gespräch mit "auf Wiederhören" beended? So formell! Er war einfach so nervös...
 
 Lukas hofft, dass das Treffen besser läuft.
+
+[Quiz: Lukas hat die Telefonnummer verloren! Kannst du ihm helfen? Wie lautet die Nummer? +49-151-5754-922]
+TODO Lektion 1
+
+## Schöne Kleidung für das Date
+
+TODO Bezeichnungen für Kleidungsstücke und Farben verstehen Lektion 6
+TODO Webseiten zum Thema "Waschsalon" verstehen und mit Waschsalons zu Hause vergleichen Lektion 6 -> skip for now
 
 ## Lukas trifft sich mit Sophia
 
@@ -1893,9 +2184,10 @@ Dann kommt sie. Lukas freut sich sehr, sie zu sehen. Sie lernen sich näher kenn
 
 Und so geht es weiter. Die beiden scheinen sich gut zu verstehen. Wir lassen sie jetzt lieber allein.
 
-## Andere vorstellen
+## Sophia und Lukas sprechen über ihre Freizeitaktivitäten
 
-TODO
+TODO über Freizeit, Hobbys und Sportarten sprechen Lektion 4
+TODO Vorlieben und Abneigungen ausdrücken Lektion 4
 
 ## Sophia auf der Arbeit
 
@@ -1925,6 +2217,53 @@ Sophia geht zurück zur Arbeit.
 
 Gegen sechs Uhr (6 Uhr) abends ist Schluss. Es ist Feierabend und Sophia geht nach Hause.
 
+## Der Banküberfall
+
+TODO Ereignisse im Waschsalon nachverfolgen und in E-Mail beschreiben -> stattdessen Zeugenaussage für die Polizei (skip for now)
+
+## Die Zeugenaussage #quiz
+
+TODO (skip for now)
+
+## Lukas erzählt seinen Eltern vom Banküberfall #quiz
+
+TODO informelle Beschreibung am Telefon, Eltern haben Sorgen
+
+
+
+## Sophia und Lukas planen ein weiteres Treffen
+
+TODO Vorschläge verstehen und machen Lektion 6 -> nicht Kino, sondern etwas besseres und intimeres: gemeinsam kochen. später: Theater (siehe auch: Noch mehr Freizeitangebote)
+vokabel: selbständig
+
+## Wie findest du diesen Vorschlag? #quiz
+
+TODO Vorschläge machen und zustimmen oder ablehnen Lektion 8
+
+## Lukas und Sophia kochen
+
+"Frauen mögen einen Mann, der kocht.", denkt Lukas.
+
+TODO schriftliche Anleitungen verstehen und formulieren Lektion 6 -> Waschanleitung, Kochanleitung
+
+## Lukas stellt Sophia seinen Eltern vor
+
+TODO Andere vorstellen Lektion 1
+
+## Sophia und Lukas planen ihre Hochzeit
+
+TODO Telefongespräch über Tischreservierung im Restaurant verstehen und Informationen weiterleiten Lektion 8
+
+## Was haben sie gesagt?
+
+gehe zurück und höre aufmerksam zu
+TODO siehe oben: bitte hilf der Kellnerin, die Information weiterzuleiten
+TODO persönliche Angaben notieren und darüber sprechen Lektion 8
+
+## Lukas und Sophia brauchen Hilfe
+
+TODO andere um etwas bitten und auf Bitten reagieren Lektion 8
+
 ## Die Hochzeit von Sophia und Lukas
 
 Sophia und Lukas sind sehr glücklich miteinander. Sie möchten heiraten. Sie geben ihre Hochzeit durch eine Anzeige in der örtlichen Zeitung bekannt.
@@ -1939,6 +2278,10 @@ Alle, die diese Anzeige sehen, sind herzlich eingeladen!
 </blockquote>
 
 TODO
+
+## Viele Termine! #quiz
+
+TODO über Termine sprechen: Geschäftstermine, private Termine Lektion 2
 
 ## Beim Fotographen
 
@@ -1955,8 +2298,6 @@ Die Familie hat am Nachmittag einen Termin beim Fotographen.
 "Kein Problem!", antwortet Anton.
 
 TODO
-
-
 
 # Bonus-Kurs: Die Geschichte der Deutschen
 
@@ -2160,6 +2501,12 @@ Die Soldaten an der Grenze konnten nichts gegen so viele Menschen machen, sie mu
 
 Dies führte zum Zusammenbrauch der Diktatur im Osten und zur deutschen Wiedervereinigung. Deutschland war nun wieder ein Land.
 
+## Wann war die Wiedervereinigung? #quiz
+
+TODO Monate, Datum, Jahreszahlen verstehen und nennen Lektion 2
+
+
+
 ## Nach der Wiedervereinigung
 
 Das heutige Deutschland gibt es offiziell seit dem dritten Oktober neunzehnhundertneunzig (3. Oktober 1990), das ist der Tag der Deutschen Einheit.
@@ -2190,6 +2537,89 @@ Ich bin jederzeit da, falls du eine Frage hast. Danke, dass du an diesem Kurs ü
 
 - Dein Mark
 
+# Prüfungsvorbereitung: Grammatik (skip for now)
+
+## Ein wichtiger Rat
+
+TODO kurze snippets nach der ersten Erwähnung, hier nochmal Übungen;
+
+allgemeiner Rat: langfristig ist es besser, viel zu hören und zu lesen, also: falls die Übungen nichts für dich sind, dann höre lieber die Immersionsteile noch einmal
+
+falls du die Prüfung erfolgreich bestehen möchtest, dann mache die Übungen, weil sie kurzfristig dabei helfen, für den Test zu lernen.
+
+## Lektion 1
+
+- regelmäßige Verben im Präsens
+- "sein" im Präsens
+- Personalpronomen im Nominativ
+- Wortstellung: Aussagesatz, W-Frage mit Wie?, Wo?, Woher?, Ja/Nein-Frage
+
+## Lektion 2
+
+- Verneinung: "nicht" und "kein"
+- Worstellung: Aussagesatz
+- bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ
+- Personalpronomen im Akkusativ
+- W-Fragen mit Wer?, Was?, Wen?, Wann?
+- Genitiv-s bei Personennamen
+
+## Lektion 3
+
+- Modalverben im Präsens: "können", "müssen", möcht-"
+- Worstellung in Sätzen mit Modalverben
+- Konnektor: "und"
+- "noch" =/= "kein ... mehr"
+- W-Fragen mit Wie viel?, Wie viele?
+- Possesivartikel im Nominativ
+
+## Lektion 4
+
+- Verben mit Vokalwechsel im Präsens
+- Modalverben im Präsens: "dürfen", "wollen", "mögen"
+- "haben", "sein" im Präteritum
+- regelmäßige Verben im Perfekt
+- Konnektoren "denn", "oder", "aber"
+
+## Lektion 5
+
+- Verben mit trennbaren Vorsilben im Präsens und Perfekt
+- Verben mit trennbaren Vorsilben und Modalverben im Präsens
+- Verben mit untrennbaren Vorsilben im Perfekt
+- unregelmäßige und gemischte Verben im Perfekt
+
+## Lektion 6
+
+- formelle Imperativsätze mit "Sie"
+- informelle Imperativsätze
+- Vorschläge mit "wir"
+- Voschläge mit "Sollen/Wollen wir ...?", "Soll ich ...?
+- Modalpartikeln: "doch", "mal", "doch mal"
+
+## Lektion 7
+
+- Ortsangaben mit Akkusativ und Dativ
+- Indefinitpronomen: "etwas", "nichts", "all", "man"
+- Verwendung von Präsens für Zukünftiges
+
+## Lektion 8
+
+- Nomen aus Adjektiven nach "etwas" und "nichts"
+- Nomen aus dem Infinitiv von Verben
+- zusammengesetzte Nomen und ihre Artikel
+- Adjektive im Nominativ und Akkusativ nach unbestimmtem Artikel, Negativpartikel und Possessivartikel
+
+# Übungsbuchteil
+
+
+
+TODO organize by topic
+
+
+# Prüfungsvorbereitung (skip for now)
+
+## Über ein Tortendiagramm sprechen
+
+TODO Ausländer in Deutschland, Industrie in Deutschland, Berufe in Deutschland Lektion 1
 
 
 Abfahrt. Abfahrten.
@@ -2358,7 +2788,23 @@ zweitausendvierzehn.
 
 
 
-
+- idea: split into multiple courses, give guarantee only if they get all of them
+  - Immersionskurs für Änfänger (Deutsch A1)
+    - inkl. Deutschlernen mit Gedichten (Deutsch A1)
+    - inkl. Deutchlernen mit Musik (Deutsch A1)
+    - inkl. persönliche Betreuung für 6 Wochen (Deutsch A1)
+  - Die Geschichte der Deutschen (Deutsch A1)
+  - Deutsche Grammatik für Anfänger (Deutsch A1)
+  - Deutschlern-Apps für Anfänger (Deutsch A1)
+    - inkl. Article Smasher - deutsche Artikel einfach lernen
+    - inkl. Finde den Weg! (Wegbeschreibung lernen - Deutsch Anfänger)
+    - inkl. Die Welt auf Deutsch (Länder und Kontinente auf Deutsch: Wörter, Aussprache)
+    - inkl. deutsche Bildbeschreibung mit Lisa (checks for keywords in the description -> offers one correct solution containing that keyword)
+    - inkl. Das verflixte Wort! -> Bilder von Pixabay, Bedeutung, Beispiele von Wiktionary
+- code AGL app
+  - first, just interface to access YouTube videos, articles and other free content; with tab to buy things (first via link, then integrated in the app)
+  - then publish courses via the app: activated via key
+  - then publish apps to learn better
 - crazy edition von jedem Video wo wich-tige Vokabeln bei der ersten Erwähnung nochmal extra gezeigt werden mit Bild und Ton, "make it crazy" damit sie sich daran erinnern (z. B. "Kaffe!" und den Klang einer E-Gitarre)
 - after each immersion, write table for better memorization (connecting with known words):
                     Vergleiche:
@@ -2378,6 +2824,9 @@ zweitausendvierzehn.
   - einfach: nur A1 Vokabeln wenn möglich
   - mittel: nur A1 Vokabeln, wenn nahe an der Bedeutung
   - schwer: die passendste Formulierung oh-ne Rücksicht auf Wortschatz
+- wenn Audio durch Video ersetzt wird -> Audio mit alten Einheiten in ein Archiv (extra Lektion), dass sie auch bekommen
+- some lessons are for Hörverständnis -> hide text at first and let them know not to read until they've done the next exercise
+
 
 ALL DIE NAMEN
 - die Browns
@@ -2406,176 +2855,261 @@ ALL DIE NAMEN
 
 INHALTSVERZEICHNIS
 - [Kurzanleitung und Motivation](#kurzanleitung-und-motivation)
-  - [Wie du das Interface benutzt #meta](#wie-du-das-interface-benutzt-meta)
-  - [Die Mission #mindset](#die-mission-mindset)
-  - [Tauche in die deutsche Sprache ein! #mindset](#tauche-in-die-deutsche-sprache-ein-mindset)
+	- [Wie du das Interface benutzt #meta](#wie-du-das-interface-benutzt-meta)
+	- [Die Mission #mindset](#die-mission-mindset)
+	- [Tauche in die deutsche Sprache ein! #mindset](#tauche-in-die-deutsche-sprache-ein-mindset)
+	- [Die Reihenfolge ist deine Entscheidung!](#die-reihenfolge-ist-deine-entscheidung)
 - [Totale Immersion von Anfang an: wie du effektiv Deutsch lernst](#totale-immersion-von-anfang-an-wie-du-effektiv-deutsch-lernst)
-  - [Freut mich, dich kennenzulernen!](#freut-mich-dich-kennenzulernen)
-  - [Lerne spielerisch Deutsch! #mindset](#lerne-spielerisch-deutsch-mindset)
-  - [Einfach Vokabeln lernen #meta](#einfach-vokabeln-lernen-meta)
-  - [Immersion im Alltag: Notizzettel in deiner Wohnung #meta](#immersion-im-alltag-notizzettel-in-deiner-wohnung-meta)
-  - [So bekämpftst du mentale Überforderung #mindset](#so-bekämpftst-du-mentale-Überforderung-mindset)
+	- [Freut mich, dich kennenzulernen!](#freut-mich-dich-kennenzulernen)
+	- [Stelle dich vor! #quiz](#stelle-dich-vor-quiz)
+	- [Lerne spielerisch Deutsch! #mindset](#lerne-spielerisch-deutsch-mindset)
+	- [Personalpronomen im Nominativ #meta](#personalpronomen-im-nominativ-meta)
+	- [Einfach Vokabeln lernen #meta](#einfach-vokabeln-lernen-meta)
+	- [Immersion im Alltag: Notizzettel in deiner Wohnung #meta](#immersion-im-alltag-notizzettel-in-deiner-wohnung-meta)
+	- [So bekämpftst du mentale Überforderung #mindset](#so-bekämpftst-du-mentale-Überforderung-mindset)
 - [Lerne die Grundlagen des Deutschen in einer Stunde!](#lerne-die-grundlagen-des-deutschen-in-einer-stunde)
-  - [Der Apfel](#der-apfel)
-  - [Reise mit mir! #meta](#reise-mit-mir-meta)
-  - [Bewege dich viel!](#bewege-dich-viel)
-  - [Ressource: eine deutsche Tastatur #meta](#ressource-eine-deutsche-tastatur-meta)
-  - [Deine ersten Deutsch-Vokabeln! #quiz](#deine-ersten-deutsch-vokabeln-quiz)
-  - [Akzeptiere Fehler mit offenen Armen! #mindset](#akzeptiere-fehler-mit-offenen-armen-mindset)
-  - [Das Vaterunser](#das-vaterunser)
-  - [Neue Laute #meta](#neue-laute-meta)
-  - [Lass uns zählen! #video](#lass-uns-zählen-video)
-  - [Einfach kommunizieren mit Modalverben #meta](#einfach-kommunizieren-mit-modalverben-meta)
-  - [Die Aussprache des Alphabets #meta](#die-aussprache-des-alphabets-meta)
+	- [Der Apfel](#der-apfel)
+	- [Reise mit mir! #meta](#reise-mit-mir-meta)
+	- [Bewege dich viel!](#bewege-dich-viel)
+	- [Ressource: eine deutsche Tastatur #meta](#ressource-eine-deutsche-tastatur-meta)
+	- [Deine ersten Deutsch-Vokabeln! #quiz](#deine-ersten-deutsch-vokabeln-quiz)
+	- [Akzeptiere Fehler mit offenen Armen! #mindset](#akzeptiere-fehler-mit-offenen-armen-mindset)
+	- [Das Vaterunser](#das-vaterunser)
+	- [Neue Laute #meta](#neue-laute-meta)
+	- [Lass uns zählen! #video](#lass-uns-zählen-video)
+	- [Einfach kommunizieren mit Modalverben #meta](#einfach-kommunizieren-mit-modalverben-meta)
+	- [Die Aussprache des Alphabets #meta](#die-aussprache-des-alphabets-meta)
 - [Meine \"deutsche\" Wohnung](#meine-deutsche-wohnung)
-  - [Der Eingang](#der-eingang)
-  - [Die Küche](#die-küche)
-  - [Guten Appetit!](#guten-appetit)
-  - [Das Wohnzimmer und das Bad](#das-wohnzimmer-und-das-bad)
-  - [Das Schlafzimmer und der Rest](#das-schlafzimmer-und-der-rest)
+	- [Die Gegenwart: Verben im Präsens](#die-gegenwart-verben-im-präsens)
+	- [Der Eingang](#der-eingang)
+	- [Die Küche](#die-küche)
+	- [Guten Appetit!](#guten-appetit)
+	- [Das Wohnzimmer und das Bad](#das-wohnzimmer-und-das-bad)
+	- [Das Schlafzimmer und der Rest](#das-schlafzimmer-und-der-rest)
 - [Du kennst diese Wörter schon!](#du-kennst-diese-wörter-schon)
-  - [Das Schaf und die Pferde](#das-schaf-und-die-pferde)
-  - [Deutschlernen mit Gedichten: Das Hexeneinmaleins von Goethe](#deutschlernen-mit-gedichten-das-hexeneinmaleins-von-goethe)
-  - [Erinnerst du dich an deine ersten Vokabeln? #quiz](#erinnerst-du-dich-an-deine-ersten-vokabeln-quiz)
-  - [Deutschlernen mit Musik: das Lied \"Du hast\" von Rammstein](#deutschlernen-mit-musik-das-lied-du-hast-von-rammstein)
-  - [Höre und schreibe deine ersten Vokabeln](#höre-und-schreibe-deine-ersten-vokabeln)
+	- [Das Schaf und die Pferde](#das-schaf-und-die-pferde)
+	- [Deutschlernen mit Gedichten: Das Hexeneinmaleins von Goethe](#deutschlernen-mit-gedichten-das-hexeneinmaleins-von-goethe)
+	- [Erinnerst du dich an deine ersten Vokabeln? Höre und schreibe. #quiz](#erinnerst-du-dich-an-deine-ersten-vokabeln-höre-und-schreibe-quiz)
+	- [Deutschlernen mit Musik: das Lied \"Du hast\" von Rammstein](#deutschlernen-mit-musik-das-lied-du-hast-von-rammstein)
+	- [Deutschlernen mit Musik: nicht nur Rammstein!](#deutschlernen-mit-musik-nicht-nur-rammstein)
 - [Das Leben in Deutschland](#das-leben-in-deutschland)
-  - [Berufe in Deutschland](#berufe-in-deutschland)
-  - [Ein typischer Arbeitstag eines Deutschen](#ein-typischer-arbeitstag-eines-deutschen)
-    - [Die Morgenroutine](#die-morgenroutine)
-    - [Die Wochentage](#die-wochentage)
-    - [Transportmittel](#transportmittel)
-    - [Auf der Arbeit](#auf-der-arbeit)
-    - [Feierabend!](#feierabend)
-  - [Ein typischer Sonntag eines Deutschen](#ein-typischer-sonntag-eines-deutschen)
-    - [Das Sonntagsfrühstück](#das-sonntagsfrühstück)
-    - [Der Ausflug](#der-ausflug)
-    - [Das Abendbrot](#das-abendbrot)
+	- [Berufe in Deutschland](#berufe-in-deutschland)
+	- [Was ist dein Beruf? Was machst du? #quiz](#was-ist-dein-beruf-was-machst-du-quiz)
+	- [Berufe in Deutschland #quiz](#berufe-in-deutschland-quiz)
+	- [Ein typischer Arbeitstag eines Deutschen](#ein-typischer-arbeitstag-eines-deutschen)
+		- [Die Morgenroutine](#die-morgenroutine)
+		- [Die Wochentage](#die-wochentage)
+		- [Transportmittel](#transportmittel)
+		- [Auf der Arbeit](#auf-der-arbeit)
+		- [Feierabend!](#feierabend)
+	- [Ein typischer Sonntag eines Deutschen](#ein-typischer-sonntag-eines-deutschen)
+		- [Das Sonntagsfrühstück](#das-sonntagsfrühstück)
+		- [Der Ausflug](#der-ausflug)
+		- [Das Abendbrot](#das-abendbrot)
+	- [Wie war dein Wochenende?](#wie-war-dein-wochenende)
+- [Entdecke mit mir die Welt!](#entdecke-mit-mir-die-welt)
+	- [Deutschland](#deutschland)
+	- [Deutschland: Statistik](#deutschland-statistik)
+	- [Die Schweiz: Sprache](#die-schweiz-sprache)
+	- [Die Schweiz: Kultur](#die-schweiz-kultur)
+	- [Österreich](#Österreich)
+	- [Lichtenstein](#lichtenstein)
+	- [Weitere Gebiete, in denen Deutsch gesprochen wird](#weitere-gebiete-in-denen-deutsch-gesprochen-wird)
+	- [Eine Weltreise](#eine-weltreise)
+	- [Welches Land ist das? #quiz](#welches-land-ist-das-quiz)
 - [Emmas Reise](#emmas-reise)
-  - [Wer ist Emma?](#wer-ist-emma)
-  - [Emmas Familie](#emmas-familie)
-  - [Der Kindergeburtstag](#der-kindergeburtstag)
-  - [Deutschlernen mit Musik: das Lied \"Sonne\" von Rammstein](#deutschlernen-mit-musik-das-lied-sonne-von-rammstein)
-  - [Oliver bringt seinem Bruder Max das Zählen bei](#oliver-bringt-seinem-bruder-max-das-zählen-bei)
-  - [Der Vater bringt seinen Kindern sehr große Zahlen bei](#der-vater-bringt-seinen-kindern-sehr-große-zahlen-bei)
-  - [Speichere unsere Nummer auf deinem Handy](#speichere-unsere-nummer-auf-deinem-handy)
-  - [Ein Brief vom Vermieter](#ein-brief-vom-vermieter)
-  - [Emma plant ihre Reise](#emma-plant-ihre-reise)
-  - [Emma spricht auf den Anrufbeantworter](#emma-spricht-auf-den-anrufbeantworter)
-  - [Emmas Flug](#emmas-flug)
-  - [Probleme bei der Sicherheitskontrolle](#probleme-bei-der-sicherheitskontrolle)
-  - [Im Flugzeug (Video)](#im-flugzeug-video)
-  - [Im Flugzeug (Text)](#im-flugzeug-text)
-  - [Emma sucht ihr Gepäck](#emma-sucht-ihr-gepäck)
-    - [Emma erster Tag bei ihren Verwandten](#emma-erster-tag-bei-ihren-verwandten)
-    - [Emmas Woche in Deutschland (die Wochentage)](#emmas-woche-in-deutschland-die-wochentage)
-  - [Emmas Tag mit den Kindern](#emmas-tag-mit-den-kindern)
-  - [Emma geht mit den Schmidts ins Kino](#emma-geht-mit-den-schmidts-ins-kino)
-  - [Emma sagt auf Wiedersehen](#emma-sagt-auf-wiedersehen)
+	- [Wer ist Emma?](#wer-ist-emma)
+	- [Emmas Familie](#emmas-familie)
+	- [Der Kindergeburtstag](#der-kindergeburtstag)
+	- [Deutschlernen mit Musik: das Lied \"Sonne\" von Rammstein](#deutschlernen-mit-musik-das-lied-sonne-von-rammstein)
+	- [Oliver bringt seinem Bruder Max das Zählen bei](#oliver-bringt-seinem-bruder-max-das-zählen-bei)
+	- [Der Vater bringt seinen Kindern sehr große Zahlen bei](#der-vater-bringt-seinen-kindern-sehr-große-zahlen-bei)
+	- [Hilf Oliver bei seinen Mathehausaufgaben #quiz](#hilf-oliver-bei-seinen-mathehausaufgaben-quiz)
+	- [Höhere Mathematik #resource](#höhere-mathematik-resource)
+	- [Speichere unsere Nummer auf deinem Handy](#speichere-unsere-nummer-auf-deinem-handy)
+	- [Ein Brief vom Vermieter](#ein-brief-vom-vermieter)
+	- [Antwort an den Vermieter](#antwort-an-den-vermieter)
+	- [Emma plant ihre Reise](#emma-plant-ihre-reise)
+	- [Emma spricht auf den Anrufbeantworter](#emma-spricht-auf-den-anrufbeantworter)
+	- [Emmas Flug](#emmas-flug)
+	- [Probleme bei der Sicherheitskontrolle](#probleme-bei-der-sicherheitskontrolle)
+	- [Fragen über Fragen #quiz](#fragen-über-fragen-quiz)
+	- [Im Flugzeug (Video)](#im-flugzeug-video)
+	- [Im Flugzeug (Text)](#im-flugzeug-text)
+	- [Der Imperativ: Mache es! Lies! Schreibe! #quiz](#der-imperativ-mache-es-lies-schreibe-quiz)
+	- [Anweisungen im Flugzeug folgen #quiz](#anweisungen-im-flugzeug-folgen-quiz)
+	- [Emma sucht ihr Gepäck](#emma-sucht-ihr-gepäck)
+	- [Wann? Um wie viel Uhr? #quiz](#wann-um-wie-viel-uhr-quiz)
+	- [Emma erster Tag bei ihren Verwandten](#emma-erster-tag-bei-ihren-verwandten)
+	- [Emma erzählt von ihrer Familie](#emma-erzählt-von-ihrer-familie)
+	- [Emmas Woche in Deutschland (die Wochentage)](#emmas-woche-in-deutschland-die-wochentage)
+	- [Emmas Tag mit den Kindern](#emmas-tag-mit-den-kindern)
+	- [Emma geht mit den Schmidts ins Kino](#emma-geht-mit-den-schmidts-ins-kino)
+	- [Noch mehr Freizeitangebote](#noch-mehr-freizeitangebote)
+	- [Was möchtest du machen?](#was-möchtest-du-machen)
+	- [Emma sagt auf Wiedersehen](#emma-sagt-auf-wiedersehen)
 - [Verbringe das Jahr mit der Familie Schmidt](#verbringe-das-jahr-mit-der-familie-schmidt)
-  - [Wer sind die Schmidts?](#wer-sind-die-schmidts)
-  - [Weihnachten in Deutschland bei den Schmidts](#weihnachten-in-deutschland-bei-den-schmidts)
-  - [Jochens Jahresplan](#jochens-jahresplan)
-  - [Bürokratie!](#bürokratie)
-    - [Anmeldung zum Computer-Kurs](#anmeldung-zum-computer-kurs)
-    - [Anmeldung zum Schwimmkurs](#anmeldung-zum-schwimmkurs)
-    - [Steuererklärung 2019](#steuererklärung-2019)
-  - [Die Anzeigen eines Reisebüro](#die-anzeigen-eines-reisebüro)
-    - [Entdecken Sie die USA!](#entdecken-sie-die-usa)
-    - [Billige Reisen in den Süden!](#billige-reisen-in-den-süden)
-    - [Urlaub auf paradiesischen Inseln!](#urlaub-auf-paradiesischen-inseln)
-  - [Im Reisebüro](#im-reisebüro)
-  - [Lukas Schullaufbahn](#lukas-schullaufbahn)
-  - [Lukas' typischer Schultag](#lukas-typischer-schultag)
-    - [Der Deutschunterricht: eine Prüfung!](#der-deutschunterricht-eine-prüfung)
-  - [Der Mathematikunterricht: eine schwere Aufgabe](#der-mathematikunterricht-eine-schwere-aufgabe)
-  - [Im Musikunterricht](#im-musikunterricht)
-    - [Das Mittagessen](#das-mittagessen)
-    - [Der Sportunterricht](#der-sportunterricht)
-    - [Zeit für die Hausaufgaben](#zeit-für-die-hausaufgaben)
-    - [Die beste Zeit des Tages: Fußball](#die-beste-zeit-des-tages-fußball)
-  - [Lukas' Computer-Kurs](#lukas-computer-kurs)
-  - [Lukas bringt seinem Bruder etwas über Computer bei](#lukas-bringt-seinem-bruder-etwas-über-computer-bei)
+	- [Wer sind die Schmidts?](#wer-sind-die-schmidts)
+	- [Weihnachten in Deutschland bei den Schmidts](#weihnachten-in-deutschland-bei-den-schmidts)
+	- [Die Jahreszeiten in Bildern](#die-jahreszeiten-in-bildern)
+	- [Jochens Jahresplan](#jochens-jahresplan)
+	- [Jochens Anmeldung für den Marathon #Immersion](#jochens-anmeldung-für-den-marathon-immersion)
+	- [Jochen ist in der Zeitung!](#jochen-ist-in-der-zeitung)
+	- [Bürokratie!](#bürokratie)
+		- [Anmeldung zum Computer-Kurs](#anmeldung-zum-computer-kurs)
+		- [Anmeldung zum Schwimmkurs](#anmeldung-zum-schwimmkurs)
+		- [Steuererklärung 2019](#steuererklärung-2019)
+	- [Melde dich an!](#melde-dich-an)
+	- [Die Anzeigen eines Reisebüro](#die-anzeigen-eines-reisebüro)
+		- [Entdecken Sie die USA!](#entdecken-sie-die-usa)
+		- [Billige Reisen in den Süden!](#billige-reisen-in-den-süden)
+		- [Urlaub auf paradiesischen Inseln!](#urlaub-auf-paradiesischen-inseln)
+	- [Im Reisebüro](#im-reisebüro)
+	- [Lukas Schullaufbahn](#lukas-schullaufbahn)
+	- [Lukas' typischer Schultag](#lukas-typischer-schultag)
+		- [Der Deutschunterricht: eine Prüfung!](#der-deutschunterricht-eine-prüfung)
+	- [Der Mathematikunterricht: eine schwere Aufgabe](#der-mathematikunterricht-eine-schwere-aufgabe)
+	- [Im Musikunterricht](#im-musikunterricht)
+		- [Das Mittagessen](#das-mittagessen)
+		- [Der Sportunterricht](#der-sportunterricht)
+		- [Zeit für die Hausaufgaben](#zeit-für-die-hausaufgaben)
+		- [Die beste Zeit des Tages: Fußball](#die-beste-zeit-des-tages-fußball)
+	- [Lukas' Computer-Kurs ist international](#lukas-computer-kurs-ist-international)
+	- [Lukas bringt seinem Bruder etwas über Computer bei](#lukas-bringt-seinem-bruder-etwas-über-computer-bei)
 - [Die Reise der Schmidts durch Deutschland](#die-reise-der-schmidts-durch-deutschland)
-  - [Endlich Urlaub!](#endlich-urlaub)
-  - [Mit der Bahn nach Rügen](#mit-der-bahn-nach-rügen)
-  - [Probleme im Hotel](#probleme-im-hotel)
-  - [Im Restaurant Teil 1: Die Speisekarte](#im-restaurant-teil-1-die-speisekarte)
-    - [Die Speisekarte](#die-speisekarte)
-      - [Opas Lieblingsbiere](#opas-lieblingsbiere)
-      - [Alles ohne Alkohol](#alles-ohne-alkohol)
-      - [Omas Suppen](#omas-suppen)
-      - [Salate](#salate)
-      - [Klassiker](#klassiker)
-      - [Fleisch von Omas Herd](#fleisch-von-omas-herd)
-  - [Im Restaurant Teil 2: Getränke und einen Gruß aus der Küche](#im-restaurant-teil-2-getränke-und-einen-gruß-aus-der-küche)
-  - [Im Restaurant Teil 3: das Essen und die Bezahlung](#im-restaurant-teil-3-das-essen-und-die-bezahlung)
-  - [Wie du Eselsbrücke erstellen kannst #meta](#wie-du-eselsbrücke-erstellen-kannst-meta)
-  - [Gute Nacht!](#gute-nacht)
-  - [Die vielen schönen Farben auf Rügen](#die-vielen-schönen-farben-auf-rügen)
-  - [Die Reihenfolge der Wörter in deutschen Sätzen #meta](#die-reihenfolge-der-wörter-in-deutschen-sätzen-meta)
-  - [Die Schmidts schreiben eine Postkarte](#die-schmidts-schreiben-eine-postkarte)
-  - [Wo ist die Post?](#wo-ist-die-post)
-  - [So lernst du den Akzent und die Betonung #meta](#so-lernst-du-den-akzent-und-die-betonung-meta)
-  - [Mit dem Bus nach Berlin!](#mit-dem-bus-nach-berlin)
-  - [Der Geschäftsmann](#der-geschäftsmann)
-  - [Beim Arzt](#beim-arzt)
-  - [Anna geht einkaufen](#anna-geht-einkaufen)
+	- [Endlich Urlaub!](#endlich-urlaub)
+	- [Mit der Bahn nach Rügen](#mit-der-bahn-nach-rügen)
+	- [Zu welcher Tageszeit ist das?](#zu-welcher-tageszeit-ist-das)
+	- [Probleme im Hotel](#probleme-im-hotel)
+	- [Wie bitte? Wie heißen Sie? #quiz](#wie-bitte-wie-heißen-sie-quiz)
+	- [Jochen hört Podcasts über Rügen](#jochen-hört-podcasts-über-rügen)
+	- [Im Restaurant Teil 1: Die Speisekarte](#im-restaurant-teil-1-die-speisekarte)
+		- [Die Speisekarte](#die-speisekarte)
+			- [Opas Lieblingsbiere](#opas-lieblingsbiere)
+			- [Alles ohne Alkohol](#alles-ohne-alkohol)
+			- [Omas Suppen](#omas-suppen)
+			- [Salate](#salate)
+			- [Klassiker](#klassiker)
+			- [Fleisch von Omas Herd](#fleisch-von-omas-herd)
+	- [Was würdest du bestellen?](#was-würdest-du-bestellen)
+	- [Im Restaurant Teil 2: Getränke und einen Gruß aus der Küche](#im-restaurant-teil-2-getränke-und-einen-gruß-aus-der-küche)
+	- [Im Restaurant Teil 3: das Essen und die Bezahlung](#im-restaurant-teil-3-das-essen-und-die-bezahlung)
+	- [Wie du Eselsbrücke erstellen kannst #meta](#wie-du-eselsbrücke-erstellen-kannst-meta)
+	- [Gute Nacht!](#gute-nacht)
+	- [Die vielen schönen Farben auf Rügen](#die-vielen-schönen-farben-auf-rügen)
+	- [Die Reihenfolge der Wörter in deutschen Sätzen #meta](#die-reihenfolge-der-wörter-in-deutschen-sätzen-meta)
+	- [Die Schmidts schreiben eine Postkarte](#die-schmidts-schreiben-eine-postkarte)
+	- [Eine E-Mail von Emma #quiz](#eine-e-mail-von-emma-quiz)
+	- [Wo ist die Post?](#wo-ist-die-post)
+	- [Wir haben uns verlaufen!](#wir-haben-uns-verlaufen)
+	- [So lernst du den Akzent und die Betonung #meta](#so-lernst-du-den-akzent-und-die-betonung-meta)
+	- [Mit dem Bus nach Berlin!](#mit-dem-bus-nach-berlin)
+	- [Wir brauchen Fahrkarten](#wir-brauchen-fahrkarten)
+	- [Der Geschäftsmann](#der-geschäftsmann)
+	- [Berliner Sehenswürdigkeiten](#berliner-sehenswürdigkeiten)
+	- [Eine E-Mail von Emma](#eine-e-mail-von-emma)
+	- [Lass uns Emma antworten! #quiz](#lass-uns-emma-antworten-quiz)
+	- [Wann und wo haben wir diese Fotos gemacht?](#wann-und-wo-haben-wir-diese-fotos-gemacht)
+- [Wie geht es dir?](#wie-geht-es-dir)
+	- [Wie geht es dir wirklich?](#wie-geht-es-dir-wirklich)
+	- [Beim Arzt](#beim-arzt)
+	- [Geht es dir besser?](#geht-es-dir-besser)
+- [Annas großer Einkauf](#annas-großer-einkauf)
+	- [Der Einkaufszettel #quiz](#der-einkaufszettel-quiz)
+	- [Im Laden #quiz #immersion](#im-laden-quiz-immersion)
+	- [An der Käsetheke](#an-der-käsetheke)
+	- [An der Kasse #quiz #immersion](#an-der-kasse-quiz-immersion)
 - [Die Welt der Zukunft](#die-welt-der-zukunft)
-  - [Lukas wird älter](#lukas-wird-älter)
-  - [Eine formale Begrüßung](#eine-formale-begrüßung)
-  - [Eine Formale Begrüßung #quiz](#eine-formale-begrüßung-quiz)
-  - [Lukas studiert](#lukas-studiert)
-  - [Lukas trifft eine junge Frau](#lukas-trifft-eine-junge-frau)
-  - [Lukas trifft sich mit Sophia](#lukas-trifft-sich-mit-sophia)
-  - [Andere vorstellen](#andere-vorstellen)
-  - [Sophia auf der Arbeit](#sophia-auf-der-arbeit)
-  - [Die Hochzeit von Sophia und Lukas](#die-hochzeit-von-sophia-und-lukas)
-      - [Anzeige: Wir werden heiraten!](#anzeige-wir-werden-heiraten)
-  - [Beim Fotographen](#beim-fotographen)
+	- [Lukas wird älter](#lukas-wird-älter)
+	- [Lukas möchte neue Freunde treffen](#lukas-möchte-neue-freunde-treffen)
+	- [Lukas trifft sich mit seinen Freunden](#lukas-trifft-sich-mit-seinen-freunden)
+	- [Lukas studiert](#lukas-studiert)
+	- [Auf Wohnungssuche](#auf-wohnungssuche)
+	- [Neue Möbel gesucht](#neue-möbel-gesucht)
+	- [Bestellung per Telefon](#bestellung-per-telefon)
+	- [Die Aufgaben im Haushalt #quiz](#die-aufgaben-im-haushalt-quiz)
+	- [Lukas probiert andere Sportarten](#lukas-probiert-andere-sportarten)
+	- [Lukas' Studentenjob Job](#lukas-studentenjob-job)
+	- [Eine Formale Begrüßung #quiz](#eine-formale-begrüßung-quiz)
+	- [Lukas erzählt seinen Eltern von seinem neuen Zimmer](#lukas-erzählt-seinen-eltern-von-seinem-neuen-zimmer)
+	- [Lukas trifft eine junge Frau](#lukas-trifft-eine-junge-frau)
+	- [Schöne Kleidung für das Date](#schöne-kleidung-für-das-date)
+	- [Lukas trifft sich mit Sophia](#lukas-trifft-sich-mit-sophia)
+	- [Sophia und Lukas sprechen über ihre Freizeitaktivitäten](#sophia-und-lukas-sprechen-über-ihre-freizeitaktivitäten)
+	- [Sophia auf der Arbeit](#sophia-auf-der-arbeit)
+	- [Der Banküberfall](#der-banküberfall)
+	- [Die Zeugenaussage #quiz](#die-zeugenaussage-quiz)
+	- [Lukas erzählt seinen Eltern vom Banküberfall #quiz](#lukas-erzählt-seinen-eltern-vom-banküberfall-quiz)
+	- [Sophia und Lukas planen ein weiteres Treffen](#sophia-und-lukas-planen-ein-weiteres-treffen)
+	- [Wie findest du diesen Vorschlag? #quiz](#wie-findest-du-diesen-vorschlag-quiz)
+	- [Lukas und Sophia kochen](#lukas-und-sophia-kochen)
+	- [Lukas stellt Sophia seinen Eltern vor](#lukas-stellt-sophia-seinen-eltern-vor)
+	- [Sophia und Lukas planen ihre Hochzeit](#sophia-und-lukas-planen-ihre-hochzeit)
+	- [Was haben sie gesagt?](#was-haben-sie-gesagt)
+	- [Lukas und Sophia brauchen Hilfe](#lukas-und-sophia-brauchen-hilfe)
+	- [Die Hochzeit von Sophia und Lukas](#die-hochzeit-von-sophia-und-lukas)
+			- [Anzeige: Wir werden heiraten!](#anzeige-wir-werden-heiraten)
+	- [Viele Termine! #quiz](#viele-termine-quiz)
+	- [Beim Fotographen](#beim-fotographen)
 - [Bonus-Kurs: Die Geschichte der Deutschen](#bonus-kurs-die-geschichte-der-deutschen)
-  - [Die Anfänge](#die-anfänge)
-  - [Kriege und das Ende des Heilige Römische Reich deutscher Nation](#kriege-und-das-ende-des-heilige-römische-reich-deutscher-nation)
-  - [Video: Die Hansestädte](#video-die-hansestädte)
-  - [Der Deutsche Bund und der Norddeutsche Bund](#der-deutsche-bund-und-der-norddeutsche-bund)
-  - [Das deutsche Kaiserreichs](#das-deutsche-kaiserreichs)
-  - [Der erste Weltkrieg](#der-erste-weltkrieg)
-  - [Die Weimarer Republik](#die-weimarer-republik)
-  - [Das Ende der Weimarer Republik](#das-ende-der-weimarer-republik)
-  - [Der NS-Staat](#der-ns-staat)
-  - [Der zweite Weltkrieg](#der-zweite-weltkrieg)
-  - [Die deutsche Teilung und der kalte Krieg](#die-deutsche-teilung-und-der-kalte-krieg)
-  - [Video: Die Luftbrücke](#video-die-luftbrücke)
-  - [Der Fall der Mauer und die Wiedervereinigung](#der-fall-der-mauer-und-die-wiedervereinigung)
-  - [Nach der Wiedervereinigung](#nach-der-wiedervereinigung)
-  - [Vergangenheitsbewältigung](#vergangenheitsbewältigung)
+	- [Die Anfänge](#die-anfänge)
+	- [Kriege und das Ende des Heilige Römische Reich deutscher Nation](#kriege-und-das-ende-des-heilige-römische-reich-deutscher-nation)
+	- [Video: Die Hansestädte](#video-die-hansestädte)
+	- [Der Deutsche Bund und der Norddeutsche Bund](#der-deutsche-bund-und-der-norddeutsche-bund)
+	- [Das deutsche Kaiserreichs](#das-deutsche-kaiserreichs)
+	- [Der erste Weltkrieg](#der-erste-weltkrieg)
+	- [Die Weimarer Republik](#die-weimarer-republik)
+	- [Das Ende der Weimarer Republik](#das-ende-der-weimarer-republik)
+	- [Der NS-Staat](#der-ns-staat)
+	- [Der zweite Weltkrieg](#der-zweite-weltkrieg)
+	- [Die deutsche Teilung und der kalte Krieg](#die-deutsche-teilung-und-der-kalte-krieg)
+	- [Video: Die Luftbrücke](#video-die-luftbrücke)
+	- [Der Fall der Mauer und die Wiedervereinigung](#der-fall-der-mauer-und-die-wiedervereinigung)
+	- [Wann war die Wiedervereinigung? #quiz](#wann-war-die-wiedervereinigung-quiz)
+	- [Nach der Wiedervereinigung](#nach-der-wiedervereinigung)
+	- [Vergangenheitsbewältigung](#vergangenheitsbewältigung)
+- [Prüfungsvorbereitung: Grammatik (skip for now)](#prüfungsvorbereitung-grammatik-skip-for-now)
+	- [Ein wichtiger Rat](#ein-wichtiger-rat)
+	- [Lektion 1](#lektion-1)
+	- [Lektion 2](#lektion-2)
+	- [Lektion 3](#lektion-3)
+	- [Lektion 4](#lektion-4)
+	- [Lektion 5](#lektion-5)
+	- [Lektion 6](#lektion-6)
+	- [Lektion 7](#lektion-7)
+	- [Lektion 8](#lektion-8)
+- [Übungsbuchteil](#Übungsbuchteil)
+- [Prüfungsvorbereitung (skip for now)](#prüfungsvorbereitung-skip-for-now)
+	- [Über ein Tortendiagramm sprechen](#Über-ein-tortendiagramm-sprechen)
+	- [Deutschlernen mit Gedichten: Was die Waschmaschine sagt](#deutschlernen-mit-gedichten-was-die-waschmaschine-sagt)
+- [Bonus: Sie alle lieben Deutschland](#bonus-sie-alle-lieben-deutschland)
 - [Carlos' Reise](#carlos-reise)
-  - [Carlos kommt in Deutschland an](#carlos-kommt-in-deutschland-an)
-  - [Carlos stellt sich vor](#carlos-stellt-sich-vor)
-  - [Carlos erster Tag](#carlos-erster-tag)
-  - [Carlos trifft einen Bayern](#carlos-trifft-einen-bayern)
+	- [Carlos kommt in Deutschland an](#carlos-kommt-in-deutschland-an)
+	- [Carlos stellt sich vor](#carlos-stellt-sich-vor)
+	- [Carlos erster Tag](#carlos-erster-tag)
+	- [Carlos trifft einen Bayern](#carlos-trifft-einen-bayern)
 - [Jacobs Reise](#jacobs-reise)
-  - [Jacob kommt in Berlin an](#jacob-kommt-in-berlin-an)
+	- [Jacob kommt in Berlin an](#jacob-kommt-in-berlin-an)
 - [Bill und Alessandro](#bill-und-alessandro)
-  - [Wie Bill Deutsch lernt](#wie-bill-deutsch-lernt)
-  - [Das Telefon klingelt](#das-telefon-klingelt)
-  - [Lerne Alessandro kennen!](#lerne-alessandro-kennen)
-  - [Alessandro erzählt uns von der Luftbrücke](#alessandro-erzählt-uns-von-der-luftbrücke)
-  - [Alles ist möglich!](#alles-ist-möglich)
-  - [Alessandro fährt mit der Bahn nach Berlin](#alessandro-fährt-mit-der-bahn-nach-berlin)
-  - [Alessandro trifft Bill am Brandenburger Tor.](#alessandro-trifft-bill-am-brandenburger-tor)
+	- [Wie Bill Deutsch lernt](#wie-bill-deutsch-lernt)
+	- [Das Telefon klingelt](#das-telefon-klingelt)
+	- [Lerne Alessandro kennen!](#lerne-alessandro-kennen)
+	- [Alessandro erzählt uns von der Luftbrücke](#alessandro-erzählt-uns-von-der-luftbrücke)
+	- [Alles ist möglich!](#alles-ist-möglich)
+	- [Alessandro fährt mit der Bahn nach Berlin](#alessandro-fährt-mit-der-bahn-nach-berlin)
+	- [Alessandro trifft Bill am Brandenburger Tor.](#alessandro-trifft-bill-am-brandenburger-tor)
 - [Yui Nakamura](#yui-nakamura)
-  - [Yui schickt einen Brief nach Hause](#yui-schickt-einen-brief-nach-hause)
+	- [Yui schickt einen Brief nach Hause](#yui-schickt-einen-brief-nach-hause)
 - [Sophia Brooks](#sophia-brooks)
 - [Das Märchen "Tischlein, deck dich!"](#das-märchen-tischlein-deck-dich)
-  - [Der erste Sohn hat ganz großes Pech.](#der-erste-sohn-hat-ganz-großes-pech)
-  - [Der zweite Sohn erlebt dasselbe Schicksal.](#der-zweite-sohn-erlebt-dasselbe-schicksal)
-  - [Der dritte Tag, eine weitere Tragödie](#der-dritte-tag-eine-weitere-tragödie)
-  - [Der Vater lernt die Wahrheit kennen](#der-vater-lernt-die-wahrheit-kennen)
-  - [Die Söhne in der weiten Welt](#die-söhne-in-der-weiten-welt)
-    - [Der Weg des ersten Sohnes](#der-weg-des-ersten-sohnes)
-    - [Der Weg des zweiten Sohnes](#der-weg-des-zweiten-sohnes)
-  - [Schluss](#schluss)
+	- [Der erste Sohn hat ganz großes Pech.](#der-erste-sohn-hat-ganz-großes-pech)
+	- [Der zweite Sohn erlebt dasselbe Schicksal.](#der-zweite-sohn-erlebt-dasselbe-schicksal)
+	- [Der dritte Tag, eine weitere Tragödie](#der-dritte-tag-eine-weitere-tragödie)
+	- [Der Vater lernt die Wahrheit kennen](#der-vater-lernt-die-wahrheit-kennen)
+	- [Die Söhne in der weiten Welt](#die-söhne-in-der-weiten-welt)
+		- [Der Weg des ersten Sohnes](#der-weg-des-ersten-sohnes)
+		- [Der Weg des zweiten Sohnes](#der-weg-des-zweiten-sohnes)
+	- [Schluss](#schluss)
 - [Julia Engelmann – Eines Tages, baby, werden wir alt sein!“](#julia-engelmann--eines-tages-baby-werden-wir-alt-sein)
 - [Lasst uns nach den Sternen greifen!](#lasst-uns-nach-den-sternen-greifen)
 - [Alle deine Probleme sind lösbar](#alle-deine-probleme-sind-lösbar)
@@ -2583,33 +3117,42 @@ INHALTSVERZEICHNIS
 - [Warum sind wir so reich?](#warum-sind-wir-so-reich)
 - [Was macht Fortschritt möglich? Eine Meinung.](#was-macht-fortschritt-möglich-eine-meinung)
 - [Dieser Kurs ist anders](#dieser-kurs-ist-anders)
-  - [Dieser Kurs ist inspirierend](#dieser-kurs-ist-inspirierend)
-  - [Dieser Kurs ist zukunftsorientiert](#dieser-kurs-ist-zukunftsorientiert)
-  - [Dieser Kurs ist nicht einfach](#dieser-kurs-ist-nicht-einfach)
-- [Deutsche Visionäre](#deutsche-visionäre)
-  - [der Neuzeit](#der-neuzeit)
-    - [New Made in Germany – Deutsche Startups starten durch | Abenteuer Leben](#new-made-in-germany--deutsche-startups-starten-durch--abenteuer-leben)
-  - [der Vergangenheit](#der-vergangenheit)
-    - [Vordenker und Visionäre: 50 deutsche Vorbilder (Zeit)](#vordenker-und-visionäre-50-deutsche-vorbilder-zeit)
-      - [Vorbild – das ist ein großes Wort](#vorbild--das-ist-ein-großes-wort)
+	- [Dieser Kurs ist inspirierend](#dieser-kurs-ist-inspirierend)
+	- [Dieser Kurs ist zukunftsorientiert](#dieser-kurs-ist-zukunftsorientiert)
+	- [Dieser Teil ist nicht einfach](#dieser-teil-ist-nicht-einfach)
+- [Schriftsteller, Musiker, Visionäre](#schriftsteller-musiker-visionäre)
+	- [der Neuzeit](#der-neuzeit)
+		- [New Made in Germany – Deutsche Startups starten durch | Abenteuer Leben](#new-made-in-germany--deutsche-startups-starten-durch--abenteuer-leben)
+	- [der Vergangenheit](#der-vergangenheit)
+		- [Vordenker und Visionäre: 50 deutsche Vorbilder (Zeit)](#vordenker-und-visionäre-50-deutsche-vorbilder-zeit)
+			- [Vorbild – das ist ein großes Wort](#vorbild--das-ist-ein-großes-wort)
 - [Visionäre](#visionäre)
-  - [Elon Musk](#elon-musk)
-  - [Jeff Bezos](#jeff-bezos)
-- [Eselsbrücken](#eselsbrücken)
-- [Meditation](#meditation)
-- [Grundgesetz](#grundgesetz)
-- [Pokemon](#pokemon)
-- [Die Unendliche Geschichte](#die-unendliche-geschichte)
-- [Schneewittchen](#schneewittchen)
-- [Rumpelstilzchen](#rumpelstilzchen)
+	- [Elon Musk](#elon-musk)
+	- [Jeff Bezos](#jeff-bezos)
 - [Meine Geschichte](#meine-geschichte)
-  - [Meine Zeit als Kind](#meine-zeit-als-kind)
-  - [Meine Universität](#meine-universität)
-  - [Meine Lieblingsstadt](#meine-lieblingsstadt)
-  - [Ich sehe was, das du nicht siehst! (Farben)](#ich-sehe-was-das-du-nicht-siehst-farben)
-  - [Dorfkind oder Stadtkind?](#dorfkind-oder-stadtkind)
+	- [Meine Zeit als Kind](#meine-zeit-als-kind)
+	- [Meine Universität](#meine-universität)
+	- [Meine Lieblingsstadt](#meine-lieblingsstadt)
+	- [Ich sehe was, das du nicht siehst! (Farben)](#ich-sehe-was-das-du-nicht-siehst-farben)
+	- [Dorfkind oder Stadtkind?](#dorfkind-oder-stadtkind)
 
+Ideen
 
+- Meditation
+- Grundgesetz
+- Pokemon https://www.youtube.com/watch?v=s2119-wrJo0
+- Geschichten
+  - Die Unendliche Geschichte
+  - Schneewittchen
+  - Rumpelstilzchen
+
+## Deutschlernen mit Gedichten: Was die Waschmaschine sagt
+
+TODO Gedicht "Was die Waschmaschine sagt" lesen Lektion 6
+
+https://www.lilarum.at/fileadmin/user_upload/lilarum/Theaterstuecke_LILARUM/19_Katzen_reimen_sich_auf_Spatzen/Vorlese_Katzen.pdf
+
+# Bonus: Sie alle lieben Deutschland
 
 # Carlos' Reise
 
@@ -3382,7 +3925,7 @@ Du wirst erfahren, was die deutsche und westliche Kultur im Allgemeinen so groß
 
 Was ist deutsche Kultur? Traditionelle Kurse werden dir zusammenhanglos von der Geschichte erzählen und von bestimmten Verhaltensweisen, die wir Deutschen haben. Ich möchte dir auch etwas über die deutsche Kultur beibringen, aber auch erklären, auf welchen Ideen und Werten sie basiert und warum das in deinem Leben wichtig ist.
 
-## Dieser Kurs ist nicht einfach
+## Dieser Teil ist nicht einfach
 
 Warum sollte es gut sein, dass dieser Kurs nicht einfach ist?
 
@@ -3394,7 +3937,9 @@ In anderen Lektionen sind die Sätze komplizierter, weil ich über wichtige und 
 
 Kurzfristig gesehen, möchtest du die A1-Prüfung bestehen. Das ist schön und gut -- dieser Kurs wird dir dabei helfen. Am Ende des Kurses (wenn du meinen Anweisungen folgst) wirst du genug einfache Sätze sprechen können, um diese Prüfung zu bestehen.
 
-# Deutsche Visionäre
+# Schriftsteller, Musiker, Visionäre
+
+TODO Biographie verstehen Lektion 7
 
 ## der Neuzeit
 
@@ -3449,29 +3994,6 @@ Both Gary and Grant Cardone have tremendous energy and drive (actually all four)
 
 
 
-# Eselsbrücken
-
-- Eselsbrücken mit berühmten Personen: Thomas Mann, Hans Zimmer, Albert Einstein,  Helmut Kohl, Bastian Schweinsteiger, Henry Maske
-
-
-
-# Meditation
-
-# Grundgesetz
-
-
-
-
-
-
-# Pokemon
-
-https://www.youtube.com/watch?v=s2119-wrJo0
-
-
-# Die Unendliche Geschichte
-# Schneewittchen
-# Rumpelstilzchen
 
 
 # Meine Geschichte
@@ -3537,4 +4059,5 @@ TODO Deutsch mit Magie https://docs.google.com/document/d/1sYld9cdoVrJwAAI24QDrl
 TODO Zeitmanagement https://docs.google.com/document/d/1apd99aLox7f1pYNO7n22lftuHXA2sNRuQIKev-NHyqE/edit
 
 
-
+Gedichte zur Aussprache: https://mail.google.com/mail/u/0/#inbox/WhctKJVjMckZghlVQGLLCvdmxqKxqkSqMCKzxLnVwWmLzFSxQzfXLkSXXWHpWrrTpjlzDSV?projector=1&messagePartId=0.1
+https://mail.google.com/mail/u/0/#inbox/WhctKJVjMckZghlVQGLLCvdmxqKxqkSqMCKzxLnVwWmLzFSxQzfXLkSXXWHpWrrTpjlzDSV?projector=1&messagePartId=0.1

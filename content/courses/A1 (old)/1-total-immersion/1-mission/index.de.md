@@ -13,6 +13,12 @@ Hallo, ich bin Mark von Authentic German Learning.
 
 {{< img src="Mark" title="Das bin ich!" >}}
 
+Möchtest du schnell fließend Deutsch sprechen? Brauchst du Deutsch für dein Studium, den Beruf oder lernst es, weil es dir Spaß macht? Dann sind meine Kurse genau das Richtige für dich.
+
+Dieser Kurs konzentriert sich auf die wesentlichen Sachen beim Lernen: die wichtigsten Wörter und die richtige Methode.
+
+Die richtige Methode ist nicht nur effizient, sondern macht auch Spaß. Sie ist effizient, **weil** sie Spaß macht.
+
 Ich möchte, dass du die deutsche Sprache nicht nur erfolgreich lernst, sondern auch Spaß dabei hast.
 
 Ich möchte, dass Deutschlernen das Highlight deines Tages ist.
@@ -31,9 +37,11 @@ Seit 2015 lehre ich Deutsch und habe über 10,000 Deutschlerner gelehrt. Als Mut
 
 Dies möchte ich gleich am Anfang für dich verhindern. Deshalb habe ich diesen Kurse erstellt, um dich näher an dein Ziel zu bringen.
 
+Falls das Bestehen einer Deutschprüfung Teil deines Zieles ist, helfe ich dir mit notwendigen Übungen im Kurs. Falls du kein Deutsch-Zertifikat brauchst, kannst du diese Übungen ruhig überspringen.
+
 Du wirst mit diesem Kurs in die deutsche Sprache eintauchen und ein Gefühl für sie bekommen, die sonst nur Muttersprachler haben.
 
-Ich arbeite nur mit Menschen, die bereit sind, alte Denkweisen hinter sich zu lassen und Teil der Sprachlernrevolution zu sein.
+Ich arbeite nur mit Menschen, die bereit sind, alte Denkweisen hinter sich zu lassen und Teil der "Sprachlernrevolution" zu werden.
 
 Falls du ein solcher Mensch bist, wirst du viel aus diesem Kurs gewinnen.
 
