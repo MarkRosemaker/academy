@@ -62,5 +62,3 @@ Bravo! Du hast gelernt, wie du dich vorstellst.
 Nicht nur das: In dieser Lektion hast du über sechzig (60) neue deutsche Wörter gelernt!
 
 {{< /notice >}}
-
-

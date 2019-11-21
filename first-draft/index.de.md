@@ -11,11 +11,87 @@ audio = ''
 
 # Kurzanleitung und Motivation
 
-## Wie du das Interface benutzt #meta
+## Wie du das Interface benutzt #meta #video
+
+Klicke hier, um die Übersetzung an und auszuschalten.
+
+Klicke auf ein Wort, um den Wörterbucheintrag von Wiktionary auf Deutsch zu sehen.
+
+Falls du die Übersetzung angeschaltet hast, siehst du auch den englischen Eintrag.
+
+Es kann Spaß machen und sehr lehrreich, sich mit diesen Einträgen zu beschäfigten.
+
+Je mehr Deutsch du verstehst, desto besser wirst du die Wörterbucheinträge verstehen.
+
+Es gibt verschiedene Kategorien von Lektionen. Wie du jede Lektion am besten verwendest, wird am Anfang jeder Lektion erklärt.
+
+Es gibt eine Liste von Wörtern, die du für das A1-Niveau wissen musst. Diese Wörter sind gelb markiert und tauchen je mindestens zehn Mal im Kurs auf, sodass du sie sicher lernen wirst.
+
+Wörter, die du angeklickt hast, werden grün.
+
+Es gibt auch andere Modi! Hier unten kannst du einen anderen Modus auswählen, falls du die Wörter näher untersuchen möchtest.
+
+Wähle den Genera-Modus aus, um die Geschlechter der Wörter anzuzeigen. Es gibt keine Faustregel dafür, welches Nomen welches Geschlecht hat. Deshalb kannst du in diesem Modus die Substantive farblich markieren.
+
+Im dritten Modus sind die Wörter nach Wortart markiert. Substantive sind rot, Verben blau, und eine andere Wortart grün. Klicke auf eine Wortart,
+
+Die Inhalte wurden so gestaltet, dass du diesen Kurs sowohl auf dem Handy als auch auf dem Desktop lesen kannst.
+
+Auf dem Desktop hast du weitere Funktionen:
+
+Halte den Mauszeiger über ein Wort und du siehst die englische Übersetzung
+
+Manche deutsche Wörter haben viele Bedeutungen. Beachte also, dass nicht alle Übersetzungen angezeigt werden.
+
+In manchen Fällen siehst du sogar ein Bild.
+
+Das Interface ist nocht in Bearbeitung. Ich bin also für jegliches Feedback und Vorschläge offen.
 
 ## Die Mission #mindset
 
-## Tauche in die deutsche Sprache ein! #mindset
+Hallo, ich bin Mark von Authentic German Learning.
+
+{{< img src="Mark" title="Das bin ich!" >}}
+
+Möchtest du schnell fließend Deutsch sprechen? Brauchst du Deutsch für dein Studium, den Beruf oder lernst es, weil es dir Spaß macht? Dann sind meine Kurse genau das Richtige für dich.
+
+Dieser Kurs konzentriert sich auf die wesentlichen Sachen beim Lernen: die wichtigsten Wörter und die richtige Methode.
+
+Die richtige Methode ist nicht nur effizient, sondern macht auch Spaß. Sie ist effizient, **weil** sie Spaß macht.
+
+Ich möchte, dass du die deutsche Sprache nicht nur erfolgreich lernst, sondern auch Spaß dabei hast.
+
+Ich möchte, dass Deutschlernen das Highlight deines Tages ist.
+
+Die deutsche Sprache ist wunderschön, sehr ausdrucksreich und wird zu Recht die Sprache der Dichter und Denker genannt.
+
+Diese Schönheit möchte ich nicht kaputt machen, indem ich dir langweilige Lektionen präsentiere.
+
+Und ich möchte auch nicht -- wie es bei vielen traditionellen Schulen leider der Fall ist --, dass eine zu große Betonung auf Grammatik und Korrektheit dich verunsichert und dich beim Sprechen blockiert.
+
+Nein -- ich möchte, dass du auf eine authentische und angenehme Art und Weise Deutsch lernst. So wirst du bald selber ohne Hemmungen sprechen können.
+
+Ich werde dir die deutsche Grammatik auf eine verständliche Art erklären und dir Wege zeigen, wie du nicht von ihr überwältigt wirst.
+
+Seit 2015 lehre ich Deutsch und habe über 10,000 Deutschlerner gelehrt. Als Muttersprachler schmerzt es mich, dass manche von euch sehr frustriert sind, massive Probleme damit haben, selber zu sprechen und die Leidenschaft für diese schöne Sprache mit der Zeit immer mehr verlieren.
+
+Dies möchte ich gleich am Anfang für dich verhindern. Deshalb habe ich diesen Kurse erstellt, um dich näher an dein Ziel zu bringen.
+
+Falls das Bestehen einer Deutschprüfung Teil deines Zieles ist, helfe ich dir mit notwendigen Übungen im Kurs. Falls du kein Deutsch-Zertifikat brauchst, kannst du diese Übungen ruhig überspringen.
+
+Du wirst mit diesem Kurs in die deutsche Sprache eintauchen und ein Gefühl für sie bekommen, die sonst nur Muttersprachler haben.
+
+Ich arbeite nur mit Menschen, die bereit sind, alte Denkweisen hinter sich zu lassen und Teil der "Sprachlernrevolution" zu werden.
+
+Falls du ein solcher Mensch bist, wirst du viel aus diesem Kurs gewinnen.
+
+Los geht's!
+
+{{< notice type="Schlüssel" title="Der Schlüssel zum Erfolg" >}}
+
+Habe Spaß am Lernen und erfreue dich an der Schönheit der deutschen Sprache.
+
+{{< /notice >}}
 
 ## Die Reihenfolge ist deine Entscheidung!
 
@@ -30,6 +106,109 @@ TODO musst nicht der Reihenfolge folgen! Optionen:
 
 Achtung: Schaue dir jede Lektion mindestens einmal an und jede Immersionsübung zweimal, besser sogar dreimal!
 Mache jede Übung so lange, bis du sie ganz verstanden hast. Falls das ein Problem ist, mache erst alle Immersionsübungen
+
+## Tauche in die deutsche Sprache ein! #mindset
+
+Da dies ein Anfängerkurs ist, sprichst du wahrscheinlich sehr wenig oder überhaupt kein Deutsch.
+
+Kein Problem, schließlich gibt es ja die Übersetzung!
+
+Bestimmt hast du auch schon fasziniert all die fremden Wörter betrachtet.
+
+Na, hast du schon versucht zu erraten, was die deutschen Wörter bedeuten?
+
+Das ist, was so toll an diesem Kurs ist: Ich schreibe und spreche auf Deutsch, sodass du gleich von Anfang an ein Gefühl für die Sprache bekommst und sie erwerben kannst.
+
+Du denkst dir vielleicht, "Oje! Dann verstehe ich doch gar nicht, was du sagst!"
+
+Keine Sorge. Zum einen spreche ich immer sehr klar und langsam.
+
+Zum anderen gibt es fast immer eine Übersetzung für dich.
+
+{{< notice type="Tipp" >}}
+
+Du kannst auch die Geschwindigkeit ändern, mit der die Hördateien und Videos abgespielt werden.
+
+{{< rem >}}TODO gif das dies zeigt
+{{< /rem >}}
+
+{{< /notice >}}
+
+
+Es gibt in diesem Kurs drei Arten von Lektionen, die ich dir vermitteln möchte:
+
+- Meta-Informationen,
+- Mentalitäts-Tipps
+- und reine Immersionsübungen
+
+Es gibt nämlich ein paar Lerntechniken und wichtige Informationen über die deutsche Sprache (beides Meta-Informationen) und Tipps zur inneren Einstellung (Mentalität), die ich dir gerne vermitteln möchte.
+
+Da du Anfänger bist, wäre es sehr schwer, dir diese Tipps in deutscher Sprache zu erklären.
+
+Trotzdem präsentiere ich dir diese Lektionen auch in deutscher Sprache als Text und Hördatei, damit du in die deutsche Sprache eintauchen kannst.
+
+Es immer hilfreich, zusätzlich auch den deutschen Text zu lesen und die Tonaufnahme zu hören. Diese Immersion stärkt dein Sprachgefühl.
+
+Schließlich gibt es die reinen Immersionsübungen, die explizit dazu geschrieben sind, damit du in die Sprache eintauchen kannst. Sie sind möglichst einfach geschrieben und enthalten viele wichtige Wörter.
+
+{{< notice type="Tipp" >}}
+
+Lies und höre den deutschen Text jeder Lektion, um ein Gefühl für die deutsche Sprache zu bekommen.
+
+{{< /notice >}}
+
+Lass dich dabei allerdings nicht von den vielen unbekannten Wörtern überwältigen. Das Ziel ist es, *Muster zu erkennen* – nicht alle Vokabeln auswendig zu lernen.
+
+**Es wäre kontraproduktiv, schon jetzt alle Wörter in diesen Lektionen verstehen zu wollen.**
+
+Bei reinen Immersionsübungen ist dies jedoch anders: Hier solltest du dir die Bedeutungen aller Vokabeln merken.
+
+Mach dir jedoch kein Stress! Gerade am Anfang werden viele Vokabeln neu sein.
+
+Hauptsache, du hast die Vokabeln schon einmal gehört. Bei deiner nächsten "Begegnung" mit ihnen wirst du zumindest wissen, *dass* du ihnen schon einmal begegnet bist.
+
+Mit der Zeit brauchst du die Übersetzung in den Immersionsübungen immer weniger, da ich dir Deutsch Schritt für Schritt beibringe. Die Übersetzungen sollten nur eine *temporäre* Krücke sein.
+
+Das ist Ziel ist nämlich nicht, dich in eine "Übersetzungs-Maschine" zu verwandeln; das Ziel ist, dass du deutsche Wörter mit *realen Dingen* in der Welt und *realen Konzepten* assoziierst (anstatt anderen Wörtern in einer anderen Sprache).
+
+Mit der Zeit bekommst du ein Gefühl für die Sprache und kannst wie ein Muttersprachler sprechen.
+
+{{< notice type="Tipp" >}}
+
+Achte auch auf Vokabeln, die in Anweisungen vorkommen (wie "hören Sie" und "lesen Sie"), da du solche Anweisungen auch in Prüfungen bekommen wirst.
+
+{{< /notice >}}
+
+Ein wichtiger Punkt: **Entspanne dich.** Mache dir um nichts Sorgen, folge den Kurs einfach Schritt für Schritt.
+
+Solange du die **Übersetzung verstehst** und dir den Deutschen Text *zumindest* durchliest und anhörst, **machst du alles richtig**.
+
+Eine Sprache zu lernen dauert Zeit (allerdings nicht so lange wie manche Leute denken), habe also Geduld mit dir selbst.
+
+Später kannst du hierhin zurückkommen und erstaunt sein, wie viel du gelernt hast!
+
+{{< notice type="Hinweis" title="Häufige Ausreden und negativen Gedanken" >}}
+Falls du denkst, dass
+
+- du dir schlecht Vokabeln merken kannst,
+- [zu alt](TODO Link zu 100 jährigen) oder zu jung bist,
+- schlecht im Sprachenlernen bist,
+- oder nicht Deutsch lernen kannst ohne nach Deutschland zu reisen,
+
+dann sage ich: papperlapapp!
+
+Zum einen denke ich nicht, dass es wahr ist, zum anderen wirst du es mit dieser Methode trotzdem schaffen, selbst wenn es wahr wäre.
+
+Erinnere dich stets daran: **Lernen ist ein Abenteuer.**
+{{< /notice >}}
+
+{{< notice type="Erfolg" >}}
+
+Bravo! Du hast gelernt, wie du mit diesem Kurs Deutsch lernst.
+
+{{< /notice >}}
+
+Bist du bereit? Dann lass uns mit der ersten *reinen* Immersionsübung anfangen!
 
 # Totale Immersion von Anfang an: wie du effektiv Deutsch lernst
 
@@ -77,12 +256,17 @@ In Ordnung, los geht’s!
 
 Wir sehen uns in der nächsten Lektion.
 
+
 ## Stelle dich vor! #quiz
 
+
+DONE sich begrüßen Kursbuch Lektion 1
 
 [In diesem Quiz hast du gelernt, wie du dich selbst vorstellst und wie du andere informell vorstellst.]
 TODO sich begrüßen alt Lektion 1
 
+DONE sich und andere vorstellen: formell/informell Kursbuch Lektion 1
+TODO sich und andere vorstellen Übungsbuchteil Lektion 1
 
 ## Lerne spielerisch Deutsch! #mindset
 
@@ -2538,98 +2722,192 @@ Ich bin jederzeit da, falls du eine Frage hast. Danke, dass du an diesem Kurs ü
 
 - Dein Mark
 
+
+
+OVERVIEW
 # Kursbuch
 
 ## Lektion 1
 
-- sich begrüßen Kursbuch Lektion 1
-- sich und andere vorstellen: formell/informell Kursbuch Lektion 1
-- Zahlen von 1 bis 1 Milliarde verstehen und sprechen Kursbuch Lektion 1
-- Telefonnummern verstehen und sprechen Kursbuch Lektion 1
-- Namen buchstabieren und notieren Kursbuch Lektion 1
-- Personalbogen ausfüllen Kursbuch Lektion 1
-- sagen, woher man kommt: Adresse, Land, Kontinent Kursbuch Lektion 1
-- über Tortendiagramm sprechen Kursbuch Lektion 1
-- Kurssprache verstehen Kursbuch Lektion 1
+
+
+
+TODO Zahlen von 1 bis 1 Milliarde verstehen und sprechen Kursbuch Lektion 1
+TODO Telefonnummern verstehen und sprechen Kursbuch Lektion 1
+TODO Namen buchstabieren und notieren Kursbuch Lektion 1
+TODO Personalbogen ausfüllen Kursbuch Lektion 1
+TODO sagen, woher man kommt: Adresse, Land, Kontinent Kursbuch Lektion 1
+TODO über Tortendiagramm sprechen Kursbuch Lektion 1
+TODO Kurssprache verstehen Kursbuch Lektion 1
+TODO regelmäßige Verben im Präsens Grammatik Lektion 1
+TODO "sein" im Präsens Grammatik Lektion 1
+TODO Personalpronomen im Nominativ Grammatik Lektion 1
+TODO Wortstellung: Aussagesatz, W-Frage mit Wie?, Wo?, Woher?, Ja/Nein-Frage Grammatik Lektion 1
+TODO sich in DACH begrüßen und verabschieden Übungsbuchteil Lektion 1
+TODO Länder und Kontinente Übungsbuchteil Lektion 1
+TODO Sprachen und Nationalitäten Übungsbuchteil Lektion 1
+TODO Zahlen von 1 bis 1 Milliarde Übungsbuchteil Lektion 1
+TODO Namen buchstabieren Übungsbuchteil Lektion 1
+TODO Steckbriefe von Kursteilnehmern herstellen und erraten Projekt 1
+TODO Satzmelodie in kurzen Aussagesätzen und Fragen Phonetik 1
 
 ## Lektion 2
 
-- Uhrzeigen verstehen und sagen: formell/informell Kursbuch Lektion 2
-- Tageszeiten verstehen und sagen Kursbuch Lektion 2
-- über Termine sprechen Kursbuch Lektion 2
-- Kulturangebote verstehen Kursbuch Lektion 2
-- Verabredungen verstehen Kursbuch Lektion 2
-- über Musikstile sprechen Kursbuch Lektion 2
-- Monate, Datum, Jahreszeiten und Jahreszahlen verstehen und nennen Kursbuch Lektion 2
-- eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
+TODO Uhrzeigen verstehen und sagen: formell/informell Kursbuch Lektion 2
+TODO Tageszeiten verstehen und sagen Kursbuch Lektion 2
+TODO über Termine sprechen Kursbuch Lektion 2
+TODO Kulturangebote verstehen Kursbuch Lektion 2
+TODO Verabredungen verstehen Kursbuch Lektion 2
+TODO über Musikstile sprechen Kursbuch Lektion 2
+TODO Monate, Datum, Jahreszeiten und Jahreszahlen verstehen und nennen Kursbuch Lektion 2
+TODO eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
+TODO Verneinung: "nicht" und "kein" Grammatik Lektion 2
+TODO Worstellung: Aussagesatz Grammatik Lektion 2
+TODO bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ Grammatik Lektion 2
+TODO Personalpronomen im Akkusativ Grammatik Lektion 2
+TODO W-Fragen mit Wer?, Was?, Wen?, Wann? Grammatik Lektion 2
+TODO Genitiv-s bei Personennamen Grammatik Lektion 2
+TODO Wochentage und Tageszeiten Übungsbuchteil Lektion 2
+TODO Uhrzeiten: offizielle und inoffiziell Übungsbuchteil Lektion 2
+TODO Fragen zu Terminen stellen und beantworten Übungsbuchteil Lektion 2
+TODO mithilfe von W-Fragen Texte erschließen Übungsbuchteil Lektion 2
+TODO Ordinalzahlen (Datum) und Jahreszahlen Übungsbuchteil Lektion 2
+TODO Jahreszahlen und Monatsnamen Übungsbuchteil Lektion 2
+TODO "schon" und "erst" Übungsbuchteil Lektion 2
 
 ## Lektion 3
 
-- Aufgaben im Haushalt verstehen Kursbuch Lektion 3
-- sich austauschen, was man kann, muss und möchte Kursbuch Lektion 3
-- Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungen verstehen Kursbuch Lektion 3
-- Preise verstehen und sagen Kursbuch Lektion 3
-- Einkaufszettel schreiben Kursbuch Lektion 3
-- Verkaufsgepräch an der Käsetheke vestehen und nachspielen Kursbuch Lektion 3
-- über die Familie sprechen Kursbuch Lektion 3
-- Berufe verstehen Kursbuch Lektion 3
-- über Tortendiagramm mit Prozentzahlen sprechen Kursbuch Lektion 3
+TODO Aufgaben im Haushalt verstehen Kursbuch Lektion 3
+TODO sich austauschen, was man kann, muss und möchte Kursbuch Lektion 3
+TODO Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungen verstehen Kursbuch Lektion 3
+TODO Preise verstehen und sagen Kursbuch Lektion 3
+TODO Einkaufszettel schreiben Kursbuch Lektion 3
+TODO Verkaufsgepräch an der Käsetheke vestehen und nachspielen Kursbuch Lektion 3
+TODO über die Familie sprechen Kursbuch Lektion 3
+TODO Berufe verstehen Kursbuch Lektion 3
+TODO über Tortendiagramm mit Prozentzahlen sprechen Kursbuch Lektion 3
+TODO Modalverben im Präsens: "können", "müssen", möcht-" Grammatik Lektion 3
+TODO Worstellung in Sätzen mit Modalverben Grammatik Lektion 3
+TODO Konnektor: "und" Grammatik Lektion 3
+TODO "noch" =/= "kein ... mehr" Grammatik Lektion 3
+TODO W-Fragen mit Wie viel?, Wie viele? Grammatik Lektion 3
+TODO Possesivartikel im Nominativ Grammatik Lektion 3
+TODO Wortschatz zum Thema "Haushalt" Übungsbuchteil Lektion 3
+TODO Lebensmittel und Getränke Übungsbuchteil Lektion 3
+TODO Mengenangaben und Verpackungen Übungsbuchteil Lektion 3
+TODO Preise und Währungen Übungsbuchteil Lektion 3
+TODO Einkaufsgespräche spielen Übungsbuchteil Lektion 3
+TODO Berufsbezeichnungen Übungsbuchteil Lektion 3
+TODO Familienmitglieder Übungsbuchteil Lektion 3
 
 ## Lektion 4
 
-- Freizeitanzeigen verstehen Kursbuch Lektion 4
-- über Freizeit, Hobbys und Sportarten sprechen Kursbuch Lektion 4
-- Anzeigen für Freizeitpartner schreiben bzw. darauf antworten Kursbuch Lektion 4
-- Vorlieben und Abneigungen audrücken Kursbuch Lektion 4
-- Flyer über Sportangebote verstehen Kursbuch Lektion 4
-- sich über Sportangebote informieren Kursbuch Lektion 4
-- Zeitungsartikel über Halbmarathon verstehen Kursbuch Lektion 4
-- sich für Halbmarathon anmelden Kursbuch Lektion 4
+TODO Freizeitanzeigen verstehen Kursbuch Lektion 4
+TODO über Freizeit, Hobbys und Sportarten sprechen Kursbuch Lektion 4
+TODO Anzeigen für Freizeitpartner schreiben bzw. darauf antworten Kursbuch Lektion 4
+TODO Vorlieben und Abneigungen audrücken Kursbuch Lektion 4
+TODO Flyer über Sportangebote verstehen Kursbuch Lektion 4
+TODO sich über Sportangebote informieren Kursbuch Lektion 4
+TODO Zeitungsartikel über Halbmarathon verstehen Kursbuch Lektion 4
+TODO sich für Halbmarathon anmelden Kursbuch Lektion 4
+TODO Verben mit Vokalwechsel im Präsens Grammatik Lektion 4
+TODO Modalverben im Präsens: "dürfen", "wollen", "mögen" Grammatik Lektion 4
+TODO "haben", "sein" im Präteritum Grammatik Lektion 4
+TODO regelmäßige Verben im Perfekt Grammatik Lektion 4
+TODO Konnektoren "denn", "oder", "aber" Grammatik Lektion 4
+TODO Wortschatz zum Thema "Sport/Freizeit" Übungsbuchteil Lektion 4
+TODO Vorlieben und Abneigungen ausdrücken Übungsbuchteil Lektion 4
+TODO Anzeigen über Freizeitangebote verstehen und antworten Übungsbuchteil Lektion 4
+TODO Abkürzungen verstehen und verwenden Übungsbuchteil Lektion 4
 
 ## Lektion 5
 
-- Informationen über das Befinden verstehen und über das eigene Bedürfnis sprechen Kursbuch Lektion 5
-- Informationen über ein Zimmer, eine Wohnung verstehen und weitergeben Kursbuch Lektion 5
-- über sein Wochenende sprechen Kursbuch Lektion 5
-- Möbelanzeigen verstehen Kursbuch Lektion 5
-- telefonisch einen Möbelkauf verabreden Kursbuch Lektion 5
-- sein Zimmer schriftlich und mündlich beschreiben Kursbuch Lektion 5
-- Nachricht an den Vermieter verstehen Kursbuch Lektion 5
+TODO Informationen über das Befinden verstehen und über das eigene Bedürfnis sprechen Kursbuch Lektion 5
+TODO Informationen über ein Zimmer, eine Wohnung verstehen und weitergeben Kursbuch Lektion 5
+TODO über sein Wochenende sprechen Kursbuch Lektion 5
+TODO Möbelanzeigen verstehen Kursbuch Lektion 5
+TODO telefonisch einen Möbelkauf verabreden Kursbuch Lektion 5
+TODO sein Zimmer schriftlich und mündlich beschreiben Kursbuch Lektion 5
+TODO Nachricht an den Vermieter verstehen Kursbuch Lektion 5
+TODO Verben mit trennbaren Vorsilben im Präsens und Perfekt Grammatik Lektion 5
+TODO Verben mit trennbaren Vorsilben und Modalverben im Präsens Grammatik Lektion 5
+TODO Verben mit untrennbaren Vorsilben im Perfekt Grammatik Lektion 5
+TODO unregelmäßige und gemischte Verben im Perfekt Grammatik Lektion 5
+TODO Redemittel zum Thema "Befinden" Übungsbuchteil Lektion 5
+TODO Wohnung und Zimmer Übungsbuchteil Lektion 5
+TODO Möbel und Materialien Übungsbuchteil Lektion 5
+TODO Redemittel zum Thema "Möbelkauf" Übungsbuchteil Lektion 5
+TODO über Vergangenes sprechen und schreiben Übungsbuchteil Lektion 5
+TODO eine Antwortmail schreiben Übungsbuchteil Lektion 5
 
 ## Lektion 6
 
-- Webseiten zum Thema "Waschsalon" verstehen und mit Waschsalongs zu Hause vergleichen Kursbuch Lektion 6
-- schriftliche Anleitungen verstehen und formulieren Kursbuch Lektion 6
-- Vorschläge verstehen und machen Kursbuch Lektion 6
-- Bezeichnungen für Kleidungsstücke und Farben verstehen Kursbuch Lektion 6
-- Anweisungen verstehen und höflich nachfragen Kursbuch Lektion 6
-- Anweisungen notieren, auf Anweisungen reagieren Kursbuch Lektion 6
-- Ereignisse im Waschsalon nachverfolgen und in E-Mail beschreiben Kursbuch Lektion 6
-- Gedicht "Was die Waschmaschine sagt" lesen Kursbuch Lektion 6
+TODO Webseiten zum Thema "Waschsalon" verstehen und mit Waschsalongs zu Hause vergleichen Kursbuch Lektion 6
+TODO schriftliche Anleitungen verstehen und formulieren Kursbuch Lektion 6
+TODO Vorschläge verstehen und machen Kursbuch Lektion 6
+TODO Bezeichnungen für Kleidungsstücke und Farben verstehen Kursbuch Lektion 6
+TODO Anweisungen verstehen und höflich nachfragen Kursbuch Lektion 6
+TODO Anweisungen notieren, auf Anweisungen reagieren Kursbuch Lektion 6
+TODO Ereignisse im Waschsalon nachverfolgen und in E-Mail beschreiben Kursbuch Lektion 6
+TODO Gedicht "Was die Waschmaschine sagt" lesen Kursbuch Lektion 6
+TODO formelle Imperativsätze mit "Sie" Grammatik Lektion 6
+TODO informelle Imperativsätze Grammatik Lektion 6
+TODO Vorschläge mit "wir" Grammatik Lektion 6
+TODO Voschläge mit "Sollen/Wollen wir ...?", "Soll ich ...? Grammatik Lektion 6
+TODO Modalpartikeln: "doch", "mal", "doch mal" Grammatik Lektion 6
+TODO Aufforderungen (Anweisungen, Anleitungen, Vorschläge) verstehen und formulieren Übungsbuchteil Lektion 6
+TODO höflich bitten, fragen, nachfragen und antworten Übungsbuchteil Lektion 6
+TODO Kleider, Materialien und Farben Übungsbuchteil Lektion 6
+TODO "ein Paar" und "ein paar" Übungsbuchteil Lektion 6
+TODO Antwortmail auf Einladung schreiben Übungsbuchteil Lektion 6
+TODO Einladung in Mail wiederholen Übungsbuchteil Lektion 6
+TODO Redemittel für positive/negative Reaktionen Übungsbuchteil Lektion 6
+TODO Kurzbiografie über Friedl Hofbauer verstehen Übungsbuchteil Lektion 6
 
 ## Lektion 7
 
-- Informationen über Sehenswürdigkeiten verstehen Kursbuch Lektion 7
-- Wegbeschreibungen verstehen und machen Kursbuch Lektion 7
-- mündliche Wegbeschreibungen notieren Kursbuch Lektion 7
-- Anweisungen an einem Fahrkartenautomaten verstehen Kursbuch Lektion 7
-- E-Mail über Erlebnisse in Bern verstehen und darauf antworten Kursbuch Lektion 7
-- über kulturelle Besonderheiten bei Einladungen sprechen Kursbuch Lektion 7
-- über Balkendiagramm sprechen Kursbuch Lektion 7
-- Biographie über "Paul Klee" verstehen Kursbuch Lektion 7
-- Bildbeschreibung passendem Bild zuordnen und sagen, wie einem die Bilder gefallen Kursbuch Lektion 7
+TODO Informationen über Sehenswürdigkeiten verstehen Kursbuch Lektion 7
+TODO Wegbeschreibungen verstehen und machen Kursbuch Lektion 7
+TODO mündliche Wegbeschreibungen notieren Kursbuch Lektion 7
+TODO Anweisungen an einem Fahrkartenautomaten verstehen Kursbuch Lektion 7
+TODO E-Mail über Erlebnisse in Bern verstehen und darauf antworten Kursbuch Lektion 7
+TODO über kulturelle Besonderheiten bei Einladungen sprechen Kursbuch Lektion 7
+TODO über Balkendiagramm sprechen Kursbuch Lektion 7
+TODO Biographie über "Paul Klee" verstehen Kursbuch Lektion 7
+TODO Bildbeschreibung passendem Bild zuordnen und sagen, wie einem die Bilder gefallen Kursbuch Lektion 7
+TODO Ortsangaben mit Akkusativ und Dativ Grammatik Lektion 7
+TODO Indefinitpronomen: "etwas", "nichts", "all", "man" Grammatik Lektion 7
+TODO Verwendung von Präsens für Zukünftiges Grammatik Lektion 7
+TODO Reiseführertexte über Sehenswürdigkeiten in Bern verstehen Übungsbuchteil Lektion 7
+TODO Wegbeschreibungen erfragen, formulieren und verstehen Übungsbuchteil Lektion 7
+TODO als Eingeladener/Eingeladene passend reagieren Übungsbuchteil Lektion 7
+TODO über Balkendiagramm sprechen Übungsbuchteil Lektion 7
+TODO Stimmungen ausdrücken Übungsbuchteil Lektion 7
+TODO Farben Jahreszeiten zuordnen Übungsbuchteil Lektion 7
+TODO Meinungen zu Bildern äußern Übungsbuchteil Lektion 7
 
 ## Lektion 8
 
-- Restaurant-Informationen im Radio verstehen Kursbuch Lektion 8
-- Vorschläge machen und zustimmen oder ablehnen Kursbuch Lektion 8
-- Telefongespräch über Tischreservierung im Restaurant verstehen und Informationen weiterleiten Kursbuch Lektion 8
-- Speisekarte verstehen Kursbuch Lektion 8
-- über Vorlieben beim Essen und Trinken sprechen Kursbuch Lektion 8
-- Gespräch im Restaurant spielen Kursbuch Lektion 8
-- Zusagen, Absagen verstehen Kursbuch Lektion 8
-- andere um etwas bitten und auf Bitten reagieren Kursbuch Lektion 8
-- persönliche Angaben notieren und darüber sprechen Kursbuch Lektion 8
+TODO Restaurant-Informationen im Radio verstehen Kursbuch Lektion 8
+TODO Vorschläge machen und zustimmen oder ablehnen Kursbuch Lektion 8
+TODO Telefongespräch über Tischreservierung im Restaurant verstehen und Informationen weiterleiten Kursbuch Lektion 8
+TODO Speisekarte verstehen Kursbuch Lektion 8
+TODO über Vorlieben beim Essen und Trinken sprechen Kursbuch Lektion 8
+TODO Gespräch im Restaurant spielen Kursbuch Lektion 8
+TODO Zusagen, Absagen verstehen Kursbuch Lektion 8
+TODO andere um etwas bitten und auf Bitten reagieren Kursbuch Lektion 8
+TODO persönliche Angaben notieren und darüber sprechen Kursbuch Lektion 8
+TODO Nomen aus Adjektiven nach "etwas" und "nichts" Grammatik Lektion 8
+TODO Nomen aus dem Infinitiv von Verben Grammatik Lektion 8
+TODO zusammengesetzte Nomen und ihre Artikel Grammatik Lektion 8
+TODO Adjektive im Nominativ und Akkusativ nach unbestimmtem Artikel, Negativpartikel und Possessivartikel Grammatik Lektion 8
+TODO Vorschläge machen und zusagen oder absagen Übungsbuchteil Lektion 8
+TODO schriftlich eine Zusage formulieren Übungsbuchteil Lektion 8
+TODO einen Tisch reservieren Übungsbuchteil Lektion 8
+TODO Wortschatz zum Thema "Speisen" Übungsbuchteil Lektion 8
+TODO über Vorlieben beim Essen und Trinken sprechen Übungsbuchteil Lektion 8
+TODO Gespräch im Restaurant spielen Übungsbuchteil Lektion 8
+TODO Rezept verstehen und selbst ein Rezept notieren Übungsbuchteil Lektion 8
 
 # Prüfungsvorbereitung: Grammatik (skip for now)
 
@@ -2641,169 +2919,29 @@ allgemeiner Rat: langfristig ist es besser, viel zu hören und zu lesen, also: f
 
 falls du die Prüfung erfolgreich bestehen möchtest, dann mache die Übungen, weil sie kurzfristig dabei helfen, für den Test zu lernen.
 
-## Lektion 1
 
-- regelmäßige Verben im Präsens Grammatik Lektion 1
-- "sein" im Präsens Grammatik Lektion 1
-- Personalpronomen im Nominativ Grammatik Lektion 1
-- Wortstellung: Aussagesatz, W-Frage mit Wie?, Wo?, Woher?, Ja/Nein-Frage Grammatik Lektion 1
 
-## Lektion 2
-
-- Verneinung: "nicht" und "kein" Grammatik Lektion 2
-- Worstellung: Aussagesatz Grammatik Lektion 2
-- bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ Grammatik Lektion 2
-- Personalpronomen im Akkusativ Grammatik Lektion 2
-- W-Fragen mit Wer?, Was?, Wen?, Wann? Grammatik Lektion 2
-- Genitiv-s bei Personennamen Grammatik Lektion 2
-
-## Lektion 3
-
-- Modalverben im Präsens: "können", "müssen", möcht-" Grammatik Lektion 3
-- Worstellung in Sätzen mit Modalverben Grammatik Lektion 3
-- Konnektor: "und" Grammatik Lektion 3
-- "noch" =/= "kein ... mehr" Grammatik Lektion 3
-- W-Fragen mit Wie viel?, Wie viele? Grammatik Lektion 3
-- Possesivartikel im Nominativ Grammatik Lektion 3
-
-## Lektion 4
-
-- Verben mit Vokalwechsel im Präsens Grammatik Lektion 4
-- Modalverben im Präsens: "dürfen", "wollen", "mögen" Grammatik Lektion 4
-- "haben", "sein" im Präteritum Grammatik Lektion 4
-- regelmäßige Verben im Perfekt Grammatik Lektion 4
-- Konnektoren "denn", "oder", "aber" Grammatik Lektion 4
-
-## Lektion 5
-
-- Verben mit trennbaren Vorsilben im Präsens und Perfekt Grammatik Lektion 5
-- Verben mit trennbaren Vorsilben und Modalverben im Präsens Grammatik Lektion 5
-- Verben mit untrennbaren Vorsilben im Perfekt Grammatik Lektion 5
-- unregelmäßige und gemischte Verben im Perfekt Grammatik Lektion 5
-
-## Lektion 6
-
-- formelle Imperativsätze mit "Sie" Grammatik Lektion 6
-- informelle Imperativsätze Grammatik Lektion 6
-- Vorschläge mit "wir" Grammatik Lektion 6
-- Voschläge mit "Sollen/Wollen wir ...?", "Soll ich ...? Grammatik Lektion 6
-- Modalpartikeln: "doch", "mal", "doch mal" Grammatik Lektion 6
-
-## Lektion 7
-
-- Ortsangaben mit Akkusativ und Dativ Grammatik Lektion 7
-- Indefinitpronomen: "etwas", "nichts", "all", "man" Grammatik Lektion 7
-- Verwendung von Präsens für Zukünftiges Grammatik Lektion 7
-
-## Lektion 8
-
-- Nomen aus Adjektiven nach "etwas" und "nichts" Grammatik Lektion 8
-- Nomen aus dem Infinitiv von Verben Grammatik Lektion 8
-- zusammengesetzte Nomen und ihre Artikel Grammatik Lektion 8
-- Adjektive im Nominativ und Akkusativ nach unbestimmtem Artikel, Negativpartikel und Possessivartikel Grammatik Lektion 8
-
-# Übungsbuchteil
-
-## Lektion 1
-
-- sich und andere vorstellen Übungsbuchteil Lektion 1
-- sich in DACH begrüßen und verabschieden Übungsbuchteil Lektion 1
-- Länder und Kontinente Übungsbuchteil Lektion 1
-- Sprachen und Nationalitäten Übungsbuchteil Lektion 1
-- Zahlen von 1 bis 1 Milliarde Übungsbuchteil Lektion 1
-- Namen buchstabieren Übungsbuchteil Lektion 1
-
-## Lektion 2
-
-- Wochentage und Tageszeiten Übungsbuchteil Lektion 2
-- Uhrzeiten: offizielle und inoffiziell Übungsbuchteil Lektion 2
-- Fragen zu Terminen stellen und beantworten Übungsbuchteil Lektion 2
-- mithilfe von W-Fragen Texte erschließen Übungsbuchteil Lektion 2
-- Ordinalzahlen (Datum) und Jahreszahlen Übungsbuchteil Lektion 2
-- Jahreszahlen und Monatsnamen Übungsbuchteil Lektion 2
-- "schon" und "erst" Übungsbuchteil Lektion 2
-
-## Lektion 3
-
-- Wortschatz zum Thema "Haushalt" Übungsbuchteil Lektion 3
-- Lebensmittel und Getränke Übungsbuchteil Lektion 3
-- Mengenangaben und Verpackungen Übungsbuchteil Lektion 3
-- Preise und Währungen Übungsbuchteil Lektion 3
-- Einkaufsgespräche spielen Übungsbuchteil Lektion 3
-- Berufsbezeichnungen Übungsbuchteil Lektion 3
-- Familienmitglieder Übungsbuchteil Lektion 3
-
-## Lektion 4
-
-- Wortschatz zum Thema "Sport/Freizeit" Übungsbuchteil Lektion 4
-- Vorlieben und Abneigungen ausdrücken Übungsbuchteil Lektion 4
-- Anzeigen über Freizeitangebote verstehen und antworten Übungsbuchteil Lektion 4
-- Abkürzungen verstehen und verwenden Übungsbuchteil Lektion 4
-
-## Lektion 5
-
-- Redemittel zum Thema "Befinden" Übungsbuchteil Lektion 5
-- Wohnung und Zimmer Übungsbuchteil Lektion 5
-- Möbel und Materialien Übungsbuchteil Lektion 5
-- Redemittel zum Thema "Möbelkauf" Übungsbuchteil Lektion 5
-- über Vergangenes sprechen und schreiben Übungsbuchteil Lektion 5
-- eine Antwortmail schreiben Übungsbuchteil Lektion 5
-
-## Lektion 6
-
-- Aufforderungen (Anweisungen, Anleitungen, Vorschläge) verstehen und formulieren Übungsbuchteil Lektion 6
-- höflich bitten, fragen, nachfragen und antworten Übungsbuchteil Lektion 6
-- Kleider, Materialien und Farben Übungsbuchteil Lektion 6
-- "ein Paar" und "ein paar" Übungsbuchteil Lektion 6
-- Antwortmail auf Einladung schreiben Übungsbuchteil Lektion 6
-- Einladung in Mail wiederholen Übungsbuchteil Lektion 6
-- Redemittel für positive/negative Reaktionen Übungsbuchteil Lektion 6
-- Kurzbiografie über Friedl Hofbauer verstehen Übungsbuchteil Lektion 6
-
-## Lektion 7
-
-- Reiseführertexte über Sehenswürdigkeiten in Bern verstehen Übungsbuchteil Lektion 7
-- Wegbeschreibungen erfragen, formulieren und verstehen Übungsbuchteil Lektion 7
-- als Eingeladener/Eingeladene passend reagieren Übungsbuchteil Lektion 7
-- über Balkendiagramm sprechen Übungsbuchteil Lektion 7
-- Stimmungen ausdrücken Übungsbuchteil Lektion 7
-- Farben Jahreszeiten zuordnen Übungsbuchteil Lektion 7
-- Meinungen zu Bildern äußern Übungsbuchteil Lektion 7
-
-## Lektion 8
-
-- Vorschläge machen und zusagen oder absagen Übungsbuchteil Lektion 8
-- schriftlich eine Zusage formulieren Übungsbuchteil Lektion 8
-- einen Tisch reservieren Übungsbuchteil Lektion 8
-- Wortschatz zum Thema "Speisen" Übungsbuchteil Lektion 8
-- über Vorlieben beim Essen und Trinken sprechen Übungsbuchteil Lektion 8
-- Gespräch im Restaurant spielen Übungsbuchteil Lektion 8
-- Rezept verstehen und selbst ein Rezept notieren Übungsbuchteil Lektion 8
 
 # Projekte
 
-1. Steckbriefe von Kursteilnehmern herstellen und erraten Projekt 1
-2. Termine für Kursaktivität organisieren Projekt 2
-3. Familienmitglieder erraten und Stammbaum zeichnen Projekt 3
-4. Hobbys raten Projekt 4
-5. Zimmer mit 200 Euro einrichten Projekt 5
-6. Kleidungsstücke erraten Projekt 6
-7. einen Rundgang zu den Sehenswürdigkeiten in einer Stadt planen und vorstellen Projekt 7
-8. eine Party planen Projekt 8
 
-# Phonetik
-
-1. Satzmelodie in kurzen Aussagesätzen und Fragen Phonetik 1
-2. Rhythmus in Wort und Satz Phonetik 2
-3. lange und kurze Vokale Phonetik 3
-4. "e" oder "i" Phonetik 4
-5. Verben mit trennbaren und untrennbaren Vorsilben Phonetik 5
-6. "w" oder "f" Phonetik 6
-7. R-Laute Phonetik 7
-8. sch - sp - st Phonetik 8
+TODO Termine für Kursaktivität organisieren Projekt 2
+TODO Rhythmus in Wort und Satz Phonetik 2
+TODO Familienmitglieder erraten und Stammbaum zeichnen Projekt 3
+TODO lange und kurze Vokale Phonetik 3
+TODO Hobbys raten Projekt 4
+TODO "e" oder "i" Phonetik 4
+TODO Zimmer mit 200 Euro einrichten Projekt 5
+TODO Verben mit trennbaren und untrennbaren Vorsilben Phonetik 5
+TODO Kleidungsstücke erraten Projekt 6
+TODO "w" oder "f" Phonetik 6
+TODO einen Rundgang zu den Sehenswürdigkeiten in einer Stadt planen und vorstellen Projekt 7
+TODO R-Laute Phonetik 7
+TODO eine Party planen Projekt 8
+TODO sch - sp - st Phonetik 8
 
 
-TODO organize by topic
+
 
 
 # Prüfungsvorbereitung (skip for now)
@@ -2997,8 +3135,11 @@ zweitausendvierzehn.
 - code AGL app
   - first, just interface to access YouTube videos, articles and other free content; with tab to buy things (first via link, then integrated in the app)
   - then publish courses via the app: activated via key
+    - let user pick a setting (more grammar or less grammar), then let them go step by step by selecting appropriate sequence and repetition
+    - repeat sections based on exercise results
+    - remind them to review after a while
   - then publish apps to learn better
-- crazy edition von jedem Video wo wich-tige Vokabeln bei der ersten Erwähnung nochmal extra gezeigt werden mit Bild und Ton, "make it crazy" damit sie sich daran erinnern (z. B. "Kaffe!" und den Klang einer E-Gitarre)
+- crazy edition von jedem Video wo wich-tige Vokabeln bei der ersten Erwähnung nochmal extra gezeigt werden mit Bild und Ton, "make it crazy" damit sie sich daran erinnern (z. B. "Kaffee!" und den Klang einer E-Gitarre)
 - after each immersion, write table for better memorization (connecting with known words):
                     Vergleiche:
                     --
@@ -3048,10 +3189,10 @@ ALL DIE NAMEN
 
 INHALTSVERZEICHNIS
 - [Kurzanleitung und Motivation](#kurzanleitung-und-motivation)
-	- [Wie du das Interface benutzt #meta](#wie-du-das-interface-benutzt-meta)
+	- [Wie du das Interface benutzt #meta #video](#wie-du-das-interface-benutzt-meta-video)
 	- [Die Mission #mindset](#die-mission-mindset)
-	- [Tauche in die deutsche Sprache ein! #mindset](#tauche-in-die-deutsche-sprache-ein-mindset)
 	- [Die Reihenfolge ist deine Entscheidung!](#die-reihenfolge-ist-deine-entscheidung)
+	- [Tauche in die deutsche Sprache ein! #mindset](#tauche-in-die-deutsche-sprache-ein-mindset)
 - [Totale Immersion von Anfang an: wie du effektiv Deutsch lernst](#totale-immersion-von-anfang-an-wie-du-effektiv-deutsch-lernst)
 	- [Freut mich, dich kennenzulernen!](#freut-mich-dich-kennenzulernen)
 	- [Stelle dich vor! #quiz](#stelle-dich-vor-quiz)
@@ -3272,25 +3413,7 @@ INHALTSVERZEICHNIS
 	- [Lektion 8](#lektion-8)
 - [Prüfungsvorbereitung: Grammatik (skip for now)](#prüfungsvorbereitung-grammatik-skip-for-now)
 	- [Ein wichtiger Rat](#ein-wichtiger-rat)
-	- [Lektion 1](#lektion-1-1)
-	- [Lektion 2](#lektion-2-1)
-	- [Lektion 3](#lektion-3-1)
-	- [Lektion 4](#lektion-4-1)
-	- [Lektion 5](#lektion-5-1)
-	- [Lektion 6](#lektion-6-1)
-	- [Lektion 7](#lektion-7-1)
-	- [Lektion 8](#lektion-8-1)
-- [Übungsbuchteil](#Übungsbuchteil)
-	- [Lektion 1](#lektion-1-2)
-	- [Lektion 2](#lektion-2-2)
-	- [Lektion 3](#lektion-3-2)
-	- [Lektion 4](#lektion-4-2)
-	- [Lektion 5](#lektion-5-2)
-	- [Lektion 6](#lektion-6-2)
-	- [Lektion 7](#lektion-7-2)
-	- [Lektion 8](#lektion-8-2)
 - [Projekte](#projekte)
-- [Phonetik](#phonetik)
 - [Prüfungsvorbereitung (skip for now)](#prüfungsvorbereitung-skip-for-now)
 	- [Über ein Tortendiagramm sprechen](#Über-ein-tortendiagramm-sprechen)
 - [Probeprüfung](#probeprüfung)
