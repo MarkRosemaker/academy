@@ -4,7 +4,7 @@
     "name": "AGL Academy"
   }],
   "settings": {
-    "highlight.maxMatches": 2,
+    "highlight.maxMatches": 3,
     "highlight.regexes": {
       "(\\bwoher\\b)": [{
         "backgroundColor": "lightgreen"

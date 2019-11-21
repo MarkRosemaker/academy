@@ -1,3 +1,12 @@
++++
+title = "German for Beginners (A1) with Energy and Inspiration | Total Immersion from the Beginning!"
+date =- 2019-09-13T18:12:02+02:00
+
+draft = true
+spellchecked = false
+audio = ''
++++
+
 ## The Mission (TODO I added something to the German, compare!)
 
 Hello, I am Mark from Authentic German Learning.
@@ -33,3 +42,15 @@ Here we go!
 Enjoy learning and enjoy the beauty of the German language.
 
 {{< /notice >}}
+
+# The Sheep and the Horses
+
+[On a hill,] a sheep that had no wool saw horses, one of them pulling a heavy wagon, one carrying a big load, and one carrying a man quickly.
+
+The sheep said to the horses: "My heart pains me, seeing a man driving horses."
+
+The horses said: "Listen, sheep, our hearts pain us when we see this: a man, the master, makes the wool of the sheep into a warm garment for himself. And the sheep has no wool."
+
+Having heard this, the sheep fled into the plain.
+
+## Das Hexeneinmaleins (The Witches' multiplication table), a Poem by Goethe

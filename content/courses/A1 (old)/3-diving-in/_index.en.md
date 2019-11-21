@@ -1,4 +1,0 @@
-+++
-title = "Unnamed third lesson"
-+++
-
