@@ -2612,101 +2612,101 @@ falls du die Prüfung erfolgreich bestehen möchtest, dann mache die Übungen, w
 
 ## Lektion 1
 
-- sich und andere vorstellen
-- sich in DACH begrüßen und verabschieden
-- Länder und Kontinente
-- Sprachen und Nationalitäten
-- Zahlen von 1 bis 1 Milliarde
-- Namen buchstabieren
+- sich und andere vorstellen Übungsbuchteil Lektion 1
+- sich in DACH begrüßen und verabschieden Übungsbuchteil Lektion 1
+- Länder und Kontinente Übungsbuchteil Lektion 1
+- Sprachen und Nationalitäten Übungsbuchteil Lektion 1
+- Zahlen von 1 bis 1 Milliarde Übungsbuchteil Lektion 1
+- Namen buchstabieren Übungsbuchteil Lektion 1
 
 ## Lektion 2
 
-- Wochentage und Tageszeiten
-- Uhrzeiten: offizielle und inoffiziell
-- Fragen zu Terminen stellen und beantworten
-- mithilfe von W-Fragen Texte erschließen
-- Ordinalzahlen (Datum) und Jahreszahlen
-- Jahreszahlen und Monatsnamen
-- "schon" und "erst"
+- Wochentage und Tageszeiten Übungsbuchteil Lektion 2
+- Uhrzeiten: offizielle und inoffiziell Übungsbuchteil Lektion 2
+- Fragen zu Terminen stellen und beantworten Übungsbuchteil Lektion 2
+- mithilfe von W-Fragen Texte erschließen Übungsbuchteil Lektion 2
+- Ordinalzahlen (Datum) und Jahreszahlen Übungsbuchteil Lektion 2
+- Jahreszahlen und Monatsnamen Übungsbuchteil Lektion 2
+- "schon" und "erst" Übungsbuchteil Lektion 2
 
 ## Lektion 3
 
-- Wortschatz zum Thema "Haushalt"
-- Lebensmittel und Getränke
-- Mengenangaben und Verpackungen
-- Preise und Währungen
-- Einkaufsgespräche spielen
-- Berufsbezeichnungen
-- Familienmitglieder
+- Wortschatz zum Thema "Haushalt" Übungsbuchteil Lektion 3
+- Lebensmittel und Getränke Übungsbuchteil Lektion 3
+- Mengenangaben und Verpackungen Übungsbuchteil Lektion 3
+- Preise und Währungen Übungsbuchteil Lektion 3
+- Einkaufsgespräche spielen Übungsbuchteil Lektion 3
+- Berufsbezeichnungen Übungsbuchteil Lektion 3
+- Familienmitglieder Übungsbuchteil Lektion 3
 
 ## Lektion 4
 
-- Wortschatz zum Thema "Sport/Freizeit"
-- Vorlieben und Abneigungen ausdrücken
-- Anzeigen über Freizeitangebote verstehen und antworten
-- Abkürzungen verstehen und verwenden
+- Wortschatz zum Thema "Sport/Freizeit" Übungsbuchteil Lektion 4
+- Vorlieben und Abneigungen ausdrücken Übungsbuchteil Lektion 4
+- Anzeigen über Freizeitangebote verstehen und antworten Übungsbuchteil Lektion 4
+- Abkürzungen verstehen und verwenden Übungsbuchteil Lektion 4
 
 ## Lektion 5
 
-- Redemittel zum Thema "Befinden"
-- Wohnung und Zimmer
-- Möbel und Materialien
-- Redemittel zum Thema "Möbelkauf"
-- über Vergangenes sprechen und schreiben
-- eine Antwortmail schreiben
+- Redemittel zum Thema "Befinden" Übungsbuchteil Lektion 5
+- Wohnung und Zimmer Übungsbuchteil Lektion 5
+- Möbel und Materialien Übungsbuchteil Lektion 5
+- Redemittel zum Thema "Möbelkauf" Übungsbuchteil Lektion 5
+- über Vergangenes sprechen und schreiben Übungsbuchteil Lektion 5
+- eine Antwortmail schreiben Übungsbuchteil Lektion 5
 
 ## Lektion 6
 
-- Aufforderungen (Anweisungen, Anleitungen, Vorschläge) verstehen und formulieren
-- höflich bitten, fragen, nachfragen und antworten
-- Kleider, Materialien und Farben
-- "ein Paar" und "ein paar"
-- Antwortmail auf Einladung schreiben
-- Einladung in Mail wiederholen
-- Redemittel für positive/negative Reaktionen
-- Kurzbiografie über Friedl Hofbauer verstehen
+- Aufforderungen (Anweisungen, Anleitungen, Vorschläge) verstehen und formulieren Übungsbuchteil Lektion 6
+- höflich bitten, fragen, nachfragen und antworten Übungsbuchteil Lektion 6
+- Kleider, Materialien und Farben Übungsbuchteil Lektion 6
+- "ein Paar" und "ein paar" Übungsbuchteil Lektion 6
+- Antwortmail auf Einladung schreiben Übungsbuchteil Lektion 6
+- Einladung in Mail wiederholen Übungsbuchteil Lektion 6
+- Redemittel für positive/negative Reaktionen Übungsbuchteil Lektion 6
+- Kurzbiografie über Friedl Hofbauer verstehen Übungsbuchteil Lektion 6
 
 ## Lektion 7
 
-- Reiseführertexte über Sehenswürdigkeiten in Bern verstehen
-- Wegbeschreibungen erfragen, formulieren und verstehen
-- als Eingeladener/Eingeladene passend reagieren
-- über Balkendiagramm sprechen
-- Stimmungen ausdrücken
-- Farben Jahreszeiten zuordnen
-- Meinungen zu Bildern äußern
+- Reiseführertexte über Sehenswürdigkeiten in Bern verstehen Übungsbuchteil Lektion 7
+- Wegbeschreibungen erfragen, formulieren und verstehen Übungsbuchteil Lektion 7
+- als Eingeladener/Eingeladene passend reagieren Übungsbuchteil Lektion 7
+- über Balkendiagramm sprechen Übungsbuchteil Lektion 7
+- Stimmungen ausdrücken Übungsbuchteil Lektion 7
+- Farben Jahreszeiten zuordnen Übungsbuchteil Lektion 7
+- Meinungen zu Bildern äußern Übungsbuchteil Lektion 7
 
 ## Lektion 8
 
-- Vorschläge machen und zusagen oder absagen
-- schriftlich eine Zusage formulieren
-- einen Tisch reservieren
-- Wortschatz zum Thema "Speisen"
-- über Vorlieben beim Essen und Trinken sprechen
-- Gespräch im Restaurant spielen
-- Rezept verstehen und selbst ein Rezept notieren
+- Vorschläge machen und zusagen oder absagen Übungsbuchteil Lektion 8
+- schriftlich eine Zusage formulieren Übungsbuchteil Lektion 8
+- einen Tisch reservieren Übungsbuchteil Lektion 8
+- Wortschatz zum Thema "Speisen" Übungsbuchteil Lektion 8
+- über Vorlieben beim Essen und Trinken sprechen Übungsbuchteil Lektion 8
+- Gespräch im Restaurant spielen Übungsbuchteil Lektion 8
+- Rezept verstehen und selbst ein Rezept notieren Übungsbuchteil Lektion 8
 
 # Projekte
 
-1. Steckbriefe von Kursteilnehmern herstellen und erraten
-2. Termine für Kursaktivität organisieren
-3. Familienmitglieder erraten und Stammbaum zeichnen
-4. Hobbys raten
-5. Zimmer mit 200 Euro einrichten
-6. Kleidungsstücke erraten
-7. einen Rundgang zu den Sehenswürdigkeiten in einer Stadt planen und vorstellen
-8. eine Party planen
+1. Steckbriefe von Kursteilnehmern herstellen und erraten Projekt 1
+2. Termine für Kursaktivität organisieren Projekt 2
+3. Familienmitglieder erraten und Stammbaum zeichnen Projekt 3
+4. Hobbys raten Projekt 4
+5. Zimmer mit 200 Euro einrichten Projekt 5
+6. Kleidungsstücke erraten Projekt 6
+7. einen Rundgang zu den Sehenswürdigkeiten in einer Stadt planen und vorstellen Projekt 7
+8. eine Party planen Projekt 8
 
 # Phonetik
 
-1. Satzmelodie in kurzen Aussagesätzen und Fragen
-2. Rhythmus in Wort und Satz
-3. lange und kurze Vokale
-4. "e" oder "i"
-5. Verben mit trennbaren und untrennbaren Vorsilben
-6. "w" oder "f"
-7. R-Laute
-8. sch - sp - st
+1. Satzmelodie in kurzen Aussagesätzen und Fragen Phonetik 1
+2. Rhythmus in Wort und Satz Phonetik 2
+3. lange und kurze Vokale Phonetik 3
+4. "e" oder "i" Phonetik 4
+5. Verben mit trennbaren und untrennbaren Vorsilben Phonetik 5
+6. "w" oder "f" Phonetik 6
+7. R-Laute Phonetik 7
+8. sch - sp - st Phonetik 8
 
 
 TODO organize by topic
