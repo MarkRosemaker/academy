@@ -1,0 +1,2528 @@
+{
+  "folders": [{
+    "path": "./",
+    "name": "AGL Academy"
+  }],
+  "settings": {
+    "highlight.maxMatches": 2,
+    "highlight.regexes": {
+      "(\\bwoher\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwer\\b|\\bwen\\b|\\bwem\\b|\\bwessen\\b|\\bwes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwarum\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwas [^\\.\\?!:]*?für [^\\.\\?!:]*?ein\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwie [^\\.\\?!:]*?viel\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzweite\\b|\\bzweites\\b|\\bzweitem\\b|\\bzweiten\\b|\\bzweiter\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdritte\\b|\\bdrittes\\b|\\bdrittem\\b|\\bdritten\\b|\\bdritter\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bvierte\\b|\\bviertes\\b|\\bviertem\\b|\\bvierten\\b|\\bvierter\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bachthundertdreiundvierzig\\b|\\bsechzehnhundertachtzehn\\b|\\bsechzehnhundertachtundvierzig\\b|\\bachtzehnhundertsechs\\b|\\bachtzehnhundertfünfzehn\\b|\\bachtzehnhundertsechsundsechzig\\b|\\bachtzehnhundertsiebenundsechzig\\b|\\bachtzehnhunderteinundsiebzig\\b|\\bneunzehnhundertneunundneunzig\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzweitausendneunzehn\\b|\\bzweitausendzwanzig\\b|\\bzweitausendvierzehn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\berste [^\\.\\?!:]*?März\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bder einundreißigste Zwölfte;|\\berste [^\\.\\?!:]*?Dritte\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bVerdun\\, zehnter Achter achthundertdreiundvierzig\\b|\\bBerlin, [^\\.\\?!:]*?zwölfter [^\\.\\?!:]*?Vierter [^\\.\\?!:]*?zweitausendzwei\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bacht Uhr\\b|\\bfünfzehn Uhr\\b|\\bein [^\\.\\?!:]*?Uhr\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bUhr\\b|\\bUhren\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bneun Uhr fünfundvierzig\\b|\\bzehn Uhr fünf\\b|\\bzehn Uhr fünfzig\\b|\\belf Uhr vierzig\\b|\\bdreizehn Uhr fünfzehn\\b|\\bnull [^\\.\\?!:]*?Uhr [^\\.\\?!:]*?drei\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfünf [^\\.\\?!:]*?Minuten [^\\.\\?!:]*?vor\\b|\\bfünf [^\\.\\?!:]*?Minuten [^\\.\\?!:]*?nach\\b|\\bfünf [^\\.\\?!:]*?Minuten [^\\.\\?!:]*?vor [^\\.\\?!:]*?ein [^\\.\\?!:]*?Uhr\\b|\\bfünf [^\\.\\?!:]*?Minuten [^\\.\\?!:]*?nach [^\\.\\?!:]*?ein [^\\.\\?!:]*?Uhr\\b|\\bfünf [^\\.\\?!:]*?Minuten [^\\.\\?!:]*?vor [^\\.\\?!:]*?eins\\b|\\bfünf [^\\.\\?!:]*?Minuten [^\\.\\?!:]*?nach [^\\.\\?!:]*?eins\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bViertel [^\\.\\?!:]*?vor\\b|\\bViertel [^\\.\\?!:]*?nach\\b|\\bViertel [^\\.\\?!:]*?vor [^\\.\\?!:]*?zwei [^\\.\\?!:]*?Uhr\\b|\\bViertel [^\\.\\?!:]*?nach [^\\.\\?!:]*?zwei [^\\.\\?!:]*?Uhr\\b|\\bViertel [^\\.\\?!:]*?vor [^\\.\\?!:]*?zwei\\b|\\bViertel [^\\.\\?!:]*?nach [^\\.\\?!:]*?zwei\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhalb zehn\\b|\\bhalb [^\\.\\?!:]*?drei\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFrühling\\b|\\bFrühlinge\\b|\\bFrühlingen\\b|\\bFrühlings\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSommer\\b|\\bSommern\\b|\\bSommers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHerbst\\b|\\bHerbste\\b|\\bHerbsten\\b|\\bHerbsts\\b|\\bHerbstes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWinter\\b|\\bWintern\\b|\\bWinters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEuro\\b|\\bEuros\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bCent\\b|\\bCents\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bZentimeter\\b|\\bZentimetern\\b|\\bZentimeters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKilometer\\b|\\bKilometern\\b|\\bKilometers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bQuadratmeter\\b|\\bQuadratmetern\\b|\\bQuadratmeters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bProzent\\b|\\bProzente\\b|\\bProzenten\\b|\\bProzents\\b|\\bProzentes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLiter\\b|\\bLitern\\b|\\bLiters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGramm\\b|\\bGramme\\b|\\bGrammen\\b|\\bGramms\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPfund\\b|\\bPfunde\\b|\\bPfunden\\b|\\bPfunds\\b|\\bPfundes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKilogramm\\b|\\bKilogramme\\b|\\bKilogrammen\\b|\\bKilogramms\\b|\\bKilo\\b|\\bKilos\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLand\\b|\\bLänder\\b|\\bLande\\b|\\bLändern\\b|\\bLanden\\b|\\bLands\\b|\\bLandes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\binternational\\b|\\binternationales\\b|\\binternationalem\\b|\\binternationalen\\b|\\binternationale\\b|\\binternationaler\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHeimat\\b|\\bHeimaten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDeutsche\\b|\\bDeutschen\\b|\\bDeutscher\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bein [^\\.\\?!:]*?Deutscher\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beine [^\\.\\?!:]*?Deutsche\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdeutsch\\b|\\bdeutsches\\b|\\bdeutschem\\b|\\bdeutschen\\b|\\bdeutsche\\b|\\bdeutscher\\b|\\bdeutschesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEuropäer\\b|\\bEuropäern\\b|\\bEuropäers\\b|\\bEuropäerin\\b|\\bEuropäerinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beuropäisch\\b|\\beuropäisches\\b|\\beuropäischem\\b|\\beuropäischen\\b|\\beuropäische\\b|\\beuropäischer\\b|\\beuropäischsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTürkei\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTürke\\b|\\bTürken\\b|\\bTürkin\\b|\\bTürkinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTürkin\\b|\\bTürkinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\btürkisch\\b|\\btürkisches\\b|\\btürkischem\\b|\\btürkischen\\b|\\btürkische\\b|\\btürkischer\\b|\\btürkischsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFinnland\\b|\\bFinnlands\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFinne\\b|\\bFinnen\\b|\\bFinnin\\b|\\bFinninnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfinnisch\\b|\\bfinnisches\\b|\\bfinnischem\\b|\\bfinnischen\\b|\\bfinnische\\b|\\bfinnischer\\b|\\bfinnischsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMexiko\\b|\\bMexikos\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMexikaner\\b|\\bMexikanern\\b|\\bMexikaners\\b|\\bMexikanerin\\b|\\bMexikanerinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmexikanisch\\b|\\bmexikanisches\\b|\\bmexikanischem\\b|\\bmexikanischen\\b|\\bmexikanische\\b|\\bmexikanischer\\b|\\bmexikanischsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bNorden\\b|\\bNordens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSüden\\b|\\bSüdens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWesten\\b|\\bWestens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bOsten\\b|\\bOstens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bder\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdie\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdas\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdieser\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdiese\\b|\\bdies\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdieses\\b|\\bdieser\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bihr\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bIhr\\b|\\bEuch\\b|\\bEuer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bunser\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bunsere\\b|\\bunser\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beuer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bman\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\betwas\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bnichts\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwelche\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwelches\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwelchen\\b|\\bwelcher\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwelcher\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwelchem\\b|\\bwelcher\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bich\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdu\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\ber\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsie\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwir\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSie\\b|\\bIhnen\\b|\\bIhrer\\b|\\bSies\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmich\\b|\\bich\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdich\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bihn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bihr\\b|\\bihm\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgehören\\b|\\bgehört\\b|\\bgehör\\b|\\bgehöre\\b|\\bgehörte\\b|\\bgehörst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bes [^\\.\\?!:]*?geht\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwem\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bunbekannt\\b|\\bunbekanntes\\b|\\bunbekanntem\\b|\\bunbekannten\\b|\\bunbekannte\\b|\\bunbekannter\\b|\\bunbekanntesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLeute\\b|\\bLeuten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMensch\\b|\\bMenschen\\b|\\bMenscher\\b|\\bMenschern\\b|\\bMensche\\b|\\bMenschs\\b|\\bMensches\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHerr\\b|\\bHerren\\b|\\bHerrn\\b|\\bHerrin\\b|\\bHerrinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMann\\b|\\bMänner\\b|\\bMannen\\b|\\bMännern\\b|\\bManne\\b|\\bMannes\\b|\\bManns\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bJugendliche\\b|\\bJugendlicher\\b|\\bJugendlichen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBekannte\\b|\\bBekannter\\b|\\bBekannten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bVerwandte\\b|\\bVerwandter\\b|\\bVerwandten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEhefrau\\b|\\bEhefrauen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEhemann\\b|\\bEhemänner\\b|\\bEhemännern\\b|\\bEhemanne\\b|\\bEhemannes\\b|\\bEhemanns\\b|\\bEhefrau\\b|\\bEhefrauen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBaby\\b|\\bBabys\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMädchen\\b|\\bMädchens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bJunge\\b|\\bJungen\\b|\\bJungs\\b|\\bJungens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSohn\\b|\\bSöhne\\b|\\bSöhnen\\b|\\bSohne\\b|\\bSohns\\b|\\bSohnes\\b|\\bTochter\\b|\\bTöchter\\b|\\bTöchtern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTochter\\b|\\bTöchter\\b|\\bTöchtern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkümmern\\b|\\bkümmert\\b|\\bkümmere\\b|\\bkümmerte\\b|\\bgekümmert\\b|\\bkümmerst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKindergarten\\b|\\bKindergärten\\b|\\bKindergartens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBruder\\b|\\bBrüder\\b|\\bBrüdern\\b|\\bBruders\\b|\\bSchwester\\b|\\bSchwestern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchwester\\b|\\bSchwestern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bVater\\b|\\bVäter\\b|\\bVätern\\b|\\bVaters\\b|\\bMutter\\b|\\bMütter\\b|\\bMüttern\\b|\\bMuttern\\b|\\bMutters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMutter\\b|\\bMütter\\b|\\bMüttern\\b|\\bMuttern\\b|\\bMutters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGroßmutter\\b|\\bGroßmütter\\b|\\bGroßmüttern\\b|\\bGroßmuttern\\b|\\bGroßmutters\\b|\\bGroßmutterns\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGroßvater\\b|\\bGroßväter\\b|\\bGroßvätern\\b|\\bGroßvaters\\b|\\bGroßmutter\\b|\\bGroßmütter\\b|\\bGroßmüttern\\b|\\bGroßmuttern\\b|\\bGroßmutters\\b|\\bGroßmutterns\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bOma\\b|\\bOmas\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\btot\\b|\\btotes\\b|\\btotem\\b|\\btoten\\b|\\btote\\b|\\btoter\\b|\\btöter\\b|\\btotesten\\b|\\btötesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bOpa\\b|\\bOpas\\b|\\bOma\\b|\\bOmas\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhallo\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bvorstellen\\b|\\bstellt [^\\.\\?!:]*?vor\\b|\\bstell [^\\.\\?!:]*?vor\\b|\\bstelle [^\\.\\?!:]*?vor\\b|\\bstellte [^\\.\\?!:]*?vor\\b|\\bvorgestellt\\b|\\bstellst [^\\.\\?!:]*?vor\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkennenzulernen\\b|\\bkennenlernen\\b|\\blernt [^\\.\\?!:]*?kennen\\b|\\blerne [^\\.\\?!:]*?kennen\\b|\\blernte [^\\.\\?!:]*?kennen\\b|\\bkennengelernt\\b|\\blernst [^\\.\\?!:]*?kennen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWiedersehen\\b|\\bWiedersehens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\btschüss\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBlume\\b|\\bBlumen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBaum\\b|\\bBäume\\b|\\bBäumen\\b|\\bBaume\\b|\\bBaums\\b|\\bBaumes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\baber\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bund\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\boder\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzufrieden\\b|\\bzufriedenes\\b|\\bzufriedenem\\b|\\bzufriedenen\\b|\\bzufriedene\\b|\\bzufriedener\\b|\\bzufriedensten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bböse\\b|\\bböses\\b|\\bbösem\\b|\\bbösen\\b|\\bböser\\b|\\bbösesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbedeuten\\b|\\bbedeutet\\b|\\bbedeute\\b|\\bbedeutete\\b|\\bbedeutest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBeispiel\\b|\\bBeispiele\\b|\\bBeispielen\\b|\\bBeispieles\\b|\\bBeispiels\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzum [^\\.\\?!:]*?Beispiel\\b|\\bz. [^\\.\\?!:]*?B.)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPapier\\b|\\bPapiere\\b|\\bPapieren\\b|\\bPapieres\\b|\\bPapiers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBleistift\\b|\\bBleistifte\\b|\\bBleistiften\\b|\\bBleistifts\\b|\\bBleistiftes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKugelschreiber\\b|\\bKugelschreibern\\b|\\bKugelschreibers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bUnterricht\\b|\\bUnterrichte\\b|\\bUnterrichten\\b|\\bUnterrichts\\b|\\bUnterrichtes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bverstehen\\b|\\bversteht\\b|\\bverstehe\\b|\\bverstände\\b|\\bverstünde\\b|\\bverstanden\\b|\\bverstehst\\b|\\bverstand\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHausaufgabe\\b|\\bHausaufgaben\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bProblem\\b|\\bProbleme\\b|\\bProblemen\\b|\\bProblems\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLösung\\b|\\bLösungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTeilnehmer\\b|\\bTeilnehmern\\b|\\bTeilnehmers\\b|\\bTeilnehmerin\\b|\\bTeilnehmerinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchüler\\b|\\bSchülern\\b|\\bSchülers\\b|\\bSchülerin\\b|\\bSchülerinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPartner\\b|\\bPartnern\\b|\\bPartners\\b|\\bPartnerin\\b|\\bPartnerinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTeam\\b|\\bTeams\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTest\\b|\\bTests\\b|\\bTeste\\b|\\bTesten\\b|\\bTestes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPrüfung\\b|\\bPrüfungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAussage\\b|\\bAussagen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfalsch\\b|\\bfalsches\\b|\\bfalschem\\b|\\bfalschen\\b|\\bfalsche\\b|\\bfalscher\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFehler\\b|\\bFehlern\\b|\\bFehlers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bThema\\b|\\bThemen\\b|\\bThemata\\b|\\bThemas\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bStudent\\b|\\bStudenten\\b|\\bStudentin\\b|\\bStudentinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bstudieren\\b|\\bstudiert\\b|\\bstudier\\b|\\bstudiere\\b|\\bstudierte\\b|\\bstudierst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bStunde\\b|\\bStunden\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bseit\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bab\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbeginnen\\b|\\bbeginnt\\b|\\bbeginn\\b|\\bbeginne\\b|\\bbegönne\\b|\\bbegänne\\b|\\bbegonnen\\b|\\bbeginnst\\b|\\bbegann\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfrüher\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgestern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bheute\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bjetzt\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsofort\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzurzeit\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbald\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bspät\\b|\\bspätes\\b|\\bspätem\\b|\\bspäten\\b|\\bspäte\\b|\\bspäter\\b|\\bspätesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bspäter\\b|\\bspäteres\\b|\\bspäterem\\b|\\bspäteren\\b|\\bspätere\\b|\\bspäterer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmorgen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bimmer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\boft\\b|öfter\\b|\\bhäufiger\\b|öftesten\\b|\\bhäufigsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\breisen\\b|\\breist\\b|\\breise\\b|\\breiste\\b|\\bgereist\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwillkommen\\b|\\bwillkommenes\\b|\\bwillkommenem\\b|\\bwillkommenen\\b|\\bwillkommene\\b|\\bwillkommener\\b|\\bwillkommner\\b|\\bwillkommensten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDoppelzimmer\\b|\\bDoppelzimmern\\b|\\bDoppelzimmers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEinzelzimmer\\b|\\bEinzelzimmern\\b|\\bEinzelzimmers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bRezeption\\b|\\bRezeptionen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBlick\\b|\\bBlicke\\b|\\bBlicken\\b|\\bBlicks\\b|\\bBlickes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFamilienfoto\\b|\\bFamilienfotos\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPassfoto\\b|\\bPassfotos\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bReisender\\b|\\bReisende\\b|\\bReisenden\\b|\\bReisendem\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKoffer\\b|\\bKoffern\\b|\\bKoffers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbesichtigen\\b|\\bbesichtigt\\b|\\bbesichtige\\b|\\bbesichtigte\\b|\\bbesichtigst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkulturell\\b|\\bkulturelles\\b|\\bkulturellem\\b|\\bkulturellen\\b|\\bkulturelle\\b|\\bkultureller\\b|\\bkulturellsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSee\\b|\\bSeen\\b|\\bSees\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMeer\\b|\\bMeere\\b|\\bMeeren\\b|\\bMeers\\b|\\bMeeres\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwandern\\b|\\bwandert\\b|\\bwandere\\b|\\bwander\\b|\\bwanderte\\b|\\bgewandert\\b|\\bwanderst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bOrt\\b|\\bOrte\\b|Örter\\b|\\bOrten\\b|Örtern\\b|\\bOrts\\b|\\bOrtes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bProspekt\\b|\\bProspekte\\b|\\bProspekten\\b|\\bProspekts\\b|\\bProspektes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFührung\\b|\\bFührungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAusländer\\b|\\bAusländern\\b|\\bAusländers\\b|\\bAusländerin\\b|\\bAusländerinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bausländisch\\b|\\bausländisches\\b|\\bausländischem\\b|\\bausländischen\\b|\\bausländische\\b|\\bausländischer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfremd\\b|\\bfremdes\\b|\\bfremdem\\b|\\bfremden\\b|\\bfremde\\b|\\bfremder\\b|\\bfremdesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bZoll\\b|\\bZölle\\b|\\bZöllen\\b|\\bZolls\\b|\\bZolles\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAusweis\\b|\\bAusweise\\b|\\bAusweisen\\b|\\bAusweises\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPass\\b|\\bPässe\\b|\\bPässen\\b|\\bPasses\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\babfahren\\b|\\bhaben\\b|\\bfahrt [^\\.\\?!:]*?ab\\b|\\bfahre [^\\.\\?!:]*?ab\\b|\\bführe [^\\.\\?!:]*?ab\\b|\\babgefahren\\b|\\bfährst [^\\.\\?!:]*?ab\\b|\\bfährt [^\\.\\?!:]*?ab\\b|\\bfuhr [^\\.\\?!:]*?ab\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bankommen\\b|\\bkommt [^\\.\\?!:]*?an\\b|\\bkomm [^\\.\\?!:]*?an\\b|\\bkomme [^\\.\\?!:]*?an\\b|\\bkäme [^\\.\\?!:]*?an\\b|\\bangekommen\\b|\\bkommst [^\\.\\?!:]*?an\\b|\\bkam [^\\.\\?!:]*?an\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFahrer\\b|\\bFahrern\\b|\\bFahrers\\b|\\bFahrerin\\b|\\bFahrerinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfliegen\\b|\\bhaben\\b|\\bfliegt\\b|\\bflieg\\b|\\bfliege\\b|\\bflöge\\b|\\bgeflogen\\b|\\bfliegst\\b|\\bflog\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFlughafen\\b|\\bFlughäfen\\b|\\bFlughafens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\babfliegen\\b|\\bhaben\\b|\\bfliegt [^\\.\\?!:]*?ab\\b|\\bfliege [^\\.\\?!:]*?ab\\b|\\bflieg [^\\.\\?!:]*?ab\\b|\\bflöge [^\\.\\?!:]*?ab\\b|\\babgeflogen\\b|\\bfliegst [^\\.\\?!:]*?ab\\b|\\bflog [^\\.\\?!:]*?ab\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAbflug\\b|\\bAbflüge\\b|\\bAbflügen\\b|\\bAbfluge\\b|\\bAbflugs\\b|\\bAbfluges\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFahrkarte\\b|\\bFahrkarten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchalter\\b|\\bSchaltern\\b|\\bSchalters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAutomat\\b|\\bAutomaten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBahnsteig\\b|\\bBahnsteige\\b|\\bBahnsteigen\\b|\\bBahnsteiges\\b|\\bBahnsteigs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beinsteigen\\b|\\bsteigt [^\\.\\?!:]*?ein\\b|\\bsteig [^\\.\\?!:]*?ein\\b|\\bsteige [^\\.\\?!:]*?ein\\b|\\bstiege [^\\.\\?!:]*?ein\\b|\\beingestiegen\\b|\\bsteigst [^\\.\\?!:]*?ein\\b|\\bstieg [^\\.\\?!:]*?ein\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\baussteigen\\b|\\bsteigt [^\\.\\?!:]*?aus\\b|\\bsteig [^\\.\\?!:]*?aus\\b|\\bstiege [^\\.\\?!:]*?aus\\b|\\bausgestiegen\\b|\\bsteigst [^\\.\\?!:]*?aus\\b|\\bsteige [^\\.\\?!:]*?aus\\b|\\bstieg [^\\.\\?!:]*?aus\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhalten\\b|\\bhaltet\\b|\\bhalt\\b|\\bhalte\\b|\\bhielte\\b|\\bgehalten\\b|\\bhältst\\b|\\bhält\\b|\\bhielt\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blange\\b|\\blanges\\b|\\blangem\\b|\\blangen\\b|\\blanger\\b|\\blänger\\b|\\blängsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBahnhof\\b|\\bBahnhöfe\\b|\\bBahnhöfen\\b|\\bBahnhofe\\b|\\bBahnhofes\\b|\\bBahnhofs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGleis\\b|\\bGleise\\b|\\bGleisen\\b|\\bGleises\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfrei\\b|\\bfreies\\b|\\bfreiem\\b|\\bfreien\\b|\\bfreie\\b|\\bfreier\\b|\\bfreiesten\\b|\\bfreisten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAutobahn\\b|\\bAutobahnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bVorsicht\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfahren\\b|\\bhaben\\b|\\bfahrt\\b|\\bfahr\\b|\\bfahre\\b|\\bführe\\b|\\bgefahren\\b|\\bfährst\\b|\\bfährt\\b|\\bfuhr\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHaltestelle\\b|\\bHaltestellen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bRad [^\\.\\?!:]*?fahren\\b|\\bfahrt [^\\.\\?!:]*?Rad\\b|\\bfahr [^\\.\\?!:]*?Rad\\b|\\bfahre [^\\.\\?!:]*?Rad\\b|\\bführe [^\\.\\?!:]*?Rad\\b|\\bRad [^\\.\\?!:]*?gefahren\\b|\\bfährst [^\\.\\?!:]*?Rad\\b|\\bfährt [^\\.\\?!:]*?Rad\\b|\\bfuhr [^\\.\\?!:]*?Rad\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTaxi\\b|\\bTaxis\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bStraßenbahn\\b|\\bStraßenbahnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bS-Bahn\\b|\\bS-Bahnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLkw\\b|\\bLkws\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAppetit\\b|\\bAppetite\\b|\\bAppetits\\b|\\bAppetites\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDurst\\b|\\bDurste\\b|\\bDursts\\b|\\bDurstes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHunger\\b|\\bHungers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbitter\\b|\\bbitteres\\b|\\bbitterem\\b|\\bbitteren\\b|\\bbittere\\b|\\bbitterer\\b|\\bbittersten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\briechen\\b|\\briecht\\b|\\brieche\\b|\\briech\\b|\\bröche\\b|\\bgerochen\\b|\\briechst\\b|\\broch\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bessen\\b|\\besst\\b|\\biss\\b|äße\\b|\\bgegessen\\b|\\bisst\\b|\\besse\\b|\\baß)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\btrinken\\b|\\btrinkt\\b|\\btrink\\b|\\btrinke\\b|\\btränke\\b|\\bgetrunken\\b|\\btrinkst\\b|\\btrank\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFlasche\\b|\\bFlaschen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBier\\b|\\bBiere\\b|\\bBieren\\b|\\bBieres\\b|\\bBiers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSaft\\b|\\bSäfte\\b|\\bSäften\\b|\\bSafte\\b|\\bSaftes\\b|\\bSafts\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMilch\\b|\\bMilche\\b|\\bMilchen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWein\\b|\\bWeine\\b|\\bWeinen\\b|\\bWeins\\b|\\bWeines\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTee\\b|\\bTees\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWasser\\b|\\bWässer\\b|\\bWassern\\b|\\bWässern\\b|\\bWassers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bApfel\\b|Äpfel\\b|Äpfeln\\b|\\bApfels\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBirne\\b|\\bBirnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBanane\\b|\\bBananen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFisch\\b|\\bFische\\b|\\bFischen\\b|\\bFischs\\b|\\bFisches\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchinken\\b|\\bSchinkens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHähnchen\\b|\\bHähnchens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTomate\\b|\\bTomaten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKartoffel\\b|\\bKartoffeln\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPommes [^\\.\\?!:]*?frites\\b|\\bPommes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(Öl\\b|Öle\\b|Ölen\\b|Öls\\b|Öles\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bButter\\b|\\bButters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSalat\\b|\\bSalate\\b|\\bSalaten\\b|\\bSalats\\b|\\bSalates\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bReis\\b|\\bReise\\b|\\bReisen\\b|\\bReises\\b|\\bReiser\\b|\\bReisern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBrötchen\\b|\\bBrötchens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEi\\b|\\bEier\\b|\\bEiern\\b|\\bEie\\b|\\bEis\\b|\\bEies\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfrühstücken\\b|\\bfrühstückt\\b|\\bfrühstücke\\b|\\bfrühstückte\\b|\\bgefrühstückt\\b|\\bfrühstückst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSalz\\b|\\bSalze\\b|\\bSalzen\\b|\\bSalzes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKuchen\\b|\\bKuchens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bausfüllen\\b|\\bfüllt [^\\.\\?!:]*?aus\\b|\\bfülle [^\\.\\?!:]*?aus\\b|\\bfüllte [^\\.\\?!:]*?aus\\b|\\bausgefüllt\\b|\\bfüllst [^\\.\\?!:]*?aus\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bankreuzen\\b|\\bkreuzt [^\\.\\?!:]*?an\\b|\\bkreuz [^\\.\\?!:]*?an\\b|\\bkreuze [^\\.\\?!:]*?an\\b|\\bkreuzte [^\\.\\?!:]*?an\\b|\\bangekreuzt\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDatum\\b|\\bDaten\\b|\\bDatums\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfeiern\\b|\\bfeiert\\b|\\bfeier\\b|\\bfeiere\\b|\\bfeire\\b|\\bfeierte\\b|\\bgefeiert\\b|\\bfeierst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGlückwunsch\\b|\\bGlückwünsche\\b|\\bGlückwünschen\\b|\\bGlückwunsche\\b|\\bGlückwunsches\\b|\\bGlückwunschs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgratulieren\\b|\\bgratuliert\\b|\\bgratulier\\b|\\bgratuliere\\b|\\bgratulierte\\b|\\bgratulierst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bherzlich\\b|\\bherzliches\\b|\\bherzlichem\\b|\\bherzlichen\\b|\\bherzliche\\b|\\bherzlicher\\b|\\bherzlichsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGeburtsort\\b|\\bGeburtsorte\\b|\\bGeburtsorten\\b|\\bGeburtsortes\\b|\\bGeburtsorts\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGeburtsjahr\\b|\\bGeburtsjahre\\b|\\bGeburtsjahren\\b|\\bGeburtsjahrs\\b|\\bGeburtsjahres\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bjung\\b|\\bjunges\\b|\\bjungem\\b|\\bjungen\\b|\\bjunge\\b|\\bjunger\\b|\\bjünger\\b|\\bjüngsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmännlich\\b|\\bmännliches\\b|\\bmännlichem\\b|\\bmännlichen\\b|\\bmännliche\\b|\\bmännlicher\\b|\\bmännlichsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bweiblich\\b|\\bweibliches\\b|\\bweiblichem\\b|\\bweiblichen\\b|\\bweibliche\\b|\\bweiblicher\\b|\\bweiblichsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bledig\\b|\\blediges\\b|\\bledigem\\b|\\bledigen\\b|\\bledige\\b|\\blediger\\b|\\bledigsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bverheiratet\\b|\\bverheiratetes\\b|\\bverheiratetem\\b|\\bverheirateten\\b|\\bverheiratete\\b|\\bverheirateter\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbuchstabieren\\b|\\bbuchstabiert\\b|\\bbuchstabiere\\b|\\bbuchstabier\\b|\\bbuchstabierte\\b|\\bbuchstabierst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFamilienname\\b|\\bFamiliennamen\\b|\\bFamiliennamens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bStraße\\b|\\bStraßen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPostleitzahl\\b|\\bPostleitzahlen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bnormal\\b|\\bnormales\\b|\\bnormalem\\b|\\bnormalen\\b|\\bnormale\\b|\\bnormaler\\b|\\bnormalsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bklein\\b|\\bkleines\\b|\\bkleinem\\b|\\bkleinen\\b|\\bkleine\\b|\\bkleiner\\b|\\bkleinsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\btelefonieren\\b|\\btelefoniert\\b|\\btelefoniere\\b|\\btelefonier\\b|\\btelefonierte\\b|\\btelefonierst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAnruf\\b|\\bAnrufe\\b|\\bAnrufen\\b|\\bAnrufes\\b|\\bAnrufs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHandy\\b|\\bHandys\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bVorwahl\\b|\\bVorwahlen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWiederhören\\b|\\bWiederhörens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwiederholen\\b|\\bwiederholt\\b|\\bwiederhol\\b|\\bwiederhole\\b|\\bwiederholte\\b|\\bwiederholst\\b|\\bholt [^\\.\\?!:]*?wieder\\b|\\bhol [^\\.\\?!:]*?wieder\\b|\\bhole [^\\.\\?!:]*?wieder\\b|\\bholte [^\\.\\?!:]*?wieder\\b|\\bwiedergeholt\\b|\\bholst [^\\.\\?!:]*?wieder\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\berreichbar\\b|\\berreichbares\\b|\\berreichbarem\\b|\\berreichbaren\\b|\\berreichbare\\b|\\berreichbarer\\b|\\berreichbarsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAnrufbeantworter\\b|\\bAnrufbeantwortern\\b|\\bAnrufbeantworters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\barbeiten\\b|\\barbeitet\\b|\\barbeite\\b|\\barbeitete\\b|\\bgearbeitet\\b|\\barbeitest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\barbeitslos\\b|\\barbeitsloses\\b|\\barbeitslosem\\b|\\barbeitslosen\\b|\\barbeitslose\\b|\\barbeitsloser\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bJob\\b|\\bJobs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bverdienen\\b|\\bverdient\\b|\\bverdiene\\b|\\bverdiente\\b|\\bverdienst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bArbeitsplatz\\b|\\bArbeitsplätze\\b|\\bArbeitsplätzen\\b|\\bArbeitsplatze\\b|\\bArbeitsplatzes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKollege\\b|\\bKollegen\\b|\\bKollegin\\b|\\bKolleginnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bChef\\b|\\bChefs\\b|\\bChefin\\b|\\bChefinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPraktikant\\b|\\bPraktikanten\\b|\\bPraktikantin\\b|\\bPraktikantinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLehrer\\b|\\bLehrern\\b|\\bLehrers\\b|\\bLehrerin\\b|\\bLehrerinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFrauenarzt\\b|\\bFrauenärzte\\b|\\bFrauenärzten\\b|\\bFrauenarztes\\b|\\bFrauenärztin\\b|\\bFrauenärztinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bZahnarzt\\b|\\bZahnärzte\\b|\\bZahnärzten\\b|\\bZahnarztes\\b|\\bZahnärztin\\b|\\bZahnärztinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPraxis\\b|\\bPraxen\\b|\\bPraktiken\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bweh [^\\.\\?!:]*?tun\\b|\\btut [^\\.\\?!:]*?weh\\b|\\btu [^\\.\\?!:]*?weh\\b|\\btue [^\\.\\?!:]*?weh\\b|\\btäte [^\\.\\?!:]*?weh\\b|\\bweh [^\\.\\?!:]*?getan\\b|\\btust [^\\.\\?!:]*?weh\\b|\\btat [^\\.\\?!:]*?weh\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDoktor\\b|\\bDoktoren\\b|\\bDoktores\\b|\\bDoktors\\b|\\bDoktorin\\b|\\bDoktorinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkrank\\b|\\bkrankes\\b|\\bkrankem\\b|\\bkranken\\b|\\bkranke\\b|\\bkranker\\b|\\bkränker\\b|\\bkränksten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFieber\\b|\\bFiebern\\b|\\bFiebers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTermin\\b|\\bTermine\\b|\\bTerminen\\b|\\bTermines\\b|\\bTermins\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSekretär\\b|\\bSekretäre\\b|\\bSekretären\\b|\\bSekretärs\\b|\\bSekretärin\\b|\\bSekretärinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBeamte\\b|\\bBeamter\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHausfrau\\b|\\bHausfrauen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHausmann\\b|\\bHausmänner\\b|\\bHausmännern\\b|\\bHausmanne\\b|\\bHausmannes\\b|\\bHausmanns\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFirma\\b|\\bFirmen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bselbstständig\\b|\\bselbstständiges\\b|\\bselbstständigem\\b|\\bselbstständigen\\b|\\bselbstständige\\b|\\bselbstständiger\\b|\\bselbstständigsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bStelle\\b|\\bStellen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPause\\b|\\bPausen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkriegen\\b|\\bkriegt\\b|\\bkriegte\\b|\\bgekriegt\\b|\\bkriegst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschwarz\\b|\\bschwarzes\\b|\\bschwarzem\\b|\\bschwarzen\\b|\\bschwarze\\b|\\bschwarzer\\b|\\bschwärzer\\b|\\bschwärzesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgrau\\b|\\bgraues\\b|\\bgrauem\\b|\\bgrauen\\b|\\bgraue\\b|\\bgrauer\\b|\\bgrausten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bblau\\b|\\bblaues\\b|\\bblauem\\b|\\bblauen\\b|\\bblaue\\b|\\bblauer\\b|\\bblausten\\b|\\bblauesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgrün\\b|\\bgrünes\\b|\\bgrünem\\b|\\bgrünen\\b|\\bgrüne\\b|\\bgrüner\\b|\\bgrünsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bweiß|\\bweißes\\b|\\bweißem\\b|\\bweißen\\b|\\bweiße\\b|\\bweißer\\b|\\bweißesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\brot\\b|\\brotes\\b|\\brotem\\b|\\broten\\b|\\brote\\b|\\broter\\b|\\bröter\\b|\\brötesten\\b|\\brotesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgelb\\b|\\bgelbes\\b|\\bgelbem\\b|\\bgelben\\b|\\bgelbe\\b|\\bgelber\\b|\\bgelbsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbraun\\b|\\bbraunes\\b|\\bbraunem\\b|\\bbraunen\\b|\\bbraune\\b|\\bbrauner\\b|\\bbraunsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhellblau\\b|\\bhellblaues\\b|\\bhellblauem\\b|\\bhellblauen\\b|\\bhellblaue\\b|\\bhellblauer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdunkelblau\\b|\\bdunkelblaues\\b|\\bdunkelblauem\\b|\\bdunkelblauen\\b|\\bdunkelblaue\\b|\\bdunkelblauer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMund\\b|\\bMünder\\b|\\bMündern\\b|\\bMunde\\b|\\bMundes\\b|\\bMunds\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAuge\\b|\\bAugen\\b|\\bAuges\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBein\\b|\\bBeine\\b|\\bBeinen\\b|\\bBeins\\b|\\bBeines\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bArm\\b|\\bArme\\b|\\bArmen\\b|\\bArms\\b|\\bArmes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFuß|\\bFüße\\b|\\bFüßen\\b|\\bFuße\\b|\\bFußes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBauch\\b|\\bBäuche\\b|\\bBäuchen\\b|\\bBauche\\b|\\bBauches\\b|\\bBauchs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHand\\b|\\bHände\\b|\\bHänden\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHaar\\b|\\bHaare\\b|\\bHaaren\\b|\\bHaars\\b|\\bHaares\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bE-Mail\\b|\\bE-Mails\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWort\\b|\\bWörter\\b|\\bWörtern\\b|\\bWorte\\b|\\bWorts\\b|\\bWortes\\b|\\bWorten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSatz\\b|\\bSätze\\b|\\bSätzen\\b|\\bSatze\\b|\\bSatzes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBuchstabe\\b|\\bBuchstaben\\b|\\bBuchstabens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blesen\\b|\\blest\\b|\\blies\\b|\\bläse\\b|\\bgelesen\\b|\\bliest\\b|\\blese\\b|\\blas\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bCD\\b|\\bCDs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdrücken\\b|\\bdrückt\\b|\\bdrück\\b|\\bdrücke\\b|\\bdrückte\\b|\\bgedrückt\\b|\\bdrückst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbenutzen\\b|\\bbenutzt\\b|\\bbenutze\\b|\\bbenutz\\b|\\bbenutzte\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\banmelden\\b|\\bmeldet [^\\.\\?!:]*?an\\b|\\bmelde [^\\.\\?!:]*?an\\b|\\bmeldete [^\\.\\?!:]*?an\\b|\\bangemeldet\\b|\\bmeldest [^\\.\\?!:]*?an\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\banklicken\\b|\\bklickt [^\\.\\?!:]*?an\\b|\\bklicke [^\\.\\?!:]*?an\\b|\\bklickte [^\\.\\?!:]*?an\\b|\\bangeklickt\\b|\\bklickst [^\\.\\?!:]*?an\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdrucken\\b|\\bdruckt\\b|\\bdruck\\b|\\bdrucke\\b|\\bdruckte\\b|\\bgedruckt\\b|\\bdruckst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFax\\b|\\bFaxe\\b|\\bFaxen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bInternet\\b|\\bInternets\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkaufen\\b|\\bkauft\\b|\\bkauf\\b|\\bkaufte\\b|\\bgekauft\\b|\\bkaufst\\b|\\bkaufe\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beinkaufen\\b|\\bkauft [^\\.\\?!:]*?ein\\b|\\bkauf [^\\.\\?!:]*?ein\\b|\\bkaufe [^\\.\\?!:]*?ein\\b|\\bkaufte [^\\.\\?!:]*?ein\\b|\\beingekauft\\b|\\bkaufst [^\\.\\?!:]*?ein\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bverkaufen\\b|\\bverkauft\\b|\\bverkauf\\b|\\bverkaufe\\b|\\bverkaufte\\b|\\bverkaufst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGeschäft\\b|\\bGeschäfte\\b|\\bGeschäften\\b|\\bGeschäftes\\b|\\bGeschäfts\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bVerkäufer\\b|\\bVerkäufern\\b|\\bVerkäufers\\b|\\bVerkäuferin\\b|\\bVerkäuferinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKunde\\b|\\bKunden\\b|\\bKundin\\b|\\bKundinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKonto\\b|\\bKonten\\b|\\bKontos\\b|\\bKonti\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(überweisen\\b|überweist\\b|überweise\\b|überweis\\b|überwiese\\b|überwiesen\\b|überwies\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbar\\b|\\bbares\\b|\\bbarem\\b|\\bbaren\\b|\\bbare\\b|\\bbarer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkosten\\b|\\bkostet\\b|\\bkoste\\b|\\bkostete\\b|\\bgekostet\\b|\\bkostest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbezahlen\\b|\\bbezahlt\\b|\\bbezahle\\b|\\bbezahlte\\b|\\bbezahlst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzahlen\\b|\\bzahlt\\b|\\bzahle\\b|\\bzahl\\b|\\bzahlte\\b|\\bgezahlt\\b|\\bzahlst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKasse\\b|\\bKassen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgeöffnet\\b|\\bgeöffnetes\\b|\\bgeöffnetem\\b|\\bgeöffneten\\b|\\bgeöffnete\\b|\\bgeöffneter\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bZeitung\\b|\\bZeitungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bZigarette\\b|\\bZigaretten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFeuer\\b|\\bFeuern\\b|\\bFeuers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\banbieten\\b|\\bbietet [^\\.\\?!:]*?an\\b|\\bbiet [^\\.\\?!:]*?an\\b|\\bbiete [^\\.\\?!:]*?an\\b|\\bböte [^\\.\\?!:]*?an\\b|\\bangeboten\\b|\\bbietest [^\\.\\?!:]*?an\\b|\\bbot [^\\.\\?!:]*?an\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmitbringen\\b|\\bbringt [^\\.\\?!:]*?mit\\b|\\bbringe [^\\.\\?!:]*?mit\\b|\\bbrächte [^\\.\\?!:]*?mit\\b|\\bmitgebracht\\b|\\bbringst [^\\.\\?!:]*?mit\\b|\\bbrachte [^\\.\\?!:]*?mit\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bunterschreiben\\b|\\bunterschreibt\\b|\\bunterschreibe\\b|\\bunterschreib\\b|\\bunterschriebe\\b|\\bunterschrieben\\b|\\bunterschreibst\\b|\\bunterschrieb\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbillig\\b|\\bbilliges\\b|\\bbilligem\\b|\\bbilligen\\b|\\bbillige\\b|\\bbilliger\\b|\\bbilligsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgünstig\\b|\\bgünstiges\\b|\\bgünstigem\\b|\\bgünstigen\\b|\\bgünstige\\b|\\bgünstiger\\b|\\bgünstigsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bteuer\\b|\\bteueres\\b|\\bteuerem\\b|\\bteueren\\b|\\bteuere\\b|\\bteuerer\\b|\\bteurer\\b|\\bteuersten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEintritt\\b|\\bEintritte\\b|\\bEintritten\\b|\\bEintrittes\\b|\\bEintritts\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEcke\\b|\\bEcken\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchild\\b|\\bSchilde\\b|\\bSchilden\\b|\\bSchilds\\b|\\bSchildes\\b|\\bSchilder\\b|\\bSchildern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blinks\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\brechts\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgeradeaus\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmüde\\b|\\bmüdes\\b|\\bmüdem\\b|\\bmüden\\b|\\bmüder\\b|\\bmüdesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschlafen\\b|\\bschlaft\\b|\\bschlaf\\b|\\bschlafe\\b|\\bschliefe\\b|\\bgeschlafen\\b|\\bschläfst\\b|\\bschläft\\b|\\bschlief\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwerden\\b|\\bwerdet\\b|\\bwerde\\b|\\bwerd\\b|\\bwürde\\b|\\bgeworden\\b|\\bworden\\b|\\bwirst\\b|\\bwird\\b|\\bwurde\\b|\\bward\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bist [^\\.\\?!:]*?weg\\b|\\bweg [^\\.\\?!:]*?sein\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bist [^\\.\\?!:]*?zu\\b|\\bzu [^\\.\\?!:]*?sein\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(öffnen\\b|öffnet\\b|öffne\\b|öffnete\\b|\\bgeöffnet\\b|öffnest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschreiben\\b|\\bschreibt\\b|\\bschreibe\\b|\\bschreib\\b|\\bschriebe\\b|\\bgeschrieben\\b|\\bschreibst\\b|\\bschrieb\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmögen\\b|\\bmöchte\\b|\\bgemocht\\b|\\bmagst\\b|\\bmag\\b|\\bmochte\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmitmachen\\b|\\bmacht [^\\.\\?!:]*?mit\\b|\\bmach [^\\.\\?!:]*?mit\\b|\\bmachte [^\\.\\?!:]*?mit\\b|\\bmitgemacht\\b|\\bmachst [^\\.\\?!:]*?mit\\b|\\bmache [^\\.\\?!:]*?mit\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmitnehmen\\b|\\bnehmt [^\\.\\?!:]*?mit\\b|\\bnimm [^\\.\\?!:]*?mit\\b|\\bnähme [^\\.\\?!:]*?mit\\b|\\bmitgenommen\\b|\\bnimmst [^\\.\\?!:]*?mit\\b|\\bnimmt [^\\.\\?!:]*?mit\\b|\\bnehme [^\\.\\?!:]*?mit\\b|\\bnahm [^\\.\\?!:]*?mit\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bholen\\b|\\bholt\\b|\\bhole\\b|\\bhol\\b|\\bholte\\b|\\bgeholt\\b|\\bholst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkennen\\b|\\bkennt\\b|\\bkenne\\b|\\bkenn\\b|\\bkennte\\b|\\bgekannt\\b|\\bkennst\\b|\\bkannte\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blieben\\b|\\bliebt\\b|\\bliebe\\b|\\bliebte\\b|\\bgeliebt\\b|\\bliebst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhaben\\b|\\bhabt\\b|\\bhabe\\b|\\bhab\\b|\\bhätte\\b|\\bgehabt\\b|\\bhast\\b|\\bhat\\b|\\bhatte\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgewinnen\\b|\\bgewinnt\\b|\\bgewinn\\b|\\bgewönne\\b|\\bgewänne\\b|\\bgewonnen\\b|\\bgewinnst\\b|\\bgewinne\\b|\\bgewann\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgestorben\\b|\\bgestorbenes\\b|\\bgestorbenem\\b|\\bgestorbenen\\b|\\bgestorbene\\b|\\bgestorbener\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgefallen\\b|\\bgefallt\\b|\\bgefalle\\b|\\bgefall\\b|\\bgefiele\\b|\\bgefällst\\b|\\bgefällt\\b|\\bgefiel\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfreuen\\b|\\bfreut\\b|\\bfreu\\b|\\bfreute\\b|\\bgefreut\\b|\\bfreust\\b|\\bfreue\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfinden\\b|\\bfindet\\b|\\bfinde\\b|\\bfände\\b|\\bgefunden\\b|\\bfindest\\b|\\bfand\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgültig\\b|\\bgültiges\\b|\\bgültigem\\b|\\bgültigen\\b|\\bgültige\\b|\\bgültiger\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bglücklich\\b|\\bglückliches\\b|\\bglücklichem\\b|\\bglücklichen\\b|\\bglückliche\\b|\\bglücklicher\\b|\\bglücklichsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgerne\\b|\\blieber\\b|\\bgerner\\b|\\bliebsten\\b|\\bgernsten\\b|\\bgern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bviel\\b|\\bvieles\\b|\\bvielem\\b|\\bvielen\\b|\\bviele\\b|\\bvieler\\b|\\bmehr\\b|\\bmeisten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bohne\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmehr\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bApartment\\b|\\bApartments\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\babgeben\\b|\\bgebt [^\\.\\?!:]*?ab\\b|\\bgib [^\\.\\?!:]*?ab\\b|\\bgäbe [^\\.\\?!:]*?ab\\b|\\babgegeben\\b|\\bgibst [^\\.\\?!:]*?ab\\b|\\bgibt [^\\.\\?!:]*?ab\\b|\\bgebe [^\\.\\?!:]*?ab\\b|\\bgab [^\\.\\?!:]*?ab\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\babholen\\b|\\bholt [^\\.\\?!:]*?ab\\b|\\bhole [^\\.\\?!:]*?ab\\b|\\bholte [^\\.\\?!:]*?ab\\b|\\babgeholt\\b|\\bholst [^\\.\\?!:]*?ab\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwohnen\\b|\\bwohnt\\b|\\bwohne\\b|\\bwohn\\b|\\bwohnte\\b|\\bgewohnt\\b|\\bwohnst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bvermieten\\b|\\bvermietet\\b|\\bvermiete\\b|\\bvermietete\\b|\\bvermietest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bVermieter\\b|\\bVermietern\\b|\\bVermieters\\b|\\bVermieterin\\b|\\bVermieterinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bRaum\\b|\\bRäume\\b|\\bRäumen\\b|\\bRaume\\b|\\bRaums\\b|\\bRaumes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bToilette\\b|\\bToiletten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbaden\\b|\\bbadet\\b|\\bbade\\b|\\bbadete\\b|\\bgebadet\\b|\\bbadest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDusche\\b|\\bDuschen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bduschen\\b|\\bduscht\\b|\\bdusch\\b|\\bduschte\\b|\\bgeduscht\\b|\\bduschst\\b|\\bdusche\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkochen\\b|\\bkocht\\b|\\bkoch\\b|\\bkoche\\b|\\bkochte\\b|\\bgekocht\\b|\\bkochst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHerd\\b|\\bHerde\\b|\\bHerden\\b|\\bHerdes\\b|\\bHerds\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKühlschrank\\b|\\bKühlschränke\\b|\\bKühlschränken\\b|\\bKühlschranke\\b|\\bKühlschranks\\b|\\bKühlschrankes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBett\\b|\\bBetten\\b|\\bBette\\b|\\bBetts\\b|\\bBettes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchrank\\b|\\bSchränke\\b|\\bSchränken\\b|\\bSchranke\\b|\\bSchranks\\b|\\bSchrankes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSofa\\b|\\bSofas\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTisch\\b|\\bTische\\b|\\bTischen\\b|\\bTischs\\b|\\bTisches\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bStock\\b|\\bStöcke\\b|\\bStöcker\\b|\\bStöcken\\b|\\bStöckern\\b|\\bStocke\\b|\\bStocks\\b|\\bStockes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBalkon\\b|\\bBalkons\\b|\\bBalkone\\b|\\bBalkonen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAufzug\\b|\\bAufzüge\\b|\\bAufzügen\\b|\\bAufzuge\\b|\\bAufzugs\\b|\\bAufzuges\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTreppe\\b|\\bTreppen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGarten\\b|\\bGärten\\b|\\bGartens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bJacke\\b|\\bJacken\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\banziehen\\b|\\bzieht [^\\.\\?!:]*?an\\b|\\bzieh [^\\.\\?!:]*?an\\b|\\bziehe [^\\.\\?!:]*?an\\b|\\bzöge [^\\.\\?!:]*?an\\b|\\bangezogen\\b|\\bziehst [^\\.\\?!:]*?an\\b|\\bzog [^\\.\\?!:]*?an\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bausziehen\\b|\\bhaben\\b|\\bzieht [^\\.\\?!:]*?aus\\b|\\bzieh [^\\.\\?!:]*?aus\\b|\\bziehe [^\\.\\?!:]*?aus\\b|\\bzöge [^\\.\\?!:]*?aus\\b|\\bausgezogen\\b|\\bziehst [^\\.\\?!:]*?aus\\b|\\bzog [^\\.\\?!:]*?aus\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTasche\\b|\\bTaschen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchuh\\b|\\bSchuhe\\b|\\bSchuhen\\b|\\bSchuhs\\b|\\bSchuhes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bRegen\\b|\\bRegens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bregnen\\b|\\bregnete\\b|\\bgeregnet\\b|\\bregnet\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWind\\b|\\bWinde\\b|\\bWinden\\b|\\bWindes\\b|\\bWinds\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSonne\\b|\\bSonnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bscheinen\\b|\\bscheint\\b|\\bscheinet\\b|\\bscheine\\b|\\bschein\\b|\\bschiene\\b|\\bgeschienen\\b|\\bscheinst\\b|\\bschien\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhell\\b|\\bhelles\\b|\\bhellem\\b|\\bhellen\\b|\\bhelle\\b|\\bheller\\b|\\bhellsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bausmachen\\b|\\bmacht [^\\.\\?!:]*?aus\\b|\\bmach [^\\.\\?!:]*?aus\\b|\\bmachte [^\\.\\?!:]*?aus\\b|\\bausgemacht\\b|\\bmachst [^\\.\\?!:]*?aus\\b|\\bmache [^\\.\\?!:]*?aus\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\banmachen\\b|\\bmacht [^\\.\\?!:]*?an\\b|\\bmach [^\\.\\?!:]*?an\\b|\\bmache [^\\.\\?!:]*?an\\b|\\bmachte [^\\.\\?!:]*?an\\b|\\bangemacht\\b|\\bmachst [^\\.\\?!:]*?an\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLicht\\b|\\bLichter\\b|\\bLichte\\b|\\bLichtern\\b|\\bLichten\\b|\\bLichts\\b|\\bLichtes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsprechen\\b|\\bsprecht\\b|\\bsprich\\b|\\bspräche\\b|\\bgesprochen\\b|\\bsprichst\\b|\\bspricht\\b|\\bspreche\\b|\\bsprach\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsagen\\b|\\bsagt\\b|\\bsag\\b|\\bsage\\b|\\bsagte\\b|\\bgesagt\\b|\\bsagst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAnsage\\b|\\bAnsagen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDurchsage\\b|\\bDurchsagen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAuskunft\\b|\\bAuskünfte\\b|\\bAuskünften\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfragen\\b|\\bfragt\\b|\\bfrag\\b|\\bfrage\\b|\\bfragte\\b|\\bfrüge\\b|\\bgefragt\\b|\\bfragst\\b|\\bfrägst\\b|\\bfrägt\\b|\\bfrug\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bantworten\\b|\\bantwortet\\b|\\bantworte\\b|\\bantwortete\\b|\\bgeantwortet\\b|\\bantwortest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbitten\\b|\\bbittet\\b|\\bbitte\\b|\\bbäte\\b|\\bgebeten\\b|\\bbittest\\b|\\bbat\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdanke\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHund\\b|\\bHunde\\b|\\bHunden\\b|\\bHunds\\b|\\bHundes\\b|\\bHündin\\b|\\bHündinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKreditkarte\\b|\\bKreditkarten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPostkarte\\b|\\bPostkarten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAchtung\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\brauchen\\b|\\braucht\\b|\\brauche\\b|\\brauchte\\b|\\bgeraucht\\b|\\brauchst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\berlauben\\b|\\berlaubt\\b|\\berlaube\\b|\\berlaubte\\b|\\berlaubst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bverboten\\b|\\bverbotenes\\b|\\bverbotenem\\b|\\bverbotenen\\b|\\bverbotene\\b|\\bverbotener\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPolizei\\b|\\bPolizeien\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbesuchen\\b|\\bbesucht\\b|\\bbesuch\\b|\\bbesuche\\b|\\bbesuchte\\b|\\bbesuchst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bheiraten\\b|\\bheiratet\\b|\\bheirate\\b|\\bheiratete\\b|\\bgeheiratet\\b|\\bheiratest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beinladen\\b|\\bladet [^\\.\\?!:]*?ein\\b|\\blade [^\\.\\?!:]*?ein\\b|\\blüde [^\\.\\?!:]*?ein\\b|\\beingeladen\\b|\\blädst [^\\.\\?!:]*?ein\\b|\\blädt [^\\.\\?!:]*?ein\\b|\\blud [^\\.\\?!:]*?ein\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHobby\\b|\\bHobbys\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\btanzen\\b|\\btanzt\\b|\\btanze\\b|\\btanz\\b|\\btanzte\\b|\\bgetanzt\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDisco\\b|\\bDiscos\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFilm\\b|\\bFilme\\b|\\bFilmen\\b|\\bFilms\\b|\\bFilmes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdauern\\b|\\bdauert\\b|\\bdauere\\b|\\bdauerte\\b|\\bgedauert\\b|\\bdauerst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLieblings[a-zéöäü]+|\\bLieblingsfilm\\b|\\bLieblingsfilme\\b|\\bLieblingsfilmen\\b|\\bLieblingsfilmes\\b|\\bLieblingsfilms\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfernsehen\\b|\\bseht [^\\.\\?!:]*?fern\\b|\\bsieh [^\\.\\?!:]*?fern\\b|\\bsähe [^\\.\\?!:]*?fern\\b|\\bferngesehen\\b|\\bsiehst [^\\.\\?!:]*?fern\\b|\\bsieht [^\\.\\?!:]*?fern\\b|\\bsehe [^\\.\\?!:]*?fern\\b|\\bsah [^\\.\\?!:]*?fern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bCafé|\\bCafés\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSpeisekarte\\b|\\bSpeisekarten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bRechnung\\b|\\bRechnungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHalle\\b|\\bHallen\\b|\\bHalles\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgrillen\\b|\\bgrillt\\b|\\bgrille\\b|\\bgrill\\b|\\bgrillte\\b|\\bgegrillt\\b|\\bgrillst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bVerein\\b|\\bVereine\\b|\\bVereinen\\b|\\bVereins\\b|\\bVereines\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFußball\\b|\\bFußbälle\\b|\\bFußbällen\\b|\\bFußballe\\b|\\bFußballs\\b|\\bFußballes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchwimmbad\\b|\\bSchwimmbäder\\b|\\bSchwimmbädern\\b|\\bSchwimmbade\\b|\\bSchwimmbades\\b|\\bSchwimmbads\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschwimmen\\b|\\bhaben\\b|\\bschwimmt\\b|\\bschwimm\\b|\\bschwämme\\b|\\bschwömme\\b|\\bgeschwommen\\b|\\bschwimmst\\b|\\bschwimme\\b|\\bschwamm\\b|\\bschwomm\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDorf\\b|\\bDörfer\\b|\\bDörfern\\b|\\bDorfe\\b|\\bDorfs\\b|\\bDorfes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bStadt\\b|\\bStädte\\b|\\bStädten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWelt\\b|\\bWelten\\b|\\bWelts\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBriefmarke\\b|\\bBriefmarken\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschicken\\b|\\bschickt\\b|\\bschick\\b|\\bschickte\\b|\\bgeschickt\\b|\\bschickst\\b|\\bschicke\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAbsender\\b|\\bAbsendern\\b|\\bAbsenders\\b|\\bAbsenderin\\b|\\bAbsenderinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEmpfänger\\b|\\bEmpfängern\\b|\\bEmpfängers\\b|\\bEmpfängerin\\b|\\bEmpfängerinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAnrede\\b|\\bAnreden\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\baus\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\boben\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdaneben\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMitte\\b|\\bMitten\\b|\\bMittes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGlück\\b|\\bGlücke\\b|\\bGlückes\\b|\\bGlücks\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgerade\\b|\\bgerades\\b|\\bgeradem\\b|\\bgeraden\\b|\\bgerader\\b|\\bgeradesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bletzt[a-zéöäü]+|\\bletzte\\b|\\bletztes\\b|\\bletztem\\b|\\bletzten\\b|\\bletzter\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkurz\\b|\\bkurzes\\b|\\bkurzem\\b|\\bkurzen\\b|\\bkurze\\b|\\bkurzer\\b|\\bkürzer\\b|\\bkürzesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blang\\b|\\blanges\\b|\\blangem\\b|\\blangen\\b|\\blange\\b|\\blanger\\b|\\blänger\\b|\\blängsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blegen\\b|\\blegt\\b|\\blege\\b|\\bleg\\b|\\blegte\\b|\\bgelegt\\b|\\blegst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhoch\\b|\\bhoches\\b|\\bhochem\\b|\\bhochen\\b|\\bhoche\\b|\\bhocher\\b|\\bhöher\\b|\\bhöchsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhinten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bleider\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bleise\\b|\\bleises\\b|\\bleisem\\b|\\bleisen\\b|\\bleiser\\b|\\bleisesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsuchen\\b|\\bsucht\\b|\\bsuche\\b|\\bsuch\\b|\\bsuchte\\b|\\bgesucht\\b|\\bsuchst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bliebe\\b|\\blieber\\b|\\blieb[a-zéöäü]+|\\bliebe\\b|\\blieben\\b|\\blieber\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blieber\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLied\\b|\\bLieder\\b|\\bLiedern\\b|\\bLiede\\b|\\bLiedes\\b|\\bLieds\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blachen\\b|\\blacht\\b|\\blache\\b|\\blach\\b|\\blachte\\b|\\bgelacht\\b|\\blachst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmit\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmeist[a-zéöäü]+|\\bmeisten\\b|\\bviel\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmöglich\\b|\\bmögliches\\b|\\bmöglichem\\b|\\bmöglichen\\b|\\bmögliche\\b|\\bmöglicher\\b|\\bmöglichsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bnie\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bnächst[a-zéöäü]+|\\bnächste\\b|\\bnah\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bnur\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bOrdnung\\b|\\bOrdnungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPlan\\b|\\bPläne\\b|\\bPlänen\\b|\\bPlane\\b|\\bPlans\\b|\\bPlanes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTeil\\b|\\bTeile\\b|\\bTeilen\\b|\\bTeils\\b|\\bTeiles\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsitzen\\b|\\bsein\\b|\\bsitzt\\b|\\bsitz\\b|\\bsäße\\b|\\bgesessen\\b|\\bsitze\\b|\\bsaß)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsich\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bstellen\\b|\\bstellt\\b|\\bstelle\\b|\\bstellte\\b|\\bgestellt\\b|\\bstellst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\berzählen\\b|\\berzählt\\b|\\berzähl\\b|\\berzähle\\b|\\berzählte\\b|\\berzählst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\berklären\\b|\\berklärt\\b|\\berkläre\\b|\\berklär\\b|\\berklärte\\b|\\berklärst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bErgebnis\\b|\\bErgebnisse\\b|\\bErgebnissen\\b|\\bErgebnisses\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bentschuldigen\\b|\\bentschuldigt\\b|\\bentschuldige\\b|\\bentschuldigte\\b|\\bentschuldigst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\benden\\b|\\bendet\\b|\\bende\\b|\\bendete\\b|\\bgeendet\\b|\\bendest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bempfehlen\\b|\\bempfehlt\\b|\\bempfiehl\\b|\\bempfähle\\b|\\bempföhle\\b|\\bempfohlen\\b|\\bempfiehlst\\b|\\bempfiehlt\\b|\\bempfehle\\b|\\bempfahl\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beinmal\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beilig\\b|\\beiliges\\b|\\beiligem\\b|\\beiligen\\b|\\beilige\\b|\\beiliger\\b|\\beiligsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdurch\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdraußen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdir\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdies[a-zéöäü]+|\\bdiesen\\b|\\bdies\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdenn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdann\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bcirca\\b|\\bca.)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbreit\\b|\\bbreites\\b|\\bbreitem\\b|\\bbreiten\\b|\\bbreite\\b|\\bbreiter\\b|\\bbreitesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbrauchen\\b|\\bbraucht\\b|\\bbrauche\\b|\\bbrauch\\b|\\bbrauchte\\b|\\bbräuchte\\b|\\bgebraucht\\b|\\bbrauchst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbisschen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbesten\\b|\\bbest[a-zéöäü]+|\\bbesten\\b|\\bgut\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbesser\\b|\\bgutes\\b|\\bgutem\\b|\\bguten\\b|\\bgute\\b|\\bguter\\b|\\bgut\\b|\\bbesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkaputt\\b|\\bkaputtes\\b|\\bkaputtem\\b|\\bkaputten\\b|\\bkaputte\\b|\\bkaputter\\b|\\bkaputtesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bklar\\b|\\bklares\\b|\\bklarem\\b|\\bklaren\\b|\\bklare\\b|\\bklarer\\b|\\bklarsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbekannt\\b|\\bbekanntes\\b|\\bbekanntem\\b|\\bbekannten\\b|\\bbekannte\\b|\\bbekannter\\b|\\bbekanntesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bnein\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bjeder\\b|\\bjede\\b|\\bjedes\\b|\\bjedem\\b|\\bjeden\\b|\\bjed[a-zéöäü]+|\\bjeder\\b|\\bjede\\b|\\bjedes\\b|\\bjedem\\b|\\bjeden\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbeide\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bautomatisch\\b|\\bautomatisches\\b|\\bautomatischem\\b|\\bautomatischen\\b|\\bautomatische\\b|\\bautomatischer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\baussehen\\b|\\bseht [^\\.\\?!:]*?aus\\b|\\bsieh [^\\.\\?!:]*?aus\\b|\\bsiehe [^\\.\\?!:]*?aus\\b|\\bsähe [^\\.\\?!:]*?aus\\b|\\bausgesehen\\b|\\bsiehst [^\\.\\?!:]*?aus\\b|\\bsieht [^\\.\\?!:]*?aus\\b|\\bsehe [^\\.\\?!:]*?aus\\b|\\bsah [^\\.\\?!:]*?aus\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEingang\\b|\\bEingänge\\b|\\bEingängen\\b|\\bEingange\\b|\\bEinganges\\b|\\bEingangs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bauch\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAnzeige\\b|\\bAnzeigen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwunderbar\\b|\\bwunderbares\\b|\\bwunderbarem\\b|\\bwunderbaren\\b|\\bwunderbare\\b|\\bwunderbarer\\b|\\bwunderbarsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\breparieren\\b|\\brepariert\\b|\\brepariere\\b|\\breparier\\b|\\breparierte\\b|\\breparierst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bruhig\\b|\\bruhiges\\b|\\bruhigem\\b|\\bruhigen\\b|\\bruhige\\b|\\bruhiger\\b|\\bruhigsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgeschlossen\\b|\\bgeschlossenes\\b|\\bgeschlossenem\\b|\\bgeschlossenen\\b|\\bgeschlossene\\b|\\bgeschlossener\\b|\\bgeschlossner\\b|\\bgeschlossensten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blangsam\\b|\\blangsames\\b|\\blangsamem\\b|\\blangsamen\\b|\\blangsame\\b|\\blangsamer\\b|\\blangsamsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschon\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bander[a-zéöäü]+|\\bandere\\b|\\banderer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwichtig\\b|\\bwichtiges\\b|\\bwichtigem\\b|\\bwichtigen\\b|\\bwichtige\\b|\\bwichtiger\\b|\\bwichtigsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwissen\\b|\\bwisset\\b|\\bwisst\\b|\\bwisse\\b|\\bwüsste\\b|\\bgewusst\\b|\\bweißt\\b|\\bweiß|\\bwusste\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bweit\\b|\\bweites\\b|\\bweitem\\b|\\bweiten\\b|\\bweite\\b|\\bweiter\\b|\\bweitesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bweiter\\b|\\bweiteres\\b|\\bweiterem\\b|\\bweiteren\\b|\\bweitere\\b|\\bweiterer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bvielleicht\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWochentag\\b|\\bWochentage\\b|\\bWochentagen\\b|\\bWochentags\\b|\\bWochentages\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSonntag\\b|\\bSonntage\\b|\\bSonntagen\\b|\\bSonntags\\b|\\bSonntages\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMontag\\b|\\bMontage\\b|\\bMontagen\\b|\\bMontags\\b|\\bMontages\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDienstag\\b|\\bDienstage\\b|\\bDienstagen\\b|\\bDienstags\\b|\\bDienstages\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMittwoch\\b|\\bMittwoche\\b|\\bMittwochen\\b|\\bMittwochs\\b|\\bMittwoches\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDonnerstag\\b|\\bDonnerstage\\b|\\bDonnerstagen\\b|\\bDonnerstags\\b|\\bDonnerstages\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFreitag\\b|\\bFreitage\\b|\\bFreitagen\\b|\\bFreitags\\b|\\bFreitages\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSamstag\\b|\\bSamstage\\b|\\bSamstagen\\b|\\bSamstags\\b|\\bSamstages\\b|\\bSonnabend\\b|\\bSonnabende\\b|\\bSonnabenden\\b|\\bSonnabends\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWochenende\\b|\\bWochenenden\\b|\\bWochenendes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bam [^\\.\\?!:]*?Wochenende\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTag\\b|\\bTage\\b|\\bTagen\\b|\\bTages\\b|\\bTags\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMorgen\\b|\\bMorgens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bVormittag\\b|\\bVormittage\\b|\\bVormittagen\\b|\\bVormittags\\b|\\bVormittages\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMittag\\b|\\bMittage\\b|\\bMittagen\\b|\\bMittags\\b|\\bMittages\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bNachmittag\\b|\\bNachmittage\\b|\\bNachmittagen\\b|\\bNachmittags\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAbend\\b|\\bAbende\\b|\\bAbenden\\b|\\bAbends\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bNacht\\b|\\bNächte\\b|\\bNächten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bJanuar\\b|\\bJanuare\\b|\\bJanuaren\\b|\\bJanuars\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFebruar\\b|\\bFebruare\\b|\\bFebruaren\\b|\\bFebruars\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMärz\\b|\\bMärze\\b|\\bMärzen\\b|\\bMärzes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bApril\\b|\\bAprile\\b|\\bAprilen\\b|\\bAprils\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMai\\b|\\bMaie\\b|\\bMaien\\b|\\bMais\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bJuni\\b|\\bJunis\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bJuli\\b|\\bJulis\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAugust\\b|\\bAuguste\\b|\\bAugusten\\b|\\bAugusts\\b|\\bAugustes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSeptember\\b|\\bSeptembern\\b|\\bSeptembers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bOktober\\b|\\bOktobern\\b|\\bOktobers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bNovember\\b|\\bNovembern\\b|\\bNovembers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDezember\\b|\\bDezembern\\b|\\bDezembers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSekunde\\b|\\bSekunden\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMinute\\b|\\bMinuten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWoche\\b|\\bWochen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bJahr\\b|\\bJahre\\b|\\bJahren\\b|\\bJahres\\b|\\bJahrs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwo\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwohin\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwas\\b|\\bwessen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwann\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwie\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bNummer\\b|\\bNummern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMeter\\b|\\bMetern\\b|\\bMeters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGrad [^\\.\\?!:]*?Celsius\\b|\\bGrads [^\\.\\?!:]*?Celsius\\b|\\bGrad\\b|\\bGrade\\b|\\bGraden\\b|\\bGrads\\b|\\bGrades\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkönnen\\b|\\bkönnte\\b|\\bgekonnt\\b|\\bkannst\\b|\\bkann\\b|\\bkonnte\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwollen\\b|\\bwollte\\b|\\bgewollt\\b|\\bwillst\\b|\\bwill\\b|\\bwollenes\\b|\\bwollenem\\b|\\bwollenen\\b|\\bwollene\\b|\\bwollener\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmüssen\\b|\\bmüsste\\b|\\bgemusst\\b|\\bmusst\\b|\\bmuss\\b|\\bmusste\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdürfen\\b|\\bdürfte\\b|\\bgedurft\\b|\\bdarfst\\b|\\bdarf\\b|\\bdurfte\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsollen\\b|\\bsollte\\b|\\bgesollt\\b|\\bsollst\\b|\\bsoll\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmöchten\\b|\\bmögen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmitkommen\\b|\\bkommt [^\\.\\?!:]*?mit\\b|\\bkomme [^\\.\\?!:]*?mit\\b|\\bkäme [^\\.\\?!:]*?mit\\b|\\bmitgekommen\\b|\\bkommst [^\\.\\?!:]*?mit\\b|\\bkam [^\\.\\?!:]*?mit\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bein\\b|\\beins\\b|\\beiner\\b|\\beine\\b|\\beines\\b|\\beinem\\b|\\beinen\\b|\\bein[a-zéöäü]+|\\bein\\b|\\beins\\b|\\beiner\\b|\\beine\\b|\\beines\\b|\\beinem\\b|\\beinen\\b|\\beint\\b|\\beinte\\b|\\bgeeint\\b|\\beinst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmein\\b|\\bmeines\\b|\\bmeinem\\b|\\bmeinen\\b|\\bmeine\\b|\\bmeiner\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdein\\b|\\bdeins\\b|\\bdein[a-zéöäü]+|\\bdein\\b|\\bdeines\\b|\\bdeinem\\b|\\bdeinen\\b|\\bdeine\\b|\\bdeiner\\b|\\bdeins\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsein\\b|\\bseid\\b|\\bsei\\b|\\bwäre\\b|\\bgewesen\\b|\\bbist\\b|\\bist\\b|\\bbin\\b|\\bwar\\b|\\bseines\\b|\\bseinem\\b|\\bseinen\\b|\\bseine\\b|\\bseiner\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkein\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkeine\\b|\\bkein\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\balles\\b|\\balle\\b|\\ball[a-zéöäü]+|\\balles\\b|\\ball\\b|\\balle\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdanken\\b|\\bdankt\\b|\\bdank\\b|\\bdanke\\b|\\bdankte\\b|\\bgedankt\\b|\\bdankst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhelfen\\b|\\bhelft\\b|\\bhilf\\b|\\bhülfe\\b|\\bhälfe\\b|\\bgeholfen\\b|\\bhilfst\\b|\\bhilft\\b|\\bhelfe\\b|\\bhalf\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDame\\b|\\bDamen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFrau\\b|\\bFrauen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGruß|\\bGrüße\\b|\\bGrüßen\\b|\\bGruße\\b|\\bGrußes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beinfach\\b|\\beinfaches\\b|\\beinfachem\\b|\\beinfachen\\b|\\beinfache\\b|\\beinfacher\\b|\\beinfachsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchule\\b|\\bSchulen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\brichtig\\b|\\brichtiges\\b|\\brichtigem\\b|\\brichtigen\\b|\\brichtige\\b|\\brichtiger\\b|\\brichtigsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\banfangen\\b|\\bsein\\b|\\bfangt [^\\.\\?!:]*?an\\b|\\bfang [^\\.\\?!:]*?an\\b|\\bfange [^\\.\\?!:]*?an\\b|\\bfinge [^\\.\\?!:]*?an\\b|\\bangefangen\\b|\\bfängst [^\\.\\?!:]*?an\\b|\\bfängt [^\\.\\?!:]*?an\\b|\\bfing [^\\.\\?!:]*?an\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHalbpension\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(übernachten\\b|übernachtet\\b|übernachte\\b|übernachtete\\b|übernachtest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbleiben\\b|\\bbleibt\\b|\\bbleibe\\b|\\bbleib\\b|\\bbliebe\\b|\\bgeblieben\\b|\\bbleibst\\b|\\bblieb\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzurück\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzu\\b|\\bzues\\b|\\bzuem\\b|\\bzuen\\b|\\bzue\\b|\\bzuer\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bReiseführer\\b|\\bReiseführern\\b|\\bReiseführers\\b|\\bReiseführerin\\b|\\bReiseführerinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBahn\\b|\\bBahnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKlasse\\b|\\bKlassen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPlatz\\b|\\bPlätze\\b|\\bPlätzen\\b|\\bPlatze\\b|\\bPlatzes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bpünktlich\\b|\\bpünktliches\\b|\\bpünktlichem\\b|\\bpünktlichen\\b|\\bpünktliche\\b|\\bpünktlicher\\b|\\bpünktlichsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBrot\\b|\\bBrote\\b|\\bBroten\\b|\\bBrots\\b|\\bBrotes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\balt\\b|\\baltes\\b|\\baltem\\b|\\balten\\b|\\balte\\b|\\balter\\b|älter\\b|ältesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bheißen\\b|\\bheißt\\b|\\bheiß|\\bheiße\\b|\\bhieße\\b|\\bgeheißen\\b|\\bhieß|\\bheißte\\b|\\bgeheißt\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bVorname\\b|\\bVornamen\\b|\\bVornamens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bleicht\\b|\\bleichtes\\b|\\bleichtem\\b|\\bleichten\\b|\\bleichte\\b|\\bleichter\\b|\\bleichtesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschwer\\b|\\bschweres\\b|\\bschwerem\\b|\\bschweren\\b|\\bschwere\\b|\\bschwerer\\b|\\bschwersten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgroß|\\bgroßes\\b|\\bgroßem\\b|\\bgroßen\\b|\\bgroße\\b|\\bgroßer\\b|\\bgrößer\\b|\\bgrößten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\banrufen\\b|\\bruft [^\\.\\?!:]*?an\\b|\\bruf [^\\.\\?!:]*?an\\b|\\briefe [^\\.\\?!:]*?an\\b|\\bangerufen\\b|\\brufst [^\\.\\?!:]*?an\\b|\\brufe [^\\.\\?!:]*?an\\b|\\brief [^\\.\\?!:]*?an\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAnschluss\\b|\\bAnschlüsse\\b|\\bAnschlüssen\\b|\\bAnschlusse\\b|\\bAnschlusses\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbesetzt\\b|\\bbesetzen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschlecht\\b|\\bschlechtes\\b|\\bschlechtem\\b|\\bschlechten\\b|\\bschlechte\\b|\\bschlechter\\b|\\bschlechtesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFeierabend\\b|\\bFeiertag\\b|\\bFeier[a-zéöäü]+|\\bFeierabend\\b|\\bFeierabende\\b|\\bFeierabenden\\b|\\bFeierabends\\b|\\bFeiertag\\b|\\bFeiertage\\b|\\bFeiertagen\\b|\\bFeiertages\\b|\\bFeiertags\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBuch\\b|\\bBücher\\b|\\bBüchern\\b|\\bBuche\\b|\\bBuchs\\b|\\bBuches\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\baufstehen\\b|\\bhaben\\b|\\bsteht [^\\.\\?!:]*?auf\\b|\\bsteh [^\\.\\?!:]*?auf\\b|\\bstehe [^\\.\\?!:]*?auf\\b|\\bstände [^\\.\\?!:]*?auf\\b|\\bstünde [^\\.\\?!:]*?auf\\b|\\baufgestanden\\b|\\bstehst [^\\.\\?!:]*?auf\\b|\\bstand [^\\.\\?!:]*?auf\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bauf [^\\.\\?!:]*?sein\\b|\\bseid [^\\.\\?!:]*?auf\\b|\\bsei [^\\.\\?!:]*?auf\\b|\\bwäre [^\\.\\?!:]*?auf\\b|\\bauf [^\\.\\?!:]*?gewesen\\b|\\bbist [^\\.\\?!:]*?auf\\b|\\bist [^\\.\\?!:]*?auf\\b|\\bbin [^\\.\\?!:]*?auf\\b|\\bwar [^\\.\\?!:]*?auf\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsehen\\b|\\bseht\\b|\\bsiehe\\b|\\bsieh\\b|\\bsähe\\b|\\bgesehen\\b|\\bsiehst\\b|\\bsieht\\b|\\bsehe\\b|\\bsah\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bnehmen\\b|\\bnehmt\\b|\\bnimm\\b|\\bnähme\\b|\\bgenommen\\b|\\bnimmst\\b|\\bnimmt\\b|\\bnehme\\b|\\bnahm\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbekommen\\b|\\bsein\\b|\\bbekommt\\b|\\bbekomm\\b|\\bbekomme\\b|\\bbekäme\\b|\\bbekommst\\b|\\bbekam\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bkommen\\b|\\bkommt\\b|\\bkomm\\b|\\bkomme\\b|\\bkäme\\b|\\bgekommen\\b|\\bkommst\\b|\\bkam\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bliegen\\b|\\bsein\\b|\\bliegt\\b|\\blieg\\b|\\bliege\\b|\\bläge\\b|\\bgelegen\\b|\\bliegst\\b|\\blag\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmachen\\b|\\bmacht\\b|\\bmache\\b|\\bmach\\b|\\bmachte\\b|\\bgemacht\\b|\\bmachst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhören\\b|\\bhört\\b|\\bhör\\b|\\bhöre\\b|\\bhörte\\b|\\bgehört\\b|\\bhörst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bglauben\\b|\\bglaubt\\b|\\bglaub\\b|\\bglaube\\b|\\bglaubte\\b|\\bgeglaubt\\b|\\bglaubst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgehen\\b|\\bgeht\\b|\\bgehet\\b|\\bgeh\\b|\\bgehe\\b|\\bginge\\b|\\bgegangen\\b|\\bgehst\\b|\\bging\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgeben\\b|\\bgebt\\b|\\bgib\\b|\\bgäbe\\b|\\bgegeben\\b|\\bgibst\\b|\\bgibt\\b|\\bgebe\\b|\\bgab\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgut\\b|\\bgutes\\b|\\bgutem\\b|\\bguten\\b|\\bgute\\b|\\bguter\\b|\\bbesser\\b|\\bbesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgleich\\b|\\bgleiches\\b|\\bgleichem\\b|\\bgleichen\\b|\\bgleiche\\b|\\bgleicher\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfertig\\b|\\bfertiges\\b|\\bfertigem\\b|\\bfertigen\\b|\\bfertige\\b|\\bfertiger\\b|\\bfertigsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzusammen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwenig\\b|\\bweniges\\b|\\bwenigem\\b|\\bwenigen\\b|\\bwenige\\b|\\bweniger\\b|\\bminder\\b|\\bwenigsten\\b|\\bmindesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHaus\\b|\\bHäuser\\b|\\bHäusern\\b|\\bHause\\b|\\bHauses\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGlas\\b|\\bGläser\\b|\\bGläsern\\b|\\bGlase\\b|\\bGlases\\b|\\bGlasen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\baus [^\\.\\?!:]*?sein\\b|\\bseid [^\\.\\?!:]*?aus\\b|\\bsei [^\\.\\?!:]*?aus\\b|\\bwäre [^\\.\\?!:]*?aus\\b|\\baus [^\\.\\?!:]*?gewesen\\b|\\bbist [^\\.\\?!:]*?aus\\b|\\bist [^\\.\\?!:]*?aus\\b|\\bbin [^\\.\\?!:]*?aus\\b|\\bwar [^\\.\\?!:]*?aus\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\ban [^\\.\\?!:]*?sein\\b|\\bwäre [^\\.\\?!:]*?an\\b|\\ban [^\\.\\?!:]*?gewesen\\b|\\bist [^\\.\\?!:]*?an\\b|\\bwar [^\\.\\?!:]*?an\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bInformation\\b|\\bInformationen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHilfe\\b|\\bHilfen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbitte\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDank\\b|\\bDanke\\b|\\bDanks\\b|\\bDankes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKarte\\b|\\bKarten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFreund\\b|\\bFreunde\\b|\\bFreunden\\b|\\bFreunds\\b|\\bFreundes\\b|\\bFreundin\\b|\\bFreundinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\btreffen\\b|\\btrefft\\b|\\btriff\\b|\\bträfe\\b|\\bgetroffen\\b|\\btriffst\\b|\\btrifft\\b|\\btreffe\\b|\\btraf\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbestellen\\b|\\bbestellt\\b|\\bbestell\\b|\\bbestelle\\b|\\bbestellte\\b|\\bbestellst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bspielen\\b|\\bspielt\\b|\\bspiel\\b|\\bspiele\\b|\\bspielte\\b|\\bgespielt\\b|\\bspielst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBank\\b|\\bBänke\\b|\\bBänken\\b|\\bBanken\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgegen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bvon\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfür\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\ban\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bauf\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bin\\b|\\bines\\b|\\binem\\b|\\binen\\b|\\bine\\b|\\biner\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbei\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhier\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbis\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bvor\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzwischen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bleben\\b|\\blebt\\b|\\blebe\\b|\\bleb\\b|\\blebte\\b|\\bgelebt\\b|\\blebst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMoment\\b|\\bMomente\\b|\\bMomenten\\b|\\bMoments\\b|\\bMomentes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfehlen\\b|\\bfehlt\\b|\\bfehle\\b|\\bfehlte\\b|\\bgefehlt\\b|\\bfehlst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bnicht\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bnach\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bneu\\b|\\bneues\\b|\\bneuem\\b|\\bneuen\\b|\\bneue\\b|\\bneuer\\b|\\bneusten\\b|\\bneuesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bnoch\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsehr\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bstehen\\b|\\bsein\\b|\\bsteht\\b|\\bstehe\\b|\\bsteh\\b|\\bstünde\\b|\\bstände\\b|\\bgestanden\\b|\\bstehst\\b|\\bstand\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bso\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEnde\\b|\\bEnden\\b|\\bEndes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdort\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bda\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bbringen\\b|\\bbringt\\b|\\bbring\\b|\\bbringe\\b|\\bbrächte\\b|\\bgebracht\\b|\\bbringst\\b|\\bbrachte\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\baufhören\\b|\\bhört [^\\.\\?!:]*?auf\\b|\\bhör [^\\.\\?!:]*?auf\\b|\\bhöre [^\\.\\?!:]*?auf\\b|\\bhörte [^\\.\\?!:]*?auf\\b|\\baufgehört\\b|\\bhörst [^\\.\\?!:]*?auf\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\ballein\\b|\\balleines\\b|\\balleinem\\b|\\balleinen\\b|\\balleine\\b|\\balleiner\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\balso\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchluss\\b|\\bSchlüsse\\b|\\bSchlüssen\\b|\\bSchlusse\\b|\\bSchlusses\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschön\\b|\\bschönes\\b|\\bschönem\\b|\\bschönen\\b|\\bschöne\\b|\\bschöner\\b|\\bschönsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwarten\\b|\\bwartet\\b|\\bwarte\\b|\\bwartete\\b|\\bgewartet\\b|\\bwartest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bwaschen\\b|\\bwascht\\b|\\bwasche\\b|\\bwasch\\b|\\bwüsche\\b|\\bgewaschen\\b|\\bwäschst\\b|\\bwäscht\\b|\\bwusch\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\berste\\b|\\berstes\\b|\\berstem\\b|\\bersten\\b|\\berster\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bUhrzeit\\b|\\bUhrzeiten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWährungen\\b|\\bWährung\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSprache\\b|\\bSprachen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDeutschland\\b|\\bDeutschlands\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEuropa\\b|\\bEuropas\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bErwachsene\\b|\\bErwachsener\\b|\\bErwachsenen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKind\\b|\\bKinder\\b|\\bKindern\\b|\\bKinde\\b|\\bKindes\\b|\\bKinds\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGeschwister\\b|\\bGeschwistern\\b|\\bGeschwisters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEltern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGroßeltern\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAufgabe\\b|\\bAufgaben\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKurs\\b|\\bKurse\\b|\\bKursen\\b|\\bKurses\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGruppe\\b|\\bGruppen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bStudium\\b|\\bStudien\\b|\\bStudiums\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHotel\\b|\\bHotels\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFoto\\b|\\bFotos\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGepäck\\b|\\bGepäckes\\b|\\bGepäcks\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSehenswürdigkeit\\b|\\bSehenswürdigkeiten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAusflug\\b|\\bAusflüge\\b|\\bAusflügen\\b|\\bAusfluge\\b|\\bAusfluges\\b|\\bAusflugs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bReisebüro\\b|\\bReisebüros\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPapiere\\b|\\bPapier\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAbfahrt\\b|\\bAbfahrten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAnkunft\\b|\\bAnkünfte\\b|\\bAnkünften\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFlugzeug\\b|\\bFlugzeuge\\b|\\bFlugzeugen\\b|\\bFlugzeuges\\b|\\bFlugzeugs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTicket\\b|\\bTickets\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAuto\\b|\\bAutos\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBus\\b|\\bBusse\\b|\\bBussen\\b|\\bBusses\\b|\\bBuses\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFahrrad\\b|\\bFahrräder\\b|\\bFahrrädern\\b|\\bFahrrade\\b|\\bFahrrades\\b|\\bFahrrads\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschmecken\\b|\\bschmeckt\\b|\\bschmecke\\b|\\bschmeck\\b|\\bschmeckte\\b|\\bgeschmeckt\\b|\\bschmeckst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEssen\\b|\\bEssens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGetränk\\b|\\bGetränke\\b|\\bGetränken\\b|\\bGetränkes\\b|\\bGetränks\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bObst\\b|\\bObste\\b|\\bObsts\\b|\\bObstes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFleisch\\b|\\bFleische\\b|\\bFleischs\\b|\\bFleisches\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGemüse\\b|\\bGemüsen\\b|\\bGemüses\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFrühstück\\b|\\bFrühstücke\\b|\\bFrühstücken\\b|\\bFrühstücks\\b|\\bFrühstückes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKaffee\\b|\\bKaffees\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGeburtstag\\b|\\bGeburtstage\\b|\\bGeburtstagen\\b|\\bGeburtstags\\b|\\bGeburtstages\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBogen\\b|\\bBögen\\b|\\bBogens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAlter\\b|\\bAlte\\b|\\bAlten\\b|\\bAltem\\b|\\bAltern\\b|\\bAlters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFamilienstand\\b|\\bFamilienstande\\b|\\bFamilienstandes\\b|\\bFamilienstands\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bName\\b|\\bNamen\\b|\\bNamens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAdresse\\b|\\bAdressen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGewicht\\b|\\bGewichte\\b|\\bGewichten\\b|\\bGewichtes\\b|\\bGewichts\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGröße\\b|\\bGrößen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bTelefon\\b|\\bTelefone\\b|\\bTelefonen\\b|\\bTelefons\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPraktikum\\b|\\bPraktika\\b|\\bPraktikums\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bArzt\\b|Ärzte\\b|Ärzten\\b|\\bArzte\\b|\\bArztes\\b|\\bArzts\\b|Ärztin\\b|Ärztinnen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFarbe\\b|\\bFarben\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKopf\\b|\\bKöpfe\\b|\\bKöpfen\\b|\\bKopfe\\b|\\bKopfs\\b|\\bKopfes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBild\\b|\\bBilder\\b|\\bBildern\\b|\\bBilde\\b|\\bBilds\\b|\\bBildes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bText\\b|\\bTexte\\b|\\bTexten\\b|\\bTextes\\b|\\bTexts\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAnmeldung\\b|\\bAnmeldungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bDrucker\\b|\\bDruckern\\b|\\bDruckers\\b|\\bDruckerin\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGeld\\b|\\bGelder\\b|\\bGeldern\\b|\\bGelde\\b|\\bGelds\\b|\\bGeldes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBäckerei\\b|\\bBäckereien\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKiosk\\b|\\bKioske\\b|\\bKiosken\\b|\\bKiosks\\b|\\bKioskes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bmieten\\b|\\bmietet\\b|\\bmiete\\b|\\bmietete\\b|\\bgemietet\\b|\\bmietest\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAngebot\\b|\\bAngebote\\b|\\bAngeboten\\b|\\bAngebots\\b|\\bAngebotes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bUnterschrift\\b|\\bUnterschriften\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPreis\\b|\\bPreise\\b|\\bPreisen\\b|\\bPreises\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bumziehen\\b|\\bhaben\\b|\\bzieht [^\\.\\?!:]*?um\\b|\\bzieh [^\\.\\?!:]*?um\\b|\\bzöge [^\\.\\?!:]*?um\\b|\\bumgezogen\\b|\\bziehst [^\\.\\?!:]*?um\\b|\\bziehe [^\\.\\?!:]*?um\\b|\\bzog [^\\.\\?!:]*?um\\b|\\bumzieht\\b|\\bumzieh\\b|\\bumziehe\\b|\\bumzöge\\b|\\bumzogen\\b|\\bumziehst\\b|\\bumzog\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMiete\\b|\\bMieten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBad\\b|\\bBäder\\b|\\bBädern\\b|\\bBade\\b|\\bBads\\b|\\bBades\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKüche\\b|\\bKüchen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSchlüssel\\b|\\bSchlüsseln\\b|\\bSchlüssels\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMöbel\\b|\\bMöbeln\\b|\\bMöbels\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKleidung\\b|\\bKleidungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWetter\\b|\\bWettern\\b|\\bWetters\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bMaschine\\b|\\bMaschinen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFrage\\b|\\bFragen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAntwort\\b|\\bAntworten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBitte\\b|\\bBitten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bHochzeit\\b|\\bHochzeiten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEinladung\\b|\\bEinladungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bParty\\b|\\bPartys\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bKino\\b|\\bKinos\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bRestaurant\\b|\\bRestaurants\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bSport\\b|\\bSporte\\b|\\bSporten\\b|\\bSports\\b|\\bSportes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBrief\\b|\\bBriefe\\b|\\bBriefen\\b|\\bBriefs\\b|\\bBriefes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLeben\\b|\\bLebens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blaut\\b|\\blautes\\b|\\blautem\\b|\\blauten\\b|\\blaute\\b|\\blauter\\b|\\blautesten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blustig\\b|\\blustiges\\b|\\blustigem\\b|\\blustigen\\b|\\blustige\\b|\\blustiger\\b|\\blustigsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bEntschuldigung\\b|\\bEntschuldigungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bja\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAusgang\\b|\\bAusgänge\\b|\\bAusgängen\\b|\\bAusgange\\b|\\bAusgangs\\b|\\bAusganges\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bReparatur\\b|\\bReparaturen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschließen\\b|\\bschließt\\b|\\bschließe\\b|\\bschließ|\\bschlösse\\b|\\bgeschlossen\\b|\\bschloss\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bschnell\\b|\\bschnelles\\b|\\bschnellem\\b|\\bschnellen\\b|\\bschnelle\\b|\\bschneller\\b|\\bschnellsten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beins\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzwei\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdrei\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bvier\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfünf\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsechs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsieben\\b|\\bsiebt\\b|\\bsieb\\b|\\bsiebe\\b|\\bsiebte\\b|\\bgesiebt\\b|\\bsiebst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bacht\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bneun\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzehn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\belf\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzwölf\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdreizehn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bvierzehn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfünfzehn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsechzehn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsiebzehn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bachtzehn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bneunzehn\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzwanzig\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beinundzwanzig\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bdreißig\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bvierzig\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bfünfzig\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsechzig\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bsiebzig\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bachtzig\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bneunzig\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beinhundert\\b|\\bhundert\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bhunderteins\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bzweihundert\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beintausend\\b|\\btausend\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beine [^\\.\\?!:]*?Million\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\beine [^\\.\\?!:]*?Milliarde\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAnfang\\b|\\bAnfänge\\b|\\bAnfängen\\b|\\bAnfange\\b|\\bAnfanges\\b|\\bAnfangs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bZimmer\\b|\\bZimmern\\b|\\bZimmers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bPost\\b|\\bPosten\\b|\\bPosts\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFamilie\\b|\\bFamilien\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\blernen\\b|\\blernt\\b|\\blerne\\b|\\blernte\\b|\\bgelernt\\b|\\blernst\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bZeit\\b|\\bZeiten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bUrlaub\\b|\\bUrlaube\\b|\\bUrlauben\\b|\\bUrlaubes\\b|\\bUrlaubs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bAusland\\b|\\bAuslands\\b|\\bAuslandes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bZug\\b|\\bZüge\\b|\\bZügen\\b|\\bZuge\\b|\\bZuges\\b|\\bZugs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLebensmittel\\b|\\bLebensmitteln\\b|\\bLebensmittels\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bgeboren\\b|\\bgeborenes\\b|\\bgeborenem\\b|\\bgeborenen\\b|\\bgeborene\\b|\\bgeborener\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bBeruf\\b|\\bBerufe\\b|\\bBerufen\\b|\\bBerufs\\b|\\bBerufes\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bComputer\\b|\\bComputern\\b|\\bComputers\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLaden\\b|\\bLäden\\b|\\bLadens\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bWohnung\\b|\\bWohnungen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGespräch\\b|\\bGespräche\\b|\\bGesprächen\\b|\\bGespräches\\b|\\bGesprächs\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bGast\\b|\\bGäste\\b|\\bGästen\\b|\\bGasts\\b|\\bGastes\\b|\\bGasten\\b|\\bGaste\\b|\\bGästin\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bLokal\\b|\\bLokale\\b|\\bLokalen\\b|\\bLokales\\b|\\bLokals\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bReise\\b|\\bReisen\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFormular\\b|\\bFormulare\\b|\\bFormularen\\b|\\bFormulars\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bArbeit\\b|\\bArbeiten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }],
+      "(\\bFreizeit\\b|\\bFreizeiten\\b)": [{
+        "backgroundColor": "lightgreen"
+      }]
+    }
+  }
+}

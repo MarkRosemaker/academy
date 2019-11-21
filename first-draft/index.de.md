@@ -2610,6 +2610,103 @@ falls du die Prüfung erfolgreich bestehen möchtest, dann mache die Übungen, w
 
 # Übungsbuchteil
 
+## Lektion 1
+
+- sich und andere vorstellen
+- sich in DACH begrüßen und verabschieden
+- Länder und Kontinente
+- Sprachen und Nationalitäten
+- Zahlen von 1 bis 1 Milliarde
+- Namen buchstabieren
+
+## Lektion 2
+
+- Wochentage und Tageszeiten
+- Uhrzeiten: offizielle und inoffiziell
+- Fragen zu Terminen stellen und beantworten
+- mithilfe von W-Fragen Texte erschließen
+- Ordinalzahlen (Datum) und Jahreszahlen
+- Jahreszahlen und Monatsnamen
+- "schon" und "erst"
+
+## Lektion 3
+
+- Wortschatz zum Thema "Haushalt"
+- Lebensmittel und Getränke
+- Mengenangaben und Verpackungen
+- Preise und Währungen
+- Einkaufsgespräche spielen
+- Berufsbezeichnungen
+- Familienmitglieder
+
+## Lektion 4
+
+- Wortschatz zum Thema "Sport/Freizeit"
+- Vorlieben und Abneigungen ausdrücken
+- Anzeigen über Freizeitangebote verstehen und antworten
+- Abkürzungen verstehen und verwenden
+
+## Lektion 5
+
+- Redemittel zum Thema "Befinden"
+- Wohnung und Zimmer
+- Möbel und Materialien
+- Redemittel zum Thema "Möbelkauf"
+- über Vergangenes sprechen und schreiben
+- eine Antwortmail schreiben
+
+## Lektion 6
+
+- Aufforderungen (Anweisungen, Anleitungen, Vorschläge) verstehen und formulieren
+- höflich bitten, fragen, nachfragen und antworten
+- Kleider, Materialien und Farben
+- "ein Paar" und "ein paar"
+- Antwortmail auf Einladung schreiben
+- Einladung in Mail wiederholen
+- Redemittel für positive/negative Reaktionen
+- Kurzbiografie über Friedl Hofbauer verstehen
+
+## Lektion 7
+
+- Reiseführertexte über Sehenswürdigkeiten in Bern verstehen
+- Wegbeschreibungen erfragen, formulieren und verstehen
+- als Eingeladener/Eingeladene passend reagieren
+- über Balkendiagramm sprechen
+- Stimmungen ausdrücken
+- Farben Jahreszeiten zuordnen
+- Meinungen zu Bildern äußern
+
+## Lektion 8
+
+- Vorschläge machen und zusagen oder absagen
+- schriftlich eine Zusage formulieren
+- einen Tisch reservieren
+- Wortschatz zum Thema "Speisen"
+- über Vorlieben beim Essen und Trinken sprechen
+- Gespräch im Restaurant spielen
+- Rezept verstehen und selbst ein Rezept notieren
+
+# Projekte
+
+1. Steckbriefe von Kursteilnehmern herstellen und erraten
+2. Termine für Kursaktivität organisieren
+3. Familienmitglieder erraten und Stammbaum zeichnen
+4. Hobbys raten
+5. Zimmer mit 200 Euro einrichten
+6. Kleidungsstücke erraten
+7. einen Rundgang zu den Sehenswürdigkeiten in einer Stadt planen und vorstellen
+8. eine Party planen
+
+# Phonetik
+
+1. Satzmelodie in kurzen Aussagesätzen und Fragen
+2. Rhythmus in Wort und Satz
+3. lange und kurze Vokale
+4. "e" oder "i"
+5. Verben mit trennbaren und untrennbaren Vorsilben
+6. "w" oder "f"
+7. R-Laute
+8. sch - sp - st
 
 
 TODO organize by topic
@@ -2621,6 +2718,7 @@ TODO organize by topic
 
 TODO Ausländer in Deutschland, Industrie in Deutschland, Berufe in Deutschland Lektion 1
 
+# Probeprüfung
 
 Abfahrt. Abfahrten.
 Abflug. Abfluge. Abfluges. Abflugs. Abflüge. Abflügen.
@@ -2793,6 +2891,7 @@ zweitausendvierzehn.
     - inkl. Deutschlernen mit Gedichten (Deutsch A1)
     - inkl. Deutchlernen mit Musik (Deutsch A1)
     - inkl. persönliche Betreuung für 6 Wochen (Deutsch A1)
+    - inkl. Probeprüfung Deutsch A1
   - Die Geschichte der Deutschen (Deutsch A1)
   - Deutsche Grammatik für Anfänger (Deutsch A1)
   - Deutschlern-Apps für Anfänger (Deutsch A1)
@@ -3079,8 +3178,19 @@ INHALTSVERZEICHNIS
 	- [Lektion 7](#lektion-7)
 	- [Lektion 8](#lektion-8)
 - [Übungsbuchteil](#Übungsbuchteil)
+	- [Lektion 1](#lektion-1-1)
+	- [Lektion 2](#lektion-2-1)
+	- [Lektion 3](#lektion-3-1)
+	- [Lektion 4](#lektion-4-1)
+	- [Lektion 5](#lektion-5-1)
+	- [Lektion 6](#lektion-6-1)
+	- [Lektion 7](#lektion-7-1)
+	- [Lektion 8](#lektion-8-1)
+- [Projekte](#projekte)
+- [Phonetik](#phonetik)
 - [Prüfungsvorbereitung (skip for now)](#prüfungsvorbereitung-skip-for-now)
 	- [Über ein Tortendiagramm sprechen](#Über-ein-tortendiagramm-sprechen)
+- [Probeprüfung](#probeprüfung)
 	- [Deutschlernen mit Gedichten: Was die Waschmaschine sagt](#deutschlernen-mit-gedichten-was-die-waschmaschine-sagt)
 - [Bonus: Sie alle lieben Deutschland](#bonus-sie-alle-lieben-deutschland)
 - [Carlos' Reise](#carlos-reise)
