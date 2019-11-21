@@ -81,6 +81,7 @@ Wir sehen uns in der nächsten Lektion.
 
 
 [In diesem Quiz hast du gelernt, wie du dich selbst vorstellst und wie du andere informell vorstellst.]
+TODO sich begrüßen alt Lektion 1
 
 
 ## Lerne spielerisch Deutsch! #mindset
@@ -422,7 +423,7 @@ Du, du hast, du hast mich
 
 ## Deutschlernen mit Musik: nicht nur Rammstein!
 
-TODO über Musikstile Sprechen Lektion 2
+TODO über Musikstile Sprechen alt Lektion 2
 
 # Das Leben in Deutschland
 
@@ -458,11 +459,11 @@ Manche Leute haben keinen (offiziellen) Beruf.
 
 ## Was ist dein Beruf? Was machst du? #quiz
 
-TODO Berufe verstehen Lektion 3
+TODO Berufe verstehen alt Lektion 3
 
 ## Berufe in Deutschland #quiz
 
-TODO über Tortendiagramm mit Prozentzahlen sprechen Lektion 3
+TODO über Tortendiagramm mit Prozentzahlen sprechen alt Lektion 3
 
 ## Ein typischer Arbeitstag eines Deutschen
 
@@ -582,7 +583,7 @@ Morgen ist Montag. Ich bin nicht traurig, denn ich liebe meine Arbeit.
 
 ## Wie war dein Wochenende?
 
-TODO über sein Wochenende sprechen Lektion 5
+TODO über sein Wochenende sprechen alt Lektion 5
 
 # Entdecke mit mir die Welt!
 
@@ -592,15 +593,15 @@ TODO
 
 ## Deutschland: Statistik
 
-TODO über Balkendiagramme sprechen Lektion 7
+TODO über Balkendiagramme sprechen alt Lektion 7
 
 ## Die Schweiz: Sprache
 
-TODO Gruezi: sich in DACH begrüßen und verabschieden Lektion 1 Übungsbuch
+TODO Gruezi: sich in DACH begrüßen und verabschieden alt Lektion 1 Übungsbuch
 
 ## Die Schweiz: Kultur
 
-TODO über kulturelle Besonderheiten bei Einladungen sprechen Lektion 7
+TODO über kulturelle Besonderheiten bei Einladungen sprechen alt Lektion 7
 
 ## Österreich
 
@@ -612,8 +613,8 @@ Pennsylvania
 
 ## Eine Weltreise
 
-TODO mit Google Maps die Namen der Länder und Kontinente lernen
-TODO Länder und Kontinente Lektion 1 Übungsbuch
+TODO Idee: mit Google Maps die Namen der Länder und Kontinente lernen
+TODO Länder und Kontinente alt Lektion 1 Übungsbuch
 
 ## Welches Land ist das? #quiz
 
@@ -851,7 +852,7 @@ Kurt Schneider"
 ## Antwort an den Vermieter
 
 Bitte um Reduzierung der Miete
-TODO Nachricht an den vermieter verstehen Lektion 5
+TODO Nachricht an den vermieter verstehen alt Lektion 5
 
 ## Emma plant ihre Reise
 
@@ -1039,12 +1040,12 @@ Wir sind jetzt startbereit. Verstauen Sie bitte die Tische und die Monitore sich
 
 ## Der Imperativ: Mache es! Lies! Schreibe! #quiz
 
-TODO Kurssprache verstehen Lektion 1
-TODO Anweisungen notieren, auf Anweisungen reagieren Lektion 6
+TODO Kurssprache verstehen alt Lektion 1
+TODO Anweisungen notieren, auf Anweisungen reagieren alt Lektion 6
 
 ## Anweisungen im Flugzeug folgen #quiz
 
-TODO Anweisungen verstehen und höflich nachfragen Lektion 6
+TODO Anweisungen verstehen und höflich nachfragen alt Lektion 6
 
 ## Emma sucht ihr Gepäck
 
@@ -1066,7 +1067,7 @@ https://pixabay.com/photos/parking-autos-park-vehicles-4615361/
 
 ## Wann? Um wie viel Uhr? #quiz
 
-TODO Uhrzeiten verstehen und sagen formell/informell Lektion 2
+TODO Uhrzeiten verstehen und sagen formell/informell alt Lektion 2
 
 ## Emma erster Tag bei ihren Verwandten
 
@@ -1094,7 +1095,7 @@ Das ist eine der kulturellen Eigenarten, die Emma auch bemerkt hat. Immer gibt e
 
 ## Emma erzählt von ihrer Familie
 
-TODO über die Familie sprechen Lektion 3
+TODO über die Familie sprechen alt Lektion 3
 
 ## Emmas Woche in Deutschland (die Wochentage)
 
@@ -1191,12 +1192,12 @@ Der Film ist schön. Die ganze Familie hat Spaß.
 
 ## Noch mehr Freizeitangebote
 
-TODO Kulturangebote verstehen: Zoo, Theater, Kino -> Prospekt anschauen (nicht! alles verstehen) -> Fragen Lektion 2
-TODO Freizeitanzeigen verstehen Lektion 4
+TODO Kulturangebote verstehen: Zoo, Theater, Kino -> Prospekt anschauen (nicht! alles verstehen) -> Fragen alt Lektion 2
+TODO Freizeitanzeigen verstehen alt Lektion 4
 
 ## Was möchtest du machen?
 
-TODO sich austauschen, was man kann, muss und möchte Lektion 3
+TODO sich austauschen, was man kann, muss und möchte alt Lektion 3
 
 ## Emma sagt auf Wiedersehen
 
@@ -1245,16 +1246,16 @@ Es ist nun das Ende des Jahres, der einundreißigste Zwölfte, und Jochen möcht
 [Quiz: Wann fängt Jochen an, für den Marathon zu trainieren? In wel-chen Monaten macht Jochen viel Sport? In wel-chen Monaten ist Frühling/Sommer/Herbst/Winter?
 Wann ist Jochen im Reis-ebüro? Im letzten Jahr: hat gebucht -> abgeschlossene Vergangenheit
 Welche Feiertage feiern die Schmidts auf jeden Fall?]
-TODO Jahreszeiten verstehen und nennen Lektion 2
+TODO Jahreszeiten verstehen und nennen alt Lektion 2
 
 ## Jochens Anmeldung für den Marathon #Immersion
 
 [commitment -> decided to just sign up to have the commitment, no going back -> fulfill your dreams the same way]
-TODO sich für den Marathon anmelden Lektion 4
+TODO sich für den Marathon anmelden alt Lektion 4
 
 ## Jochen ist in der Zeitung!
 
-TODO Zeitungsartikel über den Marathon verstehen Lektion 4
+TODO Zeitungsartikel über den Marathon verstehen alt Lektion 4
 
 ## Bürokratie!
 
@@ -1336,8 +1337,8 @@ first version: two personal infos given (male and female)
 
 second version: script with checker if it makes sense]
 
-TODO Personalbogen ausfüllen Lektion 1
-TODO sich für den Marathon anmelden Lektion 4
+TODO Personalbogen ausfüllen alt Lektion 1
+TODO sich für den Marathon anmelden alt Lektion 4
 
 ## Die Anzeigen eines Reisebüro
 
@@ -1546,7 +1547,7 @@ second version: write in each answer, check if it makes sense
  - Kontinent
 
 use code from number sayer to say the numbers in Addresse]
-TODO sagen, woher man kommt Lektion 1.
+TODO sagen, woher man kommt alt Lektion 1.
 
 ## Lukas bringt seinem Bruder etwas über Computer bei
 
@@ -1639,7 +1640,7 @@ Pünktlich um ein Uhr drei (13:03 Uhr) kommen die Schmidts auf Rügen an. Am Nac
 
 ## Zu welcher Tageszeit ist das?
 
-TODO Tageszeiten verstehen und sagen Lektion 2
+TODO Tageszeiten verstehen und sagen alt Lektion 2
 
 ## Probleme im Hotel
 
@@ -1679,7 +1680,7 @@ https://pixabay.com/photos/sail-sunset-sea-water-ocean-3585674/
 
 write down names that are being said -> include each letter at least once
 
-refer to Die Aussprache des Alphabets] Lektion 1
+refer to Die Aussprache des Alphabets] alt Lektion 1
 
 ## Jochen hört Podcasts über Rügen
 
@@ -1687,7 +1688,7 @@ Im Zug auf den Weg nach Rügen hat Jochen sich schon einmal über Bergen auf Rü
 
 
 
-TODO Restaurant-Informationen im Radio verstehen Lektion 8
+TODO Restaurant-Informationen im Radio verstehen alt Lektion 8
 
 ## Im Restaurant Teil 1: Die Speisekarte
 
@@ -1749,9 +1750,9 @@ und ausgewählt nach den wichtigsten Vokabeln und relevantesten Eigenschaften de
 
 ## Was würdest du bestellen?
 
-TODO Speisekarte verstehen Lektion 8 -> very short
-TODO über Vorlieben beim Essen und Trinken sprechen
-TODO Gespräch im Restaurant spielen
+TODO Speisekarte verstehen alt Lektion 8 -> very short
+TODO über Vorlieben beim Essen und Trinken sprechen alt Lektion
+TODO Gespräch im Restaurant spielen alt Lektion
 
 ## Im Restaurant Teil 2: Getränke und einen Gruß aus der Küche
 
@@ -1886,7 +1887,7 @@ Am Ende schreibt Emma auf der rechten Seite den Namen und die Adresse von Emma. 
 
 ## Eine E-Mail von Emma #quiz
 
-TODO eine Urlaubsmail verstehen und schreiben Lektion 2
+TODO eine Urlaubsmail verstehen und schreiben alt Lektion 2
 
 ## Wo ist die Post?
 
@@ -1907,8 +1908,8 @@ Auf der Post kauft Anna eine Briefmarke und schickt die Postkarte an Emma.
 ## Wir haben uns verlaufen!
 
 [very simple mini game: walking through a city -> left, right, straight ]
-TODO Wegbeschreibungen verstehen und machen Lektion 7
-TODO mündliche Wegbeschreibungen notieren Lektion 7
+TODO Wegbeschreibungen verstehen und machen alt Lektion 7
+TODO mündliche Wegbeschreibungen notieren alt Lektion 7
 Google Maps funktioniert nicht ;)
 
 ## So lernst du den Akzent und die Betonung #meta
@@ -1933,7 +1934,7 @@ https://pixabay.com/photos/night-photograph-long-exposure-night-4581193/
 
 ## Wir brauchen Fahrkarten
 
-TODO Anweisungen an einem Fahrkartenautomaten verstehen Lektion 7
+TODO Anweisungen an einem Fahrkartenautomaten verstehen alt Lektion 7
 
 ## Der Geschäftsmann
 
@@ -1961,7 +1962,7 @@ Jetzt können die Schmidts sich anmelden. "Guten Tag," sagt Jochen. "Mein Name i
 
 ## Berliner Sehenswürdigkeiten
 
-TODO Informationen über Sehenswürdigkeiten verstehen Lektion 7
+TODO Informationen über Sehenswürdigkeiten verstehen alt Lektion 7
 
 TODO weitere Städte (skip for now)
 
@@ -1971,7 +1972,7 @@ TODO bedankt sich für die Postkarte, erzählt eigene Erlebnisse in Bayern
 
 ## Lass uns Emma antworten! #quiz
 
-TODO E-Mail über Erlebnisse verstehen und darauf antworten Lektion 7 -> auch weitere Erlebnisse auf der Reise zusammenfassen
+TODO E-Mail über Erlebnisse verstehen und darauf antworten alt Lektion 7 -> auch weitere Erlebnisse auf der Reise zusammenfassen
 
 ## Wann und wo haben wir diese Fotos gemacht?
 
@@ -1985,7 +1986,7 @@ TODO Bildbeschreibung passendem Bild zuordnen und sagen, wie einem die Bilder ge
 
 Auf die Frage "Wie geht es dir?" sagen viele Menschen oft nur "gut".
 Aber wie geht es uns wirklich?
-TODO Informationen über das Befinden verstehen und über das eigene Befindne sprechen Lektion 5
+TODO Informationen über das Befinden verstehen und über das eigene Befindne sprechen alt Lektion 5
 
 ## Beim Arzt
 
@@ -2021,14 +2022,14 @@ Die Aussage des Arztes ist richtig. Nach zwei Tagen geht es Jochen wieder viel b
 
 ## Geht es dir besser?
 
-TODO Informationen über das Befinden verstehen und über das eigene Befindne sprechen Lektion 5
+TODO Informationen über das Befinden verstehen und über das eigene Befindne sprechen alt Lektion 5
 
 # Annas großer Einkauf
 
 ## Der Einkaufszettel #quiz
 
 [images with name of produkt to lean vocab, then write Einkaufszettel]
-TODO Einkaufszettel schreiben Lektion 3
+TODO Einkaufszettel schreiben alt Lektion 3
 
 ## Im Laden #quiz #immersion
 
@@ -2042,7 +2043,7 @@ Vor dem Laden sind Schilder: "Wir haben die besten Preise! Heute im Angebot: Hä
 
 Anna geht in das Geschäft.
 
-TODO Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungsarten verstehen Lektion 3; sie liest vom Einkaufszettel Lektion 3
+TODO Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungsarten verstehen alt Lektion 3; sie liest vom Einkaufszettel alt Lektion 3
 
 ## An der Käsetheke
 
@@ -2055,7 +2056,7 @@ Anna ist fertig, jetzt muss sie nur noch an der Kasse bezahlen.
 
 An der Kasse sieht sie Zigaretten. Anna schüttelt den Kopf. Zigaretten machen einen nur krank.
 
-TODO Preise verstehen und sagen Lektion 3
+TODO Preise verstehen und sagen alt Lektion 3
 
 # Die Welt der Zukunft
 
@@ -2075,12 +2076,12 @@ Manchmal geht Lukas in die Disco. Er liebt es, in der Disco zu tanzen.
 
 ## Lukas möchte neue Freunde treffen
 
-TODO Anzeigen für Freizeitpartner schreiben bzw. darauf antworten Lektion 4
+TODO Anzeigen für Freizeitpartner schreiben bzw. darauf antworten alt Lektion 4
 
 ## Lukas trifft sich mit seinen Freunden
 
-TODO Verabredungen verstehen Lektion 2
-TODO Zusagen, Absagen verstehen Lektion 8
+TODO Verabredungen verstehen alt Lektion 2
+TODO Zusagen, Absagen verstehen alt Lektion 8
 
 ## Lukas studiert
 
@@ -2096,26 +2097,26 @@ Das Studium ist sehr schwer. Lukas lernt sehr viel über den menschlichen Körpe
 ## Auf Wohnungssuche
 
 für das Studium muss Lukas nach Berlin umziehen
-TODO Informationen über ein Zimmer, eine Wohnung verstehen und weitergeben Lektion 5
+TODO Informationen über ein Zimmer, eine Wohnung verstehen und weitergeben alt Lektion 5
 
 ## Neue Möbel gesucht
 
-TODO Möbelanzeigen verstehen Lektion 5
+TODO Möbelanzeigen verstehen alt Lektion 5
 Vokabeln: umziehen, Umzug
 
 ## Bestellung per Telefon
 
-TODO telefonisch einen Möbelkauf verabreden Lektion 5
+TODO telefonisch einen Möbelkauf verabreden alt Lektion 5
 
 ## Die Aufgaben im Haushalt #quiz
 
 [now Lukas has to do everything himself!]
-TODO Aufgaben im Haushalt verstehen Lektion 2
+TODO Aufgaben im Haushalt verstehen alt Lektion 2
 
 ## Lukas probiert andere Sportarten
 
-TODO sich über Sportangebote informieren Lektion 4
-TODO Flyer über Sportangebote verstehen Lektion 4
+TODO sich über Sportangebote informieren alt Lektion 4
+TODO Flyer über Sportangebote verstehen alt Lektion 4
 Quiz: wähle eine deutsche Stadt, finde ein Sportangebot
 
 ## Lukas' Studentenjob Job
@@ -2125,7 +2126,7 @@ Lektion 1
 
 ## Eine Formale Begrüßung #quiz
 
-TODO Lückentext Lektion 1
+TODO Lückentext alt Lektion 1
 
 ## Lukas erzählt seinen Eltern von seinem neuen Zimmer
 
@@ -2157,12 +2158,12 @@ Oje! Hat er gerade das Gespräch mit "auf Wiederhören" beended? So formell! Er 
 Lukas hofft, dass das Treffen besser läuft.
 
 [Quiz: Lukas hat die Telefonnummer verloren! Kannst du ihm helfen? Wie lautet die Nummer? +49-151-5754-922]
-TODO Lektion 1
+TODO alt Lektion 1
 
 ## Schöne Kleidung für das Date
 
-TODO Bezeichnungen für Kleidungsstücke und Farben verstehen Lektion 6
-TODO Webseiten zum Thema "Waschsalon" verstehen und mit Waschsalons zu Hause vergleichen Lektion 6 -> skip for now
+TODO Bezeichnungen für Kleidungsstücke und Farben verstehen alt Lektion 6
+TODO Webseiten zum Thema "Waschsalon" verstehen und mit Waschsalons zu Hause vergleichen alt Lektion 6 -> skip for now
 
 ## Lukas trifft sich mit Sophia
 
@@ -2186,8 +2187,8 @@ Und so geht es weiter. Die beiden scheinen sich gut zu verstehen. Wir lassen sie
 
 ## Sophia und Lukas sprechen über ihre Freizeitaktivitäten
 
-TODO über Freizeit, Hobbys und Sportarten sprechen Lektion 4
-TODO Vorlieben und Abneigungen ausdrücken Lektion 4
+TODO über Freizeit, Hobbys und Sportarten sprechen alt Lektion 4
+TODO Vorlieben und Abneigungen ausdrücken alt Lektion 4
 
 ## Sophia auf der Arbeit
 
@@ -2233,36 +2234,36 @@ TODO informelle Beschreibung am Telefon, Eltern haben Sorgen
 
 ## Sophia und Lukas planen ein weiteres Treffen
 
-TODO Vorschläge verstehen und machen Lektion 6 -> nicht Kino, sondern etwas besseres und intimeres: gemeinsam kochen. später: Theater (siehe auch: Noch mehr Freizeitangebote)
+TODO Vorschläge verstehen und machen alt Lektion 6 -> nicht Kino, sondern etwas besseres und intimeres: gemeinsam kochen. später: Theater (siehe auch: Noch mehr Freizeitangebote)
 vokabel: selbständig
 
 ## Wie findest du diesen Vorschlag? #quiz
 
-TODO Vorschläge machen und zustimmen oder ablehnen Lektion 8
+TODO Vorschläge machen und zustimmen oder ablehnen alt Lektion 8
 
 ## Lukas und Sophia kochen
 
 "Frauen mögen einen Mann, der kocht.", denkt Lukas.
 
-TODO schriftliche Anleitungen verstehen und formulieren Lektion 6 -> Waschanleitung, Kochanleitung
+TODO schriftliche Anleitungen verstehen und formulieren alt Lektion 6 -> Waschanleitung, Kochanleitung
 
 ## Lukas stellt Sophia seinen Eltern vor
 
-TODO Andere vorstellen Lektion 1
+TODO Andere vorstellen alt Lektion 1
 
 ## Sophia und Lukas planen ihre Hochzeit
 
-TODO Telefongespräch über Tischreservierung im Restaurant verstehen und Informationen weiterleiten Lektion 8
+TODO Telefongespräch über Tischreservierung im Restaurant verstehen und Informationen weiterleiten alt Lektion 8
 
 ## Was haben sie gesagt?
 
 gehe zurück und höre aufmerksam zu
 TODO siehe oben: bitte hilf der Kellnerin, die Information weiterzuleiten
-TODO persönliche Angaben notieren und darüber sprechen Lektion 8
+TODO persönliche Angaben notieren und darüber sprechen alt Lektion 8
 
 ## Lukas und Sophia brauchen Hilfe
 
-TODO andere um etwas bitten und auf Bitten reagieren Lektion 8
+TODO andere um etwas bitten und auf Bitten reagieren alt Lektion 8
 
 ## Die Hochzeit von Sophia und Lukas
 
@@ -2281,7 +2282,7 @@ TODO
 
 ## Viele Termine! #quiz
 
-TODO über Termine sprechen: Geschäftstermine, private Termine Lektion 2
+TODO über Termine sprechen: Geschäftstermine, private Termine alt Lektion 2
 
 ## Beim Fotographen
 
@@ -2503,7 +2504,7 @@ Dies führte zum Zusammenbrauch der Diktatur im Osten und zur deutschen Wiederve
 
 ## Wann war die Wiedervereinigung? #quiz
 
-TODO Monate, Datum, Jahreszahlen verstehen und nennen Lektion 2
+TODO Monate, Datum, Jahreszahlen verstehen und nennen alt Lektion 2
 
 
 
@@ -2536,6 +2537,99 @@ Wenn du mit einem Deutschen über Geschichte sprichst, dann frage ruhig jede Fra
 Ich bin jederzeit da, falls du eine Frage hast. Danke, dass du an diesem Kurs über die deutsche Geschichte teilgenommen hast.
 
 - Dein Mark
+
+# Kursbuch
+
+## Lektion 1
+
+- sich begrüßen Kursbuch Lektion 1
+- sich und andere vorstellen: formell/informell Kursbuch Lektion 1
+- Zahlen von 1 bis 1 Milliarde verstehen und sprechen Kursbuch Lektion 1
+- Telefonnummern verstehen und sprechen Kursbuch Lektion 1
+- Namen buchstabieren und notieren Kursbuch Lektion 1
+- Personalbogen ausfüllen Kursbuch Lektion 1
+- sagen, woher man kommt: Adresse, Land, Kontinent Kursbuch Lektion 1
+- über Tortendiagramm sprechen Kursbuch Lektion 1
+- Kurssprache verstehen Kursbuch Lektion 1
+
+## Lektion 2
+
+- Uhrzeigen verstehen und sagen: formell/informell Kursbuch Lektion 2
+- Tageszeiten verstehen und sagen Kursbuch Lektion 2
+- über Termine sprechen Kursbuch Lektion 2
+- Kulturangebote verstehen Kursbuch Lektion 2
+- Verabredungen verstehen Kursbuch Lektion 2
+- über Musikstile sprechen Kursbuch Lektion 2
+- Monate, Datum, Jahreszeiten und Jahreszahlen verstehen und nennen Kursbuch Lektion 2
+- eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
+
+## Lektion 3
+
+- Aufgaben im Haushalt verstehen Kursbuch Lektion 3
+- sich austauschen, was man kann, muss und möchte Kursbuch Lektion 3
+- Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungen verstehen Kursbuch Lektion 3
+- Preise verstehen und sagen Kursbuch Lektion 3
+- Einkaufszettel schreiben Kursbuch Lektion 3
+- Verkaufsgepräch an der Käsetheke vestehen und nachspielen Kursbuch Lektion 3
+- über die Familie sprechen Kursbuch Lektion 3
+- Berufe verstehen Kursbuch Lektion 3
+- über Tortendiagramm mit Prozentzahlen sprechen Kursbuch Lektion 3
+
+## Lektion 4
+
+- Freizeitanzeigen verstehen Kursbuch Lektion 4
+- über Freizeit, Hobbys und Sportarten sprechen Kursbuch Lektion 4
+- Anzeigen für Freizeitpartner schreiben bzw. darauf antworten Kursbuch Lektion 4
+- Vorlieben und Abneigungen audrücken Kursbuch Lektion 4
+- Flyer über Sportangebote verstehen Kursbuch Lektion 4
+- sich über Sportangebote informieren Kursbuch Lektion 4
+- Zeitungsartikel über Halbmarathon verstehen Kursbuch Lektion 4
+- sich für Halbmarathon anmelden Kursbuch Lektion 4
+
+## Lektion 5
+
+- Informationen über das Befinden verstehen und über das eigene Bedürfnis sprechen Kursbuch Lektion 5
+- Informationen über ein Zimmer, eine Wohnung verstehen und weitergeben Kursbuch Lektion 5
+- über sein Wochenende sprechen Kursbuch Lektion 5
+- Möbelanzeigen verstehen Kursbuch Lektion 5
+- telefonisch einen Möbelkauf verabreden Kursbuch Lektion 5
+- sein Zimmer schriftlich und mündlich beschreiben Kursbuch Lektion 5
+- Nachricht an den Vermieter verstehen Kursbuch Lektion 5
+
+## Lektion 6
+
+- Webseiten zum Thema "Waschsalon" verstehen und mit Waschsalongs zu Hause vergleichen Kursbuch Lektion 6
+- schriftliche Anleitungen verstehen und formulieren Kursbuch Lektion 6
+- Vorschläge verstehen und machen Kursbuch Lektion 6
+- Bezeichnungen für Kleidungsstücke und Farben verstehen Kursbuch Lektion 6
+- Anweisungen verstehen und höflich nachfragen Kursbuch Lektion 6
+- Anweisungen notieren, auf Anweisungen reagieren Kursbuch Lektion 6
+- Ereignisse im Waschsalon nachverfolgen und in E-Mail beschreiben Kursbuch Lektion 6
+- Gedicht "Was die Waschmaschine sagt" lesen Kursbuch Lektion 6
+
+## Lektion 7
+
+- Informationen über Sehenswürdigkeiten verstehen Kursbuch Lektion 7
+- Wegbeschreibungen verstehen und machen Kursbuch Lektion 7
+- mündliche Wegbeschreibungen notieren Kursbuch Lektion 7
+- Anweisungen an einem Fahrkartenautomaten verstehen Kursbuch Lektion 7
+- E-Mail über Erlebnisse in Bern verstehen und darauf antworten Kursbuch Lektion 7
+- über kulturelle Besonderheiten bei Einladungen sprechen Kursbuch Lektion 7
+- über Balkendiagramm sprechen Kursbuch Lektion 7
+- Biographie über "Paul Klee" verstehen Kursbuch Lektion 7
+- Bildbeschreibung passendem Bild zuordnen und sagen, wie einem die Bilder gefallen Kursbuch Lektion 7
+
+## Lektion 8
+
+- Restaurant-Informationen im Radio verstehen Kursbuch Lektion 8
+- Vorschläge machen und zustimmen oder ablehnen Kursbuch Lektion 8
+- Telefongespräch über Tischreservierung im Restaurant verstehen und Informationen weiterleiten Kursbuch Lektion 8
+- Speisekarte verstehen Kursbuch Lektion 8
+- über Vorlieben beim Essen und Trinken sprechen Kursbuch Lektion 8
+- Gespräch im Restaurant spielen Kursbuch Lektion 8
+- Zusagen, Absagen verstehen Kursbuch Lektion 8
+- andere um etwas bitten und auf Bitten reagieren Kursbuch Lektion 8
+- persönliche Angaben notieren und darüber sprechen Kursbuch Lektion 8
 
 # Prüfungsvorbereitung: Grammatik (skip for now)
 
@@ -3167,8 +3261,7 @@ INHALTSVERZEICHNIS
 	- [Wann war die Wiedervereinigung? #quiz](#wann-war-die-wiedervereinigung-quiz)
 	- [Nach der Wiedervereinigung](#nach-der-wiedervereinigung)
 	- [Vergangenheitsbewältigung](#vergangenheitsbewältigung)
-- [Prüfungsvorbereitung: Grammatik (skip for now)](#prüfungsvorbereitung-grammatik-skip-for-now)
-	- [Ein wichtiger Rat](#ein-wichtiger-rat)
+- [Kursbuch](#kursbuch)
 	- [Lektion 1](#lektion-1)
 	- [Lektion 2](#lektion-2)
 	- [Lektion 3](#lektion-3)
@@ -3177,7 +3270,8 @@ INHALTSVERZEICHNIS
 	- [Lektion 6](#lektion-6)
 	- [Lektion 7](#lektion-7)
 	- [Lektion 8](#lektion-8)
-- [Übungsbuchteil](#Übungsbuchteil)
+- [Prüfungsvorbereitung: Grammatik (skip for now)](#prüfungsvorbereitung-grammatik-skip-for-now)
+	- [Ein wichtiger Rat](#ein-wichtiger-rat)
 	- [Lektion 1](#lektion-1-1)
 	- [Lektion 2](#lektion-2-1)
 	- [Lektion 3](#lektion-3-1)
@@ -3186,6 +3280,15 @@ INHALTSVERZEICHNIS
 	- [Lektion 6](#lektion-6-1)
 	- [Lektion 7](#lektion-7-1)
 	- [Lektion 8](#lektion-8-1)
+- [Übungsbuchteil](#Übungsbuchteil)
+	- [Lektion 1](#lektion-1-2)
+	- [Lektion 2](#lektion-2-2)
+	- [Lektion 3](#lektion-3-2)
+	- [Lektion 4](#lektion-4-2)
+	- [Lektion 5](#lektion-5-2)
+	- [Lektion 6](#lektion-6-2)
+	- [Lektion 7](#lektion-7-2)
+	- [Lektion 8](#lektion-8-2)
 - [Projekte](#projekte)
 - [Phonetik](#phonetik)
 - [Prüfungsvorbereitung (skip for now)](#prüfungsvorbereitung-skip-for-now)
