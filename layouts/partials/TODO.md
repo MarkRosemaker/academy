@@ -1,20 +1,14 @@
 
 - [Personal Site](#personal-site)
-- [Die Personen](#die-personen)
-- [Lektion 1: Ich und die anderen](#lektion-1-ich-und-die-anderen)
-  - [Handlungsfelder](#handlungsfelder)
-  - [Grammatik](#grammatik)
-  - [Sprachhandlungen/Wortschatz](#sprachhandlungenwortschatz)
-  - [Phonetik](#phonetik)
 - [Notes on beginner course (for sales etc.):](#notes-on-beginner-course-for-sales-etc)
 - [Live Calls](#live-calls)
 - [Make Video (both in German with subtitles and in English)](#make-video-both-in-german-with-subtitles-and-in-english)
-  - [How the course works](#how-the-course-works)
-    - [Immersion technique](#immersion-technique)
+	- [How the course works](#how-the-course-works)
+		- [Immersion technique](#immersion-technique)
 - [Structure of the course](#structure-of-the-course)
-  - [What to do when you have a question](#what-to-do-when-you-have-a-question)
-  - [What do do when you get stuck](#what-do-do-when-you-get-stuck)
-  - [Guarantee conditions](#guarantee-conditions)
+	- [What to do when you have a question](#what-to-do-when-you-have-a-question)
+	- [What do do when you get stuck](#what-do-do-when-you-get-stuck)
+	- [Guarantee conditions](#guarantee-conditions)
 - [TODO Higher Levels Coaching Plan](#todo-higher-levels-coaching-plan)
 
 # Personal Site
@@ -23,61 +17,6 @@
   - see if there is a way to know with Javascript if the user has already followed and discard those options (see their own share buttons)
   - randomize on build, then randomize with Javascript
   - make it more insistent over time: wiggle, show popup after percentage scrolled, percentage of video seen (see script for ConvertKit, Google Tag Manager)
-
-# Die Personen
-
-- tourists
-  - *Jacob Fischer*: Programmierer aus den USA, Tourist in Berlin
-  - Yui Nakamura: Touristin aus Japan
-  - William 'Bill' Baker: britischer Bibliothekar, als Hobby und für Reisen
-  - *Emma Brown*: junge Ärztin aus Großbritannien, besucht Verwandte und schaut sich mit ihnen Hannover an
-  - *Alessandro Innocenti*: Schriftsteller aus Italien, recherchiert historisches Ereignis, besucht Museen
-- Isaacs (Rejuvenation)
-  - *Carlos Santos*: Ingenieur aus Brasilien, besucht Filiale von Isaacs (eine Verjüngungs-Klinik) in Deutschland
-  - Alex Schmitt: Deutscher, Manager bei Isaacs
-  - Svenja Weber: Deutsche, Personalberaterin bei Isaacs
-- Vinmar (AI)
-  - Sophia Brooks: aus den USA, Programmiererin bei Vinmar
-  - Reyansh 'Rey' Acharya: Programmierer aus Indien bei Vinmar
-  - Ali Alaoui: Ingenieur aus Marokko
-
-# Lektion 1: Ich und die anderen
-## Handlungsfelder
-
-- [ ] Begrüßung und Vorstellung
-  - [ ] sich begrüßen
-  - [ ] sich und andere vorstellen: formell/informell
-  - [ ] Namen buchstabieren und notieren
-  - [ ] sagen, woher man kommt: Adresse, Land, Kontinent
-- [ ] Zahlen
-  - [ ] Zahlen von 1 bis 1 Milliarde verstehen und sprechen
-  - [ ] Telefonnummern verstehen und sprechen
-- [ ] Personalbogen
-  - [ ] Personalbogen ausfüllen
-- [ ] Ausländische Studierende in Deutschland
-- [ ] weitere
-  - [ ] über Tortendiagramm spechen
-  - [ ] Kurssprache verstehen
-
-## Grammatik
-
-- [ ] regelmäßige Verben im Präsens
-- [ ] sein im Präsens
-- [ ] Personalpronomen im Nominativ
-- [ ] Wortstellung: Aussagesatz, W-Frage mit Wie?, Wo?, Woher?, Ja/Nein-Frage
-
-## Sprachhandlungen/Wortschatz
-
-- [ ] sich und andere vorstellen
-- [ ] sich in DACH begrüßen und verabschieden
-- [ ] Länder und Kontinente
-- [ ] Sprachen und Nationalitäten
-- [ ] Zahlen von 1 bis 1 Milliarde
-- [ ] Namen buchstabieren
-
-## Phonetik
-
-- [ ] Satzmelodie in kurzen Aussagesätzen und Fragen
 
 
 - write [beginner course](https://workflowy.com/#/9f92ea0ffc1a)

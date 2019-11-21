@@ -16,28 +16,44 @@ audio = ''
 	- [Tauche in die deutsche Sprache ein! #mindset](#tauche-in-die-deutsche-sprache-ein-mindset)
 - [Totale Immersion von Anfang an: wie du effektiv Deutsch lernst](#totale-immersion-von-anfang-an-wie-du-effektiv-deutsch-lernst)
 	- [Freut mich, dich kennenzulernen!](#freut-mich-dich-kennenzulernen)
-	- [Lerne Emma und Jochen kennen](#lerne-emma-und-jochen-kennen)
+	- [Wer ist Emma, Jochen, und Herr Schulz? #immersion](#wer-ist-emma-jochen-und-herr-schulz-immersion)
 	- [Stelle dich vor! #quiz](#stelle-dich-vor-quiz)
-	- [Andere vorstellen](#andere-vorstellen)
+	- [Formell oder informell? #quiz](#formell-oder-informell-quiz)
 	- [Lerne spielerisch Deutsch! #mindset](#lerne-spielerisch-deutsch-mindset)
-	- [Personalpronomen im Nominativ #meta](#personalpronomen-im-nominativ-meta)
 	- [Einfach Vokabeln lernen #meta](#einfach-vokabeln-lernen-meta)
+	- [Personalpronomen im Nominativ #immersion](#personalpronomen-im-nominativ-immersion)
 	- [Immersion im Alltag: Notizzettel in deiner Wohnung #meta](#immersion-im-alltag-notizzettel-in-deiner-wohnung-meta)
-- [So verschönerst du deine Wohnung](#so-verschönerst-du-deine-wohnung)
-- [So verschönerst du deinen Körper](#so-verschönerst-du-deinen-körper)
+	- [Immersion im Alltag: So verschönerst du deinen Körper](#immersion-im-alltag-so-verschönerst-du-deinen-körper)
 	- [So bekämpftst du mentale Überforderung #mindset](#so-bekämpftst-du-mentale-Überforderung-mindset)
 - [Lerne die Grundlagen des Deutschen in einer Stunde!](#lerne-die-grundlagen-des-deutschen-in-einer-stunde)
 	- [Der Apfel #immersion #video](#der-apfel-immersion-video)
-	- [Reise mit mir! #immersion](#reise-mit-mir-immersion)
+	- [Reise mit mir! #ressource #video](#reise-mit-mir-ressource-video)
 	- [Bewege dich viel! #immersion #video](#bewege-dich-viel-immersion-video)
 	- [Ressource: eine deutsche Tastatur #meta](#ressource-eine-deutsche-tastatur-meta)
 	- [Deine ersten Deutsch-Vokabeln! #quiz](#deine-ersten-deutsch-vokabeln-quiz)
+	- [Explizite Grammatik auf einen Blick: das Verb *sein* - ich bin, du bist, ... #meta](#explizite-grammatik-auf-einen-blick-das-verb-sein---ich-bin-du-bist--meta)
+	- [Explizite Grammatik auf einen Blick: regelmäßige Verben im Präsens #meta](#explizite-grammatik-auf-einen-blick-regelmäßige-verben-im-präsens-meta)
+	- [Explizite Grammatik auf einen Blick: das Verb *haben* - ich habe, du hast, ... #meta](#explizite-grammatik-auf-einen-blick-das-verb-haben---ich-habe-du-hast--meta)
+	- [Vervollständige die Verben! #quiz](#vervollständige-die-verben-quiz)
+	- [Explizite Grammatik: regelmäßige Verben im Perfekt TODO kann auch später kommen](#explizite-grammatik-regelmäßige-verben-im-perfekt-todo-kann-auch-später-kommen)
+		- [Das Partizip II](#das-partizip-ii)
+		- [Das Hilfsverb](#das-hilfsverb)
+		- [Das Perfekt](#das-perfekt)
 	- [Akzeptiere Fehler mit offenen Armen! #mindset](#akzeptiere-fehler-mit-offenen-armen-mindset)
 	- [Das Vaterunser #immersion](#das-vaterunser-immersion)
 	- [Neue Laute #meta](#neue-laute-meta)
 	- [Lass uns zählen! #video](#lass-uns-zählen-video)
 	- [Einfach kommunizieren mit Modalverben #meta](#einfach-kommunizieren-mit-modalverben-meta)
 	- [Die Aussprache des Alphabets #meta](#die-aussprache-des-alphabets-meta)
+	- [Wortstellung: die Reihenfolge der Wörter in deutschen Sätzen #meta](#wortstellung-die-reihenfolge-der-wörter-in-deutschen-sätzen-meta)
+		- [Aussagesätze](#aussagesätze)
+		- [W-Fragen](#w-fragen)
+		- [Ja/Nein-Fragen](#janein-fragen)
+	- [Wortstellungs-Quiz #quiz](#wortstellungs-quiz-quiz)
+- [Phonetik: Satzmelodie, Betonung, Akzent, Laute](#phonetik-satzmelodie-betonung-akzent-laute)
+	- [Warum Phonetik studieren?](#warum-phonetik-studieren)
+	- [So lernst du den Akzent und die Betonung #meta](#so-lernst-du-den-akzent-und-die-betonung-meta)
+	- [Satzmelodie in deutschen Sätzen](#satzmelodie-in-deutschen-sätzen)
 - [Meine \"deutsche\" Wohnung](#meine-deutsche-wohnung)
 	- [Die Gegenwart: Verben im Präsens](#die-gegenwart-verben-im-präsens)
 	- [Der Eingang](#der-eingang)
@@ -47,7 +63,7 @@ audio = ''
 	- [Das Schlafzimmer und der Rest](#das-schlafzimmer-und-der-rest)
 - [Du kennst diese Wörter schon! #immersion](#du-kennst-diese-wörter-schon-immersion)
 	- [Das Schaf und die Pferde](#das-schaf-und-die-pferde)
-- [Das Schaf und die Pferde](#das-schaf-und-die-pferde-1)
+	- [Das Schaf und die Pferde](#das-schaf-und-die-pferde-1)
 	- [Deutschlernen mit Gedichten: Das Hexeneinmaleins von Goethe](#deutschlernen-mit-gedichten-das-hexeneinmaleins-von-goethe)
 	- [Erinnerst du dich an deine ersten Vokabeln? #quiz](#erinnerst-du-dich-an-deine-ersten-vokabeln-quiz)
 	- [Höre und schreibe. #quiz](#höre-und-schreibe-quiz)
@@ -68,15 +84,18 @@ audio = ''
 		- [Der Ausflug](#der-ausflug)
 		- [Das Abendbrot](#das-abendbrot)
 	- [Wie war dein Wochenende?](#wie-war-dein-wochenende)
+	- [Was weißt du über Jochen? #quiz](#was-weißt-du-über-jochen-quiz)
+	- [Deine Informationen #quiz](#deine-informationen-quiz)
+	- [Deine Mitschüler #coaching](#deine-mitschüler-coaching)
 - [Entdecke mit mir die Welt!](#entdecke-mit-mir-die-welt)
 	- [Deutschland](#deutschland)
-	- [Deutschland: Statistik](#deutschland-statistik)
+	- [Deutschland: Statistik #quiz](#deutschland-statistik-quiz)
+	- [Videogamer in Deutschland #coaching](#videogamer-in-deutschland-coaching)
 	- [Die Schweiz: Sprache](#die-schweiz-sprache)
 	- [Die Schweiz: Kultur](#die-schweiz-kultur)
 	- [Österreich](#Österreich)
 	- [Lichtenstein](#lichtenstein)
 	- [Weitere Gebiete, in denen Deutsch gesprochen wird](#weitere-gebiete-in-denen-deutsch-gesprochen-wird)
-	- [Eine Weltreise](#eine-weltreise)
 	- [Welches Land ist das? #quiz](#welches-land-ist-das-quiz)
 - [Emmas Reise](#emmas-reise)
 	- [Wer ist Emma?](#wer-ist-emma)
@@ -86,8 +105,9 @@ audio = ''
 	- [Oliver bringt seinem Bruder Max das Zählen bei](#oliver-bringt-seinem-bruder-max-das-zählen-bei)
 	- [Der Vater bringt seinen Kindern sehr große Zahlen bei](#der-vater-bringt-seinen-kindern-sehr-große-zahlen-bei)
 	- [Hilf Oliver bei seinen Mathehausaufgaben #quiz](#hilf-oliver-bei-seinen-mathehausaufgaben-quiz)
-	- [Höhere Mathematik #resource](#höhere-mathematik-resource)
-	- [Speichere unsere Nummer auf deinem Handy](#speichere-unsere-nummer-auf-deinem-handy)
+	- [Höhere Mathematik #resource #quiz](#höhere-mathematik-resource-quiz)
+	- [Speichere unsere Nummer auf deinem Handy #immersion #quiz](#speichere-unsere-nummer-auf-deinem-handy-immersion-quiz)
+	- [Was ist deine Nummer? #quiz](#was-ist-deine-nummer-quiz)
 	- [Ein Brief vom Vermieter](#ein-brief-vom-vermieter)
 	- [Antwort an den Vermieter](#antwort-an-den-vermieter)
 	- [Emma plant ihre Reise](#emma-plant-ihre-reise)
@@ -130,12 +150,14 @@ audio = ''
 	- [Lukas' typischer Schultag](#lukas-typischer-schultag)
 		- [Der Deutschunterricht: eine Prüfung!](#der-deutschunterricht-eine-prüfung)
 	- [Der Mathematikunterricht: eine schwere Aufgabe](#der-mathematikunterricht-eine-schwere-aufgabe)
+	- [Mathe-Quizze #quiz TODO skip for now](#mathe-quizze-quiz-todo-skip-for-now)
 	- [Im Musikunterricht](#im-musikunterricht)
 		- [Das Mittagessen](#das-mittagessen)
 		- [Der Sportunterricht](#der-sportunterricht)
 		- [Zeit für die Hausaufgaben](#zeit-für-die-hausaufgaben)
 		- [Die beste Zeit des Tages: Fußball](#die-beste-zeit-des-tages-fußball)
-	- [Lukas' Computer-Kurs ist international](#lukas-computer-kurs-ist-international)
+	- [Lukas' Computer-Kurs ist international #immersion](#lukas-computer-kurs-ist-international-immersion)
+	- [Woher kommst du? #quiz](#woher-kommst-du-quiz)
 	- [Lukas bringt seinem Bruder etwas über Computer bei](#lukas-bringt-seinem-bruder-etwas-über-computer-bei)
 - [Die Reise der Schmidts durch Deutschland](#die-reise-der-schmidts-durch-deutschland)
 	- [Endlich Urlaub!](#endlich-urlaub)
@@ -158,12 +180,10 @@ audio = ''
 	- [Wie du Eselsbrücke erstellen kannst #meta](#wie-du-eselsbrücke-erstellen-kannst-meta)
 	- [Gute Nacht!](#gute-nacht)
 	- [Die vielen schönen Farben auf Rügen](#die-vielen-schönen-farben-auf-rügen)
-	- [Die Reihenfolge der Wörter in deutschen Sätzen #meta](#die-reihenfolge-der-wörter-in-deutschen-sätzen-meta)
 	- [Die Schmidts schreiben eine Postkarte](#die-schmidts-schreiben-eine-postkarte)
 	- [Eine E-Mail von Emma #quiz](#eine-e-mail-von-emma-quiz)
 	- [Wo ist die Post?](#wo-ist-die-post)
 	- [Wir haben uns verlaufen!](#wir-haben-uns-verlaufen)
-	- [So lernst du den Akzent und die Betonung #meta](#so-lernst-du-den-akzent-und-die-betonung-meta)
 	- [Mit dem Bus nach Berlin!](#mit-dem-bus-nach-berlin)
 	- [Wir brauchen Fahrkarten](#wir-brauchen-fahrkarten)
 	- [Der Geschäftsmann](#der-geschäftsmann)
@@ -212,6 +232,7 @@ audio = ''
 			- [Anzeige: Wir werden heiraten!](#anzeige-wir-werden-heiraten)
 	- [Viele Termine! #quiz](#viele-termine-quiz)
 	- [Beim Fotographen](#beim-fotographen)
+	- [Ein neuer Pass für Jochen #immersion #quiz TODOLATER](#ein-neuer-pass-für-jochen-immersion-quiz-todolater)
 - [Bonus-Kurs: Die Geschichte der Deutschen](#bonus-kurs-die-geschichte-der-deutschen)
 	- [Die Anfänge](#die-anfänge)
 	- [Kriege und das Ende des Heilige Römische Reich deutscher Nation](#kriege-und-das-ende-des-heilige-römische-reich-deutscher-nation)
@@ -232,7 +253,13 @@ audio = ''
 - [Prüfungsvorbereitung: Grammatik (skip for now)](#prüfungsvorbereitung-grammatik-skip-for-now)
 	- [Ein wichtiger Rat](#ein-wichtiger-rat)
 - [Prüfungsvorbereitung (skip for now)](#prüfungsvorbereitung-skip-for-now)
-	- [Über ein Tortendiagramm sprechen](#Über-ein-tortendiagramm-sprechen)
+	- [Wichtige Sätze und Ausdrücke #ressource](#wichtige-sätze-und-ausdrücke-ressource)
+	- [Anweisungen](#anweisungen)
+	- [Anweisungen #quiz](#anweisungen-quiz)
+	- [Diagramme](#diagramme)
+	- [Die Verben fehlen! #quiz](#die-verben-fehlen-quiz)
+	- [Komplettes Chaos! #quiz](#komplettes-chaos-quiz)
+	- [Ein falscher Personalbogen #quiz](#ein-falscher-personalbogen-quiz)
 - [Probeprüfung](#probeprüfung)
 - [Ideen](#ideen)
 	- [Deutschlernen mit Gedichten: Was die Waschmaschine sagt](#deutschlernen-mit-gedichten-was-die-waschmaschine-sagt)
@@ -551,32 +578,121 @@ Nicht nur das: In dieser Lektion hast du über sechzig (60) neue deutsche Wörte
 
 {{< /notice >}}
 
-- [x] sich begrüßen Kursbuch Lektion 1
+{{< notice "Erfolg" >}}
 
-## Lerne Emma und Jochen kennen
+In dieser Lektion hast du gelernt, wie man sich begrüßt und wie man sich vorstellt.
+
+{{< /notice >}}
+
+
+## Wer ist Emma, Jochen, und Herr Schulz? #immersion
+
+In diesem Kurs triffst du viele Personen. Lass sie uns drei Personen kennenlernen! Ich stelle sie dir vor.
+
+TODO images of people
+
+Mark: "Das ist Emma. Sie kommt aus Großbritannien . Guten Tag, Emma!"
+
+Emma: "Guten Tag! Ja, das ist richtig: Ich bin Emma und ich kommme aus Großbritainnien."
+
+Mark: "Danke, Emma. Tschüss!"
+
+Emma: "Tschüss!"
+
+Mark: "Emmas Onkel ist Deutscher. Ich weiß nicht mehr, wie er heißt... Wie heißen Sie?"
+
+Jochen: "Ich heiße Jochen Schmidt."
+
+Mark: "Ah, jetzt weiß ich es. Woher kommen Sie, Herr Schmidt?"
+
+Jochen: "Wir können uns duzen. Ich möchte gerne 'du' sagen anstatt 'Sie'."
+
+Mark: "Oh, in Ordnung. Du heißt Jochen. Woher kommst du, Jochen?"
+
+Jochen: "Ich komme aus Berlin."
+
+Mark: "Ich verstehe. Auf Wiedersehen, Jochen."
+
+Jochen: "Auf Wiedersehen. Bis dann."
+
+Mark: "Ach, und dann haben wir noch Jürgen."
+
+Jürgen: "Herr Schulz, bitte!"
+
+Mark: "Oh, Entschuldigung. Ich werde jetzt 'Sie' zu Ihnen sagen. Guten Tag, Herr Schulz."
+
+Jürgen: "Grüß Gott."
+
+Mark: "Woher kommen Sie, Herr Schulz?"
+
+Jürgen: "Ich komme aus Wien."
+
+Mark: "Alles klar. Auf Wiedersehen, Herr Schulz."
+
+Jürgen: "Auf Wiederschauen."
+
+{{< notice type="Information" "Duzen und Siezen" >}}
+
+Manche Leute möchten 'du' sagen (duzen), manche Leute möchten 'Sie' sagen (siezen).
+
+- Kinder kannst du duzen.
+- Im Internet duzt man sich oft.
+- In Berlin wollen viele Menschen geduzt werden.
+- In Süddeutschland und Österreich wollen viele Menschen gesiezt werden.
+
+{{< /notice >}}
+
+{{< notice "Hinweis" "Achtung: häufige Fehler" >}}
+
+Ein häufiger Fehler, den ich oft sehe. Ich heiße Mark Rösler.
+
+Manche Deutschlerner nenen mich "Herr Lehrer" oder "Herr Mark". Das ist falsch, denn "Herr" benutzt man im Allgemeinen nur mit dem Nachnahmen.
+
+"Mark" ist mein Vorname. "Lehrer" ist mein Beruf, "Herr Lehrer" sagt man nur in Witzen.
+
+"Herr Rösler" ist richtig, weil "Rösler" mein Nachnahme ist. Du kannst aber gerne nur "Mark" sagen.
+
+{{< /notice >}}
+
+{{< notice "Hinweis" "Dialekt" >}}
+
+Es gibt verschieden Grüße. In Deutschland sagt man formal "guten Tag" oder informal "hallo".
+
+In Österreich und Süddeutschland sagt man auch "grüß Gott".
+
+In der Schweiz sagt man auch "grüezi".
+
+- [x] sich in DACH begrüßen und verabschieden Übungsbuchteil Lektion 1
+
+{{< /notice >}}
+
+{{< notice "Erfolg" >}}
+
+In dieser Lektion hast du gelernt, wie man andere vorstellt.
+
+{{< /notice >}}
+
+- [x] sich begrüßen Kursbuch Lektion 1
 
 ## Stelle dich vor! #quiz
 
 
 
-[In diesem Quiz hast du gelernt, wie du dich selbst vorstellst und wie du andere informell vorstellst.]
+{{< notice type="Erfolg" >}}
 
-DONE sich und andere vorstellen: formell/informell Kursbuch Lektion 1
-TODO sich und andere vorstellen Übungsbuchteil Lektion 1 -> Lückentext
+In diesem Quiz hast du gelernt, wie du dich und andere vorstellst.
 
-## Andere vorstellen
+{{< /notice >}}
 
-TODO
-#Kontext Emma haben wir gerade kennengelernt. Jetzt lernen wir Susie kennen.
-#continuedBlock Höre das Gespräch zwischen Susie und Alex.
-Susie: "Grüß Gott."
-"Guten Tag. Ich bin Alex und dies ist Emma. Wie heißen Sie?"
-"Ich bin Susie Schulz. Ich bin die neue Praktikantin."
-"Nett Sie kennenzulernen. Sie kommen aus Österreich, richtig?"
-"Ja, das ist richtig."
-"Ich komme aus Deutschland. Emma kommt aus den USA. Sie ist auch neu."
-#Erfolg Nun hast du auch gelernt, andere formell vorzustellen.
-#Information Alex wusste, dass Susie aus Österreich kommt, weil dort (und in Süddeutschland) "Grüß Gott" gesagt wird.
+- [x] sich und andere vorstellen: formell/informell Kursbuch Lektion 1 -> Lückentext
+
+## Formell oder informell? #quiz
+
+TODO Entscheide, welche Situationen formell, welche informell sind (slideshow) und ordne die Sätze zu
+- Bilder mit Kindern
+- in der Bank
+- Geschäftsmann
+- Freunde
 
 ## Lerne spielerisch Deutsch! #mindset
 
@@ -586,6 +702,7 @@ Mache den Immersionsteil jeder Lektion zu einem Spiel:
 
 - Errate die Bedeutung der Wörter.
 - Achte auf die Aussprache der Wörter.
+- Klicke auf wichtige Wörter und schaue dir die Bilder und Tabellen an. Versuche, die Bedeutungen zu verstehen.
 - Finde Wörter, die du besonders interessant oder schön findest.
 - Überlege dir Situationen, in denen du neue Wörter und Sätze benutzen könntest.
 - Schreibe schwierige Wörter in ein Notizbuch.
@@ -601,8 +718,6 @@ Zeichne ein Symbol oder ein einfaches Bild, statt die Übersetzung aufzuschreibe
 **Diese Aktivitäten stellen sicher, dass du dich mit der Sprache auseinandersetzt, engagierst mitmachst und motiviert bleibst.**
 
 Da jede Lektion auf Deutsch verfügbar ist, kannst du diese Tipps in jeder Lektion anwenden. Bei reinen Immersionsübungen sind die fünf Tipps sogar besonders wichtig.
-
-## Personalpronomen im Nominativ #meta
 
 ## Einfach Vokabeln lernen #meta
 
@@ -638,12 +753,49 @@ Lerne regelmäßig Vokabeln bis du die Immersionsübungen konsistent zu ca. 70 %
 
 {{< /notice >}}
 
+## Personalpronomen im Nominativ #immersion
+
+<u>**Ich**</u> finde es toll, dass <u>**du**</u> diesen Kurs belegt hast. <u>**Du**</u> wirst viel lernen. <u>**Es**</u> ist nicht schwer.
+
+<u>**Wir**</u> werden gemeinsam viel Spaß haben. <u>**Es**</u> gefällt mir, Deutschlernern wie dir zu helfen. <u>**Ihr**</u> habt viel Ehrgeiz!
+
+Jetzt kennst <u>**du**</u> auch schon Emma und Jochen.
+
+Emma -- <u>**sie**</u> hilft dir in den ersten Lektionen.
+
+Jochen -- <u>**er**</u> hilft dir in späteren Lektionen.
+
+Emma und Jochen -- <u>**sie**</u> beide haben sehr interessante Geschichten.
+
+Ach, und es gibt ja noch Jürgen -- äh, ich meine "Herr Schulz". "Helfen <u>**Sie**</u> den Deutschlernern, Herr Schulz?" "In Ordnung -- aber nur wenn <u>**Sie**</u>, liebe Deutschlerner, fleißig lernen."
+
+{{< notice "Erfolg" >}}
+
+In dieser Lektion hast du die Personalpronomen im Nominativ gelernt:
+
+- ich
+- du
+- er
+- sie
+- es
+- wir
+- ihr
+- sie
+- Sie
+
+**Nominativ** ist ein Fall: Ein Nomen oder Personalpronomen ist im Nominativ, wenn die Person *etwas aktiv tut*.
+
+Beispiel: "Ich sehe dich." *Ich* tute etwas aktiv, *du* nicht. (Deshalb sage ich nicht *du*, sondern *dich*.)
+
+{{< /notice >}}
+
+- [x] Personalpronomen im Nominativ Grammatik Lektion 1
+
+
+
 ## Immersion im Alltag: Notizzettel in deiner Wohnung #meta
 
 Auch im Alltag kannst du Deutsch lernen!
-
-# So verschönerst du deine Wohnung
-
 Alles, was du dazu brauchst, ist ein Block Klebezettel und ein Stift.
 
 {{< img scr="postit" >}}
@@ -739,7 +891,7 @@ Ein gutes Wörterbuch zum Nachschlagen der Wörter ist zum Beispiel [dict.cc](ht
 
 {{< /notice >}}
 
-# So verschönerst du deinen Körper
+## Immersion im Alltag: So verschönerst du deinen Körper
 
 Es gibt spezielle Stifte für die Haut.
 
@@ -895,29 +1047,74 @@ Bravo! In dieser Lektion hast du grundlegende Grammatik gelernt, indem du Muster
 
 {{< notice type="Hinweis" >}}
 
-Du hast jetzt übrigens schon **mehr als ein Zehntel** aller Vokabeln gelernt, die du für die A1-Prüfung brauchst!
+Du hast jetzt übrigens schon **mehr als ein Zehntel** aller Vokabeln gelernt, die du für die A1-Prüfung brauchst! TODO update
 {{< /notice >}}
 
 
-## Reise mit mir! #immersion
+## Reise mit mir! #ressource #video
 
-#Ressource Besuche diese interaktive Karte und mache dich mit den deutschen Namen der Städte, Länder und Kontinente vertraut. STYLE LINKEDPARTS diese interaktive Karte LINK https://drive.google.com/open?id=1G9qwMGTybt83kfpe-UDa-tcKe3scSCLK&usp=sharing&hl=de
-#todo Videos mit Namen und Hauptstadt vieler Ländernamen.
-#todo Videos einbinden https://www.google.com/maps/d/u/1/edit?mid=1G9qwMGTybt83kfpe-UDa-tcKe3scSCLK&ll=50.35026528523947%2C7.704943968750058&z=7&hl=de
-#todo Videos ersetzen mit Videos, in denen ich mich im Land vor einem Wahrzeichen befinde
-#continuedBlock Klicke auf eine Markierung. Jede Markierung enthält ein Video, das du schauen kannst, um mehr über den Ortes zu erfahren.
-#Hinweis Achte auch auf die Städtenamen. Eventuell kennst du manche Städte unter einem anderen Namen wie zum Beispiel München und Köln, welche man im Englischen Munich und Cologne nennt.
-#Aktion Finde nun die Namen aller Länder, die dich interessieren – vor allem natürlich den Namen deines Heimatlandes.
-#continuedBlock Wie heißen die Nachbarländer Deutschlands? In welchen Ländern der Erde bist du bis jetzt gewesen? Welche Länder möchtest du noch gerne besuchen? Finde die Namen all dieser Länder heraus.
-#continuedBlock Schaue dir außerdem alle Videos an.
-#Information Wusstest du schon? Nicht nur in Deutschland wird Deutsch gesprochen. Man spricht es auch in Österreich, der Schweiz, Lichtenstein und anderen Regionen.
-#Hinweis Manche Ländernamen haben einen Artikel. Auf der Karte siehst du Beispielsätze. Was fällt dir auf?
-#continuedBlock Du siehst den Unterschied am Beispiel Deutschland / die Bundesrepublik Deutschlands am einfachsten.
-#Tipp Sprachen enden fast immer auf -isch, zum Beispiel Französisch, Spanisch, Polnisch.
-#Erfolg Mit dieser Übung hast die Namen vieler Städte, Länder, Kontinente und Sprachen gelernt.
-#Tipp Falls all die Inhalte auf der Karte für dich erstmal zu viel sind, kehre einfach später noch einmal zu ihr zurück.
+TODO (wichtig) Videos mit Namen und Hauptstadt vieler Ländernamen, Videos einbinden https://www.google.com/maps/d/u/1/edit?mid=1G9qwMGTybt83kfpe-UDa-tcKe3scSCLK&ll=50.35026528523947%2C7.704943968750058&z=7&hl=de
+TODO Videos ersetzen mit Videos, in denen ich mich im Land vor einem Wahrzeichen befinde
 
-https://drive.google.com/open?id=1G9qwMGTybt83kfpe-UDa-tcKe3scSCLK&usp=sharing&hl=de
+{{< notice "Ressource" >}}
+
+Besuche [diese interaktive Karte](https://drive.google.com/open?id=1G9qwMGTybt83kfpe-UDa-tcKe3scSCLK&usp=sharing&hl=de) und mache dich mit den deutschen Namen der Städte, Länder und Kontinente vertraut.
+
+Klicke auf eine Markierung. **Jede Markierung enthält ein Video**, das du schauen kannst, um mehr über den Ort zu erfahren.
+
+Schaue dir alle Videos an.
+
+Aber falls all die Inhalte auf der Karte für dich erstmal zu viel sind, kehre einfach später noch einmal zu ihr zurück.
+
+{{< /notice >}}
+
+{{< notice "Hinweis" >}}
+
+Achte auch auf die Städtenamen. Eventuell kennst du manche Städte unter einem anderen Namen wie zum Beispiel München und Köln, welche man im Englischen Munich und Cologne nennt.
+
+{{< /notice >}}
+
+{{< notice "Aktion" >}}
+
+Finde nun die Namen aller Länder, die dich interessieren – vor allem natürlich den Namen deines Heimatlandes.
+
+- Wie heißt dein Heimatland auf Deutsch?
+- Wie heißen die Nachbarländer Deutschlands?
+- In welchen Ländern der Erde bist du bis jetzt gewesen?
+- Welche Länder möchtest du noch gerne besuchen?
+
+Finde die Namen all dieser Länder heraus.
+
+{{< /notice >}}
+
+{{< notice "Information" >}}
+Wusstest du schon? Nicht nur in Deutschland wird Deutsch gesprochen.
+
+Man spricht es auch in Österreich, der Schweiz, Lichtenstein und anderen Regionen.
+{{< /notice >}}
+
+{{< notice "Hinweis" >}}
+
+Manche Ländernamen haben einen Artikel.Auf der Karte siehst du Beispielsätze.
+
+Was fällt dir auf?
+
+Du siehst den Unterschied am Beispiel Deutschland / die Bundesrepublik Deutschlands am einfachsten.
+
+{{< /notice >}}
+
+{{< notice "Tipp" >}}
+Sprachen enden fast immer auf -isch, zum Beispiel Französisch, Spanisch, Polnisch.
+
+{{< /notice >}}
+
+{{< notice "Erfolg" >}}
+
+Mit dieser Übung hast die Namen vieler Städte, Länder, Kontinente und Sprachen gelernt.
+
+{{< /notice >}}
+
+- [x] Länder und Kontinente Übungsbuchteil Lektion 1
 
 ## Bewege dich viel! #immersion #video
 
@@ -1023,11 +1220,158 @@ Solltest du Probleme beim Einrichten einer deutschen Tastatur haben, dann schrei
 
 {{< /notice >}}
 
-
 ## Deine ersten Deutsch-Vokabeln! #quiz
 
 
 TODO audio, similar to H5P 452906
+
+## Explizite Grammatik auf einen Blick: das Verb *sein* - ich bin, du bist, ... #meta
+
+Ein Verb ist im **Präsens** (in der Gegenwart), wenn es *jetzt* passiert.
+
+Dies ist das unregelmäßige Verb *sein* im Präsens.
+
+|      Person | Wortform |
+| ----------: | :------- |
+|         ich | bin      |
+|          du | bist     |
+| er, sie, es | ist      |
+|         wir | sind     |
+|         ihr | seid     |
+|     sie/Sie | sind     |
+
+Es ist natürlich ein sehr wichtiges Wort.
+Am Ende des Kurses wirst du es gut kennen.
+
+Du brauchst diese Tabelle nicht auswendig zu lernen. Achte nur darauf, wenn du einen deutschen Text liest und lerne die Wortformen implizit.
+
+## Explizite Grammatik auf einen Blick: regelmäßige Verben im Präsens #meta
+
+Erinnerst du dich an die Lektion [Lerne spielerisch Deutsch! #mindset](#lerne-spielerisch-deutsch-mindset)?
+
+Wenn du mit dieser Methode lernst, dann hast du bestimmt schon ein paar Tabellen gesehen.
+
+Hier ist die Tabelle für das regelmäßige Verb "lern**en**":
+
+|      Person | Wortform   |
+| ----------: | :--------- |
+|         ich | lern**e**  |
+|          du | lern**st** |
+| er, sie, es | lern**t**  |
+|         wir | lern**en** |
+|         ihr | lern**t**  |
+|     sie/Sie | lern**en** |
+
+"Lern" nennt man den **Wortstamm**.
+
+{{< notice "Hinweis" >}}
+
+Dies ist ein klare Muster.
+
+**Fast jedes regelmäßige Verb hat dieses Muster.**
+
+Die einzigen Ausnahmen:
+
+- Wenn der Wortstamm mit "t" endet, dann fügt man ein extra "e" vor "st" und "t" ein:
+  - du arbeit**est**
+  - er, sie, es arbeit**et**
+  - ihr arbeit**et**
+- Wenn der Wortstamm mit "s" oder "ß" endet, gibt es kein extra "s":
+  - du heiß**t**
+  - er, sie, es heiß**t**
+  - ihr heiß**t**
+
+{{< /notice >}}
+
+{{< notice "Tipp" >}}
+
+Nicht vergessen: Du lernst die deutsche Grammatik am Besten, wenn du sie *implizit* lernst.
+Achte also gut auf diese Endungen, während du deutsche Wörter hörst und liest.
+
+Klicke oft auf Verben, um die Tabelle zu sehen.
+
+{{< /notice >}}
+
+{{< notice "Erfolg" >}}
+
+In dieser Lektion hast du regelmäßige Verben im Präsens gelernt.
+
+{{< /notice >}}
+
+- [x] regelmäßige Verben im Präsens Grammatik Lektion 1
+
+## Explizite Grammatik auf einen Blick: das Verb *haben* - ich habe, du hast, ... #meta
+
+Dies ist das unregelmäßige Verb *sein* im Präsens.
+
+|      Person | Wortform  |
+| ----------: | :-------- |
+|         ich | hab**e**  |
+|          du | ha**st**  |
+| er, sie, es | ha**t**   |
+|         wir | hab**en** |
+|         ihr | hab**t**  |
+|     sie/Sie | hab**en** |
+
+Du siehst, dass es fast wie ein regelmäßiges Verb gebildet wird. Bei *du hast* und *er, sie, es hat* fehlt das "b".
+
+- [x] "sein" im Präsens Grammatik Lektion 1
+
+## Vervollständige die Verben! #quiz
+
+Wie sind die Endungen dieser Verben?
+
+- kommen
+- arbeiten
+- lernen
+- heißen
+- haben
+
+TODO h5p
+
+## Explizite Grammatik: regelmäßige Verben im Perfekt TODO kann auch später kommen
+
+In einer früheren Lektion **hast** du regelmäßige Verben im Präsens **gelernt**.
+
+Was bedeutet "hast ... gelernt"? Es bedeutet, dass du es in der Vergangenheit gemacht hast.
+
+Das Perfekt hat zwei Komponenten:
+
+- das Partizip II
+- und das Hilfsverb.
+
+### Das Partizip II
+
+Bei regelmäßigen Verben (ohne Präfix) fängt das Partizip II mit *ge* and und endet mit *t* (oder *et*).
+
+Das Partizip II von *lernen* ist also "**ge**lern**t**" und das Partizip II von *arbeiten* ist "**ge**arbeit**et**". (Wie "er lernt" und "er arbeitet", nur mit *ge* am Anfang!)
+
+### Das Hilfsverb
+
+Das Hilfsverb ist entweder *haben* oder *sein*. Das Hilfsverb muss man sich für jedes Verb merken. Du findest es in der Tabelle, wenn du auf ein Wort klickst.
+
+Das Hilfsverb für *lernen* und *arbeiten* ist *haben*. Das Hilfsverb für *reisen* ist *sein*.
+
+Das Partizip II bleibt für jede Person (ich, du, etc.) gleich, aber das Hilfsverb beugen wir wie im Präsens.
+
+### Das Perfekt
+
+Insgesamt haben wir also folgendes:
+
+- Ich habe gelernt. Du hast gelernt. Sie hat gelernt.
+- Ich habe gearbeitet. Du hast gearbietet. Es hat gearbeitet.
+- Ich bin gereist. Du bist gereist. Er ist gereist.
+
+{{< notice "Tipp" >}}
+
+Nicht vergessen: Du lernst die deutsche Grammatik am Besten, wenn du sie *implizit* lernst.
+Achte also gut auf Verben im Perfekt, während du deutsche Wörter hörst und liest.
+
+Klicke oft auf Verben, um die Tabelle zu sehen.
+
+{{< /notice >}}
+
+- [x] regelmäßige Verben im Perfekt Grammatik Lektion 4
 
 ## Akzeptiere Fehler mit offenen Armen! #mindset
 
@@ -1238,7 +1582,90 @@ Es gibt auch die Umlaute Ä – Ö – Ü. Du kannst auch "a Umlaut", "o Umlaut"
 Schließlich gibt es noch das scharfe S oder Eszett (ß), dass umgangssprachlich auch "Doppel-S" genannt wird.
 #Erfolg Du hast gelernt, wie die Buchstaben auf Deutsch ausgesprochen werden.
 
-TODO LATER script: write something -> play back spelling
+TODOLATER script: write something -> play back spelling
+
+## Wortstellung: die Reihenfolge der Wörter in deutschen Sätzen #meta
+
+Jetzt hast du schon viele Sätze gelesen. Aber warum ist die Reihenfolge der Wärter so seltsam?
+
+Lass uns erstmal auf die einfachsten Sätze konzentrieren. Du wirst zwar viele komplizierte Sätze lesen, aber wenn du selber sprichst, solltest du erstmal nur ganz, ganz einfache Sätze sagen.
+
+### Aussagesätze
+
+Ein einfacher Aussagesatz hat die Form: Subjekt, Prädikat (Verb), Objekt.
+
+Beispiele
+
+- Ich lerne Deutsch.
+- Ich lese.
+- Ich lese einen Satz.
+- Er hilft mir.
+- Sie kommt zu mir.
+- Sie sind glücklich.
+
+### W-Fragen
+
+Eine W-Frage, also eine Frage die mit *wie*, *wo*, *woher* etc. anfängt, hat die Form: W-Wort, Prädikat, Subjekt, Objekt.
+
+Beispiele:
+
+- Wo bist du?
+- Wie geht es dir?
+- Woher kommst du?
+
+### Ja/Nein-Fragen
+
+Ja/Nein-Fragen sind Fragen, die mit "ja" oder "nein" beantwortet werden könnne. Sie habne die Form: Verb, Subjekt, Objekt.
+
+Beispiele:
+
+- Geht es dir gut?
+- Kommst du?
+- Kommst du heute?
+
+{{< notice "Tipp" >}}
+
+In einem Aussagesatz (oder Hauptsatz) und einer W-Frage ist das Verb immer an zweiter Stelle.
+
+Bei anderen Fragen ist immer ein Teil des Verbs an erster Stelle.
+
+(Manchmal wird das Verb in zwei Teile geteilt: mitkommen - Kommst du mit?)
+
+{{< /notice >}}
+
+- [x] Wortstellung: Aussagesatz, W-Frage mit Wie?, Wo?, Woher?, Ja/Nein-Frage Grammatik Lektion 1
+
+## Wortstellungs-Quiz #quiz
+
+Kommst du aus Portugal? Nein. Ich komme aus Brasilien.
+
+TODO
+
+# Phonetik: Satzmelodie, Betonung, Akzent, Laute
+
+TODO
+
+## Warum Phonetik studieren?
+
+TODO so hörst du dich wie ein Muttersprachler an
+
+## So lernst du den Akzent und die Betonung #meta
+
+TODO
+http://www.fluentin3months.com/a-accent/
+pitch, rise, fall, and stress of your words -> mimic the musicality of sentence right from the start
+http://www.mimicmethod.com/
+
+## Satzmelodie in deutschen Sätzen
+
+TODO
+- Aussagesatz am Ende nach unten
+- W-Frage am Ende nach unten
+- Ja/Nein-Frage am Ende nach oben
+- und dir?/und Ihnen? nach oben
+- c.f. p. 83
+
+- [x] Satzmelodie in kurzen Aussagesätzen und Fragen Phonetik 1
 
 # Meine \"deutsche\" Wohnung
 
@@ -1394,7 +1821,7 @@ Die folgende Kurzgeschichte, genannt Schleichers Fabel, illustriert solche "cogn
 
 {{< /notice >}}
 
-# Das Schaf und die Pferde
+## Das Schaf und die Pferde
 
 Ein Schaf, das keine Wolle mehr hatte, sah Pferde, eines einen schweren Wagen fahrend, eines eine große Last, eines einen Menschen schnell tragend.
 
@@ -1524,7 +1951,32 @@ TODO Berufe verstehen alt Lektion 3
 
 ## Berufe in Deutschland #quiz
 
-TODO über Tortendiagramm mit Prozentzahlen sprechen alt Lektion 3
+
+TODO Tortendiagramm Ärzte
+
+- **Ärzte**: 392.400
+  - **Zahnärzte**: 95.189
+  - **Frauenärzte**: 18.427
+
+TODO Tortendiagramm Beamte
+
+- **Beamte**: 1.688.000
+  - **Schullehrer**: 773.280
+  - **Polizisten**: 243.625
+  - **Richter**
+
+
+
+
+- [x] über Tortendiagramm sprechen Kursbuch Lektion 1
+
+
+Spreche die folgenden Zahlen:
+
+-  Im Jahr 2018 gab es 38.931 Menschen, die Verkäufer studiert haben.
+- Es gab 35.000 Bäckereien im Jahr 2017.
+
+- Es gibt eine halbe Million Sekretäre und Sekretärinne in Deutschland. Wie viele tausend Sekretäre und Sekretärinne sind das? -> 500.000
 
 ## Ein typischer Arbeitstag eines Deutschen
 
@@ -1646,19 +2098,116 @@ Morgen ist Montag. Ich bin nicht traurig, denn ich liebe meine Arbeit.
 
 TODO über sein Wochenende sprechen alt Lektion 5
 
+## Was weißt du über Jochen? #quiz
+
+Jochen hat einen neuen Arbeitsplatz gefunden. Er bekommt einen Anruf von seiner neuen Firma.
+
+- "Guten Tag, ich heiße Jonas Weber. Ich bin von der Firma Vinmar. Spreche ich mit Jochen Schmidt?"
+- "Ja, ich bin Jochen Schmidt."
+- "Sehr gut. Willkommen bei Vinmar und herzlichen Glückwunsch zu ihrem neuen Job!"
+- "Danke."
+- "Wir brauchen noch ein paar Informationen über sie, ist das in Ordnung?"
+- "Ja, das ist in Ordnung."
+- "Wann und wo sind sie geboren?"
+- "Ich bin am 27.08.1972 in Berlin."
+- "Okay. Sie sind Deutscher, ist das richtig?"
+- "Ja, ich habe die deutsche Staatsbürgerschaft."
+- "Gut. Sprechen Sie noch weitere Sprachen außer Deutsch und Englisch?"
+- "Ja, ich spreche auch Französisch."
+- "Sehr gut. Sind sie auf dem Handy erreichbar? Was ist ihre Handynummer?"
+- "Ich bin fast immer auf meinem Handy erreichbar. Meine Handynummer ist +49 170 1539 602."
+- "Wunderbar. Wohnen sie noch in der Spinnereistraße 7?"
+- "Nein, das ist falsch. Wir sind umgezogen. Wir wohnen jetzt in der Lessingstraße 10, 30159 Hannover."
+- "In Ordnung, ich schreibe es mir auf."
+- "Außerdem haben wir bald eine neue Telefonnummer: +49 511 4121870. Das ist die richtige Telefonnummer. Sie rufen eine alte Telefonnummer an, die es bald nicht mehr gibt."
+- "Ach so. Danke, dann schreibe ich mir die neue Telefonnummer auch auf. Bevor ich es vergesse: Wir möchten ihnen eine Firmen-E-Mail-Adresse geben. Sie lautet j.schmidt@vinmar.com."
+- "In Ordnung, danke."
+- "So, das war alles, was wir wissen wollten. Vielen Dank für die Auskunft."
+- "Gern geschehen."
+
+Höre die Tonaufzeichnung und notiere die Informationen:
+
+- Geschlecht
+  - [x] Herr
+  - [ ] Frau
+- Famlienname: Schmidt
+- Vorname: Jochen
+- Nationalität: Deutscher
+- Geburtsort: Berlin
+- Geburtsdatum
+  - Tag: 27.
+  - Monat: August -> Tipp: Welcher Monat ist der achte Monat?
+  - Jahr: 1972
+- Alter: ..
+- Sprachen: Deutsch, Englisch, Französisch
+- Adresse
+  - Straße und Hausnummer: Lessingstraße 10
+  - Postleitzahl und Wohnort: 30159 Hannover
+- Telefonnummer: +49 511 4121870
+- Mobil: +49 170 1539 602
+- E-Mail: j.schmidt@vinmar.com
+
+TODO h5p
+
+- [x] Personalbogen ausfüllen Kursbuch Lektion 1
+
+## Deine Informationen #quiz
+
+Fülle nun den gleichen Bogen mit deinen Informationen aus.
+
+- Geschlecht
+  - [ ] Herr
+  - [ ] Frau
+- Famlienname:
+- Vorname:
+- Nationalität:
+- Geburtsort:
+- Geburtsdatum
+  - Tag:
+  - Monat:
+  - Jahr:
+- Alter: ..
+- Sprachen:
+- Adresse
+  - Straße und Hausnummer:
+  - Postleitzahl und Wohnort:
+- Telefonnummer:
+- Mobil:
+- E-Mail:
+
+## Deine Mitschüler #coaching
+
+Ergänze die Informationen mit denen deiner Mitschüler. Stelle einen Mitschüler vor.
+
+- [x] Steckbriefe von Kursteilnehmern herstellen und erraten Projekt 1
+
 # Entdecke mit mir die Welt!
 
 TODO
 
 ## Deutschland
 
-## Deutschland: Statistik
+## Deutschland: Statistik #quiz
 
-TODO über Balkendiagramme sprechen alt Lektion 7
+
+
+TODO 2019-06-26-bundeshaushalt-grafik.png
+
+- [ ] über Tortendiagramm mit Prozentzahlen sprechen Kursbuch Lektion 3
+
+TODO haustiere-heimtiere-grafik104.png
+
+- [ ] über Balkendiagramm sprechen Kursbuch Lektion 7
+
+## Videogamer in Deutschland #coaching
+
+https://de.statista.com/statistik/daten/studie/290890/umfrage/altersverteilung-von-computerspielern-in-deutschland/
 
 ## Die Schweiz: Sprache
 
 TODO Gruezi: sich in DACH begrüßen und verabschieden alt Lektion 1 Übungsbuch
+
+
 
 ## Die Schweiz: Kultur
 
@@ -1672,14 +2221,9 @@ TODO über kulturelle Besonderheiten bei Einladungen sprechen alt Lektion 7
 
 Pennsylvania
 
-## Eine Weltreise
-
-TODO Idee: mit Google Maps die Namen der Länder und Kontinente lernen
-TODO Länder und Kontinente alt Lektion 1 Übungsbuch
-
 ## Welches Land ist das? #quiz
 
-TODO prüfen, ob sie die Namen gelernt haben: ich zeige die outline und sie müssen sagen, wie das Land heißt (sie können es gerne nachschauen)
+TODOLATER prüfen, ob sie die Namen gelernt haben: ich zeige die outline und sie müssen sagen, wie das Land heißt (sie können es gerne nachschauen)
 
 
 # Emmas Reise
@@ -1829,7 +2373,15 @@ Dann elf und zwölf. Danach ist es wieder einfach, sag einfach die zweite Zahl u
 
 "Ah, ich weiß!", sagt Max, "Dann <del>sechszehn</del>, <del>siebenzehn</del> ..."
 
-"Naja," sagt Max, "hier sagst du es ein bisschen anders: sechzehn und siebzehn. Dann ist es aber wieder einfach: achtzehn und neunzehn. Insgesamt also: elf, zwölf, dreizehnm vierzehn, fünfzehn, sechzehn, siebzehn, achtzehn, neunzehn und zwanzig."
+"Naja," sagt Max, "hier sagst du es ein bisschen anders: sechzehn und siebzehn. Dann ist es aber wieder einfach: achtzehn und neunzehn. Insgesamt also: elf, zwölf, dreizehn, vierzehn, fünfzehn, sechzehn, siebzehn, achtzehn, neunzehn und zwanzig."
+
+{{< notice "Achtung" >}}
+
+Achtung: Von dreizehn (13) bis neunundneunzig (99) sagt man erst die zweite Zahl, dann die erste!
+
+TODOLATER Bild mit Pfeilen, das dies illustriert
+
+{{< /notice >}}
 
 "Zwanzig!", sagt Max.
 
@@ -1861,7 +2413,21 @@ Seine Kinder sind sehr beeindruckt. "Und was sind tausend Millionen, Papa?", fra
 
 Der Vater sehr glücklich und zufrieden.
 
-[Ach-tung billion - Milliarde]
+{{< notice "Achtung" "Achtung: eine 'billion' ist eine Milliarde" >}}
+
+Es ist im Deutschen anders als im Englischen. Die 'billion' auf Englisch ist im Deutschen eine Milliarde $\left(10^{9}\right)$.
+
+Eine Billion $\left(10^{12}\right)$ im Deutschen heißt im Englischen 'trillion'.
+
+{{< /notice >}}
+
+{{< notice "Erfolg" >}}
+
+Sehr gut! In dieser Lektion hast du die Zahlen von eins bis einer Milliarde gelernt.
+
+{{< /notice >}}
+
+- [x] Zahlen von 1 bis 1 Milliarde verstehen und sprechen Kursbuch Lektion 1
 
 ## Hilf Oliver bei seinen Mathehausaufgaben #quiz
 
@@ -1870,7 +2436,7 @@ Der Vater sehr glücklich und zufrieden.
 generate tasks based on what gives user difficulty]
 Lektion 1
 
-## Höhere Mathematik #resource
+## Höhere Mathematik #resource #quiz
 
 [script #1: type number <-> see it in writing
 
@@ -1880,8 +2446,17 @@ addition: play audio files for each word
 script #2:  math probl-ems up to Milliarde (with higher difficulty up to Billiarden)
 suggestion: practice until you are sure you know it all]
 Lektion 1
+TODO dies ist sehr wichtig, denn sie müssen das wirklich gut drauf haben
 
-## Speichere unsere Nummer auf deinem Handy
+## Speichere unsere Nummer auf deinem Handy #immersion #quiz
+
+{{< notice "Audio" "Höre dir diese Tonaufnahme an" >}}
+
+Lies beim ersten Mal nicht den Text!
+
+Höre dir die Tonaufnahme aufmerksam an und versuche, die folgende Nummer als Kontakt in deinem Handy zu speichern.
+
+{{< /notice >}}
 
 Die Nummer von Authentic German Learning ist: plus vier neun drei null zwei drei drei zwei sieben eins drei vier.
 
@@ -1889,13 +2464,19 @@ Wirklich! Schreibe uns diese Nachricht auf WhatsApp: "Ich habe gerade die Zahlen
 
 Plus vier neun (+49) ist die Vorwahl für Deutschland, drei null (30) oder null drei null (030) die Vorwahl für Berlin.
 
+Wir sind auf Whatsapp erreichbar und helfen dir gerne, falls du Fragen oder Feedback zu diesem Kurs hast. Wir überprüfen unsere Nachrichten mindestens einmal pro Tag.
 
-TODO
-#Aktion Speichere die folgende Nummer als Kontakt auf deinem Handy.
-#continuedBlock Schaue nicht auf den Text dieser Lektion, sondern höre und tippe die Nummer in dein Handy ein.
-Die Telefonnummer von Authentic German Learning ist: +49 30 23327134
-#Tipp Wir sind auf Whatsapp erreichbar und helfen dir gerne, falls du Fragen oder Feedback zu diesem Kurs hast.
-#Erfolg In dieser Lektion hast du gelernt, auf Deutsch eine Telefonnummern zu hören und aufzuschreiben.
+{{< notice "Erfolg" >}}
+
+In dieser Lektion hast du gelernt, auf Deutsch eine Telefonnummern zu hören und aufzuschreiben.
+
+{{< /notice >}}
+
+- [x] Telefonnummern verstehen und sprechen Kursbuch Lektion 1
+
+## Was ist deine Nummer? #quiz
+
+TODO als Nummern aufschreiben -> dann als Wörter, wird überprüft
 
 ## Ein Brief vom Vermieter
 
@@ -2027,6 +2608,8 @@ Was war es? Ein Ladekabel, dass so aussah wie eine Bombe ...
 
 [interessante Nebenbemerkung: Meinem Bruder ist etwas ähnliches passiert. Die Geschichte basiert also auf einer wahren Begebenheit]
 
+- [x] W-Fragen mit Wer?, Was?, Wen?, Wann? Grammatik Lektion 2
+
 ## Fragen über Fragen #quiz
 
 TODO W-Frage mit Wie? Wo? Woher? Ja/Nein-Frage
@@ -2156,8 +2739,6 @@ Super! Jetzt kannst du sicher in einem deutschen Flugzeug fliegen.
 
 In dieser und der letzten Lektion hast du viele neue deutsche Wörter gelernt und die Grammatik gelernt, indem du Muster erkennst.
 {{< /notice >}}
-
-
 
 ## Der Imperativ: Mache es! Lies! Schreibe! #quiz
 
@@ -2340,7 +2921,7 @@ Jochen arbeitet bei einer Computer-Firma. Anna arbeitet bei einer Bank, bevor si
 
 ## Weihnachten in Deutschland bei den Schmidts
 
-TODO (skip in MVP)
+TODOLATER (skip in MVP)
 
 ## Die Jahreszeiten in Bildern
 
@@ -2547,9 +3128,9 @@ Lukas bekommt eine schwere Aufgabe, die er nicht ganz versteht:
 
 "Ein Gärtner möchte seine Blumen in seinem Garten gießen. Der Garten ist sechzehn Quadratmeter groß. Der Gärtner braucht pro Quadratmeter zwei Liter Wasser.
 
-1. Wie viele Liter Wasser braucht der Gärtner?
+1. **Wie viele** Liter Wasser braucht der Gärtner?
 2. Ein Liter Wasser wiegt ein Kilogramm. Wie schwer ist das Wasser, das der Gärtner braucht? Gib die Lösung in Kilogramm, Gramm und Pfund.
-3. Der Gärtner möchte Wasser sparen. Er nimmt beim nächsten Mal fünfundzwanzig Prozent weniger Wasser. Wie viel Wasser braucht er?"
+3. Der Gärtner möchte Wasser sparen. Er nimmt beim nächsten Mal fünfundzwanzig Prozent weniger Wasser. **Wie viel** Wasser braucht er?"
 
 [Bevor du weiterliest: Finde selber die Lösung!
 
@@ -2588,7 +3169,10 @@ Und so geht es weiter im Mathematik unterricht:
 - "Wieviele Zentimeter sind ein Meter fünfzehn?" "Einhundertfünfzehn Zentimeter!"
 - "Wieviele Meter sind zweihundert Kilometer?" "Zweihunderttausend Meter!"
 
-[Mathe-Quizze]
+- [x] W-Fragen mit Wie viel?, Wie viele? Grammatik Lektion 3
+
+## Mathe-Quizze #quiz TODO skip for now
+
 
 ## Im Musikunterricht
 
@@ -2641,7 +3225,7 @@ https://freie-grundschule-wernigerode.de/2_Schule_Hort/Unterricht/Stdpl_4_Klasse
 
 Ressource: https://de.wiktionary.org/wiki/Verzeichnis:Deutsch/Uhrzeit]
 
-## Lukas' Computer-Kurs ist international
+## Lukas' Computer-Kurs ist international #immersion
 
 Lukas macht in den Sommerferien einen Computer-Kurs.
 
@@ -2658,7 +3242,31 @@ Lukas ist Deutscher: Sein Vater ist ein Deutscher und seine Mutter ist eine Deut
 In Finnland benutzt man auch Euros, die gleiche Währung wie in Deutschland. Aber in der Türkei benutzt man türkische Lira und in Mexiko mexikanische Peso.
 Zur Übung schreibt Lukas ein Programm, dass Euros in andere Währungen umrechnet.
 
+{{< notice "Information" "Erkenne Muster!" >}}
+
+| Land        | Bewohner                                      | Adjektiv        | Sprache         |
+| ----------- | --------------------------------------------- | --------------- | --------------- |
+| Deutschland | Deutsche<br>der/die Deutsche                  | deutsch         | Deutsch         |
+| Finnland    | Finn**en**<br>der Finne<br>die Finn**in**     | finn**isch**    | Finn**isch**    |
+| Türkei      | Türk**en**<br>der Türke<br>die Türk**in**     | türk**isch**    | Türk**isch**    |
+| Mexiko      | Mexikaner<br>der Mexikaner<br>die Mexikanerin | mexikan**isch** | Mexikan**isch** |
+
+| Kontinent | Bewohner                                             | Adjektiv         |
+| --------- | ---------------------------------------------------- | ---------------- |
+| Europa    | Europäer<br>der Europäer<br>die Europäer**in**       | europä**isch**   |
+| Afrika    | Afrikaner<br>der Afrikaner<br>die Afrikaner**in**    | afrikan**isch**  |
+| Amerika   | Amerikaner<br>der Amerikaner<br>die Amerikaner**in** | amerikan**isch** |
+| Asien     | Asiaten<br>der Asiate<br>die Asiat**in**             | asiat**isch**    |
+
+Wie du siehst, gibt es klare Muster. Die Deutschen selbst sind eine Ausnahme.
+
+{{< /notice >}}
+
+## Woher kommst du? #quiz
+
 [Woher kommst du? Was ist die Währung in deinem Land?
+
+Siehe [Lukas' Computer-Kurs ist international](#lukas-computer-kurs-ist-international-immersion) und  [Eine Weltreise](#eine-weltreise-immersion).
 
 first version: Poll which country via Google Forms, including option to write-in
 
@@ -2666,9 +3274,13 @@ second version: write in each answer, check if it makes sense
  - Addresse
  - Land
  - Kontinent
+ - Sprache
+ - Nationalität
 
 use code from number sayer to say the numbers in Addresse]
-TODO sagen, woher man kommt alt Lektion 1.
+
+- [x] sagen, woher man kommt: Adresse, Land, Kontinent Kursbuch Lektion 1
+- [x] Sprachen und Nationalitäten
 
 ## Lukas bringt seinem Bruder etwas über Computer bei
 
@@ -2797,11 +3409,13 @@ https://pixabay.com/photos/sail-sunset-sea-water-ocean-3585674/
 
 ## Wie bitte? Wie heißen Sie? #quiz
 
-[you work in a ho-tel
+Du arbeitest in einem Hotel. Schreibe die Namen auf, die dir gesagt werden.
 
-write down names that are being said -> include each letter at least once
+Falls du Hilfe brachst, siehe [Die Aussprache des Alphabets #meta](#die-aussprache-des-alphabets-meta).
 
-refer to Die Aussprache des Alphabets] alt Lektion 1
+TODO include each letter at least once -> very important to practice this thoroughly
+
+- [x] Namen buchstabieren und notieren Kursbuch Lektion 1
 
 ## Jochen hört Podcasts über Rügen
 
@@ -2971,9 +3585,7 @@ Auf Rügen gibt es auch viele Tiere. Die kleine Emilia hat sich in diese braune 
 
 https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
 
-## Die Reihenfolge der Wörter in deutschen Sätzen #meta
 
-Worstellung: Ausssagesatz, W-Fragen, Ja/Nein-Fragen
 
 ## Die Schmidts schreiben eine Postkarte
 
@@ -3036,13 +3648,6 @@ Auf der Post kauft Anna eine Briefmarke und schickt die Postkarte an Emma.
 TODO Wegbeschreibungen verstehen und machen alt Lektion 7
 TODO mündliche Wegbeschreibungen notieren alt Lektion 7
 Google Maps funktioniert nicht ;)
-
-## So lernst du den Akzent und die Betonung #meta
-
-TODO
-http://www.fluentin3months.com/a-accent/
-pitch, rise, fall, and stress of your words -> mimic the musicality of sentence right from the start
-http://www.mimicmethod.com/
 
 ## Mit dem Bus nach Berlin!
 
@@ -3180,7 +3785,6 @@ TODO Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungsarten versteh
 TODO Verkaufsgespräch an der Käsetheke (oder andere) verstehen und nachspielen
 
 ## An der Kasse #quiz #immersion
-
 
 Anna ist fertig, jetzt muss sie nur noch an der Kasse bezahlen.
 
@@ -3453,7 +4057,15 @@ Die Familie hat am Nachmittag einen Termin beim Fotographen.
 
 "Kein Problem!", antwortet Anton.
 
-TODO
+## Ein neuer Pass für Jochen #immersion #quiz TODOLATER
+
+// Jochen geht zum Bürgeramt, um einen neuen Pass zu bekommen.
+
+//Er geht zur Rezeption sagt: "Guten Tag, mein Pass ist nicht mehr gültig. Ich brauche einen neuen."
+
+// Die Frau an der Rezeption sagt: "In Ordnung.
+
+
 
 # Bonus-Kurs: Die Geschichte der Deutschen
 
@@ -3706,16 +4318,81 @@ allgemeiner Rat: langfristig ist es besser, viel zu hören und zu lesen, also: f
 falls du die Prüfung erfolgreich bestehen möchtest, dann mache die Übungen, weil sie kurzfristig dabei helfen, für den Test zu lernen.
 
 
-
-
-
-
-
 # Prüfungsvorbereitung (skip for now)
 
-## Über ein Tortendiagramm sprechen
+## Wichtige Sätze und Ausdrücke #ressource
 
-TODO Ausländer in Deutschland, Industrie in Deutschland, Berufe in Deutschland Lektion 1
+studiere die PDF
+
+## Anweisungen
+
+In diesem Kurs hast du Anweisungen bekommen, die du auch in der Prüfung bekommen wirst.
+
+Lass sie uns explizit lernen:
+
+- Notieren Sie.
+- Hören Sie.
+- Lesen Sie.
+- Sprechen Sie.
+- Schreiben Sie.
+- Markieren Sie.
+- Notieren Sie.
+- Antworten Sie.
+- Ergänzen Sie.
+- Fragen Sie.
+- Kreuzen Sie an.
+- Vergleichen Sie.
+- Sortieren Sie.
+- Ordnen Sie zu.
+- Schlagen Sie das Buch auf Seite 34 auf.
+
+Es gibt auch ein paar hilfreiche Sätze, die du sagen kannst:
+
+- Wie bitte?/Wiederholen Sie das bitte.
+- Sprechen Sie bitte langsam.
+- Schreiben Sie das Wort bitte an die Tafel.
+- Was heißt/Was bedeutet "Bleistift"?
+- Wie heißt das/"pencil" auf Deutsch?
+- Entschuldigung, welche Seite?
+- Ich verstehe das nicht.
+
+TODO Video or slide show with pictures
+
+- [x] Kurssprache verstehen Kursbuch Lektion 1
+
+## Anweisungen #quiz
+
+TODO Was passt? Was passt nicht
+
+## Diagramme
+
+TODO Tagesablauf von Nick.jpg
+
+
+
+TODO monatliche Ausgaben.png
+
+
+TODO wo_trinken_sie_am_liebsten_kaffee_440.jpg
+
+TODO schaubildbeschreibung-lebenserwartung.jpg
+
+TODO schaubild-einwohner-arzt-zahnarzt.png
+
+- [x] über Tortendiagramm sprechen Kursbuch Lektion 1 (2)
+
+
+## Die Verben fehlen! #quiz
+
+TODO wichtig quiz mit Lückentext, Verb ist nur im Infinitiv (all of sein, haben, some of arbeiten, heißen, kommen) -> sehr wichtig!
+
+## Komplettes Chaos! #quiz
+
+TODO Wortstellung zufällig, müssen in richtige Position bringen und *aufschreiben* -> minor errors should not be punished too severely
+
+## Ein falscher Personalbogen #quiz
+
+TODO Was ist falsch? Korrigiere die Fehler.
 
 # Probeprüfung
 
@@ -3890,20 +4567,25 @@ zweitausendvierzehn.
     - inkl. Deutschlernen mit Gedichten (Deutsch A1)
     - inkl. Deutchlernen mit Musik (Deutsch A1)
     - inkl. persönliche Betreuung für 6 Wochen (Deutsch A1)
-    - inkl. Probeprüfung Deutsch A1
+  - Phonetik: Satzmelodie, Akzent, Laute (Deutsch A1)
   - Die Geschichte der Deutschen (Deutsch A1)
   - Deutsche Grammatik für Anfänger (Deutsch A1)
+  - Prüfungsvorbereitung
+      - inkl. Spickzettel Deutsch A1 (PDF:  Tabellen mit wichtigen Sätzen, Grammatikregeln)
+      - inkl. Probeprüfung Deutsch A1
   - Deutschlern-Apps für Anfänger (Deutsch A1)
     - inkl. Article Smasher - deutsche Artikel einfach lernen
     - inkl. Finde den Weg! (Wegbeschreibung lernen - Deutsch Anfänger)
     - inkl. Die Welt auf Deutsch (Länder und Kontinente auf Deutsch: Wörter, Aussprache)
     - inkl. deutsche Bildbeschreibung mit Lisa (checks for keywords in the description -> offers one correct solution containing that keyword)
     - inkl. Das verflixte Wort! -> Bilder von Pixabay, Bedeutung, Beispiele von Wiktionary
+- falls sie etwas nicht verstehen, ist es **meine Verantwortung**!
 - code AGL app
   - first, just interface to access YouTube videos, articles and other free content; with tab to buy things (first via link, then integrated in the app)
   - then publish courses via the app: activated via key
-    - let user pick a setting (more grammar or less grammar), then let them go step by step by selecting appropriate sequence and repetition
-    - repeat sections based on exercise results
+    - filter by category
+	- let user pick a setting (more grammar or less grammar), then let them go step by step by selecting appropriate sequence and repetition
+    - repeat categories based on exercise results
     - remind them to review after a while
   - then publish apps to learn better
 - crazy edition von jedem Video wo wich-tige Vokabeln bei der ersten Erwähnung nochmal extra gezeigt werden mit Bild und Ton, "make it crazy" damit sie sich daran erinnern (z. B. "Kaffee!" und den Klang einer E-Gitarre)
@@ -3927,26 +4609,6 @@ zweitausendvierzehn.
   - schwer: die passendste Formulierung oh-ne Rücksicht auf Wortschatz
 - wenn Audio durch Video ersetzt wird -> Audio mit alten Einheiten in ein Archiv (extra Lektion), dass sie auch bekommen
 - some lessons are for Hörverständnis -> hide text at first and let them know not to read until they've done the next exercise
-
-
-ALL DIE NAMEN
-- die Browns
-  - Emma
-  - Thomas:
-  - Oliver
-    - Geburtstag: 12. September (current year - 7)
-  - Max
-  - Marie
-- die Schmidts
-  - Jochen
-  - Anna: 5. Februar 1979
-  - Lukas: 9: 23. August 2010
-  - Emilia 6: 6. Mai 2013
-  - Michael 6: 6. Mai 2013
-  - Hund: Hasso
-
-
-
 
 
 

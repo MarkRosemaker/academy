@@ -2,24 +2,24 @@
 
 - [x] sich begrüßen Kursbuch Lektion 1
 - [x] sich und andere vorstellen: formell/informell Kursbuch Lektion 1
-- [ ] Zahlen von 1 bis 1 Milliarde verstehen und sprechen Kursbuch Lektion 1
-- [ ] Telefonnummern verstehen und sprechen Kursbuch Lektion 1
-- [ ] Namen buchstabieren und notieren Kursbuch Lektion 1
-- [ ] Personalbogen ausfüllen Kursbuch Lektion 1
-- [ ] sagen, woher man kommt: Adresse, Land, Kontinent Kursbuch Lektion 1
-- [ ] über Tortendiagramm sprechen Kursbuch Lektion 1
-- [ ] Kurssprache verstehen Kursbuch Lektion 1
-- [ ] regelmäßige Verben im Präsens Grammatik Lektion 1
-- [ ] "sein" im Präsens Grammatik Lektion 1
-- [ ] Personalpronomen im Nominativ Grammatik Lektion 1
-- [ ] Wortstellung: Aussagesatz, W-Frage mit Wie?, Wo?, Woher?, Ja/Nein-Frage Grammatik Lektion 1
-- [ ] sich in DACH begrüßen und verabschieden Übungsbuchteil Lektion 1
-- [ ] Länder und Kontinente Übungsbuchteil Lektion 1
-- [ ] Sprachen und Nationalitäten Übungsbuchteil Lektion 1
-- [ ] Zahlen von 1 bis 1 Milliarde Übungsbuchteil Lektion 1
-- [ ] Namen buchstabieren Übungsbuchteil Lektion 1
-- [ ] Steckbriefe von Kursteilnehmern herstellen und erraten Projekt 1
-- [ ] Satzmelodie in kurzen Aussagesätzen und Fragen Phonetik 1
+- [x] Zahlen von 1 bis 1 Milliarde verstehen und sprechen Kursbuch Lektion 1
+- [x] Zahlen von 1 bis 1 Milliarde Übungsbuchteil Lektion 1
+- [x] Telefonnummern verstehen und sprechen Kursbuch Lektion 1
+- [x] Namen buchstabieren und notieren Kursbuch Lektion 1
+- [x] Namen buchstabieren Übungsbuchteil Lektion 1
+- [x] Personalbogen ausfüllen Kursbuch Lektion 1
+- [x] sagen, woher man kommt: Adresse, Land, Kontinent Kursbuch Lektion 1
+- [x] über Tortendiagramm sprechen Kursbuch Lektion 1
+- [x] Kurssprache verstehen Kursbuch Lektion 1
+- [x] regelmäßige Verben im Präsens Grammatik Lektion 1
+- [x] "sein" im Präsens Grammatik Lektion 1
+- [x] Personalpronomen im Nominativ Grammatik Lektion 1
+- [x] Wortstellung: Aussagesatz, W-Frage mit Wie?, Wo?, Woher?, Ja/Nein-Frage Grammatik Lektion 1
+- [x] sich in DACH begrüßen und verabschieden Übungsbuchteil Lektion 1
+- [x] Länder und Kontinente Übungsbuchteil Lektion 1
+- [x] Sprachen und Nationalitäten Übungsbuchteil Lektion 1
+- [x] Steckbriefe von Kursteilnehmern herstellen und erraten Projekt 1
+- [x] Satzmelodie in kurzen Aussagesätzen und Fragen Phonetik 1
 
 ## Lektion 2
 
@@ -35,7 +35,7 @@
 - [ ] Worstellung: Aussagesatz Grammatik Lektion 2
 - [ ] bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ Grammatik Lektion 2
 - [ ] Personalpronomen im Akkusativ Grammatik Lektion 2
-- [ ] W-Fragen mit Wer?, Was?, Wen?, Wann? Grammatik Lektion 2
+- [x] W-Fragen mit Wer?, Was?, Wen?, Wann? Grammatik Lektion 2
 - [ ] Genitiv-s bei Personennamen Grammatik Lektion 2
 - [ ] Wochentage und Tageszeiten Übungsbuchteil Lektion 2
 - [ ] Uhrzeiten: offizielle und inoffiziell Übungsbuchteil Lektion 2
@@ -62,7 +62,7 @@
 - [ ] Worstellung in Sätzen mit Modalverben Grammatik Lektion 3
 - [ ] Konnektor: "und" Grammatik Lektion 3
 - [ ] "noch" =/= "kein ... mehr" Grammatik Lektion 3
-- [ ] W-Fragen mit Wie viel?, Wie viele? Grammatik Lektion 3
+- [x] W-Fragen mit Wie viel?, Wie viele? Grammatik Lektion 3
 - [ ] Possesivartikel im Nominativ Grammatik Lektion 3
 - [ ] Wortschatz zum Thema "Haushalt" Übungsbuchteil Lektion 3
 - [ ] Lebensmittel und Getränke Übungsbuchteil Lektion 3
@@ -87,7 +87,7 @@
 - [ ] Verben mit Vokalwechsel im Präsens Grammatik Lektion 4
 - [ ] Modalverben im Präsens: "dürfen", "wollen", "mögen" Grammatik Lektion 4
 - [ ] "haben", "sein" im Präteritum Grammatik Lektion 4
-- [ ] regelmäßige Verben im Perfekt Grammatik Lektion 4
+- [x] regelmäßige Verben im Perfekt Grammatik Lektion 4
 - [ ] Konnektoren "denn", "oder", "aber" Grammatik Lektion 4
 - [ ] Wortschatz zum Thema "Sport/Freizeit" Übungsbuchteil Lektion 4
 - [ ] Vorlieben und Abneigungen ausdrücken Übungsbuchteil Lektion 4
