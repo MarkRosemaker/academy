@@ -2549,64 +2549,64 @@ falls du die Prüfung erfolgreich bestehen möchtest, dann mache die Übungen, w
 
 ## Lektion 1
 
-- regelmäßige Verben im Präsens
-- "sein" im Präsens
-- Personalpronomen im Nominativ
-- Wortstellung: Aussagesatz, W-Frage mit Wie?, Wo?, Woher?, Ja/Nein-Frage
+- regelmäßige Verben im Präsens Grammatik Lektion 1
+- "sein" im Präsens Grammatik Lektion 1
+- Personalpronomen im Nominativ Grammatik Lektion 1
+- Wortstellung: Aussagesatz, W-Frage mit Wie?, Wo?, Woher?, Ja/Nein-Frage Grammatik Lektion 1
 
 ## Lektion 2
 
-- Verneinung: "nicht" und "kein"
-- Worstellung: Aussagesatz
-- bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ
-- Personalpronomen im Akkusativ
-- W-Fragen mit Wer?, Was?, Wen?, Wann?
-- Genitiv-s bei Personennamen
+- Verneinung: "nicht" und "kein" Grammatik Lektion 2
+- Worstellung: Aussagesatz Grammatik Lektion 2
+- bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ Grammatik Lektion 2
+- Personalpronomen im Akkusativ Grammatik Lektion 2
+- W-Fragen mit Wer?, Was?, Wen?, Wann? Grammatik Lektion 2
+- Genitiv-s bei Personennamen Grammatik Lektion 2
 
 ## Lektion 3
 
-- Modalverben im Präsens: "können", "müssen", möcht-"
-- Worstellung in Sätzen mit Modalverben
-- Konnektor: "und"
-- "noch" =/= "kein ... mehr"
-- W-Fragen mit Wie viel?, Wie viele?
-- Possesivartikel im Nominativ
+- Modalverben im Präsens: "können", "müssen", möcht-" Grammatik Lektion 3
+- Worstellung in Sätzen mit Modalverben Grammatik Lektion 3
+- Konnektor: "und" Grammatik Lektion 3
+- "noch" =/= "kein ... mehr" Grammatik Lektion 3
+- W-Fragen mit Wie viel?, Wie viele? Grammatik Lektion 3
+- Possesivartikel im Nominativ Grammatik Lektion 3
 
 ## Lektion 4
 
-- Verben mit Vokalwechsel im Präsens
-- Modalverben im Präsens: "dürfen", "wollen", "mögen"
-- "haben", "sein" im Präteritum
-- regelmäßige Verben im Perfekt
-- Konnektoren "denn", "oder", "aber"
+- Verben mit Vokalwechsel im Präsens Grammatik Lektion 4
+- Modalverben im Präsens: "dürfen", "wollen", "mögen" Grammatik Lektion 4
+- "haben", "sein" im Präteritum Grammatik Lektion 4
+- regelmäßige Verben im Perfekt Grammatik Lektion 4
+- Konnektoren "denn", "oder", "aber" Grammatik Lektion 4
 
 ## Lektion 5
 
-- Verben mit trennbaren Vorsilben im Präsens und Perfekt
-- Verben mit trennbaren Vorsilben und Modalverben im Präsens
-- Verben mit untrennbaren Vorsilben im Perfekt
-- unregelmäßige und gemischte Verben im Perfekt
+- Verben mit trennbaren Vorsilben im Präsens und Perfekt Grammatik Lektion 5
+- Verben mit trennbaren Vorsilben und Modalverben im Präsens Grammatik Lektion 5
+- Verben mit untrennbaren Vorsilben im Perfekt Grammatik Lektion 5
+- unregelmäßige und gemischte Verben im Perfekt Grammatik Lektion 5
 
 ## Lektion 6
 
-- formelle Imperativsätze mit "Sie"
-- informelle Imperativsätze
-- Vorschläge mit "wir"
-- Voschläge mit "Sollen/Wollen wir ...?", "Soll ich ...?
-- Modalpartikeln: "doch", "mal", "doch mal"
+- formelle Imperativsätze mit "Sie" Grammatik Lektion 6
+- informelle Imperativsätze Grammatik Lektion 6
+- Vorschläge mit "wir" Grammatik Lektion 6
+- Voschläge mit "Sollen/Wollen wir ...?", "Soll ich ...? Grammatik Lektion 6
+- Modalpartikeln: "doch", "mal", "doch mal" Grammatik Lektion 6
 
 ## Lektion 7
 
-- Ortsangaben mit Akkusativ und Dativ
-- Indefinitpronomen: "etwas", "nichts", "all", "man"
-- Verwendung von Präsens für Zukünftiges
+- Ortsangaben mit Akkusativ und Dativ Grammatik Lektion 7
+- Indefinitpronomen: "etwas", "nichts", "all", "man" Grammatik Lektion 7
+- Verwendung von Präsens für Zukünftiges Grammatik Lektion 7
 
 ## Lektion 8
 
-- Nomen aus Adjektiven nach "etwas" und "nichts"
-- Nomen aus dem Infinitiv von Verben
-- zusammengesetzte Nomen und ihre Artikel
-- Adjektive im Nominativ und Akkusativ nach unbestimmtem Artikel, Negativpartikel und Possessivartikel
+- Nomen aus Adjektiven nach "etwas" und "nichts" Grammatik Lektion 8
+- Nomen aus dem Infinitiv von Verben Grammatik Lektion 8
+- zusammengesetzte Nomen und ihre Artikel Grammatik Lektion 8
+- Adjektive im Nominativ und Akkusativ nach unbestimmtem Artikel, Negativpartikel und Possessivartikel Grammatik Lektion 8
 
 # Übungsbuchteil
 
