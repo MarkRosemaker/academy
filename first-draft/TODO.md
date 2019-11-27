@@ -23,34 +23,34 @@
 
 ## Lektion 2
 
-- [ ] Uhrzeigen verstehen und sagen: formell/informell Kursbuch Lektion 2
-- [ ] Tageszeiten verstehen und sagen Kursbuch Lektion 2
-- [ ] über Termine sprechen Kursbuch Lektion 2
-- [ ] Kulturangebote verstehen Kursbuch Lektion 2
-- [ ] Verabredungen verstehen Kursbuch Lektion 2
-- [ ] über Musikstile sprechen Kursbuch Lektion 2
-- [ ] Monate, Datum, Jahreszeiten und Jahreszahlen verstehen und nennen Kursbuch Lektion 2
-- [ ] eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
-- [ ] Verneinung: "nicht" und "kein" Grammatik Lektion 2
-- [ ] Worstellung: Aussagesatz Grammatik Lektion 2
-- [ ] bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ Grammatik Lektion 2
-- [ ] Personalpronomen im Akkusativ Grammatik Lektion 2
+- [x] Uhrzeigen verstehen und sagen: formell/informell Kursbuch Lektion 2
+- [x] Tageszeiten verstehen und sagen Kursbuch Lektion 2
+- [x] über Termine sprechen Kursbuch Lektion 2
+- [x] Kulturangebote verstehen Kursbuch Lektion 2
+- [x] Verabredungen verstehen Kursbuch Lektion 2
+- [x] über Musikstile sprechen Kursbuch Lektion 2
+- [x] Monate, Datum, Jahreszeiten und Jahreszahlen verstehen und nennen Kursbuch Lektion 2
+- [x] eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
+- [x] Verneinung: "nicht" und "kein" Grammatik Lektion 2
+- [x] Worstellung: Aussagesatz Grammatik Lektion 2
+- [x] bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ Grammatik Lektion 2
+- [x] Personalpronomen im Akkusativ Grammatik Lektion 2
 - [x] W-Fragen mit Wer?, Was?, Wen?, Wann? Grammatik Lektion 2
-- [ ] Genitiv-s bei Personennamen Grammatik Lektion 2
-- [ ] Wochentage und Tageszeiten Übungsbuchteil Lektion 2
-- [ ] Uhrzeiten: offizielle und inoffiziell Übungsbuchteil Lektion 2
-- [ ] Fragen zu Terminen stellen und beantworten Übungsbuchteil Lektion 2
-- [ ] mithilfe von W-Fragen Texte erschließen Übungsbuchteil Lektion 2
-- [ ] Ordinalzahlen (Datum) und Jahreszahlen Übungsbuchteil Lektion 2
-- [ ] Jahreszahlen und Monatsnamen Übungsbuchteil Lektion 2
-- [ ] "schon" und "erst" Übungsbuchteil Lektion 2
-- [ ] Termine für Kursaktivität organisieren Projekt 2
-- [ ] Rhythmus in Wort und Satz Phonetik 2
+- [x] Genitiv-s bei Personennamen Grammatik Lektion 2
+- [x] Wochentage und Tageszeiten Übungsbuchteil Lektion 2
+- [x] Uhrzeiten: offizielle und inoffiziell Übungsbuchteil Lektion 2
+- [x] Fragen zu Terminen stellen und beantworten Übungsbuchteil Lektion 2
+- [x] mithilfe von W-Fragen Texte erschließen Übungsbuchteil Lektion 2
+- [x] Ordinalzahlen (Datum) und Jahreszahlen Übungsbuchteil Lektion 2
+- [x] Jahreszahlen und Monatsnamen Übungsbuchteil Lektion 2
+- [x] "schon" und "erst" Übungsbuchteil Lektion 2
+- [x] Termine für Kursaktivität organisieren Projekt 2
+- [x] Rhythmus in Wort und Satz Phonetik 2
 
 ## Lektion 3
 
 - [ ] Aufgaben im Haushalt verstehen Kursbuch Lektion 3
-- [ ] sich austauschen, was man kann, muss und möchte Kursbuch Lektion 3
+- [x] sich austauschen, was man kann, muss und möchte Kursbuch Lektion 3
 - [ ] Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungen verstehen Kursbuch Lektion 3
 - [ ] Preise verstehen und sagen Kursbuch Lektion 3
 - [ ] Einkaufszettel schreiben Kursbuch Lektion 3
@@ -147,7 +147,7 @@
 ## Lektion 7
 
 - [ ] Informationen über Sehenswürdigkeiten verstehen Kursbuch Lektion 7
-- [ ] Wegbeschreibungen verstehen und machen Kursbuch Lektion 7
+- [x] Wegbeschreibungen verstehen und machen Kursbuch Lektion 7
 - [ ] mündliche Wegbeschreibungen notieren Kursbuch Lektion 7
 - [ ] Anweisungen an einem Fahrkartenautomaten verstehen Kursbuch Lektion 7
 - [ ] E-Mail über Erlebnisse in Bern verstehen und darauf antworten Kursbuch Lektion 7
@@ -163,7 +163,7 @@
 - [ ] als Eingeladener/Eingeladene passend reagieren Übungsbuchteil Lektion 7
 - [ ] über Balkendiagramm sprechen Übungsbuchteil Lektion 7
 - [ ] Stimmungen ausdrücken Übungsbuchteil Lektion 7
-- [ ] Farben Jahreszeiten zuordnen Übungsbuchteil Lektion 7
+- [x] Farben Jahreszeiten zuordnen Übungsbuchteil Lektion 7
 - [ ] Meinungen zu Bildern äußern Übungsbuchteil Lektion 7
 - [ ] einen Rundgang zu den Sehenswürdigkeiten in einer Stadt planen und vorstellen Projekt 7
 - [ ] R-Laute Phonetik 7
@@ -176,7 +176,7 @@
 - [ ] Speisekarte verstehen Kursbuch Lektion 8
 - [ ] über Vorlieben beim Essen und Trinken sprechen Kursbuch Lektion 8
 - [ ] Gespräch im Restaurant spielen Kursbuch Lektion 8
-- [ ] Zusagen, Absagen verstehen Kursbuch Lektion 8
+- [x] Zusagen, Absagen verstehen Kursbuch Lektion 8
 - [ ] andere um etwas bitten und auf Bitten reagieren Kursbuch Lektion 8
 - [ ] persönliche Angaben notieren und darüber sprechen Kursbuch Lektion 8
 - [ ] Nomen aus Adjektiven nach "etwas" und "nichts" Grammatik Lektion 8

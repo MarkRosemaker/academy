@@ -4,6 +4,8 @@
     "name": "AGL Academy"
   }],
   "settings": {
+    "workbench.colorTheme": "Visual Studio Light", // better highlighting for writing
+    "breadcrumbs.symbolSortOrder": "position",
     "highlight.maxMatches": 1,
     "highlight.regexes": {
       "(\\bwoher\\b)": [{

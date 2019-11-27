@@ -147,3 +147,6 @@ Vielen Dank dafür, dass du diesen Kurs belegst!
 Hier ist eine Aufgabe für dich:
 
 {{< /notice >}}
+
+{{<quiz "fill in">}}
+{{</quiz>}}
