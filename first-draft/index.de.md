@@ -98,6 +98,7 @@ Habe Spaß am Lernen und erfreue dich an der Schönheit der deutschen Sprache.
 ## Die Reihenfolge ist deine Entscheidung!
 
 TODO musst nicht der Reihenfolge folgen! Optionen:
+
 - meine Empfehlung:
   - zuerst nur die Immersionsübungen
   - dann beim zweiten Mal der Reihenfolge folgen
@@ -135,7 +136,6 @@ Du kannst auch die Geschwindigkeit ändern, mit der die Hördateien und Videos a
 {{< /rem >}}
 
 {{< /notice >}}
-
 
 Es gibt in diesem Kurs drei Arten von Lektionen, die ich dir vermitteln möchte:
 
@@ -276,7 +276,6 @@ In dieser Lektion hast du gelernt, wie man sich begrüßt und wie man sich vorst
 
 {{< /notice >}}
 
-
 ## Wer ist Emma, Jochen, und Herr Schulz? #immersion
 
 In diesem Kurs triffst du viele Personen. Lass sie uns drei Personen kennenlernen! Ich stelle sie dir vor.
@@ -368,8 +367,6 @@ In dieser Lektion hast du gelernt, wie man andere vorstellt.
 
 ## Stelle dich vor! #quiz
 
-
-
 {{< notice type="Erfolg" >}}
 
 In diesem Quiz hast du gelernt, wie du dich und andere vorstellst.
@@ -381,6 +378,7 @@ In diesem Quiz hast du gelernt, wie du dich und andere vorstellst.
 ## Formell oder informell? #quiz
 
 TODO Entscheide, welche Situationen formell, welche informell sind (slideshow) und ordne die Sätze zu
+
 - Bilder mit Kindern
 - in der Bank
 - Geschäftsmann
@@ -482,8 +480,6 @@ Beispiel: "Ich sehe dich." *Ich* tute etwas aktiv, *du* nicht. (Deshalb sage ich
 {{< /notice >}}
 
 - [x] Personalpronomen im Nominativ Grammatik Lektion 1
-
-
 
 ## Immersion im Alltag: Notizzettel in deiner Wohnung #meta
 
@@ -657,7 +653,7 @@ Der Apfel ist grün. 🍏
 
 Es ist mein Apfel.
 
-Ich gebe Susie einen roten Apfel. Ich gebe ihr ihn.  🍎
+Ich gebe Susie einen roten Apfel. Ich gebe ihr ihn. 🍎
 
 Susie gibt Paul den Apfel. Sie gibt ihm ihn.
 
@@ -741,7 +737,6 @@ Bravo! In dieser Lektion hast du grundlegende Grammatik gelernt, indem du Muster
 
 Du hast jetzt übrigens schon **mehr als ein Zehntel** aller Vokabeln gelernt, die du für die A1-Prüfung brauchst! TODO update
 {{< /notice >}}
-
 
 ## Reise mit mir! #ressource #video
 
@@ -914,7 +909,6 @@ Solltest du Probleme beim Einrichten einer deutschen Tastatur haben, dann schrei
 
 ## Deine ersten Deutsch-Vokabeln! #quiz
 
-
 TODO audio, similar to H5P 452906
 
 ## Explizite Grammatik auf einen Blick: das Verb *sein* - ich bin, du bist, ... #meta
@@ -1071,9 +1065,9 @@ The traditional idea: know them “all” and you know the language. It seems lo
 
 you can’t ever truly “learn” a language, you get used to it. It’s not a thing that you know or don’t know; it’s a means of communication between human beings.
 
- communication rather than on perfection. -> communication can also be one sided
+communication rather than on perfection. -> communication can also be one sided
 
- Don’t worry about upsetting native speakers for being so “bold” as to speak to them in their own language.
+Don’t worry about upsetting native speakers for being so “bold” as to speak to them in their own language.
 
 One of the best things you can do in the initial stages is not to try to get everything perfect, but to embrace making mistakes. I go out of my way to make at least 200 mistakes a day! This way I know I am truly using and practicing the language.
 
@@ -1265,7 +1259,6 @@ Selber sprechen gibt dir (laut dem Sprachwissenschaftler Prof. Krashen) keine zu
 Aber, falls du doch einmal sprechen möchtest, hast du mit den Modalverben ein nützliches Muster.
 {{< /notice >}}
 
-
 ## Die Aussprache des Alphabets #meta
 
 So spricht man das Alphabet aus: A – B – C – D – E – F – G – H – I – J – K – L – M – N – O – P – Q – R – S – T – U – V – W – X – Y – Z.
@@ -1352,6 +1345,7 @@ http://www.mimicmethod.com/
 ## Satzmelodie in deutschen Sätzen
 
 TODO
+
 - Aussagesatz am Ende nach unten
 - W-Frage am Ende nach unten
 - Ja/Nein-Frage am Ende nach oben
@@ -1463,7 +1457,6 @@ Auf dem Tisch liegt ein Buch.
 
 Der Schrank ist zwei Meter breit.
 
-
 Wo ist die Toilette? Ah, sie ist hier.
 
 Das ist das Bad.
@@ -1563,6 +1556,7 @@ TODO audio, similar to H5P 452975
 ## Deutschlernen mit Musik: das Lied \"Du hast\" von Rammstein
 
 TODO Erklärung:
+
 - hast/hasst
 - Eheschwur: “Wollen Sie einander lieben und achten und die Treue halten bis dass der Tod euch scheidet?”
 - siehe: https://genius.com/Rammstein-du-hast-lyrics
@@ -1576,14 +1570,7 @@ Schaue dir dieses Video an:
 TODO "Du hast" von Rammstein
 {{< h5p >}}
 
-{{< notice type="Musik" title="Andere deutsche Lieder" >}}
-Höre auch andere deutsche Lieder, um einfach und mit Spaß Deutsch zu lernen.
 
-[Hier ist eine Wiedergabeliste](https://www.youtube.com/playlist?list=PLEByPi2gBp1SThXGFx_9h57mB7YjagALp) mit den beliebtesten deutschen Liedern.
-
-{{< /notice >}}
-
-TODO Bessere Wiedergabelisten erstellen, auch eine für Spotify.
 
 Du, du hast, du hast mich
 Du, du hast, du hast mich
@@ -1606,10 +1593,94 @@ Sie lieben auch in schlechten Tagen?
 Du, du hast, du hast mich
 Du, du hast, du hast mich
 
-## Deutschlernen mit Musik: nicht nur Rammstein!
+## Deutschlernen mit Musik: nicht nur Rammstein! #meta
 
+{{<quiz "multiple choice">}}
+Wie findest du Rammstein?
 
-- [ ] über Musikstile sprechen Kursbuch Lektion 2
+- [x] total schlecht
+- [x] blöd
+- [x] nicht besonders
+- [x] gut
+- [x] einfach toll/super
+{{</quiz>}}
+
+Egal, was deine Antwort war: Es gibt auch andere deutsche Musik.
+
+{{< notice type="Musik" title="deutsche Lieder" >}}
+Höre auch andere deutsche Lieder, um einfach und mit Spaß Deutsch zu lernen.
+
+[Hier ist eine Wiedergabeliste](https://www.youtube.com/playlist?list=PLEByPi2gBp1SThXGFx_9h57mB7YjagALp) mit deutschen Liedern.
+
+Es sind Lieder, die mir Deutschlerner empfohlen haben. Vielleicht gefallen dir aber andere Lieder besser.
+
+TODO Bessere Wiedergabelisten erstellen, auch eine für Spotify.
+{{< /notice >}}
+
+Es gibt viele verschiedene Arten von Musik:
+
+- Klassik
+- Pop
+- Rock
+- Schlager
+- Jazz
+- Reggea
+- Rap
+- A cappella
+
+Deutschland hat viele populäre Musiker.
+
+*Händel* und *Bach* sind berühmte deutsche Musiker der Klassik.
+
+{{<youtube "joVkx20oVIg">}}
+
+{{<youtube "6JQm5aSjX6g">}}
+
+*Hans Zimmer* ist ein Deutscher, der sehr für seine Filmmusik bekannt ist. Man kann sagen, dass seine Musik auch klassische Musik ist.
+
+{{<youtube "apUConPW_K0">}}
+
+Die Band mit dem Namen *Die Ärzte* machen Rock-Musik.
+
+{{<youtube "kRrP-bZvD2s">}}
+
+*Helene Fischer* ist eine Schlagersängerin.
+
+Schlager ist Popmusik mit einfachen Texten. Schlager sind ein typisch deutsches Phänomen.
+
+{{<youtube "7ZkejDqTuSM">}}
+
+*Lena Meyer-Landrut* macht Popmusik und gewann mit dem Lied *Satellite* 2010 den Eurovision Song Contest.
+
+{{<youtube "7pL9vdpSvnY">}}
+
+Eine berühmte A-cappella-Band sind *Die Prinzen*.
+
+In diesem Video machen sie lustige Sachen:
+
+{{<youtube "yMR45cZbvDw">}}
+
+*Seeed* ist bekannt für ihre Reggae- und Dancehall-Musik.
+
+In diesem Lied singen sie über Berlin, meine Lieblingsstadt:
+
+{{<youtube "GYK-NfOo7b4">}}
+
+Es gibt auch deutsche Rapper.
+
+Manche Rapper wie *Sido* machen sehr aggressive Musik.
+
+{{<youtube "0UKtOhLVeyA">}}
+
+Andere Rapper wie *CRO* machen freundlichere Musik.
+
+{{<youtube "8WQMBv2deYQ">}}
+
+Welche Art von Musik gefällt dir? Welche Lieder gefallen dir sehr?
+
+## Über Musikstile sprechen #coaching
+
+- [x] über Musikstile sprechen Kursbuch Lektion 2
 
 # Das Leben in Deutschland
 
@@ -1649,7 +1720,6 @@ TODO Berufe verstehen alt Lektion 3
 
 ## Berufe in Deutschland #quiz
 
-
 TODO Tortendiagramm Ärzte
 
 - **Ärzte**: 392.400
@@ -1663,15 +1733,11 @@ TODO Tortendiagramm Beamte
   - **Polizisten**: 243.625
   - **Richter**
 
-
-
-
 - [x] über Tortendiagramm sprechen Kursbuch Lektion 1
-
 
 Spreche die folgenden Zahlen:
 
--  Im Jahr 2018 gab es 38.931 Menschen, die Verkäufer studiert haben.
+- Im Jahr 2018 gab es 38.931 Menschen, die Verkäufer studiert haben.
 - Es gab 35.000 Bäckereien im Jahr 2017.
 
 - Es gibt eine halbe Million Sekretäre und Sekretärinne in Deutschland. Wie viele tausend Sekretäre und Sekretärinne sind das? -> 500.000
@@ -1887,8 +1953,6 @@ TODO
 
 ## Deutschland: Statistik #quiz
 
-
-
 TODO 2019-06-26-bundeshaushalt-grafik.png
 
 - [ ] über Tortendiagramm mit Prozentzahlen sprechen Kursbuch Lektion 3
@@ -1905,8 +1969,6 @@ https://de.statista.com/statistik/daten/studie/290890/umfrage/altersverteilung-v
 
 TODO Gruezi: sich in DACH begrüßen und verabschieden alt Lektion 1 Übungsbuch
 
-
-
 ## Die Schweiz: Kultur
 
 TODO über kulturelle Besonderheiten bei Einladungen sprechen alt Lektion 7
@@ -1922,7 +1984,6 @@ Pennsylvania
 ## Welches Land ist das? #quiz
 
 TODOLATER prüfen, ob sie die Namen gelernt haben: ich zeige die outline und sie müssen sagen, wie das Land heißt (sie können es gerne nachschauen)
-
 
 # Emmas Reise
 
@@ -1944,7 +2005,7 @@ Wie jeder Mensch hat Emma natürlich eine Mutter und einen Vater.
 
 Emma ist vor sieben Jahren selber Mutter geworden. Das hat sie und ihren Ehemann Thomas sehr glücklich gemacht. Emma ist nämlich die Ehefrau von einem Mann, der Thomas heißt.
 
-Emma  hat zwei Söhne und eine Tochter.
+Emma hat zwei Söhne und eine Tochter.
 
 Ihr ältester Junge ist schon sechs Jahre alt und heißt Oliver. Am 12. (zwölften) September wird er sieben.
 
@@ -1976,7 +2037,6 @@ Alternativ kannst auch ein Familienfoto finden und aufschreiben, wie jede Person
 In der letzten Lektion habe ich gesagt, dass Oliver **schon** sechs Jahre alt und Max **erst** zwei Jahre alt ist.
 
 Was bedeuten "schon" und "erst"?
-
 
 TODO
 
@@ -2152,7 +2212,7 @@ Lektion 1
 up to Billiarden
 addition: play audio files for each word
 
-script #2:  math probl-ems up to Milliarde (with higher difficulty up to Billiarden)
+script #2: math probl-ems up to Milliarde (with higher difficulty up to Billiarden)
 suggestion: practice until you are sure you know it all]
 Lektion 1
 TODO dies ist sehr wichtig, denn sie müssen das wirklich gut drauf haben
@@ -2520,6 +2580,7 @@ Bei der Zeitangabe gibt es regionale Unterschiede: Nicht überall sagt man "drei
 ## Heute und jetzt #meta #ressource
 
 TODO script that shows
+
 - date in number and all formats
   - Uhrzeit in allen Formaten
   - Datum und Jahreszahl: geschrieben und als Zahl
@@ -2560,7 +2621,7 @@ Am Abend grillen sie. Ihr Onkel zündet den Grill an und grillt Schweinefleisch 
 
 Emma ist Vegetarierin. "Gibt es auch etwas ohne Fleisch?"
 
-"Ja, kein Problem", sagt  ist, kommen auch ein paar vegetarische Würste auf den Grill.
+"Ja, kein Problem", sagt ist, kommen auch ein paar vegetarische Würste auf den Grill.
 
 Emmas Onkel hat sogar Fische und ein paar Kartoffeln gegrillt: "Bei einer deutschen Mahlzeit dürfen Kartoffeln nicht fehlen!", sagt er.
 
@@ -2637,6 +2698,8 @@ Winterflyer_2019_web.pdf
 - Wann werden die Eisbären gefüttert?
 - Wann ist die Winter-Robbenshow?
 - Wann ist die Show "Echt lecker!"? Worauf muss man achten?
+- In welcher Straße ist der Zoo?
+- Was ist die Telefonnummer des Zoos?
 
 - [x] Kulturangebote verstehen Kursbuch Lektion 2
 
@@ -2662,14 +2725,46 @@ Schüler erfragen mehr Informationen über den Flyer und den Rest des Textes
 
 - [ ] mithilfe von W-Fragen Texte erschließen Übungsbuchteil Lektion 2
 
-## Was möchtest du machen?
+## Was möchtest du machen? #coaching
 
 TODO
+
 - Was möchtest du machen?
+
   - Ich möchte gerne die Wölfe sehen.
   - Ich möchte gerne die Elefanten besuchen.
 
 - [ ] sich austauschen, was man kann, muss und möchte Kursbuch Lektion 3
+
+## Noch mehr Freizeitangebote! #coaching #quiz
+
+Schaue dir die folgenden Plakate an:
+
+| ![](stadt-events.de-plakat-gesundheitstag-bad-salzdetfurth.jpg) |   ![](stadt-events.de-dog-days-hannover-2020-klein.jpg)   |  ![](stadt-events.de-plakat-gartenfest-klein.jpg)   |
+| :-------------------------------------------------------------: | :-------------------------------------------------------: | :-------------------------------------------------: |
+|   ![](stadt-events.de-plakat-elze-2019-alle-ebenen-klein.jpg)   | ![](stadt-events.de-plakat-ostermarkt-burgdorf-klein.jpg) | ![](stadt-events.de-plakat-weinfest-2020-klein.jpg) |
+
+{{<quiz "true false">}}
+Was ist wahr?
+
+- In Steinhude kann man im Juni Wein trinken. [true]
+- Das Hundefest ist im Winter. [false]
+- Der Gesundheitstag ist im Alexa Hotel. [false]
+- Das Kunstfest ist in einer Schule. [true]
+- Der Ostermarkt fängt um drei Uhr an. [false]
+
+{{</quiz>}}
+
+{{<quiz "fill in">}}
+Schreibe die richtigen Wörter in die Lücken.
+
+- Das Gartenfest fängt am [neunten] Mai um [elf] Uhr an.
+- Im [April] kann man in der Stadt *Burgdorf* etwas für [Ostern|das Osterfest] kaufen.
+- Der Gesundheitstag ist an einem [Sonntag] im [September].
+
+{{</quiz>}}
+
+Was weißt du noch über die Feste?
 
 ## Emma geht mit den Schmidts ins Kino
 
@@ -2751,7 +2846,6 @@ Es ist nun das Ende des Jahres, der einundreißigste Zwölfte, und Jochen möcht
 - Im Oktober feiert die Familie Schmidt Halloween! Halloween ist auch in Europa sehr populär. (In Deutschland wird es immer beliebter, besonders bei jungen Menschen. Jochen und die Kinder möchten gerne das Haus dekorieren. Die Kinder ziehen von Haus zu Haus und fordern mit dem Spruch "Süßes, sonst gibt's Saures" Geschenke.)
 - Im November wird es wahrscheinlich wieder sehr kalt, da es der letzte Herbstmonat ist. Deshalb wird die Familie Schmidt in den Süden fliegen und zwei Wochen lang in Nordafrika verbringen.
 - Im Dezember ist wieder Winter und die Familie Schmidts feiert Weihnachten. Heiligabend ist der Lieblingsfeiertag der Kinder, da sie viele Geschenke kriegen. Am Jahresende wird natürlich auch Sylvester gefeiert.
-
 
 [Quiz: Wann fängt Jochen an, für den Marathon zu trainieren? In wel-chen Monaten macht Jochen viel Sport? In wel-chen Monaten ist Frühling/Sommer/Herbst/Winter?
 Wann ist Jochen im Reis-ebüro? Im letzten Jahr: hat gebucht -> abgeschlossene Vergangenheit
@@ -2839,7 +2933,6 @@ Sie schreibt ihren Namen, ihren Geburtstag und ihre Adresse. Da sie Jochen gehei
 Menschen, deren Ehefrau oder Ehemann tot sind, kreuzen "verwitwet" an.
 
 ## Melde dich an!
-
 
 [quiz: sign up for various things -> formal, informal
 
@@ -2981,7 +3074,6 @@ Und so geht es weiter im Mathematik unterricht:
 
 ## Mathe-Quizze #quiz TODO skip for now
 
-
 ## Im Musikunterricht
 
 Nach einer kleinen Pause geht Lukas Musikunterricht. Das Thema ist "berühmte deutsche Musiker."
@@ -3074,16 +3166,17 @@ Wie du siehst, gibt es klare Muster. Die Deutschen selbst sind eine Ausnahme.
 
 [Woher kommst du? Was ist die Währung in deinem Land?
 
-Siehe [Lukas' Computer-Kurs ist international](#lukas-computer-kurs-ist-international-immersion) und  [Eine Weltreise](#eine-weltreise-immersion).
+Siehe [Lukas' Computer-Kurs ist international](#lukas-computer-kurs-ist-international-immersion) und [Eine Weltreise](#eine-weltreise-immersion).
 
 first version: Poll which country via Google Forms, including option to write-in
 
 second version: write in each answer, check if it makes sense
- - Addresse
- - Land
- - Kontinent
- - Sprache
- - Nationalität
+
+- Addresse
+- Land
+- Kontinent
+- Sprache
+- Nationalität
 
 use code from number sayer to say the numbers in Addresse]
 
@@ -3177,16 +3270,32 @@ Das bedeutet, dass sie in einen neuen Zug steigen möchten, der nach Bergen fäh
 
 Pünktlich um ein Uhr drei (13:03 Uhr) kommen die Schmidts auf Rügen an. Am Nachmittag sind sie im Hotel.
 
-[An-sage, Durch-sage rough Synonyms, An-sage  more direkt and less formal, Durch-sage announcement of something to people in general - don't sweat these small distinctions]
+[An-sage, Durch-sage rough Synonyms, An-sage more direkt and less formal, Durch-sage announcement of something to people in general - don't sweat these small distinctions]
 
 ## Zu welcher Tageszeit ist das? #quiz
 
 {{<quiz "drag drop">}}
+
 - Wann stehen die Schmidts auf? Die Schmidts stehen [am Morgen|früh am Morgen|am frühen Morgen] auf.
 - Wann schauen die Kinder einen Film? Die Kinder schauen [am Vormittag] einen Film.
 - Wann kommen die Schmidts in Stralsund an? Sie sind [am Mittag] im Bahnhof von Stralsund.
 - Wann sind die Schmidts im Hotel? Die Familie ist [am Nachmittag] im Hotel.
-{{</quiz>}}
+  {{</quiz>}}
+
+- [x] Tageszeiten verstehen und sagen Kursbuch Lektion 2
+
+## Die Tageszeit in Bildern #quiz
+
+Ordne die Tageszeiten den Bildern zu.
+
+TODO Bilder und drag and drop
+
+- 5:00 - 9:00 Uhr [morgens/am Morgen]
+- 9:00 - 11:30 Uhr [vormittags/am Vormittag]
+- 11:30 - 14:00 Uhr [mittags]
+- 14:00 - 17:30 Uhr [nachmittags/am Nachmittag]
+- 17:30 - 22:00 Uhr [abends/am Abend]
+- 22:00 - 5:00 Uhr [nachts/in der Nacht]
 
 - [x] Tageszeiten verstehen und sagen Kursbuch Lektion 2
 
@@ -3235,8 +3344,6 @@ TODO include each letter at least once -> very important to practice this thorou
 ## Jochen hört Podcasts über Rügen
 
 Im Zug auf den Weg nach Rügen hat Jochen sich schon einmal über Bergen auf Rügen informiert. Dabei hörte er einen interessanten Beitrag über ein Restaurant in einem Podcast, also im Internet-Radio.
-
-
 
 TODO Restaurant-Informationen im Radio verstehen alt Lektion 8
 
@@ -3295,7 +3402,7 @@ Die Schmidts sitzen am Tisch und lesen die Speisekarte:
 
 [Quiz: mache eine Best-ellung!
 
-Speisek-arte inspiriert von: https://www.omas-kueche-binz.de/das-restaurant/speis  ekarte/
+Speisek-arte inspiriert von: https://www.omas-kueche-binz.de/das-restaurant/speis ekarte/
 und ausgewählt nach den wichtigsten Vokabeln und relevantesten Eigenschaften der deutschen Kultur - weitere Informationen später/woanders]
 
 {{< notice "Aufgabe" "Zu welcher Tageszeit ist das?" >}}
@@ -3361,7 +3468,7 @@ Basically, you tell yourself a funny, silly, or otherwise memorable story to ass
 
 that's why I put little jokes in, like the children being confused about stuff
 
-Eselsbrücken mit berühmten Personen: Thomas Mann, Hans Zimmer, Albert Einstein,  Helmut Kohl, Bastian Schweinsteiger, Henry Maske
+Eselsbrücken mit berühmten Personen: Thomas Mann, Hans Zimmer, Albert Einstein, Helmut Kohl, Bastian Schweinsteiger, Henry Maske
 
 ## Gute Nacht!
 
@@ -3421,7 +3528,6 @@ Bringe die Tageszeiten in die richtige Reihenfolge.
 
 {{</quiz>}}
 
-
 {{<quiz "label images">}}
 Zu welcher Tageszeit wurde das Bild aufgenommen?
 
@@ -3436,7 +3542,7 @@ Zu welcher Tageszeit wurde das Bild aufgenommen?
 
 - [x] Wochentage und Tageszeiten Übungsbuchteil Lektion 2
 
-##  Die vielen schönen Farben auf Rügen
+## Die vielen schönen Farben auf Rügen
 
 Die Schmidts haben sehr viel Spaß auf ihrer Reise.
 
@@ -3472,8 +3578,6 @@ https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich%27s_Chalk_Cliffs_
 Auf Rügen gibt es auch viele Tiere. Die kleine Emilia hat sich in diese braune Kuh verliebt und gibt ihr etwas Gras zu essen.
 
 https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
-
-
 
 ## Die Schmidts schreiben eine Postkarte
 
@@ -3577,7 +3681,7 @@ Er schaut auf seine Uhr. Die Uhr und seine Kleidung ist sehr teuer.
 
 Jetzt können die Schmidts sich anmelden. "Guten Tag," sagt Jochen. "Mein Name ist Schmidt. Wir haben zwei Nächte hier gebucht."
 
-"Guten Tag! Einen Moment bitte. Ich suche sie im Computer. Ah, ich habe sie gefunden. Sie übernachten im Zimmer mit der Nummer siebenundsechzig (67).  Hier ist ihr Schlüssel." "Danke. Auf Wiedersehen!" "Auf Wiedersehen."
+"Guten Tag! Einen Moment bitte. Ich suche sie im Computer. Ah, ich habe sie gefunden. Sie übernachten im Zimmer mit der Nummer siebenundsechzig (67). Hier ist ihr Schlüssel." "Danke. Auf Wiedersehen!" "Auf Wiedersehen."
 
 ## Berliner Sehenswürdigkeiten
 
@@ -3588,6 +3692,8 @@ TODO weitere Städte (skip for now)
 ## Eine E-Mail von Emma #quiz
 
 TODO bedankt sich für die Postkarte, erzählt eigene Erlebnisse in Bayern
+
+
 
 - [ ] eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
 
@@ -3605,7 +3711,6 @@ TODO E-Mail über Erlebnisse verstehen und darauf antworten alt Lektion 7 -> auc
 
 TODO Bildbeschreibung passendem Bild zuordnen und sagen, wie einem die Bilder gefallen
 -> Der Urlaub der Schmidts ist vorbei. Hilf ihnen, ihre Bilder zu sortieren. Wie gefallen dir die Bilder?
-
 
 # Wie geht es dir?
 
@@ -3871,19 +3976,17 @@ Sophia geht zurück zur Arbeit.
 
 Gegen sechs Uhr (6 Uhr) abends ist Schluss. Es ist Feierabend und Sophia geht nach Hause.
 
-## Der Banküberfall
+## Der Banküberfall (skip for now)
 
 TODO Ereignisse im Waschsalon nachverfolgen und in E-Mail beschreiben -> stattdessen Zeugenaussage für die Polizei (skip for now)
 
-## Die Zeugenaussage #quiz
+## Die Zeugenaussage #quiz (skip for now)
 
 TODO (skip for now)
 
-## Lukas erzählt seinen Eltern vom Banküberfall #quiz
+## Lukas erzählt seinen Eltern vom Banküberfall #quiz (skip for now)
 
 TODO informelle Beschreibung am Telefon, Eltern haben Sorgen
-
-
 
 ## Sophia und Lukas planen ein weiteres Treffen
 
@@ -3991,11 +4094,14 @@ Am [Wochentag] um [Uhrzeit] werde ich [Aktivität].
 
 Zum Beispiel: Am Mittwoch um 13 Uhr werde ich mit meinen Kollegen Mittag essen.
 
-## Wann ist unser nächster Termin? #coaching
+## Wann ist unser nächster Termin? Was sind die Termine deiner Mitschüler? #coaching
 
-Bespreche mit den Schülern, wann der nächste Termin ist.
+- Bespreche mit den Schülern, wann der nächste Termin ist.
+- Ein Schüler teilt seine Termine mit den anderen.
 
-- [ ] Termine für Kursaktivität organisieren Projekt 2
+- [x] Fragen zu Terminen stellen und beantworten Übungsbuchteil Lektion 2
+
+- [x] Termine für Kursaktivität organisieren Projekt 2
 
 ## Ein Termin beim Fotographen
 
@@ -4042,8 +4148,6 @@ TODO improve/add
 
 // Die Frau an der Rezeption sagt: "In Ordnung.
 
-
-
 # Bonus-Kurs: Die Geschichte der Deutschen
 
 ## Die Anfänge
@@ -4077,7 +4181,7 @@ explain zehnter Achter: Es gibt mehrere Arten, ein Da-tum zu schreiben. In diese
 Im siebzehnten Jahrhundert findet ein schrecklicher Krieg statt: der Dreißigjährige Krieg. Wie lange dauerte der Dreißigjährige Krieg? Richtig, er dauert dreißig Jahre – und zwar von sechzehnhundertachtzehn bis sechzehnhundertachtundvierzig (1618 bis 1648).
 
 Er begann als Religionskrieg: Protestanten gegen Katholiken.
-Die Schrecken dieses Krieges sind ein Grund, warum das Recht auf  Religionsfreiheit sehr wichtig ist.
+Die Schrecken dieses Krieges sind ein Grund, warum das Recht auf Religionsfreiheit sehr wichtig ist.
 
 https://de.wikipedia.org/wiki/Datei:The_Hanging_by_Jacques_Callot.jpg
 
@@ -4230,7 +4334,6 @@ Im Westen gibt es eine kapitalistischen Marktwirtschaft in der Bundesrepublik De
 
 ## Video: Die Luftbrücke
 
-
 ## Der Fall der Mauer und die Wiedervereinigung
 
 Viele Deutsche flohen vor dem Sozialismus in den Westen. Am dreizehnten Augsut neunzehnhunderteinundsechzig (13. August 1961) fing Ostdeutschland an, die Grenze zu zu machen und eine Mauer zu bauen.
@@ -4247,8 +4350,6 @@ Die Soldaten an der Grenze konnten nichts gegen so viele Menschen machen, sie mu
 Dies führte zum Zusammenbrauch der Diktatur im Osten und zur deutschen Wiedervereinigung. Deutschland war nun wieder ein Land.
 
 ## Wann war die Wiedervereinigung? #quiz
-
-
 
 - [ ] Monate, Datum, Jahreszeiten und Jahreszahlen verstehen und nennen Kursbuch Lektion 2
 
@@ -4272,7 +4373,7 @@ In der Geschichte gab es viele schlechte Dinge. In jedem Land gab es schlechte M
 
 Ich mag an meinem Land, dass wir über diese Dinge sprechen und Verantwortung übernehmen.
 
-Die Anerkennung der schlechten Dinge des NS-Staates – die Schrecken und der Terror – nennen wir Vergangenheitsbewältigung.  Vergangenheitsbewältigung bedeutet, dass wir die Fakten nicht leugnen. Es bedeutet, dass wir nicht wollen, dass sich die Geschichte wiederholt.
+Die Anerkennung der schlechten Dinge des NS-Staates – die Schrecken und der Terror – nennen wir Vergangenheitsbewältigung. Vergangenheitsbewältigung bedeutet, dass wir die Fakten nicht leugnen. Es bedeutet, dass wir nicht wollen, dass sich die Geschichte wiederholt.
 
 https://de.wikipedia.org/wiki/Datei:Holocaust-Mahnmal_Berlin_2006.jpg
 
@@ -4281,8 +4382,6 @@ Wenn du mit einem Deutschen über Geschichte sprichst, dann frage ruhig jede Fra
 Ich bin jederzeit da, falls du eine Frage hast. Danke, dass du an diesem Kurs über die deutsche Geschichte teilgenommen hast.
 
 - Dein Mark
-
-
 
 # Prüfungsvorbereitung: Grammatik (skip for now)
 
@@ -4294,21 +4393,176 @@ allgemeiner Rat: langfristig ist es besser, viel zu hören und zu lesen, also: f
 
 falls du die Prüfung erfolgreich bestehen möchtest, dann mache die Übungen, weil sie kurzfristig dabei helfen, für den Test zu lernen.
 
-## Verneinung: "nicht" und "kein"
+## Artikel: der/die/das, ein-, kein- (Nominativ)
 
-TODO
+Im Deutschen gibt es drei Arten von Artikeln:
+
+- bestimmte Artikel: der, die, das, den, ...
+- unbestimmte Artikel: ein, eine, ...
+- Negativartikel: kein, keine, ...
+
+Dies sind die Artikel im *Nominativ*:
+
+| Artikel    | männlich | weiblich | sächlich | Plural |
+| ---------- | :------: | :------: | :------: | :----: |
+| bestimmt   |   der    |   die    |   das    |  die   |
+| unbestimmt |   ein    |   eine   |   ein    |   —    |
+| Negativ-   |   kein   |  keine   |   kein   | keine  |
+
+Benutze den Nominativ, wenn jemand **etwas tut** oder **etwas ist**.
+
+Beispiele für den bestimmten Artikel:
+
+- Singular
+  - **Der** Mann liest. (männlich)
+  - **Die** Maschine ist kaputt. (weiblich)
+  - **Das** Problem ist groß. (sächlich)
+- **Die** Vögel fliegen. (Plural)
+
+Beispiele für den unbestimmten Artikel:
+
+- Singular
+  - **Ein** Mann liest. (männlich)
+  - **Eine** Maschine ist kaputt. (weiblich)
+  - **Ein** Problem ist groß. (sächlich)
+- Vögel fliegen. (Plural)
+
+Beispiele für den Negativartikel:
+
+- Singular
+  - **Kein** Mensch macht alles perfekt. (männlich)
+  - Ich bin **keine** Maschine! (weiblich)
+  - Es ist **kein** Problem! (sächlich)
+- **Keine Tiere** sind auf dem Mars.
+
+{{< notice "Achtung" "Nominativ" >}}
+
+Achtung: Alle Beispiele oben sind für den **Nominativ**.
+
+Erinnerung: Benutze den Nominativ, wenn jemand **etwas tut** oder **etwas ist**.
+
+{{< /notice >}}
+
+## Artikel: den/die/das, ein-, kein- (Akkusativ)
+
+Dies sind die Artikel im *Akkusativ*:
+
+| Artikel    |  männlich  | weiblich | sächlich | Plural |
+| :--------- | :--------: | :------: | :------: | :----: |
+| bestimmt   |  de**n**   |   die    |   das    |  die   |
+| unbestimmt | ein**en**  |   eine   |   ein    |   —    |
+| Negativ-   | kein**en** |  keine   |   kein   | keine  |
+
+{{< notice "Hinweis" >}}
+
+Beachte die Muster:
+
+- Die Negativartikel (kein-) werden wie unbestimmte Artikel (ein-) gebildet. Der einzige Unterschied ist ein "k" am Anfang.
+- In dieser Tabelle für den Akkusativ sind Unterschiede zur Tabelle für den Nominativ **fett** hervorgehoben. Es gibt nur bei männlichen Nomen Unterschiede.
+
+{{< /notice >}}
+
+Benutze den Akkusativ für **direkte Objekte**, also Dinge, **mit denen** etwas getan wird.
+
+Beispiele für den bestimmten Artikel:
+
+- Singular
+  - Ich esse **den** Kuchen. (männlich)
+  - Er repariert **die** Maschine. (weiblich)
+  - Sie liest **das** Buch. (sächlich)
+- Er sieht **die** Vögel. (Plural)
+
+Beispiele für den unbestimmten Artikel:
+
+- Singular
+  - Er isst **einen** Kuchen. (männlich)
+  - Sie repariert **eine** Maschine. (weiblich)
+  - Er liest **ein** Buch. (sächlich)
+- Ich sehe Vögel am Himmel. (Plural)
+
+Beispiele für den Negativartikel:
+
+- Singular
+  - Es gibt **keinen** Kuchen. (männlich)
+  - Ich habe **keine** Zeit. (weiblich)
+  - Es gibt **kein** Brot. (sächlich)
+- Wir haben **keine** Äpfel. (Plural)
+
+{{< notice "Information" "Akkusativ" >}}
+
+Wie gesagt: Benutze den Akkusativ für **direkte Objekte**, also Dinge, **mit denen** etwas getan wird.
+
+{{< /notice >}}
+
+- [x] bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ Grammatik Lektion 2
+
+## Bestimmte und unbestimte Artikel #quiz
+
+{{<quiz "fill in">}}
+
+Schreibe die richtigen Wörter in die Lücken. Lass dir die Geschlechter der Nomen anzeigen, wenn du sie nicht weißt.
+
+Wir sind im Park. Dort ist [ein] Mann.
+
+Siehst du [den] Mann?
+
+[Der] Mann sitzt auf einer Bank, liest [ein] Buch und isst [einen] Kuchen.
+
+Dort ist [ein] Vogel. Das ist [keine] Ente, das ist [eine] Taube!
+
+[Die] Taube möchte Brot.  [Das] Problem ist, dass [der] Mann [kein] Brot hat.
+
+Wir haben auch [kein] Brot.
+Es gibt [keinen] Menschen mit Brot für [die] Taube.
+
+Aber [der] Mann gibt der Taube [ein] Stück Kuchen!
+
+{{</quiz>}}
+
+## Verneinung: "nicht" und "kein" #meta
+
+Mit "nicht" kannst du Adjektive (wie *gut*, *schlecht*, *möglich*) , Adverben (wie *heute*) und ganze Sätze verneinen, zum Beispiel:
+
+- Der Kuchen schmeckt nicht schlecht.
+- Er ist böse. Das ist nicht gut.
+- Es ist nicht möglich, heute einen Termin zu machen. Ich kann heute nicht.
+- Donnerstag passt nicht gut.
+
+Mit "kein-" verneinst du Nomen:
+
+- Es gibt keinen Kuchen.
+- Er ist kein guter Mensch.
+- Ich habe heute keine Zeit.
+- Ich habe morgen keine Termine.
+
+Je nach Geschlecht des Nomens und Fall benutzt du *kein*, *keine* oder *keinen*, siehe [diese Tabelle](https://de.wiktionary.org/wiki/kein). (Wir ignorieren den Genitiv und Dativ erstmal.)
 
 ## Verneinung: "nicht" und "kein" #quiz
 
-- [ ] Verneinung: "nicht" und "kein" Grammatik Lektion 2
+{{<quiz "fill in">}}
+
+Verneine die folgenden Sätze:
+
+- Deutschlernen ist schwer.
+- [Deutschlernen ist nicht schwer.]
+- Ich habe Zeit.
+- [Ich habe keine Zeit.]
+- Ich habe viel Zeit.
+- [Ich habe nicht viel Zeit.]
+- Es gibt Obst in der Küche.
+- [Es gibt kein Obst in der Küche.]
+- Alle Maschinen sind kaputt.
+  - verneine "Maschine": [Keine Maschine ist kaputt.] (kaputte Maschinen: 0)
+  - verneine "alle": [Nicht alle Maschinen sind kaputt.] (Ein paar Maschinen sind kaputt.)
+  - verneine "kaputt": [Alle Maschinen sind nicht kaputt.] (Alle Maschinen sind heil/repariert.)
+
+{{</quiz>}}
+
+- [x] Verneinung: "nicht" und "kein" Grammatik Lektion 2
 
 ## Personalpronomen
 
 - [ ] Personalpronomen im Akkusativ Grammatik Lektion 2
-
-## Bestimmter und unbestimmter Artikel und Negativartikel
-
-- [ ] bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ Grammatik Lektion 2
 
 ## Genitiv-s bei Personennamen
 
@@ -4364,10 +4618,7 @@ TODO Was passt? Was passt nicht
 
 TODO Tagesablauf von Nick.jpg
 
-
-
 TODO monatliche Ausgaben.png
-
 
 TODO wo_trinken_sie_am_liebsten_kaffee_440.jpg
 
@@ -4376,7 +4627,6 @@ TODO schaubildbeschreibung-lebenserwartung.jpg
 TODO schaubild-einwohner-arzt-zahnarzt.png
 
 - [x] über Tortendiagramm sprechen Kursbuch Lektion 1 (2)
-
 
 ## Die Verben fehlen! #quiz
 
@@ -4554,10 +4804,6 @@ Zoll. Zolles. Zolls. Zölle. Zöllen.
 zweitausendvierzehn.
 überweis. überweise. überweisen. überweist. überwies. überwiese. überwiesen.
 
-
-
-
-
 - idea: split into multiple courses, give guarantee only if they get all of them
   - Immersionskurs für Änfänger (Deutsch A1)
     - inkl. Deutschlernen mit Gedichten (Deutsch A1)
@@ -4567,8 +4813,8 @@ zweitausendvierzehn.
   - Die Geschichte der Deutschen (Deutsch A1)
   - Deutsche Grammatik für Anfänger (Deutsch A1)
   - Prüfungsvorbereitung
-      - inkl. Spickzettel Deutsch A1 (PDF:  Tabellen mit wichtigen Sätzen, Grammatikregeln)
-      - inkl. Probeprüfung Deutsch A1
+    - inkl. Spickzettel Deutsch A1 (PDF: Tabellen mit wichtigen Sätzen, Grammatikregeln)
+    - inkl. Probeprüfung Deutsch A1
   - Deutschlern-Apps für Anfänger (Deutsch A1)
     - inkl. Article Smasher - deutsche Artikel einfach lernen
     - inkl. Finde den Weg! (Wegbeschreibung lernen - Deutsch Anfänger)
@@ -4579,21 +4825,21 @@ zweitausendvierzehn.
 - code AGL app
   - first, just interface to access YouTube videos, articles and other free content; with tab to buy things (first via link, then integrated in the app)
   - then publish courses via the app: activated via key
-    - filter by category
-	- let user pick a setting (more grammar or less grammar), then let them go step by step by selecting appropriate sequence and repetition
+    - filter by category - let user pick a setting (more grammar or less grammar), then let them go step by step by selecting appropriate sequence and repetition
     - repeat categories based on exercise results
     - remind them to review after a while
   - then publish apps to learn better
+- have words linked to certain lessons and put in a short note on their first occurance
 - crazy edition von jedem Video wo wich-tige Vokabeln bei der ersten Erwähnung nochmal extra gezeigt werden mit Bild und Ton, "make it crazy" damit sie sich daran erinnern (z. B. "Kaffee!" und den Klang einer E-Gitarre)
 - after each immersion, write table for better memorization (connecting with known words):
-                    Vergleiche:
-                    --
-                    glücklich | das Glück
-                    --
-                    einladen | die Einladung
-                    --
-                    suchen | es sucht
-                    --
+  Vergleiche:
+  --
+  glücklich | das Glück
+  --
+  einladen | die Einladung
+  --
+  suchen | es sucht
+  --
 - Dialekte https://www.youtube.com/watch?v=k7a6ak8QggY
 - https://www.telc.net/verlagsprogramm/kurstraeger-lizenzpartner/deutsch-integration/lehrwerk-einfach-gut/downloads.html
 - put first names into custom words -> explain family relations, background information
@@ -4605,12 +4851,6 @@ zweitausendvierzehn.
   - schwer: die passendste Formulierung oh-ne Rücksicht auf Wortschatz
 - wenn Audio durch Video ersetzt wird -> Audio mit alten Einheiten in ein Archiv (extra Lektion), dass sie auch bekommen
 - some lessons are for Hörverständnis -> hide text at first and let them know not to read until they've done the next exercise
-
-
-
-
-
-
 
 # Ideen
 
@@ -4649,7 +4889,6 @@ Jetzt ist Carlos endlich in Deutschland. Er ist nun in Berlin.
 Carlos ist müde, weil es spät ist. Außerdem ist Brasilien sehr weit von Deutschland entfernt!
 
 Um 23 Uhr kommt Carlos in seiner neuen Wohnung an. Er geht sofort ins Bett. Gute Nacht, Carlos!
-
 
 ## Carlos stellt sich vor
 
@@ -4722,6 +4961,7 @@ Herr Schmitt kommt und sagt: "Grüß Gott, Frau Weber! Wenn ich mich nicht irre,
 "Das stimmt! Nun, willkommen bei der Firma Isaacs und willkommen in Deutschland."
 
 # Jacobs Reise
+
 ## Jacob kommt in Berlin an
 
 Zur selben Zeit wie Carlos kam Jacob Fischer in Berlin an.
@@ -4742,8 +4982,8 @@ Er kaufte sich ein Ticket für die öffentlichen Verkehrsmittel, um die Stadt zu
 
 Es gibt viele Autos in Berlin, aber man braucht kein Auto, um jeden Ort in Berlin schnell zu erreichen.
 
-
 # Bill und Alessandro
+
 ## Wie Bill Deutsch lernt
 
 Bill Baker ist ein britischer Bibliothekar, der ab und zu nach Deutschland fährt. Seine Hobbies sind Segeln, Schach und das Sprachenlernen.
@@ -4892,8 +5132,6 @@ Yui ist beeindruckt von all dem, was es in Berlin zu sehen gibt. Sie hat sich ex
 
 ## Yui schickt einen Brief nach Hause
 
-
-
 # Sophia Brooks
 
 Sophia Brooks ist eine Programmiererin aus den USA.
@@ -4921,9 +5159,7 @@ Zu ihren Kollegen zählt auch Ali Alaoui, einem Ingenieur, der nach Deutschlang 
 
 Sophia findet es sehr toll, mit Kollegen aus unterschiedlichen Ländern zusammenzuarbeiten, da sie alle das gleiche Ziel haben: Alle drei sind Ausländer in diesem Land, aber alle drei glauben an den Fortschritt und an die Wissenschaft.
 
-
 Sie gehen gemeinsam essen.
-
 
 # Das Märchen "Tischlein, deck dich!"
 
@@ -5082,7 +5318,7 @@ Zum Beispiel:
 - Orangensaft: Was ist es? Ein Saft. Was für ein Saft? Der Saft von Orangen.
 - Pfefferminztee: Was ist es? Ein Tee. Was für ein Tee? Ein Tee aus Pfefferminze. Wie schmeckt Pfefferminze? Na, minzig, natürlich!
 - Rotwein: Was ist es? Ein Wein. Was für ein Wein? Ein roter Wein.
-{{< /notice >}}
+  {{< /notice >}}
 
 Außerdem gab es auch sehr leckeres Essen: gegrillter Schinken, Hähnchenfleisch, Fisch zusammen mit Reis oder Kartoffeln und immer mit ein bisschen Gemüse, wie zum Beispiel Gurke und Tomaten.
 
@@ -5091,11 +5327,9 @@ Leider hatte der Sohn nicht viel Geld und der Preis der Lebensmittel war sehr ho
 ## Schluss
 
 TODO
+
 - fertig schreiben, vereinfachen
 - Zusammenfassung mit den Bri-efm-arken von https://de.wikipedia.org/wiki/Tischchen_deck_dich,_Goldesel_und_Kn%C3%BCppel_aus_dem_Sack#Rezeptionen,_Parodien_und_Sprachgebrauch
-
-
-
 
 # Julia Engelmann – Eines Tages, baby, werden wir alt sein!“
 
@@ -5242,7 +5476,6 @@ Also los, schreiben wir Geschichten,<br>
 die wir später gern erzählen. Und eines Tages, Baby, werden wir alt sein. Oh Baby, werden wir alt sein<br>
 und an all die Geschichten denken, die für immer unsere sind.
 
-
 # Lasst uns nach den Sternen greifen!
 
 Wir befinden uns in einer faszinierenden Welt. Jeden Tag lernen wir etwas Neues. Jeder Tag ist eine neue Möglichkeit, uns zu verbessern: Wir werden glücklicher, effizienter und freier.
@@ -5275,7 +5508,7 @@ Glaubst du mir nicht? Einen Moment, ich bin gleich wieder da.
 
 Ich bin wieder da! Ich habe einen Freund von mir geholt. Er sieht ein bisschen komisch aus, ich weiß.
 
-Mein Freund ist Deutscher. Na ja, er kommt nicht aus Deutschland, aber er ist hier geboren.  Er kommt aus einer anderen Zeit.
+Mein Freund ist Deutscher. Na ja, er kommt nicht aus Deutschland, aber er ist hier geboren. Er kommt aus einer anderen Zeit.
 
 Ich habe mir nämlich eine Zeitmaschine gebaut und mich entschieden, ihn mitzubringen. Er spricht auch kein Deutsch, zumindest nicht so ein Deutsch, wie wir es heute sprechen.
 
@@ -5314,8 +5547,7 @@ Er sieht sich auf einem Bildschirm -- die Überwachungskamera filmt ihn gerade. 
 
 Draußen wird es langsam dunkel, aber hier im Supermarkt ist es immer noch so hell wie am Anfang. Der König, der sein ganzes Leben lang Kerzen benutzen musste, um nachts zu lesen, ist erstaunt: Die Nacht wird zum Tag mit der Macht elektrischer Lampen.
 
-
-Jetzt wird es Zeit nach Hause zu gehen. Wir legen unseren Einkauf auf das Band und bezahlen. Mit einer wundersamen Maschine  wird die Summe berechnet, die wir bezahlen müssen. Die Rechnung ist immer richtig, ohne Ausnahme. So eine Maschine, ein Computer, kann in Sekunden tausende Rechnungen machen. Mehr noch, so viele Rechnungen, dass die Buchhalter des Königs Jahre brauchen würden, um dieselben Rechnungen zu machen.
+Jetzt wird es Zeit nach Hause zu gehen. Wir legen unseren Einkauf auf das Band und bezahlen. Mit einer wundersamen Maschine wird die Summe berechnet, die wir bezahlen müssen. Die Rechnung ist immer richtig, ohne Ausnahme. So eine Maschine, ein Computer, kann in Sekunden tausende Rechnungen machen. Mehr noch, so viele Rechnungen, dass die Buchhalter des Königs Jahre brauchen würden, um dieselben Rechnungen zu machen.
 
 Der König ist nicht glücklich. Er ist der mächtigste Mann seiner Zeit und doch leidet er wie alle anderen. Er hat Zahnschmerzen, weil er noch nie bei einem modernen Zahnarzt war.
 
@@ -5374,7 +5606,6 @@ Die Freiheit, Kreativität und Erfindergeist, den wir in Deutschland haben, sind
 
 Wir Deutschen sind ja besonders bekannt für unsere Autos. Aber wie wird ein Auto hergestellt? TODO
 
-
 # Dieser Kurs ist anders
 
 Am Anfang habe ich versucht, diesen Kurs so zu schreiben wie ein normaler Deutschkurs. Dann fiel mir auf, dass ich es nicht kann, weil es meine Integrität verletzt. Ich möchte nur etwas schreiben, dass mir selber Spaß machen würde zu lesen!
@@ -5419,10 +5650,9 @@ TODO Biographie verstehen Lektion 7
 
 ## der Neuzeit
 
-
 ## Kris Stelljes
-https://www.handelsblatt.com/today/companies/top-innovators-germanys-quiet-visionaries-part-x/23568432.html?ticket=ST-17499302-ofrxfa5YI9HkfZj1YKvw-ap3
 
+https://www.handelsblatt.com/today/companies/top-innovators-germanys-quiet-visionaries-part-x/23568432.html?ticket=ST-17499302-ofrxfa5YI9HkfZj1YKvw-ap3
 
 ### New Made in Germany – Deutsche Startups starten durch | Abenteuer Leben
 
@@ -5451,7 +5681,7 @@ https://www.zeit.de/themen/wissen/50-deutsche-vorbilder/index
     - [Betende Hände](https://de.wikipedia.org/wiki/Betende_H%C3%A4nde)
     - [Die vier Apostel](https://de.wikipedia.org/wiki/Die_vier_Apostel)
   - Bach
-    - [Matthäus-Passion](https://de.wikipedia.org/wiki/Matthäus-Passion_(J._S._Bach))
+    - [Matthäus-Passion](<https://de.wikipedia.org/wiki/Matthäus-Passion_(J._S._Bach)>)
   - Beethoven, Kant, Hegel, Heine, Wilhelm Busch, Blum, Bismarck, Bebel, Stresemann
 -
 
@@ -5467,16 +5697,12 @@ Both Gary and Grant Cardone have tremendous energy and drive (actually all four)
 
 ## Elon Musk
 
-
 ## Jeff Bezos
-
-
-
-
 
 # Meine Geschichte
 
 idea:
+
 - why don't I talk about myself? or character based on me? -> meine wahre Erfahrung: Heidelberg, Rostock geboren, Rövershagen, Berlin, Universität
 - write about family (in fictional context?)
 - Imagine the **Avatar**
@@ -5487,7 +5713,7 @@ Dies ist meine Geschichte. Ich erzähle sie dir, damit du durch meine Erzählung
 
 Ich heiße Mark.
 
-Ich bin 1990 in Rostock geboren. Das ist eine  Stadt im Norden Deutschlands.
+Ich bin 1990 in Rostock geboren. Das ist eine Stadt im Norden Deutschlands.
 
 Ich wuchs in einem kleinen Dorf namens Rövershagen auf. Dieses Dorf war sehr klein und nicht sehr bekannt.
 Allerdings ist das Dorf in der Zwischenzeit ein bisschen gewachsen. Dort gibt es einen Erdbeerhof und die Erdbeeren werden in ganz Deutschland verkauft. So hat das Dorf meiner Kindheit doch ein bisschen Bekanntheit gewonnen.
@@ -5504,12 +5730,9 @@ Berlin ist eine wunderschöne Stadt: Sie ist sehr grün, es gibt viele Alleen un
 
 Heidelberg ist eine meiner Lieblingstädte. Es ist eine
 
-
 ## Ich sehe was, das du nicht siehst! (Farben)
 
 Die Kinder spielen gerne ein Spiel. Das Spiel heißt "Ich sehe was, das du nicht siehst."
-
-
 
 ## Dorfkind oder Stadtkind?
 
@@ -5519,9 +5742,8 @@ Als ich acht Jahre alt war, bin ich mit meiner Familie nach Berlin gezogen, in d
 
 Und du? Bist du ein Dorfkind oder ein Stadtkind?
 
-
-
 TODO
+
 - "schlechter" Entwurf
 - read: https://www.britishcouncil.org/voices-magazine/how-seeing-language-can-help-learners-retain-it
 - Fehlerkorrektur (+ Quizze)
@@ -5536,7 +5758,6 @@ https://workflowy.com/#/9f92ea0ffc1a
 
 TODO Deutsch mit Magie https://docs.google.com/document/d/1sYld9cdoVrJwAAI24QDrl-Q9nNEYhZCWQQdEG51AcAo/edit#heading=h.jtv0da9maekn
 TODO Zeitmanagement https://docs.google.com/document/d/1apd99aLox7f1pYNO7n22lftuHXA2sNRuQIKev-NHyqE/edit
-
 
 Gedichte zur Aussprache: https://mail.google.com/mail/u/0/#inbox/WhctKJVjMckZghlVQGLLCvdmxqKxqkSqMCKzxLnVwWmLzFSxQzfXLkSXXWHpWrrTpjlzDSV?projector=1&messagePartId=0.1
 https://mail.google.com/mail/u/0/#inbox/WhctKJVjMckZghlVQGLLCvdmxqKxqkSqMCKzxLnVwWmLzFSxQzfXLkSXXWHpWrrTpjlzDSV?projector=1&messagePartId=0.1
