@@ -70,11 +70,36 @@ Merke:
 
 ## Begrüßung
 
-- Guten Morgen!/Guten Tag!/Grüß Gott!/Hallo!
+- Guten Tag!/Grüß Gott!/Hallo!
   - Dialekt: Grüezi!/Grüß Gott!/Servus!
-  - Antwort: Guten Morgen!/Guten Tag!/Grüß Gott!/Hallo!
+  - Antwort: Guten Tag!/Grüß Gott!/Hallo!
 - Wie geht es dir?/Wie geht's?/Wie geht es Ihnen?
   - Antwort: Gut, danke./Gut./Mir geht es gut./Wunderbar.
+
+### nach Tageszeit
+
+- Guten Morgen!
+- Guten Tag!
+- Guten Abend!
+- Gute Nacht!
+
+### in Briefen und E-Mails
+
+- Lieber Tom, liebe Emma,
+- Hallo ...
+
+## Verabschiedung
+
+- Tschüss./Auf Wiedersehen.
+  - Dialekt: Tschau!/Uf Wiederluege!/Auf Wiederschau'n.
+  - Antwort: Tschüss./Auf Wiedersehen.
+
+### in Briefen und E-Mails
+
+- formell: Mit freundlichen Grüßen
+- Liebe Grüße
+- Viele Grüße
+- gute Freunde: Herzliche Grüße
 
 ## Name
 
@@ -110,11 +135,109 @@ Merke:
 - Wie ist deine/Ihre E-Mail-Adresse?
   - Meine E-Mail-Adresse ist info@authenticgermanlearning.com.
 
-## Verabschiedung
+## Termine
 
-- Tschüss./Auf Wiedersehen.
-  - Dialekt: Tschau!/Uf Wiederluege!/Auf Wiederschau'n.
-  - Antwort: Tschüss./Auf Wiedersehen.
+- Zeiten:
+  - am Wochenende
+  - am Montag/Dienstag/Mittwoch/Donnerstag/Freitag/Sonnabend/Sonntag
+  - vorgestern/gestern/heute/morgen/übermorgen
+  - um 10:15 Uhr/...
+
+### Fragen
+
+Füge eine Zeit in [...] ein:
+
+- Wann hast du/haben Sie Zeit?
+- Wann kannst du/können Sie?
+- Kannst du/Können Sie [...]?
+- Passt [...]?
+
+### Antworten
+
+Füge eine Zeit in [...] ein:
+
+- Ich kann [...].
+- [...] kann ich.
+- Ich habe [...] Zeit.
+- [...] habe ich Zeit.
+- [...] passt gut.
+
+## Meinung
+
+Ich finde das Museum/die Band/das Konzert/den Film ...
+
+| +           | -               |
+| ----------- | --------------- |
+| gut         | schlecht        |
+| super       | blöd            |
+| toll        | nicht besonders |
+| interessant | langweilig      |
+| schön       | schrecklich     |
+
+
+# Nominativ und Akkusativ
+
+Ich lese ein Buch. Der Mann isst einen Kuchen. Ich sehe ihn.
+
+- **Nominativ** (meist Subjekt): Jemand/etwas **macht** oder **ist** etwas. (ich, der Mann)
+- **Akkusativ** (direktes Objekt): Jemand/etwas ist **direkt** von der Handlung betroffen. (ein Buch, einen Kuchen, ihn)
+
+## Artikel im Nominativ und Akkusativ
+
+| Artikel    | weiblich | sächlich | Plural |
+| ---------- | :------: | :------: | :----: |
+| bestimmt   |   die    |   das    |  die   |
+| unbestimmt |   eine   |   ein    |   —    |
+| Negativ-   |  keine   |   kein   | keine  |
+
+### männliche Artikel
+
+| Artikel    | Nominativ | Akkusativ |
+| :--------- | :-------: | :-------: |
+| bestimmt   |    der    |    den    |
+| unbestimmt |    ein    |   einen   |
+| Negativ-   |   kein    |  keinen   |
+
+### Possessivpronomen (mein-, dein-, sein-, ihr-)
+
+Die Possessivpronomen *mein-*, *dein-*, *sein-* und *ihr-* werden wie *kein-* oben gebildet.
+
+- Meine Mutter isst ihren Kuchen.
+- Dein Vater liest sein Buch.
+- Mein Sohn sieht seine Freundin.
+- Brauchst du meine Bücher?
+
+## Pronomen
+
+| Nominativ | Akkusativ |
+| --------- | --------- |
+| ich       | mich      |
+| du        | dich      |
+| er        | ihn       |
+| sie       | sie       |
+| es        | es        |
+| wir       | uns       |
+| ihr       | euch      |
+| sie/Sie   | sie/Sie   |
+
+# Verneinung
+
+**Nicht** verneint den *ganzen Satz*, *Adjektive* und *Adverbien*.
+
+- Nein, ich esse heute nicht.
+- Ich bin nicht krank, ich faste.
+- Ich esse nicht heute, aber morgen.
+
+**Kein** verneint *Nomen*.
+
+- Es gibt kein Essen.
+
+# Genitiv
+
+## Genitiv-s
+
+- Emma hat einen Koffer: Emma**s** Koffer.
+- Lukas hat einen Bleistift: Lukas**'** Bleistift.
 
 # Anweisungen
 

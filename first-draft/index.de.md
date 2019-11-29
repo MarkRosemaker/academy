@@ -132,7 +132,7 @@ Zum anderen gibt es fast immer eine Übersetzung für dich.
 
 Du kannst auch die Geschwindigkeit ändern, mit der die Hördateien und Videos abgespielt werden.
 
-{{< rem >}}TODO gif das dies zeigt
+{{< rem >}}TODO gif das dies zeigt -> focus with Javascript
 {{< /rem >}}
 
 {{< /notice >}}
@@ -1640,7 +1640,7 @@ Deutschland hat viele populäre Musiker.
 
 {{<youtube "apUConPW_K0">}}
 
-Die Band mit dem Namen *Die Ärzte* machen Rock-Musik.
+Die Band mit dem Namen *Die Ärzte* machen Rockmusik. Sie sind sehr populär.
 
 {{<youtube "kRrP-bZvD2s">}}
 
@@ -3599,13 +3599,31 @@ Absender: Anna Schmidt, Lessingstraße 10, 30159 Hannover, Germany
 
 Liebe Emma, lieber Thomas,
 
-hier auf Rügen ist es sehr schön.
+viele herzliche Grüße auch an eure Kinder Oliver, Max und Marie!
 
-TODO
+Hier auf Rügen ist es sehr schön.
 
-Viele Grüße auch an eure Kinder Oliver, Max und Marie.
+Das Hotel ist sehr gut: Wir haben einen guten Blick auf das Meer.
 
-Liebe Grüße
+Das Wetter ist in Ordnung. Es gibt keinen Regen, aber viele Wolken und viel Wind.
+
+Oft sehen wir auch die Sonne. Wir haben Glück: Es sind 14 Grad, das ist nicht zu kalt.
+
+Lukas möchte im Meer schwimmen, aber das Wasser ist kalt.
+
+Wir haben schon die Kreidefelsen gesehen, sie sind sehr schön.
+
+Die Menschen sind sehr nett. Die Stadt ist klein und wir brauchen zum Glück kein Auto.
+
+Gestern waren wir im Museum, das war sehr interessant. Heute gehen wir zum Markt und kaufen vielleicht Lebensmittel oder Souvenire.
+
+Morgen machen wir einen Ausflug mit Fahrrädern. Wir können uns Fahrräder hier mieten. So sehen wir viel und machen Sport!
+
+Am Sonntag besuchen wir ein klassisches Konzert. Ich hoffe es ist gut, denn die Karten waren sehr teuer!
+
+Ich hoffe, wir sehen uns bald wieder in Hannover. Du bist bald in Bayern, nicht wahr?
+
+Wie grüßen euch herzlich aus Rügen
 Anna, Jochen, Lukas, Emilia und Michael
 
 </blockquote>
@@ -3613,6 +3631,21 @@ Anna, Jochen, Lukas, Emilia und Michael
 Am Ende schreibt Emma auf der rechten Seite den Namen und die Adresse von Emma. Emma ist die Empfängerin der Postkarte.
 
 [image of card with areas marked in red]
+
+## Was hat Anna geschrieben? #quiz
+
+Lies die Postkarte noch einmal und beantworte die Fragen.
+
+
+{{<quiz "fill in">}}
+- Was findet Anna sehr interessant? Sie findet [das Museum] sehr interessant.
+- Wohin geht die Familie heute? Heute geht die Familie [zum Markt].
+- Brauchen die Schmidts ein Auto? [Nein], die Schmidts brauchen [kein Auto].
+- Was machen die Schmidts morgen? Die Schmidts machen [einen Ausflug] mit [Fahrrädern].
+- Waren die Karten für das Konzert billig? [Nein], die Karten für das Konzert waren [nicht billig|teuer].
+{{</quiz>}}
+
+Was stand noch in der Postkarte? Schreibe mehr auf deinen Notizblock.
 
 ## Wo ist die Post?
 
@@ -3691,17 +3724,103 @@ TODO weitere Städte (skip for now)
 
 ## Eine E-Mail von Emma #quiz
 
-TODO bedankt sich für die Postkarte, erzählt eigene Erlebnisse in Bayern
+Anna bekommt eine E-Mail von Emma:
 
+<blockquote>
+- Absender: emma.brown@aglmail.de
+- Empfänger: anna.schmidt@aglmail.de
 
+Liebe Anna, lieber Jochen und liebe Kinder,
 
-- [ ] eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
+vielen Dank für eure Postkarte und die Urlaubsgrüße!
+
+Wir sind jetzt auch im Urlaub. Hier in Bayern ist es sehr schön.
+
+Das Wetter ist super! Es gibt hier viel Sonne und keinen Regen.
+
+Es ist aber ein bisschen kalt, nur 9 Grad. Kein Problem, wir haben warme Kleidung.
+
+In den letzten drei Tagen haben wir ein Auto gemietet und sind auf der Romantischen Straße gefahren. Wir haben ein paar schöne Dörfer und Städte besucht.
+
+In den nächsten vier Nächten übernachten wir in einem Hotel in München. Die Stadt ist sehr groß und laut.
+
+Heute machen wir einen Ausflug zum Schloss Neuschwanstein. Ich glaube, ihr kennt es schon: Es ist ein wunderschönes Schloss an der Grenze zu Österreich.
+Wir sind jetzt im Bus auf dem Weg dorthin.
+
+Morgen gehen wir zum Olympiapark, wenn das Wetter gut ist oder ins Museum, wenn das Wetter schlecht ist.
+
+Am Dienstag fahren wir nach Hause.
+
+Herzliche Grüße aus Bayern
+Emma, Thomas, Oliver, Max und Marie
+
+</blockquote>
+
+- [x] eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
+
+## Was hat Emma geschrieben? #quiz
+
+Wie ist Emmas Urlaub? Beantworte die Fragen:
+
+{{<quiz "fill in">}}
+- Wo ist Emma jetzt? Emma ist in [Bayern]. Sie ist im [Bus] auf dem Weg [nach|zum] Schloss Neuschwanstein.
+- Wo ist das Schloss Neuschwanstein? Das Schloss ist an der Grenze zu [Österreich].
+- Regnet es in Bayern? [Nein], es [regnet nicht|gibt keinen Regen].
+- Ist das Wetter ein Problem? [Nein], es ist [kein] Problem: Die Browns haben [warme Kleidung].
+- Fahren die Browns mit ihrem Auto in Bayern? [Nein], das Auto haben sie [gemietet].
+- Was haben die Browns mit dem Auto besucht? Die Browns haben schöne [Dörfer] und Städte besucht.
+- Wohin gehen die Browns morgen, wenn es regnet? Die Familie geht [ins Museum].
+- Wohin gehen die Browns morgen, wenn die Sonne scheint? Die Familie geht [zum Olympiapark].
+{{</quiz>}}
 
 ## Eine Antwort für Emma #quiz
 
-TODO schreiben
+Hilf den Schmidts, eine Antwort-E-Mail für Emma zu schreiben.
 
-- [ ] eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
+Überlege: Was haben die Schmidts gemacht?
+
+Denke dir auch etwas aus:
+
+- Wie ist das Wetter?
+- Was haben die Schmitds gestern gemacht?
+- Was machen sie heute?
+- Was machen sie morgen?
+- Wie sind die Leute?
+- Etc.
+
+Ein paar Beispiele:
+
+- Wir haben viel Sonne/viel Regen.
+- Die Stadt ist sehr interessant/langweilig.
+- Das Wetter ist sehr gut/schlecht.
+- Der Urlaub ist sehr schön/schrecklich.
+- Am ... fahren wir zurück.
+- Wir besuchen ein Museum/eine Kathedrale/einen Markt/ein Fest/einen Park.
+
+{{<quiz "fill in">}}
+
+- [Absender]: anna.schmidt@aglmail.de
+- [Empfänger]: emma.brown@aglmail.de
+
+[Liebe] Emma, [lieber] Thomas, [lieber] Oliver, [lieber] Max und [liebe] Marie,
+
+[vielen Dank] für eure E-Mail!
+
+Wir sind jetzt in Berlin.
+
+{{</quiz>}}
+
+{{<quiz type="free writing" min-length="400">}}
+
+
+{{</quiz>}}
+
+{{<quiz "fill in">}}
+[Herzliche Grüße|Liebe Grüße|Viele Grüße|Wir grüßen euch|Wir grüßen euch herzlich] aus Berlin
+Anna, Jochen, Lukas, Emilie und Michael
+{{</quiz>}}
+
+- [x] eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
 
 ## Lass uns Emma antworten! #quiz
 
@@ -4496,6 +4615,18 @@ Wie gesagt: Benutze den Akkusativ für **direkte Objekte**, also Dinge, **mit de
 
 - [x] bestimmter und unbestimmter Artikel und Negativartikel im Nominativ und Akkusativ Grammatik Lektion 2
 
+{{< notice "Information" "mein-, dein-, sein-" >}}
+
+Die Wörter mit Wortstamm "mein-", "dein-", "sein-" etc. werden genauso gebildet wie "kein-" und "ein-".
+
+Beispiele:
+
+- Mein Vater liest sein Buch.
+- Hast du meinen Reiseführer?
+- Achtung: Deine Hunde essen deinen Geburtstagskuchen!
+
+{{< /notice >}}
+
 ## Bestimmte und unbestimte Artikel #quiz
 
 {{<quiz "fill in">}}
@@ -4560,13 +4691,92 @@ Verneine die folgenden Sätze:
 
 - [x] Verneinung: "nicht" und "kein" Grammatik Lektion 2
 
-## Personalpronomen
+## Nominativ und Akkusativ #quiz
 
-- [ ] Personalpronomen im Akkusativ Grammatik Lektion 2
+Was ist Nominativ? Was ist Akkusativ?
+
+Markiere die Wörter.
+
+{{<quiz "mark">}}
+
+Heute ist [Nominativ:ein schöner Tag].
+[Nominativ:Eine Frau] im Fernsehen sagt: Es gibt [Akkusativ:keinen Regen].
+
+[Nominativ:Die Sonne] scheint und [Nominativ:es] gibt [Akkusativ:keine Wolken] am Himmel.
+
+[Nominativ:Ich] sehe [Akkusativ:einen Freund] von mir. [Nominativ:Der Mann] dort hinten ist [Nominativ:mein Freund]. [Nominativ:Ich] begrüße [Akkusativ:den Freund].
+
+[Nominativ:Wir] gehen zu einem Konzert. [Nominativ:Ich] habe [Akkusativ:eine Karte], aber [Nominativ:mein Freund] hat noch [Akkusativ:keine Karte].
+
+Das ist [Nominativ:kein Problem]! [Nominativ:Wir] kaufen einfach [Akkusativ:ein Ticket] an der Kasse.
+
+[Nominativ:Das Konzert] ist wunderbar!
+
+{{</quiz>}}
+
+
+## Personalpronomen im Akkusativ
+
+Wir haben die Artikel von Nomen im Akkusativ gelernt. Jetzt lernen wir Personalpronomen im Akkusativ.
+
+Die Personalpronomen (im Nominativ) sind *ich*, *du*, *er*, *sie*, *es*, *wir*, *ihr*, *sie* und *Sie*.
+
+Wir können also Sätze bilden wie:
+
+- Ich lese.
+- Du isst.
+- Er trinkt.
+- Sie tanzt.
+- Es regnet.
+- Sie sind glücklich.
+
+Die Personalpronomen sind im Nominativ, weil die Person **etwas tut** oder **etwas ist**.
+
+Was ist, wenn eine Person direkt von der Handlung betroffen ist, aber nicht selber handelt?
+
+Wir treffen **uns**: Ich sehe **dich**. Du siehst **mich**.
+
+Ein Freund kommt, wir sehen **ihn**.
+Ihr begrüßt **euch**.
+
+Eine Freundin von mir kommt, ich sehe **sie**. Ich sage: "Das sind meine Freunde. Begrüße **sie**!"
+
+Die fett gedruckten Wörter sind Personalpronomen im Akkusativ.
+
+| Nominativ | Akkusativ |
+| --------- | --------- |
+| ich       | mich      |
+| du        | dich      |
+| er        | ihn       |
+| sie       | sie       |
+| es        | es        |
+| wir       | uns       |
+| ihr       | euch      |
+| sie/Sie   | sie/Sie   |
+
+- [x] Personalpronomen im Akkusativ Grammatik Lektion 2
 
 ## Genitiv-s bei Personennamen
 
-- [ ] Genitiv-s bei Personennamen Grammatik Lektion 2
+Wenn jemandem etwas gehört, dann fügt man ein "s" an den Namen an.
+
+Emma**s** Koffer ist voll. Es gibt keinen Platz für ihre Sportschuhe.
+
+Kein Problem: Emma nimmt später Anna**s** Sportschuhe; die Größen sind gleich.
+
+{{< notice "Achtung" "Kein Apostroph wie im Englischen! >}}
+
+Achtung: Im Englischen würde man "Emma's suitcase" schreiben, im Deutschen nicht!
+
+{{< /notice >}}
+
+Aber es gibt auch ein Apostroph im Deutschen, wenn der Name mit "s" endet, wie zum Beispiel bei *Klaus*, *Tomas* und *Lukas*:
+
+- Tomas ist in einem Kurs. Tomas' Kurs ist sehr interessant.
+- Thomas ist oft Lukas' Partner im Kurs.
+- Sie haben keine Bleistifte. Sie brauchen Klaus' Bleistift.
+
+- [x] Genitiv-s bei Personennamen Grammatik Lektion 2
 
 # Prüfungsvorbereitung (skip for now)
 

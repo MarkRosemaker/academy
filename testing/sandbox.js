@@ -1,4 +1,5 @@
 let a = 10;
 for (let i = 0; i < a; i++) {
-  const test = 0;
+  let foo = "asd";
 }
+
