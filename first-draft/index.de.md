@@ -4756,7 +4756,7 @@ Die fett gedruckten Wörter sind Personalpronomen im Akkusativ.
 
 - [x] Personalpronomen im Akkusativ Grammatik Lektion 2
 
-foo
+
 
 ## Genitiv-s bei Personennamen
 
