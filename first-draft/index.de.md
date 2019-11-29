@@ -4756,6 +4756,8 @@ Die fett gedruckten Wörter sind Personalpronomen im Akkusativ.
 
 - [x] Personalpronomen im Akkusativ Grammatik Lektion 2
 
+foo
+
 ## Genitiv-s bei Personennamen
 
 Wenn jemandem etwas gehört, dann fügt man ein "s" an den Namen an.
