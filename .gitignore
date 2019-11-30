@@ -8,3 +8,6 @@ tmp/*
 
 # ignore generated resources
 resources/*
+
+# ignore history
+.history

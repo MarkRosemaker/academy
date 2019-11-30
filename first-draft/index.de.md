@@ -4770,7 +4770,7 @@ Achtung: Im Englischen würde man "Emma's suitcase" schreiben, im Deutschen nich
 
 {{< /notice >}}
 
-Aber es gibt auch ein Apostroph im Deutschen, wenn der Name mit "s" endet, wie zum Beispiel bei *Klaus*, *Tomas* und *Lukas*:
+Aber es gibt auch ein Apostroph im Deutschen, wenn der Name mit "s" endet -- zum Beispiel bei *Klaus*, *Tomas* und *Lukas*:
 
 - Tomas ist in einem Kurs. Tomas' Kurs ist sehr interessant.
 - Thomas ist oft Lukas' Partner im Kurs.
