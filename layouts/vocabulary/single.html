@@ -225,7 +225,7 @@
             <!-- Calculate regexes. -->
             {{ range $s.Get "regexes" }}
                 <!-- Make it possible for words to be in between. -->
-                {{ $reg := . | replaceRE "\\s+" " [^\\\\.\\\\?!:]*?" }}
+                {{ $reg := . | replaceRE "\\s+" " [^\\\\.\\\\?!:\\\\(\\\\)]*?" }}
 
                 <!--
                     Add word end signifier.

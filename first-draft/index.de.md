@@ -1354,7 +1354,46 @@ TODO
 
 - [x] Satzmelodie in kurzen Aussagesätzen und Fragen Phonetik 1
 
-## Rhythmus in Wort und Satz
+## Rhythmus in Wort und Satz #meta
+
+Jedes deutsche Wort hat einen bestimmten Rhythmus.
+
+**Der richtige Rhythmus ist sehr wichtig und macht einen großen Unterschied, wenn du wie ein Muttersprachler klingen möchtest.**
+
+Ich stelle dir in diesem Kurs Tonaufzeichnungen zur Verfügung, sodass du hörst, wie ich die Wörter ausspreche und welche Silben ich betone.
+
+Du lernst also den Rhythmus, indem du **gut zuhörst**. Achte genau darauf, wie ich die Wörter ausspreche.
+
+Überprüfe dich ab und zu: Achte darauf, wie ich die Wörter sage und spreche sie nach. Nimm am besten deine Stimme (mit deinem Handy) auf und vergleiche.
+
+Lass uns einmal explizit ein paar Wörter üben:
+
+- der Be**ginn**
+- der **Mor**gen
+- der **Vor**mittag
+- die **Nacht**
+- der Ge**burts**tag
+- der Ter**min**
+- der **Fei**ertag
+- der Ka**len**der
+- das **Jahr**
+- der **Mo**nat
+
+Du siehst, es gibt keine Faustregel. Merke dir den Rhythmus, wenn du ein Wort zum ersten Mal hörst.
+
+{{< notice "Tipp" "Klopfe mit!" >}}
+
+Klopfe den Rhythmus, um ihn explizit zu lernen.
+
+Du kannst zum Beispiel bei einer unbetonte Silbe mit dem Finger auf den Tisch tippen und bei einer betonten (lauten) Silbe auf den Tisch mit der Faust klopfen.
+
+{{< /notice >}}
+
+{{< notice "Hinweis" "Gut zu wissen" >}}
+
+Auch wenn das Wort genauso geschrieben wird wie in einer anderen Sprache, kann es einen anderen Rhythmus haben. Vergleiche das Englische Wort "Ja**pan**" mit dem deutschen "**Ja**pan.
+
+{{< /notice >}}
 
 - [ ] Rhythmus in Wort und Satz Phonetik 2
 
@@ -2536,7 +2575,7 @@ Um halb zehn, also neun Uhr dreißig (9:30) verlässt Emma den Flughafen. Sie wi
 
 https://pixabay.com/photos/parking-autos-park-vehicles-4615361/
 
-## Wann? Wie spät ist es? Teil 1 #meta
+## Wann? Wie spät ist es? Teil 1: einfache Zeitangaben machen #meta
 
 Im Deutschen kannst du die Uhrzeit auf verschiedene Arten und Weisen sagen.
 
@@ -2547,18 +2586,27 @@ Wenn es aus dem Zusammenhang klar ist, das es am Nachmittag ist, kannst du es oh
 
 Eine Viertel Stunde früher oder später kannst du sagen:
 
-- Es ist viertel vor drei (14:45 Uhr).
-- Es ist viertel nach drei (15:15 Uhr).
+- Es ist **viertel vor drei** (14:45 Uhr).
+- Es ist **viertel nach drei** (15:15 Uhr).
 
-## Wann? Wie spät ist es?
+Aber Achtung! Wir sagen nicht "<del>halb vor drei</del>". Stattdessen sagen wir "**halb drei**" (14:30 Uhr). Du sagst also "halb" und dann *die nächste Stunde*.
 
-## Wann? Wie spät ist es? Teil 3: viertel, halb, drei viertel #meta
+Du kannst auch eine genaue Minutenzahl vor und nach einer Stunde angeben.
+
+- Es ist **fünf (Minuten) vor drei** (14:55 Uhr).
+- Es ist **sieben (Minuten) nach drei** (15:07 Uhr).
+
+Jeder Deutsche versteht diese Zeitangaben. In manchen Regionen von Deutschland sagen die Leute es jedoch ein bisschen anders. Darüber sprechen wir in der nächsten Lektion.
+
+## Wann? Wie spät ist es? Teil 2: viertel drei, drei viertel drei #meta
 
 Jetzt wird es ein bisschen kompliziert:
 
 - Es ist viertel drei (14:15 Uhr).
 - Es ist halb drei (14:30 Uhr).
 - Es ist drei viertel drei (14:45 Uhr).
+
+Warum sagt man das so?
 
 Es gibt eine einfache Erklärung: Um Mitternacht (0:00 Uhr) **fängt die erste Stunde des Tages an**. Um ein Uhr (1:00) ist **die erste Stunde des Tages um**.
 
@@ -2590,8 +2638,7 @@ TODO script that shows
 - date picker to show any other date and time
 - type in place -> Berlin, der
 
-- [ ] Uhrzeiten: offizielle und inoffiziell Übungsbuchteil Lektion 2
-- [ ] Monate, Datum, Jahreszeiten und Jahreszahlen verstehen und nennen Kursbuch Lektion 2
+- [ ] **Monate**, **Datum**, **Jahreszeiten** und **Jahreszahlen** verstehen und nennen Kursbuch Lektion 2
 - [ ] Ordinalzahlen (Datum) und Jahreszahlen Übungsbuchteil Lektion 2
 - [ ] Jahreszahlen und Monatsnamen Übungsbuchteil Lektion 2
 
@@ -2601,7 +2648,55 @@ In jedem Anruf fragen, welcher Tag es sit
 
 ## Wann? Um wie viel Uhr? #quiz
 
-TODO hören und auswählen
+Welche Uhrzeiten hörst du? Kreuze *alle* richtige Antworten an.
+
+1. Es ist drei Uhr.
+  - true:3:00 Uhr
+  - true:15:00 Uhr
+  - false:0:03 Uhr
+  - false:13:00 Uhr
+2. Der Termin ist um drei viertel vier.
+   - true:15:45 Uhr
+   - false:15:15 Uhr
+   - false:16:45 Uhr
+   - false:4:45 Uhr
+3. "Wie spät ist es?" "Einen Moment. Es ist halb sieben."
+   - true:18:30 Uhr
+   - false:7:30 Uhr
+   - false:19:30 Uhr
+   - false:6:07 Uhr
+4. Es ist zehn Uhr fünf.
+   - true:10:05 Uhr
+   - true:22:05 Uhr
+   - false:5:10 Uhr
+   - false:17:10 Uhr
+5. Die genaue Uhrzeit ist vierzehn Uhr dreiundfünfzig.
+   - true:14:53 Uhr
+   - false:14:35 Uhr
+   - false:2:35 Uhr
+   - false:4:53 Uhr
+6. Die Uhr sagt dreizehn Uhr fünfundvierzig.
+   - true:13:45 Uhr
+   - false:Uhr 13:45
+   - false:3:45 Uhr
+   - false:13:54 Uhr
+7. Es ist zwölf Uhr siebzehn.
+   - true:12:17 Uhr
+   - false:0:17 Uhr
+   - false:12:70 Uhr
+   - false:17:15 Uhr
+8. Es ist fünf vor zwölf.
+   - true:11:55 Uhr
+   - false:12:05 Uhr
+   - false:4:48 Uhr
+   - false:5:12 Uhr
+9.  Es ist genau null Uhr.
+   - true:0:00 Uhr
+   - true:Mitternacht
+   - false:Mittag
+   - false:Nacht
+
+- [x] Uhrzeigen verstehen und sagen: formell/informell Kursbuch Lektion 2
 
 ## Emma erster Tag bei ihren Verwandten
 
@@ -2626,6 +2721,59 @@ Emma ist Vegetarierin. "Gibt es auch etwas ohne Fleisch?"
 Emmas Onkel hat sogar Fische und ein paar Kartoffeln gegrillt: "Bei einer deutschen Mahlzeit dürfen Kartoffeln nicht fehlen!", sagt er.
 
 Das ist eine der kulturellen Eigenarten, die Emma auch bemerkt hat. Immer gibt es Kartoffeln: Schweinefleisch mit Kartoffeln, Kartoffeln mit Leinöl, Suppe mit Kartoffeln – und natürlich Pommes. Bei fast jedem berühmten deutschen Gericht sind Kartoffeln dabei.
+
+## Im Haushalt der Schmidts: Annas Haushaltsplan #quiz
+
+Tante Anna macht viel im Haushalt. Also hat sie einen Plan gemacht. Welche Wörter passen in die Lücken?
+
+{{<quiz "drag and drop">}}
+
+- 5:30 Uhr: [aufstehen]
+- 5:30 Uhr: Spanisch [lernen]
+- nur an Wochentagen
+  - 6:30 Uhr: Frühstück [machen] und den Tisch [decken]
+  - 6:45 Uhr: die Kinder [wecken]
+  - 7:00 Uhr: mit den Kindern Frühstück [essen]
+  - 7:30 Uhr: zur Arbeit [gehen]
+- am Wochenende
+  - 6:30 Uhr: beim Bäcker Brötchen [kaufen]
+  - 7:15 Uhr: ein großes Sonntagsfrühstück [machen]
+  - 8:00 Uhr: mit der Familie Frühstück [essen]
+  - am Samstag
+    - nach dem Frühstück: einen Auflug [machen]
+  - am Sonntag
+  - 11:00 Uhr: das Mittagessen [kochen]
+  - 12:00 Uhr: zu Mittag [essen]
+  - 13:00 Uhr: andere Dinge im Haushalt [machen]
+{{</quiz>}}
+
+
+## Im Haushalt der Schmidts: Annas Aktivitäten #quiz
+
+Erinnerst du dich an Annas Plan? Welche Wörter passen in die Lücken? Falls du Probleme hast, dann gehe zurück und schaue nach.
+
+{{<quiz "fill in">}}
+
+Am Morgen [steht] Anna früh [auf]: um halb sechs!
+
+Als erstes [lernt] sie Spanisch, damit sie es nicht vergisst und jeden Tag ein bisschen Zeit investiert.
+
+An Wochentagen [macht] sie um halb sieben Frühstück und [deckt] den Tisch für die Familie.
+
+Um drei viertel sieben [weckt] sie die Kinder. Eine Viertel Stunde später [isst] sie mit den Kindern Frühstückt. Danach [geht] sie zur Arbeit.
+
+Am Wochenende geht sie stattdessen zum Bäcker und [kauft] Brötchen und [macht] damit ein großes Sonntagsfrühstück.
+Um ca. acht Uhr, oft später, [isst] sie mit ihrer Familie Frühstück.
+
+Am Samstag [macht] sie mit der Familie einen Ausflug.
+
+Am Sonntag ist sie zu Hause und [kocht] um elf das Mittagessen. Mittags [isst] sie das Mittagessen mit ihrer Familie und [macht] danach andere Dinge im Haushalt.
+
+Das ist eine typische Woche für Anna.
+
+{{</quiz>}}
+
+
 
 ## Emma erzählt von ihrer Familie
 
@@ -2828,6 +2976,12 @@ TODOLATER (skip in MVP)
 
 schöne Bilder: https://de.wikipedia.org/wiki/Jahreszeit
 
+Schaue dir die Bilder an. Welche Jahreszeit passt zu welchem Bild?
+
+Welche Monate passen zu den Jahreszeiten?
+
+
+- [x] Monate, Datum, **Jahreszeiten** und Jahreszahlen verstehen und nennen Kursbuch Lektion 2
 - [ ] Farben Jahreszeiten zuordnen Übungsbuchteil Lektion 7
 
 ## Jochens Jahresplan
@@ -4691,6 +4845,24 @@ Verneine die folgenden Sätze:
 
 - [x] Verneinung: "nicht" und "kein" Grammatik Lektion 2
 
+## Man muss auch mal "nein" sagen können #quiz
+
+Im Leben muss man auch mal "nein" sagen. Das ist der beste Zeitmanagement-Trick!
+
+Verneine die folgenden Fragen:
+
+{{<quiz "fill in">}}
+
+- "Hast du Zeit?" "Nein, ich habe keine Zeit."
+- "Hast du viele Termine?" "[Nein, ich habe keine Termine.]"
+- "Kannst du heute?" "[Nein], ich kann heute [nicht]."
+- "Ist es spät?" "[Nein, es ist nicht spät.]"
+- "Geht es dir gut?" "[Nein, mir geht es nicht gut.]"
+- "Hast du morgen Zeit?" "[Nein, ich habe morgen keine Zeit.]"
+- "Passt Donnerstagnachmittag?" "[Nein, Donnerstagnachmittag passt nicht.]"
+
+{{</quiz>}}
+
 ## Nominativ und Akkusativ #quiz
 
 Was ist Nominativ? Was ist Akkusativ?
@@ -4851,6 +5023,8 @@ TODO Wortstellung zufällig, müssen in richtige Position bringen und *aufschrei
 TODO Was ist falsch? Korrigiere die Fehler.
 
 # Probeprüfung
+
+# Wortliste
 
 Abfahrt. Abfahrten.
 Abflug. Abfluge. Abfluges. Abflugs. Abflüge. Abflügen.
@@ -5014,6 +5188,18 @@ Zoll. Zolles. Zolls. Zölle. Zöllen.
 zweitausendvierzehn.
 überweis. überweise. überweisen. überweist. überwies. überwiese. überwiesen.
 
+
+# Ideen
+
+- Meditation
+- Grundgesetz
+- Pokemon https://www.youtube.com/watch?v=s2119-wrJo0
+- Geschichten
+  - Die Unendliche Geschichte
+  - Schneewittchen
+  - Rumpelstilzchen
+
+
 - idea: split into multiple courses, give guarantee only if they get all of them
   - Immersionskurs für Änfänger (Deutsch A1)
     - inkl. Deutschlernen mit Gedichten (Deutsch A1)
@@ -5033,6 +5219,9 @@ zweitausendvierzehn.
     - inkl. Das verflixte Wort! -> Bilder von Pixabay, Bedeutung, Beispiele von Wiktionary
 - falls sie etwas nicht verstehen, ist es **meine Verantwortung**!
 - code AGL app
+  - quizzes
+   - find words in a word puzzle (squares)
+   - combine parts of a word to words
   - first, just interface to access YouTube videos, articles and other free content; with tab to buy things (first via link, then integrated in the app)
   - then publish courses via the app: activated via key
     - filter by category - let user pick a setting (more grammar or less grammar), then let them go step by step by selecting appropriate sequence and repetition
@@ -5061,16 +5250,6 @@ zweitausendvierzehn.
   - schwer: die passendste Formulierung oh-ne Rücksicht auf Wortschatz
 - wenn Audio durch Video ersetzt wird -> Audio mit alten Einheiten in ein Archiv (extra Lektion), dass sie auch bekommen
 - some lessons are for Hörverständnis -> hide text at first and let them know not to read until they've done the next exercise
-
-# Ideen
-
-- Meditation
-- Grundgesetz
-- Pokemon https://www.youtube.com/watch?v=s2119-wrJo0
-- Geschichten
-  - Die Unendliche Geschichte
-  - Schneewittchen
-  - Rumpelstilzchen
 
 ## Deutschlernen mit Gedichten: Was die Waschmaschine sagt
 
@@ -5275,7 +5454,7 @@ Diese Episode in der Geschichte war das Resultat von Menschen, die **groß** dac
 
 Vieles ist möglich. Alles ist möglich, was nicht den Gesetzten der Physik widerspricht.
 
-Es war möglich, jede einzelne Minute ein Flugzeug landen zu lassen. Es war möglich, Menschen auf den Mond zu schicken. Es war möglich, einen Roboter zum Mars zu schicken. Es war möglich, die Voyager-Probe mehr als .... km weit von der Erde zu schicken.
+Es war möglich, jede einzelne Minute ein Flugzeug landen zu lassen. Es war möglich, Menschen auf den Mond zu schicken. Es war möglich, einen Roboter zum Mars zu schicken. Es war möglich, die Voyager-Probe mehr als 22 Milliarden Kilometer weit von der Erde zu schicken.
 
 Es ist uns möglich, den Mond zu kolonisalisieren. Es ist uns möglich, Menschen zum Mars zu schicken und auch diesen Planeten zu kolonisalisieren.
 

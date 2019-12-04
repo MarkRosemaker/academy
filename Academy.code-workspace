@@ -8,6 +8,14 @@
       "path": "C:/Users/Marco/OneDrive/Dokumente/GitHub/Generic Project Template"
     }
   ],
+  "extensions": {
+	  "recommendations": [
+		  // for writing
+		  "yzhang.markdown-all-in-one",
+		  "rido3.wordcount",
+		  "fabiospampinato.vscode-highlight"
+	  ]
+  },
   "settings": {
     "workbench.colorTheme": "Visual Studio Light", // better highlighting for writing
     "breadcrumbs.symbolSortOrder": "position",
@@ -1878,7 +1886,7 @@
           "backgroundColor": "lightgreen"
         }
       ],
-      "(\\bmitnehmen\\b|\\bnehmt [^\\.\\?!:]*?mit\\b|\\bnimm [^\\.\\?!:]*?mit\\b|\\bnähme [^\\.\\?!:]*?mit\\b|\\bmitgenommen\\b|\\bnimmst [^\\.\\?!:]*?mit\\b|\\bnimmt [^\\.\\?!:]*?mit\\b|\\bnehme [^\\.\\?!:]*?mit\\b|\\bnahm [^\\.\\?!:]*?mit\\b)": [
+      "(\\bmitnehmen\\b|\\bnehmt [^\\.\\?!:]*?mit\\b|\\bnimm [^\\.\\?!:(]*?mit\\b|\\bnähme [^\\.\\?!:]*?mit\\b|\\bmitgenommen\\b|\\bnimmst [^\\.\\?!:]*?mit\\b|\\bnimmt [^\\.\\?!:]*?mit\\b|\\bnehme [^\\.\\?!:]*?mit\\b|\\bnahm [^\\.\\?!:]*?mit\\b)": [
         {
           "backgroundColor": "lightgreen"
         }
