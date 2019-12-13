@@ -6,7 +6,7 @@ weight = 0
 categories = [] # 'mindset', 'immersion', 'meta', 'quiz'
 draft = true
 spellchecked = false
-audio = ''
+audio = ''"
 +++
 
 # Kurzanleitung und Motivation
@@ -367,6 +367,8 @@ In dieser Lektion hast du gelernt, wie man andere vorstellt.
 
 ## Stelle dich vor! #quiz
 
+TODO
+
 {{< notice type="Erfolg" >}}
 
 In diesem Quiz hast du gelernt, wie du dich und andere vorstellst.
@@ -525,7 +527,7 @@ In der Küche:
 - der Kaffee
 
 {{< notice type="Tipp" >}}
-Wir kürzen den Plural ab. Wir schreiben zum Beispiel "die Flasche, -n" als Kurzform für: "die Flasche, Plural: die Flaschen", "das Glas, -ä, -er" für "das Glas, Plural: die Gläser" und "der Computer, –" für "der Computer, Plural: die Computer".
+Wir kürzen den Plural ab. Wir schreiben zum Beispiel "die Flasche, -n" als Kurzform für: "die Flasche, Plural: die Flaschen", "das Glas, -ä, -er" (oder "das Glas, ⸚er) für "das Glas, Plural: die Gläser" und "der Computer, –" für "der Computer, Plural: die Computer".
 
 (Der Artikel im Nominativ für den Plural ist übrigens immer "die".)
 {{< /notice >}}
@@ -911,153 +913,16 @@ Solltest du Probleme beim Einrichten einer deutschen Tastatur haben, dann schrei
 
 TODO audio, similar to H5P 452906
 
-## Explizite Grammatik auf einen Blick: das Verb *sein* - ich bin, du bist, ... #meta
+## Explizite Grammatik #meta
 
-Ein Verb ist im **Präsens** (in der Gegenwart), wenn es *jetzt* passiert.
+Ab diesem Punkt wunderst du ich vielleicht, wie die Grammatik im Deutschen funktioniert.
 
-Dies ist das unregelmäßige Verb *sein* im Präsens.
+Kein Problem, ich habe einen Grammatik-Kurs für dich vorbereitet, den du parallel belegen kannst. Mein Rat ist folgender:
 
-|      Person | Wortform |
-| ----------: | :------- |
-|         ich | bin      |
-|          du | bist     |
-| er, sie, es | ist      |
-|         wir | sind     |
-|         ihr | seid     |
-|     sie/Sie | sind     |
+1. Mache den ganzen Immersionskurs und errate die Grammatikstrukturen.
+2. Mache den Immersionskurs noch einmal und mache parallel dazu den Grammatikkurs.
 
-Es ist natürlich ein sehr wichtiges Wort.
-Am Ende des Kurses wirst du es gut kennen.
-
-Du brauchst diese Tabelle nicht auswendig zu lernen. Achte nur darauf, wenn du einen deutschen Text liest und lerne die Wortformen implizit.
-
-## Explizite Grammatik auf einen Blick: regelmäßige Verben im Präsens #meta
-
-Erinnerst du dich an die Lektion [Lerne spielerisch Deutsch! #mindset](#lerne-spielerisch-deutsch-mindset)?
-
-Wenn du mit dieser Methode lernst, dann hast du bestimmt schon ein paar Tabellen gesehen.
-
-Hier ist die Tabelle für das regelmäßige Verb "lern**en**":
-
-|      Person | Wortform   |
-| ----------: | :--------- |
-|         ich | lern**e**  |
-|          du | lern**st** |
-| er, sie, es | lern**t**  |
-|         wir | lern**en** |
-|         ihr | lern**t**  |
-|     sie/Sie | lern**en** |
-
-"Lern" nennt man den **Wortstamm**.
-
-{{< notice "Hinweis" >}}
-
-Dies ist ein klare Muster.
-
-**Fast jedes regelmäßige Verb hat dieses Muster.**
-
-Die einzigen Ausnahmen:
-
-- Wenn der Wortstamm mit "t" endet, dann fügt man ein extra "e" vor "st" und "t" ein:
-  - du arbeit**est**
-  - er, sie, es arbeit**et**
-  - ihr arbeit**et**
-- Wenn der Wortstamm mit "s" oder "ß" endet, gibt es kein extra "s":
-  - du heiß**t**
-  - er, sie, es heiß**t**
-  - ihr heiß**t**
-
-{{< /notice >}}
-
-{{< notice "Tipp" >}}
-
-Nicht vergessen: Du lernst die deutsche Grammatik am Besten, wenn du sie *implizit* lernst.
-Achte also gut auf diese Endungen, während du deutsche Wörter hörst und liest.
-
-Klicke oft auf Verben, um die Tabelle zu sehen.
-
-{{< /notice >}}
-
-{{< notice "Erfolg" >}}
-
-In dieser Lektion hast du regelmäßige Verben im Präsens gelernt.
-
-{{< /notice >}}
-
-- [x] regelmäßige Verben im Präsens Grammatik Lektion 1
-
-## Explizite Grammatik auf einen Blick: das Verb *haben* - ich habe, du hast, ... #meta
-
-Dies ist das unregelmäßige Verb *sein* im Präsens.
-
-|      Person | Wortform  |
-| ----------: | :-------- |
-|         ich | hab**e**  |
-|          du | ha**st**  |
-| er, sie, es | ha**t**   |
-|         wir | hab**en** |
-|         ihr | hab**t**  |
-|     sie/Sie | hab**en** |
-
-Du siehst, dass es fast wie ein regelmäßiges Verb gebildet wird. Bei *du hast* und *er, sie, es hat* fehlt das "b".
-
-- [x] "sein" im Präsens Grammatik Lektion 1
-
-## Vervollständige die Verben! #quiz
-
-Wie sind die Endungen dieser Verben?
-
-- kommen
-- arbeiten
-- lernen
-- heißen
-- haben
-
-TODO h5p
-
-## Explizite Grammatik: regelmäßige Verben im Perfekt TODO kann auch später kommen
-
-In einer früheren Lektion **hast** du regelmäßige Verben im Präsens **gelernt**.
-
-Was bedeutet "hast ... gelernt"? Es bedeutet, dass du es in der Vergangenheit gemacht hast.
-
-Das Perfekt hat zwei Komponenten:
-
-- das Partizip II
-- und das Hilfsverb.
-
-### Das Partizip II
-
-Bei regelmäßigen Verben (ohne Präfix) fängt das Partizip II mit *ge* and und endet mit *t* (oder *et*).
-
-Das Partizip II von *lernen* ist also "**ge**lern**t**" und das Partizip II von *arbeiten* ist "**ge**arbeit**et**". (Wie "er lernt" und "er arbeitet", nur mit *ge* am Anfang!)
-
-### Das Hilfsverb
-
-Das Hilfsverb ist entweder *haben* oder *sein*. Das Hilfsverb muss man sich für jedes Verb merken. Du findest es in der Tabelle, wenn du auf ein Wort klickst.
-
-Das Hilfsverb für *lernen* und *arbeiten* ist *haben*. Das Hilfsverb für *reisen* ist *sein*.
-
-Das Partizip II bleibt für jede Person (ich, du, etc.) gleich, aber das Hilfsverb beugen wir wie im Präsens.
-
-### Das Perfekt
-
-Insgesamt haben wir also folgendes:
-
-- Ich habe gelernt. Du hast gelernt. Sie hat gelernt.
-- Ich habe gearbeitet. Du hast gearbietet. Es hat gearbeitet.
-- Ich bin gereist. Du bist gereist. Er ist gereist.
-
-{{< notice "Tipp" >}}
-
-Nicht vergessen: Du lernst die deutsche Grammatik am Besten, wenn du sie *implizit* lernst.
-Achte also gut auf Verben im Perfekt, während du deutsche Wörter hörst und liest.
-
-Klicke oft auf Verben, um die Tabelle zu sehen.
-
-{{< /notice >}}
-
-- [x] regelmäßige Verben im Perfekt Grammatik Lektion 4
+Alternativ kannst du auch bestimmte Lektionen im Grammatikkurs nachschlagen, wenn du neugierig bist. Ich empfehle auf jeden Fall, den Immersionskurs zweimal (oder besser dreimmal) zu machen un den Grammatikkurs mindestens einmal.
 
 ## Akzeptiere Fehler mit offenen Armen! #mindset
 
@@ -1110,7 +975,9 @@ Schreibe das Vaterunser auf deinen Spickzettel.
 Bravo! In dieser Lektion hast du wieder grundlegende Grammatik gelernt, indem du Muster erkennst, statt Regeln auswendig zu lernen.
 {{< /notice >}}
 
-## Neue Laute #meta
+## Neue Laute! #meta
+
+TODO export to Phonetik-Kurs, hier nur kurze Notiz darüber
 
 Du bist höchstwahrscheinlich schon mit fast allen Sprachlauten vertraut, die im Deutschen vorkommen: a, e, i, o, u, k, t, l, sch und so weiter.
 
@@ -1214,7 +1081,7 @@ Modalverben erlauben dir schon jetzt, einfach zu kommunizieren.
 
 Deutsche Verben werden konjugiert. Das bedeutet, die Verben werden je nach Subjekt und Zeitform verändert.
 
-Mit Modalverben kannst du ein bisschen schummeln: Du brauchst nur das Modalverben zu konjugieren und das andere Verb bleibt im Infinitiv, also unverändert.
+Mit Modalverben kannst du ein bisschen schummeln: Du brauchst nur die Modalverben zu konjugieren und das andere Verb bleibt im Infinitiv, also unverändert.
 
 Zum Beispiel:
 
@@ -1243,12 +1110,18 @@ So brauchst du dir nur die erste Person Singular von
 - "sollen" (ich soll)
 - und "dürfen" (ich darf)
 
-merken.
+zu merken.
 
 {{< notice type="Erfolg" >}}
 In dieser Einheit hast du Sprachmuster gelernt, die dir am Anfang als Stütze zur Kommunikation helfen.
 
 So kannst du schon jetzt viele Dinge auf Deutsch sagen! Zum Beispiel: "Ich möchte Deutsch lernen!"
+{{< /notice >}}
+
+{{< notice "Ressource" >}}
+
+Schaue dir den Spickzettel an, um weitere Beispiele und Erklärungen zu lesen.
+
 {{< /notice >}}
 
 {{< notice type="Hinweis" >}}
@@ -1258,6 +1131,8 @@ Selber sprechen gibt dir (laut dem Sprachwissenschaftler Prof. Krashen) keine zu
 
 Aber, falls du doch einmal sprechen möchtest, hast du mit den Modalverben ein nützliches Muster.
 {{< /notice >}}
+
+TODOLATER Übung für die Modalverben (Seite 92)
 
 ## Die Aussprache des Alphabets #meta
 
@@ -1327,81 +1202,7 @@ Kommst du aus Portugal? Nein. Ich komme aus Brasilien.
 
 TODO
 
-# Phonetik: Satzmelodie, Betonung, Akzent, Laute
-
-TODO
-
-## Warum Phonetik studieren?
-
-TODO so hörst du dich wie ein Muttersprachler an foobar
-
-## So lernst du den Akzent und die Betonung #meta
-
-TODO
-http://www.fluentin3months.com/a-accent/
-pitch, rise, fall, and stress of your words -> mimic the musicality of sentence right from the start
-http://www.mimicmethod.com/
-
-## Satzmelodie in deutschen Sätzen
-
-TODO
-
-- Aussagesatz am Ende nach unten
-- W-Frage am Ende nach unten
-- Ja/Nein-Frage am Ende nach oben
-- und dir?/und Ihnen? nach oben
-- c.f. p. 83
-
-- [x] Satzmelodie in kurzen Aussagesätzen und Fragen Phonetik 1
-
-## Rhythmus in Wort und Satz #meta
-
-Jedes deutsche Wort hat einen bestimmten Rhythmus.
-
-**Der richtige Rhythmus ist sehr wichtig und macht einen großen Unterschied, wenn du wie ein Muttersprachler klingen möchtest.**
-
-Ich stelle dir in diesem Kurs Tonaufzeichnungen zur Verfügung, sodass du hörst, wie ich die Wörter ausspreche und welche Silben ich betone.
-
-Du lernst also den Rhythmus, indem du **gut zuhörst**. Achte genau darauf, wie ich die Wörter ausspreche.
-
-Überprüfe dich ab und zu: Achte darauf, wie ich die Wörter sage und spreche sie nach. Nimm am besten deine Stimme (mit deinem Handy) auf und vergleiche.
-
-Lass uns einmal explizit ein paar Wörter üben:
-
-- der Be**ginn**
-- der **Mor**gen
-- der **Vor**mittag
-- die **Nacht**
-- der Ge**burts**tag
-- der Ter**min**
-- der **Fei**ertag
-- der Ka**len**der
-- das **Jahr**
-- der **Mo**nat
-
-Du siehst, es gibt keine Faustregel. Merke dir den Rhythmus, wenn du ein Wort zum ersten Mal hörst.
-
-{{< notice "Tipp" "Klopfe mit!" >}}
-
-Klopfe den Rhythmus, um ihn explizit zu lernen.
-
-Du kannst zum Beispiel bei einer unbetonte Silbe mit dem Finger auf den Tisch tippen und bei einer betonten (lauten) Silbe auf den Tisch mit der Faust klopfen.
-
-{{< /notice >}}
-
-{{< notice "Hinweis" "Gut zu wissen" >}}
-
-Auch wenn das Wort genauso geschrieben wird wie in einer anderen Sprache, kann es einen anderen Rhythmus haben. Vergleiche das Englische Wort "Ja**pan**" mit dem deutschen "**Ja**pan.
-
-{{< /notice >}}
-
-- [ ] Rhythmus in Wort und Satz Phonetik 2
-
 # Meine \"deutsche\" Wohnung
-
-## Die Gegenwart: Verben im Präsens
-
-regelmäßige Verben im Präsens TODO
 
 ## Der Eingang
 
@@ -1564,6 +1365,8 @@ Als es dies gehört hatte, floh das Schaf auf das Feld.
 Was fällt dir auf? Mache eine Tabelle aller Lautverschiebungen, die du in der Geschichte findest.
 {{< /notice >}}
 
+TODOLATER Internationalismen auf p. 100
+
 ## Deutschlernen mit Gedichten: Das Hexeneinmaleins von Goethe
 
 TODO
@@ -1689,7 +1492,7 @@ Schlager ist Popmusik mit einfachen Texten. Schlager sind ein typisch deutsches 
 
 {{<youtube "7ZkejDqTuSM">}}
 
-*Lena Meyer-Landrut* macht Popmusik und gewann mit dem Lied *Satellite* 2010 den Eurovision Song Contest.
+Die Sängerin *Lena Meyer-Landrut* macht Popmusik und gewann mit dem Lied *Satellite* 2010 den Eurovision Song Contest.
 
 {{<youtube "7pL9vdpSvnY">}}
 
@@ -1716,6 +1519,67 @@ Andere Rapper wie *CRO* machen freundlichere Musik.
 {{<youtube "8WQMBv2deYQ">}}
 
 Welche Art von Musik gefällt dir? Welche Lieder gefallen dir sehr?
+
+## Männerberufe? Von wegen! #meta
+
+Im Deutschen weißt du immer, ob es eine Frau oder ein Mann ist: Wenn wir über Frauen sprechen, fügen wir ein "-in" am Ende des Wortes hinzu.-
+
+Ein Beispiel: Ich bin ein Lehrer. Eine Frau, die denselben Beruf macht ist eine Lehrerin.
+
+Wenn wir über eine Gruppe sprechen und in der Gruppe sind Männer (und Frauen), dann sagen wir den Plural der männlichen Version, hier: "Lehrer".
+
+{{< notice "Hinweis" >}}
+
+Es ist nur Zufall, dass der Plural und Singular von "Lehrer" gleich ist.
+
+Gegenbeispiele: Architekt**en**, Journalist**en**, Praktikant**en**.
+
+{{< /notice >}}
+
+Wenn in der Gruppe aber nur Frauen sind, dann sagen wir den Plural der weiblichen Version, hier: "Lehrerinnen".
+
+(Die Sprache ist also ein bisschen sexistisch, denn 99 Frauen sind Lehrerinnen, aber 99 Frauen und ein Mann sind "Lehrer".)
+
+|              | weiblich   | männlich            |
+| -----------: | ---------- | ------------------- |
+| **Singular** | der Lehrer | die Lehrer**in**    |
+|   **Plural** | die Lehrer | die Lehrer**innen** |
+
+### Weitere Beispiele
+
+Eine Frau, die Häuser plant, ist eine Architekt**in**. Ein Mann, der Häuser plant, ist ein Architekt.
+
+Sie beide sind Architekt**en**. Die Frau und ihre Kolleginnen sind Architekt**innen**.
+
+Jemand, der mit Computern arbeitet ist ein Informatiker oder eine Informatiker**in**.
+
+Frauen, die mit Computern arbeiten, sind Informatiker**innen**. Männer, die mit Computern arbeiten, sind Informatiker.
+
+{{<quiz "fill in">}}
+
+Schreibe die richtigen Wörter in die Lücken.
+
+Ein Mann, der etwas verkauft, ist ein Verkäufer. Eine Frau, die etwas verkauft, ist eine [Verkäuferin].
+Diese Frau ist die **Kollegin** des Mannes.
+
+Viele Menschen sind Verkäufer. Es gibt auch viele Frauen mit diesem Beruf, also [Verkäuferinnen].
+
+Eine Journalistin recherchiert Informationen für eine Zeitung, das Radio, das Fernsehen oder ein anderes Medium. Ein männlicher Kollege ist ein [Journalist].
+
+All diese Menschen haben männliche Kollegen und weibliche [Kolleginnen].
+
+Jemand, der nur ein Praktikum macht, ist kein Kollege, aber ein Praktikant oder eine [Praktikantin]. Frauen, die Praktika machen, nennt man [Praktikantinnen]
+
+{{</quiz>}}
+
+{{< notice "Hinweis" "Gut zu wissen" >}}
+
+Der Plural einer weiblichen Form ("-in") ist immer "-innen".
+
+{{< /notice >}}
+
+- [x] Berufe verstehen Kursbuch Lektion 3
+- [x] Berufsbezeichnungen Übungsbuchteil Lektion 3
 
 ## Über Musikstile sprechen #coaching
 
@@ -1753,9 +1617,11 @@ Manche Leute haben keinen (offiziellen) Beruf.
 - Studentinnen und Studenten studieren an einer Universität.
 - Ein Hausmann oder eine Hausfrau wäscht, kocht und kauft ein.
 
+
+- [x] Berufe verstehen Kursbuch Lektion 3
+
 ## Was ist dein Beruf? Was machst du? #quiz
 
-TODO Berufe verstehen alt Lektion 3
 
 ## Berufe in Deutschland #quiz
 
@@ -1899,7 +1765,10 @@ Morgen ist Montag. Ich bin nicht traurig, denn ich liebe meine Arbeit.
 
 ## Wie war dein Wochenende?
 
-TODO über sein Wochenende sprechen alt Lektion 5
+TODOLATER
+
+- [ ] über sein Wochenende sprechen Kursbuch Lektion 5
+
 
 ## Was weißt du über Jochen? #quiz
 
@@ -1994,7 +1863,7 @@ TODO
 
 TODO 2019-06-26-bundeshaushalt-grafik.png
 
-- [ ] über Tortendiagramm mit Prozentzahlen sprechen Kursbuch Lektion 3
+- [ ] über Tortendiagramm mit Prozentzahlen sprechen Kursbuch Lektion 3 TODOLATER
 
 TODO haustiere-heimtiere-grafik104.png
 
@@ -2006,11 +1875,13 @@ https://de.statista.com/statistik/daten/studie/290890/umfrage/altersverteilung-v
 
 ## Die Schweiz: Sprache
 
-TODO Gruezi: sich in DACH begrüßen und verabschieden alt Lektion 1 Übungsbuch
+TODOLATER
+- [x] sich in DACH begrüßen und verabschieden Übungsbuchteil Lektion 1 #2
 
 ## Die Schweiz: Kultur
 
-TODO über kulturelle Besonderheiten bei Einladungen sprechen alt Lektion 7
+TODO
+- [ ] über kulturelle Besonderheiten bei Einladungen sprechen Kursbuch Lektion 7
 
 ## Österreich
 
@@ -2068,8 +1939,31 @@ Ilse ist die Mutter von Emmas Vater. Die Großeltern mütterlicherseits, also di
 
 Schließlich hat Emma einen Onkel, das ist der Bruder ihrer Mutter. Ihr Onkel heißt Jochen.
 
-Erstelle jetzt deinen eigenen Stammbaum! Nimm ein großes Blatt Papier, zeichne deinen Stammbaum und klebe Fotos von deinen Familienmitgliedern darauf. Schreibe unter jedem Foto den Namen des oder der Verwandten und was sie für dich sind: Onkel, Tanke, Mutter, Vater, Cousin, Cousine etc.
+Erstelle jetzt deinen eigenen Stammbaum! Nimm ein großes Blatt Papier, zeichne deinen Stammbaum und klebe Fotos von deinen Familienmitgliedern darauf.
+
+Schreibe unter jedem Foto den Namen des oder der Verwandten und was sie für dich sind: Onkel, Tanke, Mutter, Vater, Cousin, Cousine etc.
+
 Alternativ kannst auch ein Familienfoto finden und aufschreiben, wie jede Person auf dem Bild zu dir steht.
+
+- [x] über die Familie sprechen Kursbuch Lektion 3
+- [x] Familienmitglieder Übungsbuchteil Lektion 3
+
+## Dein Familienstammbaum #coaching
+
+- Schüler über ihre Familie ausfragen, Namen mit
+  - Leben deine Großeltern noch?
+  - Wie heißt dein Vate? Wie heißt deine Mutter?
+  - Hast du Cousins und Cousinen?
+- https://www.canva.com/ -> Vorlage "Familienstammbaum"
+  - parallel erstellt jeder sein Bild
+
+- [x] über die Familie sprechen Kursbuch Lektion 3
+
+## Welches Familienmitglied ist es? #coaching
+
+
+
+- [ ] Familienmitglieder erraten und Stammbaum zeichnen Projekt 3
 
 ## Die Wörter "schon" und "erst"
 
@@ -2310,7 +2204,7 @@ Kurt Schneider"
 ## Antwort an den Vermieter
 
 Bitte um Reduzierung der Miete
-TODO Nachricht an den vermieter verstehen alt Lektion 5
+- [ ] Nachricht an den Vermieter verstehen Kursbuch Lektion 5
 
 ## Emma plant ihre Reise
 
@@ -2548,14 +2442,15 @@ Super! Jetzt kannst du sicher in einem deutschen Flugzeug fliegen.
 In dieser und der letzten Lektion hast du viele neue deutsche Wörter gelernt und die Grammatik gelernt, indem du Muster erkennst.
 {{< /notice >}}
 
-## Der Imperativ: Mache es! Lies! Schreibe! #quiz
-
-TODO Kurssprache verstehen alt Lektion 1
-TODO Anweisungen notieren, auf Anweisungen reagieren alt Lektion 6
-
 ## Anweisungen im Flugzeug folgen #quiz
 
-TODO Anweisungen verstehen und höflich nachfragen alt Lektion 6
+TODO
+- [ ] Anweisungen verstehen und höflich nachfragen Kursbuch Lektion 6
+- [ ] formelle Imperativsätze mit "Sie" Grammatik Lektion 6
+
+## formelle Imperativsätze #quiz
+
+- [ ] formelle Imperativsätze mit "Sie" Grammatik Lektion 6 #2 -> p. 52 5.
 
 ## Emma sucht ihr Gepäck
 
@@ -2644,7 +2539,38 @@ TODO script that shows
 
 ## Heute und jetzt #coaching
 
-In jedem Anruf fragen, welcher Tag es sit
+In jedem Anruf fragen, welcher Tag es ist
+
+## Ich habe meinen Plan vergessen! #quiz
+
+Marks Plan:
+
+- 6:30 Uhr: aufstehen, Hund wecken und ihm sein Medikament geben
+- 6:45 Uhr: Frühstück machen und essen
+- 12:15 Uhr: Mitagessen kochen, Tisch decken und das Essen essen
+- 20:30 Uhr: spazieren gehen
+- 21:45 Uhr: Programmiersprache Go lernen und Tee trinken
+- Samstag: Lebensmittel einkaufen
+
+Ich habe leider meinen Plan vergessen. Kannst du mir helfen?
+
+{{<quiz "fill in">}}
+
+Du [stehst] um [halb] sieben [auf].
+
+Du [weckst] deinen Hund und [gibst] ihm sein Medikament.
+
+Um viertel [vor] sieben [machst] du Frühstück und [isst] es dann.
+
+Um viertel [nach] zwölf [kochst] du das Mittagessen und [deckst] den Tisch. Dann [isst] du das Essen.
+
+Um zwanzig [Uhr] [dreißig] [gehst] du spazieren.
+
+Du [lernst] am Abend um [drei viertel] zehn die Programmiersprache Go und [trinkst] einen Tee.
+
+Am [tip:Was ist ein anderes Wort für Samstag?|choose:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Sonnabend|Sonntag] [kaufst] du Lebensmittel [ein].
+
+{{</quiz>}}
 
 ## Wann? Um wie viel Uhr? #quiz
 
@@ -2729,7 +2655,7 @@ Tante Anna macht viel im Haushalt. Also hat sie einen Plan gemacht. Welche Wört
 {{<quiz "drag and drop">}}
 
 - 5:30 Uhr: [aufstehen]
-- 5:30 Uhr: Spanisch [lernen]
+- 5:30 Uhr: Spanisch [lernen] und Kaffee [trinken]
 - nur an Wochentagen
   - 6:30 Uhr: Frühstück [machen] und den Tisch [decken]
   - 6:45 Uhr: die Kinder [wecken]
@@ -2747,6 +2673,7 @@ Tante Anna macht viel im Haushalt. Also hat sie einen Plan gemacht. Welche Wört
   - 13:00 Uhr: andere Dinge im Haushalt [machen]
 {{</quiz>}}
 
+- [x] Aufgaben im Haushalt verstehen Kursbuch Lektion 3
 
 ## Im Haushalt der Schmidts: Annas Aktivitäten #quiz
 
@@ -2756,7 +2683,7 @@ Erinnerst du dich an Annas Plan? Welche Wörter passen in die Lücken? Falls du 
 
 Am Morgen [steht] Anna früh [auf]: um halb sechs!
 
-Als erstes [lernt] sie Spanisch, damit sie es nicht vergisst und jeden Tag ein bisschen Zeit investiert.
+Als erstes [lernt] sie Spanisch, damit sie es nicht vergisst und jeden Tag ein bisschen Zeit investiert. Sie [trinkt] dabei einen Kaffee.
 
 An Wochentagen [macht] sie um halb sieben Frühstück und [deckt] den Tisch für die Familie.
 
@@ -2773,11 +2700,35 @@ Das ist eine typische Woche für Anna.
 
 {{</quiz>}}
 
+- [x] Wortschatz zum Thema "Haushalt" Übungsbuchteil Lektion 3
 
+## Was ist dein Plan? #quiz
+
+Hast du auch einen Plan? Ergänze die Lücken.
+
+{{<quiz "fill in">}}
+
+Ich [stehe] um {time} [auf]. Das ist [choose:spät|früh].
+
+(Danach [wecke] ich [choose:meinen Hund|meine Katze|mein Kind|meine Kinder|meinen Freund|meine Freundin|meinen Mann|meine Frau].)
+
+Ich [lerne] um {time} Deutsch.
+
+Um {time} [mache] ich Frühstück und um {time} [esse] ich es. Ich [trinke] dabei [choose:Tee|Kaffee|Saft|Milch|Wasser].
+
+das Getränk, -e _ Mein Lieblingsgetränk ist Tomatensaft.
+
+Um {time} [gehe] ich zur [choose:Arbeit|Schule|Universität].
+
+Um {time} [koche] ich Mittagessen und [decke] den Tisch. Dann [esse] ich.
+
+Am [choose:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag] [kaufe] ich Lebensmittel.
+
+{{</quiz>}}
 
 ## Emma erzählt von ihrer Familie
 
-TODO über die Familie sprechen alt Lektion 3
+TODOLATER
 
 ## Emmas Woche in Deutschland (die Wochentage)
 
@@ -2882,7 +2833,7 @@ TODO
   - Ich möchte gerne die Wölfe sehen.
   - Ich möchte gerne die Elefanten besuchen.
 
-- [ ] sich austauschen, was man kann, muss und möchte Kursbuch Lektion 3
+- [ ] sich austauschen, was man kann, muss und möchte Kursbuch Lektion 3 TODOLATER
 
 ## Noch mehr Freizeitangebote! #coaching #quiz
 
@@ -2913,6 +2864,68 @@ Schreibe die richtigen Wörter in die Lücken.
 {{</quiz>}}
 
 Was weißt du noch über die Feste?
+
+## Mehr als nur eine Tätigkeit! #quiz
+
+Manchmal kann man mehr mit einer Sache machen. Es gibt immer zwei Lösungen. Kreuze an:
+
+TODOLATER p. 100
+- Musik
+- Freunde
+- Sport
+- Fahrrad
+- Buch
+- Gitarre
+
+## Beim Bäcker
+
+Emma liebt die deutschen Brote. Vor allem die Schwarzbrote sind sehr gesund.
+
+Also geht sie zum Bäcker.
+
+Emma geht in den Laden und sagt: "Guten Tag."
+
+"Guten Tag. Was darf es sein?", sagt die Verkäuferin.
+
+"Zwölf Brötchen, bitte."
+
+"In Ordnung, zwölf Brötchen. Sonst noch etwas?"
+
+"Ja, ein Schwarzbrot bitte."
+
+"Ein Kilo oder 500 g?"
+
+"Ein Kilo, bitte."
+
+"Ist das alles?"
+
+"Ja, das ist alles."
+
+"Das macht dann 6,40 €."
+
+"Hier, bitte."
+
+"Danke. Darf ich fragen: Sind Sie hier neu?"
+
+"Ja und nein. Ich besuche meine Familie und bin ihr Gast. Ich bin Ausländerin und wohne nicht hier."
+
+"Ach so. Freut mich, Sie kennenzulernen. Ihr Gesicht war mir nur neu und ich war neugierig. Wissen Sie, ich kenne fast alle Familien in diesem Bezirk."
+
+"Ja, kein Problem! Auf Wiedersehen."
+
+"Auf Wiedersehen und vielen Dank."
+
+- [x] Verkaufsgepräch an der Käsetheke vestehen und nachspielen Kursbuch Lektion 3: Bäcker
+
+## Verkaufsgespräch #coaching
+
+im Voraus Vokabel-Spickzettel geben TODOLATER
+
+Verkaufsgespräche üben
+
+- beim Bäcker
+- beim Metzger
+- an der Käsetheke
 
 ## Emma geht mit den Schmidts ins Kino
 
@@ -2968,10 +2981,6 @@ Sie haben auch einen Hund. Der Hund heißt Hasso.
 
 Jochen arbeitet bei einer Computer-Firma. Anna arbeitet bei einer Bank, bevor sie Hausfrau wurde.
 
-## Weihnachten in Deutschland bei den Schmidts
-
-TODOLATER (skip in MVP)
-
 ## Die Jahreszeiten in Bildern
 
 schöne Bilder: https://de.wikipedia.org/wiki/Jahreszeit
@@ -2988,32 +2997,39 @@ Welche Monate passen zu den Jahreszeiten?
 
 Es ist nun das Ende des Jahres, der einundreißigste Zwölfte, und Jochen möchte das nächste Jahr gut planen. Er hat sich mehrere Ziele gesetzt.
 
-- Im Januar möchte er mit seinen Kindern einen Schneemann bauen und eine Schneeballschlacht machen.
-- Im Februar hat seine Frau Geburtstag, für sie plant er einen sehr schönen Urlaub.
-- Im März fängt der Frühling an. Es ist Zeit, dass Jochen für den Sommer-Marathon trainiert, indem er draußen joggt.
-- Im April feiert die Famlie gemeinsam Ostern. Die Kinder lieben es, nach den Schokoladeneiern und anderen Süßigkeiten zu suchen.
-- Im Mai haben Emilia und Michael Geburtstag. Deshalb möchte Jochen einen große Hüpfburg mieten, auf der die Kinder springen können. Das wird viel Spaß machen, wenn die ganzen Kinder aus der Nachbarschaft kommen! Jochen freut sich schon sehr darauf und fängt schon im März mit der Planung der großen Geburtstagsfeier an.
-- Im Juni fängt der Sommer an. Jochen freut sich auf den Marathonlauf, für den er in den Monaten zuvor trainiert hat.
-- Im Juli macht die ganze Familie eine Reise durch Deutschland. Gemeinsam besuchen sie Berlin, Köln, Dresden, Heidelberg, Essen und viele andere schöne Städte. Das wird eine wunderbare Reise!
-- Im August besucht Lukas einen Computer-Kurs für Kinder. Marie fängt mit dem Schwimmen an. Jochen möchte sicherstellen, dass er viel Zeit hat, um den Kindern beim Lernen zu helfen.
-- Im September ist Herbst. Die Browns kommen zu Besuch. Jochen freut sich sehr auf die Gäste. Gemeinsam werden sie Lukas' und Olivers Geburtstag feiern.
-- Im Oktober feiert die Familie Schmidt Halloween! Halloween ist auch in Europa sehr populär. (In Deutschland wird es immer beliebter, besonders bei jungen Menschen. Jochen und die Kinder möchten gerne das Haus dekorieren. Die Kinder ziehen von Haus zu Haus und fordern mit dem Spruch "Süßes, sonst gibt's Saures" Geschenke.)
-- Im November wird es wahrscheinlich wieder sehr kalt, da es der letzte Herbstmonat ist. Deshalb wird die Familie Schmidt in den Süden fliegen und zwei Wochen lang in Nordafrika verbringen.
-- Im Dezember ist wieder Winter und die Familie Schmidts feiert Weihnachten. Heiligabend ist der Lieblingsfeiertag der Kinder, da sie viele Geschenke kriegen. Am Jahresende wird natürlich auch Sylvester gefeiert.
+- Im **Januar** möchte er mit seinen Kindern einen Schneemann bauen und eine Schneeballschlacht machen.
+- Im **Februar** hat seine Frau Geburtstag, für sie plant er einen sehr schönen Urlaub.
+- Im **März** fängt der Frühling an. Es ist Zeit, dass Jochen für den Sommer-Marathon trainiert, indem er draußen joggt.
+- Im **April** feiert die Famlie gemeinsam Ostern. Die Kinder lieben es, nach den Schokoladeneiern und anderen Süßigkeiten zu suchen.
+- Im **Mai** haben Emilia und Michael Geburtstag. Deshalb möchte Jochen einen große Hüpfburg mieten, auf der die Kinder springen können. Das wird viel Spaß machen, wenn die ganzen Kinder aus der Nachbarschaft kommen! Jochen freut sich schon sehr darauf und fängt schon im März mit der Planung der großen Geburtstagsfeier an.
+- Im **Juni** fängt der Sommer an. Jochen freut sich auf den Marathonlauf, für den er in den Monaten zuvor trainiert hat.
+- Im **Juli** macht die ganze Familie eine Reise durch Deutschland. Gemeinsam besuchen sie Berlin, Köln, Dresden, Heidelberg, Essen und viele andere schöne Städte. Das wird eine wunderbare Reise!
+- Im **August** besucht Lukas einen Computer-Kurs für Kinder. Marie fängt mit dem Schwimmen an. Jochen möchte sicherstellen, dass er viel Zeit hat, um den Kindern beim Lernen zu helfen.
+- Im **September** ist Herbst. Die Browns kommen zu Besuch. Jochen freut sich sehr auf die Gäste. Gemeinsam werden sie Lukas' und Olivers Geburtstag feiern.
+- Im **Oktober** feiert die Familie Schmidt Halloween! Halloween ist auch in Europa sehr populär. (In Deutschland wird es immer beliebter, besonders bei jungen Menschen. Jochen und die Kinder möchten gerne das Haus dekorieren. Die Kinder ziehen von Haus zu Haus und fordern mit dem Spruch "Süßes, sonst gibt's Saures" Geschenke.)
+- Im **November** wird es wahrscheinlich wieder sehr kalt, da es der letzte Herbstmonat ist. Deshalb wird die Familie Schmidt in den Süden fliegen und zwei Wochen lang in Nordafrika verbringen.
+- Im **Dezember** ist wieder Winter und die Familie Schmidts feiert Weihnachten. Heiligabend ist der Lieblingsfeiertag der Kinder, da sie viele Geschenke kriegen. Am Jahresende wird natürlich auch Sylvester gefeiert.
 
 [Quiz: Wann fängt Jochen an, für den Marathon zu trainieren? In wel-chen Monaten macht Jochen viel Sport? In wel-chen Monaten ist Frühling/Sommer/Herbst/Winter?
 Wann ist Jochen im Reis-ebüro? Im letzten Jahr: hat gebucht -> abgeschlossene Vergangenheit
 Welche Feiertage feiern die Schmidts auf jeden Fall?]
-TODO Jahreszeiten verstehen und nennen alt Lektion 2
+
+- [x] Monate, Datum, **Jahreszeiten** und Jahreszahlen verstehen und nennen Kursbuch Lektion 2
+
+## Anzeige: Machen Sie beim Marathon mit! #immersion
+
+TODOLATER p. 38
 
 ## Jochens Anmeldung für den Marathon #Immersion
 
-[commitment -> decided to just sign up to have the commitment, no going back -> fulfill your dreams the same way]
-TODO sich für den Marathon anmelden alt Lektion 4
+TODOLATER commitment -> decided to just sign up to have the commitment, no going back -> fulfill your dreams the same way p. 38
+
+- [ ] sich für Halbmarathon anmelden Kursbuch Lektion 4
 
 ## Jochen ist in der Zeitung!
 
-TODO Zeitungsartikel über den Marathon verstehen alt Lektion 4
+
+- [ ] Zeitungsartikel über Halbmarathon verstehen Kursbuch Lektion 4
 
 ## Bürokratie!
 
@@ -3094,8 +3110,8 @@ first version: two personal infos given (male and female)
 
 second version: script with checker if it makes sense]
 
-TODO Personalbogen ausfüllen alt Lektion 1
-TODO sich für den Marathon anmelden alt Lektion 4
+- [x] Personalbogen ausfüllen Kursbuch Lektion 1 #2
+- [x] sich für Halbmarathon anmelden Kursbuch Lektion 4 #2
 
 ## Die Anzeigen eines Reisebüro
 
@@ -3294,7 +3310,8 @@ Francisco ist mexikanisch. Er ist Mexikaner und kommt aus Mexiko. Fransisco ist 
 Lukas ist Deutscher: Sein Vater ist ein Deutscher und seine Mutter ist eine Deutsche.
 
 In Finnland benutzt man auch Euros, die gleiche Währung wie in Deutschland. Aber in der Türkei benutzt man türkische Lira und in Mexiko mexikanische Peso.
-Zur Übung schreibt Lukas ein Programm, dass Euros in andere Währungen umrechnet.
+
+Lukas hat eine Idee: Zur Übung schreibt er ein Programm, dass Euros in andere Währungen umrechnet.
 
 {{< notice "Information" "Erkenne Muster!" >}}
 
@@ -3336,6 +3353,45 @@ use code from number sayer to say the numbers in Addresse]
 
 - [x] sagen, woher man kommt: Adresse, Land, Kontinent Kursbuch Lektion 1
 - [x] Sprachen und Nationalitäten
+
+## Lukas' Programm: Währungen #quiz
+
+Lukas schreibt sein Programm.
+
+Kannst du ihm helfen? Schaue die Antwort im Internet nach.
+
+{{< notice "Tipp" >}}
+
+Deine Initiative ist gefragt! Recherchiere, bis du die Antwort gefunden hast.
+
+In jede Lücke brauchst du nur ein Wort zu schreiben.
+
+{{< /notice >}}
+
+{{<quiz "fill in">}}
+| Land         | Währung   | ein Hundertstel $\left(\frac{1}{100}\right)$ |
+| ------------ | --------- | -------------------------------------------- |
+| Deutschland  | Euro      | Cent                                         |
+| Österreich   | [Euro]    | [Cent]                                       |
+| Schweiz      | [Franken] | [Rappen]                                     |
+| Lichtenstein | [Franken] | [Rappen]                                     |
+| Finnland     | [Euro]    | [Cent]                                       |
+| Frankreich   | [Euro]    | [Cent]                                       |
+| Türkei       | [Lira]    | Kuruş                                        |
+| Mexiko       | [Peso]    | Centavos                                     |
+| USA          | [Dollar]  | [Cent]                                       |
+
+TODOLATER Flaggen
+{{</quiz>}}
+
+In Finnland benutzt man auch Euros, die gleiche Währung wie in Deutschland. Aber in der Türkei benutzt man türkische Lira und in Mexiko mexikanische Peso.
+
+
+
+Welche Währung wird in deinem Land benutzt?
+
+- [x] Preise und Währungen Übungsbuchteil Lektion 3
+
 
 ## Lukas bringt seinem Bruder etwas über Computer bei
 
@@ -3499,7 +3555,8 @@ TODO include each letter at least once -> very important to practice this thorou
 
 Im Zug auf den Weg nach Rügen hat Jochen sich schon einmal über Bergen auf Rügen informiert. Dabei hörte er einen interessanten Beitrag über ein Restaurant in einem Podcast, also im Internet-Radio.
 
-TODO Restaurant-Informationen im Radio verstehen alt Lektion 8
+TODO
+- [ ] Restaurant-Informationen im Radio verstehen Kursbuch Lektion 8
 
 ## Im Restaurant Teil 1: Die Speisekarte
 
@@ -3571,9 +3628,10 @@ Wann gehen die Schmidts in ein Restaurant? Die Schmidts gehen [am Abend] in ein 
 
 ## Was würdest du bestellen? #quiz
 
-TODO Speisekarte verstehen alt Lektion 8 -> very short
-TODO über Vorlieben beim Essen und Trinken sprechen alt Lektion
-TODO Gespräch im Restaurant spielen alt Lektion
+TODO
+- [ ] Speisekarte verstehen Kursbuch Lektion 8
+- [ ] über Vorlieben beim Essen und Trinken sprechen Übungsbuchteil Lektion 8
+- [ ] Gespräch im Restaurant spielen Übungsbuchteil Lektion 8
 
 ## Im Restaurant Teil 2: Getränke und einen Gruß aus der Küche
 
@@ -3733,6 +3791,11 @@ Auf Rügen gibt es auch viele Tiere. Die kleine Emilia hat sich in diese braune 
 
 https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
 
+## Ein Maler #quiz
+
+TODO Die Schmidts sehen einen Maler, der die schöne Landschaft malt. Kannst du ihm helfen, die Farben zu mischen?
+Farben mischen: p. 118 6.
+
 ## Die Schmidts schreiben eine Postkarte
 
 Die Schmidts haben einen schönen Urlaub.
@@ -3820,9 +3883,9 @@ Auf der Post kauft Anna eine Briefmarke und schickt die Postkarte an Emma.
 ## Wir haben uns verlaufen!
 
 [very simple mini game: walking through a city -> left, right, straight ]
-TODO Wegbeschreibungen verstehen und machen alt Lektion 7
-TODO mündliche Wegbeschreibungen notieren alt Lektion 7
-Google Maps funktioniert nicht ;)
+- [ ] mündliche Wegbeschreibungen notieren Kursbuch Lektion 7 -> Google Maps funktioniert nicht ;)
+- [x] Wegbeschreibungen verstehen und machen Kursbuch Lektion 7 #2
+
 
 ## Mit dem Bus nach Berlin!
 
@@ -3844,7 +3907,8 @@ https://pixabay.com/photos/night-photograph-long-exposure-night-4581193/
 
 ## Wir brauchen Fahrkarten
 
-TODO Anweisungen an einem Fahrkartenautomaten verstehen alt Lektion 7
+TODO
+- [ ] Anweisungen an einem Fahrkartenautomaten verstehen Kursbuch Lektion 7
 
 ## Der Geschäftsmann
 
@@ -3872,8 +3936,8 @@ Jetzt können die Schmidts sich anmelden. "Guten Tag," sagt Jochen. "Mein Name i
 
 ## Berliner Sehenswürdigkeiten
 
-TODO Informationen über Sehenswürdigkeiten verstehen alt Lektion 7
-
+TODO
+- [ ] Informationen über Sehenswürdigkeiten verstehen Kursbuch Lektion 7
 TODO weitere Städte (skip for now)
 
 ## Eine E-Mail von Emma #quiz
@@ -3975,10 +4039,12 @@ Anna, Jochen, Lukas, Emilie und Michael
 {{</quiz>}}
 
 - [x] eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
+- [x] eine Antwortmail schreiben Übungsbuchteil Lektion 5
 
 ## Lass uns Emma antworten! #quiz
 
-TODO E-Mail über Erlebnisse verstehen und darauf antworten alt Lektion 7 -> auch weitere Erlebnisse auf der Reise zusammenfassen
+TODO
+- [ ] E-Mail über Erlebnisse in Bern verstehen und darauf antworten Kursbuch Lektion 7 -> auch weitere Erlebnisse auf der Reise zusammenfassen
 
 ## Wann und wo haben wir diese Fotos gemacht?
 
@@ -3991,7 +4057,9 @@ TODO Bildbeschreibung passendem Bild zuordnen und sagen, wie einem die Bilder ge
 
 Auf die Frage "Wie geht es dir?" sagen viele Menschen oft nur "gut".
 Aber wie geht es uns wirklich?
-TODO Informationen über das Befinden verstehen und über das eigene Befindne sprechen alt Lektion 5
+
+- [ ] Informationen über das Befinden verstehen und über das eigene Bedürfnis sprechen Kursbuch Lektion 5
+- [ ] Redemittel zum Thema "Befinden" Übungsbuchteil Lektion 5
 
 ## Beim Arzt
 
@@ -4025,18 +4093,208 @@ Er muss eine halbe Stunde warten. "Herr Schmidt? Doktor Becker ist nun für sie 
 
 Die Aussage des Arztes ist richtig. Nach zwei Tagen geht es Jochen wieder viel besser!
 
+## Bleib im Bett!
+
+- [ ] informelle Imperativsätze Grammatik Lektion 6
+
+## informelle Imperativsätze #quiz
+
+
+- [ ] informelle Imperativsätze Grammatik Lektion 6 #2 -> p. 54 3.
+
+## Ich brauche Hilfe...
+
+
+- [ ] höflich bitten, fragen, nachfragen und antworten Übungsbuchteil Lektion 6 -> p. 118 3.
+
+## Hilft die Arznei?
+
+- [ ] Redemittel für positive/negative Reaktionen Übungsbuchteil Lektion 6
+
 ## Geht es dir besser?
 
-TODO Informationen über das Befinden verstehen und über das eigene Befindne sprechen alt Lektion 5
 
-# Annas großer Einkauf
+- [ ] Informationen über das Befinden verstehen und über das eigene Bedürfnis sprechen Kursbuch Lektion 5
+
+# Alltagssituationen: zu Gast bei den Schmidts
+
+## Anna bereit sich auf die Gäste vor
+
+Die Familie Schmidt hat dieses Wochenende viele Gäste.
+
+Anna möchte leckeres Essen für sie kochen. Also macht sie einen großen Einkauf.
+
+Du bist auch eingeladen! Aber Anna braucht deine Hilfe.
+
+TODOLATER {username}, {userfirstname}, {userlastname} -> involve user in the story as much as possible
+
+## Wie heißen diese Lebensmittel? #vocab
+
+Um eine Einkaufsliste zu erstellen, müssen wir erstmal wissen, was wir alles kaufen können.
+
+Schaue dir die Bilder an.
+
+TODO custom Flyer, for now use h5p or vocabulary program to learn words
+- Äpfel
+- Zwiebeln
+- Tomaten
+- Karotten
+- Butter
+- Brot
+- Gurke
+- Kartoffeln
+- Milch
+- Mehl
+- Erdbeermarmelade
+- Zucker
+- Bratwürste
+- Schokolade
+- Erbsen
+- Eier
+- Sahne
+- Mineralwasser
+- Orangensaft
+- Rindfleisch
+
+## Was brauchen wir?
+
+Jochen hilft Anna. Er schaut in den Kühlschrank und Anna schreibt.
+
+"Was brauchen wir noch für den Kuchen?", fragt Anna.
+
+"Wir brauchen Eier: Wir haben **keine** Eier **mehr**.", antwortet Jochen.
+
+"Gut. Und was ist mit Mehl? Brauchen wir Mehl?"
+
+"Nein, wir haben **noch** Mehl. Aber wir brauchen Butter: Wir haben **keine** Butter **mehr**."
+
+"In Ordnung. Brauchen wir Zucker?"
+
+"Nein, wir haben **noch** Zucker."
+
+{{< notice "Hinweis" "Nullartikel" >}}
+
+Für eine unbestimmte Menge benutzt man den Nullartikel.
+Das heißt, du benutzt keinen Artikel, wenn du nicht weißt, wie viel.
+
+Zum Beispiel:
+
+- Wir brauchen Brot.
+- Wir brauchen Kartoffeln.
+
+{{< /notice >}}
+
+- [x] "noch" =/= "kein ... mehr" Grammatik Lektion 3
+
+## Was brauchen wir für ...? #quiz
+
+{{<quiz "multiple choice">}}
+
+Welche Lebensmittel brauchst du für einen Kuchen?
+
+Für einen Kuchen brauche ich ...
+
+- [x] Butter
+- [x] Mehl
+- [x] Zucker
+- [x] Eier
+- [ ] Erbsen
+- [ ] Rindfleisch
+- [ ] Würste
+
+Welche Lebensmittel brauchst du für einen Obstsalat?
+
+Für einen Obstsalat brauche ich...
+
+- [x] Äpfel
+- [x] Birnen
+- [x] Bananen
+- [x] Orangen
+- [ ] Karottten
+- [ ] Schokolade
+- [ ] Brot
+- [ ] Zwiebeln
+
+Was brauchst du für einen Gemüsesalat?
+
+- [x] Tomaten
+- [x] Karotten
+- [x] Gurken
+- [x] Öl
+- [x] Salz
+- [ ] Milch
+- [ ] Schokolade
+- [ ] Marmelade
+
+Unsere Gäste möchten viel trinken. Welche der folgenden Lebensmittel sind Getränke?
+
+- [x] Milch
+- [x] Orangensaft
+- [x] Bier
+- [x] Wein
+- [x] Wasser
+- [ ] Würste
+- [ ] Brot
+- [ ] Gurken
+
+{{</quiz>}}
+
+## Welche Lebensmittel gibt es in deinem Supermarkt? #quiz
+
+Was kannst du in deinem Supermarkt kaufen? Gehe zum Supermarkt und mache eine Liste.
+
+Wie heißen die Dinge auf Deutsch?
+
+TODOLATER image recognition
+
+## Lass uns aktuelle Prospekte analysisieren!  #coaching
+
+ALDI_unsere_Angebote_ab_Montag_02_12_2019.pdf
+ALDI_unsere_Angebote_ab_Montag_09_12_2019.pdf
+Aktionsprospekt-09.12.2019-–-14.12.2019-02.pdf
+Aktionsprospekt-02.12.2019-–-07.12.2019-04.pdf
+
+https://www.aldi-nord.de/magazine.html
+
+https://www.aldi-sued.de/de/angebote/aktuelle-prospekte/
+
+https://www.lidl.de/de/online-prospekt/
+
+## Wie viel brauchen wir?
+
+TODOLATER p. 95 3a
+- [x] Wiederholung: W-Fragen mit Wie viel?, Wie viele? Grammatik Lektion 3
+
+## Wie viel kostet es? #meta
+
+TODOLATER p. 96: wie man Preise angibt
+
+- [ ] Preise verstehen und sagen Kursbuch Lektion 3
+
+## Wie viel kostet es? #coaching #quiz
+
+TODOLATER p. 96: wie man Preise angibt, Einkaufsgespräche
+
+## Ein Verkaufsgepräch  #coaching #quiz
+
+
+- [ ] Einkaufsgespräche spielen Übungsbuchteil Lektion 3 TODOLATER
 
 ## Der Einkaufszettel #quiz
 
-[images with name of produkt to lean vocab, then write Einkaufszettel]
-TODO Einkaufszettel schreiben alt Lektion 3
+TODOLATER
 
-## Im Laden #quiz #immersion
+
+Was braucht sie alles?
+
+[images with name of produkt to lean vocab, then write Einkaufszettel]
+
+
+- [ ] Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungen verstehen Kursbuch Lektion 3 TODOLATER
+- [ ] Einkaufszettel schreiben Kursbuch Lektion 3 TODOLATER
+
+
+## Im Laden #immersion
 
 Heute geht Anna einkaufen. Sie fragt Jochen: "Ich gehe einkaufen. Soll ich dir was mitbringen? Vielleicht etwas Obst?"
 
@@ -4048,11 +4306,20 @@ Vor dem Laden sind Schilder: "Wir haben die besten Preise! Heute im Angebot: Hä
 
 Anna geht in das Geschäft.
 
-TODO Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungsarten verstehen alt Lektion 3; sie liest vom Einkaufszettel alt Lektion 3
 
-## An der Käsetheke
 
-TODO Verkaufsgespräch an der Käsetheke (oder andere) verstehen und nachspielen
+TODONOW
+- [ ] Lebensmittel und Getränke Übungsbuchteil Lektion 3
+- [ ] Mengenangaben und Verpackungen Übungsbuchteil Lektion 3
+
+
+- [x] Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungen verstehen Kursbuch Lektion 3 #2
+
+## Beim Metzger
+
+TODOLATER
+
+- [x] Verkaufsgepräch an der Käsetheke vestehen und nachspielen Kursbuch Lektion 3 (oder andere)
 
 ## An der Kasse #quiz #immersion
 
@@ -4060,7 +4327,22 @@ Anna ist fertig, jetzt muss sie nur noch an der Kasse bezahlen.
 
 An der Kasse sieht sie Zigaretten. Anna schüttelt den Kopf. Zigaretten machen einen nur krank.
 
-TODO Preise verstehen und sagen alt Lektion 3
+"Guten Tag!", sagt die Kassiererin.
+
+"Guten Tag.", sagt Anna.
+
+"25,81 €, bitte."
+
+"Kann ich mit meiner Kreditkarte bezahlen?"
+
+"Ja, natürlich. Sie können mit Karte bezahlen."
+
+"In Ordnung. Fertig."
+
+"Vielen Dank. Auf Wiedersehen!"
+
+"Auf Wiedersehen."
+
 
 # Die Welt der Zukunft
 
@@ -4078,9 +4360,132 @@ Es gibt dann viele Getränke, Kuchen und gute Musik. Lukas lernt so viele Leute 
 
 Manchmal geht Lukas in die Disco. Er liebt es, in der Disco zu tanzen.
 
+## Lukas denkt zurück
+
+- [ ] über Vergangenes sprechen und schreiben Übungsbuchteil Lektion 5
+
+## Lukas sucht eine Wohnung in Berlin
+
+TODOLATER
+für das Studium muss Lukas nach Berlin umziehen
+- [ ] Informationen über ein Zimmer, eine Wohnung verstehen und weitergeben Kursbuch Lektion 5
+
+## Hilf Lukas bei der Wohnungssuche! #coaching
+
+- wir recherchieren gemeinsam die Wohnung im Internet mit echten Anzeigen
+  - Budget: < 500€
+
+
+## Lukas' Umzug
+
+Lukas ist nun ein Student. Für das Studium zieht er nach Berlin.
+
+TODO Lukas zieht nach Berlin für sein Studium
+
+## Wie heißen die Möbel? #quiz
+
+TODO Bilder und Namen der Möbel zuordnen
+- das Bett, -en _ Wir brauchen noch ein Kinderbett.
+- der Schrank, -ä, e _ Die Gläser stehen im Schrank.
+- Kleiderschrank
+- Regal
+- Kommode
+- das Sofa _ Das Sofa ist neu.
+- der Tisch, -e _ Die Fotos liegen auf dem Tisch.
+- Schreibtisch
+- *Stuhl
+- das Sofa _ Das Sofa ist neu.
+- Lampe
+
+## Neue Möbel gesucht
+
+TODOLATER
+Vokabeln: umziehen, Umzug
+- [ ] Möbelanzeigen verstehen Kursbuch Lektion 5
+- [ ] Redemittel zum Thema "Möbelkauf" Übungsbuchteil Lektion 5
+
+## Es soll nicht viel kosten... #coaching
+
+TODO IKEA-Prospekt, ebay Kleinanzeigen
+
+- [ ] Zimmer mit 200 Euro einrichten Projekt 5
+
+## Möbelkauf vom Privatverkäufer
+
+- [ ] telefonisch einen Möbelkauf verabreden Kursbuch Lektion 5 -> **ebay Kleinanzeigen**
+
+## Lukas erzählt seinen Eltern von seinem neuen Zimmer
+
+- [ ] Wohnung und Zimmer Übungsbuchteil Lektion 5
+- [ ] sein Zimmer schriftlich und mündlich beschreiben Kursbuch Lektion 5
+- [ ] Möbel und Materialien Übungsbuchteil Lektion 5
+
+## Der Grundriss von Lukas' Wohnung #quiz
+
+Wörter im Bild zuordnen
+- Küche/Badezimmer/...
+- mein Zimmer
+- das Zimmer von Mitbewohner 1/2/3
+- Eingang
+- Flur
+- Balkon
+
+## Wie wohnst du? #coaching
+
+from page 46.
+- Wo wohnst du?
+- Wie wohnst du? (z.b. )
+- Wie ist dein Zimmer?
+- Welche Möbel hast du?
+
+## So viele Hobbys! #quiz
+
+TODOLATER Welches Bild passt zu welchem Hobby?
+
+
+## Lukas ist neu in der Stadt
+
+Lukas ist nun ein Student. Für das Studium ist er nach Berlin gezogen.
+
+Er möchte überlegen, was er in seiner Freizeit macht.
+
+TODOLATER echte Freizeitangebote wie p. 36
+- [ ] Freizeitanzeigen verstehen Kursbuch Lektion 4
+
+## Lukas probiert andere Sportarten
+
+- [ ] sich über Sportangebote informieren Kursbuch Lektion 4
+- [ ] Flyer über Sportangebote verstehen Kursbuch Lektion 4
+
+
+
+## Was sind deine Hobbys? #coaching
+
+TODO **important** topic judging from the number of activities and potential for test material
+
+- [ ] Anzeigen über Freizeitangebote verstehen und antworten Übungsbuchteil Lektion 4
+- [ ] über Freizeit, Hobbys und Sportarten sprechen Kursbuch Lektion 4
+
+## Errate die Hobbies deiner Mitschüler! #coaching
+
+- [ ] Hobbys raten Projekt 4
+
+## Gut Sport!
+
+TODOLATER p. 38 -> habe trainiert, habe geschafft
+
+Lukas hat sich entsschieden, für
+
+- [x] Zeitungsartikel über Halbmarathon verstehen Kursbuch Lektion 4: Schwimm-Wettbewerb? #2
+
 ## Lukas möchte neue Freunde treffen
 
-TODO Anzeigen für Freizeitpartner schreiben bzw. darauf antworten alt Lektion 4
+- [ ] Anzeigen für Freizeitpartner schreiben bzw. darauf antworten Kursbuch Lektion 4
+
+
+
+
+
 
 ## Lukas trifft sich mit seinen Freunden
 
@@ -4099,31 +4504,6 @@ Lukas ist nun Student an einer Universität. Er hat sich entschieden, Medizin zu
 Das Studium ist sehr schwer. Lukas lernt sehr viel über den menschlichen Körper.
 
 [quiz body parts]
-
-## Auf Wohnungssuche
-
-für das Studium muss Lukas nach Berlin umziehen
-TODO Informationen über ein Zimmer, eine Wohnung verstehen und weitergeben alt Lektion 5
-
-## Neue Möbel gesucht
-
-TODO Möbelanzeigen verstehen alt Lektion 5
-Vokabeln: umziehen, Umzug
-
-## Bestellung per Telefon
-
-TODO telefonisch einen Möbelkauf verabreden alt Lektion 5
-
-## Die Aufgaben im Haushalt #quiz
-
-[now Lukas has to do everything himself!]
-TODO Aufgaben im Haushalt verstehen alt Lektion 2
-
-## Lukas probiert andere Sportarten
-
-TODO sich über Sportangebote informieren alt Lektion 4
-TODO Flyer über Sportangebote verstehen alt Lektion 4
-Quiz: wähle eine deutsche Stadt, finde ein Sportangebot
 
 ## Lukas' Studentenjob Job
 
@@ -4157,12 +4537,6 @@ Du hörst, wie sie sich bei einem neuen Kollegen vorstellt.
 In dieser Lektion hast du gelernt, wie du dich formell vorstellst.
 {{< /notice >}}
 
-TODO Lückentext alt Lektion 1
-
-## Lukas erzählt seinen Eltern von seinem neuen Zimmer
-
-TODO sein Zimmer schriftlich und mündlich beschreiben
-
 ## Lukas trifft eine junge Frau
 
 Eines Tages trifft Lukas auf einer Party eine junge Frau in seinem Alter. Sie heißt Sophia.
@@ -4188,13 +4562,25 @@ Oje! Hat er gerade das Gespräch mit "auf Wiederhören" beended? So formell! Er 
 
 Lukas hofft, dass das Treffen besser läuft.
 
-[Quiz: Lukas hat die Telefonnummer verloren! Kannst du ihm helfen? Wie lautet die Nummer? +49-151-5754-922]
-TODO alt Lektion 1
+{{<quiz "fill in|telephone number">}}
+
+Lukas hat die Telefonnummer verloren! Kannst du ihm helfen? Wie lautet Sophias Nummer?
+
+[+49-151-5754-922]
+
+{{</quiz>}}
 
 ## Schöne Kleidung für das Date
 
-TODO Bezeichnungen für Kleidungsstücke und Farben verstehen alt Lektion 6
-TODO Webseiten zum Thema "Waschsalon" verstehen und mit Waschsalons zu Hause vergleichen alt Lektion 6 -> skip for now
+- [ ] Bezeichnungen für Kleidungsstücke und Farben verstehen Kursbuch Lektion 6
+- [ ] Kleider, Materialien und Farben Übungsbuchteil Lektion 6
+- [ ] Webseiten zum Thema "Waschsalon" verstehen und mit Waschsalongs zu Hause vergleichen Kursbuch Lektion 6 TODOLATER
+- [ ] Ereignisse im Waschsalon nachverfolgen und in E-Mail beschreiben Kursbuch Lektion 6 TODOLATER
+
+## Welche Kleidung tragen sie? #quiz
+
+- [ ] Kleidungsstücke erraten Projekt 6
+
 
 ## Lukas trifft sich mit Sophia
 
@@ -4218,8 +4604,11 @@ Und so geht es weiter. Die beiden scheinen sich gut zu verstehen. Wir lassen sie
 
 ## Sophia und Lukas sprechen über ihre Freizeitaktivitäten
 
-TODO über Freizeit, Hobbys und Sportarten sprechen alt Lektion 4
-TODO Vorlieben und Abneigungen ausdrücken alt Lektion 4
+
+- [ ] über Freizeit, Hobbys und Sportarten sprechen Kursbuch Lektion 4 #2
+- [ ] Vorlieben und Abneigungen audrücken Kursbuch Lektion 4
+
+## Was mag ich? Was mag ich nicht? #quiz
 
 ## Sophia auf der Arbeit
 
@@ -4263,36 +4652,43 @@ TODO informelle Beschreibung am Telefon, Eltern haben Sorgen
 
 ## Sophia und Lukas planen ein weiteres Treffen
 
-TODO Vorschläge verstehen und machen alt Lektion 6 -> nicht Kino, sondern etwas besseres und intimeres: gemeinsam kochen. später: Theater (siehe auch: Noch mehr Freizeitangebote)
+- [ ] Vorschläge verstehen und machen Kursbuch Lektion 6 -> nicht Kino, sondern etwas besseres und intimeres: gemeinsam kochen. später: Theater (siehe auch: Noch mehr Freizeitangebote)
 vokabel: selbständig
+- [ ] Vorschläge mit "wir" Grammatik Lektion 6
+- [ ] Voschläge mit "Sollen/Wollen wir ...?", "Soll ich ...? Grammatik Lektion 6
+
 
 ## Wie findest du diesen Vorschlag? #quiz
 
-TODO Vorschläge machen und zustimmen oder ablehnen alt Lektion 8
+- [ ] Vorschläge machen und zustimmen oder ablehnen Kursbuch Lektion 8
 
 ## Lukas und Sophia kochen
 
 "Frauen mögen einen Mann, der kocht.", denkt Lukas.
 
-TODO schriftliche Anleitungen verstehen und formulieren alt Lektion 6 -> Waschanleitung, Kochanleitung
+TODO
+- [ ] schriftliche Anleitungen verstehen und formulieren Kursbuch Lektion 6 -> Waschanleitung, Kochanleitung
 
 ## Lukas stellt Sophia seinen Eltern vor
 
-TODO Andere vorstellen alt Lektion 1
+TODOLATER
+- [x] sich und andere vorstellen: formell/informell Kursbuch Lektion 1 #2
+- [ ] "ein Paar" und "ein paar" Übungsbuchteil Lektion 6 -> 118 5.
 
 ## Sophia und Lukas planen ihre Hochzeit
 
-TODO Telefongespräch über Tischreservierung im Restaurant verstehen und Informationen weiterleiten alt Lektion 8
+TODO
+- [ ] Telefongespräch über Tischreservierung im Restaurant verstehen und Informationen weiterleiten Kursbuch Lektion 8
 
 ## Was haben sie gesagt?
 
 gehe zurück und höre aufmerksam zu
 TODO siehe oben: bitte hilf der Kellnerin, die Information weiterzuleiten
-TODO persönliche Angaben notieren und darüber sprechen alt Lektion 8
+- [ ] persönliche Angaben notieren und darüber sprechen Kursbuch Lektion 8
 
 ## Lukas und Sophia brauchen Hilfe
 
-TODO andere um etwas bitten und auf Bitten reagieren alt Lektion 8
+- [ ] andere um etwas bitten und auf Bitten reagieren Kursbuch Lektion 8
 
 ## Die Hochzeit von Sophia und Lukas
 
@@ -4375,6 +4771,11 @@ Zum Beispiel: Am Mittwoch um 13 Uhr werde ich mit meinen Kollegen Mittag essen.
 - [x] Fragen zu Terminen stellen und beantworten Übungsbuchteil Lektion 2
 
 - [x] Termine für Kursaktivität organisieren Projekt 2
+
+## Kommst du zur Hochzeit?
+
+- [ ] Einladung in Mail wiederholen Übungsbuchteil Lektion 6
+- [ ] Antwortmail auf Einladung schreiben Übungsbuchteil Lektion 6
 
 ## Ein Termin beim Fotographen
 
@@ -4656,7 +5057,127 @@ Ich bin jederzeit da, falls du eine Frage hast. Danke, dass du an diesem Kurs ü
 
 - Dein Mark
 
-# Prüfungsvorbereitung: Grammatik (skip for now)
+# Phonetik: Satzmelodie, Betonung, Akzent, Laute
+
+TODO
+
+## Warum Phonetik studieren?
+
+TODOLATER so hörst du dich wie ein Muttersprachler an
+
+## So lernst du den Akzent und die Betonung #meta
+
+TODOLATER
+http://www.fluentin3months.com/a-accent/
+pitch, rise, fall, and stress of your words -> mimic the musicality of sentence right from the start
+http://www.mimicmethod.com/
+
+## Satzmelodie in deutschen Sätzen
+
+TODO
+
+- Aussagesatz am Ende nach unten
+- W-Frage am Ende nach unten
+- Ja/Nein-Frage am Ende nach oben
+- und dir?/und Ihnen? nach oben
+- c.f. p. 83
+
+- [ ] Satzmelodie in kurzen Aussagesätzen und Fragen Phonetik 1
+
+## Rhythmus in Wort und Satz #meta
+
+Jedes deutsche Wort hat einen bestimmten Rhythmus.
+
+**Der richtige Rhythmus ist sehr wichtig und macht einen großen Unterschied, wenn du wie ein Muttersprachler klingen möchtest.**
+
+Ich stelle dir in diesem Kurs Tonaufzeichnungen zur Verfügung, sodass du hörst, wie ich die Wörter ausspreche und welche Silben ich betone.
+
+Du lernst also den Rhythmus, indem du **gut zuhörst**. Achte genau darauf, wie ich die Wörter ausspreche.
+
+Überprüfe dich ab und zu: Achte darauf, wie ich die Wörter sage und spreche sie nach. Nimm am besten deine Stimme (mit deinem Handy) auf und vergleiche.
+
+Lass uns einmal explizit ein paar Wörter üben:
+
+- der Be**ginn**
+- der **Mor**gen
+- der **Vor**mittag
+- die **Nacht**
+- der Ge**burts**tag
+- der Ter**min**
+- der **Fei**ertag
+- der Ka**len**der
+- das **Jahr**
+- der **Mo**nat
+
+Du siehst, es gibt keine Faustregel. Merke dir den Rhythmus, wenn du ein Wort zum ersten Mal hörst.
+
+{{< notice "Tipp" "Klopfe mit!" >}}
+
+Klopfe den Rhythmus, um ihn explizit zu lernen.
+
+Du kannst zum Beispiel bei einer unbetonte Silbe mit dem Finger auf den Tisch tippen und bei einer betonten (lauten) Silbe auf den Tisch mit der Faust klopfen.
+
+{{< /notice >}}
+
+{{< notice "Hinweis" "Gut zu wissen" >}}
+
+Auch wenn das Wort genauso geschrieben wird wie in einer anderen Sprache, kann es einen anderen Rhythmus haben. Vergleiche das Englische Wort "Ja**pan**" mit dem deutschen "**Ja**pan.
+
+{{< /notice >}}
+
+- [x] Rhythmus in Wort und Satz Phonetik 2
+
+## lange und kurze Vokale
+
+Was ist ein Vokal? Die Buchstaben "a", "e", "i", "o", "u" und im Deutschen auch die Umlaute "ä", "ö", "ü" sind Vokale.
+
+Wann spricht man einen Vokal lang aus, wann kurz?
+
+Zum Glück gibt es gute Faustregeln.
+
+Sprich den Vokal lang aus:
+
+| Vokal ist ... | Regel                       | Beispiel       |
+| ------------- | --------------------------- | -------------- |
+| lang          | "ie"                        | das Sp**ie**l  |
+| lang          | Vokal + "h"                 | der F**eh**ler |
+| lang          | Vokal + "ß"                 | groß           |
+| kurz          | Vokal + doppelter Konsonant | b**itt**e      |
+| kurz          | Vokal + "ck"                | die **Eck**e   |
+
+Hier sind ein paar weitere Beispiele. Wie werden sie ausgesprochen? Lies sie laut vor, bevor die die Tonaufzeichnung hörst oder das Video schaust.
+
+{{<quiz "choose">}}
+
+- stellen [kurz|lang]
+- vier [kurz|lang]
+- viel [kurz|lang]
+- der Dritte [kurz|lang]
+- sollen [kurz|lang]
+- die Uhr [kurz|lang]
+- der Zucker [kurz|lang]
+- das Mehl [kurz|lang]
+- der Frühling [kurz|lang]
+- der Sommer [kurz|lang]
+- die Straße [kurz|lang]
+- müssen [kurz|lang]
+- die Bäckerin [kurz|lang]
+- die Gruppe [kurz|lang]
+- das Jahr [kurz|lang]
+- der Kilogramm [kurz|lang]
+{{</quiz>}}
+
+- [x] lange und kurze Vokale Phonetik 3
+
+## "e" oder "i"?
+
+- [ ] "e" oder "i" Phonetik 4
+
+## "w" oder "f"?
+
+- [ ] "w" oder "f" Phonetik 6 -> p. 122
+
+# Grammatik
 
 ## Ein wichtiger Rat
 
@@ -4665,6 +5186,333 @@ TODO kurze snippets nach der ersten Erwähnung, hier nochmal Übungen;
 allgemeiner Rat: langfristig ist es besser, viel zu hören und zu lesen, also: falls die Übungen nichts für dich sind, dann höre lieber die Immersionsteile noch einmal
 
 falls du die Prüfung erfolgreich bestehen möchtest, dann mache die Übungen, weil sie kurzfristig dabei helfen, für den Test zu lernen.
+
+das Verb *sein* - ich bin, du bist, ... #meta
+
+Ein Verb ist im **Präsens** (in der Gegenwart), wenn es *jetzt* passiert.
+
+Dies ist das unregelmäßige Verb *sein* im Präsens.
+
+|      Person | Wortform |
+| ----------: | :------- |
+|         ich | bin      |
+|          du | bist     |
+| er, sie, es | ist      |
+|         wir | sind     |
+|         ihr | seid     |
+|     sie/Sie | sind     |
+
+Es ist natürlich ein sehr wichtiges Wort.
+Am Ende des Kurses wirst du es gut kennen.
+
+Du brauchst diese Tabelle nicht auswendig zu lernen. Achte nur darauf, wenn du einen deutschen Text liest und lerne die Wortformen implizit.
+
+## regelmäßige Verben im Präsens #meta
+
+Erinnerst du dich an die Lektion [Lerne spielerisch Deutsch! #mindset](#lerne-spielerisch-deutsch-mindset)?
+
+Wenn du mit dieser Methode lernst, dann hast du bestimmt schon ein paar Tabellen gesehen.
+
+Hier ist die Tabelle für das regelmäßige Verb "lern**en**":
+
+|      Person | Wortform   |
+| ----------: | :--------- |
+|         ich | lern**e**  |
+|          du | lern**st** |
+| er, sie, es | lern**t**  |
+|         wir | lern**en** |
+|         ihr | lern**t**  |
+|     sie/Sie | lern**en** |
+
+"Lern" nennt man den **Wortstamm**.
+
+{{< notice "Hinweis" >}}
+
+Dies ist ein klare Muster.
+
+**Fast jedes regelmäßige Verb hat dieses Muster.**
+
+Die einzigen Ausnahmen:
+
+- Wenn der Wortstamm mit "t" endet, dann fügt man ein extra "e" vor "st" und "t" ein:
+  - du arbeit**est**
+  - er, sie, es arbeit**et**
+  - ihr arbeit**et**
+- Wenn der Wortstamm mit "s" oder "ß" endet, gibt es kein extra "s":
+  - du heiß**t**
+  - er, sie, es heiß**t**
+  - ihr heiß**t**
+
+{{< /notice >}}
+
+{{< notice "Tipp" >}}
+
+Nicht vergessen: Du lernst die deutsche Grammatik am Besten, wenn du sie *implizit* lernst.
+Achte also gut auf diese Endungen, während du deutsche Wörter hörst und liest.
+
+Klicke oft auf Verben, um die Tabelle zu sehen.
+
+{{< /notice >}}
+
+{{< notice "Erfolg" >}}
+
+In dieser Lektion hast du regelmäßige Verben im Präsens gelernt.
+
+{{< /notice >}}
+
+- [x] regelmäßige Verben im Präsens Grammatik Lektion 1
+
+## das Verb *haben* - ich habe, du hast, ... #meta
+
+Dies ist das unregelmäßige Verb *sein* im Präsens.
+
+|      Person | Wortform  |
+| ----------: | :-------- |
+|         ich | hab**e**  |
+|          du | ha**st**  |
+| er, sie, es | ha**t**   |
+|         wir | hab**en** |
+|         ihr | hab**t**  |
+|     sie/Sie | hab**en** |
+
+Du siehst, dass es fast wie ein regelmäßiges Verb gebildet wird. Bei *du hast* und *er, sie, es hat* fehlt das "b".
+
+- [x] "sein" im Präsens Grammatik Lektion 1
+
+## Vervollständige die Verben! #quiz
+
+Wie sind die Endungen dieser Verben?
+
+- kommen
+- arbeiten
+- lernen
+- heißen
+- haben
+
+TODO h5p
+
+## regelmäßige Verben im Perfekt
+
+In einer früheren Lektion **hast** du regelmäßige Verben im Präsens **gelernt**.
+
+Was bedeutet "hast ... gelernt"? Es bedeutet, dass du es in der Vergangenheit gemacht hast.
+
+Das Perfekt hat zwei Komponenten:
+
+- das Partizip II
+- und das Hilfsverb.
+
+### Das Partizip II
+
+Bei regelmäßigen Verben (ohne Präfix) fängt das Partizip II mit *ge* and und endet mit *t* (oder *et*).
+
+Das Partizip II von *lernen* ist also "**ge**lern**t**" und das Partizip II von *arbeiten* ist "**ge**arbeit**et**". (Wie "er lernt" und "er arbeitet", nur mit *ge* am Anfang!)
+
+### Das Hilfsverb
+
+Das Hilfsverb ist entweder *haben* oder *sein*.
+
+Nur wenige Verben mit *sein* gebildet, du brauchst dir also nur ein paar Ausnahmen zu merken.
+
+Du findest das Hilfsverb in der Tabelle, wenn du auf ein Wort klickst oder den Wiktionary-Eintrag aufrufst.
+
+Das Hilfsverb für *lernen* und *arbeiten* ist *haben*. Das Hilfsverb für *reisen* ist *sein*.
+
+Das Partizip II bleibt für jede Person (ich, du, etc.) gleich, aber das Hilfsverb beugen wir wie im Präsens.
+
+### Das Perfekt
+
+Insgesamt haben wir also folgendes:
+
+- Ich habe gelernt. Du hast gelernt. Sie hat gelernt.
+- Ich habe gearbeitet. Du hast gearbietet. Er hat gearbeitet.
+- Ich bin gereist. Du bist gereist. Er ist gereist.
+
+{{< notice "Tipp" >}}
+
+Nicht vergessen: Du lernst die deutsche Grammatik am Besten, wenn du sie *implizit* lernst.
+Achte also gut auf Verben im Perfekt, während du deutsche Wörter hörst und liest.
+
+Klicke oft auf Verben, um die Tabelle zu sehen.
+
+{{< /notice >}}
+
+- [x] regelmäßige Verben im Perfekt Grammatik Lektion 4
+
+Nur die *Konjugierung des Hilfsverbs* ändert sich, der Rest **bleibt gleich**.
+
+- **ge-[...]-(e)t**
+  - ich habe / du hast / er hat / wir haben / ... **ge**sag**t**
+  - ich bin / du bist / er ist / wir sind / ... **ge**starte**t**
+- **[...]-t**.
+  - ich habe / du hast / er hat / wir haben / ... trainier**t**
+  - es ist / sie sind passier**t**
+
+|    Person | haben + ge-[...]-(e)t | sein + ge-[...]-(e)t   | haben + [...]-t     | sein + [...]-t    |
+| --------: | :-------------------- | :--------------------- | :------------------ | :---------------- |
+|       ich | habe **ge**sag**t**   | bin  **ge**start**et** | habe trainier**t**  | —                 |
+|        du | hast **ge**sag**t**   | bist **ge**start**et** | hast trainier**t**  | —                 |
+| er/sie/es | hat **ge**sag**t**    | ist **ge**start**et**  | hat trainier**t**   | ist passier**t**  |
+|       wir | haben **ge**sag**t**  | sind **ge**start**et** | haben trainier**t** | —                 |
+|       ihr | habt **ge**sag**t**   | seid **ge**start**et** | habt trainier**t**  | —                 |
+|       sie | haben **ge**sag**t**  | sind **ge**start**et** | haben trainier**t** | sind passier**t** |
+
+## Übungen zum Perfekt #quiz
+
+TODO in Lektion 5 gibt es viele Übungen
+
+## Plural
+
+Du hast im Immersionskurs viele Nomen im Plural gesehen.
+
+Wie wird der Plural gebildet? Was sind die Muster?
+
+Es gibt folgende Muster:
+
+- -er
+  - Füge "er" am Ende des Wortes hinzu.
+  - Beispiel: das Ei, Plural: die Eier
+- -e
+  - Füge "e" am Ende des Wortes hinzu.
+  - Beispiel: das Brot, Plural: die Brote
+- ⸚
+  - Der Plural ist wie der Singular, aber er hat einen Umlaut.
+  - Beispiel: der Apfel, Plural: die Äpfel
+- ⸚e
+  - Füge "e" am Ende des Wortes hinzu und mache einen Vokal zu einem Umlaut.
+  - Beispiel: die Wurst, Plural: die Würste
+- -n
+  - Füge ein "n" am Ende des Wortes hinzu.
+  - Beispiel: die Kartoffel, Plural: die Kartoffeln
+
+Wann benutzt du welches Muster?
+
+Nun, es gibt leider keine Faustregel außer die folgende: Wenn ein Nomen mit "e" endet, dann bilden wir den Plural fast immer mit "-n".
+
+## Modalverben: können, müssen, möchten #quiz
+
+In der Lektion {{ref:Einfach kommunizieren mit Modalverben}} haben wir schon über Modalverben gesprochen.
+
+Hier sind sie noch einmal als Tabelle. Schreibe die fehlenden Wörter in die Lücken.
+
+Du bekommst sofort Feedback. Schaue die Antwort nicht nach, sondern probiere ein bisschen!
+
+{{<quiz "fill in|instant">}}
+
+| Person    | möcht-     | sollen   | müssen   | wollen   | können   | dürfen   |
+| --------- | ---------- | -------- | -------- | -------- | -------- | -------- |
+| ich       | [möchte]   | [soll]   | [muss]   | [will]   | [kann]   | [darf]   |
+| du        | [möchtest] | [sollst] | [musst]  | [willst] | [kannst] | [darfst] |
+| er/sie/es | [möchte]   | [soll]   | [muss]   | [will]   | [kann]   | [darf]   |
+| wir       | [möchten]  | [sollen] | [müssen] | [wollen] | [können] | [dürfen] |
+| ihr       | [möchtet]  | [sollt]  | [müsst]  | [wollt]  | [könnt]  | [dürft]  |
+| sie/Sie   | [möchten]  | [sollen] | [müssen] | [wollen] | [können] | [dürfen] |
+
+{{</quiz>}}
+
+Was fällt dir auf?
+
+{{< notice "Information" >}}
+
+Es gibt eigentlich kein Verb mit dem Infinit "möchten". Verben der Form "möcht-" sind Konjugationen des Verbs "mögen" im Konjunktiv II.
+
+Der Konjunktiv wird (unter anderem) benutzt, um höflich zu sein.
+
+{{< /notice >}}
+
+- [x] Modalverben im Präsens: "können", "müssen", "möcht-" Grammatik Lektion 3
+
+### Was möchtest du? Was kannst du? Was musst du?  #coaching
+
+TODOLATER p. 27
+
+## Modalverben: Worstellung
+
+Ressource: Spickzettel
+
+- [ ] Worstellung in Sätzen mit Modalverben Grammatik Lektion 3
+
+## Konnektoren: und, oder
+
+- [ ] Konnektor: "und" Grammatik Lektion 3
+
+## Die Fälle im Deutschen
+
+Im Deutschen gibt es vier Fälle:
+
+- Nominativ
+- Genitiv
+- Dativ
+- Akkusativ
+
+Mein Lieblingsbeispiel für die Fälle ist: Der Mann gibt seinem Sohn den Regenschirm seiner Frau.
+
+Dieser Satz enthält nämlich alle vier Fälle.
+
+### der Nominativ
+
+Benutze den Nominativ, wenn jemand **etwas tut** oder **etwas ist**.
+
+{{< notice "Eselsbrücke" >}}
+
+Der **Nom**inativ ist die "Standardeinstellung" für **Nom**en.
+
+{{< /notice >}}
+
+Im Beispiel tut der Mann etwas:
+
+**Der Mann** gibt seinem Sohn den Regenschirm seiner Frau.
+
+## der Genitiv
+
+Benutze den Genitiv, wenn jemandem etwas gehört oder zu etwas gehört.
+
+{{< notice "Eselsbrücke" >}}
+
+Die Polizei findet die **Gene des Kriminellen**.
+
+{{< /notice >}}
+
+Wem gehört der Regenschirm im Beispiel?
+
+Der Regenschirm gehört der Frau:
+
+Der Mann gibt seinem Sohn den Regenschirm **seiner Frau**.
+
+## der Dativ
+
+"Dativ" kommt vom lateinischen Wort für "geben". Man benutzt den Dativ, um den Empfänger des Gegebenen zu bezeichnen, also **denjenigen, der etwas bekommt**.
+
+Wer bekommt etwas in unserem Beispielsatz? Der Sohn bekommt etwas!
+
+Der Mann gibt **seinem Sohn** den Regenschirm seiner Frau.
+
+{{< notice "Tipp" >}}
+
+Oft erkennst du den Dativ daran, das ein "m" am Ende eines Wortes ist:
+
+- jemande**m** glauben/gehören/gefallen
+- eine**m**/meine**m**/deine**m**/seine**m**/ihre**m** Sohn
+
+{{< /notice >}}
+
+### der Akkusativ
+
+Benutze den Akkusativ für **direkte Objekte**, also Dinge, **mit denen** etwas getan wird.
+
+Beispiel: Der Mann gibt seinem Sohn **den Regenschirm** seiner Frau.
+
+In diesem Kurs für Anfänger sind erstmal nur der Nominativ und der Akkusativ wichtig.
+
+{{< notice "Hinweis" "Gut zu wissen" >}}
+
+In dieser Lektion habe ich nur *allgemeine Faustregeln* mit dir geteilt. Oft werden die Fälle auch aus anderen Gründen benutzt.
+
+Zum Beispiel "verlangen" bestimmte Präpositionen einen bestimmten Fall. Wenn man "mit" benutzt, folgt der Dativ: "Ich schneide den Kuchen mit eine**m** Messer."
+
+Die Fälle sind ein schwieriges Thema. Aber keine Angst: Du brauchst sie nicht vollkommen verstehen, um Deutsch sprechen zu können. Je länger du Deutsch lernst, desto besser wirst du sie verstehen.
+
+{{< /notice >}}
 
 ## Artikel: der/die/das, ein-, kein- (Nominativ)
 
@@ -4682,7 +5530,7 @@ Dies sind die Artikel im *Nominativ*:
 | unbestimmt |   ein    |   eine   |   ein    |   —    |
 | Negativ-   |   kein   |  keine   |   kein   | keine  |
 
-Benutze den Nominativ, wenn jemand **etwas tut** oder **etwas ist**.
+Erinnerung: Benutze den Nominativ, wenn jemand **etwas tut** oder **etwas ist**.
 
 Beispiele für den bestimmten Artikel:
 
@@ -4735,7 +5583,7 @@ Beachte die Muster:
 
 {{< /notice >}}
 
-Benutze den Akkusativ für **direkte Objekte**, also Dinge, **mit denen** etwas getan wird.
+Erinnerung: Benutze den Akkusativ für **direkte Objekte**, also Dinge, **mit denen** etwas getan wird.
 
 Beispiele für den bestimmten Artikel:
 
@@ -4863,7 +5711,7 @@ Verneine die folgenden Fragen:
 
 {{</quiz>}}
 
-## Nominativ und Akkusativ #quiz
+## Quiz: Nominativ und Akkusativ #quiz
 
 Was ist Nominativ? Was ist Akkusativ?
 
@@ -4950,7 +5798,233 @@ Aber es gibt auch ein Apostroph im Deutschen, wenn der Name mit "s" endet -- zum
 
 - [x] Genitiv-s bei Personennamen Grammatik Lektion 2
 
-# Prüfungsvorbereitung (skip for now)
+## Possessivartikel im Nominativ
+
+Die Possessivartikel im Nominativ sind:
+
+|             | männlich  + sächlich | weiblich +  Plural   |
+| ----------- | -------------------- | -------------------- |
+| ich         | mein                 | mein**e**            |
+| du          | dein                 | dein**e**            |
+| er + es sie | sein / ihr           | sein**e** / ihr**e** |
+| wir         | unser                | unser**e**           |
+| ihr         | euer                 | eur**e**             |
+| sie / Sie   | ihr / Ihr            | ihr**e** / Ihr**e**  |
+
+Siehst du, es ist gar nicht so schwer: Im Nominativ sind die männnlichen und sächlichen Artikel gleich, sowohl wie die weiblichen Artikel und die Artikel für den  Plural.
+
+Beim Letzteren wird nur ein "e" angefügt.
+
+{{< notice "Hinweis">}}
+
+Man schreibt "eure" statt "euere".
+
+{{< /notice >}}
+
+Beispiele:
+
+- **Mein Deutschkurs {m}** ist (hoffentlich) einfach.
+- **Dein Deutsch {n}** ist noch nicht gut, aber es wird jeden Tag besser.
+- **Unser*e* Arbeit {w}** ist noch nicht fertig, denn wir müssen noch viel lernen.
+- **Dein*e* Probleme {Plural}** werden schnell gelöst, wenn du mir Fragen stellst.
+
+- [x] Possessivartikel im Nominativ Grammatik Lektion 3
+
+## Possessivartikel im Nominativ #quiz
+
+Schreibe die Possessivartikel in die Lücken!
+
+{{<quiz "fill in">}}
+
+Ich lerne Deutsch. [Mein] Deutsch wird jeden Tag besser.
+
+Es gibt viele Schüler, die auch diesen Kurs machen. [Ihr] Deutsch wird auch jeden Tag besser.
+
+Gemeinsam lernen wir viel. [Unser] Fortschritt ist groß!
+
+Lass uns ein Gedicht schreiben. Dies ist [unser] Gedicht:
+
+"Heute ist ein schöner Tag!
+
+Liebe Sonne, [deine] Strahlen,<br>
+[deine] Wärme und [dein] Licht sind so gut.
+
+Liebe Wolken, [eure] Schönheit<br>
+macht den Himmel perfekt."
+
+{{</quiz>}}
+
+## Verben mit Vokalwechsel im Präsens #quiz
+
+Bei manchen Verben gibt es einen sogenannten Vokalwechsel: Bei der Konjunktion ändert sich der Vokal.
+
+- Aus einem **Vokal wird ein Umlaut**,
+- aus einem **"e" wird ein "i" oder "ie"**,
+- oder aus einem "i" wird "ei".
+
+Ergänze die folgenden Tabelle.
+
+Welche Muster kennst du schon und kannst sie anwenden? Wie kannst du herausfinden, was du nicht weißt?
+
+{{<quiz "fill in">}}
+
+|    Person | lesen   | fahren   | schlafen  | sprechen   | treffen   | laufen  | wissen   |
+| --------: | ------- | -------- | --------- | ---------- | --------- | ------- | -------- |
+|       ich | lese    | fahre    | [schlafe] | spreche    | treffe    | laufe   | [weiß]   |
+|        du | liest   | [fährst] | schläfst  | [sprichst] | [triffst] | läufst  | [weißt]  |
+| er/sie/es | [liest] | fährt    | [schläft] | spricht    | trifft    | [läuft] | weiß     |
+|       wir | lesen   | [fahren] | schlafen  | [sprechen] | treffen   | laufen  | [wissen] |
+|       ihr | lest    | fahrt    | [schlaft] | sprecht    | trefft    | [lauft] | wisst    |
+| sie / Sie | [lesen] | fahren   | schlafen  | sprechen   | [treffen] | laufen  | wissen   |
+
+{{</quiz>}}
+
+{{< notice "Tipp" >}}
+
+Bei fast allen Verben oben findet nur in der zweiten ("du") und dritten Person Singular ("er / sie / es") ein Vokalwechsel statt.
+
+Beim Verb "wissen" findet auch in der ersten Person Singular ein Vokalwechsel statt ("ich weiß").
+
+{{< /notice >}}
+
+- [x] Verben mit Vokalwechsel im Präsens Grammatik Lektion 4
+
+## Modalverben "mögen", "dürfen" und "wollen"  einfach erklärt
+
+Was ist der Unterschied zwischen "mögen", "dürfen" und "wollen"?
+
+Nun, wenn ich etwas **mag**, zum Beispiel Deutschlernen, dann macht es mir Spaß. Ich habe es schon einmal gemacht und weiß, dass es mir gefällt.
+
+Wenn ich etwas **darf**, dann erlaubt es mir jemand. Wenn ich eine Erlaubnis habe, dann darf ich es machen.
+
+Wenn ich etwas **will**, dann habe ich Lust dazu, etwas zu tun. Ich möchte etwas gerne in der Zukunft tun und habe es vielleicht noch nie getan.
+
+Beispiele:
+
+- Ich lerne jeden Tag Deutsch. Ich **mag** Deutschlernen. Deutschlernen macht mir Spaß.
+- Das ist ein schöner Kuchen, den du gebacken hast. **Darf** ich ihn probieren? Es ist dein Kuchen, aber darf ich auch etwas davon haben?
+- Ich war noch nie in Deutschland. Ich **will** nächstes Jahr nach Deutschland reisen.
+
+- [x] Modalverben im Präsens: "dürfen", "wollen", "mögen" Grammatik Lektion 4
+
+## Modalverben "dürfen", "wollen", "mögen" #quiz
+
+TODOLATER p.36
+
+## Das Präteritum
+
+Das Präteritum ist die erste Vergangenheit.
+
+{{< notice "Information" "Umgangssprache und Schriftsprache" >}}
+
+In der gesprochenen Sprache benutzt man das Präteritum meist nur für die Modalverben und „haben“, „sein“, „wissen“, „heißen“, „finden“ und „denken“.
+
+In Romanen und Erzählungen wird das Präteritum oft benutzt.
+
+{{< /notice >}}
+
+Hier sind also *haben* und *sein* im Präteritum:
+
+|      Person | sein  | haben   |
+| ----------: | :---- | :------ |
+|         ich | war   | hatte   |
+|          du | warst | hattest |
+| er, sie, es | war   | hatte   |
+|         wir | waren | hatten  |
+|         ihr | wart  | hattet  |
+|   sie / Sie | waren | hatten  |
+
+Bei anderen Verben siehst du hauptsächlich die folgenden Muster:
+
+| Person    | lachen       | reden        | fahren     | nehmen     |
+| --------- | ------------ | ------------ | ---------- | ---------- |
+| ich       | lacht**e**   | redet**e**   | fuhr       | nahm       |
+| du        | lacht**est** | redet**est** | fuhr**st** | nahm**st** |
+| er/sie/es | lacht**e**   | redet**e**   | fuhr       | nahm       |
+| wir       | lacht**en**  | redet**en**  | fuhr**en** | nahmen     |
+| ihr       | lacht**et**  | redet**et**  | fuhr**t**  | nahmt      |
+| sie       | lacht**en**  | redet**en**  | fuhr**en** | nahm**en** |
+
+Die Verben *lachen* und *reden* werden **schwach** konjugiert, die Verben *fahren* und *nehmen* **stark**. (So nennt man diese beiden Muster.)
+
+{{< notice "Information" "Regionale Unterschiede" >}}
+
+Im Norden Deutschlands wird das Präteritum öfter benutzt.
+
+Im Süden benutzt man stattdessen meistens das Perfekt.
+
+{{< /notice >}}
+
+- [x] "haben", "sein" im Präteritum Grammatik Lektion 4
+
+## So war es damals #quiz
+
+TODOLATER a la p. 100: Großvater erzählt, fülle die Präteritumform in die Lücken, Schüler bekommt Infinitiv
+
+## Konnektoren "denn", "oder", "aber"
+
+TODOLATER p. 36, wann man Sätze verkürzen kann p. 104
+
+- [ ] Konnektoren "denn", "oder", "aber" Grammatik Lektion 4
+
+## Verb an zweiter Stelle, auch nach Adverbien!
+
+TODOLATER reinforce Verb an zweiter Stelle im Hauptsatz, auch nach "leider" etc. - nicht wie im Englischen!
+
+##  Verben mit trennbaren Vorsilben
+
+TODO 5.4 + 5.6 (p.42), p.114
+
+- [ ] Verben mit trennbaren Vorsilben im Präsens und Perfekt Grammatik Lektion 5
+- [ ] Verben mit trennbaren Vorsilben und Modalverben im Präsens Grammatik Lektion 5
+
+## Verben mit untrennbaren Vorsilben im Perfekt
+
+- [ ] Verben mit untrennbaren Vorsilben im Perfekt Grammatik Lektion 5, z.B. p.114
+
+
+## unregelmäßige und gemischte Verben im Perfekt
+
+- [ ] unregelmäßige und gemischte Verben im Perfekt Grammatik Lektion 5
+
+## Vorschläge machen
+
+- [ ] Vorschläge mit "wir" Grammatik Lektion 6 #2
+- [ ] Voschläge mit "Sollen/Wollen wir ...?", "Soll ich ...? Grammatik Lektion 6 #2
+
+## Was ist der Unterschied zwischen "doch", "mal" und "doch mal"?
+
+- [ ] Modalpartikeln: "doch", "mal", "doch mal" Grammatik Lektion 6
+
+
+# Alltagssituationen
+
+TODO Webseiten verstehen (a la p. 50 Waschsalon)
+
+
+# Wortschatz festigen und erweitern
+
+TODOLATER
+
+## Lerne noch mehr!
+
+TODOLATER
+- wie man Wörterbuch benutzt und sich noch mehr Vokabeln aneignet
+- ständig lernen und **relevante** Vokabeln lernen, zum Beispiel die
+  - die man im täglichen Leben benutzt oder
+  - welche, die eine **emotionale** Relevanz haben: Fußball, Sehenswürdigkeiten, Geschichte etc.
+
+
+# Prüfungsvorbereitung: Diagramme und Statistiken
+
+## Deutschland: Statistik #quiz
+
+TODO 2019-06-26-bundeshaushalt-grafik.png
+
+TODO haustiere-heimtiere-grafik104.png
+
+
+# Prüfungsvorbereitung: hilfreiche Fähigkeiten üben
 
 ## Wichtige Sätze und Ausdrücke #ressource
 
@@ -4996,6 +6070,16 @@ TODO Video or slide show with pictures
 
 TODO Was passt? Was passt nicht
 
+- [ ] Anweisungen notieren, auf Anweisungen reagieren Kursbuch Lektion 6
+
+## selber Anweisungen machen
+
+- [ ] Aufforderungen (Anweisungen, Anleitungen, Vorschläge) verstehen und formulieren Übungsbuchteil Lektion 6
+
+
+
+
+
 ## Diagramme
 
 TODO Tagesablauf von Nick.jpg
@@ -5021,6 +6105,12 @@ TODO Wortstellung zufällig, müssen in richtige Position bringen und *aufschrei
 ## Ein falscher Personalbogen #quiz
 
 TODO Was ist falsch? Korrigiere die Fehler.
+
+
+## Abkürzungen
+
+- [ ] Abkürzungen verstehen und verwenden Übungsbuchteil Lektion 4
+
 
 # Probeprüfung
 
@@ -5198,7 +6288,13 @@ zweitausendvierzehn.
   - Die Unendliche Geschichte
   - Schneewittchen
   - Rumpelstilzchen
-
+- Coaching: always remind them to let me know what they **actually** want to say instead of falling back on what they know
+- App
+  - make coaching lessons around a particular topic
+    - user can select topic and purchase private lesson for themselves or for group
+    - regularly make coaching lessons, notify with notification
+      - everyone who hasn't taken that lesson yet
+      - everyone on the fitting level
 
 - idea: split into multiple courses, give guarantee only if they get all of them
   - Immersionskurs für Änfänger (Deutsch A1)
@@ -5253,7 +6349,8 @@ zweitausendvierzehn.
 
 ## Deutschlernen mit Gedichten: Was die Waschmaschine sagt
 
-TODO Gedicht "Was die Waschmaschine sagt" lesen Lektion 6
+- [ ] Gedicht "Was die Waschmaschine sagt" lesen Kursbuch Lektion 6 TODOLATER
+
 
 https://www.lilarum.at/fileadmin/user_upload/lilarum/Theaterstuecke_LILARUM/19_Katzen_reimen_sich_auf_Spatzen/Vorlese_Katzen.pdf
 
@@ -6036,6 +7133,8 @@ Kurzfristig gesehen, möchtest du die A1-Prüfung bestehen. Das ist schön und g
 # Schriftsteller, Musiker, Visionäre
 
 TODO Biographie verstehen Lektion 7
+- [ ] Kurzbiografie über Friedl Hofbauer verstehen Übungsbuchteil Lektion 6 -> p. 122 6. mit Fragen
+- [ ] Biographie über "Paul Klee" verstehen Kursbuch Lektion 7
 
 ## der Neuzeit
 
