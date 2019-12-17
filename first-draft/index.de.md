@@ -1868,6 +1868,7 @@ TODO 2019-06-26-bundeshaushalt-grafik.png
 TODO haustiere-heimtiere-grafik104.png
 
 - [ ] über Balkendiagramm sprechen Kursbuch Lektion 7
+- [ ] über Balkendiagramm sprechen Übungsbuchteil Lektion 7
 
 ## Videogamer in Deutschland #coaching
 
@@ -1884,6 +1885,8 @@ TODO
 - [ ] über kulturelle Besonderheiten bei Einladungen sprechen Kursbuch Lektion 7
 
 ## Österreich
+
+TODO p. 135 1b
 
 ## Lichtenstein
 
@@ -2259,6 +2262,21 @@ Sie freut sich sehr auf ihren Urlaub. Sie hat sich sogar einen Reiseführer geka
 Der Abflug ist Viertel nach sieben.
 
 Emma liest ihren Reiseführer, während sie wartet.
+
+## Emmas Reiseführer
+
+TODO
+- p. 58
+  - Fotos den Sehenswürdigkeiten zuordnen
+
+
+- [ ] Reiseführertexte über Sehenswürdigkeiten in Bern verstehen Übungsbuchteil Lektion 7
+- [ ] einen Rundgang zu den Sehenswürdigkeiten in einer Stadt planen und vorstellen Projekt 7
+
+## Sehenswürdigkeiten #coaching
+
+  - Welche Sehenswürdigkeiten gibt es in deiner Stadt?
+
 
 ## Probleme bei der Sicherheitskontrolle
 
@@ -2806,7 +2824,7 @@ Winterflyer_2019_web.pdf
 - Wo ist der nächste Spielplatz?
 - Wo sind die Giraffen?
 
-- [x] Wegbeschreibungen verstehen und machen Kursbuch Lektion 7
+- [x] Wegbeschreibungen verstehen und machen Kursbuch Lektion 7: p. 58 4. + 6.
 
 Schaue dir nun den Flyer mit den Veranstaltungen an.
 
@@ -2991,7 +3009,7 @@ Welche Monate passen zu den Jahreszeiten?
 
 
 - [x] Monate, Datum, **Jahreszeiten** und Jahreszahlen verstehen und nennen Kursbuch Lektion 2
-- [ ] Farben Jahreszeiten zuordnen Übungsbuchteil Lektion 7
+- [ ] Farben Jahreszeiten zuordnen Übungsbuchteil Lektion 7: p. 130
 
 ## Jochens Jahresplan
 
@@ -3558,6 +3576,19 @@ Im Zug auf den Weg nach Rügen hat Jochen sich schon einmal über Bergen auf Rü
 TODO
 - [ ] Restaurant-Informationen im Radio verstehen Kursbuch Lektion 8
 
+## Typisch deutsche Speisen!
+
+- [ ] Wortschatz zum Thema "Speisen" Übungsbuchteil Lektion 8
+
+## Was isst man in deinem Land? #coaching
+
+TODO p. 69 3. b+c
+
+## Selber Kochen
+
+- [ ] Rezept verstehen und selbst ein Rezept notieren Übungsbuchteil Lektion 8: p. 138 4., auch 5.
+
+
 ## Im Restaurant Teil 1: Die Speisekarte
 
 Am Abend gehen die Schmidts in ein Lokal. Die Kinder haben großen Hunger!
@@ -3630,7 +3661,9 @@ Wann gehen die Schmidts in ein Restaurant? Die Schmidts gehen [am Abend] in ein 
 
 TODO
 - [ ] Speisekarte verstehen Kursbuch Lektion 8
+- [ ] über Vorlieben beim Essen und Trinken sprechen Kursbuch Lektion 8
 - [ ] über Vorlieben beim Essen und Trinken sprechen Übungsbuchteil Lektion 8
+- [ ] Gespräch im Restaurant spielen Kursbuch Lektion 8
 - [ ] Gespräch im Restaurant spielen Übungsbuchteil Lektion 8
 
 ## Im Restaurant Teil 2: Getränke und einen Gruß aus der Küche
@@ -3673,6 +3706,14 @@ Als der Kellner die Rechnung bringt, fragt er: "Möchten sie bar bezahlen oder m
 "In Ordnung, bitte benutzen Sie diese Maschine." Jochen bezahlt mit der Kreditkarte. "Muss ich etwas unterschreiben? Brauchen Sie nicht auch meine Unterschrift?", fragt er. "Nein," sagt der Kellner, "das passiert jetzt ganz automatisch."
 
 Die Familie geht zurück zum Hotel. Es ist jetzt Nacht.
+
+## Gespräche im Restaurant #quiz
+
+TODO p. 69 5., p. 136 5.
+
+## Wie war das Essen? #quiz
+
+TODO p. 69 4.
 
 ## Wie du Eselsbrücke erstellen kannst #meta
 
@@ -3753,6 +3794,10 @@ Zu welcher Tageszeit wurde das Bild aufgenommen?
 {{</quiz>}}
 
 - [x] Wochentage und Tageszeiten Übungsbuchteil Lektion 2
+
+## In der Touristeninformationen #quiz
+
+TODO p. 124 2. und auch 3. a+b
 
 ## Die vielen schönen Farben auf Rügen
 
@@ -3880,12 +3925,17 @@ Sie fragt einen anderen Menschen: "Entschuldigung, wir sind Reisende und suchen 
 
 Auf der Post kauft Anna eine Briefmarke und schickt die Postkarte an Emma.
 
-## Wir haben uns verlaufen!
+## Wir haben uns verlaufen! #game
 
 [very simple mini game: walking through a city -> left, right, straight ]
 - [ ] mündliche Wegbeschreibungen notieren Kursbuch Lektion 7 -> Google Maps funktioniert nicht ;)
-- [x] Wegbeschreibungen verstehen und machen Kursbuch Lektion 7 #2
+- [ ] Wegbeschreibungen erfragen, formulieren und verstehen Übungsbuchteil Lektion 7
 
+## Wie komme ich dort hin? #coaching
+
+TODO
+- p. 126
+- echte Karten der Heimatstädte der Schüler: Wegbeschreibung zu einer Sehenswürdigkeit
 
 ## Mit dem Bus nach Berlin!
 
@@ -3908,7 +3958,7 @@ https://pixabay.com/photos/night-photograph-long-exposure-night-4581193/
 ## Wir brauchen Fahrkarten
 
 TODO
-- [ ] Anweisungen an einem Fahrkartenautomaten verstehen Kursbuch Lektion 7
+- [ ] Anweisungen an einem Fahrkartenautomaten verstehen Kursbuch Lektion 7: p. 58
 
 ## Der Geschäftsmann
 
@@ -4046,10 +4096,14 @@ Anna, Jochen, Lukas, Emilie und Michael
 TODO
 - [ ] E-Mail über Erlebnisse in Bern verstehen und darauf antworten Kursbuch Lektion 7 -> auch weitere Erlebnisse auf der Reise zusammenfassen
 
-## Wann und wo haben wir diese Fotos gemacht?
+## Urlaubsbilder: Wann und wo haben wir diese Fotos gemacht?
 
-TODO Bildbeschreibung passendem Bild zuordnen und sagen, wie einem die Bilder gefallen
+TODO
 -> Der Urlaub der Schmidts ist vorbei. Hilf ihnen, ihre Bilder zu sortieren. Wie gefallen dir die Bilder?
+
+- [ ] Bildbeschreibung passendem Bild zuordnen und sagen, wie einem die Bilder gefallen Kursbuch Lektion 7
+- [ ] Meinungen zu Bildern äußern Übungsbuchteil Lektion 7: p. 62 4.
+
 
 # Wie geht es dir?
 
@@ -4060,6 +4114,11 @@ Aber wie geht es uns wirklich?
 
 - [ ] Informationen über das Befinden verstehen und über das eigene Bedürfnis sprechen Kursbuch Lektion 5
 - [ ] Redemittel zum Thema "Befinden" Übungsbuchteil Lektion 5
+- [ ] Stimmungen ausdrücken Übungsbuchteil Lektion 7
+
+## Wie ist die Stimmung?
+
+TODO p. 128 1.
 
 ## Beim Arzt
 
@@ -4360,6 +4419,19 @@ Es gibt dann viele Getränke, Kuchen und gute Musik. Lukas lernt so viele Leute 
 
 Manchmal geht Lukas in die Disco. Er liebt es, in der Disco zu tanzen.
 
+## Lukas Freund plant eine Party
+
+TODO p. 70, p. 137 2.
+
+## Lukas plant eine Party #coaching
+
+- [ ] eine Party planen Projekt 8
+
+## Auf der Party
+
+TODO p. 71 3., p. 137 3.
+
+
 ## Lukas denkt zurück
 
 - [ ] über Vergangenes sprechen und schreiben Übungsbuchteil Lektion 5
@@ -4652,6 +4724,7 @@ TODO informelle Beschreibung am Telefon, Eltern haben Sorgen
 
 ## Sophia und Lukas planen ein weiteres Treffen
 
+TODO p. 67 4.
 - [ ] Vorschläge verstehen und machen Kursbuch Lektion 6 -> nicht Kino, sondern etwas besseres und intimeres: gemeinsam kochen. später: Theater (siehe auch: Noch mehr Freizeitangebote)
 vokabel: selbständig
 - [ ] Vorschläge mit "wir" Grammatik Lektion 6
@@ -4660,6 +4733,7 @@ vokabel: selbständig
 
 ## Wie findest du diesen Vorschlag? #quiz
 
+- [ ] Vorschläge machen und zusagen oder absagen Übungsbuchteil Lektion 8
 - [ ] Vorschläge machen und zustimmen oder ablehnen Kursbuch Lektion 8
 
 ## Lukas und Sophia kochen
@@ -4677,8 +4751,9 @@ TODOLATER
 
 ## Sophia und Lukas planen ihre Hochzeit
 
-TODO
+TODO p. 67 5.
 - [ ] Telefongespräch über Tischreservierung im Restaurant verstehen und Informationen weiterleiten Kursbuch Lektion 8
+- [ ] einen Tisch reservieren Übungsbuchteil Lektion 8
 
 ## Was haben sie gesagt?
 
@@ -4704,6 +4779,12 @@ Alle, die diese Anzeige sehen, sind herzlich eingeladen!
 </blockquote>
 
 TODO
+
+## Du bist auch eingeladen!
+
+- [ ] als Eingeladener/Eingeladene passend reagieren Übungsbuchteil Lektion 7
+- [ ] schriftlich eine Zusage formulieren Übungsbuchteil Lektion 8
+
 
 ## Viele Termine! #quiz
 
@@ -5176,6 +5257,15 @@ Hier sind ein paar weitere Beispiele. Wie werden sie ausgesprochen? Lies sie lau
 ## "w" oder "f"?
 
 - [ ] "w" oder "f" Phonetik 6 -> p. 122
+
+## R-Laute
+
+
+- [ ] R-Laute Phonetik 7: p. 130
+
+## Aussprache von "sch", "sp" und "st"
+
+- [ ] sch - sp - st Phonetik 8: p. 138
 
 # Grammatik
 
@@ -5996,6 +6086,55 @@ TODO 5.4 + 5.6 (p.42), p.114
 
 - [ ] Modalpartikeln: "doch", "mal", "doch mal" Grammatik Lektion 6
 
+## Präpositionen mit dem Dativ
+
+TODO p. 58 3.,
+
+## Präpositionen mit dem Dativ #quiz
+
+TODO p. 124
+
+## Präpositionen "durch" und "um ... (herum)"
+
+TODO p. 128 3.
+
+
+## Ortsangaben mit Akkusativ und Dativ
+
+- [ ] Ortsangaben mit Akkusativ und Dativ Grammatik Lektion 7
+
+## "etwas", "nichts", "all" und "man" (Indefinitpronomen)
+
+
+- [ ] Indefinitpronomen: "etwas", "nichts", "all", "man" Grammatik Lektion 7
+
+## Indefinitpronomen #quiz
+
+TODO p. 127
+
+## Substantivierung von Adjektiven nach "nichts" und "etwas" #quiz
+
+TODO
+
+## Verwendung von Präsens für Zukünftiges
+
+- [ ] Verwendung von Präsens für Zukünftiges Grammatik Lektion 7
+
+## Nomen aus Adjektiven
+
+TODO p. 67 3.
+
+## Nomen aus dem Infinitiv von Verben
+
+- [ ] Nomen aus dem Infinitiv von Verben Grammatik Lektion 8
+
+## zusammengesetzte Nomen und ihre Artikel #quiz
+
+- [ ] zusammengesetzte Nomen und ihre Artikel Grammatik Lektion 8: p.68 2., p. 135 2 -> ist einfach, nur kurze Erklärung und ein Quiz genügt
+
+## Adjektive im Nominativ und Akkusativ nach unbestimmtem Artikel, Negativpartikel und Possessivartikel
+
+- [ ] Adjektive im Nominativ und Akkusativ nach unbestimmtem Artikel, Negativpartikel und Possessivartikel Grammatik Lektion 8: p. 71 4.
 
 # Alltagssituationen
 
@@ -6022,6 +6161,8 @@ TODOLATER
 TODO 2019-06-26-bundeshaushalt-grafik.png
 
 TODO haustiere-heimtiere-grafik104.png
+
+TODO quiz a la p. 127 5.
 
 
 # Prüfungsvorbereitung: hilfreiche Fähigkeiten üben
@@ -6114,173 +6255,135 @@ TODO Was ist falsch? Korrigiere die Fehler.
 
 # Probeprüfung
 
-# Wortliste
+## Prüfungsstruktur #coaching
 
-Abfahrt. Abfahrten.
-Abflug. Abfluge. Abfluges. Abflugs. Abflüge. Abflügen.
-abgeben. abgegeben. gab ab. gebe ab. gebt ab. gib ab. gibst ab. gibt ab. gäbe ab.
-abgeholt. abholen. hole ab. holst ab. holt ab. holte ab.
-achtzig.
-anbieten. angeboten. biet an. biete an. bietest an. bietet an. bot an. böte an.
-angeklickt. anklicken. klicke an. klickst an. klickt an. klickte an.
-angekommen. ankommen. kam an. komm an. komme an. kommst an. kommt an. käme an.
-angezogen. anziehen. zieh an. ziehe an. ziehst an. zieht an. zog an. zöge an.
-Anrede. Anreden.
-Anschluss. Anschlusse. Anschlusses. Anschlüsse. Anschlüssen.
-Apartment. Apartments.
-April. Aprile. Aprilen. Aprils.
-Arbeitsplatz. Arbeitsplatze. Arbeitsplatzes. Arbeitsplätze. Arbeitsplätzen.
-Arm. Arme. Armen. Armes. Arms.
-Aufzug. Aufzuge. Aufzuges. Aufzugs. Aufzüge. Aufzügen.
-Auge. Augen. Auges.
-Ausgang. Ausgange. Ausganges. Ausgangs. Ausgänge. Ausgängen.
-ausgestiegen. aussteigen. steig aus. steige aus. steigst aus. steigt aus. stieg aus. stiege aus.
-Auskunft. Auskünfte. Auskünften.
-ausländisch. ausländische. ausländischem. ausländischen. ausländischer. ausländisches.
-Ausweis. Ausweise. Ausweisen. Ausweises.
-Autobahn. Autobahnen.
-Automat. Automaten.
-bade. baden. badest. badet. badete. gebadet.
-bar. bare. barem. baren. barer. bares.
-Bauch. Bauche. Bauches. Bauchs. Bäuche. Bäuchen.
-Berlin, zwölfter Vierter zweitausendzwei.
-besichtige. besichtigen. besichtigst. besichtigt. besichtigte.
-bestell. bestelle. bestellen. bestellst. bestellt. bestellte.
-blau. blaue. blauem. blauen. blauer. blaues. blauesten. blausten.
-Bleistift. Bleistifte. Bleistiften. Bleistiftes. Bleistifts.
-breit. breite. breitem. breiten. breiter. breites. breitesten.
-Buchstabe. Buchstaben. Buchstabens.
-buchstabier. buchstabiere. buchstabieren. buchstabierst. buchstabiert. buchstabierte.
-Bäckerei. Bäckereien.
-Cent. Cents.
-Dezember. Dezembern. Dezembers.
-draußen.
-dunkelblau. dunkelblaue. dunkelblauem. dunkelblauen. dunkelblauer. dunkelblaues.
-Durst. Durste. Durstes. Dursts.
-E-Mail. E-Mails.
-Ecke. Ecken.
-eilig. eilige. eiligem. eiligen. eiliger. eiliges. eiligsten.
-eine Deutsche.
-eine Million.
-Einladung. Einladungen.
-Eintritt. Eintritte. Eintritten. Eintrittes. Eintritts.
-entschuldige. entschuldigen. entschuldigst. entschuldigt. entschuldigte.
-Ergebnis. Ergebnisse. Ergebnissen. Ergebnisses.
-erste Dritte.
-erste März.
-euer.
-fahr Rad. fahre Rad. fahrt Rad. fuhr Rad. fährst Rad. fährt Rad. führe Rad. Rad fahren. Rad gefahren.
-Fahrer. Fahrerin. Fahrerinnen. Fahrern. Fahrers.
-Fahrrad. Fahrrade. Fahrrades. Fahrrads. Fahrräder. Fahrrädern.
-Familienname. Familiennamen. Familiennamens.
-Feuer. Feuern. Feuers.
-Finne. Finnen. Finnin. Finninnen.
-finnisch. finnische. finnischem. finnischen. finnischer. finnisches. finnischsten.
-Freizeit. Freizeiten.
-frühstücke. frühstücken. frühstückst. frühstückt. frühstückte. gefrühstückt.
-fünf Minuten nach ein Uhr. fünf Minuten nach eins. fünf Minuten vor ein Uhr. fünf Minuten vor eins.
-Geburtsjahr. Geburtsjahre. Geburtsjahren. Geburtsjahres. Geburtsjahrs.
-Geburtsort. Geburtsorte. Geburtsorten. Geburtsortes. Geburtsorts.
-geradeaus.
-geraucht. rauche. rauchen. rauchst. raucht. rauchte.
-geschlossen. geschlossene. geschlossenem. geschlossenen. geschlossener. geschlossenes. geschlossensten. geschlossner.
-Geschwister. Geschwistern. Geschwisters.
-Geschäft. Geschäfte. Geschäften. Geschäftes. Geschäfts.
-gestorben. gestorbene. gestorbenem. gestorbenen. gestorbener. gestorbenes.
-getanzt. tanz. tanze. tanzen. tanzt. tanzte.
-gewaschen. wasch. wasche. waschen. wascht. wusch. wäschst. wäscht. wüsche.
-geöffnet. geöffnete. geöffnetem. geöffneten. geöffneter. geöffnetes.
-Glückwunsch. Glückwunsche. Glückwunsches. Glückwunschs. Glückwünsche. Glückwünschen.
-Grad. Grad Celsius. Grade. Graden. Grades. Grads. Grads Celsius.
-Großeltern.
-Großmutter. Großmuttern. Großmutterns. Großmutters. Großmütter. Großmüttern.
-günstig. günstige. günstigem. günstigen. günstiger. günstiges. günstigsten.
-Haar. Haare. Haaren. Haares. Haars.
-halb drei.
-Halle. Hallen. Halles.
-Hausmann. Hausmanne. Hausmannes. Hausmanns. Hausmänner. Hausmännern.
-hellblau. hellblaue. hellblauem. hellblauen. hellblauer. hellblaues.
-hoch. hoche. hochem. hochen. hocher. hoches. höchsten. höher.
-hunderteins.
-häufiger. häufigsten. oft. öfter. öftesten.
-international. internationale. internationalem. internationalen. internationaler. internationales.
-Internet. Internets.
-Juni. Junis.
-kam mit. komme mit. kommst mit. kommt mit. käme mit. mitgekommen. mitkommen.
-Kilometer. Kilometern. Kilometers.
-Kiosk. Kioske. Kiosken. Kioskes. Kiosks.
-klar. klare. klarem. klaren. klarer. klares. klarsten.
-Laden. Ladens. Läden.
-leise. leisem. leisen. leiser. leises. leisesten.
-Licht. Lichte. Lichten. Lichter. Lichtern. Lichtes. Lichts.
-Lkw. Lkws.
-lustig. lustige. lustigem. lustigen. lustiger. lustiges. lustigsten.
-Mexikaner. Mexikanerin. Mexikanerinnen. Mexikanern. Mexikaners.
-Mund. Munde. Mundes. Munds. Münder. Mündern.
-Möbel. Möbeln. Möbels.
-möglich. mögliche. möglichem. möglichen. möglicher. mögliches. möglichsten.
-neunzig.
-nie.
-normal. normale. normalem. normalen. normaler. normales. normalsten.
-null Uhr drei.
-oben.
-Partner. Partnerin. Partnerinnen. Partnern. Partners.
-Plan. Plane. Planes. Plans. Pläne. Plänen.
-Postleitzahl. Postleitzahlen.
-Praktika. Praktikum. Praktikums.
-Praktiken. Praxen. Praxis.
-Preis. Preise. Preisen. Preises.
-Raum. Raume. Raumes. Raums. Räume. Räumen.
-Regen. Regens.
-Reparatur. Reparaturen.
-reparier. repariere. reparieren. reparierst. repariert. reparierte.
-S-Bahn. S-Bahnen.
-Satz. Satze. Satzes. Sätze. Sätzen.
-Schalter. Schaltern. Schalters.
-Schild. Schilde. Schilden. Schilder. Schildern. Schildes. Schilds.
-Schuh. Schuhe. Schuhen. Schuhes. Schuhs.
-schwarz. schwarze. schwarzem. schwarzen. schwarzer. schwarzes. schwärzer. schwärzesten.
-Schwimmbad. Schwimmbade. Schwimmbades. Schwimmbads. Schwimmbäder. Schwimmbädern.
-sechzig.
-Sekunde. Sekunden.
-selbstständig. selbstständige. selbstständigem. selbstständigen. selbstständiger. selbstständiges. selbstständigsten.
-siebzig.
-Stock. Stocke. Stockes. Stocks. Stöcke. Stöcken. Stöcker. Stöckern.
-Studien. Studium. Studiums.
-Tasche. Taschen.
-Taxi. Taxis.
-Teilnehmer. Teilnehmerin. Teilnehmerinnen. Teilnehmern. Teilnehmers.
-Telefon. Telefone. Telefonen. Telefons.
-telefonier. telefoniere. telefonieren. telefonierst. telefoniert. telefonierte.
-Test. Teste. Testen. Testes. Tests.
-Thema. Themas. Themata. Themen.
-Toilette. Toiletten.
-Treppe. Treppen.
-Türke. Türken. Türkin. Türkinnen.
-Uhrzeit. Uhrzeiten.
-unbekannt. unbekannte. unbekanntem. unbekannten. unbekannter. unbekanntes. unbekanntesten.
-unterschreib. unterschreibe. unterschreiben. unterschreibst. unterschreibt. unterschrieb. unterschriebe. unterschrieben.
-Unterschrift. Unterschriften.
-verdiene. verdienen. verdienst. verdient. verdiente.
-Verein. Vereine. Vereinen. Vereines. Vereins.
-verheiratet. verheiratete. verheiratetem. verheirateten. verheirateter. verheiratetes.
-vermiete. vermieten. vermietest. vermietet. vermietete.
-Vorname. Vornamen. Vornamens.
-Vorsicht.
-was für ein.
-weg sein.
-welcher.
-wem.
-wen.
-Wind. Winde. Winden. Windes. Winds.
-Zeitung. Zeitungen.
-Zoll. Zolles. Zolls. Zölle. Zöllen.
-zweitausendvierzehn.
-überweis. überweise. überweisen. überweist. überwies. überwiese. überwiesen.
+TODO not necessarily for students but for me, directly copied:
+
+### Hören (ca. 20 Minuten)
+
+1. TODO 6 kurze Alltagsgespräche (zweimal hören)
+2. TODO 4 Durchsagen (einmal hören)
+3. TODO 5 Ansagen/Nachrichten am Telefon (zweimal hören)
+
+### Lesen (ca. 25 Minuten)
+
+1. 1 oder 2 Nachrichten
+2. 10 Anzeigen, je 2 nach Auswahl
+3. 5 Schilder/Aushänge
+
+### Schreiben (ca. 20 Minuten)
+
+1. 5 Informationen in Formular ergänzen
+2. Kurznachricht schreiben (dazu 3 Leitpunkte)
+
+### Sprechen (ca. 15 Minuten)
+
+1. Sich vorstellen
+2. Fragen stellen und auf Fragen antworten
+3. Um etwas bitten und auf Bitten antworten
+
+
+### Bewertung
+
+Bewertung zu gleichen Teilen pro Kategorie
+
+100-90: sehr gut
+89-80: gut
+79-70: befriedigend
+69-60: ausreichend
+unter 60: nicht bestanden
+
+TODO
+- dreimal so viel Material machen wie nötig, dann zufällig daraus wählen aber nie wiederholen -> drei Versuche
+- program a timer
+
+## Hören: Alltagsgespräche
+
+6+1 kurze Alltagsgespräche (zweimal hören, 4:38)
+- Kleidungsstück
+- Wochentag
+- Ort
+- Uhrzeit
+- Geldbetrag
+- Speise
+- dreistellige Nummer
+
+zu jedem multiple choice mit drei Antworten, eins ist schon gelöst als Beispiel
+
+## Hören: Durchsagen
+
+4 Durchsagen (einmal hören, 2:54)
+
+4+1 richtig/falsch Fragen, eine schon gelöst
+
+## Hören: Ansagen und Telefonnachrichten
+
+5 Ansagen/Nachrichten am Telefon (zweimal hören, 3:01)
+
+5+1 multiple choice Fragen mit drei Antworten, eine schon gelöst
+
+## Lesen: Nachrichten
+
+1 oder 2 kurze Nachrichten
+
+5+1 richtig/falsch Fragen, eine schon gelöst
+
+## Lesen: Anzeigen
+
+10 Anzeigen, je 2 nach Auswahl (d.h. man sieht zwei und muss die richtige wählen = 5 Aufgaben +1 Beispiel)
+
+## Lesen: Schilder und Aushänge
+
+5+1 Schilder/Aushänge: richtig/falsch
+
+## Schreiben: Informationen ergänzen
+
+5+1 Informationen in (Anmelde-) Formular ergänzen, zwei Antworten sind schon teilweise ausgefüllt
+
+## Schreiben: Kurznachricht schreiben
+
+Kurznachricht schreiben (dazu 3 Leitpunkte): zu jedem Punkt ein bis zwei Sätze (ca. 30 Wörter) -> ca. 90 Wörter insgesamt
+
+## Sprechen: Sich vorstellen
+
+- Name
+- Alter
+- Land
+- Wohnort
+- Sprachen
+- Beruf/Schule/Studium
+- Hobbys
+
+Zusatzfragen: Namen buchstabieren, Telefonnummer
+
+## Sprechen: Fragen stellen und auf Fragen antworten
+
+zwei Karten mit einem Wort, z. B.:
+- "Thema A: Freizeit; Wochenende"
+- "Thema B: Essen; Kochen"
+
+- stelle zu beidem je eine Frage
+- antworte auf die Fragen einer anderen Person
+
+## Sprechen: Um etwas bitten und auf Bitten antworten
+
+zwei Karten mit einem Bild oder einem Wort: formuliere dazu eine Bitte, antworte auf die Bitte von jemand anderem
+
+
 
 
 # Ideen
 
+- Start App with randomized greeting on each session
+  - Hallo, Mohammed. / Guten Tag, Mohammed. / Guten Morgen./Abend./
+  - Heute ist der 25. Dezember/12. 2020.
+  - Die Zeit ist 16:30 Uhr.
+  - Das Wetter in ... [user city]
+  - Viel Spaß beim Deutschlernen.
+  - as soon as is available, first ever session or after buy: show video
+- specificy topics, tags for each lesson
+  - let them go through a "course playlist" of lessons dealing with certain topics or categories
+  - as soon as a topic is introduced: here are other lessons dealing with that topic
 - Meditation
 - Grundgesetz
 - Pokemon https://www.youtube.com/watch?v=s2119-wrJo0
@@ -6346,6 +6449,7 @@ zweitausendvierzehn.
   - schwer: die passendste Formulierung oh-ne Rücksicht auf Wortschatz
 - wenn Audio durch Video ersetzt wird -> Audio mit alten Einheiten in ein Archiv (extra Lektion), dass sie auch bekommen
 - some lessons are for Hörverständnis -> hide text at first and let them know not to read until they've done the next exercise
+- Gegenteile a la p. 132 3.
 
 ## Deutschlernen mit Gedichten: Was die Waschmaschine sagt
 
@@ -6810,6 +6914,12 @@ Außerdem gab es auch sehr leckeres Essen: gegrillter Schinken, Hähnchenfleisch
 
 Leider hatte der Sohn nicht viel Geld und der Preis der Lebensmittel war sehr hoch.
 
+TODO p. 60 Grillparty
+
+## Was soll ich mitbringen? #coaching
+
+TODO p. 60 2. Was bringt man ziu einer Einladung mit
+
 ## Schluss
 
 TODO
@@ -7134,7 +7244,7 @@ Kurzfristig gesehen, möchtest du die A1-Prüfung bestehen. Das ist schön und g
 
 TODO Biographie verstehen Lektion 7
 - [ ] Kurzbiografie über Friedl Hofbauer verstehen Übungsbuchteil Lektion 6 -> p. 122 6. mit Fragen
-- [ ] Biographie über "Paul Klee" verstehen Kursbuch Lektion 7
+- [ ] Biographie über "Paul Klee" verstehen Kursbuch Lektion 7 p. 62
 
 ## der Neuzeit
 

@@ -1,12 +1,13 @@
 # "Lebensretter"
 
+- Ich verstehe das nicht. / Entschuldigung, ich habe das nicht verstanden.
 - Wie bitte? / Wiederholen Sie das bitte.
-- Sprechen Sie bitte langsam.
+- Sprechen Sie bitte langsam. / Langsam, bitte.
 - Ich habe eine Frage.
 - Was heißt/Was bedeutet "Bleistift"?
 - Wie heißt das/"pencil" auf Deutsch?
-- Ich verstehe das nicht.
 - Ist das richtig?
+- Können Sie mir das bitte erklären?
 
 # Die richtige Mentalität
 
@@ -62,6 +63,13 @@
 |       wir | lesen     | fahren     | schlafen     | sprechen     | treffen     | laufen     | wissen    |
 |       ihr | lest      | fahrt      | schlaft      | sprecht      | trefft      | lauft      | wisst     |
 | sie / Sie | lesen     | fahren     | schlafen     | sprechen     | treffen     | laufen     | wissen    |
+
+### Verwendugn von Präsens für die Zukunft
+
+Du kannst das Präsens auch für die Zukunft verwenden, wenn du eine Zeitangabe machst:
+
+- Ich gehe morgen ins Kino.
+- In zwei Wochen fliege ich nach Deutschland.
 
 ## Präteritum (1. Vergangenheit)
 
@@ -499,7 +507,7 @@ Andere Aktivitäten:
 - Gehen wir doch ins Theater!
 - Kochen wir doch mal zusammen!
 
-## Dank und Entschuldigung
+## höfliche Phrasen und Antworten
 
 - Vielen Dank (für ...).
   - Sehr gerne.
@@ -515,6 +523,38 @@ Andere Aktivitäten:
   - Das ist doch nicht schlimm.
 
 Achtung, häufiger Fehler: Sage niemals <del>"vielen Danke"</del>, man sagt "**danke**" oder "**vielen Dank**"!
+
+## ja und nein sagen
+
+- zustimmen:
+  - Ja, sehr gern.
+  - Das ist eine gute Idee.
+  - Das finde ich (sehr) gut/prima.
+- ablehnen:
+  - Nein, das möchte ich nicht so gern machen. Lieber möchte ich ...
+  - Das ist keine gute Idee.
+  - Das finde ich langweilig/nicht so gut.
+
+## Im Restaurant
+
+### Bestellung
+
+- Kellner: Möchten/Wollen Sie schon bestellen?
+  - Gast: Ja, gern. / Danke, wir überlegen noch.
+- Gast: Können wir bestellen?
+  - Kellner: Ja, sehr gern.
+- Kellner: Was möchten Sie essen/trinken?
+  - Gast/Gäste: Ich hätte/Wir hätten gern... / Zum Essen/Trinken nehme ich/nehmen wir ...
+
+### Zahlung
+
+- Gäste: Die Rechnung, bitte. / Können wir bitte zahlen?
+  - Kellner: Gern, sofort. / Gern, ich bringe Ihnen die Rechnung.
+- Kellner: Getrennt oder zusammen? / Möchten Sie getrennt oder zusammen bezahlen?
+  - Gäste: Getrennt/Zusammen bitte.
+- Kellner: Das macht ...
+  - Gast: Bitte.
+
 
 # Fälle
 
@@ -537,6 +577,8 @@ Erklärung:
 - **Nominativ** (meist Subjekt): Jemand/etwas **macht** oder **ist** etwas. (ich, der Mann)
 - **Akkusativ** (direktes Objekt): Jemand/etwas ist **direkt** von der Handlung betroffen. (ein Buch, einen Kuchen, ihn)
 
+Siehe auch [Präpositionen](#Präpositionen), denn jede **Präposition verlangt einen Fall**.
+
 # Pronomen
 
 | Nominativ | Akkusativ |
@@ -550,7 +592,17 @@ Erklärung:
 | ihr       | euch      |
 | sie / Sie | sie / Sie |
 
+
 # Artikel
+
+## bestimmte Artikel
+
+| Fall      | m   | w   | s   | Plural |
+| --------- | --- | --- | --- | ------ |
+| Nominativ | der | die | das | die    |
+| Genitiv   | des | der | des | der    |
+| Dativ     | dem | der | dem | den    |
+| Akkusativ | den | die | das | die    |
 
 ## männliche Artikel
 
@@ -658,6 +710,111 @@ Eine Ausnahme ist "euer". Oft lässt man ein "e" weg:
 | lang          | Vokal + "h"                 | der F**eh**ler |
 | kurz          | Vokal + doppelter Konsonant | b**itt**e      |
 | kurz          | Vokal + "ck"                | die **Eck**e   |
+
+# Präpositionen
+
+Präpositionen verlangen einen Fall, d.h. das Nomen nach der Präposition ist in einem bestimmten Fall.
+
+| Präposition | Fall                 |
+| ----------- | -------------------- |
+| durch       | Akkusativ            |
+| um          | Akkusativ            |
+| von         | Dativ                |
+| zu          | Dativ                |
+| bei         | Dativ                |
+| in          | Akkusativ oder Dativ |
+| an          | Akkusativ oder Dativ |
+
+Erinnerung an die bestimmten Artikel:
+
+| Fall      | m   | w   | s   | Plural |
+| --------- | --- | --- | --- | ------ |
+| Nominativ | der | die | das | die    |
+| Genitiv   | des | der | des | der    |
+| Dativ     | dem | der | dem | den    |
+| Akkusativ | den | die | das | die    |
+
+## Akkusativ oder Dativ?
+
+- Akkusativ bei einer **Richtung** (wohin?)
+  - Ich fahre (von Deutschland) *in die* Schweiz.
+  - Ich hänge das Bild *an die* Wand.
+- Dativ bei einem **Ort** (wo?)
+  - Ich fahre (von Bern nach Zürich) *in der* Schweiz.
+  - Das Bild hängt *an der* Wand.
+
+**Eselsbrücke**: "Akkusativ" und "Richtung" sind beides lange Wörter, "Dativ" und "Ort" sind kurze Wörter.
+
+## Verkürzungen: Präposition + Artikel
+
+Verkürze folgende Präpositionen und Dativ-Artikel zu einem Wort.
+
+- **vo**n de**m** => **vom**
+- **zu** de**m** => **zum**
+- **bei** de**m** => **beim**
+- **i**n de**m** => **im**
+
+## Beispiele
+
+- durch + Park {m} => Ich gehe **durch den** Park.
+- durch + Stadt {w} => Ich gehe **durch die** Stadt (und schaue mir die Sehenswürdigkeiten an).
+- von + Bahnhof {m} => Ich komme **vom** Bahnhof.
+- in + Kino {n} =>
+  - Wir gehen morgen **ins** Kino.
+  - Wir sind **im** Kino und der Film fängt an.
+- in + Straße {w} =>
+  - Ich wohne **in der** Albert-Einstein-Straße.
+  - "... dann gehen Sie nach rechts **in die** Albert-Einstein-Straße."
+
+Siehe auch [den Spickzettel zu Präpositionen](http://authenticgermanlearning.com/prepsheet).
+
+# Indefinitpronomen
+
+- etwas = eine unbestimmte Sache
+- nichts = keine Sache
+- alle = die Personen
+- man = die Menschen allgemein
+
+# Nomen (Substantive)
+
+## Nomen aus Adjektiven
+
+Mit "etwas" und "nichts" kannst du ein Adjektiv zu einem Nomen machen, zum Beispiel:
+
+- nichts Neues
+- etwas Süßes
+- nichts Vegetarisches
+
+## Nomen aus dem Infinitiv von Verben
+
+Du kannst aus Verben Nomen (Substantive) machen:
+
+- das Essen (essen)
+- das Kochen (kochen)
+- das Treffen (treffen)
+
+## Zusammengesetzte Nomen
+
+Nomen können zusammengesetzt werden. Das zusammengesetzte Nomen hat den **Artikel des letzten Wortes**.
+
+- der Kredit + **die** Karte => **die** Kreditkarte
+- die Speise + **die** Karte => **die** Kreditkarte
+- die Birnen (Plural) + **der** Saft => **der** Birnensaft
+- das Gemüse + **der** Salat => **der** Gemüsesalat
+
+# Adjektivdeklination
+
+## nach unbestimmten Artikel, Negativartikel, Possessivartikel
+
+Nach "ein", "kein", "mein", "dein" etc. wird ein Adjektiv wie folgt dekliniert.
+
+Die Deklination hängt vom *Fall* und vom *Geschlecht des Nomens* ab.
+
+|           | männlich                              | weiblich                          | sächlich                        | kein Artikel und Plural | Artikel und Plural          |
+| --------- | ------------------------------------- | --------------------------------- | ------------------------------- | ----------------------- | --------------------------- |
+| Nominativ | ein/kein/mein groß**e*r*** Baum       | eine/keine/meine schön**e** Blume | ein/kein/mein alt**es** Fahrrad | neu**e** Möbel          | keine/meine neu**en** Möbel |
+| Akkusativ | einen/keinen/meinen groß**e*n*** Baum | eine/keine/meine schön**e** Blume | ein/kein/mein alt**es** Fahrrad | neu**e** Möbel          | keine/meine neu**en** Möbel |
+
 
 # Anweisungen
 
