@@ -148,5 +148,5 @@ Hier ist eine Aufgabe für dich:
 
 {{< /notice >}}
 
-{{<quiz "fill in">}}
+{{<quiz "drag drop">}}
 {{</quiz>}}
