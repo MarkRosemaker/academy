@@ -1887,7 +1887,7 @@ Plus vier neun (+49) ist die Vorwahl für Deutschland, drei null (30) oder null 
 
 Wir sind auf Whatsapp erreichbar und helfen dir gerne, falls du Fragen oder Feedback zu diesem Kurs hast. Wir überprüfen unsere Nachrichten mindestens einmal pro Tag.
 
-{{<quiz "fill in|ignore spaces|instant feedback">}}
+{{<quiz "fill in|telephone number|instant feedback">}}
 Hast du Probleme? Schreibe unsere Nummer zuerst in dieses Feld: [+49 30 23327134]
 {{</quiz>}}
 
@@ -2304,10 +2304,10 @@ Höre die Tonaufzeichnung und notiere die Informationen:
   - Postleitzahl und Wohnort: 30159 [Hannover]
 {{</quiz>}}
 
-{{<quiz "fill in|instant feedback|ignore spaces">}}
-- Telefonnummer: [+49 511 4121870]
-- Mobil: [+49 170 1539 602]
-- E-Mail: [j.schmidt@vinmar.com]
+{{<quiz "fill in|instant feedback">}}
+- Telefonnummer: [tel:+49 511 4121870]
+- Mobil: [tel:+49 170 1539 602]
+- E-Mail: [email:j.schmidt@vinmar.com]
 
 {{</quiz>}}
 
@@ -2514,6 +2514,16 @@ Bei der Zeitangabe gibt es regionale Unterschiede: Nicht überall sagt man "drei
 
 - [x] Uhrzeigen verstehen und sagen: formell/informell Kursbuch Lektion 2
 - [x] Uhrzeiten: offizielle und inoffiziell Übungsbuchteil Lektion 2
+
+## Eine Dosis Motivation #mindset
+
+Hey, ich möchte einmal über etwas anderes mit dir sprechen als die Zeiten und dir einfach nur sagen, wie toll du bist.
+
+Mensch, du lernst Deutsch, eine der besten Sprachen auf der Welt!
+
+Wenn du Deutsch sprichst, werden sich so viele Türen für dich öffnen. Du wirst viel mehr Möglichkeiten haben als jetzt: Du hast mehr Chancen im Beruf, du kannst mit mehr Menschen kommunizieren und du hast das Selbstbewusstsein, eine weitere Sprache sprechen zu können.
+
+Das ist wunderbar! Mach weiter. Bleib am Ball!
 
 ## Heute und jetzt #meta #ressource
 
@@ -2987,9 +2997,7 @@ Jetzt ist es wieder **Samstag**, Emmas letzter Tag in Deutschland. Sie sagt ihre
 
 "Auf Wiedersehen, Jochen und Anna!", sagt Emma. "Tschüss, Kinder! Ich muss jetzt nach Hause. Aber wir sehen uns später mal wieder. Bis dann!"
 
-
-
-# Verbringe das Jahr mit der Familie Schmidt
+# Lerne die Familie Schmidt kennen
 
 ## Wer sind die Schmidts?
 
@@ -3264,170 +3272,1707 @@ Wann fängt der Musikunterricht an?
 https://freie-grundschule-wernigerode.de/2_Schule_Hort/Unterricht/Stdpl_4_Klasse.html
 
 
+## Lukas' Computer-Kurs ist international #immersion
+
+Lukas macht in den Sommerferien einen Computer-Kurs.
+
+Die anderen Teilnehmer in dem Kurs sind Kinder in seinem Alter.
+
+Der Kurs ist sehr international – außer den deutschen Kindern gibt es auch drei ausländische Kinder.
+
+Elif ist türkisch. Sie ist Türkin und kommt aus der Türkei. Kai ist finnisch. Er ist Finne und kommt aus Finnland. Sie sind beide europäisch – sie sind Europäer kommen aus Europa.
+
+Francisco ist mexikanisch. Er ist Mexikaner und kommt aus Mexiko. Fransisco ist kein Europäer, er ist Südamerikaner.
+
+Lukas ist Deutscher: Sein Vater ist ein Deutscher und seine Mutter ist eine Deutsche.
+
+In Finnland benutzt man auch Euros, die gleiche Währung wie in Deutschland. Aber in der Türkei benutzt man türkische Lira und in Mexiko mexikanische Peso.
+
+Lukas hat eine Idee: Zur Übung schreibt er ein Programm, dass Euros in andere Währungen umrechnet.
+
+{{< notice "Information" "Erkenne Muster!" >}}
+
+| Land        | Bewohner                                      | Adjektiv        | Sprache         |
+| ----------- | --------------------------------------------- | --------------- | --------------- |
+| Deutschland | Deutsche<br>der/die Deutsche                  | deutsch         | Deutsch         |
+| Finnland    | Finn**en**<br>der Finne<br>die Finn**in**     | finn**isch**    | Finn**isch**    |
+| Türkei      | Türk**en**<br>der Türke<br>die Türk**in**     | türk**isch**    | Türk**isch**    |
+| Mexiko      | Mexikaner<br>der Mexikaner<br>die Mexikanerin | mexikan**isch** | Mexikan**isch** |
+
+| Kontinent | Bewohner                                             | Adjektiv         |
+| --------- | ---------------------------------------------------- | ---------------- |
+| Europa    | Europäer<br>der Europäer<br>die Europäer**in**       | europä**isch**   |
+| Afrika    | Afrikaner<br>der Afrikaner<br>die Afrikaner**in**    | afrikan**isch**  |
+| Amerika   | Amerikaner<br>der Amerikaner<br>die Amerikaner**in** | amerikan**isch** |
+| Asien     | Asiaten<br>der Asiate<br>die Asiat**in**             | asiat**isch**    |
+
+Wie du siehst, gibt es klare Muster. Die Deutschen selbst sind eine Ausnahme.
+
+{{< /notice >}}
+
+## Woher kommst du?
+
+TODO quiz
+
+[Woher kommst du? Was ist die Währung in deinem Land?
+
+Siehe [Lukas' Computer-Kurs ist international](#lukas-computer-kurs-ist-international-immersion) und [Eine Weltreise](#eine-weltreise-immersion).
+
+first version: Poll which country via Google Forms, including option to write-in
+
+second version: write in each answer, check if it makes sense
+
+- Addresse
+- Land
+- Kontinent
+- Sprache
+- Nationalität
+
+use code from number sayer to say the numbers in Addresse]
+
+- [x] sagen, woher man kommt: Adresse, Land, Kontinent Kursbuch Lektion 1
+- [x] Sprachen und Nationalitäten
+
+
+
+## Lukas' Programm: Währungen #quiz
+
+Lukas schreibt sein Programm.
+
+Kannst du ihm helfen? Schaue die Antwort im Internet nach.
+
+{{< notice "Tipp" >}}
+
+Deine Initiative ist gefragt! Recherchiere, bis du die Antwort gefunden hast.
+
+In jede Lücke brauchst du nur ein Wort zu schreiben.
+
+{{< /notice >}}
+
+{{<quiz "fill in|instant feedback">}}
+| Land         | Währung   | ein Hundertstel $\left(\frac{1}{100}\right)$ |
+| ------------ | --------- | -------------------------------------------- |
+| Deutschland  | Euro      | Cent                                         |
+| Österreich   | [Euro]    | [Cent]                                       |
+| Schweiz      | [Franken] | [Rappen]                                     |
+| Lichtenstein | [Franken] | [Rappen]                                     |
+| Finnland     | [Euro]    | [Cent]                                       |
+| Frankreich   | [Euro]    | [Cent]                                       |
+| Türkei       | [Lira]    | Kuruş                                        |
+| Mexiko       | [Peso]    | Centavos                                     |
+| USA          | [Dollar]  | [Cent]                                       |
+
+{{</quiz>}}
+
+In Finnland benutzt man auch Euros, die gleiche Währung wie in Deutschland. Aber in der Türkei benutzt man türkische Lira und in Mexiko mexikanische Peso.
+
+Welche Währung wird in deinem Land benutzt?
+
+TODOLATER Flaggen
+
+- [x] Preise und Währungen Übungsbuchteil Lektion 3
+
+## Lukas bringt seinem Bruder etwas über Computer bei
+
+Der kleine Michael ist auch an Computern interessiert. Lukas bringt ihm bei, wie man einen Computer benutzt.
+
+"Zuerst must du den Computer anmachen. Drücke auf diesen Knopf und mache den Computer an.", sagt er. Michael drückt auf den Knopf.
+
+"Sehr gut! Dann meldest du dich an. Es gibt mehrere Konten; siehst du die Fotos mit Namen? Zur Anmeldung klickst du auf dein Bild. Klicke jetzt dein Bild an."
+
+Michael bewegt die Maus und klickt auf sein Foto. "Sehr gut!", sagt Lukas, "Jetzt hast du dich in deinem Konto angemeldet."
+
+Lukas zeigt Michael viele Dinge, die er am Computer machen kann.
+
+- "Wenn du hier klickst", sagt Lukas, "dann kansnt du eine E-Mail schicken."
+- "Wenn du auf 'Steuerung' und 'p' drückst, dann druckt der Drucker die Webseite oder das Dokument auf einem Bogen Papier aus."
+- "Wenn du fertig bist, machst du den Computer aus. Dafür drückst du wieder auf den Knopf."
+
+"Was ist das hier, unter dem Knopf?", fragt Michael. "Das ist ein Schlitz für CDs. Du kannst hier eine CD einlegen. Früher hat man CDs benutzt, als es noch keine USB-Sticks gab."
+
+"Und was ist das?", fragt Michael. "Das ist der Drucker. Papa sagt, es ist auch ein Scanner und Fax. Man kann damit anderen Leuten etwas schicken."
+
+https://pixabay.com/photos/printer-desk-office-fax-scanner-790396/
+
+# Die Reise der Schmidts durch Deutschland
+
+## Endlich Urlaub!
+
+Es ist jetzt Juli. Es ist Zeit für einen Urlaub.
+
+Jochen macht auch mal sein Handy aus, weil er im Urlaub nicht erreichbar sein möchte.
+Wenn das Handy an ist, dann kann ihn sein Chef immer anrufen. Jochen möchte keinen Anruf von seinem Chef bekommen. Jochen braucht einen ganz ruhigen Urlaub.
+
+Er hat einen guten Plan gemacht: Die Familie geht zuerst für eine Woche nach Rügen. Das ist eine Insel im Norden Deutschlands.
+
+Danach schauen sie sich mehrere deutsche Städte an.
+
+## Mit der Bahn nach Rügen, Teil 1
+
+Gestern war der letzte Tag vor den Sommerferien.
+
+Die Schmidts fahren heute mit dem Zug nach Rügen.
+
+Die Abfahrt ist um sieben uhr neunundfünzig (7:59 Uhr) auf Gleis 7 im Hanover Hauptbahnhof. Die Schmidts müssen früh am Morgen aufstehen.
+
+Die Ankunft ist ein Uhr drei (13:03 Uhr) auf Gleis 2 in der Stadt *Bergen*.
+
+Die Fahrt dauert also fünf Stunden und vier Minuten. Das ist eine lange Zeit!
+
+Die Schmidts sind um halb acht im Bahnhof. "Hast du die Fahrkarten?", fragt Anna. "Ja, hier sind die Tickets.", antwortet Jochen.
+
+"Das ist ja erste Klasse! Wir fahren immer zweite Klasse.", sagt Anna.
+
+"Aber heute nicht.", sagt Jochen und lacht. "Ich habe dieses Jahr viel gearbeitet und viel Geld verdient. Es ist in Ordnung. Es ist ein Geschenk für dich und die Kinder."
+
+Die Schmidts sind noch müde und setzen sich auf eine Bank, die auf dem Bahnsteig steht.
+
+Es gibt eine Durchsage: "Achtung, eine Durchsage: Der Zug nach Berlin verspätet sich um dreißig Minuten."
+
+"Zum Glück fahren wir nicht nach Berlin!", sagt Anna. Leider ist die Bahn nicht immer pünktlich.
+
+Die Schmidts haben Glück: Um kurz vor acht kommt ihr Zug. Die Eltern, Lukas und Emilia steigen in den Zug ein. Der kleine Micheal steht noch auf dem Bahnsteig.
+"Komm schon, Michael", sagt Anna, "schnell einsteigen! Worauf wartest du? Steig ein, der Zug fährt gleich. Ich helfe dir."
+
+Es ist eine große Reise für Michael. Früher haben die Schmidts nur kleine Ausflüge gemacht, aber jetzt fahren sie weit weg – mit einem Zug!
+
+Als sie im Zug sind, fragt er: "Fahren wir ins Ausland?" "Nein, Michael, wir fahren nach Rügen. Das ist in Deutschland."
+
+"Aber das ist eine Insel, oder?", fragt Michael. "Ja, das ist richtig.", antwortet Anna. "Rügen ist eine Insel."
+
+"Aber Emma kommt von einer Insel, das ist im Ausland! Emma ist Ausländerin.", sagt das Kind. Die Mutter muss lachen. "Ja, aber nicht jede Insel ist im Ausland."
+
+## Mit der Bahn nach Rügen, Teil 2
+
+Es gibt eine Ansage: "Willkommen im Zug nach Bergen auf Rügen. Der nächste Halt: Hamburg Hauptbahnhof. Ankunft: neun Uhr vierundreißig (09:34 Uhr) auf Gleis zwölf (12)."
+
+Die Schmidts suchen sich ihre Plätze. Viele Plätze sind besetzt. Es ist gut, dass sie erste Klasse fahren. Früher kostete die erste Klasse für sie zu viel Geld. Jetzt geht es ihnen besser. (Du kannst dich auch verbessern!)
+
+Die Kinder lesen Bücher und spielen Spiele. Am Vormittag schauen sie einen kurzen Film. Danach sind sie sehr müde und schlafen.
+
+Es ist nun Mittag. Es gibt eine Ansage: "Ankunft im Bahnhof von Stralsund um zwölf Uhr neununddreißig (12:39 Uhr) auf Gleis zwei (2)."
+
+Die Kinder wachen davon auf. "Es ist nicht mehr weit", sagt Anna. "Wir steigen hier um."
+
+Die Schmidts steigen aus.
+In Stralsund haben sie einen Anschluss nach Bergen auf Rügen.
+
+Das bedeutet, dass sie in einen neuen Zug steigen möchten, der nach Bergen fährt. Wenig später steigen sie in diesen Zug ein.
+
+Pünktlich um ein Uhr drei (13:03 Uhr) kommen die Schmidts auf Rügen an. Am Nachmittag sind sie im Hotel.
+
+TODOLATER
+
+[An-sage, Durch-sage rough Synonyms, An-sage more direkt and less formal, Durch-sage announcement of something to people in general - don't sweat these small distinctions]
 
 
 
 
-# Wortliste
+## Zu welcher Tageszeit ist das? #quiz
 
-Abfahrt. Abfahrten.
-Abflug. Abfluge. Abfluges. Abflugs. Abflüge. Abflügen.
-abgeben. abgegeben. gab ab. gebe ab. gebt ab. gib ab. gibst ab. gibt ab. gäbe ab.
-abgeholt. abholen. hole ab. holst ab. holt ab. holte ab.
-achtzig.
-anbieten. angeboten. biet an. biete an. bietest an. bietet an. bot an. böte an.
-angeklickt. anklicken. klicke an. klickst an. klickt an. klickte an.
-angekommen. ankommen. kam an. komm an. komme an. kommst an. kommt an. käme an.
-angezogen. anziehen. zieh an. ziehe an. ziehst an. zieht an. zog an. zöge an.
-Anrede. Anreden.
-Anschluss. Anschlusse. Anschlusses. Anschlüsse. Anschlüssen.
-Apartment. Apartments.
-April. Aprile. Aprilen. Aprils.
-Arbeitsplatz. Arbeitsplatze. Arbeitsplatzes. Arbeitsplätze. Arbeitsplätzen.
-Arm. Arme. Armen. Armes. Arms.
-Aufzug. Aufzuge. Aufzuges. Aufzugs. Aufzüge. Aufzügen.
-Auge. Augen. Auges.
-Ausgang. Ausgange. Ausganges. Ausgangs. Ausgänge. Ausgängen.
-ausgestiegen. aussteigen. steig aus. steige aus. steigst aus. steigt aus. stieg aus. stiege aus.
-Auskunft. Auskünfte. Auskünften.
-ausländisch. ausländische. ausländischem. ausländischen. ausländischer. ausländisches.
-Ausweis. Ausweise. Ausweisen. Ausweises.
-Autobahn. Autobahnen.
-Automat. Automaten.
-bade. baden. badest. badet. badete. gebadet.
-bar. bare. barem. baren. barer. bares.
-Bauch. Bauche. Bauches. Bauchs. Bäuche. Bäuchen.
-Berlin, zwölfter Vierter zweitausendzwei.
-besichtige. besichtigen. besichtigst. besichtigt. besichtigte.
-bestell. bestelle. bestellen. bestellst. bestellt. bestellte.
-blau. blaue. blauem. blauen. blauer. blaues. blauesten. blausten.
-Bleistift. Bleistifte. Bleistiften. Bleistiftes. Bleistifts.
-breit. breite. breitem. breiten. breiter. breites. breitesten.
-Buchstabe. Buchstaben. Buchstabens.
-buchstabier. buchstabiere. buchstabieren. buchstabierst. buchstabiert. buchstabierte.
-Bäckerei. Bäckereien.
-Cent. Cents.
-Dezember. Dezembern. Dezembers.
-draußen.
-dunkelblau. dunkelblaue. dunkelblauem. dunkelblauen. dunkelblauer. dunkelblaues.
-Durst. Durste. Durstes. Dursts.
-E-Mail. E-Mails.
-Ecke. Ecken.
-eilig. eilige. eiligem. eiligen. eiliger. eiliges. eiligsten.
-eine Deutsche.
-eine Million.
-Einladung. Einladungen.
-Eintritt. Eintritte. Eintritten. Eintrittes. Eintritts.
-entschuldige. entschuldigen. entschuldigst. entschuldigt. entschuldigte.
-Ergebnis. Ergebnisse. Ergebnissen. Ergebnisses.
-erste Dritte.
-erste März.
-euer.
-fahr Rad. fahre Rad. fahrt Rad. fuhr Rad. fährst Rad. fährt Rad. führe Rad. Rad fahren. Rad gefahren.
-Fahrer. Fahrerin. Fahrerinnen. Fahrern. Fahrers.
-Fahrrad. Fahrrade. Fahrrades. Fahrrads. Fahrräder. Fahrrädern.
-Familienname. Familiennamen. Familiennamens.
-Feuer. Feuern. Feuers.
-Finne. Finnen. Finnin. Finninnen.
-finnisch. finnische. finnischem. finnischen. finnischer. finnisches. finnischsten.
-Freizeit. Freizeiten.
-frühstücke. frühstücken. frühstückst. frühstückt. frühstückte. gefrühstückt.
-fünf Minuten nach ein Uhr. fünf Minuten nach eins. fünf Minuten vor ein Uhr. fünf Minuten vor eins.
-Geburtsjahr. Geburtsjahre. Geburtsjahren. Geburtsjahres. Geburtsjahrs.
-Geburtsort. Geburtsorte. Geburtsorten. Geburtsortes. Geburtsorts.
-geradeaus.
-geraucht. rauche. rauchen. rauchst. raucht. rauchte.
-geschlossen. geschlossene. geschlossenem. geschlossenen. geschlossener. geschlossenes. geschlossensten. geschlossner.
-Geschwister. Geschwistern. Geschwisters.
-Geschäft. Geschäfte. Geschäften. Geschäftes. Geschäfts.
-gestorben. gestorbene. gestorbenem. gestorbenen. gestorbener. gestorbenes.
-getanzt. tanz. tanze. tanzen. tanzt. tanzte.
-gewaschen. wasch. wasche. waschen. wascht. wusch. wäschst. wäscht. wüsche.
-geöffnet. geöffnete. geöffnetem. geöffneten. geöffneter. geöffnetes.
-Glückwunsch. Glückwunsche. Glückwunsches. Glückwunschs. Glückwünsche. Glückwünschen.
-Grad. Grad Celsius. Grade. Graden. Grades. Grads. Grads Celsius.
-Großeltern.
-Großmutter. Großmuttern. Großmutterns. Großmutters. Großmütter. Großmüttern.
-günstig. günstige. günstigem. günstigen. günstiger. günstiges. günstigsten.
-Haar. Haare. Haaren. Haares. Haars.
-halb drei.
-Halle. Hallen. Halles.
-Hausmann. Hausmanne. Hausmannes. Hausmanns. Hausmänner. Hausmännern.
-hellblau. hellblaue. hellblauem. hellblauen. hellblauer. hellblaues.
-hoch. hoche. hochem. hochen. hocher. hoches. höchsten. höher.
-hunderteins.
-häufiger. häufigsten. oft. öfter. öftesten.
-international. internationale. internationalem. internationalen. internationaler. internationales.
-Internet. Internets.
-Juni. Junis.
-kam mit. komme mit. kommst mit. kommt mit. käme mit. mitgekommen. mitkommen.
-Kilometer. Kilometern. Kilometers.
-Kiosk. Kioske. Kiosken. Kioskes. Kiosks.
-klar. klare. klarem. klaren. klarer. klares. klarsten.
-Laden. Ladens. Läden.
-leise. leisem. leisen. leiser. leises. leisesten.
-Licht. Lichte. Lichten. Lichter. Lichtern. Lichtes. Lichts.
-Lkw. Lkws.
-lustig. lustige. lustigem. lustigen. lustiger. lustiges. lustigsten.
-Mexikaner. Mexikanerin. Mexikanerinnen. Mexikanern. Mexikaners.
-Mund. Munde. Mundes. Munds. Münder. Mündern.
-Möbel. Möbeln. Möbels.
-möglich. mögliche. möglichem. möglichen. möglicher. mögliches. möglichsten.
-neunzig.
-nie.
-normal. normale. normalem. normalen. normaler. normales. normalsten.
-null Uhr drei.
-oben.
-Partner. Partnerin. Partnerinnen. Partnern. Partners.
-Plan. Plane. Planes. Plans. Pläne. Plänen.
-Postleitzahl. Postleitzahlen.
-Praktika. Praktikum. Praktikums.
-Praktiken. Praxen. Praxis.
-Preis. Preise. Preisen. Preises.
-Raum. Raume. Raumes. Raums. Räume. Räumen.
-Regen. Regens.
-Reparatur. Reparaturen.
-reparier. repariere. reparieren. reparierst. repariert. reparierte.
-S-Bahn. S-Bahnen.
-Satz. Satze. Satzes. Sätze. Sätzen.
-Schalter. Schaltern. Schalters.
-Schild. Schilde. Schilden. Schilder. Schildern. Schildes. Schilds.
-Schuh. Schuhe. Schuhen. Schuhes. Schuhs.
-schwarz. schwarze. schwarzem. schwarzen. schwarzer. schwarzes. schwärzer. schwärzesten.
-Schwimmbad. Schwimmbade. Schwimmbades. Schwimmbads. Schwimmbäder. Schwimmbädern.
-sechzig.
-Sekunde. Sekunden.
-selbstständig. selbstständige. selbstständigem. selbstständigen. selbstständiger. selbstständiges. selbstständigsten.
-siebzig.
-Stock. Stocke. Stockes. Stocks. Stöcke. Stöcken. Stöcker. Stöckern.
-Studien. Studium. Studiums.
-Tasche. Taschen.
-Taxi. Taxis.
-Teilnehmer. Teilnehmerin. Teilnehmerinnen. Teilnehmern. Teilnehmers.
-Telefon. Telefone. Telefonen. Telefons.
-telefonier. telefoniere. telefonieren. telefonierst. telefoniert. telefonierte.
-Test. Teste. Testen. Testes. Tests.
-Thema. Themas. Themata. Themen.
-Toilette. Toiletten.
-Treppe. Treppen.
-Türke. Türken. Türkin. Türkinnen.
-Uhrzeit. Uhrzeiten.
-unbekannt. unbekannte. unbekanntem. unbekannten. unbekannter. unbekanntes. unbekanntesten.
-unterschreib. unterschreibe. unterschreiben. unterschreibst. unterschreibt. unterschrieb. unterschriebe. unterschrieben.
-Unterschrift. Unterschriften.
-verdiene. verdienen. verdienst. verdient. verdiente.
-Verein. Vereine. Vereinen. Vereines. Vereins.
-verheiratet. verheiratete. verheiratetem. verheirateten. verheirateter. verheiratetes.
-vermiete. vermieten. vermietest. vermietet. vermietete.
-Vorname. Vornamen. Vornamens.
-Vorsicht.
-was für ein.
-weg sein.
-welcher.
-wem.
-wen.
-Wind. Winde. Winden. Windes. Winds.
-Zeitung. Zeitungen.
-Zoll. Zolles. Zolls. Zölle. Zöllen.
-zweitausendvierzehn.
-überweis. überweise. überweisen. überweist. überwies. überwiese. überwiesen.
+{{<quiz "drag drop">}}
+
+- Wann stehen die Schmidts auf? Die Schmidts stehen [am Morgen|früh am Morgen|am frühen Morgen] auf.
+- Wann schauen die Kinder einen Film? Die Kinder schauen [am Vormittag] einen Film.
+- Wann kommen die Schmidts in Stralsund an? Sie sind [am Mittag] im Bahnhof von Stralsund.
+- Wann sind die Schmidts im Hotel? Die Familie ist [am Nachmittag] im Hotel.
+  {{</quiz>}}
+
+- [x] Tageszeiten verstehen und sagen Kursbuch Lektion 2
+
+## Die Tageszeiten #quiz
+
+{{<quiz "drag drop">}}
+
+Ordne die Tageszeiten den Zeiten zu.
+
+- 5:00 - 9:00 Uhr [morgens/am Morgen]
+- 9:00 - 11:30 Uhr [vormittags/am Vormittag]
+- 11:30 - 14:00 Uhr [mittags]
+- 14:00 - 17:30 Uhr [nachmittags/am Nachmittag]
+- 17:30 - 22:00 Uhr [abends/am Abend]
+- 22:00 - 5:00 Uhr [nachts/in der Nacht]
+
+{{</quiz>}}
+
+- [x] Tageszeiten verstehen und sagen Kursbuch Lektion 2
+
+TODO improve: Bilder und drag and drop, change title to "Die Tageszeiten in Bildern" and instruction to:
+
+Ordne die Tageszeiten den Bildern zu.
+
+
+## Probleme im Hotel
+
+Die Schmidts sind im Hotel. Sie sind müde, weil ihre Koffer schwer sind. Jochen geht zur Rezeption und die anderen setzen sich auf das Sofa im Empfangsbereich.
+
+Jochen meldet sich an:
+
+"Guten Tag, mein Name ist Jochen Schmidt. Wir möchten hier eine Woche lang übernachten und haben ein Zimmer für eine Familie gebucht. Wir sind fünf Personen", sagt Jochen.
+
+"Herzlich willkommen! Wir haben sie gerne als Gast. Haben Sie Vollpension oder Halbpension gebucht?", fragt der Mann an der Rezeption.
+
+"Wir haben Halbpension gebucht.", sagt Jochen, "Wir möchten viel wandern gehen und sind den ganzen Tag weg." "Schön! Einen Moment, bitte."
+
+"Ich glaube, es gibt ein Problem.", sagt der Mann, "Bitte buchstabieren Sie Ihren Namen." "Der Name ist S-C-H-M-I-D-T."
+
+"Entschuldigung! Ich glaube, wir haben einen Fehler gemacht. Leider ist ihr Zimmer ein Doppelzimmer.", sagt der Mann. "Aber wie sollen wir dann übernachten?", fragt Jochen.
+
+"Leider gibt es kein Zimmer für Familien mehr frei. Ich weiß es: Wir geben ihnen zwei Doppelzimmer. Wir bringen ein weiteres Bett in das zweite Doppelzimmer. Es ist nur für eine Nacht. Ist das in Ordnung? Es tut mir sehr leid. Wir werden ihnen zwanzig Prozent des Geldes zurück auf ihr Bankkonto überweisen."
+
+"Danke. Für eine Nacht ist es in Ordnung.", antwortet Jochen.
+
+"Wunderbar!", sagt der Mann an der Rezeption. "Hier sind ihre Zimmerschlüssel. Ihre Zimmernummer ist fünfunddreißig (35) und sechsunddreißig (36). Morgen ist das Zimmer einundzwanzig (21) frei und gebe ich ihnen den Schlüssel für dieses Zimmer. Es ist ein Zimmer für Familien. Alle Zimmer haben einen sehr schönen Blick auf das Meer, es wird Ihnen sehr gefallen."
+
+"Danke!", sagt Jochen und nimmt die Schlüssel.
+
+"So, liebe Ehefrau, liebe Kinder: Es ist alles fertig. Lasst uns zu den Zimmern gehen. In der ersten Nacht haben wir leider zwei Zimmer, aber danach sind wir zusammen in einem Zimmer. Lasst uns eine kurze Pause machen und duschen. Danach lade ich euch alle ins Restaurant ein!"
+
+"Ja!", sagen die Kinder. Anna lacht. Alle sind glücklich.
+
+Die Aussage des Mannes war richtig: Der Blick auf das Meer ist sehr schön!
+
+https://pixabay.com/photos/sail-sunset-sea-water-ocean-3585674/
+
+
+## Wie bitte? Wie heißen Sie? #quiz
+
+Du arbeitest in einem Hotel. Schreibe die Namen auf, die dir gesagt werden.
+
+{{<transcript>}}
+
+- "Guten Tag, mein Name ist Weber."
+- "Entschuldigung, wie bitte?"
+- "Mein Name ist Weber, W-E-B-E-R. Meine Freunde und ich würden gerne nächstes Jahr am 23. Januar in ihrem Hotel übernachten. Wir machen eine Reise als Gruppe."
+- "Sehr gut. Wir haben am 23. Januar viele Zimmer frei. Wie viele Personen sind Sie?"
+- "Wir sind elf Personen."
+- "In Ordnung. Ich würde gerne alle Ihre Namen aufschreiben. Wie heißen Sie alle?"
+- "Meine Freunde sind Quirling, Schmitz, Schroeder, ..."
+- "Entschuldigung! Bitte nicht so schnell. Einen Moment. Wie schreibt man Quirling?"
+- "Oh, Entschuldigung. Q-U-I-R-L-I-N-G."
+- "Okay, danke. Und der dritte Name?"
+- "Schmitz, wie man es spricht: S-C-H-M-I-T-Z. Der vierte Name ist Schroeder -- nicht S-C-H-R-Ö-D-E-R wie der Bundeskanzler, sondern S-C-H-R-O-E-D-E-R, mit O-E."
+- "Vielen Dank. Und die anderen Personen?"
+- "Dann ist da noch... Ach ja, Pfeffer -- wie das Gewürz: P-F-E-F-F-E-R. Äh, Kühn -- K-Ü-H-N. Jäger, wie der Beruf: J-Ä-G-E-R -- wie der Jäger im Wald."
+- "Wunderbar, jetzt habe ich sieben Namen."
+- "Tja, der achte Name ist ein bisschen schwierig: Xylander -- X-Y-L-A-N-D-E-R."
+- "X-Y-L-A-N-D-E-R, richtig?"
+- "Ja, das ist richtig. Dann Maier, M-A-I-E-R. Oder? Einen Moment. Schatz, wie schreibt man Torstens Nachnahme, mit 'i' oder mit 'y'? Oh, mit 'y'? Okay. Ja, also meine Frau sagt, der Name ist Mayer mit 'y', also M-A-Y-E-R."
+- "In Ordnung, Mayer mit 'y'."
+- "Dann Vogel, wie das Tier -- V-O-G-E-L -- und Weiß. Nicht W-E-I-S-S, sondern mit 'ß', wie die Farbe: W-E-I-ß. Haben Sie das alles?"
+- "Ja, puh. Ich habe alle Namen aufgeschrieben. Dann reserviere ich das nun auf Ihren Namen, Herr Weber."
+- "Perfekt."
+
+{{</transcript>}}
+
+{{<quiz "fill in">}}
+
+1. [Weber]
+2. [Quirling]
+3. [Schmitz]
+4. nicht [Schröder], sondern [Schroeder]
+5. [Pfeffer]
+6. [Kühn]
+7. [Jäger]
+8. [Xylander]
+9. nicht [Maier], sondern [Mayer]
+10. [Vogel]
+11. nicht [Weiss], sondern [Weiß]
+
+{{</quiz>}}
+
+Wann will die Gruppe im Hotel übernachten?
+
+TODO
+
+Falls du Hilfe brachst, siehe [Die Aussprache des Alphabets #meta](#die-aussprache-des-alphabets-meta) im Aussprache-Kurs.
+
+- [x] Namen buchstabieren und notieren Kursbuch Lektion 1
+
+## Jochen hört Podcasts über Rügen
+
+TODO
+
+Im Zug auf den Weg nach Rügen hat Jochen sich schon einmal über Bergen auf Rügen informiert. Dabei hörte er einen interessanten Beitrag über ein Restaurant in einem Podcast, also im Internet-Radio.
+
+TODO
+- [ ] Restaurant-Informationen im Radio verstehen Kursbuch Lektion 8
+
+## Typisch deutsche Speisen!
+
+- [ ] Wortschatz zum Thema "Speisen" Übungsbuchteil Lektion 8
+
+## Was isst man in deinem Land? #coaching
+
+TODO p. 69 3. b+c
+
+
+
+## Im Restaurant Teil 1: Die Speisekarte
+
+Am Abend gehen die Schmidts in ein Lokal. Die Kinder haben großen Hunger!
+
+Die Familie findet ein Restaurant mit dem lustigen Namen "Omas Küche".
+
+"Willkommen in Oma's Küche!", sagt der Kellner. "Bitte nehmen Sie Platz! Hier sind die Speisekarten. Ich bin gleich bei Ihnen."
+
+Die Schmidts sitzen am Tisch und lesen die Speisekarte:
+
+### Die Speisekarte
+
+<blockquote>
+
+#### Opas Lieblingsbiere
+
+- König Ludwig Hefe vom Fass (hell oder dunkel): 0,5 l für 4,90 €
+  - dunkel oder alkoholfrei aus der Flasche
+- Beck’s alkoholfrei: 0,33 l für 3,00 €
+- Berliner Weiße mit Schuß Himbeere oder Waldmeister: 0,3 l für 3,80 €
+
+#### Alles ohne Alkohol
+
+- Mineralwasser mit und ohne Sprudel: 0,25 l für 2,80 € und 0,75 l für 5,80 €
+- Saftschorle: 0,2 l für 2,80 € und 0,4 l für 5,30 €
+- Cola, Fanta, Sprite, Spezi: 0,2 l für 2,40 € und 0,4 l für 4,60 €
+- Apfel-, Orangen-, Trauben-, Bananen-, Kirsch- oder Rhabarbersaft: 0,2 l für 3,00 € und 0,4 l für 5,50 €
+- Bitter Lemon, Ginger Ale, Tonic: 0,2 l für 3,20 €
+
+#### Omas Suppen
+
+- Tomatensuppe: 5,50 €
+- Kartoffelsuppe: 5,50 €
+- Soljanka nach DDR-Rezept: 5,50 €
+
+#### Salate
+
+- Hausgemachter Gurkensalat: 4,50 €
+- Kleiner Salat der Saison: 4,80 €
+- Großer Salat der Saison: 8,80 €
+
+#### Klassiker
+
+- Würziges Mecklenburger Sauerfleisch mit knusprigen Bratkartoffeln und hausgemachter Remoulade: 13,80 €
+- Garnelen gebraten in Butter, Knoblauch und Chili: 11,80 €
+
+#### Fleisch von Omas Herd
+
+- Schnitzel mit Bratkartoffeln und Salat: 14,80 €
+- Wiener Schnitzel mit Kartoffelsalat: 23,80 €
+
+</blockquote>
+
+[Quiz: mache eine Best-ellung!
+
+Speisek-arte inspiriert von: https://www.omas-kueche-binz.de/das-restaurant/speis ekarte/
+und ausgewählt nach den wichtigsten Vokabeln und relevantesten Eigenschaften der deutschen Kultur - weitere Informationen später/woanders]
+
+{{< notice "Aufgabe" "Zu welcher Tageszeit ist das?" >}}
+
+{{<quiz "fill in">}}
+Wann gehen die Schmidts in ein Restaurant? Die Schmidts gehen [am Abend] in ein Restaurant.
+{{</quiz>}}
+
+- [x] Tageszeiten verstehen und sagen Kursbuch Lektion 2
+
+{{< /notice >}}
+
+## Was würdest du bestellen?
+
+TODO quiz
+- [ ] Speisekarte verstehen Kursbuch Lektion 8
+- [ ] über Vorlieben beim Essen und Trinken sprechen Kursbuch Lektion 8
+- [ ] über Vorlieben beim Essen und Trinken sprechen Übungsbuchteil Lektion 8
+- [ ] Gespräch im Restaurant spielen Kursbuch Lektion 8
+- [ ] Gespräch im Restaurant spielen Übungsbuchteil Lektion 8
+
+
+
+## Im Restaurant Teil 2: Getränke und einen Gruß aus der Küche
+
+"Entschuldigung," sagt Anna fünf Minuten später, "wir möchten gerne bestellen."
+
+"So, was darf ich Ihnen bringen? Was darf es heute sein?"
+
+"Wir möchten gerne eine Tomatensuppe und zwei Kartoffelsuppen. Dann ein Schnitzel mit Bratkartoffeln und Salat, Sauerfleisch und die Garnelen."
+
+"Sehr gut. Darf ich Ihnen etwas zum Trinken bringen?" "Ja, für die Erwachsenen Wein und für die Kinder Saft: ein Glas Orangensaft und zwei Gläser Apfelsaft, bitte. Welchen Wein können sie empfehlen?"
+
+"Wenn sie Weißwein möchten, kann ich ihnen den Bacchus empfehlen. Wenn sie Rotwein möchten, kann ich ihnen den Spätburgunder anbieten."
+
+"Bacchus, dieser Wein ist mir unbekannt. Der Spätburgunder ist mir bekannt. Aber ich glaube, Weißwein ist besser. Bringen Sie mir bitte den Bacchus." "Gerne."
+
+Die Schmidts müssen nicht lange warten.
+
+"So, hier sind die Getränke und ein Gruß aus der Küche.", sagt der Kellner. "Oh, vielen Dank!", sagt Jochen.
+
+"Ein Gruß aus der Küche? Haben die Köche 'hallo' gesagt?", fragt Lukas.
+
+"Nein," sagt Jochen, "ein Gruß aus der Küche ist ein kleine Speise, ein kleines Essen. Es ist kostenlos, es kostet kein Geld. Der Gruß aus der Küche wird dir Appetit geben. Iss!"
+
+https://commons.wikimedia.org/wiki/File:Appetizer_(4277715160).jpg
+
+## Im Restaurant Teil 3: das Essen und die Bezahlung
+
+Wenig später bringt der Kellner die Suppen. "Vorsicht! Die Suppe ist noch heiß.", sagt er. Also essen die Eltern und Kinder die Suppe sehr langsam und vorsichtig.
+
+Dann bringt der Kellner das Schnitzel, das Sauerfleisch und die Garnelen.
+Das Essen schmeckt sehr lecker.
+
+Am Ende hat niemand mehr Hunger und alle sind zufrieden.
+
+"Die Rechnung, bitte.", sagt Jochen. "In Ordnung. Einen Moment, bitte.", sagt der Kellner.
+
+Als der Kellner die Rechnung bringt, fragt er: "Möchten sie bar bezahlen oder mit Karte?" "Ich möchte gerne mit der Kreditkarte bezahlen.", sagt Jochen.
+
+"In Ordnung, bitte benutzen Sie diese Maschine." Jochen bezahlt mit der Kreditkarte. "Muss ich etwas unterschreiben? Brauchen Sie nicht auch meine Unterschrift?", fragt er. "Nein," sagt der Kellner, "das passiert jetzt ganz automatisch."
+
+Die Familie geht zurück zum Hotel. Es ist jetzt Nacht.
+
+
+## Gespräche im Restaurant
+
+TODO quiz
+p. 69 5., p. 136 5.
+
+## Wie war das Essen?
+
+TODO quiz
+
+p. 69 4.
+
+## Wie du Eselsbrücke erstellen kannst #meta
+
+TODO
+
+Basically, you tell yourself a funny, silly, or otherwise memorable story to associate with a particular word. -> example of the Schmidts at dinner: visualize what they are doing, seeing and eating, make it silly
+
+that's why I put little jokes in, like the children being confused about stuff
+
+Eselsbrücken mit berühmten Personen: Thomas Mann, Hans Zimmer, Albert Einstein, Helmut Kohl, Bastian Schweinsteiger, Henry Maske
+
+## Gute Nacht!
+
+Die Kinder duschen sich und gehen in ihre Betten. Sie sind müde. Bevor sie schlafen, sagen sie: "Papa, erzähle uns bitte eine Geschichte!"
+
+Jochen erzählt seinen Kindern die Geschichte mit dem Namen "Tischlein, deck dich!"
+
+Es ist ein deutsches Märchen der Brüder Grimm. Die Kinder lieben die Geschichte. Am Ende schlafen sie ganz schnell ein.
+
+"Gute Nacht", sagt Jochen, macht das Licht aus und geht leise aus dem Zimmer.
+
+In der Nacht schlafen die Schmidts.
+
+{{< notice "Aufgabe" "Zu welcher Tageszeit ist das?" >}}
+
+{{<quiz "fill in">}}
+Wann schlafen die Schmidts? Die Schmidts schlafen [in der Nacht].
+{{</quiz>}}
+
+- [x] Tageszeiten verstehen und sagen Kursbuch Lektion 2
+
+{{< /notice >}}
+
+
+## Was ist die Reihenfolge der Wochenentage? #quiz
+
+{{<quiz "order">}}
+Bringe die Wochenentage in die richtige Reihenfolge.
+
+- der Montag
+- der Dienstag
+- der Mittwoch
+- der Donnerstag
+- der Freitag
+- der Samstag/Sonnabend
+- der Sonntag
+
+{{</quiz>}}
+
+## Wochentag oder Wochenende? #quiz
+
+{{<quiz "drag and drop">}}
+Welche Tage sind Wochentage? Welche Tage gehören zum Wochenende?
+
+[Montag|Dienstag|Mittwoch|Donnerstag|Freitag], [Montag|Dienstag|Mittwoch|Donnerstag|Freitag], [Montag|Dienstag|Mittwoch|Donnerstag|Freitag], [Montag|Dienstag|Mittwoch|Donnerstag|Freitag] und [Montag|Dienstag|Mittwoch|Donnerstag|Freitag] sind Wochentage.
+
+[Samstag/Sonnabend|Sonntag] und [Samstag/Sonnabend|Sonntag] sind das Wochenende.
+
+{{</quiz>}}
+
+## Was ist die Reihenfolge der Tageszeiten? #quiz
+
+{{<quiz "order">}}
+Bringe die Tageszeiten in die richtige Reihenfolge.
+
+- der Morgen
+- der Vormittag
+- der Mittag
+- der Nachmittag
+- der Abend
+- die Nacht
+
+{{</quiz>}}
+
+## Zu welcher Tageszeit ist das?
+
+TODO quiz
+
+{{<quiz "label images">}}
+Zu welcher Tageszeit wurde das Bild aufgenommen?
+
+- der Morgen
+- der Vormittag
+- der Mittag
+- der Nachmittag
+- der Abend
+- die Nacht
+
+{{</quiz>}}
+
+- [x] Wochentage und Tageszeiten Übungsbuchteil Lektion 2
+
+## In der Touristeninformationen
+
+TODO quiz
+p. 124 2. und auch 3. a+b
+
+
+## Die vielen schönen Farben auf Rügen
+
+Die Schmidts haben sehr viel Spaß auf ihrer Reise.
+
+Die Sonne scheint. Jochen möchte gerne braun werden.
+
+Schaue dir dieses schöne Bild an, das Anna gemacht hat!
+
+Die Farben sind sehr schön: Das Meer ist blau. Der Himmel ist hellblau. Die Wolken sind weiß. Das Gras ist grün und gelb.
+
+https://pixabay.com/photos/baltic-sea-beach-germany-coast-sea-4136488/
+
+Rügen ist berühmt für seine weißen Kreidefelsen. Siehst du den weißen Felsen, der von grünen Bäumen umgeben ist?
+
+Zwischen dem Meer und dem Felsen ist eine Straße.
+
+https://pixabay.com/photos/r%C3%BCgen-white-cliffs-baltic-sea-coast-4517986/
+
+Jochen hat ein Foto von gelben Blumen gemacht. Die Wolken am Himmel sind nicht ganz weiß, sondern sehr dunkel. Sie sind dunkelgrau.
+Der Himmel ist links dunkelblau.
+In der Mitte des Bildes steht ein Baum.
+
+https://pixabay.com/photos/r%C3%BCgen-island-oilseed-rape-landscape-4335904/
+
+Dieses Bild von dem Maler Caspar David Friedrich ist sehr bekannt.
+Du siehst die weißen Kreidefelsen.
+
+Links unten ist eine Frau. Ihr Kleid ist rot.
+
+Es gibt auch zwei Männer. Ihre Kleidung ist schwarz.
+
+https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich%27s_Chalk_Cliffs_on_R%C3%BCgen.jpg
+
+Auf Rügen gibt es auch viele Tiere. Die kleine Emilia hat sich in diese braune Kuh verliebt und gibt ihr etwas Gras zu essen.
+
+https://pixabay.com/photos/cow-head-cow-head-animal-livestock-1715829/
+
+## Ein Maler
+
+TODO quiz
+
+Die Schmidts sehen einen Maler, der die schöne Landschaft malt. Kannst du ihm helfen, die Farben zu mischen?
+Farben mischen: p. 118 6.
+
+
+## Die Schmidts schreiben eine Postkarte
+
+Die Schmidts haben einen schönen Urlaub.
+
+"Es ist so schön hier.", sagt Anna, "Lass uns eine Postkarte an Emma schreiben."
+
+Die Schmidts kaufen eine Postkarte mit Caspar David Friedrichs berühmten Bild "Kreidefelsen auf Rügen".
+
+Anna fängt an zu schreiben. "Liebe Emma, lieber Thomas,", schreibt sie als Anrede.
+
+Dann schreibt sie den Text und die Grüße. Dann schreibt sie in kleinen Buchstaben den Absender. Sie ist die Absenderin, sie möchte die Postkarte schicken, also schreibt sie ihren Namen und ihre Adresse.
+
+Dies ist der Text, den Emma auf die Postkarte geschrieben hat:
+
+<blockquote>
+
+Absender: Anna Schmidt, Lessingstraße 10, 30159 Hannover, Germany
+
+Liebe Emma, lieber Thomas,
+
+viele herzliche Grüße auch an eure Kinder Oliver, Max und Marie!
+
+Hier auf Rügen ist es sehr schön.
+
+Das Hotel ist sehr gut: Wir haben einen guten Blick auf das Meer.
+
+Das Wetter ist in Ordnung. Es gibt keinen Regen, aber viele Wolken und viel Wind.
+
+Oft sehen wir auch die Sonne. Wir haben Glück: Es sind 14 Grad, das ist nicht zu kalt.
+
+Lukas möchte im Meer schwimmen, aber das Wasser ist kalt.
+
+Wir haben schon die Kreidefelsen gesehen, sie sind sehr schön.
+
+Die Menschen sind sehr nett. Die Stadt ist klein und wir brauchen zum Glück kein Auto.
+
+Gestern waren wir im Museum, das war sehr interessant. Heute gehen wir zum Markt und kaufen vielleicht Lebensmittel oder Souvenire.
+
+Morgen machen wir einen Ausflug mit Fahrrädern. Wir können uns Fahrräder hier mieten. So sehen wir viel und machen Sport!
+
+Am Sonntag besuchen wir ein klassisches Konzert. Ich hoffe es ist gut, denn die Karten waren sehr teuer!
+
+Ich hoffe, wir sehen uns bald wieder in Hannover. Du bist bald in Bayern, nicht wahr?
+
+Wie grüßen euch herzlich aus Rügen
+Anna, Jochen, Lukas, Emilia und Michael
+
+</blockquote>
+
+Am Ende schreibt Emma auf der rechten Seite den Namen und die Adresse von Emma. Emma ist die Empfängerin der Postkarte.
+
+[image of card with areas marked in red]
+
+## Was hat Anna geschrieben? #quiz
+
+Lies die Postkarte noch einmal und beantworte die Fragen.
+
+
+{{<quiz "fill in">}}
+- Was findet Anna sehr interessant? Sie findet [das Museum] sehr interessant.
+- Wohin geht die Familie heute? Heute geht die Familie [zum Markt].
+- Brauchen die Schmidts ein Auto? [Nein], die Schmidts brauchen [kein Auto].
+- Was machen die Schmidts morgen? Die Schmidts machen [einen Ausflug] mit [Fahrrädern].
+- Waren die Karten für das Konzert billig? [Nein], die Karten für das Konzert waren [nicht billig|teuer].
+{{</quiz>}}
+
+Was stand noch in der Postkarte? Schreibe mehr auf deinen Notizblock.
+
+## Wo ist die Post?
+
+Jetzt fehlt nur noch die Briefmarke.
+
+Emma fragt einen Menschen auf der Straße: "Entschuldigung! Wo ist die Post, bitte?"
+
+"Das weiß ich leider nicht. Ich bin nicht von hier, ich bin Ausländer.", sagt der Mann. "Ach so.", sagt Emma, "Trotzdem danke!"
+
+Sie fragt einen anderen Menschen: "Entschuldigung, wir sind Reisende und suchen die Post. Sind sie von hier oder auch eine Reisende?"
+
+"Nein, ich wohne hier.", sagt die Frau. "Also, gehen Sie geradeaus in diese Richtung. Gehen sie links um die Ecke. Gehen sie weiter und dann sehen sie eine große Bank auf der linken Seite. Daneben ist die Post."
+
+"Vielen Dank!", sagt Anna.
+
+Auf der Post kauft Anna eine Briefmarke und schickt die Postkarte an Emma.
+
+## Wir haben uns verlaufen! #game
+
+TODO
+
+[very simple mini game: walking through a city -> left, right, straight ]
+- [ ] mündliche Wegbeschreibungen notieren Kursbuch Lektion 7 -> Google Maps funktioniert nicht ;)
+- [ ] Wegbeschreibungen erfragen, formulieren und verstehen Übungsbuchteil Lektion 7
+
+## Wie komme ich dort hin? #coaching
+
+TODO
+- p. 126
+- echte Karten der Heimatstädte der Schüler: Wegbeschreibung zu einer Sehenswürdigkeit
+
+
+
+## Mit dem Bus nach Berlin!
+
+Nun ist die Zeit in Rügen für die Familie Schmidt zu Ende. Aber es ist nicht das Ende der Reise! Jetzt fahren sie von einer Stadt zur anderen.
+
+Die Familie meldet sich an der Rezeption ab: "Wir gehen nun weg. Ich möchte den Schlüssel abgeben." "In Ordnung, danke. Ich wünsche Ihnen noch einen schönen Urlaub!" "Danke!"
+
+Die Familie geht zum Busbahnhof und wartet auf ihren Bus. "Habt ihr eure Spiele?", fragt Jochen. "Es wird eine lange Reise. Wir werden fast sechs (6) Stunden im Bus sein."
+
+Die Kinder haben ihre Spiele. Sie haben auch Bücher zum Lesen. Als sie im Bus sind, liest Lukas den anderen Kindern aus seinem Märchenbuch vor.
+
+Der Bus fährt auf der Autobahn Richtung Süden nach Berlin.
+
+Sechs Stunden später sind die Schmidts in Berlin. "Schaut mal! Dort hinten ist der Fernsehturm, seht ihr ihn?", fragt Jochen.
+
+Ja, die Kinder sehen den berühmten Berliner Fernsehturm.
+
+https://pixabay.com/photos/night-photograph-long-exposure-night-4581193/
+
+## Wir brauchen Fahrkarten
+
+TODO
+- [ ] Anweisungen an einem Fahrkartenautomaten verstehen Kursbuch Lektion 7: p. 58
+
+## Du bist schon sehr weit! #mindset
+
+Ich möchte nur einmal erwähnen, dass du jetzt schon sehr weit bist im Kurs. Sehr gut, alle Achtung! Du hast meinen Respekt.
+
+Es ist toll, dass du so viel lernst und weiter diesen Kurs machst -- auch wenn es vielleicht manchmal schwer ist.
+
+Aber die meiste Zeit macht es doch Spaß, oder? Die deutsche Sprache ist so eine schöne Sprache und du verbesserst dein Leben, indem du sie lernst. Weiter so!
+
+## Der Geschäftsmann
+
+Am Abend kommen die Schmidts in ihrem Hotel in Berlin an.
+
+An der Rezeption ist schon ein Kunde und die Schmidts müssen warten.
+
+Der Kunde spricht mit der Frau an der Rezeption: "Ein Zimmer, bitte."
+
+Er schaut auf seine Uhr. Die Uhr und seine Kleidung ist sehr teuer.
+
+"Ich habe gleich einen Termin in der Nähe. Ich habe es eilig. Ich möchte pünktlich da sein.", sagt er.
+
+"In Ordnung.", sagt die Frau an der Rezeption, "Ich kann es schnell machen und es dauert nicht lange."
+
+- "Möchten Sie ein Einzelzimmer oder ein Doppelzimmer?", fragt die Frau. "Ein Einzelzimmer bitte."
+- "Für wie lange?" "Vier Tage bitte. Ich habe nur ein paar Termine in Berlin."
+- "Heute ist Dienstag, also die drei Nächte bis Freitag?" "Ja, das ist richtig."
+- "Möchten Sie Vollpension, Halbpension, oder nur Frühstück?" "Nur Frühstück, bitte."
+- "In Ordnung. Zahlen Sie mit Karte?" "Ja, gerne."
+
+Jetzt können die Schmidts sich anmelden. "Guten Tag," sagt Jochen. "Mein Name ist Schmidt. Wir haben zwei Nächte hier gebucht."
+
+"Guten Tag! Einen Moment bitte. Ich suche sie im Computer. Ah, ich habe sie gefunden. Sie übernachten im Zimmer mit der Nummer siebenundsechzig (67). Hier ist ihr Schlüssel." "Danke. Auf Wiedersehen!" "Auf Wiedersehen."
+
+## Berliner Sehenswürdigkeiten
+
+TODO
+- [ ] Informationen über Sehenswürdigkeiten verstehen Kursbuch Lektion 7
+TODO weitere Städte (skip for now)
+
+## Eine E-Mail von Emma
+
+Anna bekommt eine E-Mail von Emma:
+
+<blockquote>
+- Absender: emma.brown@aglmail.de
+- Empfänger: anna.schmidt@aglmail.de
+
+Liebe Anna, lieber Jochen und liebe Kinder,
+
+vielen Dank für eure Postkarte und die Urlaubsgrüße!
+
+Wir sind jetzt auch im Urlaub. Hier in Bayern ist es sehr schön.
+
+Das Wetter ist super! Es gibt hier viel Sonne und keinen Regen.
+
+Es ist aber ein bisschen kalt, nur 9 Grad. Kein Problem, wir haben warme Kleidung.
+
+In den letzten drei Tagen haben wir ein Auto gemietet und sind auf der Romantischen Straße gefahren. Wir haben ein paar schöne Dörfer und Städte besucht.
+
+In den nächsten vier Nächten übernachten wir in einem Hotel in München. Die Stadt ist sehr groß und laut.
+
+Heute machen wir einen Ausflug zum Schloss Neuschwanstein. Ich glaube, ihr kennt es schon: Es ist ein wunderschönes Schloss an der Grenze zu Österreich.
+Wir sind jetzt im Bus auf dem Weg dorthin.
+
+Morgen gehen wir zum Olympiapark, wenn das Wetter gut ist oder ins Museum, wenn das Wetter schlecht ist.
+
+Am Dienstag fahren wir nach Hause.
+
+Herzliche Grüße aus Bayern
+Emma, Thomas, Oliver, Max und Marie
+
+</blockquote>
+
+- [x] eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
+
+## Was hat Emma geschrieben? #quiz
+
+Wie ist Emmas Urlaub? Beantworte die Fragen:
+
+{{<quiz "fill in">}}
+- Wo ist Emma jetzt? Emma ist in [Bayern]. Sie ist im [Bus] auf dem Weg [nach|zum] Schloss Neuschwanstein.
+- Wo ist das Schloss Neuschwanstein? Das Schloss ist an der Grenze zu [Österreich].
+- Regnet es in Bayern? [Nein], es [regnet nicht|gibt keinen Regen].
+- Ist das Wetter ein Problem? [Nein], es ist [kein] Problem: Die Browns haben [warme Kleidung].
+- Fahren die Browns mit ihrem Auto in Bayern? [Nein], das Auto haben sie [gemietet].
+- Was haben die Browns mit dem Auto besucht? Die Browns haben schöne [Dörfer] und Städte besucht.
+- Wohin gehen die Browns morgen, wenn es regnet? Die Familie geht [ins Museum].
+- Wohin gehen die Browns morgen, wenn die Sonne scheint? Die Familie geht [zum Olympiapark].
+{{</quiz>}}
+
+## Eine Antwort für Emma #quiz
+
+Hilf den Schmidts, eine Antwort-E-Mail für Emma zu schreiben.
+
+Überlege: Was haben die Schmidts gemacht?
+
+Denke dir auch etwas aus:
+
+- Wie ist das Wetter?
+- Was haben die Schmitds gestern gemacht?
+- Was machen sie heute?
+- Was machen sie morgen?
+- Wie sind die Leute?
+- Etc.
+
+Ein paar Beispiele:
+
+- Wir haben viel Sonne/viel Regen.
+- Die Stadt ist sehr interessant/langweilig.
+- Das Wetter ist sehr gut/schlecht.
+- Der Urlaub ist sehr schön/schrecklich.
+- Am ... fahren wir zurück.
+- Wir besuchen ein Museum/eine Kathedrale/einen Markt/ein Fest/einen Park.
+
+{{<quiz "fill in">}}
+
+- [Absender]: anna.schmidt@aglmail.de
+- [Empfänger]: emma.brown@aglmail.de
+
+[Liebe] Emma, [lieber] Thomas, [lieber] Oliver, [lieber] Max und [liebe] Marie,
+
+[vielen Dank] für eure E-Mail!
+
+Wir sind jetzt in Berlin.
+
+{{</quiz>}}
+
+{{<quiz type="free writing" min-length="400">}}
+
+
+{{</quiz>}}
+
+{{<quiz "fill in">}}
+[Herzliche Grüße|Liebe Grüße|Viele Grüße|Wir grüßen euch|Wir grüßen euch herzlich] aus Berlin
+Anna, Jochen, Lukas, Emilie und Michael
+{{</quiz>}}
+
+- [x] eine Urlaubsmail verstehen und schreiben Kursbuch Lektion 2
+- [x] eine Antwortmail schreiben Übungsbuchteil Lektion 5
+
+## Lass uns Emma antworten!
+
+TODO quiz
+- [ ] E-Mail über Erlebnisse in Bern verstehen und darauf antworten Kursbuch Lektion 7 -> auch weitere Erlebnisse auf der Reise zusammenfassen
+
+
+## Urlaubsbilder: Wann und wo haben wir diese Fotos gemacht?
+
+TODO
+-> Der Urlaub der Schmidts ist vorbei. Hilf ihnen, ihre Bilder zu sortieren. Wie gefallen dir die Bilder?
+
+- [ ] Bildbeschreibung passendem Bild zuordnen und sagen, wie einem die Bilder gefallen Kursbuch Lektion 7
+- [ ] Meinungen zu Bildern äußern Übungsbuchteil Lektion 7: p. 62 4.
+
+
+
+# Wie geht es dir?
+
+## Wie geht es dir wirklich?
+
+TODO
+
+Auf die Frage "Wie geht es dir?" sagen viele Menschen oft nur "gut".
+Aber wie geht es uns wirklich?
+
+- [ ] Informationen über das Befinden verstehen und über das eigene Bedürfnis sprechen Kursbuch Lektion 5
+- [ ] Redemittel zum Thema "Befinden" Übungsbuchteil Lektion 5
+- [ ] Stimmungen ausdrücken Übungsbuchteil Lektion 7
+
+## Wie ist die Stimmung?
+
+TODO p. 128 1.
+
+## Beim Arzt
+
+Jochen ist krank und hat Fieber. Seine Stirn ist heiß.
+
+Er geht zur Praxis seines Hausarzts Dr. Becker.
+
+An der Rezeption sagt er zur Sekretärin: "Guten Tag, ich heiße Jochen Schmidt. Ich bin krank und brauche einen Arzt."
+
+"Guten Tag, Herr Schmidt.", sagt die Sekretärin. "Haben Sie einen Termin?" "Nein, ich habe leider keinen Termin.", antwortet Jochen.
+
+"Kein Problem. Nehmen Sie bitte Platz, der Doktor ist gleich bei Ihnen.", sagt die Sekretärin. "In Ordnung", sagt Jochen und sucht sich einen freien Platz im Wartezimmer.
+
+Er muss eine halbe Stunde warten. "Herr Schmidt? Doktor Becker ist nun für sie da."
+
+"Ja, ich komme.", sagt Jochen und geht in das Arztzimmer.
+
+"Guten Tag, Herr Schmidt. Wie geht es Ihnen? Was kann ich für Sie tun?", sagt der Arzt.
+
+"Guten Tag. Mir geht es nicht gut. Ich bin krank. Ich habe Fieber. Mein Kopf tut weh.", sagt Jochen.
+
+"Also, Sie nehmen sich jetzt ein paar Tage frei. Gehen Sie nicht zur Arbeit. Bleiben Sie im Bett. Essen Sie viel Obst.", sagt der Doktor.
+
+"In Ordnung.", sagt Jochen. "Wie lange bin ich noch krank? Wann werde ich gesund?"
+
+"Das kann ich nicht sagen.", sagt der Arzt. "Vielleicht in zwei, drei Tagen. Wenn es Ihnen nach zwei Tagen immer noch schlecht geht, dann machen Sie sofort einen Termin mit mir. In Ordnung?"
+
+"In Ordnung", sagt Jochen.
+
+"Gut", sagt Dr. Becker, "dann gute Besserung! Das wird schon wieder."
+
+Die Aussage des Arztes ist richtig. Nach zwei Tagen geht es Jochen wieder viel besser!
+
+## Bleib im Bett!
+
+- [ ] informelle Imperativsätze Grammatik Lektion 6
+
+## informelle Imperativsätze
+
+TODO
+- [ ] informelle Imperativsätze Grammatik Lektion 6 #2 -> p. 54 3.
+
+## Ich brauche Hilfe...
+
+TODO
+
+- [ ] höflich bitten, fragen, nachfragen und antworten Übungsbuchteil Lektion 6 -> p. 118 3.
+
+## Hilft die Arznei?
+
+TODO
+
+- [ ] Redemittel für positive/negative Reaktionen Übungsbuchteil Lektion 6
+
+## Geht es dir besser?
+
+TODO
+
+- [ ] Informationen über das Befinden verstehen und über das eigene Bedürfnis sprechen Kursbuch Lektion 5
+
+
+
+# Alltagssituationen: zu Gast bei den Schmidts
+
+## Anna bereit sich auf die Gäste vor
+
+Die Familie Schmidt hat dieses Wochenende viele Gäste.
+
+Anna möchte leckeres Essen für sie kochen. Also macht sie einen großen Einkauf.
+
+Du bist auch eingeladen! Aber Anna braucht deine Hilfe.
+
+TODOLATER {username}, {userfirstname}, {userlastname} -> involve user in the story as much as possible
+
+## Wie heißen diese Lebensmittel? #vocab
+
+TODO
+
+Um eine Einkaufsliste zu erstellen, müssen wir erstmal wissen, was wir alles kaufen können.
+
+Schaue dir die Bilder an.
+
+TODO custom Flyer, for now use h5p or vocabulary program to learn words
+- Äpfel
+- Zwiebeln
+- Tomaten
+- Karotten
+- Butter
+- Brot
+- Gurke
+- Kartoffeln
+- Milch
+- Mehl
+- Erdbeermarmelade
+- Zucker
+- Bratwürste
+- Schokolade
+- Erbsen
+- Eier
+- Sahne
+- Mineralwasser
+- Orangensaft
+- Rindfleisch
+
+## Was brauchen wir?
+
+Jochen hilft Anna. Er schaut in den Kühlschrank und Anna schreibt.
+
+"Was brauchen wir noch für den Kuchen?", fragt Anna.
+
+"Wir brauchen Eier: Wir haben **keine** Eier **mehr**.", antwortet Jochen.
+
+"Gut. Und was ist mit Mehl? Brauchen wir Mehl?"
+
+"Nein, wir haben **noch** Mehl. Aber wir brauchen Butter: Wir haben **keine** Butter **mehr**."
+
+"In Ordnung. Brauchen wir Zucker?"
+
+"Nein, wir haben **noch** Zucker."
+
+{{< notice "Hinweis" "Nullartikel" >}}
+
+Für eine unbestimmte Menge benutzt man den Nullartikel.
+Das heißt, du benutzt keinen Artikel, wenn du nicht weißt, wie viel.
+
+Zum Beispiel:
+
+- Wir brauchen Brot.
+- Wir brauchen Kartoffeln.
+
+{{< /notice >}}
+
+- [x] "noch" =/= "kein ... mehr" Grammatik Lektion 3
+- [ ] Rezept verstehen und selbst ein Rezept notieren Übungsbuchteil Lektion 8: p. 138 4., auch 5.
+
+## Welche Lebensmittel gibt es in deinem Supermarkt?
+
+Was kannst du in deinem Supermarkt kaufen? Gehe zum Supermarkt und mache eine Liste.
+
+Wie heißen die Dinge auf Deutsch?
+
+TODOLATER image recognition
+
+## Was brauchen wir für ...? #quiz
+
+{{<quiz "multiple choice">}}
+
+Welche Lebensmittel brauchst du für einen Kuchen?
+
+Für einen Kuchen brauche ich ...
+
+- [x] Butter
+- [x] Mehl
+- [x] Zucker
+- [x] Eier
+- [ ] Erbsen
+- [ ] Rindfleisch
+- [ ] Würste
+
+Welche Lebensmittel brauchst du für einen Obstsalat?
+
+Für einen Obstsalat brauche ich...
+
+- [x] Äpfel
+- [x] Birnen
+- [x] Bananen
+- [x] Orangen
+- [ ] Karottten
+- [ ] Schokolade
+- [ ] Brot
+- [ ] Zwiebeln
+
+Was brauchst du für einen Gemüsesalat?
+
+- [x] Tomaten
+- [x] Karotten
+- [x] Gurken
+- [x] Öl
+- [x] Salz
+- [ ] Milch
+- [ ] Schokolade
+- [ ] Marmelade
+
+Unsere Gäste möchten viel trinken. Welche der folgenden Lebensmittel sind Getränke?
+
+- [x] Milch
+- [x] Orangensaft
+- [x] Bier
+- [x] Wein
+- [x] Wasser
+- [ ] Würste
+- [ ] Brot
+- [ ] Gurken
+
+{{</quiz>}}
+
+
+
+
+## Lass uns aktuelle Prospekte analysisieren!  #coaching
+
+ALDI_unsere_Angebote_ab_Montag_02_12_2019.pdf
+ALDI_unsere_Angebote_ab_Montag_09_12_2019.pdf
+Aktionsprospekt-09.12.2019-–-14.12.2019-02.pdf
+Aktionsprospekt-02.12.2019-–-07.12.2019-04.pdf
+
+https://www.aldi-nord.de/magazine.html
+
+https://www.aldi-sued.de/de/angebote/aktuelle-prospekte/
+
+https://www.lidl.de/de/online-prospekt/
+
+## Wie viel brauchen wir?
+
+TODOLATER p. 95 3a
+- [x] Wiederholung: W-Fragen mit Wie viel?, Wie viele? Grammatik Lektion 3
+
+## Wie viel kostet es? #meta
+
+TODOLATER p. 96: wie man Preise angibt
+
+- [ ] Preise verstehen und sagen Kursbuch Lektion 3
+
+## Wie viel kostet es? #coaching
+
+TODOLATER quiz p. 96: wie man Preise angibt, Einkaufsgespräche
+
+## Ein Verkaufsgepräch  #coaching
+
+TODO quiz
+- [ ] Einkaufsgespräche spielen Übungsbuchteil Lektion 3 TODOLATER
+
+## Der Einkaufszettel
+
+TODOLATER quiz
+
+Was braucht sie alles?
+
+[images with name of produkt to lean vocab, then write Einkaufszettel]
+
+- [ ] Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungen verstehen Kursbuch Lektion 3 TODOLATER
+- [ ] Einkaufszettel schreiben Kursbuch Lektion 3 TODOLATER
+
+
+## Im Laden #immersion
+
+Heute geht Anna einkaufen. Sie fragt Jochen: "Ich gehe einkaufen. Soll ich dir was mitbringen? Vielleicht etwas Obst?"
+
+"Ja, bitte bringe mir etwas Obst mit. Ich möchte nicht wieder krank werden."
+
+"In Ordnung.", sagt Anna, "Bis später. Ich liebe dich." "Ich dich auch."
+
+Vor dem Laden sind Schilder: "Wir haben die besten Preise! Heute im Angebot: Hähnchen für 3 €, Kuchen für 2,50 €, zehn Eier für nur 1€! Billiger geht es nicht!"
+
+Anna geht in das Geschäft.
+
+TODONOW
+- [ ] Lebensmittel und Getränke Übungsbuchteil Lektion 3
+- [ ] Mengenangaben und Verpackungen Übungsbuchteil Lektion 3
+
+- [x] Bezeichnungen für Lebensmittel, Mengenangaben und Verpackungen verstehen Kursbuch Lektion 3 #2
+
+## Beim Metzger
+
+TODOLATER
+
+- [x] Verkaufsgepräch an der Käsetheke vestehen und nachspielen Kursbuch Lektion 3 (oder andere)
+
+## An der Kasse #immersion
+
+Anna ist fertig, jetzt muss sie nur noch an der Kasse bezahlen.
+
+An der Kasse sieht sie Zigaretten. Anna schüttelt den Kopf. Zigaretten machen einen nur krank.
+
+"Guten Tag!", sagt die Kassiererin.
+
+"Guten Tag.", sagt Anna.
+
+"25,81 €, bitte."
+
+"Kann ich mit meiner Kreditkarte bezahlen?"
+
+"Ja, natürlich. Sie können mit Karte bezahlen."
+
+"In Ordnung. Fertig."
+
+"Vielen Dank. Auf Wiedersehen!"
+
+"Auf Wiedersehen."
+
+
+# Die Welt der Zukunft
+
+## Lukas wird älter
+
+Lukas ist älter geworden und ist jetzt ein Jugendlicher.
+
+Er schwimmt immer noch gerne. Schwimmen ist sein Hobby.
+
+Lukas hat noch viele weitere Hobbys. In seiner Freizeit trifft er sich gerne mit seinen Freunden.
+
+Immer, wenn es etwas zu feiern gibt, macht jemand eine Party.
+
+Es gibt dann viele Getränke, Kuchen und gute Musik. Lukas lernt so viele Leute kennen. Ihm gefallen die Gespräche mit seinen Freunden und neuen Bekannten.
+
+Manchmal geht Lukas in die Disco. Er liebt es, in der Disco zu tanzen.
+
+## Lukas Freund plant eine Party
+
+TODO p. 70, p. 137 2.
+
+## Lukas plant eine Party #coaching
+
+- [ ] eine Party planen Projekt 8
+
+## Auf der Party
+
+TODO p. 71 3., p. 137 3.
+
+
+## Lukas denkt zurück
+
+- [ ] über Vergangenes sprechen und schreiben Übungsbuchteil Lektion 5
+
+## Lukas sucht eine Wohnung in Berlin
+
+TODOLATER
+für das Studium muss Lukas nach Berlin umziehen
+- [ ] Informationen über ein Zimmer, eine Wohnung verstehen und weitergeben Kursbuch Lektion 5
+
+## Hilf Lukas bei der Wohnungssuche! #coaching
+
+TODO
+
+- wir recherchieren gemeinsam die Wohnung im Internet mit echten Anzeigen
+  - Budget: < 500€
+
+
+## Lukas' Umzug
+
+TODO
+
+Lukas ist nun ein Student. Für das Studium zieht er nach Berlin.
+
+TODO Lukas zieht nach Berlin für sein Studium
+
+## Wie heißen die Möbel?
+
+TODO quiz
+
+Bilder und Namen der Möbel zuordnen
+- das Bett, -en _ Wir brauchen noch ein Kinderbett.
+- der Schrank, -ä, e _ Die Gläser stehen im Schrank.
+- Kleiderschrank
+- Regal
+- Kommode
+- das Sofa _ Das Sofa ist neu.
+- der Tisch, -e _ Die Fotos liegen auf dem Tisch.
+- Schreibtisch
+- *Stuhl
+- das Sofa _ Das Sofa ist neu.
+- Lampe
+
+## Neue Möbel gesucht
+
+TODOLATER
+Vokabeln: umziehen, Umzug
+- [ ] Möbelanzeigen verstehen Kursbuch Lektion 5
+- [ ] Redemittel zum Thema "Möbelkauf" Übungsbuchteil Lektion 5
+
+## Es soll nicht viel kosten... #coaching
+
+TODO IKEA-Prospekt, ebay Kleinanzeigen
+
+- [ ] Zimmer mit 200 Euro einrichten Projekt 5
+
+## Möbelkauf vom Privatverkäufer
+
+- [ ] telefonisch einen Möbelkauf verabreden Kursbuch Lektion 5 -> **ebay Kleinanzeigen**
+
+## Lukas erzählt seinen Eltern von seinem neuen Zimmer
+
+TODO
+- [ ] Wohnung und Zimmer Übungsbuchteil Lektion 5
+- [ ] sein Zimmer schriftlich und mündlich beschreiben Kursbuch Lektion 5
+- [ ] Möbel und Materialien Übungsbuchteil Lektion 5
+
+## Der Grundriss von Lukas' Wohnung
+
+TODO quiz
+
+Wörter im Bild zuordnen
+- Küche/Badezimmer/...
+- mein Zimmer
+- das Zimmer von Mitbewohner 1/2/3
+- Eingang
+- Flur
+- Balkon
+
+## Wie wohnst du? #coaching
+
+from page 46.
+- Wo wohnst du?
+- Wie wohnst du? (z.b. )
+- Wie ist dein Zimmer?
+- Welche Möbel hast du?
+
+
+
+
+## So viele Hobbys!
+
+TODO quiz
+
+TODOLATER Welches Bild passt zu welchem Hobby?
+
+
+## Lukas ist neu in der Stadt
+
+TODO
+
+Lukas ist nun ein Student. Für das Studium ist er nach Berlin gezogen.
+
+Er möchte überlegen, was er in seiner Freizeit macht.
+
+TODOLATER echte Freizeitangebote wie p. 36
+- [ ] Freizeitanzeigen verstehen Kursbuch Lektion 4
+
+## Lukas probiert andere Sportarten
+
+- [ ] sich über Sportangebote informieren Kursbuch Lektion 4
+- [ ] Flyer über Sportangebote verstehen Kursbuch Lektion 4
+
+
+
+## Was sind deine Hobbys? #coaching
+
+TODO **important** topic judging from the number of activities and potential for test material
+
+- [ ] Anzeigen über Freizeitangebote verstehen und antworten Übungsbuchteil Lektion 4
+- [ ] über Freizeit, Hobbys und Sportarten sprechen Kursbuch Lektion 4
+
+## Errate die Hobbies deiner Mitschüler! #coaching
+
+- [ ] Hobbys raten Projekt 4
+
+## Gut Sport!
+
+TODOLATER p. 38 -> habe trainiert, habe geschafft
+
+Lukas hat sich entsschieden, für
+
+- [x] Zeitungsartikel über Halbmarathon verstehen Kursbuch Lektion 4: Schwimm-Wettbewerb? #2
+
+## Lukas möchte neue Freunde treffen
+
+- [ ] Anzeigen für Freizeitpartner schreiben bzw. darauf antworten Kursbuch Lektion 4
+
+## Lukas trifft sich mit seinen Freunden
+
+TODO
+
+- [ ] Verabredungen verstehen Kursbuch Lektion 2
+- [ ] Zusagen, Absagen verstehen Kursbuch Lektion 8
+
+
+## Lukas studiert
+
+Am Ende seiner Zeit in der Schule hat Lukas eine große Prüfung, das Abitur.
+Das Abitur ist nicht einfach, aber Lukas bekommt eine gute Note.
+
+Lukas ist nun Student an einer Universität. Er hat sich entschieden, Medizin zu studieren und Arzt zu werden.
+
+Das Studium ist sehr schwer. Lukas lernt sehr viel über den menschlichen Körper.
+
+TODO quiz body parts
+
+## Lukas' Studentenjob Job
+
+TODO see 1-formal-greeting/index.de.md -> Lukas muss sich Fremden Personen vorstellen -> Nebenjob
+Lektion 1
+
+
+
+## Lukas trifft eine junge Frau #immersion #quiz
+
+Eines Tages trifft Lukas auf einer Party eine junge Frau in seinem Alter. Sie heißt Sophia.
+
+Lukas und Sophia haben ein schönes Gespräch auf der Party. Am Ende gibt Sophia ihm ihre Telefonnummer:
+
+"Vielleicht können wir später etwas gemeinsam machen. Dies ist meine Handynummer: plus vier neun eins fünf eins fünf sieben fünf vier neun zwei zwei. Rufe mich ruhig an!"
+
+Am nächsten Tag möchte Lukas mit ihr telefonieren. Er steht vor dem Telefon. Er ist nervös, aber das ist normal.
+Er ruft sie an.
+
+"Hallo?" "Hallo, Sophia. Hier ist Lukas von der Party!"
+
+"Oh, hallo Lukas! Wie geht es dir?" "Gut, gut. Ich wollte fragen... Möchtest du mit mir in ein Café gehen?"
+
+"In ein Café? Ja, gerne!" "Ah, toll. Super. Das Café ist in der Kreuzstraße 1, kennst du es?"
+
+"Ah, das ist in der Nähe der Schuhstraße, nicht wahr?" "Ja, das ist richtig. Wie wäre es mit morgen um 3 Uhr?"
+
+"Ja, das geht." "Okay, gut. Auf Wiederhören!" "Äh, tschüss."
+
+Oje! Hat er gerade das Gespräch mit "auf Wiederhören" beended? So formell! Er war einfach so nervös...
+
+Lukas hofft, dass das Treffen besser läuft.
+
+{{<quiz "fill in|telephone number">}}
+
+Lukas hat die Telefonnummer verloren! Kannst du ihm helfen? Wie lautet Sophias Nummer?
+
+[+49 151 5754 922]
+
+{{</quiz>}}
+
+
+
+## Schöne Kleidung für das Date
+
+TODO
+
+- [ ] Bezeichnungen für Kleidungsstücke und Farben verstehen Kursbuch Lektion 6
+- [ ] Kleider, Materialien und Farben Übungsbuchteil Lektion 6
+- [ ] Webseiten zum Thema "Waschsalon" verstehen und mit Waschsalongs zu Hause vergleichen Kursbuch Lektion 6 TODOLATER
+- [ ] Ereignisse im Waschsalon nachverfolgen und in E-Mail beschreiben Kursbuch Lektion 6 TODOLATER
+
+## Welche Kleidung tragen sie?
+
+TODO quiz
+
+- [ ] Kleidungsstücke erraten Projekt 6
+
+
+## Lukas trifft sich mit Sophia
+
+Am nächsten Tag geht Lukas zu dem kleinen Lokal in der Kreuzstraße.
+
+Er ist zu früh, weil er auf keinen Fall zu spät kommen wollte.
+
+Dann kommt sie. Lukas freut sich sehr, sie zu sehen. Sie lernen sich näher kennen.
+
+"Ich bin in einem kleinen Dorf in Hessen aufgewachsen.", sagt Sophia. "Ich bin also ein 'Dorfkind'."
+
+"Faszinierend", sagt Lukas, "ich habe immer in der Stadt gewohnt. Wie ist das Leben auf dem Dorf?"
+
+"Es ist sehr ruhig.", sagt Sophia. "Hier in der Stadt ist es sehr laut. Es gibt viele Autos auf den Straßen, auch Taxis und Lkws. Die Fahrer sind sehr unruhig und hupen häufig. Aber es ist aber in Ordnung. Ich lebe jetzt gerne in der Stadt."
+
+"Warum bist du hierher gekommen?", fragt Lukas. "Ich habe ein Praktikum bei einer Firma bekommen.", antwortet Sophia.
+
+"Jetzt habe ich die Chance, mein Hobby zum Beruf zu machen: Ich liebe es zu programmieren und jetzt habe ich eine Chance auf einen Job."
+
+Und so geht es weiter. Die beiden scheinen sich gut zu verstehen. Wir lassen sie jetzt lieber allein.
+
+## Sophia und Lukas sprechen über ihre Freizeitaktivitäten
+
+
+- [ ] über Freizeit, Hobbys und Sportarten sprechen Kursbuch Lektion 4 #2
+- [ ] Vorlieben und Abneigungen audrücken Kursbuch Lektion 4
+
+## Was mag ich? Was mag ich nicht?
+
+TODO quiz
+
+## Sophia auf der Arbeit
+
+Wer ist diese Sophia? Nun, lass uns einen Blick in ihr Leben werfen, genauer gesagt ihren Arbeitsplatz.
+
+Sophia hat eine Stelle als Programmiererin in einer Firma bekommen. Heute hat sie einen anderen Jobs, denn gleich am Morgen sagt ihr Chef zu ihr:
+
+"Hey, Sophia! Ich habe ein Problem, kannst du mir bitte helfen?", sagt ihr Chef. "Ja, was ist das Problem?"
+
+"Mein Computer ist kaputt. Die Garantie ist nicht mehr gültig. Kannst du ihn reparieren?" "Ich werde es versuchen. Kein Problem. "
+
+Sophia ist Programmiererin, aber sie weiß auch viel über Computer im Allgemeinen. In zwei Stunden ist die Reparatur fertig.
+
+"Der Computer ist nicht mehr kaputt, er funktioniert wieder.", sagt Sophia zu ihrem Chef. "Wow, vielen Dank!", freut sich ihr Chef.
+
+Sophia macht eine Pause am Kaffeeautomaten. Sie führt ein kurzes Gespräch mit einem Angestellten:
+
+"Dein Gesicht ist mir fremd. Bist du die neue Kollegin?", fragt er. "Ich bin die neue Praktikantin." "Ach so."
+
+"Ich mache mir gerade einen Kaffee. Möchtest du auch einen Kaffee?", fragt ihr Kollege. "Ja, bitte." "Mit Zucker und Milch?" "Mit Milch bitte, aber ohne Zucker."
+
+Nach einer Minute sagt der Kollege: "Bitteschön, eine Tasse Kaffe mit Milch und ohne Zucker."
+
+Sophia bedankt sich: "Der Kaffee riecht gut, danke!"
+
+Sophia geht zurück zur Arbeit.
+
+Gegen sechs Uhr (6 Uhr) abends ist Schluss. Es ist Feierabend und Sophia geht nach Hause.
+
+
+## Sophia und Lukas planen ein weiteres Treffen
+
+TODO p. 67 4.
+- [ ] Vorschläge verstehen und machen Kursbuch Lektion 6 -> nicht Kino, sondern etwas besseres und intimeres: gemeinsam kochen. später: Theater (siehe auch: Noch mehr Freizeitangebote)
+vokabel: selbständig
+- [ ] Vorschläge mit "wir" Grammatik Lektion 6
+- [ ] Voschläge mit "Sollen/Wollen wir ...?", "Soll ich ...? Grammatik Lektion 6
+
+
+## Wie findest du diesen Vorschlag?
+
+TODO quiz
+
+- [ ] Vorschläge machen und zusagen oder absagen Übungsbuchteil Lektion 8
+- [ ] Vorschläge machen und zustimmen oder ablehnen Kursbuch Lektion 8
+
+## Lukas und Sophia kochen
+
+TODO
+
+"Frauen mögen einen Mann, der kocht.", denkt Lukas.
+
+TODO
+- [ ] schriftliche Anleitungen verstehen und formulieren Kursbuch Lektion 6 -> Waschanleitung, Kochanleitung
+
+## Lukas stellt Sophia seinen Eltern vor
+
+TODOLATER
+- [x] sich und andere vorstellen: formell/informell Kursbuch Lektion 1 #2
+- [ ] "ein Paar" und "ein paar" Übungsbuchteil Lektion 6 -> 118 5.
+
+## Sophia und Lukas planen ihre Hochzeit
+
+TODO p. 67 5.
+- [ ] Telefongespräch über Tischreservierung im Restaurant verstehen und Informationen weiterleiten Kursbuch Lektion 8
+- [ ] einen Tisch reservieren Übungsbuchteil Lektion 8
+
+## Was haben sie gesagt?
+
+TODO
+
+gehe zurück und höre aufmerksam zu
+TODO siehe oben: bitte hilf der Kellnerin, die Information weiterzuleiten
+- [ ] persönliche Angaben notieren und darüber sprechen Kursbuch Lektion 8
+
+## Lukas und Sophia brauchen Hilfe
+
+- [ ] andere um etwas bitten und auf Bitten reagieren Kursbuch Lektion 8
+
+## Die Hochzeit von Sophia und Lukas
+
+Sophia und Lukas sind sehr glücklich miteinander. Sie möchten heiraten. Sie geben ihre Hochzeit durch eine Anzeige in der örtlichen Zeitung bekannt.
+
+<blockquote>
+
+#### Anzeige: Wir werden heiraten!
+
+Am 5. Mai heiraten Sophia und Lukas Schmidt in der Stadtkirche von Neu-Hamburg.
+Alle, die diese Anzeige sehen, sind herzlich eingeladen!
+
+</blockquote>
+
+TODO
+
+## Du bist auch eingeladen!
+
+- [ ] als Eingeladener/Eingeladene passend reagieren Übungsbuchteil Lektion 7
+- [ ] schriftlich eine Zusage formulieren Übungsbuchteil Lektion 8
+
+# Die Zukunft planen
+
+
+## Viele Termine! #quiz
+
+Höre dir das Gespräch an.
+
+- "Guten Morgen, Herr Schulz."
+- "Guten Tag, Frau Maier. Wie geht es Ihnen?"
+- "Danke, gut. Wie geht es Ihnen?"
+- "Mir geht es wunderbar. Was sind meine Termine diese Woche?"
+- "Sie haben viele Termine. Hier ist ihr Terminkalender."
+- "Danke. Ich habe viele Termine, das ist richtig."
+- "Heute Abend haben Sie ein Geschäftsessen."
+- "Wo ist das?"
+- "Es ist im Restaurant *Die Gute Stube*."
+- "Wann ist das?"
+- "Es ist um 18 Uhr."
+- "Wen treffe ich im Restaurant?"
+- "Sie treffen sich mit Herrn Müller. Das Thema ist die Zusammenarbeit mit seiner Firma."
+- "Gut. Morgen ist mein Flug nach Berlin, richtig?"
+- "Ja, das ist richtig. Sie fliegen um 14:15 Uhr ab. Am Mittwoch treffen Sie sich um 12:30 Uhr mit Herrn Schneider in Berlin. Am Donnerstag Abend kommen sie zurück."
+- "Wann genau komme ich an?"
+- "Sie kommen um 18:45 Uhr an."
+- "In Ordnung. Was ist am Freitag?"
+- "Am Freitag ist frei. Es ist ein Feiertag. Wir haben diese Woche ein langes Wochenende."
+- "Alles klar. Vielen Dank, Frau Maier."
+
+{{<quiz "select">}}
+Wer ist Herr Schulz? Herr Schulz ist der [Chef|false:Kollege|Sekretär] von Frau Maier.
+
+Mit wem spricht Herr Schulz? Er spricht mit Frau Meier, seiner [Sekretärin|false:Kollegin|Kollegin].
+
+{{</quiz>}}
+
+{{<quiz "multiple choice">}}
+Welche Uhrzeiten hörst du?
+
+- 8:00 Uhr
+- 12:00 Uhr
+- true:12:30 Uhr
+- true:14:15 Uhr
+- true:18:00 Uhr
+- 16:15 Uhr
+- 18:30 Uhr
+- true:18:45 Uhr
+
+{{</quiz>}}
+
+- [x] über Termine sprechen Kursbuch Lektion 2
+
+## Was sind deine Termine? #quiz
+
+Schaue in deinen Terminkalender.
+
+Schreibe deine Termine nach diesem Muster auf:
+
+Am [Wochentag] um [Uhrzeit] werde ich [Aktivität].
+
+Zum Beispiel: Am Mittwoch um 13 Uhr werde ich mit meinen Kollegen Mittag essen.
+
+
+
+## Wann ist unser nächster Termin? Was sind die Termine deiner Mitschüler? #coaching
+
+- Bespreche mit den Schülern, wann der nächste Termin ist.
+- Ein Schüler teilt seine Termine mit den anderen.
+
+- [x] Fragen zu Terminen stellen und beantworten Übungsbuchteil Lektion 2
+
+- [x] Termine für Kursaktivität organisieren Projekt 2
+
+## Kommst du zur Hochzeit?
+
+- [ ] Einladung in Mail wiederholen Übungsbuchteil Lektion 6
+- [ ] Antwortmail auf Einladung schreiben Übungsbuchteil Lektion 6
+
+## Ein Termin beim Fotographen #immersion #quiz
+
+Die Familie Schmidt braucht neue Fotos.
+
+Jochens Pass ist nicht mehr gültig, also braucht er ein neues Passfoto. Er möchte auch neue Bilder von seinen Kindern und seiner Familie, um sie auf seinen Schreibtisch auf der Arbeit zu stellen.
+
+Ein Freund von Jochen, Anton, war Leherer. Er liebte die Arbeit mit den Kindern, wollte aber kein Beamter sein. Also hat sich als Fotograph selbstständig gemacht. Er macht seinen Job sehr gut, weil er gut mit Kindern sprechen kann.
+
+Die Familie hat am Nachmittag einen Termin beim Fotographen.
+
+"Hallo Jochen!", sagt Anton. "Was kann ich heute für dich tun?" "Wir möchten gerne ein Familienfoto machen. Ich brauche auch ein Passfoto. Kannst du auch ein paar Einzelfotos von den Kindern machen?", fragt Jochen.
+
+"Kein Problem!", antwortet Anton. "Wann möchtest du vorbeikommen?"
+
+"Ist morgen um ein Uhr in Ordnung?", fragt Jochen.
+
+"Nein, leider nicht. Da habe ich schon einen Termin.", antwortet Anton. "Geht es um drei?"
+
+"Ja, um drei ist in Ordnung." "Okay, bis dann."
+
+{{<quiz "drag drop">}}
+
+
+"Ich habe einen Termin beim Fotografen für uns gemacht.", sagt Jochen zu Anna.
+
+"Sehr gut.", sagt Anna.
+
+- Anna: "An welchem Tag ist der Termin? Ist der Termin [nächste Woche]?"
+- Jochen: "Nein, der Termin ist [morgen]?"
+- Anna: "Ist der Termin [um ein Uhr]?"
+- Jochen: "Nein, der Termin ist [um drei Uhr]."
+
+{{</quiz>}}
+
+
+TODO improve/add
+
+- [x] Fragen zu Terminen stellen und beantworten Übungsbuchteil Lektion 2
+
+## Ein neuer Pass für Jochen #immersion
+
+TODOLATER quiz
+
+// Jochen geht zum Bürgeramt, um einen neuen Pass zu bekommen.
+
+//Er geht zur Rezeption sagt: "Guten Tag, mein Pass ist nicht mehr gültig. Ich brauche einen neuen."
+
+// Die Frau an der Rezeption sagt: "In Ordnung.
+
+# Schluss
+
+## Du hast es geschafft! #meta #mindset
+
+Du hast es geschafft! Ich gratuliere dir ganz herzlich.
+
+Wie gesagt, jetzt kannst du auch die anderen Kurse machen, die dir hier zu Verfügung stehen oder du kannst den ganzen Kurs noch einmal hören -- Wiederholung ist der Schlüssel zum Erfolg!
+
+Aber am Wichtigsten ist, dass du deinen Erfolg jetzt feierst. Mensch, du hast den ganzen Kurs gelesen und gehörst. Ich denke, es ist ein Grund zum Feiern!
+
+Du kannst dir selbst auf die Schulter klopfen für diesen Erfolg. Du bist der Beste!
